@@ -1,0 +1,3872 @@
+[
+ {
+  "program_id": "PR0000",
+  "institution": "Fairfax Institute of Technology",
+  "program": "MSc IT Management",
+  "fields": [
+   "business_information_systems",
+   "it_management"
+  ],
+  "city": "Munich",
+  "country": "Germany",
+  "region": "europe",
+  "tier": "elite",
+  "annual_tuition_usd": 950,
+  "min_grade_pct": 80,
+  "requires_cs_background": false,
+  "english_requirement": true,
+  "placement_rate_pct": 91,
+  "median_starting_salary_usd": 56198,
+  "post_study_work_visa_months": 18
+ },
+ {
+  "program_id": "PR0001",
+  "institution": "Meridian University",
+  "program": "MSc Cloud Computing",
+  "fields": [
+   "networking_cloud",
+   "software_engineering"
+  ],
+  "city": "Eindhoven",
+  "country": "Netherlands",
+  "region": "europe",
+  "tier": "mid",
+  "annual_tuition_usd": 11850,
+  "min_grade_pct": 61,
+  "requires_cs_background": false,
+  "english_requirement": true,
+  "placement_rate_pct": 73,
+  "median_starting_salary_usd": 29303,
+  "post_study_work_visa_months": 12
+ },
+ {
+  "program_id": "PR0002",
+  "institution": "Charnock Technical University",
+  "program": "MSc IT Operations",
+  "fields": [
+   "it_support"
+  ],
+  "city": "Bengaluru",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "mid",
+  "annual_tuition_usd": 1700,
+  "min_grade_pct": 62,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 73,
+  "median_starting_salary_usd": 11419,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0003",
+  "institution": "Elmhurst Institute of Technology",
+  "program": "PG Diploma in Systems Administration",
+  "fields": [
+   "it_support"
+  ],
+  "city": "London",
+  "country": "UK",
+  "region": "europe",
+  "tier": "mid",
+  "annual_tuition_usd": 19850,
+  "min_grade_pct": 65,
+  "requires_cs_background": false,
+  "english_requirement": true,
+  "placement_rate_pct": 69,
+  "median_starting_salary_usd": 27257,
+  "post_study_work_visa_months": 24
+ },
+ {
+  "program_id": "PR0004",
+  "institution": "Braxton Technical University",
+  "program": "MSc Cloud Computing",
+  "fields": [
+   "networking_cloud",
+   "software_engineering"
+  ],
+  "city": "Vancouver",
+  "country": "Canada",
+  "region": "north_america",
+  "tier": "budget",
+  "annual_tuition_usd": 13250,
+  "min_grade_pct": 57,
+  "requires_cs_background": true,
+  "english_requirement": true,
+  "placement_rate_pct": 64,
+  "median_starting_salary_usd": 29688,
+  "post_study_work_visa_months": 36
+ },
+ {
+  "program_id": "PR0005",
+  "institution": "Bridgewater Technical University",
+  "program": "MTech Computer Networks",
+  "fields": [
+   "cybersecurity",
+   "networking_cloud"
+  ],
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "region": "europe",
+  "tier": "strong",
+  "annual_tuition_usd": 15000,
+  "min_grade_pct": 69,
+  "requires_cs_background": true,
+  "english_requirement": true,
+  "placement_rate_pct": 87,
+  "median_starting_salary_usd": 38586,
+  "post_study_work_visa_months": 12
+ },
+ {
+  "program_id": "PR0006",
+  "institution": "Westbrook School of Engineering",
+  "program": "PG Diploma in Systems Administration",
+  "fields": [
+   "it_support",
+   "qa_testing"
+  ],
+  "city": "Waterloo",
+  "country": "Canada",
+  "region": "north_america",
+  "tier": "mid",
+  "annual_tuition_usd": 20950,
+  "min_grade_pct": 61,
+  "requires_cs_background": false,
+  "english_requirement": true,
+  "placement_rate_pct": 73,
+  "median_starting_salary_usd": 35644,
+  "post_study_work_visa_months": 36
+ },
+ {
+  "program_id": "PR0007",
+  "institution": "Ashford Institute of Technology",
+  "program": "MSc Big Data Analytics",
+  "fields": [
+   "data_science_analytics"
+  ],
+  "city": "Pune",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "strong",
+  "annual_tuition_usd": 2350,
+  "min_grade_pct": 70,
+  "requires_cs_background": true,
+  "english_requirement": false,
+  "placement_rate_pct": 86,
+  "median_starting_salary_usd": 12541,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0008",
+  "institution": "Meridian Institute of Technology",
+  "program": "MCA",
+  "fields": [
+   "qa_testing",
+   "software_engineering"
+  ],
+  "city": "Kolkata",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "budget",
+  "annual_tuition_usd": 400,
+  "min_grade_pct": 53,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 64,
+  "median_starting_salary_usd": 7035,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0009",
+  "institution": "Cavendish Technical University",
+  "program": "MSc Data Science",
+  "fields": [
+   "data_science_analytics"
+  ],
+  "city": "Eindhoven",
+  "country": "Netherlands",
+  "region": "europe",
+  "tier": "budget",
+  "annual_tuition_usd": 10450,
+  "min_grade_pct": 53,
+  "requires_cs_background": true,
+  "english_requirement": true,
+  "placement_rate_pct": 60,
+  "median_starting_salary_usd": 22551,
+  "post_study_work_visa_months": 12
+ },
+ {
+  "program_id": "PR0010",
+  "institution": "Sarayu Institute of Technology",
+  "program": "MSc Information Systems",
+  "fields": [
+   "business_information_systems"
+  ],
+  "city": "Boston",
+  "country": "USA",
+  "region": "north_america",
+  "tier": "budget",
+  "annual_tuition_usd": 14600,
+  "min_grade_pct": 54,
+  "requires_cs_background": false,
+  "english_requirement": true,
+  "placement_rate_pct": 71,
+  "median_starting_salary_usd": 45354,
+  "post_study_work_visa_months": 12
+ },
+ {
+  "program_id": "PR0011",
+  "institution": "Ashford Institute of Applied Sciences",
+  "program": "MTech Cyber Security",
+  "fields": [
+   "cybersecurity"
+  ],
+  "city": "Waterloo",
+  "country": "Canada",
+  "region": "north_america",
+  "tier": "budget",
+  "annual_tuition_usd": 10850,
+  "min_grade_pct": 55,
+  "requires_cs_background": false,
+  "english_requirement": true,
+  "placement_rate_pct": 60,
+  "median_starting_salary_usd": 23323,
+  "post_study_work_visa_months": 36
+ },
+ {
+  "program_id": "PR0012",
+  "institution": "Elmhurst University",
+  "program": "MCA",
+  "fields": [
+   "software_engineering"
+  ],
+  "city": "Kolkata",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "strong",
+  "annual_tuition_usd": 1500,
+  "min_grade_pct": 73,
+  "requires_cs_background": true,
+  "english_requirement": false,
+  "placement_rate_pct": 79,
+  "median_starting_salary_usd": 13468,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0013",
+  "institution": "Meridian Institute of Technology",
+  "program": "MSc Human-Computer Interaction",
+  "fields": [
+   "design_hci"
+  ],
+  "city": "Bengaluru",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "mid",
+  "annual_tuition_usd": 900,
+  "min_grade_pct": 59,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 77,
+  "median_starting_salary_usd": 9186,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0014",
+  "institution": "Fairfax Institute of Applied Sciences",
+  "program": "MDes Interaction Design",
+  "fields": [
+   "design_hci"
+  ],
+  "city": "Coimbatore",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "mid",
+  "annual_tuition_usd": 1900,
+  "min_grade_pct": 59,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 74,
+  "median_starting_salary_usd": 9721,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0015",
+  "institution": "Keystone Institute of Technology",
+  "program": "MSc Information Systems",
+  "fields": [
+   "business_information_systems"
+  ],
+  "city": "Bengaluru",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "mid",
+  "annual_tuition_usd": 1200,
+  "min_grade_pct": 61,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 78,
+  "median_starting_salary_usd": 9707,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0016",
+  "institution": "Halcyon Institute of Technology",
+  "program": "MSc Cloud Computing",
+  "fields": [
+   "networking_cloud",
+   "software_engineering"
+  ],
+  "city": "Coimbatore",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "mid",
+  "annual_tuition_usd": 2400,
+  "min_grade_pct": 64,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 76,
+  "median_starting_salary_usd": 8793,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0017",
+  "institution": "Westbrook Institute of Technology",
+  "program": "MSc Software Quality Engineering",
+  "fields": [
+   "qa_testing"
+  ],
+  "city": "Waterloo",
+  "country": "Canada",
+  "region": "north_america",
+  "tier": "strong",
+  "annual_tuition_usd": 29100,
+  "min_grade_pct": 72,
+  "requires_cs_background": false,
+  "english_requirement": true,
+  "placement_rate_pct": 76,
+  "median_starting_salary_usd": 47220,
+  "post_study_work_visa_months": 36
+ },
+ {
+  "program_id": "PR0018",
+  "institution": "Sarayu University",
+  "program": "MSc Software Engineering",
+  "fields": [
+   "software_engineering"
+  ],
+  "city": "Glasgow",
+  "country": "UK",
+  "region": "europe",
+  "tier": "strong",
+  "annual_tuition_usd": 25450,
+  "min_grade_pct": 73,
+  "requires_cs_background": true,
+  "english_requirement": true,
+  "placement_rate_pct": 80,
+  "median_starting_salary_usd": 37264,
+  "post_study_work_visa_months": 24
+ },
+ {
+  "program_id": "PR0019",
+  "institution": "Ashford University",
+  "program": "MSc Software Engineering",
+  "fields": [
+   "qa_testing",
+   "software_engineering"
+  ],
+  "city": "Pune",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "mid",
+  "annual_tuition_usd": 1450,
+  "min_grade_pct": 64,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 84,
+  "median_starting_salary_usd": 10285,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0020",
+  "institution": "Stanmore Institute of Applied Sciences",
+  "program": "MBA Business Analytics",
+  "fields": [
+   "business_information_systems"
+  ],
+  "city": "Delhi",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "mid",
+  "annual_tuition_usd": 1450,
+  "min_grade_pct": 60,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 76,
+  "median_starting_salary_usd": 10648,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0021",
+  "institution": "Ashford Institute of Technology",
+  "program": "MSc IT Operations",
+  "fields": [
+   "it_support"
+  ],
+  "city": "Dresden",
+  "country": "Germany",
+  "region": "europe",
+  "tier": "strong",
+  "annual_tuition_usd": 450,
+  "min_grade_pct": 73,
+  "requires_cs_background": false,
+  "english_requirement": true,
+  "placement_rate_pct": 82,
+  "median_starting_salary_usd": 46428,
+  "post_study_work_visa_months": 18
+ },
+ {
+  "program_id": "PR0022",
+  "institution": "Halcyon Technical University",
+  "program": "MSc IT Operations",
+  "fields": [
+   "it_support"
+  ],
+  "city": "Kolkata",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "strong",
+  "annual_tuition_usd": 3050,
+  "min_grade_pct": 73,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 88,
+  "median_starting_salary_usd": 14854,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0023",
+  "institution": "Silverline Technical University",
+  "program": "MTech Cyber Security",
+  "fields": [
+   "cybersecurity"
+  ],
+  "city": "Pune",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "budget",
+  "annual_tuition_usd": 650,
+  "min_grade_pct": 57,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 70,
+  "median_starting_salary_usd": 8376,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0024",
+  "institution": "Vantage Institute of Technology",
+  "program": "MSc IT Management",
+  "fields": [
+   "it_management"
+  ],
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "region": "europe",
+  "tier": "strong",
+  "annual_tuition_usd": 16150,
+  "min_grade_pct": 71,
+  "requires_cs_background": false,
+  "english_requirement": true,
+  "placement_rate_pct": 79,
+  "median_starting_salary_usd": 36255,
+  "post_study_work_visa_months": 12
+ },
+ {
+  "program_id": "PR0025",
+  "institution": "Tejas Institute of Technology",
+  "program": "MSc Software Engineering",
+  "fields": [
+   "software_engineering"
+  ],
+  "city": "Pune",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "mid",
+  "annual_tuition_usd": 1700,
+  "min_grade_pct": 64,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 68,
+  "median_starting_salary_usd": 8725,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0026",
+  "institution": "Northgate Technical University",
+  "program": "MTech Data Engineering",
+  "fields": [
+   "data_science_analytics",
+   "software_engineering"
+  ],
+  "city": "Hyderabad",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "strong",
+  "annual_tuition_usd": 3900,
+  "min_grade_pct": 73,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 81,
+  "median_starting_salary_usd": 13385,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0027",
+  "institution": "Braxton School of Engineering",
+  "program": "MTech Data Engineering",
+  "fields": [
+   "data_science_analytics"
+  ],
+  "city": "Toronto",
+  "country": "Canada",
+  "region": "north_america",
+  "tier": "strong",
+  "annual_tuition_usd": 27600,
+  "min_grade_pct": 71,
+  "requires_cs_background": false,
+  "english_requirement": true,
+  "placement_rate_pct": 78,
+  "median_starting_salary_usd": 44286,
+  "post_study_work_visa_months": 36
+ },
+ {
+  "program_id": "PR0028",
+  "institution": "Northgate School of Engineering",
+  "program": "MTech Cyber Security",
+  "fields": [
+   "cybersecurity"
+  ],
+  "city": "Glasgow",
+  "country": "UK",
+  "region": "europe",
+  "tier": "strong",
+  "annual_tuition_usd": 20200,
+  "min_grade_pct": 75,
+  "requires_cs_background": false,
+  "english_requirement": true,
+  "placement_rate_pct": 86,
+  "median_starting_salary_usd": 34758,
+  "post_study_work_visa_months": 24
+ },
+ {
+  "program_id": "PR0029",
+  "institution": "Vantage Technical University",
+  "program": "MSc Information Security",
+  "fields": [
+   "cybersecurity"
+  ],
+  "city": "Mumbai",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "strong",
+  "annual_tuition_usd": 3800,
+  "min_grade_pct": 75,
+  "requires_cs_background": true,
+  "english_requirement": false,
+  "placement_rate_pct": 92,
+  "median_starting_salary_usd": 14753,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0030",
+  "institution": "Aldermount Technical University",
+  "program": "MSc IT Management",
+  "fields": [
+   "it_management",
+   "software_engineering"
+  ],
+  "city": "Pittsburgh",
+  "country": "USA",
+  "region": "north_america",
+  "tier": "strong",
+  "annual_tuition_usd": 35050,
+  "min_grade_pct": 73,
+  "requires_cs_background": false,
+  "english_requirement": true,
+  "placement_rate_pct": 80,
+  "median_starting_salary_usd": 74348,
+  "post_study_work_visa_months": 12
+ },
+ {
+  "program_id": "PR0031",
+  "institution": "Fairfax University",
+  "program": "MCA",
+  "fields": [
+   "software_engineering"
+  ],
+  "city": "Delft",
+  "country": "Netherlands",
+  "region": "europe",
+  "tier": "elite",
+  "annual_tuition_usd": 19100,
+  "min_grade_pct": 84,
+  "requires_cs_background": false,
+  "english_requirement": true,
+  "placement_rate_pct": 89,
+  "median_starting_salary_usd": 58763,
+  "post_study_work_visa_months": 12
+ },
+ {
+  "program_id": "PR0032",
+  "institution": "Longford School of Engineering",
+  "program": "MTech Computer Science",
+  "fields": [
+   "networking_cloud",
+   "software_engineering"
+  ],
+  "city": "Kolkata",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "budget",
+  "annual_tuition_usd": 1200,
+  "min_grade_pct": 55,
+  "requires_cs_background": true,
+  "english_requirement": false,
+  "placement_rate_pct": 61,
+  "median_starting_salary_usd": 7871,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0033",
+  "institution": "Quilon School of Engineering",
+  "program": "MBA Business Analytics",
+  "fields": [
+   "business_information_systems",
+   "data_science_analytics"
+  ],
+  "city": "Coimbatore",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "mid",
+  "annual_tuition_usd": 2100,
+  "min_grade_pct": 63,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 73,
+  "median_starting_salary_usd": 10526,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0034",
+  "institution": "Ashford University",
+  "program": "MSc Information Security",
+  "fields": [
+   "cybersecurity",
+   "software_engineering"
+  ],
+  "city": "Seattle",
+  "country": "USA",
+  "region": "north_america",
+  "tier": "mid",
+  "annual_tuition_usd": 29150,
+  "min_grade_pct": 60,
+  "requires_cs_background": false,
+  "english_requirement": true,
+  "placement_rate_pct": 74,
+  "median_starting_salary_usd": 47153,
+  "post_study_work_visa_months": 12
+ },
+ {
+  "program_id": "PR0035",
+  "institution": "Westbrook School of Engineering",
+  "program": "MDes Interaction Design",
+  "fields": [
+   "design_hci"
+  ],
+  "city": "Mumbai",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "budget",
+  "annual_tuition_usd": 1350,
+  "min_grade_pct": 57,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 66,
+  "median_starting_salary_usd": 6923,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0036",
+  "institution": "Northgate Institute of Applied Sciences",
+  "program": "MTech Computer Networks",
+  "fields": [
+   "networking_cloud",
+   "software_engineering"
+  ],
+  "city": "Waterloo",
+  "country": "Canada",
+  "region": "north_america",
+  "tier": "budget",
+  "annual_tuition_usd": 15650,
+  "min_grade_pct": 55,
+  "requires_cs_background": false,
+  "english_requirement": true,
+  "placement_rate_pct": 65,
+  "median_starting_salary_usd": 23362,
+  "post_study_work_visa_months": 36
+ },
+ {
+  "program_id": "PR0037",
+  "institution": "Tejas School of Engineering",
+  "program": "MCA",
+  "fields": [
+   "software_engineering"
+  ],
+  "city": "Berlin",
+  "country": "Germany",
+  "region": "europe",
+  "tier": "mid",
+  "annual_tuition_usd": 2650,
+  "min_grade_pct": 62,
+  "requires_cs_background": true,
+  "english_requirement": true,
+  "placement_rate_pct": 72,
+  "median_starting_salary_usd": 34339,
+  "post_study_work_visa_months": 18
+ },
+ {
+  "program_id": "PR0038",
+  "institution": "Halcyon Technical University",
+  "program": "MTech Computer Science",
+  "fields": [
+   "software_engineering"
+  ],
+  "city": "Dresden",
+  "country": "Germany",
+  "region": "europe",
+  "tier": "budget",
+  "annual_tuition_usd": 1200,
+  "min_grade_pct": 54,
+  "requires_cs_background": true,
+  "english_requirement": true,
+  "placement_rate_pct": 66,
+  "median_starting_salary_usd": 22356,
+  "post_study_work_visa_months": 18
+ },
+ {
+  "program_id": "PR0039",
+  "institution": "Longford Institute of Applied Sciences",
+  "program": "MSc Human-Computer Interaction",
+  "fields": [
+   "design_hci",
+   "software_engineering"
+  ],
+  "city": "Coimbatore",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "strong",
+  "annual_tuition_usd": 2250,
+  "min_grade_pct": 70,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 85,
+  "median_starting_salary_usd": 13646,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0040",
+  "institution": "Aravalli School of Engineering",
+  "program": "MBA Business Analytics",
+  "fields": [
+   "business_information_systems"
+  ],
+  "city": "Edinburgh",
+  "country": "UK",
+  "region": "europe",
+  "tier": "budget",
+  "annual_tuition_usd": 12650,
+  "min_grade_pct": 58,
+  "requires_cs_background": false,
+  "english_requirement": true,
+  "placement_rate_pct": 67,
+  "median_starting_salary_usd": 20982,
+  "post_study_work_visa_months": 24
+ },
+ {
+  "program_id": "PR0041",
+  "institution": "Vantage School of Engineering",
+  "program": "MSc Human-Computer Interaction",
+  "fields": [
+   "design_hci"
+  ],
+  "city": "Delft",
+  "country": "Netherlands",
+  "region": "europe",
+  "tier": "budget",
+  "annual_tuition_usd": 11850,
+  "min_grade_pct": 54,
+  "requires_cs_background": false,
+  "english_requirement": true,
+  "placement_rate_pct": 64,
+  "median_starting_salary_usd": 19320,
+  "post_study_work_visa_months": 12
+ },
+ {
+  "program_id": "PR0042",
+  "institution": "Aravalli Institute of Applied Sciences",
+  "program": "MSc Software Engineering",
+  "fields": [
+   "networking_cloud",
+   "software_engineering"
+  ],
+  "city": "Toronto",
+  "country": "Canada",
+  "region": "north_america",
+  "tier": "budget",
+  "annual_tuition_usd": 10800,
+  "min_grade_pct": 53,
+  "requires_cs_background": true,
+  "english_requirement": true,
+  "placement_rate_pct": 67,
+  "median_starting_salary_usd": 29138,
+  "post_study_work_visa_months": 36
+ },
+ {
+  "program_id": "PR0043",
+  "institution": "Vantage Institute of Technology",
+  "program": "MSc Cloud Computing",
+  "fields": [
+   "networking_cloud",
+   "software_engineering"
+  ],
+  "city": "Coimbatore",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "strong",
+  "annual_tuition_usd": 3950,
+  "min_grade_pct": 73,
+  "requires_cs_background": true,
+  "english_requirement": false,
+  "placement_rate_pct": 86,
+  "median_starting_salary_usd": 11981,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0044",
+  "institution": "Halcyon University",
+  "program": "MSc Information Systems",
+  "fields": [
+   "business_information_systems"
+  ],
+  "city": "Munich",
+  "country": "Germany",
+  "region": "europe",
+  "tier": "budget",
+  "annual_tuition_usd": 2350,
+  "min_grade_pct": 52,
+  "requires_cs_background": false,
+  "english_requirement": true,
+  "placement_rate_pct": 61,
+  "median_starting_salary_usd": 23809,
+  "post_study_work_visa_months": 18
+ },
+ {
+  "program_id": "PR0045",
+  "institution": "Braxton Technical University",
+  "program": "MSc Information Security",
+  "fields": [
+   "cybersecurity"
+  ],
+  "city": "Pune",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "mid",
+  "annual_tuition_usd": 1450,
+  "min_grade_pct": 61,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 71,
+  "median_starting_salary_usd": 10236,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0046",
+  "institution": "Bridgewater Institute of Applied Sciences",
+  "program": "MSc Human-Computer Interaction",
+  "fields": [
+   "design_hci",
+   "software_engineering"
+  ],
+  "city": "Pune",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "mid",
+  "annual_tuition_usd": 1900,
+  "min_grade_pct": 63,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 75,
+  "median_starting_salary_usd": 8623,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0047",
+  "institution": "Sarayu Institute of Technology",
+  "program": "MBA Business Analytics",
+  "fields": [
+   "business_information_systems"
+  ],
+  "city": "Mumbai",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "mid",
+  "annual_tuition_usd": 2000,
+  "min_grade_pct": 64,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 69,
+  "median_starting_salary_usd": 11382,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0048",
+  "institution": "Tejas School of Engineering",
+  "program": "MSc IT Management",
+  "fields": [
+   "it_management"
+  ],
+  "city": "Coimbatore",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "mid",
+  "annual_tuition_usd": 2200,
+  "min_grade_pct": 65,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 68,
+  "median_starting_salary_usd": 9305,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0049",
+  "institution": "Aravalli Institute of Applied Sciences",
+  "program": "MSc Human-Computer Interaction",
+  "fields": [
+   "design_hci"
+  ],
+  "city": "Mumbai",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "budget",
+  "annual_tuition_usd": 600,
+  "min_grade_pct": 55,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 66,
+  "median_starting_salary_usd": 7131,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0050",
+  "institution": "Tejas Institute of Technology",
+  "program": "MSc IT Operations",
+  "fields": [
+   "it_support",
+   "qa_testing"
+  ],
+  "city": "Hyderabad",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "budget",
+  "annual_tuition_usd": 1150,
+  "min_grade_pct": 58,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 69,
+  "median_starting_salary_usd": 7474,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0051",
+  "institution": "Westbrook University",
+  "program": "MBA Business Analytics",
+  "fields": [
+   "business_information_systems",
+   "data_science_analytics"
+  ],
+  "city": "Aachen",
+  "country": "Germany",
+  "region": "europe",
+  "tier": "mid",
+  "annual_tuition_usd": 3950,
+  "min_grade_pct": 61,
+  "requires_cs_background": false,
+  "english_requirement": true,
+  "placement_rate_pct": 77,
+  "median_starting_salary_usd": 33574,
+  "post_study_work_visa_months": 18
+ },
+ {
+  "program_id": "PR0052",
+  "institution": "Quilon Technical University",
+  "program": "MTech Computer Science",
+  "fields": [
+   "qa_testing",
+   "software_engineering"
+  ],
+  "city": "Kolkata",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "budget",
+  "annual_tuition_usd": 950,
+  "min_grade_pct": 52,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 63,
+  "median_starting_salary_usd": 6808,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0053",
+  "institution": "Cavendish University",
+  "program": "MSc Software Quality Engineering",
+  "fields": [
+   "qa_testing",
+   "software_engineering"
+  ],
+  "city": "Kolkata",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "strong",
+  "annual_tuition_usd": 1200,
+  "min_grade_pct": 70,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 86,
+  "median_starting_salary_usd": 12855,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0054",
+  "institution": "Elmhurst University",
+  "program": "MBA Business Analytics",
+  "fields": [
+   "business_information_systems"
+  ],
+  "city": "Coimbatore",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "strong",
+  "annual_tuition_usd": 2150,
+  "min_grade_pct": 72,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 84,
+  "median_starting_salary_usd": 13094,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0055",
+  "institution": "Westbrook School of Engineering",
+  "program": "MSc Software Quality Engineering",
+  "fields": [
+   "qa_testing",
+   "software_engineering"
+  ],
+  "city": "Boston",
+  "country": "USA",
+  "region": "north_america",
+  "tier": "strong",
+  "annual_tuition_usd": 33000,
+  "min_grade_pct": 74,
+  "requires_cs_background": false,
+  "english_requirement": true,
+  "placement_rate_pct": 84,
+  "median_starting_salary_usd": 78779,
+  "post_study_work_visa_months": 12
+ },
+ {
+  "program_id": "PR0056",
+  "institution": "Cavendish Institute of Applied Sciences",
+  "program": "MSc Information Security",
+  "fields": [
+   "cybersecurity"
+  ],
+  "city": "Edinburgh",
+  "country": "UK",
+  "region": "europe",
+  "tier": "budget",
+  "annual_tuition_usd": 12250,
+  "min_grade_pct": 56,
+  "requires_cs_background": true,
+  "english_requirement": true,
+  "placement_rate_pct": 58,
+  "median_starting_salary_usd": 17895,
+  "post_study_work_visa_months": 24
+ },
+ {
+  "program_id": "PR0057",
+  "institution": "Northgate Institute of Applied Sciences",
+  "program": "MSc IT Management",
+  "fields": [
+   "it_management"
+  ],
+  "city": "Toronto",
+  "country": "Canada",
+  "region": "north_america",
+  "tier": "budget",
+  "annual_tuition_usd": 10850,
+  "min_grade_pct": 53,
+  "requires_cs_background": false,
+  "english_requirement": true,
+  "placement_rate_pct": 59,
+  "median_starting_salary_usd": 29774,
+  "post_study_work_visa_months": 36
+ },
+ {
+  "program_id": "PR0058",
+  "institution": "Stanmore School of Engineering",
+  "program": "MCA",
+  "fields": [
+   "data_science_analytics",
+   "software_engineering"
+  ],
+  "city": "Coimbatore",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "strong",
+  "annual_tuition_usd": 1350,
+  "min_grade_pct": 74,
+  "requires_cs_background": true,
+  "english_requirement": false,
+  "placement_rate_pct": 83,
+  "median_starting_salary_usd": 14869,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0059",
+  "institution": "Tejas University",
+  "program": "MDes Interaction Design",
+  "fields": [
+   "design_hci"
+  ],
+  "city": "Chennai",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "budget",
+  "annual_tuition_usd": 450,
+  "min_grade_pct": 58,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 66,
+  "median_starting_salary_usd": 8418,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0060",
+  "institution": "Quilon Technical University",
+  "program": "MSc IT Management",
+  "fields": [
+   "it_management"
+  ],
+  "city": "Mumbai",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "strong",
+  "annual_tuition_usd": 3650,
+  "min_grade_pct": 69,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 88,
+  "median_starting_salary_usd": 13973,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0061",
+  "institution": "Bridgewater Technical University",
+  "program": "MSc Information Systems",
+  "fields": [
+   "business_information_systems",
+   "data_science_analytics"
+  ],
+  "city": "Eindhoven",
+  "country": "Netherlands",
+  "region": "europe",
+  "tier": "mid",
+  "annual_tuition_usd": 12850,
+  "min_grade_pct": 65,
+  "requires_cs_background": false,
+  "english_requirement": true,
+  "placement_rate_pct": 72,
+  "median_starting_salary_usd": 25862,
+  "post_study_work_visa_months": 12
+ },
+ {
+  "program_id": "PR0062",
+  "institution": "Stanmore School of Engineering",
+  "program": "MSc Data Science",
+  "fields": [
+   "data_science_analytics"
+  ],
+  "city": "Munich",
+  "country": "Germany",
+  "region": "europe",
+  "tier": "budget",
+  "annual_tuition_usd": 1950,
+  "min_grade_pct": 52,
+  "requires_cs_background": false,
+  "english_requirement": true,
+  "placement_rate_pct": 59,
+  "median_starting_salary_usd": 22711,
+  "post_study_work_visa_months": 18
+ },
+ {
+  "program_id": "PR0063",
+  "institution": "Longford Technical University",
+  "program": "MCA",
+  "fields": [
+   "data_science_analytics",
+   "software_engineering"
+  ],
+  "city": "Delhi",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "budget",
+  "annual_tuition_usd": 1350,
+  "min_grade_pct": 58,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 64,
+  "median_starting_salary_usd": 6635,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0064",
+  "institution": "Kestrel Institute of Applied Sciences",
+  "program": "MSc Software Quality Engineering",
+  "fields": [
+   "qa_testing"
+  ],
+  "city": "Delhi",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "budget",
+  "annual_tuition_usd": 650,
+  "min_grade_pct": 52,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 60,
+  "median_starting_salary_usd": 7369,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0065",
+  "institution": "Tejas Institute of Technology",
+  "program": "MSc Software Quality Engineering",
+  "fields": [
+   "qa_testing",
+   "software_engineering"
+  ],
+  "city": "Mumbai",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "strong",
+  "annual_tuition_usd": 2450,
+  "min_grade_pct": 75,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 80,
+  "median_starting_salary_usd": 12291,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0066",
+  "institution": "Crestwood Institute of Applied Sciences",
+  "program": "MSc Software Quality Engineering",
+  "fields": [
+   "qa_testing"
+  ],
+  "city": "Kolkata",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "budget",
+  "annual_tuition_usd": 800,
+  "min_grade_pct": 55,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 60,
+  "median_starting_salary_usd": 7437,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0067",
+  "institution": "Vantage School of Engineering",
+  "program": "MTech Data Engineering",
+  "fields": [
+   "data_science_analytics"
+  ],
+  "city": "Vancouver",
+  "country": "Canada",
+  "region": "north_america",
+  "tier": "mid",
+  "annual_tuition_usd": 20200,
+  "min_grade_pct": 63,
+  "requires_cs_background": true,
+  "english_requirement": true,
+  "placement_rate_pct": 76,
+  "median_starting_salary_usd": 39559,
+  "post_study_work_visa_months": 36
+ },
+ {
+  "program_id": "PR0068",
+  "institution": "Quilon Institute of Applied Sciences",
+  "program": "MSc Software Quality Engineering",
+  "fields": [
+   "qa_testing"
+  ],
+  "city": "Coimbatore",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "mid",
+  "annual_tuition_usd": 2250,
+  "min_grade_pct": 62,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 71,
+  "median_starting_salary_usd": 10130,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0069",
+  "institution": "Northgate Technical University",
+  "program": "MTech Computer Networks",
+  "fields": [
+   "networking_cloud",
+   "software_engineering"
+  ],
+  "city": "Pittsburgh",
+  "country": "USA",
+  "region": "north_america",
+  "tier": "strong",
+  "annual_tuition_usd": 37700,
+  "min_grade_pct": 75,
+  "requires_cs_background": false,
+  "english_requirement": true,
+  "placement_rate_pct": 88,
+  "median_starting_salary_usd": 81740,
+  "post_study_work_visa_months": 12
+ },
+ {
+  "program_id": "PR0070",
+  "institution": "Silverline Institute of Applied Sciences",
+  "program": "MSc Software Quality Engineering",
+  "fields": [
+   "qa_testing"
+  ],
+  "city": "Manchester",
+  "country": "UK",
+  "region": "europe",
+  "tier": "budget",
+  "annual_tuition_usd": 10050,
+  "min_grade_pct": 56,
+  "requires_cs_background": false,
+  "english_requirement": true,
+  "placement_rate_pct": 69,
+  "median_starting_salary_usd": 19150,
+  "post_study_work_visa_months": 24
+ },
+ {
+  "program_id": "PR0071",
+  "institution": "Longford Institute of Applied Sciences",
+  "program": "MTech Data Engineering",
+  "fields": [
+   "data_science_analytics",
+   "software_engineering"
+  ],
+  "city": "Mumbai",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "budget",
+  "annual_tuition_usd": 1300,
+  "min_grade_pct": 58,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 58,
+  "median_starting_salary_usd": 7837,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0072",
+  "institution": "Northgate Institute of Applied Sciences",
+  "program": "MSc Software Quality Engineering",
+  "fields": [
+   "qa_testing"
+  ],
+  "city": "Pune",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "strong",
+  "annual_tuition_usd": 2400,
+  "min_grade_pct": 70,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 84,
+  "median_starting_salary_usd": 13106,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0073",
+  "institution": "Elmhurst Technical University",
+  "program": "MTech Cyber Security",
+  "fields": [
+   "cybersecurity"
+  ],
+  "city": "Bengaluru",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "mid",
+  "annual_tuition_usd": 1250,
+  "min_grade_pct": 65,
+  "requires_cs_background": true,
+  "english_requirement": false,
+  "placement_rate_pct": 80,
+  "median_starting_salary_usd": 8637,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0074",
+  "institution": "Charnock School of Engineering",
+  "program": "MTech Data Engineering",
+  "fields": [
+   "business_information_systems",
+   "data_science_analytics"
+  ],
+  "city": "Hyderabad",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "mid",
+  "annual_tuition_usd": 1550,
+  "min_grade_pct": 64,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 68,
+  "median_starting_salary_usd": 9196,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0075",
+  "institution": "Braxton Institute of Technology",
+  "program": "MBA Technology Management",
+  "fields": [
+   "it_management"
+  ],
+  "city": "Montreal",
+  "country": "Canada",
+  "region": "north_america",
+  "tier": "mid",
+  "annual_tuition_usd": 18350,
+  "min_grade_pct": 63,
+  "requires_cs_background": false,
+  "english_requirement": true,
+  "placement_rate_pct": 74,
+  "median_starting_salary_usd": 39674,
+  "post_study_work_visa_months": 36
+ },
+ {
+  "program_id": "PR0076",
+  "institution": "Sarayu Institute of Technology",
+  "program": "MBA Technology Management",
+  "fields": [
+   "it_management",
+   "software_engineering"
+  ],
+  "city": "Hyderabad",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "strong",
+  "annual_tuition_usd": 1250,
+  "min_grade_pct": 74,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 81,
+  "median_starting_salary_usd": 13142,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0077",
+  "institution": "Bridgewater Institute of Technology",
+  "program": "MSc Information Systems",
+  "fields": [
+   "business_information_systems"
+  ],
+  "city": "Edinburgh",
+  "country": "UK",
+  "region": "europe",
+  "tier": "mid",
+  "annual_tuition_usd": 17200,
+  "min_grade_pct": 61,
+  "requires_cs_background": false,
+  "english_requirement": true,
+  "placement_rate_pct": 76,
+  "median_starting_salary_usd": 28596,
+  "post_study_work_visa_months": 24
+ },
+ {
+  "program_id": "PR0078",
+  "institution": "Fairfax University",
+  "program": "MSc IT Management",
+  "fields": [
+   "it_management"
+  ],
+  "city": "Pune",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "mid",
+  "annual_tuition_usd": 1750,
+  "min_grade_pct": 62,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 78,
+  "median_starting_salary_usd": 9426,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0079",
+  "institution": "Braxton University",
+  "program": "MBA Technology Management",
+  "fields": [
+   "it_management",
+   "software_engineering"
+  ],
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "region": "europe",
+  "tier": "elite",
+  "annual_tuition_usd": 20150,
+  "min_grade_pct": 81,
+  "requires_cs_background": false,
+  "english_requirement": true,
+  "placement_rate_pct": 88,
+  "median_starting_salary_usd": 65157,
+  "post_study_work_visa_months": 12
+ },
+ {
+  "program_id": "PR0080",
+  "institution": "Crestwood Technical University",
+  "program": "MSc Software Quality Engineering",
+  "fields": [
+   "qa_testing"
+  ],
+  "city": "Pune",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "budget",
+  "annual_tuition_usd": 1450,
+  "min_grade_pct": 53,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 62,
+  "median_starting_salary_usd": 8071,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0081",
+  "institution": "Quilon Technical University",
+  "program": "MTech Computer Networks",
+  "fields": [
+   "cybersecurity",
+   "networking_cloud"
+  ],
+  "city": "Manchester",
+  "country": "UK",
+  "region": "europe",
+  "tier": "mid",
+  "annual_tuition_usd": 13750,
+  "min_grade_pct": 65,
+  "requires_cs_background": true,
+  "english_requirement": true,
+  "placement_rate_pct": 74,
+  "median_starting_salary_usd": 26659,
+  "post_study_work_visa_months": 24
+ },
+ {
+  "program_id": "PR0082",
+  "institution": "Elmhurst Technical University",
+  "program": "MSc Software Engineering",
+  "fields": [
+   "qa_testing",
+   "software_engineering"
+  ],
+  "city": "Mumbai",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "budget",
+  "annual_tuition_usd": 500,
+  "min_grade_pct": 55,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 64,
+  "median_starting_salary_usd": 6458,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0083",
+  "institution": "Fairfax University",
+  "program": "MCA",
+  "fields": [
+   "software_engineering"
+  ],
+  "city": "Mumbai",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "mid",
+  "annual_tuition_usd": 1800,
+  "min_grade_pct": 65,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 74,
+  "median_starting_salary_usd": 10464,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0084",
+  "institution": "Halcyon Technical University",
+  "program": "MSc Human-Computer Interaction",
+  "fields": [
+   "design_hci"
+  ],
+  "city": "Pune",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "mid",
+  "annual_tuition_usd": 900,
+  "min_grade_pct": 64,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 77,
+  "median_starting_salary_usd": 11205,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0085",
+  "institution": "Keystone Institute of Applied Sciences",
+  "program": "MSc Software Quality Engineering",
+  "fields": [
+   "qa_testing",
+   "software_engineering"
+  ],
+  "city": "Bengaluru",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "budget",
+  "annual_tuition_usd": 1450,
+  "min_grade_pct": 54,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 63,
+  "median_starting_salary_usd": 6488,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0086",
+  "institution": "Halcyon Technical University",
+  "program": "MSc Software Engineering",
+  "fields": [
+   "data_science_analytics",
+   "software_engineering"
+  ],
+  "city": "Glasgow",
+  "country": "UK",
+  "region": "europe",
+  "tier": "strong",
+  "annual_tuition_usd": 23400,
+  "min_grade_pct": 70,
+  "requires_cs_background": false,
+  "english_requirement": true,
+  "placement_rate_pct": 85,
+  "median_starting_salary_usd": 33967,
+  "post_study_work_visa_months": 24
+ },
+ {
+  "program_id": "PR0087",
+  "institution": "Aravalli Technical University",
+  "program": "MSc Data Science",
+  "fields": [
+   "business_information_systems",
+   "data_science_analytics"
+  ],
+  "city": "Bengaluru",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "budget",
+  "annual_tuition_usd": 1200,
+  "min_grade_pct": 52,
+  "requires_cs_background": true,
+  "english_requirement": false,
+  "placement_rate_pct": 58,
+  "median_starting_salary_usd": 6767,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0088",
+  "institution": "Cavendish School of Engineering",
+  "program": "PG Diploma in Systems Administration",
+  "fields": [
+   "it_support"
+  ],
+  "city": "Eindhoven",
+  "country": "Netherlands",
+  "region": "europe",
+  "tier": "mid",
+  "annual_tuition_usd": 12800,
+  "min_grade_pct": 65,
+  "requires_cs_background": false,
+  "english_requirement": true,
+  "placement_rate_pct": 74,
+  "median_starting_salary_usd": 32045,
+  "post_study_work_visa_months": 12
+ },
+ {
+  "program_id": "PR0089",
+  "institution": "Stanmore Institute of Technology",
+  "program": "MSc Software Quality Engineering",
+  "fields": [
+   "qa_testing"
+  ],
+  "city": "Pittsburgh",
+  "country": "USA",
+  "region": "north_america",
+  "tier": "elite",
+  "annual_tuition_usd": 62950,
+  "min_grade_pct": 82,
+  "requires_cs_background": false,
+  "english_requirement": true,
+  "placement_rate_pct": 97,
+  "median_starting_salary_usd": 117009,
+  "post_study_work_visa_months": 12
+ },
+ {
+  "program_id": "PR0090",
+  "institution": "Westbrook Institute of Applied Sciences",
+  "program": "MSc Data Science",
+  "fields": [
+   "data_science_analytics",
+   "software_engineering"
+  ],
+  "city": "Kolkata",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "strong",
+  "annual_tuition_usd": 3550,
+  "min_grade_pct": 74,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 78,
+  "median_starting_salary_usd": 12316,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0091",
+  "institution": "Halcyon School of Engineering",
+  "program": "MSc Human-Computer Interaction",
+  "fields": [
+   "design_hci"
+  ],
+  "city": "Manchester",
+  "country": "UK",
+  "region": "europe",
+  "tier": "mid",
+  "annual_tuition_usd": 18100,
+  "min_grade_pct": 62,
+  "requires_cs_background": false,
+  "english_requirement": true,
+  "placement_rate_pct": 75,
+  "median_starting_salary_usd": 28553,
+  "post_study_work_visa_months": 24
+ },
+ {
+  "program_id": "PR0092",
+  "institution": "Silverline School of Engineering",
+  "program": "MBA Technology Management",
+  "fields": [
+   "it_management"
+  ],
+  "city": "Pune",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "strong",
+  "annual_tuition_usd": 3450,
+  "min_grade_pct": 74,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 85,
+  "median_starting_salary_usd": 13713,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0093",
+  "institution": "Bridgewater Institute of Technology",
+  "program": "MCA",
+  "fields": [
+   "software_engineering"
+  ],
+  "city": "Mumbai",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "mid",
+  "annual_tuition_usd": 2250,
+  "min_grade_pct": 64,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 74,
+  "median_starting_salary_usd": 9560,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0094",
+  "institution": "Silverline School of Engineering",
+  "program": "PG Diploma in Systems Administration",
+  "fields": [
+   "it_support",
+   "networking_cloud"
+  ],
+  "city": "Austin",
+  "country": "USA",
+  "region": "north_america",
+  "tier": "mid",
+  "annual_tuition_usd": 28600,
+  "min_grade_pct": 59,
+  "requires_cs_background": false,
+  "english_requirement": true,
+  "placement_rate_pct": 76,
+  "median_starting_salary_usd": 55928,
+  "post_study_work_visa_months": 12
+ },
+ {
+  "program_id": "PR0095",
+  "institution": "Elmhurst Technical University",
+  "program": "MCA",
+  "fields": [
+   "qa_testing",
+   "software_engineering"
+  ],
+  "city": "London",
+  "country": "UK",
+  "region": "europe",
+  "tier": "budget",
+  "annual_tuition_usd": 14600,
+  "min_grade_pct": 57,
+  "requires_cs_background": true,
+  "english_requirement": true,
+  "placement_rate_pct": 60,
+  "median_starting_salary_usd": 17630,
+  "post_study_work_visa_months": 24
+ },
+ {
+  "program_id": "PR0096",
+  "institution": "Ashford Institute of Applied Sciences",
+  "program": "MTech Computer Networks",
+  "fields": [
+   "cybersecurity",
+   "networking_cloud"
+  ],
+  "city": "Hyderabad",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "strong",
+  "annual_tuition_usd": 3350,
+  "min_grade_pct": 71,
+  "requires_cs_background": true,
+  "english_requirement": false,
+  "placement_rate_pct": 80,
+  "median_starting_salary_usd": 12561,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0097",
+  "institution": "Northgate Institute of Technology",
+  "program": "MTech Data Engineering",
+  "fields": [
+   "data_science_analytics"
+  ],
+  "city": "Kolkata",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "elite",
+  "annual_tuition_usd": 3800,
+  "min_grade_pct": 82,
+  "requires_cs_background": true,
+  "english_requirement": false,
+  "placement_rate_pct": 95,
+  "median_starting_salary_usd": 19658,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0098",
+  "institution": "Crestwood Institute of Applied Sciences",
+  "program": "MSc IT Operations",
+  "fields": [
+   "it_support"
+  ],
+  "city": "Coimbatore",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "mid",
+  "annual_tuition_usd": 800,
+  "min_grade_pct": 63,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 70,
+  "median_starting_salary_usd": 9161,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0099",
+  "institution": "Meridian School of Engineering",
+  "program": "MSc Big Data Analytics",
+  "fields": [
+   "data_science_analytics"
+  ],
+  "city": "Mumbai",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "strong",
+  "annual_tuition_usd": 3150,
+  "min_grade_pct": 72,
+  "requires_cs_background": true,
+  "english_requirement": false,
+  "placement_rate_pct": 83,
+  "median_starting_salary_usd": 12637,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0100",
+  "institution": "Fairfax Institute of Technology",
+  "program": "MSc Information Security",
+  "fields": [
+   "cybersecurity"
+  ],
+  "city": "Edinburgh",
+  "country": "UK",
+  "region": "europe",
+  "tier": "budget",
+  "annual_tuition_usd": 12850,
+  "min_grade_pct": 56,
+  "requires_cs_background": false,
+  "english_requirement": true,
+  "placement_rate_pct": 72,
+  "median_starting_salary_usd": 21618,
+  "post_study_work_visa_months": 24
+ },
+ {
+  "program_id": "PR0101",
+  "institution": "Braxton Institute of Applied Sciences",
+  "program": "MSc Information Systems",
+  "fields": [
+   "business_information_systems"
+  ],
+  "city": "Coimbatore",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "strong",
+  "annual_tuition_usd": 2400,
+  "min_grade_pct": 71,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 85,
+  "median_starting_salary_usd": 15394,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0102",
+  "institution": "Westbrook Technical University",
+  "program": "MSc Cloud Computing",
+  "fields": [
+   "networking_cloud"
+  ],
+  "city": "Delhi",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "mid",
+  "annual_tuition_usd": 1700,
+  "min_grade_pct": 64,
+  "requires_cs_background": true,
+  "english_requirement": false,
+  "placement_rate_pct": 75,
+  "median_starting_salary_usd": 8729,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0103",
+  "institution": "Vantage University",
+  "program": "MSc Big Data Analytics",
+  "fields": [
+   "business_information_systems",
+   "data_science_analytics"
+  ],
+  "city": "Glasgow",
+  "country": "UK",
+  "region": "europe",
+  "tier": "mid",
+  "annual_tuition_usd": 13500,
+  "min_grade_pct": 65,
+  "requires_cs_background": false,
+  "english_requirement": true,
+  "placement_rate_pct": 80,
+  "median_starting_salary_usd": 26798,
+  "post_study_work_visa_months": 24
+ },
+ {
+  "program_id": "PR0104",
+  "institution": "Aravalli Institute of Applied Sciences",
+  "program": "MSc Software Quality Engineering",
+  "fields": [
+   "qa_testing"
+  ],
+  "city": "Aachen",
+  "country": "Germany",
+  "region": "europe",
+  "tier": "mid",
+  "annual_tuition_usd": 3450,
+  "min_grade_pct": 59,
+  "requires_cs_background": false,
+  "english_requirement": true,
+  "placement_rate_pct": 77,
+  "median_starting_salary_usd": 28649,
+  "post_study_work_visa_months": 18
+ },
+ {
+  "program_id": "PR0105",
+  "institution": "Ashford Technical University",
+  "program": "MBA Business Analytics",
+  "fields": [
+   "business_information_systems"
+  ],
+  "city": "Coimbatore",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "strong",
+  "annual_tuition_usd": 3500,
+  "min_grade_pct": 69,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 79,
+  "median_starting_salary_usd": 13798,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0106",
+  "institution": "Nalanda Ridge School of Engineering",
+  "program": "MSc Information Security",
+  "fields": [
+   "cybersecurity"
+  ],
+  "city": "Coimbatore",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "budget",
+  "annual_tuition_usd": 1350,
+  "min_grade_pct": 52,
+  "requires_cs_background": true,
+  "english_requirement": false,
+  "placement_rate_pct": 55,
+  "median_starting_salary_usd": 8037,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0107",
+  "institution": "Quilon Institute of Technology",
+  "program": "MTech Computer Science",
+  "fields": [
+   "data_science_analytics",
+   "software_engineering"
+  ],
+  "city": "Delhi",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "mid",
+  "annual_tuition_usd": 1850,
+  "min_grade_pct": 59,
+  "requires_cs_background": true,
+  "english_requirement": false,
+  "placement_rate_pct": 69,
+  "median_starting_salary_usd": 11447,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0108",
+  "institution": "Braxton Technical University",
+  "program": "MTech Computer Science",
+  "fields": [
+   "software_engineering"
+  ],
+  "city": "Delft",
+  "country": "Netherlands",
+  "region": "europe",
+  "tier": "budget",
+  "annual_tuition_usd": 9200,
+  "min_grade_pct": 57,
+  "requires_cs_background": false,
+  "english_requirement": true,
+  "placement_rate_pct": 67,
+  "median_starting_salary_usd": 24352,
+  "post_study_work_visa_months": 12
+ },
+ {
+  "program_id": "PR0109",
+  "institution": "Crestwood Technical University",
+  "program": "MTech Computer Science",
+  "fields": [
+   "software_engineering"
+  ],
+  "city": "Chennai",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "strong",
+  "annual_tuition_usd": 1550,
+  "min_grade_pct": 73,
+  "requires_cs_background": true,
+  "english_requirement": false,
+  "placement_rate_pct": 82,
+  "median_starting_salary_usd": 13300,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0110",
+  "institution": "Crestwood Institute of Applied Sciences",
+  "program": "MSc Cloud Computing",
+  "fields": [
+   "cybersecurity",
+   "networking_cloud"
+  ],
+  "city": "Pittsburgh",
+  "country": "USA",
+  "region": "north_america",
+  "tier": "mid",
+  "annual_tuition_usd": 29650,
+  "min_grade_pct": 64,
+  "requires_cs_background": true,
+  "english_requirement": true,
+  "placement_rate_pct": 71,
+  "median_starting_salary_usd": 48858,
+  "post_study_work_visa_months": 12
+ },
+ {
+  "program_id": "PR0111",
+  "institution": "Longford School of Engineering",
+  "program": "MSc Data Science",
+  "fields": [
+   "data_science_analytics"
+  ],
+  "city": "Hyderabad",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "mid",
+  "annual_tuition_usd": 900,
+  "min_grade_pct": 60,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 71,
+  "median_starting_salary_usd": 9179,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0112",
+  "institution": "Charnock University",
+  "program": "MSc Software Engineering",
+  "fields": [
+   "networking_cloud",
+   "software_engineering"
+  ],
+  "city": "Mumbai",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "budget",
+  "annual_tuition_usd": 1150,
+  "min_grade_pct": 56,
+  "requires_cs_background": true,
+  "english_requirement": false,
+  "placement_rate_pct": 65,
+  "median_starting_salary_usd": 7933,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0113",
+  "institution": "Fairfax School of Engineering",
+  "program": "MSc Software Quality Engineering",
+  "fields": [
+   "qa_testing"
+  ],
+  "city": "Hyderabad",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "mid",
+  "annual_tuition_usd": 2300,
+  "min_grade_pct": 61,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 76,
+  "median_starting_salary_usd": 10102,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0114",
+  "institution": "Crestwood School of Engineering",
+  "program": "MSc Software Quality Engineering",
+  "fields": [
+   "qa_testing"
+  ],
+  "city": "Mumbai",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "mid",
+  "annual_tuition_usd": 850,
+  "min_grade_pct": 60,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 81,
+  "median_starting_salary_usd": 10903,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0115",
+  "institution": "Nalanda Ridge Institute of Technology",
+  "program": "MSc Information Security",
+  "fields": [
+   "cybersecurity"
+  ],
+  "city": "Kolkata",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "mid",
+  "annual_tuition_usd": 1550,
+  "min_grade_pct": 60,
+  "requires_cs_background": true,
+  "english_requirement": false,
+  "placement_rate_pct": 72,
+  "median_starting_salary_usd": 8751,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0116",
+  "institution": "Aldermount Institute of Technology",
+  "program": "MSc Human-Computer Interaction",
+  "fields": [
+   "design_hci"
+  ],
+  "city": "Edinburgh",
+  "country": "UK",
+  "region": "europe",
+  "tier": "elite",
+  "annual_tuition_usd": 30650,
+  "min_grade_pct": 79,
+  "requires_cs_background": false,
+  "english_requirement": true,
+  "placement_rate_pct": 96,
+  "median_starting_salary_usd": 47878,
+  "post_study_work_visa_months": 24
+ },
+ {
+  "program_id": "PR0117",
+  "institution": "Silverline Institute of Technology",
+  "program": "MSc IT Operations",
+  "fields": [
+   "it_support"
+  ],
+  "city": "Kolkata",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "elite",
+  "annual_tuition_usd": 4250,
+  "min_grade_pct": 82,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 93,
+  "median_starting_salary_usd": 22504,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0118",
+  "institution": "Silverline Institute of Applied Sciences",
+  "program": "MTech Cyber Security",
+  "fields": [
+   "cybersecurity",
+   "networking_cloud"
+  ],
+  "city": "Mumbai",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "mid",
+  "annual_tuition_usd": 1500,
+  "min_grade_pct": 59,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 76,
+  "median_starting_salary_usd": 9403,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0119",
+  "institution": "Meridian Institute of Applied Sciences",
+  "program": "MSc Software Quality Engineering",
+  "fields": [
+   "qa_testing"
+  ],
+  "city": "Hyderabad",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "strong",
+  "annual_tuition_usd": 1200,
+  "min_grade_pct": 71,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 86,
+  "median_starting_salary_usd": 14917,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0120",
+  "institution": "Ashford Institute of Applied Sciences",
+  "program": "MSc Big Data Analytics",
+  "fields": [
+   "data_science_analytics"
+  ],
+  "city": "Delhi",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "mid",
+  "annual_tuition_usd": 800,
+  "min_grade_pct": 63,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 78,
+  "median_starting_salary_usd": 10021,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0121",
+  "institution": "Aldermount Institute of Technology",
+  "program": "MSc IT Operations",
+  "fields": [
+   "it_support",
+   "networking_cloud"
+  ],
+  "city": "Delhi",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "mid",
+  "annual_tuition_usd": 2100,
+  "min_grade_pct": 64,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 76,
+  "median_starting_salary_usd": 9223,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0122",
+  "institution": "Longford University",
+  "program": "MSc Information Systems",
+  "fields": [
+   "business_information_systems"
+  ],
+  "city": "Eindhoven",
+  "country": "Netherlands",
+  "region": "europe",
+  "tier": "strong",
+  "annual_tuition_usd": 13300,
+  "min_grade_pct": 75,
+  "requires_cs_background": false,
+  "english_requirement": true,
+  "placement_rate_pct": 77,
+  "median_starting_salary_usd": 43659,
+  "post_study_work_visa_months": 12
+ },
+ {
+  "program_id": "PR0123",
+  "institution": "Northgate Technical University",
+  "program": "MBA Technology Management",
+  "fields": [
+   "business_information_systems",
+   "it_management"
+  ],
+  "city": "Manchester",
+  "country": "UK",
+  "region": "europe",
+  "tier": "mid",
+  "annual_tuition_usd": 14750,
+  "min_grade_pct": 65,
+  "requires_cs_background": false,
+  "english_requirement": true,
+  "placement_rate_pct": 75,
+  "median_starting_salary_usd": 26119,
+  "post_study_work_visa_months": 24
+ },
+ {
+  "program_id": "PR0124",
+  "institution": "Northgate Technical University",
+  "program": "PG Diploma in Systems Administration",
+  "fields": [
+   "it_support"
+  ],
+  "city": "Delft",
+  "country": "Netherlands",
+  "region": "europe",
+  "tier": "strong",
+  "annual_tuition_usd": 17450,
+  "min_grade_pct": 74,
+  "requires_cs_background": false,
+  "english_requirement": true,
+  "placement_rate_pct": 86,
+  "median_starting_salary_usd": 46907,
+  "post_study_work_visa_months": 12
+ },
+ {
+  "program_id": "PR0125",
+  "institution": "Aldermount Institute of Applied Sciences",
+  "program": "MSc Software Quality Engineering",
+  "fields": [
+   "qa_testing"
+  ],
+  "city": "Kolkata",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "budget",
+  "annual_tuition_usd": 450,
+  "min_grade_pct": 57,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 66,
+  "median_starting_salary_usd": 8177,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0126",
+  "institution": "Ashford Technical University",
+  "program": "MCA",
+  "fields": [
+   "data_science_analytics",
+   "software_engineering"
+  ],
+  "city": "Aachen",
+  "country": "Germany",
+  "region": "europe",
+  "tier": "budget",
+  "annual_tuition_usd": 2050,
+  "min_grade_pct": 57,
+  "requires_cs_background": true,
+  "english_requirement": true,
+  "placement_rate_pct": 62,
+  "median_starting_salary_usd": 23468,
+  "post_study_work_visa_months": 18
+ },
+ {
+  "program_id": "PR0127",
+  "institution": "Ashford School of Engineering",
+  "program": "MSc Cloud Computing",
+  "fields": [
+   "cybersecurity",
+   "networking_cloud"
+  ],
+  "city": "Vancouver",
+  "country": "Canada",
+  "region": "north_america",
+  "tier": "mid",
+  "annual_tuition_usd": 21500,
+  "min_grade_pct": 64,
+  "requires_cs_background": true,
+  "english_requirement": true,
+  "placement_rate_pct": 79,
+  "median_starting_salary_usd": 35137,
+  "post_study_work_visa_months": 36
+ },
+ {
+  "program_id": "PR0128",
+  "institution": "Keystone Technical University",
+  "program": "MBA Business Analytics",
+  "fields": [
+   "business_information_systems",
+   "data_science_analytics"
+  ],
+  "city": "Aachen",
+  "country": "Germany",
+  "region": "europe",
+  "tier": "budget",
+  "annual_tuition_usd": 3800,
+  "min_grade_pct": 57,
+  "requires_cs_background": false,
+  "english_requirement": true,
+  "placement_rate_pct": 60,
+  "median_starting_salary_usd": 24756,
+  "post_study_work_visa_months": 18
+ },
+ {
+  "program_id": "PR0129",
+  "institution": "Westbrook Technical University",
+  "program": "MSc Data Science",
+  "fields": [
+   "data_science_analytics"
+  ],
+  "city": "Kolkata",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "budget",
+  "annual_tuition_usd": 1200,
+  "min_grade_pct": 52,
+  "requires_cs_background": true,
+  "english_requirement": false,
+  "placement_rate_pct": 67,
+  "median_starting_salary_usd": 6936,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0130",
+  "institution": "Elmhurst School of Engineering",
+  "program": "MSc IT Management",
+  "fields": [
+   "it_management"
+  ],
+  "city": "Hyderabad",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "mid",
+  "annual_tuition_usd": 1000,
+  "min_grade_pct": 62,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 77,
+  "median_starting_salary_usd": 11249,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0131",
+  "institution": "Bridgewater Technical University",
+  "program": "MSc Software Quality Engineering",
+  "fields": [
+   "qa_testing"
+  ],
+  "city": "Vancouver",
+  "country": "Canada",
+  "region": "north_america",
+  "tier": "mid",
+  "annual_tuition_usd": 20900,
+  "min_grade_pct": 63,
+  "requires_cs_background": false,
+  "english_requirement": true,
+  "placement_rate_pct": 73,
+  "median_starting_salary_usd": 37200,
+  "post_study_work_visa_months": 36
+ },
+ {
+  "program_id": "PR0132",
+  "institution": "Nalanda Ridge University",
+  "program": "MSc Data Science",
+  "fields": [
+   "data_science_analytics"
+  ],
+  "city": "Toronto",
+  "country": "Canada",
+  "region": "north_america",
+  "tier": "mid",
+  "annual_tuition_usd": 15600,
+  "min_grade_pct": 62,
+  "requires_cs_background": true,
+  "english_requirement": true,
+  "placement_rate_pct": 81,
+  "median_starting_salary_usd": 32235,
+  "post_study_work_visa_months": 36
+ },
+ {
+  "program_id": "PR0133",
+  "institution": "Ashford Institute of Technology",
+  "program": "MSc Big Data Analytics",
+  "fields": [
+   "data_science_analytics"
+  ],
+  "city": "Kolkata",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "budget",
+  "annual_tuition_usd": 900,
+  "min_grade_pct": 57,
+  "requires_cs_background": true,
+  "english_requirement": false,
+  "placement_rate_pct": 63,
+  "median_starting_salary_usd": 7270,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0134",
+  "institution": "Keystone Institute of Technology",
+  "program": "MSc Big Data Analytics",
+  "fields": [
+   "data_science_analytics"
+  ],
+  "city": "Coimbatore",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "mid",
+  "annual_tuition_usd": 1850,
+  "min_grade_pct": 65,
+  "requires_cs_background": true,
+  "english_requirement": false,
+  "placement_rate_pct": 69,
+  "median_starting_salary_usd": 8885,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0135",
+  "institution": "Nalanda Ridge University",
+  "program": "MSc Information Systems",
+  "fields": [
+   "business_information_systems"
+  ],
+  "city": "Seattle",
+  "country": "USA",
+  "region": "north_america",
+  "tier": "mid",
+  "annual_tuition_usd": 25150,
+  "min_grade_pct": 61,
+  "requires_cs_background": false,
+  "english_requirement": true,
+  "placement_rate_pct": 75,
+  "median_starting_salary_usd": 49466,
+  "post_study_work_visa_months": 12
+ },
+ {
+  "program_id": "PR0136",
+  "institution": "Silverline Technical University",
+  "program": "MTech Cyber Security",
+  "fields": [
+   "cybersecurity",
+   "software_engineering"
+  ],
+  "city": "Boston",
+  "country": "USA",
+  "region": "north_america",
+  "tier": "budget",
+  "annual_tuition_usd": 21200,
+  "min_grade_pct": 53,
+  "requires_cs_background": false,
+  "english_requirement": true,
+  "placement_rate_pct": 61,
+  "median_starting_salary_usd": 46714,
+  "post_study_work_visa_months": 12
+ },
+ {
+  "program_id": "PR0137",
+  "institution": "Meridian Institute of Technology",
+  "program": "MBA Business Analytics",
+  "fields": [
+   "business_information_systems"
+  ],
+  "city": "Munich",
+  "country": "Germany",
+  "region": "europe",
+  "tier": "budget",
+  "annual_tuition_usd": 2950,
+  "min_grade_pct": 58,
+  "requires_cs_background": false,
+  "english_requirement": true,
+  "placement_rate_pct": 63,
+  "median_starting_salary_usd": 27229,
+  "post_study_work_visa_months": 18
+ },
+ {
+  "program_id": "PR0138",
+  "institution": "Keystone Institute of Applied Sciences",
+  "program": "MBA Business Analytics",
+  "fields": [
+   "business_information_systems"
+  ],
+  "city": "Manchester",
+  "country": "UK",
+  "region": "europe",
+  "tier": "mid",
+  "annual_tuition_usd": 15050,
+  "min_grade_pct": 65,
+  "requires_cs_background": false,
+  "english_requirement": true,
+  "placement_rate_pct": 71,
+  "median_starting_salary_usd": 24010,
+  "post_study_work_visa_months": 24
+ },
+ {
+  "program_id": "PR0139",
+  "institution": "Quilon University",
+  "program": "MSc Software Quality Engineering",
+  "fields": [
+   "qa_testing"
+  ],
+  "city": "Delhi",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "elite",
+  "annual_tuition_usd": 4200,
+  "min_grade_pct": 81,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 89,
+  "median_starting_salary_usd": 20639,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0140",
+  "institution": "Nalanda Ridge Institute of Applied Sciences",
+  "program": "MSc Data Science",
+  "fields": [
+   "data_science_analytics"
+  ],
+  "city": "Toronto",
+  "country": "Canada",
+  "region": "north_america",
+  "tier": "budget",
+  "annual_tuition_usd": 9650,
+  "min_grade_pct": 53,
+  "requires_cs_background": true,
+  "english_requirement": true,
+  "placement_rate_pct": 62,
+  "median_starting_salary_usd": 24418,
+  "post_study_work_visa_months": 36
+ },
+ {
+  "program_id": "PR0141",
+  "institution": "Braxton Technical University",
+  "program": "MSc Human-Computer Interaction",
+  "fields": [
+   "design_hci"
+  ],
+  "city": "Delhi",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "mid",
+  "annual_tuition_usd": 2450,
+  "min_grade_pct": 60,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 78,
+  "median_starting_salary_usd": 9069,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0142",
+  "institution": "Nalanda Ridge School of Engineering",
+  "program": "MSc Software Quality Engineering",
+  "fields": [
+   "qa_testing",
+   "software_engineering"
+  ],
+  "city": "Hyderabad",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "budget",
+  "annual_tuition_usd": 700,
+  "min_grade_pct": 55,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 64,
+  "median_starting_salary_usd": 6488,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0143",
+  "institution": "Fairfax Technical University",
+  "program": "MSc Data Science",
+  "fields": [
+   "data_science_analytics"
+  ],
+  "city": "Mumbai",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "strong",
+  "annual_tuition_usd": 2750,
+  "min_grade_pct": 72,
+  "requires_cs_background": true,
+  "english_requirement": false,
+  "placement_rate_pct": 87,
+  "median_starting_salary_usd": 13436,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0144",
+  "institution": "Tejas Technical University",
+  "program": "MTech Computer Science",
+  "fields": [
+   "software_engineering"
+  ],
+  "city": "Pune",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "elite",
+  "annual_tuition_usd": 4800,
+  "min_grade_pct": 81,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 93,
+  "median_starting_salary_usd": 19239,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0145",
+  "institution": "Silverline Technical University",
+  "program": "MTech Computer Science",
+  "fields": [
+   "data_science_analytics",
+   "software_engineering"
+  ],
+  "city": "Coimbatore",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "mid",
+  "annual_tuition_usd": 2300,
+  "min_grade_pct": 60,
+  "requires_cs_background": true,
+  "english_requirement": false,
+  "placement_rate_pct": 75,
+  "median_starting_salary_usd": 10057,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0146",
+  "institution": "Fairfax Technical University",
+  "program": "MTech Computer Networks",
+  "fields": [
+   "networking_cloud"
+  ],
+  "city": "Vancouver",
+  "country": "Canada",
+  "region": "north_america",
+  "tier": "strong",
+  "annual_tuition_usd": 23650,
+  "min_grade_pct": 73,
+  "requires_cs_background": true,
+  "english_requirement": true,
+  "placement_rate_pct": 79,
+  "median_starting_salary_usd": 48850,
+  "post_study_work_visa_months": 36
+ },
+ {
+  "program_id": "PR0147",
+  "institution": "Fairfax Institute of Technology",
+  "program": "MSc Cloud Computing",
+  "fields": [
+   "networking_cloud"
+  ],
+  "city": "Coimbatore",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "strong",
+  "annual_tuition_usd": 3200,
+  "min_grade_pct": 74,
+  "requires_cs_background": true,
+  "english_requirement": false,
+  "placement_rate_pct": 83,
+  "median_starting_salary_usd": 13015,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0148",
+  "institution": "Kestrel Institute of Technology",
+  "program": "MTech Computer Networks",
+  "fields": [
+   "cybersecurity",
+   "networking_cloud"
+  ],
+  "city": "Coimbatore",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "mid",
+  "annual_tuition_usd": 2250,
+  "min_grade_pct": 62,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 73,
+  "median_starting_salary_usd": 10571,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0149",
+  "institution": "Bridgewater School of Engineering",
+  "program": "MSc Human-Computer Interaction",
+  "fields": [
+   "design_hci"
+  ],
+  "city": "Mumbai",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "strong",
+  "annual_tuition_usd": 3750,
+  "min_grade_pct": 70,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 86,
+  "median_starting_salary_usd": 13217,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0150",
+  "institution": "Kestrel University",
+  "program": "MBA Technology Management",
+  "fields": [
+   "it_management"
+  ],
+  "city": "Kolkata",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "mid",
+  "annual_tuition_usd": 1950,
+  "min_grade_pct": 61,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 71,
+  "median_starting_salary_usd": 11418,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0151",
+  "institution": "Crestwood Institute of Technology",
+  "program": "MSc Software Quality Engineering",
+  "fields": [
+   "qa_testing",
+   "software_engineering"
+  ],
+  "city": "Dresden",
+  "country": "Germany",
+  "region": "europe",
+  "tier": "mid",
+  "annual_tuition_usd": 5750,
+  "min_grade_pct": 62,
+  "requires_cs_background": false,
+  "english_requirement": true,
+  "placement_rate_pct": 72,
+  "median_starting_salary_usd": 35799,
+  "post_study_work_visa_months": 18
+ },
+ {
+  "program_id": "PR0152",
+  "institution": "Ashford Technical University",
+  "program": "MBA Technology Management",
+  "fields": [
+   "it_management"
+  ],
+  "city": "Edinburgh",
+  "country": "UK",
+  "region": "europe",
+  "tier": "strong",
+  "annual_tuition_usd": 27300,
+  "min_grade_pct": 75,
+  "requires_cs_background": false,
+  "english_requirement": true,
+  "placement_rate_pct": 80,
+  "median_starting_salary_usd": 33276,
+  "post_study_work_visa_months": 24
+ },
+ {
+  "program_id": "PR0153",
+  "institution": "Keystone University",
+  "program": "MSc Human-Computer Interaction",
+  "fields": [
+   "business_information_systems",
+   "design_hci"
+  ],
+  "city": "Munich",
+  "country": "Germany",
+  "region": "europe",
+  "tier": "strong",
+  "annual_tuition_usd": 550,
+  "min_grade_pct": 71,
+  "requires_cs_background": false,
+  "english_requirement": true,
+  "placement_rate_pct": 78,
+  "median_starting_salary_usd": 39426,
+  "post_study_work_visa_months": 18
+ },
+ {
+  "program_id": "PR0154",
+  "institution": "Braxton School of Engineering",
+  "program": "MCA",
+  "fields": [
+   "software_engineering"
+  ],
+  "city": "Edinburgh",
+  "country": "UK",
+  "region": "europe",
+  "tier": "elite",
+  "annual_tuition_usd": 35750,
+  "min_grade_pct": 81,
+  "requires_cs_background": false,
+  "english_requirement": true,
+  "placement_rate_pct": 89,
+  "median_starting_salary_usd": 59237,
+  "post_study_work_visa_months": 24
+ },
+ {
+  "program_id": "PR0155",
+  "institution": "Northgate University",
+  "program": "MSc Software Engineering",
+  "fields": [
+   "software_engineering"
+  ],
+  "city": "Mumbai",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "mid",
+  "annual_tuition_usd": 2450,
+  "min_grade_pct": 60,
+  "requires_cs_background": true,
+  "english_requirement": false,
+  "placement_rate_pct": 74,
+  "median_starting_salary_usd": 11146,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0156",
+  "institution": "Meridian Technical University",
+  "program": "MBA Technology Management",
+  "fields": [
+   "it_management"
+  ],
+  "city": "Pune",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "budget",
+  "annual_tuition_usd": 1350,
+  "min_grade_pct": 57,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 67,
+  "median_starting_salary_usd": 7397,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0157",
+  "institution": "Longford University",
+  "program": "MSc IT Management",
+  "fields": [
+   "business_information_systems",
+   "it_management"
+  ],
+  "city": "Coimbatore",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "mid",
+  "annual_tuition_usd": 800,
+  "min_grade_pct": 64,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 72,
+  "median_starting_salary_usd": 10444,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0158",
+  "institution": "Ashford School of Engineering",
+  "program": "MDes Interaction Design",
+  "fields": [
+   "design_hci",
+   "software_engineering"
+  ],
+  "city": "Pune",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "strong",
+  "annual_tuition_usd": 1900,
+  "min_grade_pct": 70,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 84,
+  "median_starting_salary_usd": 13259,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0159",
+  "institution": "Vantage Technical University",
+  "program": "PG Diploma in Systems Administration",
+  "fields": [
+   "it_support",
+   "networking_cloud"
+  ],
+  "city": "Hyderabad",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "budget",
+  "annual_tuition_usd": 700,
+  "min_grade_pct": 52,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 66,
+  "median_starting_salary_usd": 6514,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0160",
+  "institution": "Keystone Technical University",
+  "program": "MBA Technology Management",
+  "fields": [
+   "it_management"
+  ],
+  "city": "Delhi",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "mid",
+  "annual_tuition_usd": 2050,
+  "min_grade_pct": 60,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 71,
+  "median_starting_salary_usd": 8900,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0161",
+  "institution": "Tejas University",
+  "program": "MSc Software Engineering",
+  "fields": [
+   "software_engineering"
+  ],
+  "city": "Berlin",
+  "country": "Germany",
+  "region": "europe",
+  "tier": "mid",
+  "annual_tuition_usd": 3850,
+  "min_grade_pct": 63,
+  "requires_cs_background": true,
+  "english_requirement": true,
+  "placement_rate_pct": 72,
+  "median_starting_salary_usd": 33731,
+  "post_study_work_visa_months": 18
+ },
+ {
+  "program_id": "PR0162",
+  "institution": "Aravalli Institute of Applied Sciences",
+  "program": "MTech Cyber Security",
+  "fields": [
+   "cybersecurity",
+   "networking_cloud"
+  ],
+  "city": "Chennai",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "budget",
+  "annual_tuition_usd": 1150,
+  "min_grade_pct": 57,
+  "requires_cs_background": true,
+  "english_requirement": false,
+  "placement_rate_pct": 68,
+  "median_starting_salary_usd": 7369,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0163",
+  "institution": "Nalanda Ridge School of Engineering",
+  "program": "MBA Business Analytics",
+  "fields": [
+   "business_information_systems"
+  ],
+  "city": "Montreal",
+  "country": "Canada",
+  "region": "north_america",
+  "tier": "mid",
+  "annual_tuition_usd": 18700,
+  "min_grade_pct": 63,
+  "requires_cs_background": false,
+  "english_requirement": true,
+  "placement_rate_pct": 80,
+  "median_starting_salary_usd": 35671,
+  "post_study_work_visa_months": 36
+ },
+ {
+  "program_id": "PR0164",
+  "institution": "Northgate School of Engineering",
+  "program": "MBA Technology Management",
+  "fields": [
+   "it_management"
+  ],
+  "city": "Delhi",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "elite",
+  "annual_tuition_usd": 2050,
+  "min_grade_pct": 79,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 90,
+  "median_starting_salary_usd": 17361,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0165",
+  "institution": "Westbrook Institute of Technology",
+  "program": "MSc Cloud Computing",
+  "fields": [
+   "networking_cloud"
+  ],
+  "city": "Chennai",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "budget",
+  "annual_tuition_usd": 550,
+  "min_grade_pct": 54,
+  "requires_cs_background": true,
+  "english_requirement": false,
+  "placement_rate_pct": 59,
+  "median_starting_salary_usd": 7845,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0166",
+  "institution": "Meridian Technical University",
+  "program": "MDes Interaction Design",
+  "fields": [
+   "design_hci"
+  ],
+  "city": "Coimbatore",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "mid",
+  "annual_tuition_usd": 1200,
+  "min_grade_pct": 65,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 71,
+  "median_starting_salary_usd": 10095,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0167",
+  "institution": "Charnock Institute of Technology",
+  "program": "MTech Cyber Security",
+  "fields": [
+   "cybersecurity",
+   "software_engineering"
+  ],
+  "city": "Hyderabad",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "strong",
+  "annual_tuition_usd": 2450,
+  "min_grade_pct": 69,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 79,
+  "median_starting_salary_usd": 12765,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0168",
+  "institution": "Halcyon Institute of Applied Sciences",
+  "program": "MSc Information Systems",
+  "fields": [
+   "business_information_systems"
+  ],
+  "city": "Waterloo",
+  "country": "Canada",
+  "region": "north_america",
+  "tier": "strong",
+  "annual_tuition_usd": 27750,
+  "min_grade_pct": 71,
+  "requires_cs_background": false,
+  "english_requirement": true,
+  "placement_rate_pct": 84,
+  "median_starting_salary_usd": 43709,
+  "post_study_work_visa_months": 36
+ },
+ {
+  "program_id": "PR0169",
+  "institution": "Bridgewater Institute of Applied Sciences",
+  "program": "MSc IT Operations",
+  "fields": [
+   "it_support",
+   "networking_cloud"
+  ],
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "region": "europe",
+  "tier": "strong",
+  "annual_tuition_usd": 15750,
+  "min_grade_pct": 71,
+  "requires_cs_background": false,
+  "english_requirement": true,
+  "placement_rate_pct": 77,
+  "median_starting_salary_usd": 40910,
+  "post_study_work_visa_months": 12
+ },
+ {
+  "program_id": "PR0170",
+  "institution": "Stanmore Institute of Applied Sciences",
+  "program": "MSc Big Data Analytics",
+  "fields": [
+   "data_science_analytics"
+  ],
+  "city": "Coimbatore",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "mid",
+  "annual_tuition_usd": 1300,
+  "min_grade_pct": 62,
+  "requires_cs_background": true,
+  "english_requirement": false,
+  "placement_rate_pct": 77,
+  "median_starting_salary_usd": 10429,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0171",
+  "institution": "Halcyon Technical University",
+  "program": "MTech Computer Science",
+  "fields": [
+   "software_engineering"
+  ],
+  "city": "Chennai",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "mid",
+  "annual_tuition_usd": 1500,
+  "min_grade_pct": 59,
+  "requires_cs_background": true,
+  "english_requirement": false,
+  "placement_rate_pct": 75,
+  "median_starting_salary_usd": 10917,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0172",
+  "institution": "Quilon Technical University",
+  "program": "MSc IT Management",
+  "fields": [
+   "business_information_systems",
+   "it_management"
+  ],
+  "city": "Pune",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "mid",
+  "annual_tuition_usd": 2250,
+  "min_grade_pct": 62,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 66,
+  "median_starting_salary_usd": 8654,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0173",
+  "institution": "Longford Technical University",
+  "program": "MTech Computer Science",
+  "fields": [
+   "data_science_analytics",
+   "software_engineering"
+  ],
+  "city": "Bengaluru",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "budget",
+  "annual_tuition_usd": 500,
+  "min_grade_pct": 53,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 62,
+  "median_starting_salary_usd": 6851,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0174",
+  "institution": "Halcyon Institute of Applied Sciences",
+  "program": "MSc Human-Computer Interaction",
+  "fields": [
+   "design_hci"
+  ],
+  "city": "Delhi",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "strong",
+  "annual_tuition_usd": 1900,
+  "min_grade_pct": 71,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 84,
+  "median_starting_salary_usd": 14141,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0175",
+  "institution": "Fairfax School of Engineering",
+  "program": "MSc Information Security",
+  "fields": [
+   "cybersecurity"
+  ],
+  "city": "Delhi",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "mid",
+  "annual_tuition_usd": 1500,
+  "min_grade_pct": 61,
+  "requires_cs_background": true,
+  "english_requirement": false,
+  "placement_rate_pct": 70,
+  "median_starting_salary_usd": 11242,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0176",
+  "institution": "Crestwood University",
+  "program": "MBA Technology Management",
+  "fields": [
+   "it_management"
+  ],
+  "city": "Hyderabad",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "strong",
+  "annual_tuition_usd": 1900,
+  "min_grade_pct": 72,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 82,
+  "median_starting_salary_usd": 15400,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0177",
+  "institution": "Fairfax Technical University",
+  "program": "MSc Software Quality Engineering",
+  "fields": [
+   "qa_testing"
+  ],
+  "city": "Glasgow",
+  "country": "UK",
+  "region": "europe",
+  "tier": "budget",
+  "annual_tuition_usd": 10900,
+  "min_grade_pct": 56,
+  "requires_cs_background": false,
+  "english_requirement": true,
+  "placement_rate_pct": 67,
+  "median_starting_salary_usd": 17393,
+  "post_study_work_visa_months": 24
+ },
+ {
+  "program_id": "PR0178",
+  "institution": "Ashford Institute of Technology",
+  "program": "MSc Information Systems",
+  "fields": [
+   "business_information_systems"
+  ],
+  "city": "Toronto",
+  "country": "Canada",
+  "region": "north_america",
+  "tier": "budget",
+  "annual_tuition_usd": 9050,
+  "min_grade_pct": 57,
+  "requires_cs_background": false,
+  "english_requirement": true,
+  "placement_rate_pct": 57,
+  "median_starting_salary_usd": 24135,
+  "post_study_work_visa_months": 36
+ },
+ {
+  "program_id": "PR0179",
+  "institution": "Meridian Institute of Technology",
+  "program": "MSc Software Quality Engineering",
+  "fields": [
+   "qa_testing"
+  ],
+  "city": "Mumbai",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "mid",
+  "annual_tuition_usd": 1700,
+  "min_grade_pct": 63,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 78,
+  "median_starting_salary_usd": 8535,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0180",
+  "institution": "Braxton Institute of Technology",
+  "program": "MTech Computer Networks",
+  "fields": [
+   "networking_cloud"
+  ],
+  "city": "Pune",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "mid",
+  "annual_tuition_usd": 1250,
+  "min_grade_pct": 61,
+  "requires_cs_background": true,
+  "english_requirement": false,
+  "placement_rate_pct": 71,
+  "median_starting_salary_usd": 10359,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0181",
+  "institution": "Keystone Institute of Technology",
+  "program": "MSc Human-Computer Interaction",
+  "fields": [
+   "design_hci"
+  ],
+  "city": "Pune",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "mid",
+  "annual_tuition_usd": 850,
+  "min_grade_pct": 62,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 73,
+  "median_starting_salary_usd": 9715,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0182",
+  "institution": "Keystone Technical University",
+  "program": "MSc Software Quality Engineering",
+  "fields": [
+   "qa_testing"
+  ],
+  "city": "Pune",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "strong",
+  "annual_tuition_usd": 1950,
+  "min_grade_pct": 75,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 91,
+  "median_starting_salary_usd": 12865,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0183",
+  "institution": "Aravalli Institute of Technology",
+  "program": "MSc IT Management",
+  "fields": [
+   "it_management"
+  ],
+  "city": "Waterloo",
+  "country": "Canada",
+  "region": "north_america",
+  "tier": "mid",
+  "annual_tuition_usd": 21600,
+  "min_grade_pct": 61,
+  "requires_cs_background": false,
+  "english_requirement": true,
+  "placement_rate_pct": 68,
+  "median_starting_salary_usd": 39502,
+  "post_study_work_visa_months": 36
+ },
+ {
+  "program_id": "PR0184",
+  "institution": "Aravalli School of Engineering",
+  "program": "MSc Cloud Computing",
+  "fields": [
+   "networking_cloud"
+  ],
+  "city": "Delhi",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "budget",
+  "annual_tuition_usd": 950,
+  "min_grade_pct": 57,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 59,
+  "median_starting_salary_usd": 8153,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0185",
+  "institution": "Longford Institute of Technology",
+  "program": "MSc Information Security",
+  "fields": [
+   "cybersecurity",
+   "software_engineering"
+  ],
+  "city": "Kolkata",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "mid",
+  "annual_tuition_usd": 1150,
+  "min_grade_pct": 62,
+  "requires_cs_background": true,
+  "english_requirement": false,
+  "placement_rate_pct": 78,
+  "median_starting_salary_usd": 10850,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0186",
+  "institution": "Halcyon Institute of Technology",
+  "program": "MTech Computer Networks",
+  "fields": [
+   "networking_cloud",
+   "software_engineering"
+  ],
+  "city": "Pune",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "strong",
+  "annual_tuition_usd": 2050,
+  "min_grade_pct": 70,
+  "requires_cs_background": true,
+  "english_requirement": false,
+  "placement_rate_pct": 83,
+  "median_starting_salary_usd": 15192,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0187",
+  "institution": "Cavendish University",
+  "program": "PG Diploma in Systems Administration",
+  "fields": [
+   "it_support"
+  ],
+  "city": "Pune",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "strong",
+  "annual_tuition_usd": 1450,
+  "min_grade_pct": 72,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 87,
+  "median_starting_salary_usd": 12687,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0188",
+  "institution": "Meridian Technical University",
+  "program": "MSc IT Operations",
+  "fields": [
+   "it_support"
+  ],
+  "city": "Mumbai",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "mid",
+  "annual_tuition_usd": 1950,
+  "min_grade_pct": 60,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 72,
+  "median_starting_salary_usd": 11203,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0189",
+  "institution": "Ashford University",
+  "program": "MBA Technology Management",
+  "fields": [
+   "it_management"
+  ],
+  "city": "Mumbai",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "strong",
+  "annual_tuition_usd": 3350,
+  "min_grade_pct": 71,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 85,
+  "median_starting_salary_usd": 13059,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0190",
+  "institution": "Kestrel School of Engineering",
+  "program": "MSc Software Quality Engineering",
+  "fields": [
+   "qa_testing"
+  ],
+  "city": "Pune",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "budget",
+  "annual_tuition_usd": 1250,
+  "min_grade_pct": 58,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 64,
+  "median_starting_salary_usd": 7265,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0191",
+  "institution": "Sarayu Technical University",
+  "program": "MTech Data Engineering",
+  "fields": [
+   "business_information_systems",
+   "data_science_analytics"
+  ],
+  "city": "Chennai",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "strong",
+  "annual_tuition_usd": 3250,
+  "min_grade_pct": 71,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 84,
+  "median_starting_salary_usd": 15951,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0192",
+  "institution": "Westbrook Technical University",
+  "program": "MSc IT Operations",
+  "fields": [
+   "it_support"
+  ],
+  "city": "Boston",
+  "country": "USA",
+  "region": "north_america",
+  "tier": "budget",
+  "annual_tuition_usd": 24450,
+  "min_grade_pct": 53,
+  "requires_cs_background": false,
+  "english_requirement": true,
+  "placement_rate_pct": 66,
+  "median_starting_salary_usd": 47403,
+  "post_study_work_visa_months": 12
+ },
+ {
+  "program_id": "PR0193",
+  "institution": "Elmhurst Institute of Technology",
+  "program": "MSc Software Quality Engineering",
+  "fields": [
+   "qa_testing"
+  ],
+  "city": "Mumbai",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "mid",
+  "annual_tuition_usd": 1200,
+  "min_grade_pct": 60,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 72,
+  "median_starting_salary_usd": 10518,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0194",
+  "institution": "Aravalli School of Engineering",
+  "program": "MSc Cloud Computing",
+  "fields": [
+   "networking_cloud",
+   "software_engineering"
+  ],
+  "city": "Dresden",
+  "country": "Germany",
+  "region": "europe",
+  "tier": "mid",
+  "annual_tuition_usd": 1950,
+  "min_grade_pct": 65,
+  "requires_cs_background": true,
+  "english_requirement": true,
+  "placement_rate_pct": 67,
+  "median_starting_salary_usd": 30651,
+  "post_study_work_visa_months": 18
+ },
+ {
+  "program_id": "PR0195",
+  "institution": "Keystone School of Engineering",
+  "program": "MSc Information Systems",
+  "fields": [
+   "business_information_systems"
+  ],
+  "city": "Aachen",
+  "country": "Germany",
+  "region": "europe",
+  "tier": "strong",
+  "annual_tuition_usd": 300,
+  "min_grade_pct": 72,
+  "requires_cs_background": false,
+  "english_requirement": true,
+  "placement_rate_pct": 82,
+  "median_starting_salary_usd": 51059,
+  "post_study_work_visa_months": 18
+ },
+ {
+  "program_id": "PR0196",
+  "institution": "Elmhurst Institute of Applied Sciences",
+  "program": "MTech Computer Science",
+  "fields": [
+   "software_engineering"
+  ],
+  "city": "Hyderabad",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "mid",
+  "annual_tuition_usd": 1650,
+  "min_grade_pct": 63,
+  "requires_cs_background": true,
+  "english_requirement": false,
+  "placement_rate_pct": 70,
+  "median_starting_salary_usd": 10817,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0197",
+  "institution": "Ashford Institute of Technology",
+  "program": "MTech Computer Networks",
+  "fields": [
+   "networking_cloud"
+  ],
+  "city": "Chennai",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "strong",
+  "annual_tuition_usd": 3350,
+  "min_grade_pct": 71,
+  "requires_cs_background": true,
+  "english_requirement": false,
+  "placement_rate_pct": 85,
+  "median_starting_salary_usd": 13362,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0198",
+  "institution": "Northgate Institute of Technology",
+  "program": "MSc Software Quality Engineering",
+  "fields": [
+   "qa_testing",
+   "software_engineering"
+  ],
+  "city": "Bengaluru",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "elite",
+  "annual_tuition_usd": 3500,
+  "min_grade_pct": 80,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 95,
+  "median_starting_salary_usd": 21062,
+  "post_study_work_visa_months": 0
+ },
+ {
+  "program_id": "PR0199",
+  "institution": "Halcyon School of Engineering",
+  "program": "MTech Computer Networks",
+  "fields": [
+   "networking_cloud"
+  ],
+  "city": "Chennai",
+  "country": "India",
+  "region": "south_asia",
+  "tier": "strong",
+  "annual_tuition_usd": 2300,
+  "min_grade_pct": 74,
+  "requires_cs_background": false,
+  "english_requirement": false,
+  "placement_rate_pct": 79,
+  "median_starting_salary_usd": 12682,
+  "post_study_work_visa_months": 0
+ }
+]

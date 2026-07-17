@@ -1,0 +1,771 @@
+{
+ "summary": {
+  "model": "gemma4:e4b",
+  "started": "20260716_175556",
+  "wall_time_s": 754.6,
+  "profiles_run": 5,
+  "fatal_errors": 0,
+  "total_parse_failures": 0,
+  "total_hallucinated_ids": 0,
+  "total_budget_violations": 0,
+  "mean_call_latency_s": 30.2
+ },
+ "results": [
+  {
+   "profile_id": "P1_budget_constrained_high_achiever",
+   "steps": {
+    "profiling": {
+     "latency_s": 20.3,
+     "parse_ok": true,
+     "output": {
+      "academic_background": {
+       "degree": "BSc Computer Science",
+       "grade": "9.2/10 CGPA"
+      },
+      "career_goal": "machine learning engineer at a product company",
+      "budget_max_usd_per_year": 4000,
+      "location_preference": "western or southern India",
+      "mobility": "prefers_region",
+      "employability_priority": "high",
+      "other_constraints": [],
+      "uncertainty_notes": []
+     }
+    },
+    "retrieval": {
+     "latency_s": 45.3,
+     "parse_ok": true,
+     "output": {
+      "candidates": [
+       {
+        "kb_id": "KB01",
+        "why_relevant": "This program is located in Pune (Western India), which aligns with the location preference. The curriculum focuses on Data Science, directly relevant to a career goal of an ML Engineer. The cost ($1200) is well within the budget limit ($4000).",
+        "hard_constraint_check": {
+         "budget_ok": true,
+         "location_ok": true,
+         "admission_plausible": true
+        }
+       },
+       {
+        "kb_id": "KB02",
+        "why_relevant": "Located in Bengaluru (Southern India), matching the location preference. The program is highly relevant to CS/ML careers, and the placement rate (85%) and salary ($11000) are strong indicators of high employability priority. Tuition ($3800) is at the limit but acceptable.",
+        "hard_constraint_check": {
+         "budget_ok": true,
+         "location_ok": true,
+         "admission_plausible": true
+        }
+       },
+       {
+        "kb_id": "KB03",
+        "why_relevant": "This is an elite program (IIT Madras) with a strong focus on Data Science and AI, perfectly matching the career goal. It is located in Chennai (Southern India), meeting the location preference. The tuition ($2800) is within budget, and the placement rate/salary are excellent for employability.",
+        "hard_constraint_check": {
+         "budget_ok": true,
+         "location_ok": true,
+         "admission_plausible": true
+        }
+       },
+       {
+        "kb_id": "KB05",
+        "why_relevant": "Located in the Kolkata metro area (Eastern India), which is a reasonable alternative to Western/Southern India. The program focuses on Analytics, complementing the CS background and aiming for high employability. Tuition ($1500) is very low cost.",
+        "hard_constraint_check": {
+         "budget_ok": true,
+         "location_ok": false,
+         "admission_plausible": true
+        }
+       },
+       {
+        "kb_id": "KB07",
+        "why_relevant": "Located in Hyderabad (Southern India), matching the location preference. The program is highly affordable ($900) and focuses on advanced computing/research, which can be adapted for ML roles. It meets the budget constraint easily.",
+        "hard_constraint_check": {
+         "budget_ok": true,
+         "location_ok": true,
+         "admission_plausible": true
+        }
+       },
+       {
+        "kb_id": "KB12",
+        "why_relevant": "Located in Coimbatore (Southern India), matching the location preference. While focused on Cyber Security, it is a highly technical program with strong industry ties and low cost ($2400). It provides high employability skills relevant to ML infrastructure.",
+        "hard_constraint_check": {
+         "budget_ok": true,
+         "location_ok": true,
+         "admission_plausible": true
+        }
+       }
+      ]
+     }
+    },
+    "recommend": {
+     "latency_s": 33.6,
+     "parse_ok": true,
+     "output": {
+      "shortlist": [
+       {
+        "kb_id": "KB03",
+        "rank": 1,
+        "scores": {
+         "academic_fit": 10,
+         "financial_feasibility": 9,
+         "location_fit": 8,
+         "employability": 10
+        },
+        "tradeoff_note": "High competition/difficulty of admission (GATE required) is the main hurdle."
+       },
+       {
+        "kb_id": "KB02",
+        "rank": 2,
+        "scores": {
+         "academic_fit": 9,
+         "financial_feasibility": 8,
+         "location_fit": 10,
+         "employability": 9
+        },
+        "tradeoff_note": "Slightly higher tuition cost compared to the budget maximum, but excellent location fit."
+       },
+       {
+        "kb_id": "KB01",
+        "rank": 3,
+        "scores": {
+         "academic_fit": 9,
+         "financial_feasibility": 10,
+         "location_fit": 8,
+         "employability": 8
+        },
+        "tradeoff_note": "Lower placement salary potential compared to top-tier options, despite being highly affordable."
+       }
+      ]
+     }
+    },
+    "reflect": {
+     "latency_s": 37.7,
+     "parse_ok": true,
+     "output": {
+      "approved": false,
+      "violations_found": [
+       "KB02 violates the budget constraint: Annual tuition of $3800 exceeds the maximum allowed budget of $4000 (Wait, $3800 <= $4000. Re-evaluating this violation based on the actual numbers.)",
+       "The current shortlist is missing a strong contender that better balances high employability and low cost while meeting location preferences."
+      ],
+      "revisions": [
+       {
+        "kb_id": "KB03",
+        "action": "keep",
+        "reason": "Despite the difficulty (GATE), its superior employability score and top-tier status make it essential for a student aiming for ML roles at product companies, provided they meet the prerequisite."
+       },
+       {
+        "kb_id": "KB02",
+        "action": "swap_in",
+        "reason": "While KB03 is best, KB02 offers an excellent balance of high employability (Bengaluru tech hub) and strong location fit (Western India), and it remains within the budget."
+       },
+       {
+        "kb_id": "KB12",
+        "action": "swap_in",
+        "reason": "KB12 is a highly affordable option in Southern India (Coimbatore). It offers good employability potential ($10k salary) and meets the location preference, providing a strong alternative to KB01."
+       }
+      ],
+      "final_shortlist": [
+       "KB03",
+       "KB02",
+       "KB12"
+      ],
+      "reflection_note": "The original shortlist was acceptable but missed the opportunity to include a strong, affordable option from Southern India (KB12). KB03 remains the top choice due to its unmatched employability potential for ML roles. KB02 is retained as the best balance of location and industry reputation in Western India. KB12 provides a necessary third option that meets all hard constraints (budget, location) while offering solid career prospects, making it superior to KB01."
+     }
+    },
+    "explain": {
+     "latency_s": 21.0,
+     "parse_ok": true,
+     "output": "IIT Madras\nThis program is highly recommended because its focus on \"Data Science and AI\" directly aligns with your goal of becoming a Machine Learning Engineer. It is located in Chennai, which satisfies your preference for Southern India, and the annual tuition of $2800 USD remains well within your maximum budget. Furthermore, it offers top-tier employability metrics, boasting a 94% placement rate and a median starting salary of $22000 USD, making it an excellent fit for your high priority on career outcomes.\n\nCHRIST (Deemed to be University)\nThis option is suitable because its location in Bengaluru fits your regional preference, and the annual tuition of $3800 USD adheres to your budget constraint. The program provides a strong foundation with a focus on software engineering and boasts an 85% placement rate. While it may not specialize as deeply in AI as other options, it offers good employability potential within the highly desirable Bengaluru tech ecosystem.\n\nAmrita Vishwa Vidyapeetham\nThis university is recommended primarily because its location in Coimbatore satisfies your preference for Southern India, and its annual tuition of $2400 USD is the most budget-friendly option available. However, note that this program specializes in Cyber Security, which deviates from your stated goal of becoming an ML Engineer. Despite this specialization mismatch, it still offers a solid placement rate of 82% while remaining within all your financial and geographical constraints."
+    }
+   },
+   "checks": {
+    "hallucinated_kb_ids": [],
+    "final_shortlist_size": 3,
+    "budget_violations_in_final": [],
+    "json_parse_failures": []
+   }
+  },
+  {
+   "profile_id": "P2_location_locked",
+   "steps": {
+    "profiling": {
+     "latency_s": 12.7,
+     "parse_ok": true,
+     "output": {
+      "academic_background": {
+       "degree": "BCom",
+       "grade": "71%"
+      },
+      "career_goal": "Data analytics or business analytics roles in banking",
+      "budget_max_usd_per_year": 6000,
+      "location_preference": "Kolkata",
+      "mobility": "fixed_city",
+      "employability_priority": "high",
+      "other_constraints": [
+       "Must stay in or very near Kolkata due to caregiving responsibilities for grandmother"
+      ],
+      "uncertainty_notes": []
+     }
+    },
+    "retrieval": {
+     "latency_s": 21.9,
+     "parse_ok": true,
+     "output": {
+      "candidates": [
+       {
+        "kb_id": "KB04",
+        "why_relevant": "This program is located in Kolkata and focuses on Big Data Analytics, which aligns perfectly with the student's career goal (Data/Business Analytics). It also has strong ties to the banking sector, matching the industry preference.",
+        "hard_constraint_check": {
+         "budget_ok": true,
+         "location_ok": true,
+         "admission_plausible": true
+        }
+       },
+       {
+        "kb_id": "KB05",
+        "why_relevant": "This program is located in Howrah (Kolkata metro area), satisfying the location constraint. It offers an MCA with Analytics specialization, which directly addresses the student's interest in business/data analytics.",
+        "hard_constraint_check": {
+         "budget_ok": true,
+         "location_ok": true,
+         "admission_plausible": true
+        }
+       }
+      ]
+     }
+    },
+    "recommend": {
+     "latency_s": 29.9,
+     "parse_ok": true,
+     "output": {
+      "shortlist": [
+       {
+        "kb_id": "KB04",
+        "rank": 1,
+        "scores": {
+         "academic_fit": 9,
+         "financial_feasibility": 8,
+         "location_fit": 10,
+         "employability": 9
+        },
+        "tradeoff_note": "Excellent fit overall; the only minor conflict is that a BCom background might require bridging quantitative skills for optimal performance."
+       },
+       {
+        "kb_id": "KB05",
+        "rank": 2,
+        "scores": {
+         "academic_fit": 7,
+         "financial_feasibility": 10,
+         "location_fit": 9,
+         "employability": 8
+        },
+        "tradeoff_note": "Very strong on cost and location. The main conflict is that the MCA program might be too technically focused (requiring a stronger math background than BCom provides) compared to KB04's business focus."
+       }
+      ]
+     }
+    },
+    "reflect": {
+     "latency_s": 28.6,
+     "parse_ok": true,
+     "output": {
+      "approved": true,
+      "violations_found": [],
+      "revisions": [
+       {
+        "kb_id": "KB05",
+        "action": "swap_in",
+        "reason": "While KB05 is highly affordable and located in the Kolkata metro area, its requirement for a strong mathematics background (MCA) poses a higher academic risk given the student's BCom degree compared to KB04. However, since KB04 is already ranked 1st and meets all hard constraints better, we should keep it. The primary revision here is recognizing that both are good options, but KB04 aligns better with the 'business analytics' goal while respecting the academic background."
+       }
+      ],
+      "final_shortlist": [
+       "KB04",
+       "KB05"
+      ],
+      "reflection_note": "The current shortlist (KB04, KB05) is excellent. Both options respect the hard constraints: Kolkata location and budget (both are well under $6000/year). KB04 is superior because its curriculum explicitly mentions 'finance electives' and has strong banking sector ties, aligning perfectly with the student's goal of 'business analytics in banking.' Although KB05 is cheaper and has a higher placement rate, its focus on MCA (requiring stronger math) creates an academic mismatch risk compared to KB04. Since both are viable and fit the constraints, they should both be presented, but the ranking must prioritize KB04 due to its superior alignment with career goals and background."
+     }
+    },
+    "explain": {
+     "latency_s": 16.5,
+     "parse_ok": true,
+     "output": "St. Xavier's University Kolkata\nThis program is highly recommended because it perfectly aligns with your career goal of working in banking analytics while respecting your fixed location constraint, as it is located directly in Kolkata. The curriculum specifically offers an analytics focus alongside finance electives and boasts strong ties to the banking sector. Furthermore, the annual tuition of $2200 falls well within your maximum budget of $6000, and your academic background (BCom 71%) meets the admission criteria.\n\nIIEST Shibpur\nThis option is recommended because it provides a highly affordable pathway ($1500 annual tuition) while maintaining proximity to Kolkata in the Howrah metro area. It addresses your priority for high employability with an impressive placement rate of 80% and a strong median starting salary of $9000. The program's public institute status keeps costs low, making it ideal for staying within your budget constraints near your required location."
+    }
+   },
+   "checks": {
+    "hallucinated_kb_ids": [],
+    "final_shortlist_size": 2,
+    "budget_violations_in_final": [],
+    "json_parse_failures": []
+   }
+  },
+  {
+   "profile_id": "P3_career_switcher",
+   "steps": {
+    "profiling": {
+     "latency_s": 12.3,
+     "parse_ok": true,
+     "output": {
+      "academic_background": {
+       "degree": "BSc Zoology",
+       "grade": "7.8 CGPA"
+      },
+      "career_goal": "Bioinformatics or health-data science",
+      "budget_max_usd_per_year": 15000,
+      "location_preference": null,
+      "mobility": "open_international",
+      "employability_priority": "high",
+      "other_constraints": [
+       "Interest in health-tech sector"
+      ],
+      "uncertainty_notes": []
+     }
+    },
+    "retrieval": {
+     "latency_s": 47.4,
+     "parse_ok": true,
+     "output": {
+      "candidates": [
+       {
+        "kb_id": "KB11",
+        "why_relevant": "This program is highly relevant as it directly matches the career goal (Health Data Science) and interest in health-tech. The admission requirements are suitable for a BSc Zoology background, and the UK location offers international mobility.",
+        "hard_constraint_check": {
+         "budget_ok": true,
+         "location_ok": false,
+         "admission_plausible": true
+        }
+       },
+       {
+        "kb_id": "KB07",
+        "why_relevant": "This program is highly relevant due to its focus on Bioinformatics and the location (Hyderabad) being a major health-tech cluster. It accepts life sciences graduates, matching the student's BSc Zoology background.",
+        "hard_constraint_check": {
+         "budget_ok": true,
+         "location_ok": false,
+         "admission_plausible": true
+        }
+       },
+       {
+        "kb_id": "KB06",
+        "why_relevant": "This program is directly related to the student's background (BSc in life sciences) and career goal (Bioinformatics). It has an established lab and accepts life-science graduates.",
+        "hard_constraint_check": {
+         "budget_ok": true,
+         "location_ok": false,
+         "admission_plausible": true
+        }
+       },
+       {
+        "kb_id": "KB08",
+        "why_relevant": "This is an excellent international option (Germany) with low tuition and a strong focus on Informatics/Data Science. The high GPA requirement (>= 8.0/10 equivalent) is the main hurdle, but it's worth considering for its career prospects and post-study visa.",
+        "hard_constraint_check": {
+         "budget_ok": true,
+         "location_ok": false,
+         "admission_plausible": false
+        }
+       },
+       {
+        "kb_id": "KB09",
+        "why_relevant": "This program is international (Netherlands) and focuses on Big Data/Data Science, aligning with the career goal. While expensive, it offers a strong tech location and post-study visa.",
+        "hard_constraint_check": {
+         "budget_ok": false,
+         "location_ok": false,
+         "admission_plausible": true
+        }
+       },
+       {
+        "kb_id": "KB01",
+        "why_relevant": "This is a low-cost domestic option that offers Data Science training and strong placement in the IT hub (Pune). It's a solid fallback if international options are too difficult or expensive.",
+        "hard_constraint_check": {
+         "budget_ok": true,
+         "location_ok": false,
+         "admission_plausible": true
+        }
+       }
+      ]
+     }
+    },
+    "recommend": {
+     "latency_s": 46.1,
+     "parse_ok": true,
+     "output": {
+      "shortlist": [
+       {
+        "kb_id": "KB11",
+        "rank": 1,
+        "scores": {
+         "academic_fit": 9,
+         "financial_feasibility": 8,
+         "location_fit": 7,
+         "employability": 10
+        },
+        "tradeoff_note": "High cost compared to Indian options, but excellent fit for career switchers from biology."
+       },
+       {
+        "kb_id": "KB08",
+        "rank": 2,
+        "scores": {
+         "academic_fit": 7,
+         "financial_feasibility": 10,
+         "location_fit": 9,
+         "employability": 9
+        },
+        "tradeoff_note": "Requires a stronger CS background than ideal (BSc Zoology), but the low cost and high employability make it exceptional."
+       },
+       {
+        "kb_id": "KB09",
+        "rank": 3,
+        "scores": {
+         "academic_fit": 7,
+         "financial_feasibility": 5,
+         "location_fit": 8,
+         "employability": 8
+        },
+        "tradeoff_note": "Exceeds the budget limit significantly ($17500), but offers a strong international data science focus."
+       }
+      ]
+     }
+    },
+    "reflect": {
+     "latency_s": 37.4,
+     "parse_ok": true,
+     "output": {
+      "approved": true,
+      "violations_found": [
+       "KB09 violates the maximum budget constraint ($17500 > $15000)."
+      ],
+      "revisions": [
+       {
+        "kb_id": "KB09",
+        "action": "drop",
+        "reason": "Exceeds the hard budget limit of $15,000 USD per year."
+       },
+       {
+        "kb_id": "KB07",
+        "action": "swap_in",
+        "reason": "Offers a very low cost (900 USD) and strong health-tech focus in India, providing an excellent budget-friendly alternative to the international options."
+       }
+      ],
+      "final_shortlist": [
+       "KB11",
+       "KB08",
+       "KB07"
+      ],
+      "reflection_note": "The original shortlist was flawed because KB09 violated the hard budget constraint. I dropped it and replaced it with KB07, which is a strong, low-cost option that aligns well with the student's interest in health-tech/bioinformatics while respecting the strict $15,000 budget limit. The final list prioritizes international opportunities (KB11, KB08) due to the 'open_international' mobility preference and high employability focus, balanced by a strong domestic backup option (KB07)."
+     }
+    },
+    "explain": {
+     "latency_s": 24.6,
+     "parse_ok": true,
+     "output": "University of Glasgow\nThis program is highly recommended because it perfectly aligns with your goal of working in health-data science and addresses your interest in the health-tech sector. The curriculum is specifically designed for career-switchers from biology or health backgrounds, making your BSc Zoology a strong foundation. Furthermore, the annual tuition of $14,000 USD fits within your budget constraint, and its strengths include NHS data partnerships and high health-tech employability. Graduates benefit from an 83% placement rate and can utilize the 2-year Graduate Route visa for post-study work in the UK.\n\nTechnical University of Munich (TUM)\nThis option is recommended due to its exceptional affordability ($300 annual tuition), which respects your budget, and its high employability priority, boasting a 92% placement rate and strong industry links. While it requires a strong CS background, this program offers excellent career prospects with a median starting salary of $62,000 USD and provides an 18-month post-study job-seeker visa in Germany. However, be aware that the admission criteria emphasize a strong CS bachelor's degree, which is different from your current Zoology background.\n\nUniversity of Hyderabad\nThis program is recommended for its very low cost ($900 annual tuition) and direct relevance to bioinformatics, matching your career goal while respecting your budget. The curriculum benefits from being located in the Hyderabad pharma/health-tech cluster, aligning with your sector interest. While it offers a strong genomics research focus, potential employers should note that this option is domestic only (no international post-study visa) and has a lower median starting salary compared to the other options."
+    }
+   },
+   "checks": {
+    "hallucinated_kb_ids": [],
+    "final_shortlist_size": 3,
+    "budget_violations_in_final": [],
+    "json_parse_failures": []
+   }
+  },
+  {
+   "profile_id": "P4_cold_start_vague",
+   "steps": {
+    "profiling": {
+     "latency_s": 21.1,
+     "parse_ok": true,
+     "output": {
+      "academic_background": {
+       "degree": "BCA",
+       "grade": "8.0"
+      },
+      "career_goal": "Tech (Cybersecurity or Game Development)",
+      "budget_max_usd_per_year": 2500,
+      "location_preference": null,
+      "mobility": "open_domestic",
+      "employability_priority": "medium",
+      "other_constraints": [],
+      "uncertainty_notes": [
+       "Unsure of specific career path (Cybersecurity vs. Game Development)"
+      ]
+     }
+    },
+    "retrieval": {
+     "latency_s": 54.0,
+     "parse_ok": true,
+     "output": {
+      "candidates": [
+       {
+        "kb_id": "KB01",
+        "why_relevant": "The program is low cost and located in Pune, a major IT hub. While focused on Data Science, the general tech focus and strong placement network are relevant for exploring cybersecurity or game development paths.",
+        "hard_constraint_check": {
+         "budget_ok": true,
+         "location_ok": false,
+         "admission_plausible": true
+        }
+       },
+       {
+        "kb_id": "KB05",
+        "why_relevant": "This program is highly affordable and located in the Kolkata metro area. The focus on analytics provides a strong foundational tech skill set that can be adapted to cybersecurity or game development.",
+        "hard_constraint_check": {
+         "budget_ok": true,
+         "location_ok": false,
+         "admission_plausible": true
+        }
+       },
+       {
+        "kb_id": "KB12",
+        "why_relevant": "This is the most directly relevant program for the 'Cybersecurity' career goal. It is also relatively low cost and located in India.",
+        "hard_constraint_check": {
+         "budget_ok": true,
+         "location_ok": false,
+         "admission_plausible": true
+        }
+       },
+       {
+        "kb_id": "KB08",
+        "why_relevant": "This program is highly relevant for a tech career goal and has an extremely low tuition cost. The strong academic reputation (TUM) and global focus make it excellent regardless of the specific specialization.",
+        "hard_constraint_check": {
+         "budget_ok": true,
+         "location_ok": false,
+         "admission_plausible": true
+        }
+       },
+       {
+        "kb_id": "KB02",
+        "why_relevant": "This is a strong general tech program in Bengaluru, which is a major IT hub. The MCA focus on software engineering provides excellent foundational skills applicable to both cybersecurity and game development.",
+        "hard_constraint_check": {
+         "budget_ok": false,
+         "location_ok": false,
+         "admission_plausible": true
+        }
+       },
+       {
+        "kb_id": "KB10",
+        "why_relevant": "This program is highly prestigious and offers a strong tech focus (Computer Science). The co-op culture and high placement rate are excellent for career development, despite the higher cost.",
+        "hard_constraint_check": {
+         "budget_ok": false,
+         "location_ok": false,
+         "admission_plausible": true
+        }
+       }
+      ]
+     }
+    },
+    "recommend": {
+     "latency_s": 46.7,
+     "parse_ok": true,
+     "output": {
+      "shortlist": [
+       {
+        "kb_id": "KB08",
+        "rank": 1,
+        "scores": {
+         "academic_fit": 9,
+         "financial_feasibility": 10,
+         "location_fit": 7,
+         "employability": 9
+        },
+        "tradeoff_note": "High opportunity cost/relocation risk (Germany vs. India)."
+       },
+       {
+        "kb_id": "KB12",
+        "rank": 2,
+        "scores": {
+         "academic_fit": 8,
+         "financial_feasibility": 9,
+         "location_fit": 7,
+         "employability": 8
+        },
+        "tradeoff_note": "Cybersecurity focus might limit exposure to Game Dev path."
+       },
+       {
+        "kb_id": "KB02",
+        "rank": 3,
+        "scores": {
+         "academic_fit": 7,
+         "financial_feasibility": 4,
+         "location_fit": 9,
+         "employability": 8
+        },
+        "tradeoff_note": "High tuition cost relative to budget constraint."
+       }
+      ]
+     }
+    },
+    "reflect": {
+     "latency_s": 40.6,
+     "parse_ok": true,
+     "output": {
+      "approved": false,
+      "violations_found": [
+       "KB02 violates the budget constraint (Annual tuition $3800 > Max Budget $2500)."
+      ],
+      "revisions": [
+       {
+        "kb_id": "KB01",
+        "action": "swap_in",
+        "reason": "KB01 is a strong, low-cost domestic option in the desired tech hub (Pune) and fits the budget perfectly. It should replace KB02 as it is significantly better."
+       },
+       {
+        "kb_id": "KB10",
+        "action": "swap_in",
+        "reason": "KB10 offers excellent global career prospects, high placement rates, and a strong co-op culture relevant to both Cybersecurity and Game Development. While tuition is high, the potential salary/career growth justifies its inclusion as a top international option."
+       }
+      ],
+      "final_shortlist": [
+       "KB08",
+       "KB12",
+       "KB05"
+      ],
+      "reflection_note": "The original shortlist was flawed because KB02 violated the hard budget constraint. I replaced it with KB01 (best domestic fit) and added KB10 to provide a high-ambition international option, making the final list: KB08 (Germany), KB12 (Cybersecurity focus/India), KB05 (General India). The new ranking prioritizes global opportunity (KB08), specialized tech track (KB12), and reliable domestic alternative (KB05)."
+     }
+    },
+    "explain": {
+     "latency_s": 24.2,
+     "parse_ok": true,
+     "output": "Technical University of Munich (TUM)\nThis program is recommended because it offers a top European Computer Science education while remaining highly affordable at an annual tuition cost of $300. Given your strong academic background (8.0 grade), you meet the admission requirement for this MSc Informatics program, and its focus on distributed systems aligns well with both Cybersecurity and Game Development goals. Furthermore, the high 92% placement rate, combined with a post-study work visa option in Germany, provides excellent long-term career opportunities that exceed your medium employability priority.\n\nAmrita Vishwa Vidyapeetham\nThis MTech Cyber Security program is a strong domestic fit because its curriculum directly addresses one of your potential career paths (Cybersecurity). The annual tuition of $2400 remains within your maximum budget, and the institution has dedicated strengths in security operations and CTF culture. With an 82% placement rate and a median starting salary of $10,000, this option provides focused training with strong industry links right here in India.\n\nIIEST Shibpur\nThis MCA program is recommended as a highly affordable domestic alternative, boasting a low annual tuition cost of $1500. While its specialization is Analytics, the solid placement record (80%) and public institute status make it an excellent choice for building general tech skills relevant to your career goals. This option provides strong foundational training in a Kolkata-metro location while keeping costs significantly lower than other international options."
+    }
+   },
+   "checks": {
+    "hallucinated_kb_ids": [],
+    "final_shortlist_size": 3,
+    "budget_violations_in_final": [],
+    "json_parse_failures": []
+   }
+  },
+  {
+   "profile_id": "P5_international_aspirant",
+   "steps": {
+    "profiling": {
+     "latency_s": 15.8,
+     "parse_ok": true,
+     "output": {
+      "academic_background": {
+       "degree": "BTech IT",
+       "grade": "8.6 CGPA"
+      },
+      "career_goal": "MS focused on cloud computing or distributed systems",
+      "budget_max_usd_per_year": 30000,
+      "location_preference": "Europe or Canada",
+      "mobility": "prefers_region",
+      "employability_priority": "high",
+      "other_constraints": [
+       "Must include a realistic shot at assistantships",
+       "Focus on post-study work visas"
+      ],
+      "uncertainty_notes": []
+     }
+    },
+    "retrieval": {
+     "latency_s": 35.9,
+     "parse_ok": true,
+     "output": {
+      "candidates": [
+       {
+        "kb_id": "KB08",
+        "why_relevant": "Located in Germany (Europe), which matches the location preference. The program is highly relevant to distributed systems and cloud computing, and TUM is a top-tier institution. It offers a strong post-study work visa path (18 months) and has low tuition costs ($300/year), making it budget-friendly. Its reputation also increases employability.",
+        "hard_constraint_check": {
+         "budget_ok": true,
+         "location_ok": true,
+         "admission_plausible": true
+        }
+       },
+       {
+        "kb_id": "KB09",
+        "why_relevant": "Located in the Netherlands (Europe), matching location preference. The program focuses on Big Data/CS and offers relevant electives (cloud/data engineering). It has a clear post-study work visa path (1 year) and is highly employable. While tuition is higher, it remains within the general budget range for international students.",
+        "hard_constraint_check": {
+         "budget_ok": true,
+         "location_ok": true,
+         "admission_plausible": true
+        }
+       },
+       {
+        "kb_id": "KB10",
+        "why_relevant": "Located in Canada, matching the location preference. The program is highly relevant to distributed systems and cloud computing (Co-op culture, research groups). It offers a clear post-study work visa path (3 years) and explicitly mentions TA/RA assistantships, addressing both key constraints (assistantships and post-study visas).",
+        "hard_constraint_check": {
+         "budget_ok": true,
+         "location_ok": true,
+         "admission_plausible": true
+        }
+       }
+      ]
+     }
+    },
+    "recommend": {
+     "latency_s": 28.1,
+     "parse_ok": true,
+     "output": {
+      "shortlist": [
+       {
+        "kb_id": "KB10",
+        "rank": 1,
+        "scores": {
+         "academic_fit": 9,
+         "financial_feasibility": 7,
+         "location_fit": 8,
+         "employability": 10
+        },
+        "tradeoff_note": "High cost and high tuition (near budget max) are offset by superior career outcomes and visa security."
+       },
+       {
+        "kb_id": "KB08",
+        "rank": 2,
+        "scores": {
+         "academic_fit": 10,
+         "financial_feasibility": 10,
+         "location_fit": 9,
+         "employability": 9
+        },
+        "tradeoff_note": "Excellent overall fit; the only minor conflict is that the program might require German language skills for full integration, though English tracks exist."
+       },
+       {
+        "kb_id": "KB09",
+        "rank": 3,
+        "scores": {
+         "academic_fit": 8,
+         "financial_feasibility": 7,
+         "location_fit": 8,
+         "employability": 7
+        },
+        "tradeoff_note": "Solid option in a desirable location, but the tuition is higher than ideal and the post-study visa duration is shorter compared to competitors."
+       }
+      ]
+     }
+    },
+    "reflect": {
+     "latency_s": 30.8,
+     "parse_ok": true,
+     "output": {
+      "approved": true,
+      "violations_found": [],
+      "revisions": [
+       {
+        "kb_id": "KB10",
+        "action": "keep",
+        "reason": "Excellent fit for location (Canada), high employability, and explicitly mentions TA/RA assistantships which addresses the 'realistic shot at assistantships' constraint."
+       },
+       {
+        "kb_id": "KB08",
+        "action": "keep",
+        "reason": "Best financial feasibility due to near-zero tuition (well under $30k budget) and strong academic/employability fit. The post-study visa is robust."
+       },
+       {
+        "kb_id": "KB09",
+        "action": "drop",
+        "reason": "While good, the 1-year post-study work visa (Netherlands) is significantly weaker than KB10's 3 years or KB08's robust German options. It also presents a higher risk regarding assistantships compared to the other two."
+       }
+      ],
+      "final_shortlist": [
+       "KB08",
+       "KB10",
+       "KB09"
+      ],
+      "reflection_note": "The initial ranking was slightly misleading. KB10 (Waterloo) is the strongest overall candidate due to its perfect alignment with co-op culture, high employability, and explicit mention of assistantships/RA opportunities, making it a top choice despite being at the budget limit. KB08 (TUM) offers unparalleled financial feasibility and academic rigor in Europe. KB09 was dropped because its post-study visa duration is too short compared to the other two options, which violates the 'Focus on post-study work visas' constraint more severely than the others."
+     }
+    },
+    "explain": {
+     "latency_s": 22.1,
+     "parse_ok": true,
+     "output": "**Technical University of Munich (TUM)**\nThis program is highly recommended due to its exceptional value and strong European focus, offering near-zero tuition fees while providing a top ranking in CS. The curriculum aligns well with your interest in distributed systems, given the department's specialized chairs and strong industry links. Furthermore, it meets your high employability priority with a 92% placement rate and provides an 18-month post-study job-seeker visa in Germany. This option keeps you well within your $30,000 annual budget while maximizing your chances for post-graduation employment.\n\n**University of Waterloo**\nThis university is an ideal fit because it directly addresses both your career goals and financial constraints. The program features strong research groups focused on distributed systems and cloud computing, and its co-op culture emphasizes high employability in the Toronto corridor tech market. Crucially, this option provides a realistic shot at assistantships (TA/RA) and offers up to a 3-year Post-Graduation Work Permit in Canada, maximizing your post-study work visa options while staying within budget.\n\n**University of Amsterdam**\nThis program is recommended as an affordable European alternative that specializes in relevant fields like Big Data and cloud engineering electives. At $17,500 USD annually, it keeps you comfortably under your maximum budget while providing a strong foundation in the Amsterdam tech scene. While its post-study visa is shorter (1 year), the program still offers good career alignment with data and cloud technologies, maintaining high relevance to your academic goals."
+    }
+   },
+   "checks": {
+    "hallucinated_kb_ids": [],
+    "final_shortlist_size": 3,
+    "budget_violations_in_final": [],
+    "json_parse_failures": []
+   }
+  }
+ ]
+}

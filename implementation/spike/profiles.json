@@ -1,0 +1,22 @@
+[
+  {
+    "id": "P1_budget_constrained_high_achiever",
+    "text": "I'm Ananya, 21, finishing my BSc Computer Science in Pune with a 9.2/10 CGPA. I want to become a machine learning engineer at a product company. My family can afford at most about USD 4,000 per year in tuition. I'd prefer to stay in India, ideally western or southern India, but I care most about actually getting a good job after graduation."
+  },
+  {
+    "id": "P2_location_locked",
+    "text": "I'm Rahul, 22, BCom graduate from Kolkata with 71%. I need to stay in or very near Kolkata because I help care for my grandmother. I want to move into data analytics or business analytics roles in banking. Budget is flexible up to around USD 6,000 a year, but leaving the city is not an option."
+  },
+  {
+    "id": "P3_career_switcher",
+    "text": "I'm Meera, 27, I've worked 4 years as a high-school biology teacher after my BSc Zoology (7.8 CGPA). I want to switch into bioinformatics or health-data science. I can spend up to USD 15,000 per year and I'm open to relocating anywhere, including abroad. Employability in the health-tech sector matters more to me than university prestige."
+  },
+  {
+    "id": "P4_cold_start_vague",
+    "text": "I'm Arjun, 20, second-year BCA student, CGPA around 8.0. Honestly I don't really know what I want to do — something in tech, maybe cybersecurity or maybe game development? Money is a real constraint, my family can pay about USD 2,500 a year at most. I've never talked to a counselor or used any of these tools before."
+  },
+  {
+    "id": "P5_international_aspirant",
+    "text": "I'm Fatima, 23, BTech IT from Hyderabad, 8.6 CGPA, with an IELTS score of 7.5 and two internships in cloud engineering. I want an MS abroad focused on cloud computing or distributed systems, budget up to USD 30,000 per year including a realistic shot at assistantships. Employment outcomes and post-study work visas matter a lot. I'd prefer Europe or Canada over the US."
+  }
+]

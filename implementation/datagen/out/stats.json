@@ -1,0 +1,16 @@
+{
+ "seed": 42,
+ "students": 300,
+ "programs": 200,
+ "qrel_pairs": 60000,
+ "grade_distribution": {
+  "0": 26246,
+  "1": 6624,
+  "2": 20505,
+  "3": 6625
+ },
+ "students_with_no_grade3": 11,
+ "h2_conflict_students": 162,
+ "cold_start_vague_students": 61,
+ "drift_students": 67
+}
