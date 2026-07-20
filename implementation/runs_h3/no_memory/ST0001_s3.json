@@ -1,0 +1,70 @@
+{
+ "student_id": "ST0001",
+ "session": 3,
+ "mode": "no_memory",
+ "version": 1,
+ "message": "Hi, I'm a student with a app development certification background. My overall academic average is 75.3% in an IT/computer-science degree. I'm interested in data engineering and testing. I want to become a Web Developer. My family can afford at most about USD 3200 per year. I live in Kolkata. I'm open to going abroad. Getting a good job after graduation matters more to me than anything else. About the earlier suggestions: I liked PR0126, PR0053.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 75.3
+  },
+  "career_goal": "Web Developer",
+  "budget_max_usd_per_year": 3200,
+  "location_preference": "Kolkata",
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in data engineering and testing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0198",
+  "PR0058",
+  "PR0053",
+  "PR0126",
+  "PR0026",
+  "PR0065",
+  "PR0019",
+  "PR0090",
+  "PR0145",
+  "PR0107",
+  "PR0008",
+  "PR0063",
+  "PR0142",
+  "PR0082",
+  "PR0052",
+  "PR0085",
+  "PR0173",
+  "PR0071",
+  "PR0051",
+  "PR0037"
+ ],
+ "retrieved_ids": [
+  "PR0053",
+  "PR0082",
+  "PR0052",
+  "PR0090",
+  "PR0173",
+  "PR0026",
+  "PR0126",
+  "PR0145"
+ ],
+ "proposed_shortlist": [
+  "PR0090",
+  "PR0053",
+  "PR0052"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0053",
+  "PR0145",
+  "PR0026"
+ ],
+ "reflection_note": "The initial shortlist contained a program (PR0090) that violated the hard budget constraint. PR0052 was dropped because its low employability score makes it suboptimal despite matching location and budget. I swapped in PR0026 (Data Engineering focus, high salary/placement) as a strong alternative to address the 'data engineering' interest while maintaining good financial feasibility. PR0145 is added as a solid backup option within budget constraints.",
+ "explanation": "Cavendish University\nThis program is highly recommended because it aligns perfectly with your location preference in Kolkata and addresses your interest in testing through its focus on Software Quality Engineering. The annual tuition of $1200 is well within your maximum budget of $3200, and your 75.3% grade exceeds the minimum requirement of 70%. While this program does not directly teach data engineering, it offers a strong placement rate of 86% and a median starting salary of $12,855, making it excellent for achieving high employability. The main trade-off here is that while it meets all your constraints, the curriculum focuses on QA testing rather than deep data engineering topics.\n\nSilverline Technical University\nThis program was recommended because its MTech Computer Science degree covers Data Analytics and Software Engineering, matching your stated interests in data engineering. Furthermore, the annual tuition of $2300 remains under your maximum budget of $3200, and you meet the minimum grade requirement of 60%. The primary trade-off is that this program is located in Coimbatore, which does not match your preferred location of Kolkata. Additionally, its placement rate (75%) and median starting salary ($10,057) are lower compared to other options on this list.\n\nNorthgate Technical University\nThis option was recommended because the MTech Data Engineering curriculum directly addresses your interest in data engineering while maintaining a high employability focus. The program offers the highest median starting salary of $13,385 and has a strong placement rate of 81%. However, the main trade-off is that its annual tuition of $3900 significantly exceeds your stated maximum budget of $3200.",
+ "wall_s": 200.5
+}

@@ -1,0 +1,42 @@
+{
+ "student_id": "ST0035",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 82.2% in an IT/computer-science degree. I'm interested in Management and Business process analyst. I want to become a Database Administrator. My family can afford at most about USD 2800 per year. I live in Bengaluru. I cannot leave my city. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 82.2
+  },
+  "career_goal": "Database Administrator",
+  "budget_max_usd_per_year": 2800,
+  "location_preference": "Bengaluru",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in Management and Business process analyst"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0087",
+  "PR0015",
+  "PR0173",
+  "PR0198",
+  "PR0073",
+  "PR0002",
+  "PR0013",
+  "PR0085"
+ ],
+ "final_shortlist": [
+  "PR0015",
+  "PR0073",
+  "PR0087",
+  "PR0002",
+  "PR0013"
+ ],
+ "explanation": "This program in Business Information Systems aligns perfectly with your interest in Management and Business Process Analysis. It has a high placement rate (78%) and a strong median starting salary ($9707), which addresses your priority of securing a good job after graduation.\n\nGiven your background in information security, this MTech Cyber Security program is the most direct and relevant specialization. It maintains a high placement rate (80%) and offers solid career growth potential, making it an excellent choice for job security.\n\nThe MSc Data Science program is highly relevant to modern IT roles like Database Administration and Business Analysis. It has a manageable tuition fee ($1200) and offers strong analytical skills that are valuable for career advancement in Bengaluru.\n\nMSc IT Operations is practical and directly related to maintaining databases and business systems. It has a decent placement rate (73%) and low tuition ($1700), making it a safe, job-focused option that fits your budget and location constraints.\n\nWhile focused on design, this HCI program provides strong business understanding (design thinking) which complements a career in Business Process Analysis. It has low tuition ($900) and is located in Bengaluru, making it budget-friendly and locally relevant.",
+ "wall_s": 35.0
+}

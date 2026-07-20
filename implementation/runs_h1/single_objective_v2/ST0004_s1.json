@@ -1,0 +1,72 @@
+{
+ "student_id": "ST0004",
+ "session": 1,
+ "mode": "single_objective",
+ "version": 2,
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 73.9% in an IT/computer-science degree. I'm interested in hacking and testing. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 6000 per year. I live in Pune. I cannot leave my city. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 73.9
+  },
+  "career_goal": "tech (interested in hacking and testing)",
+  "budget_max_usd_per_year": 6000,
+  "location_preference": "Pune",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "information security certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0182",
+  "PR0072",
+  "PR0019",
+  "PR0172",
+  "PR0190",
+  "PR0080",
+  "PR0186",
+  "PR0092",
+  "PR0187",
+  "PR0007",
+  "PR0158",
+  "PR0084",
+  "PR0078",
+  "PR0181",
+  "PR0046",
+  "PR0180",
+  "PR0045",
+  "PR0023",
+  "PR0025",
+  "PR0156"
+ ],
+ "retrieved_ids": [
+  "PR0045",
+  "PR0023",
+  "PR0182",
+  "PR0072",
+  "PR0190",
+  "PR0187",
+  "PR0158"
+ ],
+ "proposed_shortlist": [
+  "PR0045",
+  "PR0023",
+  "PR0182",
+  "PR0187"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0045",
+  "PR0023",
+  "PR0072",
+  "PR0190",
+  "PR0187"
+ ],
+ "reflection_note": "Dropped PR0182 due to a hard constraint violation (grade requirement 75% > 73.9%). Swapped in PR0072 and PR0190 as they are superior alternatives for the student's 'testing' interest compared to the original PR0182, while maintaining feasibility. The final list prioritizes InfoSec/Cybersecurity (PR0045, PR0023) followed by QA Testing options (PR0072, PR0190), and concludes with the general IT support option (PR0187).",
+ "explanation": "Braxton Technical University\nThis program is highly relevant because it focuses directly on Information Security, aligning with your interest in hacking and testing. It is a strong fit for your budget, requiring only $1450 annual tuition, which is well below your maximum of $6000. Admission is easily achievable as the minimum grade requirement (61%) is lower than your 73.9%. The main trade-off here is balancing its high relevance to InfoSec against a median starting salary ($10236) that is not the highest on this list.\n\nSilverline Technical University\nThis MTech Cyber Security program is recommended because it directly addresses your career goal in cybersecurity and fits perfectly within your budget with only $650 annual tuition. It also has a low admission barrier (min 57%) compared to some other options. The trade-off for this extremely low cost is that the median starting salary ($8376) and placement rate (70%) are among the lowest in the shortlist, potentially impacting your high employability priority.\n\nNorthgate Institute of Applied Sciences\nThis program is recommended because it focuses on Software Quality Engineering (QA Testing), which aligns well with your interest in testing and hacking. It offers excellent career prospects, boasting a high placement rate of 84% and a median starting salary of $13106. The primary trade-off is that its annual tuition ($2400) is higher than some other options on the list, though still within your budget.\n\nKestrel School of Engineering\nThis MSc Software Quality Engineering program provides excellent value with a low annual tuition of $1250, fitting comfortably within your budget. It also aligns well with your interest in testing and hacking. The main trade-off is that while it is cost-effective, its placement rate (64%) and median starting salary ($7265) are the lowest among all the QA options, potentially limiting your employability priority.\n\nCavendish University\nThis PG Diploma in Systems Administration was recommended because it offers the highest placement rate (87%), which strongly addresses your high employability priority. Furthermore, its minimum grade requirement (72%) is easily met by your 73.9% academic background. The main trade-off is that while highly employable, its focus on IT support is less directly aligned with your stated interest in hacking and testing compared to the dedicated cybersecurity or QA programs.",
+ "wall_s": 67.2
+}

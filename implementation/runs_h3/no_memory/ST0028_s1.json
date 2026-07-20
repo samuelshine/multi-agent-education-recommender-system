@@ -1,0 +1,75 @@
+{
+ "student_id": "ST0028",
+ "session": 1,
+ "mode": "no_memory",
+ "version": 1,
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 72.9% in an IT/computer-science degree. I'm interested in data engineering and security. I want to become a Software Engineer. My family can afford at most about USD 33700 per year.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 72.9
+  },
+  "career_goal": "Software Engineer",
+  "budget_max_usd_per_year": 33700,
+  "location_preference": null,
+  "mobility": "open_domestic",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in data engineering and security"
+  ],
+  "uncertainty_notes": [
+   "Location preference not stated.",
+   "Employability priority not stated."
+  ]
+ },
+ "prefilter_ids": [
+  "PR0058",
+  "PR0026",
+  "PR0090",
+  "PR0145",
+  "PR0107",
+  "PR0063",
+  "PR0173",
+  "PR0071",
+  "PR0191",
+  "PR0143",
+  "PR0186",
+  "PR0039",
+  "PR0053",
+  "PR0007",
+  "PR0158",
+  "PR0043",
+  "PR0109",
+  "PR0099",
+  "PR0076",
+  "PR0012"
+ ],
+ "retrieved_ids": [
+  "PR0026",
+  "PR0143",
+  "PR0186",
+  "PR0109",
+  "PR0099",
+  "PR0053",
+  "PR0145",
+  "PR0173"
+ ],
+ "proposed_shortlist": [
+  "PR0186",
+  "PR0145",
+  "PR0109",
+  "PR0026"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0186",
+  "PR0143",
+  "PR0026",
+  "PR0109"
+ ],
+ "reflection_note": "The original shortlist was solid but included PR0145, which has weak career indicators (low placement/salary). I dropped it and swapped in PR0143. This new list prioritizes programs with the best combination of high employability (placement rate/salary) while maintaining strong relevance to Data Engineering and Software Engineering, all within a manageable budget. The final ranking order reflects this improved balance.",
+ "explanation": "Halcyon Institute of Technology\nThis program is recommended because its focus on networking and cloud aligns well with a Software Engineer career path, while the low annual tuition of $2050 keeps it far within your budget. You meet the minimum grade requirement of 70%, and the curriculum supports both software engineering and networking interests. The main trade-off here is that despite offering a high median starting salary of $15,192, there are no post-study work visa options listed.\n\nFairfax Technical University\nThis MSc Data Science program was selected because it directly addresses your interest in data while maintaining strong employability metrics, boasting an 87% placement rate. Your current grade of 72.9% meets the minimum requirement of 72%, and the tuition cost of $2750 is well within your budget constraints. The trade-off to consider is that its median starting salary of $13,436 is slightly lower than some other options on this list.\n\nNorthgate Technical University\nThis MTech Data Engineering program is an excellent match because it directly targets your interest in data engineering and includes software engineering coursework. Although the tuition at $3900 is higher than other programs listed, it remains well under your maximum budget of $33,700 per year. The main trade-off is that this option has the highest annual tuition cost among the recommended schools, though it offers a strong median starting salary of $13,385.\n\nCrestwood Technical University\nThis MTech Computer Science program was recommended due to its extremely low annual tuition of $1550, making it highly budget-friendly while still providing core software engineering skills. You meet the required CS background and your grade is close to the minimum 73% requirement. The primary trade-off here is that this option offers a more general computer science focus compared to the specialized data or networking tracks available elsewhere on the list.",
+ "wall_s": 0.0
+}

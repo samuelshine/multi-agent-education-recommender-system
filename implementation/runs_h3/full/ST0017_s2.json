@@ -1,0 +1,68 @@
+{
+ "student_id": "ST0017",
+ "session": 2,
+ "mode": "full",
+ "version": 1,
+ "message": "Hi, I'm a student with a python certification background. My overall academic average is 74.4% in an IT/computer-science degree. I'm interested in hacking and Business process analyst. I want to become a CRM Technical Developer. My family can afford at most about USD 2400 per year. I live in Kolkata. I'd strongly prefer to stay near home, though I might consider elsewhere in India. About the earlier suggestions: I liked PR0143, PR0186.",
+ "memory_used": true,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 74.4
+  },
+  "career_goal": "CRM Technical Developer",
+  "budget_max_usd_per_year": 2400,
+  "location_preference": "Kolkata",
+  "mobility": "fixed_city",
+  "employability_priority": null,
+  "other_constraints": [
+   "python certification background",
+   "interested in hacking",
+   "interested in Business process analyst"
+  ],
+  "uncertainty_notes": [
+   "employability_priority: Not stated."
+  ]
+ },
+ "prefilter_ids": [
+  "PR0053",
+  "PR0012",
+  "PR0185",
+  "PR0150",
+  "PR0115",
+  "PR0125",
+  "PR0129",
+  "PR0008",
+  "PR0133",
+  "PR0032",
+  "PR0052",
+  "PR0066"
+ ],
+ "retrieved_ids": [
+  "PR0053",
+  "PR0012",
+  "PR0185",
+  "PR0150",
+  "PR0125",
+  "PR0129",
+  "PR0032",
+  "PR0052"
+ ],
+ "proposed_shortlist": [
+  "PR0185",
+  "PR0053",
+  "PR0125"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0185",
+  "PR0032",
+  "PR0129",
+  "PR0053",
+  "PR0150"
+ ],
+ "reflection_note": "The initial shortlist was too focused on QA/Testing (PR0053, PR0125) and missed opportunities for broader technical specialization. I kept PR0185 as the top choice due to its direct alignment with 'hacking' interests and strong financial fit. I swapped in PR0032 (MTech CS) and PR0129 (Data Science) because these offer more robust, high-demand technical skills that better serve a goal of becoming a CRM Technical Developer. PR0053 was kept as a fallback option due to its perfect location/budget fit, but it is ranked lower than the new additions. I also added PR0150 (MBA Tech Management) as a strategic alternative, recognizing that the student's interest in 'Business process analyst' suggests they might benefit from bridging technical skills with business acumen.",
+ "explanation": "Longford Institute of Technology\nThis program was recommended because its focus on \"cybersecurity\" aligns well with your stated interest in hacking while providing a strong technical foundation. It is highly affordable at an annual tuition of $1150 and boasts a solid placement rate of 78%. The main trade-off here is that the curriculum is very specialized in security, which might be narrower than the broader scope required for a CRM Technical Developer role.\n\nLongford School of Engineering\nThis MTech program offers deep technical knowledge through \"networking_cloud\" and \"software_engineering,\" making it suitable given your IT/CS background. It maintains an affordable tuition of $1200 and requires your CS background, which is a good fit for your academic profile. However, the primary trade-off is that this option has the lowest placement rate (61%) and median starting salary ($7871) among all recommended programs.\n\nWestbrook Technical University\nThis MSc Data Science program was suggested because data analytics skills are valuable for both CRM development and business process analysis. It remains budget-friendly with an annual tuition of $1200, and it requires your CS background. The main trade-off is that while the placement rate (67%) is decent, this option has the lowest median starting salary ($6936), which you should consider when weighing career goals.\n\nCavendish University\nThis program was recommended due to its excellent job prospects, boasting the highest placement rate of 86% and a high median starting salary of $12855. The tuition is affordable at $1200, and it does not require a CS background, offering flexibility. The main trade-off is that the curriculum focuses specifically on \"qa_testing,\" which may be less directly aligned with your interest in business process analysis compared to an MBA track.\n\nKestrel University\nThis MBA Technology Management program was recommended because its focus on \"it_management\" provides the ideal blend of technical knowledge and business understanding needed for a CRM Technical Developer role, addressing your interest in Business Process Analysis. It is flexible as it does not require a CS background, and offers a strong median starting salary of $11418. The main trade-off is that while highly relevant to your career goal, the tuition ($1950) is the highest among all options listed.",
+ "wall_s": 207.2
+}

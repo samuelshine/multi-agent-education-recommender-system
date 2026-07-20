@@ -1,0 +1,72 @@
+{
+ "student_id": "ST0014",
+ "session": 1,
+ "mode": "single_objective",
+ "message": "Hi, I'm a student with a full stack certification background. My overall academic average is 78.6% in an IT/computer-science degree. I'm interested in hacking and cloud computing. I want to become a Programmer Analyst. My family can afford at most about USD 7200 per year. I live in Bengaluru. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 78.6
+  },
+  "career_goal": "Programmer Analyst",
+  "budget_max_usd_per_year": 7200,
+  "location_preference": "Bengaluru",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in hacking and cloud computing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0186",
+  "PR0197",
+  "PR0043",
+  "PR0147",
+  "PR0096",
+  "PR0199",
+  "PR0118",
+  "PR0121",
+  "PR0148",
+  "PR0016",
+  "PR0102",
+  "PR0180",
+  "PR0162",
+  "PR0112",
+  "PR0159",
+  "PR0032",
+  "PR0184",
+  "PR0165",
+  "PR0117",
+  "PR0198"
+ ],
+ "retrieved_ids": [
+  "PR0198",
+  "PR0186",
+  "PR0197",
+  "PR0096",
+  "PR0148",
+  "PR0162",
+  "PR0180",
+  "PR0165"
+ ],
+ "proposed_shortlist": [
+  "PR0186",
+  "PR0197",
+  "PR0096",
+  "PR0148"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0186",
+  "PR0197",
+  "PR0180",
+  "PR0162",
+  "PR0165"
+ ],
+ "reflection_note": "The original shortlist was good but lacked diversity and missed better, more targeted options. I dropped PR0096 and PR0148 due to weaker career outcomes/location fit compared to alternatives. I kept PR0186 and PR0197 as they are strong matches for the core interests (networking/cloud) and location preference. To improve the list, I swapped in PR0180 (Pune, good cost, networking focus), PR0162 (Chennai, low tuition, cybersecurity focus), and PR0165 (Chennai, very low tuition, cloud focus). These additions provide better geographical coverage within preferred regions (Pune/Chennai) while maintaining high relevance to the student's interests (Cloud/Cybersecurity/Networking) and remaining well under budget. The final list prioritizes strong regional fit and direct technical alignment.",
+ "explanation": "Halcyon Institute of Technology\nThis program is recommended because it aligns well with your interests in cloud computing and hacking, offering both \"networking_cloud\" and \"software_engineering\" fields. It maintains a strong placement rate of 83% and offers a median starting salary of $15192, while keeping the annual tuition low at $2050, which is within your budget. The main trade-off here is that the location is Pune, rather than your preferred Bengaluru region.\n\nAshford Institute of Technology\nThis program was recommended due to its excellent placement rate of 85% and strong focus on \"networking_cloud,\" directly matching your interests. It also maintains a solid median starting salary of $13362 while keeping the tuition manageable at $3350, which is still under your maximum budget. The trade-off for this high employability is that its annual tuition ($3350) is higher than other options on this list.\n\nBraxton Institute of Technology\nThis option was highlighted because it offers the lowest tuition cost ($1250) while still providing relevant \"networking_cloud\" training, making it highly budget-friendly. It meets your academic requirements with a minimum grade percentage of 61% and is located in Pune. The main trade-off for this low cost is that its placement rate (71%) and median starting salary ($10359) are the lowest among the top-tier options.\n\nAravalli Institute of Applied Sciences\nThis program is highly recommended because it directly addresses your interest in hacking by offering \"cybersecurity\" alongside cloud computing, and its tuition is very low at $1150. It also has a minimum grade requirement (57%) that you easily exceed with your 78.6% background. The primary trade-off for this specialized field is the significantly lower placement rate of 68% and median starting salary of $7369 compared to other options.\n\nWestbrook Institute of Technology\nThis program was recommended as it has the lowest annual tuition ($550), making it extremely budget-safe while still covering \"networking_cloud\" skills. It is an excellent choice if minimizing cost is your absolute highest priority, and its admission requirement (54%) is easily met by your academic background. The major trade-off for this low cost is the very poor employability metrics, including a 59% placement rate and one of the lowest median starting salaries ($7845).",
+ "wall_s": 125.4
+}

@@ -1,0 +1,1189 @@
+{
+ "judge": "qwen2.5:14b",
+ "summary": {
+  "clarity": 3.38,
+  "groundedness": 3.64,
+  "usefulness": 2.37
+ },
+ "n": 100,
+ "results": [
+  {
+   "file": "ST0000_s1.json",
+   "student_id": "ST0000",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation is clear and structured but could be more specific about how each program aligns with the student's career goal of becoming a Solutions Architect. It does not mention trade-offs or limitations."
+  },
+  {
+   "file": "ST0001_s1.json",
+   "student_id": "ST0001",
+   "mode": "single_prompt",
+   "clarity": 3,
+   "groundedness": 2,
+   "usefulness": 2,
+   "invented_claims": [
+    "This German MCA program offers a strong career focus (data science/software engineering)",
+    "The tuition cost ($2050) fits within your family's budget",
+    "It has a high median starting salary ($34339)",
+    "While the tuition ($3900) exceeds your budget"
+   ],
+   "justification": "The explanation makes claims about multiple programs without clearly distinguishing between them, and includes invented facts not supported by the data."
+  },
+  {
+   "file": "ST0002_s1.json",
+   "student_id": "ST0002",
+   "mode": "single_prompt",
+   "clarity": 3,
+   "groundedness": 2,
+   "usefulness": 2,
+   "invented_claims": [
+    "This MSc Information Systems program in Bengaluru is highly relevant for your goal of becoming a Business Intelligence Analyst",
+    "The MBA Business Analytics program in Delhi directly targets your goal of becoming a BI Analyst"
+   ],
+   "justification": "The explanation introduces claims not supported by the data and confuses multiple programs, reducing clarity and groundedness. It also fails to address the student's specific interests and constraints effectively."
+  },
+  {
+   "file": "ST0003_s1.json",
+   "student_id": "ST0003",
+   "mode": "single_prompt",
+   "clarity": 3,
+   "groundedness": 4,
+   "usefulness": 2,
+   "invented_claims": [
+    "This program is located in Mumbai and focuses on Data Science, aligning with your interest in data engineering.",
+    "It has a strong placement rate (87%) and a solid median starting salary ($13436), making it highly relevant to your goal of securing good employment."
+   ],
+   "justification": "The explanation includes invented claims about the first program's alignment with student interests, which are not directly supported by provided data. The clarity is moderate due to some sentences being vague or repetitive, and usefulness is low because trade-offs are not clearly explained."
+  },
+  {
+   "file": "ST0004_s1.json",
+   "student_id": "ST0004",
+   "mode": "single_prompt",
+   "clarity": 3,
+   "groundedness": 2,
+   "usefulness": 2,
+   "invented_claims": [
+    "This program directly aligns with your background in information security",
+    "While focused on QA testing, this program is a strong fit because quality assurance often involves penetration testing and security validation"
+   ],
+   "justification": "The explanation includes invented claims about the relevance of programs to the student's background and interests, lacks specificity regarding which programs are being discussed for each point, and does not clearly differentiate between the recommended options."
+  },
+  {
+   "file": "ST0005_s1.json",
+   "student_id": "ST0005",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation is clear but could be more structured to highlight trade-offs between programs."
+  },
+  {
+   "file": "ST0006_s1.json",
+   "student_id": "ST0006",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 3,
+   "usefulness": 3,
+   "invented_claims": [
+    "you have an ML certification background"
+   ],
+   "justification": "The explanation provides clear and structured information about each program but introduces an invented claim regarding the student's background. The usefulness is moderate as it does not fully address all constraints or trade-offs."
+  },
+  {
+   "file": "ST0007_s1.json",
+   "student_id": "ST0007",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation is clear and grounded but does not fully address the student's specific interests in data engineering and security or mention trade-offs between programs."
+  },
+  {
+   "file": "ST0008_s1.json",
+   "student_id": "ST0008",
+   "mode": "single_prompt",
+   "clarity": 3,
+   "groundedness": 2,
+   "usefulness": 2,
+   "invented_claims": [
+    "This program is ideal because it focuses on HCI/UX Design",
+    "Crucially, it is located in Bengaluru, minimizing relocation stress and maximizing job prospects near home"
+   ],
+   "justification": "The explanation contains invented claims about specific programs being ideal or located in Bengaluru. It also lacks specificity regarding which programs are being referred to for each statement."
+  },
+  {
+   "file": "ST0009_s1.json",
+   "student_id": "ST0009",
+   "mode": "single_prompt",
+   "clarity": 3,
+   "groundedness": 5,
+   "usefulness": 2,
+   "invented_claims": [],
+   "justification": "The explanation is somewhat clear but lacks specificity and structure. It is grounded in the data provided but does not effectively address all student constraints or provide a balanced view of trade-offs."
+  },
+  {
+   "file": "ST0010_s1.json",
+   "student_id": "ST0010",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 3,
+   "usefulness": 3,
+   "invented_claims": [
+    "Given your full-stack background"
+   ],
+   "justification": "The explanation includes invented claims about the student's background and makes broad statements without specific details that could be misleading."
+  },
+  {
+   "file": "ST0011_s1.json",
+   "student_id": "ST0011",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 3,
+   "usefulness": 2,
+   "invented_claims": [
+    "This MTech Computer Science program is located in Pune, which strongly aligns with your preference to stay near home.",
+    "Located in Pune, this MTech Computer Networks program is highly relevant to your interest in technical fields and requires a CS background."
+   ],
+   "justification": "The explanation makes some invented claims about the location of programs that do not match the student's stated preference for staying in Pune. It also lacks specificity regarding how each program aligns with the student's interests and constraints, reducing its usefulness."
+  },
+  {
+   "file": "ST0012_s1.json",
+   "student_id": "ST0012",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation is clear but could be more specific about the trade-offs between programs."
+  },
+  {
+   "file": "ST0013_s1.json",
+   "student_id": "ST0013",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation is clear and structured but could be more useful by discussing trade-offs between different programs."
+  },
+  {
+   "file": "ST0014_s1.json",
+   "student_id": "ST0014",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation provides clear and specific information about each program but does not adequately highlight trade-offs or the relevance of each program's fields to the student's career goal."
+  },
+  {
+   "file": "ST0015_s1.json",
+   "student_id": "ST0015",
+   "mode": "single_prompt",
+   "clarity": 3,
+   "groundedness": 2,
+   "usefulness": 2,
+   "invented_claims": [
+    "This MBA Technology Management program is located in Hyderabad and has a very low tuition cost (USD 1250)."
+   ],
+   "justification": "The explanation contains factual errors such as incorrect tuition costs for the Crestwood University MBA program. The clarity and usefulness are moderately good but suffer from these inaccuracies."
+  },
+  {
+   "file": "ST0016_s1.json",
+   "student_id": "ST0016",
+   "mode": "single_prompt",
+   "clarity": 3,
+   "groundedness": 4,
+   "usefulness": 2,
+   "invented_claims": [
+    "This MSc IT Operations program has low tuition (USD 450) and is suitable for your interest in system development.",
+    "While slightly higher in tuition than other options, this MBA Business Analytics program in Germany offers a strong career focus"
+   ],
+   "justification": "The explanation provides some relevant information but includes invented claims about the suitability of programs to the student's interests and makes comparisons that are not grounded in the provided data."
+  },
+  {
+   "file": "ST0017_s1.json",
+   "student_id": "ST0017",
+   "mode": "single_prompt",
+   "clarity": 3,
+   "groundedness": 4,
+   "usefulness": 2,
+   "invented_claims": [
+    "This program in Hyderabad offers a strong median starting salary (USD 15400) and focuses on IT Management, which aligns well with your goal of becoming a CRM Technical Developer."
+   ],
+   "justification": "The explanation is somewhat clear but repetitive and lacks specificity. It includes an invented claim about the first program's alignment with the student's career goal without evidence from provided data fields or constraints."
+  },
+  {
+   "file": "ST0018_s1.json",
+   "student_id": "ST0018",
+   "mode": "single_prompt",
+   "clarity": 2,
+   "groundedness": 1,
+   "usefulness": 2,
+   "invented_claims": [
+    "This German program in HCI is an excellent fit because it aligns with your interest in Design & UX while offering a very low tuition fee ($550) and strong job prospects (78% placement rate, $39k salary). The low cost makes it highly feasible within your budget, and the post-study work visa provides good career security.",
+    "Located in Germany, this program offers a very low tuition cost ($300) and is relevant to your goal of becoming a UX/Design professional through Information Systems. It meets the budget constraint easily and provides an extended post-study work visa (18 months), which strongly supports your priority of getting a good job after graduation."
+   ],
+   "justification": "The explanation contains multiple invented claims that do not match the provided program data, making it unclear and ungrounded."
+  },
+  {
+   "file": "ST0019_s1.json",
+   "student_id": "ST0019",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation clearly outlines each program's key features but could be more useful by highlighting trade-offs and aligning programs with the student's specific career goal of becoming a Database Manager."
+  },
+  {
+   "file": "ST0020_s1.json",
+   "student_id": "ST0020",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation is clear and grounded in the provided data but does not adequately highlight trade-offs or prioritize options to help the student decide."
+  },
+  {
+   "file": "ST0021_s1.json",
+   "student_id": "ST0021",
+   "mode": "single_prompt",
+   "clarity": 3,
+   "groundedness": 2,
+   "usefulness": 2,
+   "invented_claims": [
+    "This program offers the highest median starting salary among all options",
+    "Located in Kolkata, this program offers excellent placement (86%) and a high median salary.",
+    "It is a practical choice that fits your technical engineering goal.",
+    "This MBA Technology Management program combines IT management with software engineering"
+   ],
+   "justification": "The explanation makes several claims not supported by the data provided, such as highest salaries or specific city locations. It also lacks specificity in how each program aligns with the student's career goals and constraints."
+  },
+  {
+   "file": "ST0022_s1.json",
+   "student_id": "ST0022",
+   "mode": "single_prompt",
+   "clarity": 3,
+   "groundedness": 4,
+   "usefulness": 2,
+   "invented_claims": [
+    "This student has an information security background"
+   ],
+   "justification": "The explanation is somewhat clear but contains invented claims and lacks specificity in some areas; it also does not adequately address the trade-offs between programs."
+  },
+  {
+   "file": "ST0023_s1.json",
+   "student_id": "ST0023",
+   "mode": "single_prompt",
+   "clarity": 2,
+   "groundedness": 2,
+   "usefulness": 1,
+   "invented_claims": [
+    "This German program offers a low tuition fee (USD 1950) and strong career prospects with an 18-month post-study work visa. It aligns perfectly with your interest in Cloud Computing and Software Engineering while respecting your budget.",
+    "Located in Canada, this program provides a high earning potential (USD 29138) and an excellent 36-month post-study work visa. It is highly relevant to Software Engineering and Cloud Computing, making it ideal for maximizing job opportunities abroad.",
+    "This German MCA program has a low tuition cost (USD 2050) and offers an 18-month post-study work visa. It covers Software Engineering and Data Analytics, making it a strong choice for aspiring Data Architects while staying within budget."
+   ],
+   "justification": "The explanation incorrectly attributes multiple programs to the same description, leading to confusion and misrepresentation of program details."
+  },
+  {
+   "file": "ST0024_s1.json",
+   "student_id": "ST0024",
+   "mode": "single_prompt",
+   "clarity": 3,
+   "groundedness": 4,
+   "usefulness": 2,
+   "invented_claims": [
+    "This MTech in Computer Science offers a strong core curriculum for applications development",
+    "The field of QA testing provides valuable exposure to application development lifecycles"
+   ],
+   "justification": "Explanation is somewhat clear but includes invented claims and lacks specificity regarding how each program aligns with the student's career goals. Groundedness is compromised by these inventions, and usefulness is limited due to lack of detailed comparisons and trade-offs."
+  },
+  {
+   "file": "ST0025_s1.json",
+   "student_id": "ST0025",
+   "mode": "single_prompt",
+   "clarity": 3,
+   "groundedness": 4,
+   "usefulness": 2,
+   "invented_claims": [
+    "This German MCA program in Berlin is highly recommended because it aligns with your goal of becoming a Software Engineer and offers a strong post-study work visa (18 months). The low tuition fee ($2650) also fits well within your family's budget constraint."
+   ],
+   "justification": "The explanation includes invented claims about the student's budget constraints and makes overly broad recommendations without considering all aspects of each program."
+  },
+  {
+   "file": "ST0026_s1.json",
+   "student_id": "ST0026",
+   "mode": "single_prompt",
+   "clarity": 3,
+   "groundedness": 5,
+   "usefulness": 2,
+   "invented_claims": [],
+   "justification": "The explanation is somewhat clear but lacks specificity in linking each program to the student's career goal directly and does not adequately highlight trade-offs between programs."
+  },
+  {
+   "file": "ST0027_s1.json",
+   "student_id": "ST0027",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [
+    "This German MSc Cloud Computing program aligns with modern tech trends (IOT/Cloud)"
+   ],
+   "justification": "The explanation is mostly clear and grounded but includes an invented claim about the cloud computing program's alignment with IoT. It provides some useful information but could better highlight trade-offs between programs."
+  },
+  {
+   "file": "ST0028_s1.json",
+   "student_id": "ST0028",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation clearly outlines each program's alignment with the student's goals and budget but lacks detailed comparisons of trade-offs between programs."
+  },
+  {
+   "file": "ST0029_s1.json",
+   "student_id": "ST0029",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 1,
+   "usefulness": 2,
+   "invented_claims": [
+    "If you prefer to stay in India",
+    "this MBA Business Analytics program in Aachen (Germany) is a strong contender"
+   ],
+   "justification": "The explanation includes invented claims about staying in India and the relevance of an international program for Indian preferences. The clarity is moderate due to mixed locations, but it does provide tuition costs and placement rates which are relevant fields."
+  },
+  {
+   "file": "ST0030_s1.json",
+   "student_id": "ST0030",
+   "mode": "single_prompt",
+   "clarity": 3,
+   "groundedness": 2,
+   "usefulness": 2,
+   "invented_claims": [
+    "This MTech Cyber Security program directly aligns with your interest in security and is located in Chennai. While the median starting salary is lower, it provides specialized knowledge that complements your r programming background.",
+    "Although focused on Data Engineering, this program offers high job prospects with a median starting salary of $15,951 and is located in Chennai. It utilizes your quantitative skills from r programming."
+   ],
+   "justification": "The explanation contains invented claims about the student's interest in 'r programming' and how it relates to specific programs, which are not mentioned in the constraints or provided program data."
+  },
+  {
+   "file": "ST0031_s1.json",
+   "student_id": "ST0031",
+   "mode": "single_prompt",
+   "clarity": 3,
+   "groundedness": 4,
+   "usefulness": 2,
+   "invented_claims": [
+    "This program is ideal as it is located in Delhi, meeting your strong preference to stay near home"
+   ],
+   "justification": "The explanation is somewhat clear but repetitive and lacks specificity. It accurately reflects the provided data for tuition costs and location but incorrectly assumes a strong preference for staying near home which isn't mentioned in the student's constraints."
+  },
+  {
+   "file": "ST0032_s1.json",
+   "student_id": "ST0032",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation is clear but could be more structured and detailed in comparing the programs' trade-offs."
+  },
+  {
+   "file": "ST0033_s1.json",
+   "student_id": "ST0033",
+   "mode": "single_prompt",
+   "clarity": 3,
+   "groundedness": 4,
+   "usefulness": 2,
+   "invented_claims": [
+    "This MBA in Delhi offers high placement potential and is related to IT management"
+   ],
+   "justification": "The explanation introduces claims not directly supported by the data (e.g., the MBA being 'related to IT management'), lacks specificity about how each program aligns with career goals or budget constraints, and does not clearly differentiate between programs."
+  },
+  {
+   "file": "ST0034_s1.json",
+   "student_id": "ST0034",
+   "mode": "single_prompt",
+   "clarity": 3,
+   "groundedness": 4,
+   "usefulness": 2,
+   "invented_claims": [
+    "This MSc IT Management program is highly relevant as it focuses on business information systems and IT management, aligning perfectly with your interest in becoming a Database Manager and acting as a Business Process Analyst. It also has a low tuition cost ($800) which fits well within your family's budget."
+   ],
+   "justification": "The explanation includes some invented claims and lacks specificity about the programs' details such as location and relevance to career goals, making it less useful for decision-making."
+  },
+  {
+   "file": "ST0035_s1.json",
+   "student_id": "ST0035",
+   "mode": "single_prompt",
+   "clarity": 3,
+   "groundedness": 2,
+   "usefulness": 1,
+   "invented_claims": [
+    "Given your background in information security",
+    "This program in Business Information Systems aligns perfectly with your interest in Management and Business Process Analysis"
+   ],
+   "justification": "The explanation contains invented claims not supported by the student's constraints or provided data fields, lacks clarity due to misalignment between recommended programs and student interests, and does not provide useful insights for decision-making."
+  },
+  {
+   "file": "ST0036_s1.json",
+   "student_id": "ST0036",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation clearly outlines each program's relevance to the student's preferences but lacks detailed comparisons of trade-offs between programs."
+  },
+  {
+   "file": "ST0037_s1.json",
+   "student_id": "ST0037",
+   "mode": "single_prompt",
+   "clarity": 3,
+   "groundedness": 4,
+   "usefulness": 2,
+   "invented_claims": [
+    "This PG Diploma in Systems Administration focuses on IT support and networking, which directly addresses your interest in 'networks.'"
+   ],
+   "justification": "The explanation is somewhat clear but lacks specificity and structure. It is mostly grounded but makes an invented claim about the student's interest in networks. The usefulness is low as it does not help the student decide among options or mention trade-offs."
+  },
+  {
+   "file": "ST0038_s1.json",
+   "student_id": "ST0038",
+   "mode": "single_prompt",
+   "clarity": 3,
+   "groundedness": 4,
+   "usefulness": 2,
+   "invented_claims": [
+    "This MTech in Computer Networks directly aligns with your goal of becoming a Network Security Engineer",
+    "It is located in Hyderabad and meets your background requirements"
+   ],
+   "justification": "The explanation provides some relevant information but includes invented claims about the first program's alignment with the student's goals and location, which are not explicitly stated as constraints. The clarity could be improved by specifying how each program addresses the student's interests and career goals more clearly."
+  },
+  {
+   "file": "ST0039_s1.json",
+   "student_id": "ST0039",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation clearly links the programs to the student's interests and budget but lacks specificity in highlighting trade-offs between different fields of study and career prospects."
+  },
+  {
+   "file": "ST0040_s1.json",
+   "student_id": "ST0040",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 4,
+   "usefulness": 3,
+   "invented_claims": [
+    "The focus on software quality aligns well with becoming a Web Developer"
+   ],
+   "justification": "The explanation is clear and mostly grounded in the provided data but includes an invented claim about software quality engineering being aligned with web development. It provides some useful information but could be more detailed about trade-offs between programs."
+  },
+  {
+   "file": "ST0041_s1.json",
+   "student_id": "ST0041",
+   "mode": "single_prompt",
+   "clarity": 3,
+   "groundedness": 4,
+   "usefulness": 2,
+   "invented_claims": [
+    "This program is located in Bengaluru"
+   ],
+   "justification": "The explanation confuses programs and locations, making it unclear which program corresponds to each statement. It also introduces a non-Pune location without acknowledging the student's preference for Pune."
+  },
+  {
+   "file": "ST0042_s1.json",
+   "student_id": "ST0042",
+   "mode": "single_prompt",
+   "clarity": 3,
+   "groundedness": 2,
+   "usefulness": 2,
+   "invented_claims": [
+    "This MSc Cloud Computing program offers relevant skills for database administration"
+   ],
+   "justification": "The explanation makes claims not supported by the data and lacks clarity in distinguishing between the two programs' relevance to the student's career goals."
+  },
+  {
+   "file": "ST0043_s1.json",
+   "student_id": "ST0043",
+   "mode": "single_prompt",
+   "clarity": 2,
+   "groundedness": 1,
+   "usefulness": 1,
+   "invented_claims": [
+    "Given your background in information security",
+    "This program focuses on business information systems, which aligns well with your goal of becoming a Data Architect.",
+    "It has the highest median starting salary among all options"
+   ],
+   "justification": "The explanation contains invented claims and is not clearly structured to help the student make an informed decision."
+  },
+  {
+   "file": "ST0044_s1.json",
+   "student_id": "ST0044",
+   "mode": "single_prompt",
+   "clarity": 3,
+   "groundedness": 2,
+   "usefulness": 1,
+   "invented_claims": [
+    "This program is highly affordable (low tuition)",
+    "The focus on IT Management directly relates to Systems Analysis",
+    "While located in Bengaluru (a slight move)",
+    "Although located in Pune"
+   ],
+   "justification": "The explanation makes several claims that are not supported by the data provided and introduces new facts not aligned with the student's constraints or program details."
+  },
+  {
+   "file": "ST0045_s1.json",
+   "student_id": "ST0045",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanations are clear and specific about each program's relevance to the student's background and preferences, but they could be more useful by explicitly mentioning trade-offs between programs."
+  },
+  {
+   "file": "ST0046_s1.json",
+   "student_id": "ST0046",
+   "mode": "single_prompt",
+   "clarity": 3,
+   "groundedness": 2,
+   "usefulness": 2,
+   "invented_claims": [
+    "This MTech program offers a strong combination of 'networking_cloud' and 'software_engineering', which aligns with your full stack background.",
+    "Although not focused on networking or hacking, this program offers 'software_engineering'"
+   ],
+   "justification": "The explanation introduces invented claims about the student's background and misrepresents program focus areas."
+  },
+  {
+   "file": "ST0047_s1.json",
+   "student_id": "ST0047",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanations are clear and grounded but lack detailed comparison of trade-offs between programs."
+  },
+  {
+   "file": "ST0048_s1.json",
+   "student_id": "ST0048",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanations are clear and grounded in provided data but could be more useful by highlighting trade-offs between programs."
+  },
+  {
+   "file": "ST0049_s1.json",
+   "student_id": "ST0049",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation clearly describes each program but does not adequately address the student's budget constraint or mention that some programs do not meet their academic background requirements."
+  },
+  {
+   "file": "ST0050_s1.json",
+   "student_id": "ST0050",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 2,
+   "usefulness": 3,
+   "invented_claims": [
+    "This MBA Technology Management program in Delhi is highly relevant to your interest in IT and system development",
+    "Located in Delhi, this MSc Software Quality Engineering program directly relates to programming and system development"
+   ],
+   "justification": "The explanation makes claims about the relevance of programs to the student's interests that are not supported by the provided data fields."
+  },
+  {
+   "file": "ST0051_s1.json",
+   "student_id": "ST0051",
+   "mode": "single_prompt",
+   "clarity": 3,
+   "groundedness": 4,
+   "usefulness": 2,
+   "invented_claims": [
+    "This MCA program in Coimbatore aligns well with your interest in Software Engineering and cloud computing"
+   ],
+   "justification": "The explanation is somewhat clear but repetitive. It does not address the student's specific interest in cloud computing and includes invented claims about the Coimbatore program."
+  },
+  {
+   "file": "ST0052_s1.json",
+   "student_id": "ST0052",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation is clear but repetitive and lacks specificity in how the programs address the student's background or R programming certification."
+  },
+  {
+   "file": "ST0053_s1.json",
+   "student_id": "ST0053",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation is clear and structured but could be more useful by mentioning trade-offs and aligning with the student's career goal and hadoop certification background."
+  },
+  {
+   "file": "ST0054_s1.json",
+   "student_id": "ST0054",
+   "mode": "single_prompt",
+   "clarity": 3,
+   "groundedness": 4,
+   "usefulness": 2,
+   "invented_claims": [
+    "This program is the most direct fit for your interest in hacking and security"
+   ],
+   "justification": "The explanation provides mixed clarity with some sentences being vague or repetitive. It references facts from the provided data but introduces a claim about one program being 'the most direct fit' without clear evidence. The usefulness is limited as it does not adequately address trade-offs or align all recommendations closely with student preferences and constraints."
+  },
+  {
+   "file": "ST0055_s1.json",
+   "student_id": "ST0055",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation is clear but could be more structured; it's grounded in the data provided and does not invent claims, yet it lacks a comparative analysis of trade-offs between programs."
+  },
+  {
+   "file": "ST0056_s1.json",
+   "student_id": "ST0056",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 4,
+   "usefulness": 3,
+   "invented_claims": [
+    "This German program offers a strong career path with high placement rates (91%) and excellent post-study work visa opportunities.",
+    "While the focus is IT Management"
+   ],
+   "justification": "The explanations are generally clear but lack specificity in linking to student constraints. They make claims about program benefits that aren't directly supported by provided data, such as 'strong career path' without mentioning median salary or specific field relevance."
+  },
+  {
+   "file": "ST0057_s1.json",
+   "student_id": "ST0057",
+   "mode": "single_prompt",
+   "clarity": 3,
+   "groundedness": 2,
+   "usefulness": 1,
+   "invented_claims": [
+    "Located in Chennai, this MTech program focuses on cloud computing"
+   ],
+   "justification": "The explanation incorrectly attributes the focus of PR0199 to cloud computing when it is actually networking_cloud. It also lacks clarity and usefulness by not distinguishing between programs clearly and providing relevant placement rates or salary information."
+  },
+  {
+   "file": "ST0058_s1.json",
+   "student_id": "ST0058",
+   "mode": "single_prompt",
+   "clarity": 1,
+   "groundedness": 1,
+   "usefulness": 1,
+   "invented_claims": [],
+   "justification": "The explanation is completely missing."
+  },
+  {
+   "file": "ST0059_s1.json",
+   "student_id": "ST0059",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation clearly outlines each program's relevance to the student's interests and budget constraints but could be more structured in presenting trade-offs between programs."
+  },
+  {
+   "file": "ST0060_s1.json",
+   "student_id": "ST0060",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 2,
+   "usefulness": 3,
+   "invented_claims": [
+    "This program is located in Delhi",
+    "It has a very low tuition fee ($800)",
+    "Located right in Delhi, this MTech program is highly relevant to your background and interests (Data Science/Software Engineering). The tuition ($1850) is comfortably within budget"
+   ],
+   "justification": "The explanation includes invented claims about specific programs' locations and details that do not match the provided data. While it touches on some aspects of the student's constraints, it lacks specificity and honesty in naming trade-offs."
+  },
+  {
+   "file": "ST0061_s1.json",
+   "student_id": "ST0061",
+   "mode": "single_prompt",
+   "clarity": 3,
+   "groundedness": 4,
+   "usefulness": 2,
+   "invented_claims": [
+    "Given your background in information security"
+   ],
+   "justification": "The explanation lacks clarity and specificity, contains an invented claim about the student's background, and does not adequately address trade-offs or provide a clear recommendation."
+  },
+  {
+   "file": "ST0062_s1.json",
+   "student_id": "ST0062",
+   "mode": "single_prompt",
+   "clarity": 3,
+   "groundedness": 4,
+   "usefulness": 2,
+   "invented_claims": [
+    "This German program offers MSc IT Management with a very low tuition fee ($950), meets your minimum grade requirement (80%), and provides excellent job prospects in Munich with a high placement rate and post-study work visa.",
+    "This German MSc program focuses on Human-Computer Interaction (HCI), which is relevant to Business Analyst roles."
+   ],
+   "justification": "The explanations are somewhat clear but lack specificity, especially regarding the relevance of HCI to CRM Business Analyst roles. They are generally grounded in provided data but make invented claims about relevance and clarity. The usefulness is limited as it does not address all programs or provide a balanced view including tuition costs and career prospects."
+  },
+  {
+   "file": "ST0063_s1.json",
+   "student_id": "ST0063",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 3,
+   "usefulness": 2,
+   "invented_claims": [
+    "This MTech program is located in Chennai, which is convenient for you"
+   ],
+   "justification": "The explanation provides clear and specific details about each program but introduces invented claims (convenience of location) not supported by the student's constraints. It lacks a comparison of trade-offs between programs."
+  },
+  {
+   "file": "ST0064_s1.json",
+   "student_id": "ST0064",
+   "mode": "single_prompt",
+   "clarity": 3,
+   "groundedness": 4,
+   "usefulness": 2,
+   "invented_claims": [
+    "This MBA Technology Management program in Delhi is highly recommended because it offers the highest placement rate (90%) and a strong median starting salary ($17361), directly addressing your priority of securing a good job after graduation. The minimum required grade (79%) is slightly higher than your 74.8%, but its superior career outcomes make it worth considering."
+   ],
+   "justification": "The explanation includes invented claims and lacks specificity in linking programs to the student's preferences, leading to low clarity and usefulness scores."
+  },
+  {
+   "file": "ST0065_s1.json",
+   "student_id": "ST0065",
+   "mode": "single_prompt",
+   "clarity": 2,
+   "groundedness": 3,
+   "usefulness": 1,
+   "invented_claims": [
+    "median salary is modest"
+   ],
+   "justification": "The explanation is repetitive and unclear in distinguishing between the programs. It also makes an invented claim about median salaries being 'modest' without providing context or comparison."
+  },
+  {
+   "file": "ST0066_s1.json",
+   "student_id": "ST0066",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation is clear but could be more structured; it is grounded in the data provided but does not fully address trade-offs or highlight all relevant factors for decision-making."
+  },
+  {
+   "file": "ST0067_s1.json",
+   "student_id": "ST0067",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation is clear but could be more structured to directly address the student's career goals and academic background."
+  },
+  {
+   "file": "ST0068_s1.json",
+   "student_id": "ST0068",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation clearly links the programs to the student's interests and constraints but lacks detailed comparisons of employment rates and salary outcomes which are crucial for decision-making."
+  },
+  {
+   "file": "ST0069_s1.json",
+   "student_id": "ST0069",
+   "mode": "single_prompt",
+   "clarity": 3,
+   "groundedness": 3,
+   "usefulness": 2,
+   "invented_claims": [
+    "This program in Delhi focuses on Big Data Analytics, directly matching your interest in data engineering"
+   ],
+   "justification": "The explanation is somewhat clear but repetitive and includes invented claims about the student's interests. It lacks specificity regarding trade-offs and does not fully utilize the provided constraints to offer a balanced view."
+  },
+  {
+   "file": "ST0070_s1.json",
+   "student_id": "ST0070",
+   "mode": "single_prompt",
+   "clarity": 3,
+   "groundedness": 2,
+   "usefulness": 1,
+   "invented_claims": [
+    "Charnock Institute of Technology program directly addresses your interest in security"
+   ],
+   "justification": "The explanation is somewhat clear but lacks specificity and structure. It includes invented claims not supported by the data fields provided, such as claiming a direct alignment with security interests for Charnock's program. The usefulness is low because it does not help the student make an informed decision due to missing details and inaccurate information."
+  },
+  {
+   "file": "ST0071_s1.json",
+   "student_id": "ST0071",
+   "mode": "single_prompt",
+   "clarity": 2,
+   "groundedness": 2,
+   "usefulness": 1,
+   "invented_claims": [
+    "This Canadian program offers a strong career path with excellent post-study work options (36 months) and a high placement rate (81%), making it ideal for maximizing job prospects abroad while fitting within your budget.",
+    "Located in Germany with low tuition ($3950), this MBA program is a strong choice if you want to pivot into Data Architecture while benefiting from the German job market and post-study work visa (18 months).",
+    "This German MSc program offers very low tuition ($1950) and a good balance of job prospects with post-study work options (18 months), making it an attractive option for career growth without straining the budget.",
+    "Another Canadian option with a lower tuition fee ($9650) than PR0132. It maintains the benefit of post-study work options (36 months), which is crucial for your goal of securing a good job abroad."
+   ],
+   "justification": "The explanation contains invented claims about specific programs and their alignment with the student's career goals, lacks specificity in linking program details to the student's constraints, and does not provide clear differentiation between the recommended programs."
+  },
+  {
+   "file": "ST0072_s1.json",
+   "student_id": "ST0072",
+   "mode": "single_prompt",
+   "clarity": 3,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation is clear but repetitive, lacks specificity about how each program aligns with the student's career goals and interests in IoT/system development. It does not mention trade-offs or highlight unique aspects of programs."
+  },
+  {
+   "file": "ST0073_s1.json",
+   "student_id": "ST0073",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanations are clear and grounded but could be more useful by providing a direct comparison between programs and highlighting trade-offs."
+  },
+  {
+   "file": "ST0074_s1.json",
+   "student_id": "ST0074",
+   "mode": "single_prompt",
+   "clarity": 3,
+   "groundedness": 4,
+   "usefulness": 2,
+   "invented_claims": [
+    "general tech career goals",
+    "complements an app development background",
+    "focuses on parallel computing"
+   ],
+   "justification": "The explanations are somewhat clear but lack specificity and structure. They make claims about the programs' focus that aren't supported by the provided data fields, reducing groundedness and usefulness."
+  },
+  {
+   "file": "ST0075_s1.json",
+   "student_id": "ST0075",
+   "mode": "single_prompt",
+   "clarity": 3,
+   "groundedness": 4,
+   "usefulness": 2,
+   "invented_claims": [
+    "This program in Germany offers a very low tuition fee ($950), making it highly affordable within your budget.",
+    "Another excellent low-cost option in Germany, this MSc Information Systems program focuses on business information systems. It is extremely affordable (only $300 tuition) and has a strong post-study work visa of 18 months, maximizing your job search opportunities."
+   ],
+   "justification": "The explanation provides clear details about the programs but includes invented claims not aligned with the student's budget constraints, affecting groundedness and usefulness."
+  },
+  {
+   "file": "ST0076_s1.json",
+   "student_id": "ST0076",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation is clear but could be more structured; all claims are grounded in the data provided, but some recommendations do not fully address the student's constraints or goals."
+  },
+  {
+   "file": "ST0077_s1.json",
+   "student_id": "ST0077",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 4,
+   "usefulness": 3,
+   "invented_claims": [
+    "This MSc in Software Quality Engineering... offers the best combination of high employability and relevance."
+   ],
+   "justification": "The explanation is mostly clear but includes an invented claim about the program's relevance being unmatched. It provides useful information but could better highlight trade-offs between budget constraints and program benefits."
+  },
+  {
+   "file": "ST0078_s1.json",
+   "student_id": "ST0078",
+   "mode": "single_prompt",
+   "clarity": 3,
+   "groundedness": 2,
+   "usefulness": 2,
+   "invented_claims": [
+    "This program is ideal because it directly addresses your career goal of becoming a Business Intelligence Analyst by focusing on 'business_information_systems' and 'it_management'. It is also located in Coimbatore, minimizing relocation stress, and its tuition fee ($800) is well within your budget."
+   ],
+   "justification": "The explanation contains invented claims not traceable to the provided data fields or student constraints, lacks specificity about which programs are being discussed for each point, and does not clearly articulate trade-offs between options."
+  },
+  {
+   "file": "ST0079_s1.json",
+   "student_id": "ST0079",
+   "mode": "single_prompt",
+   "clarity": 3,
+   "groundedness": 2,
+   "usefulness": 2,
+   "invented_claims": [
+    "This MBA Technology Management program requires no CS background",
+    "The annual tuition of the MBA Technology Management program is $1250"
+   ],
+   "justification": "The explanation includes invented facts and lacks clarity in specifying which programs are being referred to at each point."
+  },
+  {
+   "file": "ST0080_s1.json",
+   "student_id": "ST0080",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 3,
+   "usefulness": 3,
+   "invented_claims": [
+    "This MBA Technology Management program is ideal as it directly aligns with your goal of becoming a Project Manager and focuses on IT management.",
+    "It is located in Hyderabad, which is close to Mumbai"
+   ],
+   "justification": "The explanation makes claims not supported by the data (e.g., proximity of Hyderabad to Mumbai), lacks specificity about how programs address career goals, and does not clearly differentiate between options."
+  },
+  {
+   "file": "ST0081_s1.json",
+   "student_id": "ST0081",
+   "mode": "single_prompt",
+   "clarity": 3,
+   "groundedness": 4,
+   "usefulness": 3,
+   "invented_claims": [
+    "The explanation incorrectly states that the program in Pune (Halcyon Institute) offers 'networking_cloud' without mentioning software engineering, and it suggests the program is convenient for a local candidate despite no location preference being given."
+   ],
+   "justification": "The explanation provides clear tuition costs and grade requirements but mixes details about program focus and convenience without justification from student constraints or provided data."
+  },
+  {
+   "file": "ST0082_s1.json",
+   "student_id": "ST0082",
+   "mode": "single_prompt",
+   "clarity": 3,
+   "groundedness": 2,
+   "usefulness": 2,
+   "invented_claims": [
+    "This program aligns perfectly with your interest in testing",
+    "While focused on Cybersecurity, this MTech program is highly relevant to technical engineering roles.",
+    "This MTech Computer Science program is the most direct fit for your interest in technical engineering and architecture."
+   ],
+   "justification": "The explanation makes several claims that are not supported by the provided data or student constraints, such as aligning with testing interests or being a direct fit for computer architecture. The text also lacks specificity regarding how each program meets the student's needs."
+  },
+  {
+   "file": "ST0083_s1.json",
+   "student_id": "ST0083",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 3,
+   "usefulness": 2,
+   "invented_claims": [
+    "This MDes program focuses on Interaction Design (design_hci)",
+    "The tuition cost is also well within your family's budget",
+    "You should confirm if the location change is acceptable"
+   ],
+   "justification": "The explanation includes invented claims and vague statements about budget and location preferences, reducing its groundedness and usefulness."
+  },
+  {
+   "file": "ST0084_s1.json",
+   "student_id": "ST0084",
+   "mode": "single_prompt",
+   "clarity": 2,
+   "groundedness": 2,
+   "usefulness": 1,
+   "invented_claims": [
+    "This program directly aligns with your goal of becoming a Network Security Engineer by focusing on 'cybersecurity' and has a low tuition fee ($1150) that fits within your budget. It is also located in Kolkata, which is a manageable distance from Pune.",
+    "While located in Bengaluru, it offers specialized knowledge that will help you transition into a security engineering role.",
+    "This MCA program provides strong foundational knowledge in 'software_engineering' and 'data_science_analytics', matching your interest in data engineering and developer roles."
+   ],
+   "justification": "The explanation makes claims about the relevance of programs to the student's career goal, which are not supported by the provided constraints or program details. Additionally, it introduces new locations (Kolkata, Bengaluru) without clear justification based on the student's mobility preference for Pune."
+  },
+  {
+   "file": "ST0085_s1.json",
+   "student_id": "ST0085",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation is clear and well-structured but could be more concise. It is grounded in the provided data but does not fully address all programs or mention trade-offs between cost and job prospects."
+  },
+  {
+   "file": "ST0086_s1.json",
+   "student_id": "ST0086",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation is clear and directly references the provided program data but does not fully address trade-offs or constraints like R programming certification."
+  },
+  {
+   "file": "ST0087_s1.json",
+   "student_id": "ST0087",
+   "mode": "single_prompt",
+   "clarity": 3,
+   "groundedness": 4,
+   "usefulness": 2,
+   "invented_claims": [
+    "This MTech program in Chennai focuses on networking and cloud computing"
+   ],
+   "justification": "The explanation is somewhat clear but lacks specificity; it includes an invented claim about the focus of one program. It touches on some aspects relevant to decision-making but does not comprehensively address all programs or their trade-offs."
+  },
+  {
+   "file": "ST0088_s1.json",
+   "student_id": "ST0088",
+   "mode": "single_prompt",
+   "clarity": 3,
+   "groundedness": 1,
+   "usefulness": 2,
+   "invented_claims": [
+    "This MTech program in Pune offers 'networking_cloud' and 'software_engineering,' directly addressing your interest in cloud computing and web development.",
+    "Located in Hyderabad, this MBA program focuses on IT Management. It has a very low tuition cost ($1900) and a decent starting salary potential, offering a management perspective that can complement your technical skills while staying within budget.",
+    "This MTech program in Chennai covers 'data_science_analytics' and 'business_information_systems,' which are adjacent to cloud computing."
+   ],
+   "justification": "The explanation includes invented claims not supported by the provided data fields or student constraints, leading to low scores across all dimensions."
+  },
+  {
+   "file": "ST0089_s1.json",
+   "student_id": "ST0089",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation clearly outlines the programs' features but does not adequately highlight trade-offs or provide comparative analysis to help decision-making."
+  },
+  {
+   "file": "ST0090_s1.json",
+   "student_id": "ST0090",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation clearly maps each program to the student's interests but lacks detailed comparisons and trade-offs between programs."
+  },
+  {
+   "file": "ST0091_s1.json",
+   "student_id": "ST0091",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation is clear and grounded but lacks detailed comparisons of the programs' strengths and weaknesses in relation to the student's career goals."
+  },
+  {
+   "file": "ST0092_s1.json",
+   "student_id": "ST0092",
+   "mode": "single_prompt",
+   "clarity": 3,
+   "groundedness": 2,
+   "usefulness": 2,
+   "invented_claims": [
+    "The MBA Technology Management program is an excellent choice if you are unsure what to become"
+   ],
+   "justification": "The explanation introduces claims not supported by the data and mixes up details between different programs."
+  },
+  {
+   "file": "ST0093_s1.json",
+   "student_id": "ST0093",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 3,
+   "usefulness": 2,
+   "invented_claims": [
+    "This MTech in Computer Networks is highly relevant to your interest in parallel computing"
+   ],
+   "justification": "The explanation introduces claims about the relevance of the MTech program that are not supported by the provided data fields. It also does not clearly differentiate between programs or mention trade-offs."
+  },
+  {
+   "file": "ST0094_s1.json",
+   "student_id": "ST0094",
+   "mode": "single_prompt",
+   "clarity": 3,
+   "groundedness": 2,
+   "usefulness": 2,
+   "invented_claims": [
+    "This MBA program provides general IT management skills in Hyderabad and is affordable ($1900). While not purely technical, it offers a good blend of business knowledge and technology that can support a career transition.",
+    "This MSc IT Management program is the most budget-friendly option ($1000) while remaining relevant to general developer and IT roles. It meets all location requirements and has a low tuition cost."
+   ],
+   "justification": "The explanation includes invented claims about MBA Technology Management and MSc IT Management programs that are not supported by the provided data, leading to poor groundedness and usefulness scores. Clarity is moderate due to some specific details but suffers from structural issues with multiple vague statements."
+  },
+  {
+   "file": "ST0095_s1.json",
+   "student_id": "ST0095",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanations are clear and grounded but do not adequately highlight the trade-offs between different programs or provide comparative analysis to help the student decide."
+  },
+  {
+   "file": "ST0096_s1.json",
+   "student_id": "ST0096",
+   "mode": "single_prompt",
+   "clarity": 3,
+   "groundedness": 4,
+   "usefulness": 2,
+   "invented_claims": [
+    "Located in Germany",
+    "This local MSc program"
+   ],
+   "justification": "The explanation is somewhat clear but mixes up locations and invents claims about the programs being 'local'. It does not provide a comprehensive comparison or highlight trade-offs between different options."
+  },
+  {
+   "file": "ST0097_s1.json",
+   "student_id": "ST0097",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation is clear and grounded in the provided data but does not sufficiently highlight trade-offs or prioritize options to help the student decide."
+  },
+  {
+   "file": "ST0098_s1.json",
+   "student_id": "ST0098",
+   "mode": "single_prompt",
+   "clarity": 3,
+   "groundedness": 4,
+   "usefulness": 3,
+   "invented_claims": [
+    "This German program in Software Quality Engineering aligns perfectly with your interest in testing"
+   ],
+   "justification": "The explanation is mostly clear but occasionally vague or repetitive. It stays grounded to the data provided for the most part, except for overstating alignment with interests. However, it does not fully explore trade-offs between international and domestic options or salary differences."
+  },
+  {
+   "file": "ST0099_s1.json",
+   "student_id": "ST0099",
+   "mode": "single_prompt",
+   "clarity": 3,
+   "groundedness": 2,
+   "usefulness": 1,
+   "invented_claims": [
+    "This MSc in Software Quality Engineering is a good fit for developer roles",
+    "Although focused on design/HCI, this program is the most affordable option and remains in Pune"
+   ],
+   "justification": "The explanation includes invented claims about program relevance to career goals and affordability without clear basis from provided data. It lacks specificity regarding which programs are being discussed at each point."
+  }
+ ]
+}

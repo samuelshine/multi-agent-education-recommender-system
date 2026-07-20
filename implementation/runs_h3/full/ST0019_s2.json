@@ -1,0 +1,75 @@
+{
+ "student_id": "ST0019",
+ "session": 2,
+ "mode": "full",
+ "version": 1,
+ "message": "Hi, I'm a student with a machine learning certification background. My overall academic average is 72.8% in an IT/computer-science degree. I'm interested in Computer Architecture and developer. I want to become a Database Manager. My family can afford at most about USD 10700 per year. I live in Pune. I'd strongly prefer to stay near home, though I might consider elsewhere in India. About the earlier suggestions: I liked PR0026, PR0107.",
+ "memory_used": true,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 72.8
+  },
+  "career_goal": "Database Manager",
+  "budget_max_usd_per_year": 10700,
+  "location_preference": "Pune",
+  "mobility": "prefers_region",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in Computer Architecture and developer roles"
+  ],
+  "uncertainty_notes": [
+   "Employability priority not specified."
+  ]
+ },
+ "prefilter_ids": [
+  "PR0191",
+  "PR0143",
+  "PR0058",
+  "PR0007",
+  "PR0099",
+  "PR0026",
+  "PR0090",
+  "PR0120",
+  "PR0170",
+  "PR0145",
+  "PR0033",
+  "PR0107",
+  "PR0111",
+  "PR0134",
+  "PR0074",
+  "PR0129",
+  "PR0133",
+  "PR0063",
+  "PR0173",
+  "PR0071"
+ ],
+ "retrieved_ids": [
+  "PR0007",
+  "PR0143",
+  "PR0134",
+  "PR0145",
+  "PR0173",
+  "PR0107",
+  "PR0074",
+  "PR0129"
+ ],
+ "proposed_shortlist": [
+  "PR0007",
+  "PR0143",
+  "PR0134",
+  "PR0173"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0007",
+  "PR0173",
+  "PR0145",
+  "PR0107",
+  "PR0143"
+ ],
+ "reflection_note": "The initial shortlist was heavily weighted towards location and budget, but missed better alternatives that balance the student's interest in developer roles (CS/Software Engineering) with cost constraints. PR0134 was dropped due to poor placement metrics. We swapped in PR0145 (strong CS focus alternative) and PR0107 (good salary/location alternative). I kept PR0143 despite the location mismatch because it has a high placement rate, making it valuable for comparison, but ranked it last.",
+ "explanation": "Ashford Institute of Technology\nThis program is highly recommended because it meets your location preference in Pune and has an annual tuition of $2,350, which is well within your budget. Your academic background (IT/computer-science) satisfies the requirement for a CS degree, and your 72.8% grade exceeds the minimum admission requirement of 70%. The main trade-off here is that while the program has an excellent placement rate of 86%, the median starting salary ($12,541) slightly exceeds your stated maximum budget.\n\nLongford Technical University\nThis option is recommended due to its extremely low annual tuition of $500 and minimal admission requirements (only 53% minimum grade). While it does not require a CS background, which offers flexibility, the main trade-off is that both the median starting salary ($6,851) and the placement rate (62%) are significantly lower compared to your stated goals.\n\nSilverline Technical University\nThis program is recommended because its median starting salary of $10,057 fits perfectly within your maximum budget of $10,700 per year. Furthermore, you meet the admission requirement for a CS background, and the tuition ($2,300) remains affordable. The main trade-off to consider is that while it offers strong financial alignment, its location in Coimbatore does not match your preferred region of Pune.\n\nQuilon Institute of Technology\nThis program is recommended because it offers an attractive annual tuition of $1,850 and requires a CS background, aligning with your academic history. The median starting salary ($11,447) provides strong earning potential for a developer role, and the student's grade meets the minimum requirement. The main trade-off is that while the cost is low, both the location (Delhi) and the resulting salary slightly exceed your stated budget constraints.\n\nFairfax Technical University\nThis program was recommended due to its high placement rate of 87%, which suggests strong career outcomes for a Database Manager role. You also meet the minimum grade requirement with your 72.8% score, and the curriculum focuses on data analytics relevant to your goals. However, the main trade-off is that both the annual tuition ($2,750) and the median starting salary ($13,436) significantly exceed your stated maximum budget of $10,700.",
+ "wall_s": 260.6
+}

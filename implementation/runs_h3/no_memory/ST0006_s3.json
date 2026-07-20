@@ -1,0 +1,69 @@
+{
+ "student_id": "ST0006",
+ "session": 3,
+ "mode": "no_memory",
+ "version": 1,
+ "message": "Hi, I'm a student with a machine learning certification background. My overall academic average is 70% in an IT/computer-science degree. I'm interested in parallel computing and system developer. I want to become a Information Security Analyst. My family can afford at most about USD 1300 per year. I live in Hyderabad. I'm open to anywhere in India. About the earlier suggestions: I liked PR0130, PR0119.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 70
+  },
+  "career_goal": "Information Security Analyst",
+  "budget_max_usd_per_year": 1300,
+  "location_preference": "Hyderabad",
+  "mobility": "prefers_region",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in parallel computing and system developer"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0015",
+  "PR0020",
+  "PR0157",
+  "PR0074",
+  "PR0087",
+  "PR0119",
+  "PR0058",
+  "PR0187",
+  "PR0053",
+  "PR0109",
+  "PR0076",
+  "PR0012",
+  "PR0019",
+  "PR0114",
+  "PR0185",
+  "PR0130",
+  "PR0084",
+  "PR0120",
+  "PR0170",
+  "PR0073"
+ ],
+ "retrieved_ids": [
+  "PR0130",
+  "PR0119",
+  "PR0076",
+  "PR0074",
+  "PR0185",
+  "PR0073"
+ ],
+ "proposed_shortlist": [
+  "PR0185",
+  "PR0130",
+  "PR0119"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0130",
+  "PR0076",
+  "PR0119",
+  "PR0073"
+ ],
+ "reflection_note": "The original shortlist was flawed because PR0185 violates the location constraint (Kolkata). I dropped it. I kept PR0130 and PR0119 as they meet all hard constraints (Hyderabad, Budget). I swapped in two new options: PR0076 for its balance of IT Management/Software Engineering in Hyderabad, and PR0073 for its direct relevance to Cybersecurity, despite the location being Bengaluru. This revised list prioritizes meeting budget and location while maximizing academic fit and employability.",
+ "explanation": "Elmhurst School of Engineering\nThis program is recommended because it fits your budget constraint with an annual tuition of $1000 and is located in your preferred region of Hyderabad. It requires a minimum grade percentage of 62%, which you meet with your 70% background, and offers a solid placement rate of 77%. The main trade-off here is that the focus on \"IT Management\" may be less specialized for your goal as an Information Security Analyst compared to other options.\n\nSarayu Institute of Technology\nThis option remains within your budget at $1250 per year and is located in Hyderabad, matching your location preference. It boasts a high placement rate of 81% and offers a strong median starting salary of $13142. The primary trade-off to consider is that this program is an MBA focusing on Technology Management, which might emphasize business strategy over the deep technical skills related to system development or parallel computing you are interested in.\n\nMeridian Institute of Applied Sciences\nThis program was recommended due to its high placement rate of 86% and strong median starting salary of $14917, all while staying within your budget at $1200 annually. The curriculum focuses on Software Quality Engineering, which provides foundational skills highly relevant to security analysis. The main trade-off is that the specialization is in QA testing rather than pure cybersecurity or system development.\n\nElmhurst Technical University\nThis program is a direct match for your career goal with its \"MTech Cyber Security\" focus and meets your academic background requirements (min 65% grade). However, there are two key trade-offs: first, the location is Bengaluru, not Hyderabad; and second, while it offers an 80% placement rate, the median starting salary of $8637 is significantly lower than the other options listed.",
+ "wall_s": 180.9
+}

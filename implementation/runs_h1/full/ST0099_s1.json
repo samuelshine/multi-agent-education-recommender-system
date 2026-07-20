@@ -1,0 +1,57 @@
+{
+ "student_id": "ST0099",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a full stack certification background. My overall academic average is 76.8% in an IT/computer-science degree. I'm interested in cloud computing and developer. I want to become a Software Systems Engineer. My family can afford at most about USD 1200 per year. I live in Pune. I cannot leave my city. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 76.8
+  },
+  "career_goal": "Software Systems Engineer (interested in cloud computing and developer roles)",
+  "budget_max_usd_per_year": 1200,
+  "location_preference": "Pune",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Full stack certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0019",
+  "PR0180",
+  "PR0187",
+  "PR0084",
+  "PR0181",
+  "PR0045",
+  "PR0023",
+  "PR0156",
+  "PR0190",
+  "PR0080"
+ ],
+ "retrieved_ids": [
+  "PR0180",
+  "PR0019",
+  "PR0045",
+  "PR0190",
+  "PR0023",
+  "PR0187"
+ ],
+ "proposed_shortlist": [
+  "PR0180",
+  "PR0019",
+  "PR0023",
+  "PR0190"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0023",
+  "PR0187"
+ ],
+ "reflection_note": "The initial shortlist contained two programs (PR0180, PR0019) that violated the hard budget constraint ($1200 max). These were dropped. PR0190 was also dropped due to poor alignment with core developer/cloud goals. The remaining viable options are PR0023 and PR0187. While PR0023 is a direct match for location and budget, its focus (Cybersecurity) is suboptimal compared to the student's interest in cloud/developer roles. PR0187 (IT Support) offers excellent employability and meets all constraints, making it a strong alternative despite the role mismatch. The final shortlist prioritizes financial feasibility and high employability while maintaining relevance to the IT field.",
+ "explanation": "Silverline Technical University\nThis program was recommended because it fits within your maximum budget of $1200 USD/year with an annual tuition cost of only $650. It is located in Pune and the minimum grade requirement (57%) is easily met by your 76.8% academic background. While this MTech focuses on Cybersecurity, which differs from your primary interest in Software Systems Engineering, it offers a solid median starting salary of $8376 and a placement rate of 70%. The main trade-off here is that the program specialization does not directly align with your desired developer career path.\n\nCavendish University\nThis option was highlighted due to its high employability priority, boasting an excellent placement rate of 87% and a strong median starting salary of $12687. It remains in Pune, matching your location preference, and the minimum grade requirement (72%) is met by your current academic standing. However, the primary trade-off is that the annual tuition of $1450 exceeds your stated maximum budget of $1200 per year.",
+ "wall_s": 174.7
+}

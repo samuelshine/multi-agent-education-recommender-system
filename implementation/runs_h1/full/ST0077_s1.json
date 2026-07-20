@@ -1,0 +1,68 @@
+{
+ "student_id": "ST0077",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a machine learning certification background. My overall academic average is 82.3% in an IT/computer-science degree. I'm interested in IOT and testing. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 1700 per year. I live in Pune. I cannot leave my city. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 82.3
+  },
+  "career_goal": null,
+  "budget_max_usd_per_year": 1700,
+  "location_preference": "Pune",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "interest in IOT and testing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0182",
+  "PR0019",
+  "PR0190",
+  "PR0080",
+  "PR0186",
+  "PR0187",
+  "PR0158",
+  "PR0084",
+  "PR0078",
+  "PR0181",
+  "PR0046",
+  "PR0180",
+  "PR0045",
+  "PR0023",
+  "PR0025",
+  "PR0156"
+ ],
+ "retrieved_ids": [
+  "PR0182",
+  "PR0019",
+  "PR0190",
+  "PR0080",
+  "PR0187",
+  "PR0186",
+  "PR0045",
+  "PR0023"
+ ],
+ "proposed_shortlist": [
+  "PR0190",
+  "PR0019",
+  "PR0045",
+  "PR0182"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0190",
+  "PR0080",
+  "PR0019",
+  "PR0187",
+  "PR0045"
+ ],
+ "reflection_note": "The initial shortlist contained a critical budget violation (PR0182). I dropped it immediately. PR0045 was kept initially but is weak on alignment; however, since the final list must be at most 5 and we need to fill slots, I will keep it as a low-priority option if needed, but prioritize the QA/SE focus. I swapped in PR0080 (direct competitor to PR0190) and PR0187 (a strong, affordable IT alternative). The final list prioritizes programs that meet all hard constraints (Budget <= $1700, Location = Pune) while maximizing alignment with QA testing and general software engineering.",
+ "explanation": "Kestrel School of Engineering\nThis program is a strong recommendation because its focus on QA Testing directly aligns with your stated interest in testing and IOT. It fits well within your budget, requiring an annual tuition of $1250 USD, which is below your maximum limit. While the placement rate (64%) and median starting salary ($7265) are lower compared to other options, this program offers the lowest cost while still meeting your location preference in Pune. The main trade-off here is accepting a more modest expected salary for significant savings on tuition.\n\nCrestwood Technical University\nThis option was recommended because it maintains relevance to your interest by focusing on QA Testing and remains within your budget at $1450 USD annually. Admission requirements are easily met with your 82.3% grade, and the program is located in Pune. Similar to Kestrel, this university offers a moderate placement rate (62%) and median starting salary ($8071). The trade-off you should consider is that while it keeps costs low, its expected career outcomes are not as high as other programs on this list.\n\nAshford University\nThis program is highly recommended because it aligns perfectly with your background in IT/computer science and your interest in testing, covering both QA Testing and Software Engineering. It has a strong placement rate of 84% and offers the highest median starting salary ($10285) among the Pune options while staying within budget at $1450 USD. The main trade-off is that this program does not specifically mention IOT, but it provides excellent overall career outcomes for your field.\n\nCavendish University\nThis university was recommended primarily due to its exceptional employability metrics, boasting an 87% placement rate and the highest median starting salary ($12687). The tuition of $1450 USD fits comfortably within your budget, and admission is straightforward given your high academic standing (min grade requirement is 72%). However, the main trade-off is that its focus on IT Support deviates from your stated interest in IOT and testing.\n\nBraxton Technical University\nThis program was recommended because it offers a competitive median starting salary of $10236 USD while remaining affordable at $1450 USD per year. It also meets the location constraint of Pune, and admission is easily achievable with your current grades. The main trade-off here is that its focus on Cybersecurity does not directly align with your stated interest in IOT or testing, making it a choice based purely on maximizing salary potential within budget constraints.",
+ "wall_s": 200.9
+}

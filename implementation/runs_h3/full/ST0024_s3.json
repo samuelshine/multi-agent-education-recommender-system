@@ -1,0 +1,75 @@
+{
+ "student_id": "ST0024",
+ "session": 3,
+ "mode": "full",
+ "version": 1,
+ "message": "Hi, I'm a student with a hadoop certification background. My overall academic average is 76.1% in an IT/computer-science degree. I'm interested in hacking and developer. I want to become a Applications Developer. Also, my situation changed: family circumstances changed, so my budget is now lower. My family can afford at most about USD 2800 per year. I live in Bengaluru. I'd strongly prefer to stay near home, though I might consider elsewhere in India. About the earlier suggestions: I liked PR0186, PR0198 but please drop PR0174.",
+ "memory_used": true,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 76.1
+  },
+  "career_goal": "Applications Developer",
+  "budget_max_usd_per_year": 2800,
+  "location_preference": "Bengaluru",
+  "mobility": "prefers_region",
+  "employability_priority": null,
+  "other_constraints": [
+   "hadoop certification background",
+   "interested in hacking and developer"
+  ],
+  "uncertainty_notes": [
+   "Employability priority not specified."
+  ]
+ },
+ "prefilter_ids": [
+  "PR0198",
+  "PR0164",
+  "PR0022",
+  "PR0182",
+  "PR0191",
+  "PR0119",
+  "PR0101",
+  "PR0143",
+  "PR0186",
+  "PR0176",
+  "PR0058",
+  "PR0092",
+  "PR0187",
+  "PR0039",
+  "PR0174",
+  "PR0197",
+  "PR0053",
+  "PR0189",
+  "PR0007",
+  "PR0158"
+ ],
+ "retrieved_ids": [
+  "PR0186",
+  "PR0158",
+  "PR0198",
+  "PR0182",
+  "PR0053",
+  "PR0189",
+  "PR0176",
+  "PR0191"
+ ],
+ "proposed_shortlist": [
+  "PR0186",
+  "PR0198",
+  "PR0158",
+  "PR0053"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0186",
+  "PR0158",
+  "PR0182",
+  "PR0053"
+ ],
+ "reflection_note": "The initial shortlist contained one critical budget violation (PR0198). I dropped it immediately. Among the remaining options, PR0186 remains a strong candidate due to its direct fit with CS background and developer goals, despite the location being secondary. PR0158 and PR0053 are kept for their excellent financial feasibility. I swapped in PR0182 because it offers a similar profile to PR0158 (affordable, good developer focus) but has slightly better placement scores and is generally more robust than PR0158, making it a valuable addition to the shortlist.",
+ "explanation": "Halcyon Institute of Technology\nThis program is recommended because it aligns strongly with your IT/CS background and includes 'software_engineering' fields relevant to an Applications Developer career goal. The annual tuition of $2050 fits well within your maximum budget of $2800, and your 76.1% grade meets the minimum requirement. While the location is Pune rather than Bengaluru, this program offers a high placement rate of 83% and a median starting salary of $15192. The main trade-off here is that the specialization in Computer Networks might be slightly more focused on infrastructure than pure application development.\n\nAshford School of Engineering\nThis option is highly budget-friendly with an annual tuition of $1900, and it includes 'software_engineering' which relates to your career goal. Furthermore, the program requires no specific CS background, making entry straightforward despite your existing qualifications. The trade-off you should consider is that the primary focus is Interaction Design (MDes), meaning the curriculum emphasizes design principles rather than deep coding or hacking skills relevant to a developer role.\n\nKeystone Technical University\nThis university offers an excellent placement rate of 91% and keeps tuition low at $1950, fitting your budget constraints. Your academic background meets the minimum grade requirement of 75%. However, the program specializes in QA testing, which is less aligned with a general Applications Developer role or interest in hacking compared to pure software development tracks.\n\nCavendish University\nThis is the most cost-effective option on the list, boasting an annual tuition fee of only $1200, which leaves significant room within your budget. The program includes 'software_engineering' and has a placement rate of 86%, making it financially attractive while still touching upon development skills. The main trade-off is that like Keystone Technical University, the specialization in Software Quality Engineering may limit exposure to core application development or hacking interests.",
+ "wall_s": 243.6
+}

@@ -1,0 +1,71 @@
+{
+ "student_id": "ST0012",
+ "session": 3,
+ "mode": "full",
+ "message": "Hi, I'm a student with a distro making certification background. My overall academic average is 82.9% in an IT/computer-science degree. I'm interested in Management and testing. I want to become a Information Technology Auditor. My family can afford at most about USD 11300 per year. I live in Chennai. I'm open to anywhere in India. Getting a good job after graduation matters more to me than anything else. About the earlier suggestions: I liked PR0191, PR0197.",
+ "memory_used": true,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 82.9
+  },
+  "career_goal": "Information Technology Auditor",
+  "budget_max_usd_per_year": 11300,
+  "location_preference": "Chennai",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in Management and testing"
+  ],
+  "uncertainty_notes": [
+   "None."
+  ]
+ },
+ "prefilter_ids": [
+  "PR0157",
+  "PR0172",
+  "PR0198",
+  "PR0139",
+  "PR0164",
+  "PR0182",
+  "PR0060",
+  "PR0191",
+  "PR0119",
+  "PR0101",
+  "PR0176",
+  "PR0092",
+  "PR0053",
+  "PR0189",
+  "PR0072",
+  "PR0054",
+  "PR0076",
+  "PR0105",
+  "PR0065",
+  "PR0019"
+ ],
+ "retrieved_ids": [
+  "PR0191",
+  "PR0157",
+  "PR0101",
+  "PR0054",
+  "PR0172",
+  "PR0182",
+  "PR0072",
+  "PR0164"
+ ],
+ "proposed_shortlist": [
+  "PR0191",
+  "PR0157",
+  "PR0101"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0191",
+  "PR0182",
+  "PR0164"
+ ],
+ "reflection_note": "The original shortlist was heavily weighted towards Coimbatore, which is a significant deviation from the student's preferred location (Chennai). While PR0157 and PR0101 are financially safe, they do not maximize career alignment or location preference. I have kept PR0191 as it remains the best option in Chennai. I swapped in PR0182 (QA Testing) and PR0164 (IT Management/High Employability) because these programs directly address the student's specific interests (Testing, Management) and offer superior employability metrics compared to the original options, making them more valuable despite location trade-offs.",
+ "explanation": "Sarayu Technical University\nThis program was recommended because it is located in Chennai, matching your location preference, and its annual tuition of $3250 falls well within your budget. The curriculum covers data science analytics, which complements an IT background, and the minimum grade requirement (71%) is met by your 82.9% academic standing. However, the main trade-off here is that while it matches your preferred location, its focus on Data Engineering is less directly aligned with your stated interests in Management or Testing compared to other options.\n\nKeystone Technical University\nThis option was recommended because its specialization in QA testing aligns perfectly with your interest in testing and is highly relevant for an IT Auditor role. Furthermore, the program boasts a high placement rate of 91%, prioritizing employability as requested. The trade-off here is that while it offers excellent career relevance, you would need to relocate to Pune, which deviates from your Chennai preference.\n\nNorthgate School of Engineering\nThis MBA Technology Management program was recommended because its focus on IT management directly addresses both your interest in management and the business acumen required for an Auditor role. It also provides the highest median starting salary ($17361) among the options, maximizing employability potential while keeping tuition low at $2050. The main trade-off is that this program requires relocating to Delhi, which deviates from your preferred location of Chennai.",
+ "wall_s": 215.5
+}

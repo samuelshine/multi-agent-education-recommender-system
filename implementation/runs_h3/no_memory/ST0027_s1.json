@@ -1,0 +1,76 @@
+{
+ "student_id": "ST0027",
+ "session": 1,
+ "mode": "no_memory",
+ "version": 1,
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 79.2% in an IT/computer-science degree. I'm interested in IOT and security. My family can afford at most about USD 9700 per year.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 79.2
+  },
+  "career_goal": null,
+  "budget_max_usd_per_year": 9700,
+  "location_preference": null,
+  "mobility": "open_domestic",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in IOT and security"
+  ],
+  "uncertainty_notes": [
+   "Location preference not stated.",
+   "Career goal not stated.",
+   "Employability priority not stated."
+  ]
+ },
+ "prefilter_ids": [
+  "PR0117",
+  "PR0198",
+  "PR0097",
+  "PR0144",
+  "PR0139",
+  "PR0164",
+  "PR0029",
+  "PR0022",
+  "PR0182",
+  "PR0060",
+  "PR0191",
+  "PR0119",
+  "PR0101",
+  "PR0143",
+  "PR0186",
+  "PR0176",
+  "PR0058",
+  "PR0149",
+  "PR0092",
+  "PR0187"
+ ],
+ "retrieved_ids": [
+  "PR0029",
+  "PR0186",
+  "PR0117",
+  "PR0198",
+  "PR0143",
+  "PR0187",
+  "PR0164",
+  "PR0060"
+ ],
+ "proposed_shortlist": [
+  "PR0029",
+  "PR0143",
+  "PR0186"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0029",
+  "PR0143",
+  "PR0186",
+  "PR0198",
+  "PR0187"
+ ],
+ "reflection_note": "The initial shortlist is technically sound and meets all hard constraints (budget, academic background). However, the candidate set contains several excellent alternatives that are either more focused on general IT skills/support (PR0187) or offer better career outcomes/fit for a broader technical interest (PR0198, PR0164). I have kept the top three specialized programs (Security, Data Science, Networking) but swapped in PR0198 and PR0187 because they are highly affordable, technically relevant, and provide strong foundational skills that complement the student's core IT/CS background. PR0164 was also considered but dropped for better technical focus.",
+ "explanation": "Vantage Technical University\nThis program is highly recommended because its focus on Information Security directly aligns with your stated interest in security. The annual tuition of $3800 is well within your budget, and you meet the admission requirements since it requires a CS background and your grade percentage (79.2%) exceeds the minimum 75%. While this program offers a strong placement rate of 92% and a median starting salary of $14,753, the main trade-off is that there is no post-study work visa offered.\n\nFairfax Technical University\nThis option was recommended because it has low tuition ($2750) and requires a CS background, matching your academic profile. You meet the minimum grade requirement (79.2% vs 72%), making admission feasible. The program offers an 87% placement rate and a median starting salary of $13,436. The primary trade-off here is that the focus on Data Science deviates from your stated interest in IOT and security.\n\nHalcyon Institute of Technology\nThis MTech was recommended because its curriculum covers Computer Networks, which relates closely to both IoT and general IT infrastructure. With an annual tuition of $2050, it remains highly affordable compared to your maximum budget. You meet the CS background requirement, and the program offers a solid median starting salary of $15,192 with an 83% placement rate. The main trade-off is that its focus on networking may be less specialized than a dedicated security track.\n\nNorthgate Institute of Technology\nThis program was recommended due to its excellent job prospects, boasting the highest placement rate (95%) and median starting salary ($21,062) among all options. Furthermore, it does not require a CS background, which is beneficial for admission. The trade-off, however, is that the curriculum focuses on QA testing rather than your stated interest in IOT or security.\n\nCavendish University\nThis PG Diploma was recommended because of its extremely low annual tuition cost of $1450, making it highly budget-friendly. It does not require a CS background and has an 87% placement rate. The main trade-off is that while the tuition is minimal, the median starting salary ($12,687) is lower compared to some other specialized options on this list.",
+ "wall_s": 0.0
+}

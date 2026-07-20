@@ -1,0 +1,31 @@
+{
+ "student_id": "ST0047",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 79.6
+    },
+    "career_goal": "Database Manager",
+    "budget_max_usd_per_year": 5700,
+    "location_preference": "Bengaluru",
+    "mobility": "prefers_region",
+    "employability_priority": "high",
+    "other_constraints": [
+     "Interested in Software Engineering and testing"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0085",
+    "PR0173",
+    "PR0198",
+    "PR0142",
+    "PR0082"
+   ],
+   "feedback": null
+  }
+ ]
+}

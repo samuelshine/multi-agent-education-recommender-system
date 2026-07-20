@@ -1,0 +1,30 @@
+{
+ "student_id": "ST0088",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 79
+    },
+    "career_goal": "Web Developer",
+    "budget_max_usd_per_year": 3500,
+    "location_preference": "Bengaluru",
+    "mobility": "open_domestic",
+    "employability_priority": "high",
+    "other_constraints": [
+     "distro making certification background"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0186",
+    "PR0058",
+    "PR0176",
+    "PR0164"
+   ],
+   "feedback": null
+  }
+ ]
+}

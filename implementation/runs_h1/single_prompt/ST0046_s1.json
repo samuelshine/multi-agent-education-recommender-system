@@ -1,0 +1,54 @@
+{
+ "student_id": "ST0046",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a full stack certification background. My overall academic average is 78% in an IT/computer-science degree. I'm interested in hacking and cloud computing. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 6900 per year. I live in Hyderabad. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 78
+  },
+  "career_goal": null,
+  "budget_max_usd_per_year": 6900,
+  "location_preference": "Hyderabad",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in hacking and cloud computing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0186",
+  "PR0197",
+  "PR0043",
+  "PR0147",
+  "PR0096",
+  "PR0199",
+  "PR0118",
+  "PR0121",
+  "PR0148",
+  "PR0016",
+  "PR0102",
+  "PR0180",
+  "PR0162",
+  "PR0112",
+  "PR0159",
+  "PR0032",
+  "PR0184",
+  "PR0165",
+  "PR0117",
+  "PR0198"
+ ],
+ "final_shortlist": [
+  "PR0096",
+  "PR0186",
+  "PR0147",
+  "PR0162",
+  "PR0198"
+ ],
+ "explanation": "This program is ideal because it is located in Hyderabad, matching your strong preference to stay near home. It focuses on 'cybersecurity' and 'networking_cloud', directly addressing your interests in hacking and cloud computing, while the tuition cost ($3350) is within your family's budget.\n\nThis MTech program offers a strong combination of 'networking_cloud' and 'software_engineering', which aligns with your full stack background. Located in Pune, it has a high placement rate (83%) and a median starting salary ($15192), making job prospects a top priority.\n\nThis MSc Cloud Computing program focuses purely on 'networking_cloud', which is one of your primary interests. It is located in Coimbatore and has a solid placement rate (83%) and a median starting salary ($13015), offering a good balance between cost and career outcomes.\n\nThis MTech Cyber Security program directly targets your interest in hacking ('cybersecurity') and 'networking_cloud'. While located in Chennai, its low tuition cost ($1150) is excellent for your budget, and it provides specialized skills highly valued in the tech industry.\n\nAlthough not focused on networking or hacking, this program offers 'software_engineering' and has an extremely high placement rate (95%) and a strong median starting salary ($21062). If job security is your absolute top priority, this Bengaluru option provides excellent career outcomes.",
+ "wall_s": 46.4
+}

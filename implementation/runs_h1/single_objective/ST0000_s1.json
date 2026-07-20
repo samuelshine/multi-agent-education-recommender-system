@@ -1,0 +1,73 @@
+{
+ "student_id": "ST0000",
+ "session": 1,
+ "mode": "single_objective",
+ "message": "Hi, I'm a student with a full stack certification background. My overall academic average is 79.4% in an IT/computer-science degree. I'm interested in hacking and system developer. I want to become a Solutions Architect. My family can afford at most about USD 8500 per year. I live in Chennai. I'm open to going abroad.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 79.4
+  },
+  "career_goal": "Solutions Architect",
+  "budget_max_usd_per_year": 8500,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in hacking and system developer roles"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0000",
+  "PR0195",
+  "PR0021",
+  "PR0153",
+  "PR0051",
+  "PR0151",
+  "PR0037",
+  "PR0161",
+  "PR0117",
+  "PR0198",
+  "PR0097",
+  "PR0104",
+  "PR0144",
+  "PR0139",
+  "PR0194",
+  "PR0164",
+  "PR0029",
+  "PR0022",
+  "PR0137",
+  "PR0182"
+ ],
+ "retrieved_ids": [
+  "PR0194",
+  "PR0161",
+  "PR0151",
+  "PR0195",
+  "PR0137",
+  "PR0037",
+  "PR0144",
+  "PR0029"
+ ],
+ "proposed_shortlist": [
+  "PR0161",
+  "PR0037",
+  "PR0194",
+  "PR0151",
+  "PR0029"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0161",
+  "PR0037",
+  "PR0194",
+  "PR0029",
+  "PR0195"
+ ],
+ "reflection_note": "The original shortlist was strong but lacked a highly affordable, complementary option. I dropped PR0151 because QA is too niche compared to the core goals (SA/System Dev). I swapped in PR0195 (MSc Information Systems) as it offers an excellent blend of low cost, high placement rate, and business context, making it a valuable addition for a future Solutions Architect role. The final list balances deep technical specialization (PR0161, PR0037), cloud/networking focus (PR0194), security interest (PR0029), and broad, affordable IT knowledge (PR0195).",
+ "explanation": "**Tejas University**\nThis program is recommended because its focus on Software Engineering aligns well with your goal of becoming a Solutions Architect and your interest in system development. The annual tuition of $3850 fits comfortably within your maximum budget of $8500, and the requirement for a CS background matches your academic profile. Furthermore, graduating students benefit from an 18-month post-study work visa and a strong median starting salary of $33731. The main trade-off here is that while the program is highly relevant, its placement rate (72%) is not the highest among the German options.\n\n**Tejas School of Engineering**\nThis MCA program offers excellent value and high relevance for your career goals in software development. With an annual tuition cost of $2650, it is one of the most budget-friendly options while still providing a strong technical foundation. The curriculum requires a CS background, matching your qualifications, and graduates are eligible for an 18-month post-study work visa. The trade-off to consider is that this program is an MCA degree rather than an MSc, which may affect how it aligns with specific industry requirements compared to the Tejas University option.\n\n**Aravalli School of Engineering**\nThis MSc Cloud Computing program is a strong technical fit, directly supporting your interest in system development and networking roles. The low annual tuition of $1950 makes it highly affordable within your budget constraints. Graduates benefit from an 18-month post-study work visa and are required to have a CS background. However, the main trade-off is that this program has the lowest placement rate (67%) and median starting salary ($30651) among the German options listed.\n\n**Vantage Technical University**\nThis MSc Information Security program is highly recommended because its focus on cybersecurity directly addresses your interest in hacking and system developer roles. It boasts a very high placement rate of 92% and an annual tuition cost of $3800, which fits your budget. The primary trade-off to be aware of is that while the placement rate is excellent, the program does not offer any post-study work visa (0 months), making international career mobility more challenging than other options.\n\n**Keystone School of Engineering**\nThis MSc Information Systems program offers extremely low tuition ($300) and a high median starting salary of $51059, providing excellent financial security. It is also flexible as it does not require a CS background, which could be beneficial. The main trade-off to consider is that the curriculum focuses on business information systems rather than core technical areas like cybersecurity or software engineering, potentially diverging from your stated interest in hacking and system development roles.",
+ "wall_s": 161.8
+}

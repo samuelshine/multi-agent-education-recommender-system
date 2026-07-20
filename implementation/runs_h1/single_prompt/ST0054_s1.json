@@ -1,0 +1,55 @@
+{
+ "student_id": "ST0054",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a hadoop certification background. My overall academic average is 80.4% in an IT/computer-science degree. I'm interested in hacking and security. I want to become a Programmer Analyst. My family can afford at most about USD 1600 per year. I live in Mumbai. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 80.4
+  },
+  "career_goal": "Programmer Analyst",
+  "budget_max_usd_per_year": 1600,
+  "location_preference": "Mumbai",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in hacking and security",
+   "Hadoop certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0182",
+  "PR0119",
+  "PR0176",
+  "PR0058",
+  "PR0187",
+  "PR0174",
+  "PR0053",
+  "PR0158",
+  "PR0109",
+  "PR0076",
+  "PR0012",
+  "PR0019",
+  "PR0114",
+  "PR0185",
+  "PR0130",
+  "PR0084",
+  "PR0120",
+  "PR0170",
+  "PR0015",
+  "PR0020"
+ ],
+ "final_shortlist": [
+  "PR0185",
+  "PR0053",
+  "PR0114",
+  "PR0176",
+  "PR0076"
+ ],
+ "explanation": "This program is the most direct fit for your interest in hacking and security (MSc Information Security). It also meets your academic background requirements and has a manageable tuition fee of $1150, keeping you within budget.\n\nLocated in Kolkata, this MSc Software Quality Engineering program offers strong software engineering fundamentals and is highly affordable ($1200/year). It's a good option if you want to stay near home while building core technical skills.\n\nThis program is located in Mumbai, which strongly aligns with your preference to stay near home. It focuses on software quality engineering and has a very low tuition cost ($850/year), making it budget-friendly.\n\nIf you are open to management roles that leverage your technical background (Programmer Analyst goal), this MBA Technology Management in Hyderabad is a strong choice. Its tuition ($1900) and high median salary suggest good job prospects.\n\nThis MBA Technology Management program in Hyderabad offers a blend of IT management and software engineering. It is highly affordable ($1250/year) and provides good career prospects while keeping you within your budget.",
+ "wall_s": 41.1
+}

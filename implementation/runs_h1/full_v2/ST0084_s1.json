@@ -1,0 +1,73 @@
+{
+ "student_id": "ST0084",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a distro making certification background. My overall academic average is 78.9% in an IT/computer-science degree. I'm interested in data engineering and developer. I want to become a Network Security Engineer. My family can afford at most about USD 1300 per year. I live in Pune. I'd strongly prefer to stay near home, though I might consider elsewhere in India.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 78.9
+  },
+  "career_goal": "Network Security Engineer",
+  "budget_max_usd_per_year": 1300,
+  "location_preference": "Pune",
+  "mobility": "prefers_region",
+  "employability_priority": null,
+  "other_constraints": [
+   "distro making certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0119",
+  "PR0058",
+  "PR0187",
+  "PR0053",
+  "PR0109",
+  "PR0076",
+  "PR0012",
+  "PR0019",
+  "PR0114",
+  "PR0185",
+  "PR0130",
+  "PR0084",
+  "PR0120",
+  "PR0170",
+  "PR0015",
+  "PR0020",
+  "PR0073",
+  "PR0171",
+  "PR0013",
+  "PR0118"
+ ],
+ "retrieved_ids": [
+  "PR0187",
+  "PR0019",
+  "PR0170",
+  "PR0185",
+  "PR0118",
+  "PR0073",
+  "PR0119"
+ ],
+ "proposed_shortlist": [
+  "PR0185",
+  "PR0073",
+  "PR0119",
+  "PR0170",
+  "PR0187"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0185",
+  "PR0073",
+  "PR0119",
+  "PR0170",
+  "PR0019"
+ ],
+ "reflection_note": "The initial shortlist was reviewed and PR0187 was dropped due to a hard budget violation ($1450 > $1300). To maintain 5 options, PR0019 (MSc Software Engineering in Pune) was swapped in. This program is highly relevant for the student's location preference (Pune) and academic background, making it a strong replacement despite its tuition slightly exceeding the stated budget maximum. The remaining programs are kept as they represent the best balance of cybersecurity focus, regional fit, and financial feasibility.",
+ "explanation": "Longford Institute of Technology\nThis program is recommended because the MSc Information Security aligns directly with your goal of becoming a Network Security Engineer, and it has an annual tuition cost of $1150, staying within your budget. Admission requirements are met as you have a CS background, and the placement rate stands at 78%. The main trade-off here is that while the tuition is low, the program is located in Kolkata rather than your preferred region, and there is no post-study work visa available.\n\nElmhurst Technical University\nThis MTech Cyber Security program is an excellent fit for your career goal and remains under budget at $1250 annually. It requires a CS background, which matches your academic profile, and the institution has a strong placement rate of 80% in Bengaluru. The primary trade-off is that while the tuition is manageable, the median starting salary ($8637) is lower compared to some other options on this list.\n\nMeridian Institute of Applied Sciences\nThis program was recommended due to its high placement rate (86%) and a strong median starting salary of $14917, which offers excellent career potential. The tuition cost of $1200 is within your budget, and the minimum grade requirement (71%) is easily met by your 78.9% score. The main trade-off to consider is that the focus is on Software Quality Engineering rather than core network security, although it offers flexible admission without requiring a CS background.\n\nStanmore Institute of Applied Sciences\nWhile this program focuses on Big Data Analytics and is not directly related to Network Security, it was included because its tuition ($1300) meets your maximum budget constraint. You meet the minimum grade requirement (62%), and the curriculum requires a CS background matching your profile. The main trade-off here is that the field of study does not align with your stated career goal, and the location in Coimbatore is outside your preferred region.\n\nAshford University\nThis MSc Software Engineering program was recommended because it is located in Pune, perfectly matching your location preference, and has a high placement rate of 84%. You meet the minimum grade requirement (64%), and the curriculum does not require a CS background. The main trade-off you must consider is that the annual tuition ($1450) exceeds your stated budget maximum of $1300.",
+ "wall_s": 115.6
+}

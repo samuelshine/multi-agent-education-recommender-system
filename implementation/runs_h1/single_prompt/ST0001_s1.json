@@ -1,0 +1,54 @@
+{
+ "student_id": "ST0001",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a app development certification background. My overall academic average is 75.3% in an IT/computer-science degree. I'm interested in data engineering and testing. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 3200 per year. I live in Kolkata. I'm open to going abroad. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 75.3
+  },
+  "career_goal": null,
+  "budget_max_usd_per_year": 3200,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in data engineering and testing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0198",
+  "PR0058",
+  "PR0053",
+  "PR0126",
+  "PR0026",
+  "PR0065",
+  "PR0019",
+  "PR0090",
+  "PR0145",
+  "PR0107",
+  "PR0008",
+  "PR0063",
+  "PR0142",
+  "PR0082",
+  "PR0052",
+  "PR0085",
+  "PR0173",
+  "PR0071",
+  "PR0051",
+  "PR0037"
+ ],
+ "final_shortlist": [
+  "PR0126",
+  "PR0037",
+  "PR0026",
+  "PR0090",
+  "PR0173"
+ ],
+ "explanation": "This German MCA program is highly recommended because it offers a strong career focus (data science/software engineering) and provides an excellent post-study work visa of 18 months. The tuition cost ($2050) also fits within your family's budget.\n\nThis German MCA program is an excellent option for maximizing job prospects. It has a high median starting salary ($34339) and offers the same valuable 18-month post-study work visa, making it ideal for your goal of securing a good job after graduation.\n\nIf you prefer staying in India but want to focus on data engineering, this MTech program is suitable. While the tuition ($3900) exceeds your budget, its strong placement rate (81%) and relevant field make it a good career-focused choice.\n\nThis MSc Data Science program in Kolkata aligns with your interest in data engineering. It is affordable ($3550) and keeps you close to home while providing a relevant degree path.\n\nThis MTech Computer Science program in Bengaluru focuses on data analytics and software engineering. It is very affordable ($500) and provides a good balance of low cost with relevant technical training.",
+ "wall_s": 50.1
+}

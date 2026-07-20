@@ -1,0 +1,74 @@
+{
+ "student_id": "ST0029",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a python certification background. My overall academic average is 81.2% in an IT/computer-science degree. I'm interested in IOT and Business process analyst. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 4100 per year. I live in Mumbai. I'm open to going abroad.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 81.2
+  },
+  "career_goal": "IOT and Business process analyst (tech field)",
+  "budget_max_usd_per_year": 4100,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": "medium",
+  "other_constraints": [
+   "Python certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0000",
+  "PR0195",
+  "PR0153",
+  "PR0051",
+  "PR0137",
+  "PR0191",
+  "PR0101",
+  "PR0054",
+  "PR0128",
+  "PR0044",
+  "PR0105",
+  "PR0015",
+  "PR0020",
+  "PR0033",
+  "PR0157",
+  "PR0047",
+  "PR0074",
+  "PR0172",
+  "PR0087",
+  "PR0021"
+ ],
+ "retrieved_ids": [
+  "PR0000",
+  "PR0195",
+  "PR0153",
+  "PR0021",
+  "PR0128",
+  "PR0044",
+  "PR0172",
+  "PR0157"
+ ],
+ "proposed_shortlist": [
+  "PR0000",
+  "PR0195",
+  "PR0153",
+  "PR0021",
+  "PR0128"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0000",
+  "PR0195",
+  "PR0153",
+  "PR0021",
+  "PR0044"
+ ],
+ "reflection_note": "The original shortlist was strong, but PR0128's tuition ($3800) consumes too much of the limited budget compared to other options. I dropped it and swapped in PR0044 (MSc Information Systems, Munich). This replacement maintains high relevance (IS/Business focus), keeps the location preference (Munich), and significantly improves financial feasibility while keeping the top 5 list highly competitive and aligned with the student's goals (IT Management/Business Analyst).",
+ "explanation": "Fairfax Institute of Technology\nThis program is highly recommended because its focus on IT Management aligns perfectly with your goal of becoming a Business Process Analyst. It meets your strict budget constraint with an annual tuition of only $950, and your 81.2% grade exceeds the minimum requirement of 80%. Furthermore, it offers strong career outcomes, boasting a 91% placement rate and a median starting salary of $56,198, all while providing an 18-month post-study work visa. There is no significant trade-off here; this option provides excellent academic fit and high employability potential within your budget.\n\nKeystone School of Engineering\nThis program offers the most cost-effective path to achieving your goal as a Business Process Analyst, with an annual tuition of just $300. It requires a minimum grade of 72%, which you comfortably exceed with your current GPA. The curriculum's focus on business information systems is ideal for bridging technical skills and business analysis. While the median starting salary ($51,059) is slightly lower than some options, this program provides excellent value and strong outcomes (82% placement rate) while staying well within your budget.\n\nKeystone University\nThis option is suitable because its Human-Computer Interaction focus complements a tech background by emphasizing design principles relevant to modern systems. It maintains an affordable tuition of $550 and offers the valuable 18-month post-study work visa. The main trade-off here is that while it keeps costs low, the median starting salary ($39,426) and placement rate (78%) are noticeably lower compared to other recommended programs.\n\nAshford Institute of Technology\nThis program is a strong budget choice with an annual tuition of only $450, and its IT support focus provides practical technical skills that complement your Python background. It meets your academic standing requirement and offers the desirable 18-month post-study work visa. The primary trade-off to consider is that \"IT Support\" might be too narrowly focused on maintenance rather than the broader business process analysis aspect of your career goal, though its placement rate (82%) remains strong.\n\nHalcyon University\nThis program maintains a focus on business information systems, which aligns with your analyst goals, and it has an accessible minimum grade requirement of 52%. However, the main trade-off is that despite being affordable ($2350 tuition), this option presents the weakest career outcomes among the shortlist. Its placement rate (61%) and median starting salary ($23,809) are significantly lower than other options, making it less ideal for maximizing your employability priority.",
+ "wall_s": 122.0
+}

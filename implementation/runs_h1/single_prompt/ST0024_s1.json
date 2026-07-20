@@ -1,0 +1,55 @@
+{
+ "student_id": "ST0024",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a hadoop certification background. My overall academic average is 76.1% in an IT/computer-science degree. I'm interested in hacking and developer. I want to become a Applications Developer. My family can afford at most about USD 4800 per year. I live in Bengaluru. I'd strongly prefer to stay near home, though I might consider elsewhere in India.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 76.1
+  },
+  "career_goal": "Applications Developer",
+  "budget_max_usd_per_year": 4800,
+  "location_preference": "Bengaluru",
+  "mobility": "prefers_region",
+  "employability_priority": null,
+  "other_constraints": [
+   "Hadoop certification background",
+   "Interested in hacking and developer"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0198",
+  "PR0144",
+  "PR0139",
+  "PR0164",
+  "PR0029",
+  "PR0022",
+  "PR0182",
+  "PR0060",
+  "PR0191",
+  "PR0119",
+  "PR0101",
+  "PR0143",
+  "PR0186",
+  "PR0176",
+  "PR0058",
+  "PR0149",
+  "PR0092",
+  "PR0187",
+  "PR0039",
+  "PR0174"
+ ],
+ "final_shortlist": [
+  "PR0198",
+  "PR0144",
+  "PR0139",
+  "PR0186",
+  "PR0174"
+ ],
+ "explanation": "This program is located in Bengaluru, meeting your strong preference to stay near home. The tuition (USD 3500) is within budget, and while the focus is on QA testing, it falls under software engineering, which aligns with your goal of becoming an Applications Developer.\n\nThis MTech in Computer Science offers a strong core curriculum for applications development. Although located in Pune (a possible alternative), the tuition of USD 4800 is exactly at your maximum budget limit, and it provides relevant software engineering skills.\n\nLocated in Delhi, this MSc program keeps you within India while offering a solid foundation in software quality engineering. The tuition (USD 4200) is manageable and the field of QA testing provides valuable exposure to application development lifecycles.\n\nThis MTech in Computer Networks focuses on networking and cloud, which are highly relevant for modern applications developers. It is located in Pune, offering a good balance between cost (USD 2050) and technical depth, though it requires a CS background.\n\nThis MSc program in Delhi focuses on Human-Computer Interaction (HCI), which is crucial for developing user-friendly applications. The low tuition cost (USD 1900) and location outside Bengaluru make it a strong consideration if you are open to moving within India.",
+ "wall_s": 57.3
+}

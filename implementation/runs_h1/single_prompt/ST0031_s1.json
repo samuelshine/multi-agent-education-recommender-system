@@ -1,0 +1,54 @@
+{
+ "student_id": "ST0031",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a app development certification background. My overall academic average is 75.9% in an IT/computer-science degree. I'm interested in programming and Business process analyst. I want to become a Database Manager. My family can afford at most about USD 4500 per year. I live in Delhi. I'd strongly prefer to stay near home, though I might consider elsewhere in India.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 75.9
+  },
+  "career_goal": "Database Manager",
+  "budget_max_usd_per_year": 4500,
+  "location_preference": null,
+  "mobility": "prefers_region",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in programming and Business process analyst"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0191",
+  "PR0033",
+  "PR0074",
+  "PR0087",
+  "PR0101",
+  "PR0143",
+  "PR0058",
+  "PR0007",
+  "PR0054",
+  "PR0099",
+  "PR0026",
+  "PR0105",
+  "PR0090",
+  "PR0120",
+  "PR0170",
+  "PR0015",
+  "PR0020",
+  "PR0145",
+  "PR0157",
+  "PR0107"
+ ],
+ "final_shortlist": [
+  "PR0120",
+  "PR0020",
+  "PR0107",
+  "PR0074",
+  "PR0033"
+ ],
+ "explanation": "This program is ideal as it is located in Delhi, meeting your strong preference to stay near home. It focuses on Data Science Analytics and has a very low annual tuition fee of $800 USD, which fits well within your family's budget.\n\nThis MBA program is also located in Delhi and focuses on Business Information Systems, aligning with your interest in business process analysis. The tuition cost of $1450 USD is affordable and the minimum required grade (60%) is easily met by your 75.9% average.\n\nLocated in Delhi, this MTech program offers a strong technical focus on Computer Science and Data Analytics. While it requires a CS background, its low tuition ($1850 USD) and proximity to home make it a highly suitable option.\n\nThis MTech Data Engineering program is located in Hyderabad, offering a good balance between cost ($1550 USD) and academic relevance. It requires no CS background and provides strong data engineering skills relevant to becoming a Database Manager.\n\nThis MBA Business Analytics program is in Coimbatore, offering expertise in business information systems. It has a low tuition fee ($2100 USD) and requires no CS background, making it a solid alternative if you are willing to relocate within India.",
+ "wall_s": 46.5
+}

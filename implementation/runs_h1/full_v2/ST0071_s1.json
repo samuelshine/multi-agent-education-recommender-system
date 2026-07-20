@@ -1,0 +1,74 @@
+{
+ "student_id": "ST0071",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a full stack certification background. My overall academic average is 77.7% in an IT/computer-science degree. I'm interested in Computer Architecture and developer. I want to become a Data Architect. My family can afford at most about USD 15600 per year. I live in Hyderabad. I'm open to going abroad. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 77.7
+  },
+  "career_goal": "Data Architect",
+  "budget_max_usd_per_year": 15600,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in Computer Architecture and developer roles"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0132",
+  "PR0051",
+  "PR0097",
+  "PR0103",
+  "PR0061",
+  "PR0191",
+  "PR0143",
+  "PR0058",
+  "PR0007",
+  "PR0140",
+  "PR0128",
+  "PR0126",
+  "PR0099",
+  "PR0026",
+  "PR0009",
+  "PR0062",
+  "PR0090",
+  "PR0120",
+  "PR0170",
+  "PR0145"
+ ],
+ "retrieved_ids": [
+  "PR0132",
+  "PR0140",
+  "PR0097",
+  "PR0126",
+  "PR0062",
+  "PR0128",
+  "PR0009",
+  "PR0061"
+ ],
+ "proposed_shortlist": [
+  "PR0132",
+  "PR0140",
+  "PR0126",
+  "PR0062",
+  "PR0009"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0132",
+  "PR0140",
+  "PR0126",
+  "PR0062",
+  "PR0009"
+ ],
+ "reflection_note": "The current shortlist is strong and diverse, covering different cost profiles (Canada vs. Germany/Netherlands) while maintaining relevance to CS/Data Architecture. All entries meet the hard constraints (budget max $15600 USD). No drops or swaps are necessary. The ranking order reflects a balance of high employability potential (PR0132), financial safety (PR0140, PR0126), and strong location fit (Munich/Germany in PR0062).",
+ "explanation": "Nalanda Ridge University\nThis program was recommended because it offers the highest median starting salary ($32,235) and a strong placement rate of 81%, which aligns with your high employability priority. The annual tuition of $15,600 fits exactly within your maximum budget constraint. Furthermore, its 36-month post-study work visa provides ample time to secure employment in Canada while building experience toward becoming a Data Architect. The main trade-off here is that the tuition cost utilizes your entire available budget limit.\n\nNalanda Ridge Institute of Applied Sciences\nThis option is highly recommended due to its significantly lower annual tuition ($9,650), making it very budget-friendly compared to other options. It also provides a generous 36-month post-study work visa in Canada, which supports your long-term career goals. The main trade-off is that the placement rate (62%) and median starting salary ($24,418) are lower than those offered by Nalanda Ridge University.\n\nAshford Technical University\nThis program was selected because its curriculum includes both Data Science Analytics and Software Engineering fields, directly appealing to your interest in developer roles and computer architecture. It is also extremely budget-friendly with an annual tuition of only $2,050. The main trade-off you must consider is the 18-month post-study work visa period, which is shorter than the options available in Canada.\n\nStanmore School of Engineering\nThis program offers one of the most affordable tuitions at $1,950 and does not require a specific CS background, providing flexibility while still being highly budget-conscious. While it supports your career goal with data science analytics, its lower placement rate (59%) and median starting salary ($22,711) represent the main trade-off compared to other shortlisted options.\n\nCavendish Technical University\nThis program was recommended because it is a strong fit for your budget, requiring only $10,450 in annual tuition while still offering a 36-month post-study work visa period. It requires a CS background and provides good job prospects with a placement rate of 60%. The main trade-off to be aware of is that it offers the shortest post-study work visa duration (12 months) among all the listed institutions.",
+ "wall_s": 132.0
+}

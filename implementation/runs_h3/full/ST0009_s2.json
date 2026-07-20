@@ -1,0 +1,73 @@
+{
+ "student_id": "ST0009",
+ "session": 2,
+ "mode": "full",
+ "message": "Hi, I'm a student with a app development certification background. My overall academic average is 72.6% in an IT/computer-science degree. I'm interested in hacking and Business process analyst. I want to become a Network Security Engineer. My family can afford at most about USD 4000 per year. I live in Delhi. I'd strongly prefer to stay near home, though I might consider elsewhere in India. About the earlier suggestions: I liked PR0186 but please drop PR0182, PR0172.",
+ "memory_used": true,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 72.6
+  },
+  "career_goal": "Network Security Engineer",
+  "budget_max_usd_per_year": 4000,
+  "location_preference": "Delhi",
+  "mobility": "prefers_region",
+  "employability_priority": null,
+  "other_constraints": [
+   "interested in hacking",
+   "Business process analyst"
+  ],
+  "uncertainty_notes": [
+   "employability_priority is unknown."
+  ]
+ },
+ "prefilter_ids": [
+  "PR0191",
+  "PR0101",
+  "PR0054",
+  "PR0105",
+  "PR0015",
+  "PR0020",
+  "PR0033",
+  "PR0157",
+  "PR0047",
+  "PR0074",
+  "PR0172",
+  "PR0087",
+  "PR0029",
+  "PR0022",
+  "PR0182",
+  "PR0060",
+  "PR0119",
+  "PR0143",
+  "PR0186",
+  "PR0176"
+ ],
+ "retrieved_ids": [
+  "PR0020",
+  "PR0186",
+  "PR0176",
+  "PR0157",
+  "PR0182",
+  "PR0119",
+  "PR0143",
+  "PR0087"
+ ],
+ "proposed_shortlist": [
+  "PR0020",
+  "PR0176",
+  "PR0157"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0020",
+  "PR0186",
+  "PR0176",
+  "PR0119"
+ ],
+ "reflection_note": "The original shortlist was good but lacked a strong technical option. I dropped PR0157 due to poor location fit (Coimbatore). I swapped in PR0186 (MTech Computer Networks) because it is highly relevant to the Network Security goal and meets academic requirements, providing necessary technical depth missing from the MBA options. I also added PR0119 as a strong backup option that balances cost, relevance (IT/Software), and location (Hyderabad).",
+ "explanation": "Stanmore Institute of Applied Sciences\nThis MBA Business Analytics program is recommended because it aligns with your stated interest in being a Business Process Analyst and fits perfectly within your budget at $1450 USD annually. The location in Delhi matches your preference, and your 72.6% grade exceeds the minimum requirement of 60%. The main trade-off here is that while this program addresses your business interests, it is less focused on the core technical skills needed for a Network Security Engineer role compared to other options.\n\nHalcyon Institute of Technology\nThis MTech Computer Networks program is highly recommended because its focus on networking and cloud aligns directly with your goal of becoming a Network Security Engineer, and you meet the prerequisite of having a CS background. The tuition of $2050 USD remains within your budget, and it boasts an 83% placement rate with a median starting salary of $15192 USD. The primary trade-off is that while this program is technically ideal, its location in Pune does not match your preferred Delhi area.\n\nCrestwood University\nThis MBA Technology Management option was included because it bridges the gap between your technical background and your interest in business processes, making it suitable for a Business Process Analyst role. The tuition of $1900 USD is within budget, and you meet the minimum grade requirement of 72%. However, like other non-Delhi options, the trade-off is that while this program addresses your management interests, its location in Hyderabad deviates from your preferred Delhi area, and it lacks deep security specialization.\n\nMeridian Institute of Applied Sciences\nThis MSc Software Quality Engineering program was recommended due to its very low tuition cost of $1200 USD and high placement rate of 86%. While you meet the minimum grade requirement of 71%, this program focuses on QA testing rather than core network security or hacking, which is your primary career goal. The main trade-off here is that although it is highly affordable and technically relevant, its focus deviates from the specialized networking skills required for a Network Security Engineer.",
+ "wall_s": 318.2
+}

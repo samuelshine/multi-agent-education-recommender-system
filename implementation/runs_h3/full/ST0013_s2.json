@@ -1,0 +1,74 @@
+{
+ "student_id": "ST0013",
+ "session": 2,
+ "mode": "full",
+ "message": "Hi, I'm a student with a python certification background. My overall academic average is 75.6% in an IT/computer-science degree. I'm interested in Management and security. I want to become a Systems Analyst. My family can afford at most about USD 4400 per year. I live in Pune. I'd strongly prefer to stay near home, though I might consider elsewhere in India. About the earlier suggestions: I liked PR0176, PR0164.",
+ "memory_used": true,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 75.6
+  },
+  "career_goal": "Systems Analyst",
+  "budget_max_usd_per_year": 4400,
+  "location_preference": "Pune",
+  "mobility": "prefers_region",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in Management and security"
+  ],
+  "uncertainty_notes": [
+   "Employability priority not specified."
+  ]
+ },
+ "prefilter_ids": [
+  "PR0157",
+  "PR0172",
+  "PR0164",
+  "PR0060",
+  "PR0191",
+  "PR0101",
+  "PR0176",
+  "PR0092",
+  "PR0189",
+  "PR0054",
+  "PR0076",
+  "PR0105",
+  "PR0130",
+  "PR0015",
+  "PR0020",
+  "PR0078",
+  "PR0033",
+  "PR0150",
+  "PR0047",
+  "PR0160"
+ ],
+ "retrieved_ids": [
+  "PR0172",
+  "PR0092",
+  "PR0164",
+  "PR0176",
+  "PR0078",
+  "PR0130",
+  "PR0157",
+  "PR0101"
+ ],
+ "proposed_shortlist": [
+  "PR0078",
+  "PR0092",
+  "PR0172",
+  "PR0164"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0078",
+  "PR0092",
+  "PR0172",
+  "PR0176",
+  "PR0130"
+ ],
+ "reflection_note": "The original shortlist was good but contained one program (PR0164) that violated hard constraints on both location and minimum grade. I dropped PR0164. To improve the list, I swapped in two strong alternatives (PR0176 and PR0130). These programs are located in Hyderabad, which is a suitable regional alternative to Pune, while maintaining excellent financial feasibility and academic acceptance criteria. The final list prioritizes Pune options first, followed by high-quality, affordable regional options.",
+ "explanation": "Fairfax University\nThis program is highly recommended because it meets your location preference in Pune and fits well within your budget with an annual tuition of $1750. The MSc IT Management curriculum aligns perfectly with your interest in management, and your 75.6% grade exceeds the minimum requirement of 62%. While this option offers a strong local fit, the main trade-off is that its median starting salary ($9426) is lower compared to other options, and there is no post-study work visa available.\n\nSilverline School of Engineering\nThis MBA Technology Management program is an excellent choice as it remains in Pune and provides one of the highest potential salaries at $13713, coupled with a strong 85% placement rate. The annual tuition of $3450 stays within your maximum budget of $4400. The primary trade-off here is that the tuition cost is higher than some other Pune options, but this investment is offset by the significantly better expected salary and high placement rate.\n\nQuilon Technical University\nThis MSc IT Management program keeps you in your preferred location of Pune while maintaining a low annual tuition fee of $2250. Your academic background easily meets the 62% minimum grade requirement for admission. The main trade-off is that despite being located in Pune, it offers the lowest median starting salary ($8654) and has the lowest placement rate (66%) among all shortlisted options.\n\nCrestwood University\nThis MBA Technology Management program provides the highest potential earning power at a median starting salary of $15400, making it financially attractive for your career goal. The annual tuition of $1900 is well within budget, and your grade qualifies you for admission (min 72%). The main trade-off to consider is that while the program offers superior financial outcomes, its location in Hyderabad deviates from your stated preference for Pune.\n\nElmhurst School of Engineering\nThis MSc IT Management option provides the lowest tuition cost ($1000) and remains within budget, making it highly affordable. Your academic background exceeds the minimum 62% grade requirement, and the program is a good fit for management interests. The main trade-off to weigh is that while the tuition is minimal, its median starting salary of $11249 is lower than Crestwood's, and it requires relocating to Hyderabad instead of Pune.",
+ "wall_s": 214.9
+}

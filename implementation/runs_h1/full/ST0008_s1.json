@@ -1,0 +1,71 @@
+{
+ "student_id": "ST0008",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 77.6% in an IT/computer-science degree. I'm interested in programming and Business process analyst. I want to become a UX Designer. My family can afford at most about USD 2100 per year. I live in Bengaluru. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 77.6
+  },
+  "career_goal": "UX Designer",
+  "budget_max_usd_per_year": 2100,
+  "location_preference": "Bengaluru",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in programming and Business process analyst roles"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0101",
+  "PR0039",
+  "PR0174",
+  "PR0158",
+  "PR0054",
+  "PR0084",
+  "PR0015",
+  "PR0020",
+  "PR0141",
+  "PR0013",
+  "PR0033",
+  "PR0014",
+  "PR0157",
+  "PR0181",
+  "PR0046",
+  "PR0047",
+  "PR0166",
+  "PR0074",
+  "PR0172",
+  "PR0059"
+ ],
+ "retrieved_ids": [
+  "PR0015",
+  "PR0013",
+  "PR0157",
+  "PR0181",
+  "PR0046",
+  "PR0166",
+  "PR0039",
+  "PR0158"
+ ],
+ "proposed_shortlist": [
+  "PR0013",
+  "PR0015",
+  "PR0158",
+  "PR0046"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0013",
+  "PR0015",
+  "PR0166",
+  "PR0039"
+ ],
+ "reflection_note": "The original shortlist was heavily weighted towards PR0158 and PR0046, which are in Pune. Given the strong preference for Bengaluru and the need to balance cost/UX focus, I dropped both of those programs. I kept PR0013 (best fit) and PR0015 (business backup). I swapped in PR0166 as a solid, affordable design option outside Bengaluru. Finally, I added PR0039 from the candidate set because it offers high employability (85% placement rate), strong HCI focus, and while slightly over budget ($2250 vs $2100 max), its significantly higher potential salary/placement rate makes it a worthwhile risk to include as a top-tier option for maximum career outcome.",
+ "explanation": "Meridian Institute of Technology\nThis program is highly recommended because it aligns perfectly with your UX Designer goal while meeting all location and budget preferences. Located in Bengaluru, the annual tuition of $900 is well within your maximum budget of $2100, and your 77.6% grade exceeds the minimum requirement of 59%. While this program offers a strong start for HCI, the main trade-off is that its median starting salary ($9186) and placement rate (77%) are moderate compared to other options.\n\nKeystone Institute of Technology\nThis option was selected because it maintains your location preference in Bengaluru while also catering to your interest in business process analysis through its Information Systems focus. The tuition cost of $1200 is affordable, keeping you under budget, and your academic background meets the minimum grade requirement (61%). However, the trade-off here is that the curriculum focuses more on business systems rather than pure design/UX principles.\n\nMeridian Technical University\nThis program offers a strong focus on Interaction Design, which directly supports your career goal of becoming a UX Designer. Although it has a higher median starting salary ($10095) and placement rate (71%) than the first option, the primary trade-off is that this institution is located in Coimbatore, deviating from your preferred Bengaluru region. The tuition cost of $1200 remains within budget.\n\nLongford Institute of Applied Sciences\nThis program offers the highest potential salary ($13646) and placement rate (85%), making it excellent for maximizing employability. It also covers both HCI (UX design) and software engineering, appealing to your interest in programming. The main trade-off is that this option exceeds your maximum budget of $2100 with a tuition fee of $2250, and it is located in Coimbatore instead of Bengaluru.",
+ "wall_s": 221.1
+}

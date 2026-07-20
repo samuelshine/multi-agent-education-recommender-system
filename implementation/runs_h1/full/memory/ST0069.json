@@ -1,0 +1,30 @@
+{
+ "student_id": "ST0069",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 71.9
+    },
+    "career_goal": null,
+    "budget_max_usd_per_year": 1700,
+    "location_preference": "Pune",
+    "mobility": "open_domestic",
+    "employability_priority": "high",
+    "other_constraints": [
+     "shell programming certification background"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0019",
+    "PR0187",
+    "PR0084",
+    "PR0158"
+   ],
+   "feedback": null
+  }
+ ]
+}

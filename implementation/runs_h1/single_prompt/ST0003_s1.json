@@ -1,0 +1,55 @@
+{
+ "student_id": "ST0003",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 81.6% in an IT/computer-science degree. I'm interested in data engineering and system developer. I want to become a Software Developer. My family can afford at most about USD 13200 per year. I live in Mumbai. I'm open to anywhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 81.6
+  },
+  "career_goal": "Software Developer",
+  "budget_max_usd_per_year": 13200,
+  "location_preference": null,
+  "mobility": "open_domestic",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in data engineering and system developer roles",
+   "Has an information security certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0191",
+  "PR0058",
+  "PR0026",
+  "PR0090",
+  "PR0145",
+  "PR0033",
+  "PR0107",
+  "PR0074",
+  "PR0063",
+  "PR0173",
+  "PR0071",
+  "PR0087",
+  "PR0198",
+  "PR0097",
+  "PR0144",
+  "PR0101",
+  "PR0143",
+  "PR0186",
+  "PR0039",
+  "PR0053"
+ ],
+ "final_shortlist": [
+  "PR0143",
+  "PR0058",
+  "PR0101",
+  "PR0071",
+  "PR0191"
+ ],
+ "explanation": "This program is located in Mumbai and focuses on Data Science, aligning with your interest in data engineering. It has a strong placement rate (87%) and a solid median starting salary ($13436), making it highly relevant to your goal of securing good employment.\n\nThe MCA program at Stanmore School of Engineering is in Coimbatore and covers both data science analytics and software engineering. It requires a CS background (which you have) and offers good placement metrics ($14869 median salary), making it an excellent fit for becoming a Software Developer.\n\nLocated in Coimbatore, this MSc program focuses on Information Systems and has a good placement rate (85%) with a respectable median starting salary ($15394). It is suitable for someone transitioning into software development roles while leveraging their existing IT background.\n\nThis MTech Data Engineering program is in Mumbai, matching your location preference and interest. While the placement rate (58%) and salary ($7837) are lower than others, it directly addresses your data engineering interest and keeps you local.\n\nThis MTech Data Engineering program in Chennai is a strong option for data roles. It has a high placement rate (84%) and a good median starting salary ($15951), making it valuable for career growth in the tech sector.",
+ "wall_s": 49.0
+}

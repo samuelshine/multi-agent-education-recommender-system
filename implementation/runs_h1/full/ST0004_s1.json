@@ -1,0 +1,71 @@
+{
+ "student_id": "ST0004",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 73.9% in an IT/computer-science degree. I'm interested in hacking and testing. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 6000 per year. I live in Pune. I cannot leave my city. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 73.9
+  },
+  "career_goal": "tech (interested in hacking and testing)",
+  "budget_max_usd_per_year": 6000,
+  "location_preference": "Pune",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "information security certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0182",
+  "PR0072",
+  "PR0019",
+  "PR0172",
+  "PR0190",
+  "PR0080",
+  "PR0186",
+  "PR0092",
+  "PR0187",
+  "PR0007",
+  "PR0158",
+  "PR0084",
+  "PR0078",
+  "PR0181",
+  "PR0046",
+  "PR0180",
+  "PR0045",
+  "PR0023",
+  "PR0025",
+  "PR0156"
+ ],
+ "retrieved_ids": [
+  "PR0045",
+  "PR0023",
+  "PR0182",
+  "PR0072",
+  "PR0190",
+  "PR0187",
+  "PR0158"
+ ],
+ "proposed_shortlist": [
+  "PR0045",
+  "PR0023",
+  "PR0182",
+  "PR0187"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0045",
+  "PR0023",
+  "PR0072",
+  "PR0190",
+  "PR0158"
+ ],
+ "reflection_note": "The original shortlist was good but contained one program (PR0182) that violated the academic grade constraint. PR0187 was dropped for lack of specialization alignment. I swapped in PR0072 and PR0190 to provide better, more specialized QA/Testing options, as this aligns strongly with the student's interest in 'testing'. PR0072 is kept over PR0182 because it has a lower minimum grade requirement (70% vs 75%) and offers slightly higher placement potential. I also added PR0158 as a diverse option that maintains high employability while still being within budget, providing variety beyond pure security/QA.",
+ "explanation": "Braxton Technical University\nThis program is highly relevant as it focuses directly on Information Security, aligning perfectly with your career goal of hacking and testing. It meets your location preference in Pune and remains well within your maximum budget of $6000 USD per year, costing only $1450 annually. Given your strong academic background (73.9%), you meet the minimum admission requirement of 61%. The main trade-off here is that while the placement rate is solid at 71%, the median starting salary ($10236) is not the highest among the options.\n\nSilverline Technical University\nThis MTech Cyber Security program is recommended because it directly addresses your interest in hacking and testing, making it a strong fit for your career goals. It offers the lowest tuition cost at $650 per year, which is excellent for staying within your budget constraint. You meet the minimum admission requirement of 57%, and the location is Pune. The main trade-off to consider is that while it is the most affordable option, its median starting salary ($8376) is lower than other recommended programs.\n\nNorthgate Institute of Applied Sciences\nThis program was selected because it provides a strong focus on QA Testing, which aligns with your interest in testing and hacking, and offers excellent employability metrics. It maintains a high placement rate of 84% and boasts a median starting salary of $13106, maximizing your priority for high employability. The tuition ($2400) is manageable within your budget, and you meet the minimum grade requirement of 70%. The main trade-off is that while it excels in placement/salary, its focus is on Software Quality Engineering rather than pure Information Security.\n\nKestrel School of Engineering\nThis program is recommended for its low cost ($1250 annual tuition) and its relevance to testing through the field of QA Testing. It fits your Pune location preference and remains well under your budget constraint. You meet the minimum admission requirement of 58%. The main trade-off here is that while it is extremely affordable, its placement rate (64%) and median starting salary ($7265) are among the lowest in the shortlist.\n\nAshford School of Engineering\nAlthough this program focuses on Interaction Design rather than pure security testing, it was recommended because it offers exceptional employability metrics for a manageable cost. It has a high placement rate of 84% and a strong median starting salary of $13259, fulfilling your priority for high employability. The tuition ($1900) is within budget, and you meet the minimum grade requirement of 70%. The main trade-off is that its field (design_hci) deviates significantly from your stated interest in hacking and testing.",
+ "wall_s": 196.6
+}

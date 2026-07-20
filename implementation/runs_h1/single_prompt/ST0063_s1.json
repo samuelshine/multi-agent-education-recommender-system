@@ -1,0 +1,55 @@
+{
+ "student_id": "ST0063",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 78.9% in an IT/computer-science degree. I'm interested in parallel computing and cloud computing. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 3600 per year. I live in Chennai. I'm open to anywhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 78.9
+  },
+  "career_goal": null,
+  "budget_max_usd_per_year": 3600,
+  "location_preference": null,
+  "mobility": "open_domestic",
+  "employability_priority": "high",
+  "other_constraints": [
+   "r programming certification background",
+   "interested in parallel computing and cloud computing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0186",
+  "PR0197",
+  "PR0043",
+  "PR0147",
+  "PR0096",
+  "PR0199",
+  "PR0118",
+  "PR0121",
+  "PR0148",
+  "PR0016",
+  "PR0102",
+  "PR0180",
+  "PR0162",
+  "PR0112",
+  "PR0159",
+  "PR0032",
+  "PR0184",
+  "PR0165",
+  "PR0117",
+  "PR0198"
+ ],
+ "final_shortlist": [
+  "PR0186",
+  "PR0147",
+  "PR0096",
+  "PR0199",
+  "PR0165"
+ ],
+ "explanation": "This program in Pune offers a strong combination of networking and cloud skills (MTech Computer Networks) with a high placement rate (83%) and a good median starting salary ($15192), making it an excellent choice for career focus while staying within your budget.\n\nLocated in Coimbatore, this MSc Cloud Computing program directly addresses your interest in cloud technology. It has a solid placement rate (83%) and a respectable median starting salary ($13015), making it a strong contender that fits within your financial constraints.\n\nThis MTech program in Hyderabad combines networking and cloud with cybersecurity, broadening your tech skillset. While the placement rate is slightly lower (80%), the tuition ($3350) and salary potential are good options that align well with your career goals.\n\nThis MTech program is located in Chennai, which is convenient for you. It focuses on networking and cloud computing, has a reasonable tuition ($2300), and provides relevant skills while keeping the overall cost low.\n\nThis MSc Cloud Computing program in Chennai is highly budget-friendly with a very low tuition fee ($550). It directly targets cloud computing and meets your location preference while keeping costs minimal.",
+ "wall_s": 50.3
+}

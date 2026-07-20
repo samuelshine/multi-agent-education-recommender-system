@@ -1,0 +1,74 @@
+{
+ "student_id": "ST0006",
+ "session": 2,
+ "mode": "full",
+ "message": "Hi, I'm a student with a machine learning certification background. My overall academic average is 70% in an IT/computer-science degree. I'm interested in parallel computing and system developer. I want to become a Information Security Analyst. My family can afford at most about USD 1300 per year. I live in Hyderabad. I'm open to anywhere in India. About the earlier suggestions: please drop PR0186, PR0143.",
+ "memory_used": true,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 70
+  },
+  "career_goal": "Information Security Analyst",
+  "budget_max_usd_per_year": 1300,
+  "location_preference": null,
+  "mobility": "prefers_region",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in parallel computing and system developer roles"
+  ],
+  "uncertainty_notes": [
+   "Location preference not specified.",
+   "Employability priority not specified."
+  ]
+ },
+ "prefilter_ids": [
+  "PR0015",
+  "PR0020",
+  "PR0157",
+  "PR0074",
+  "PR0087",
+  "PR0119",
+  "PR0058",
+  "PR0187",
+  "PR0053",
+  "PR0109",
+  "PR0076",
+  "PR0012",
+  "PR0019",
+  "PR0114",
+  "PR0185",
+  "PR0130",
+  "PR0084",
+  "PR0120",
+  "PR0170",
+  "PR0073"
+ ],
+ "retrieved_ids": [
+  "PR0185",
+  "PR0073",
+  "PR0119",
+  "PR0053",
+  "PR0170",
+  "PR0130",
+  "PR0076",
+  "PR0187"
+ ],
+ "proposed_shortlist": [
+  "PR0185",
+  "PR0073",
+  "PR0053"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0185",
+  "PR0073",
+  "PR0119",
+  "PR0130",
+  "PR0170"
+ ],
+ "reflection_note": "The original shortlist was strong but lacked diversity. PR0053 is dropped because its focus (QA testing) is too narrow compared to the student's core goal (Information Security Analyst) and secondary interest (System Developer). I swapped in PR0119 as a better QA alternative, and PR0130 for general system/IT management, which aligns with 'system developer roles.' Finally, I added PR0170 (Big Data Analytics) because it is highly relevant to modern IT infrastructure and data-driven security analysis, while remaining within budget ($1300). The final list prioritizes core security tracks (PR0185, PR0073), followed by strong system/developer alternatives (PR0119, PR0130), and a high-potential adjacent field (PR0170).",
+ "explanation": "Longford Institute of Technology\nThis program is highly recommended because it directly matches your career goal of becoming an Information Security Analyst while staying well within your maximum budget at $1150 USD annually. It requires a CS background, which you possess, and offers relevant fields like cybersecurity and software engineering. The main trade-off here is that the median starting salary ($10850) is moderate compared to some other options on this list.\n\nElmhurst Technical University\nThis MTech Cyber Security program is an excellent technical fit for your career goal and remains under budget at $1250 USD per year. It requires a CS background, which you meet, and boasts a high placement rate of 80%. The primary trade-off to consider is that the median starting salary ($8637) is the lowest among all programs listed.\n\nMeridian Institute of Applied Sciences\nWhile this program offers the highest placement rate (86%) and the best potential salary ($14917), its focus on QA Testing deviates from your primary goal of Information Security Analyst. Furthermore, your current grade percentage (70%) is slightly below the minimum requirement of 71%, presenting a minor admission hurdle. The trade-off here is prioritizing high earning potential and placement rate over direct alignment with cybersecurity.\n\nElmhurst School of Engineering\nThis program offers the lowest tuition fee at $1000 USD, making it highly budget-friendly for your constraints. However, because its focus is on IT Management rather than technical security or system development, it does not align well with your stated career interests. The trade-off is accepting a management-focused curriculum instead of deep technical expertise in cybersecurity.\n\nStanmore Institute of Applied Sciences\nThis program is technically strong and uses up your entire budget limit at $1300 USD annually. While you meet the CS background requirement, the focus on Big Data Analytics represents a significant domain shift away from Information Security Analyst roles. The trade-off is pivoting into data science rather than maintaining a direct path toward cybersecurity analysis.",
+ "wall_s": 202.1
+}

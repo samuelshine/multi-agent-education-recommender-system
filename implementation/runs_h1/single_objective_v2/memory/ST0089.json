@@ -1,0 +1,31 @@
+{
+ "student_id": "ST0089",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 77.7
+    },
+    "career_goal": "Information Technology Manager",
+    "budget_max_usd_per_year": 1200,
+    "location_preference": null,
+    "mobility": "prefers_region",
+    "employability_priority": null,
+    "other_constraints": [
+     "Interested in networks and testing"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0157",
+    "PR0053",
+    "PR0119",
+    "PR0193",
+    "PR0050"
+   ],
+   "feedback": null
+  }
+ ]
+}

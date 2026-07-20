@@ -1,0 +1,32 @@
+{
+ "student_id": "ST0054",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 80.4
+    },
+    "career_goal": "Programmer Analyst",
+    "budget_max_usd_per_year": 1600,
+    "location_preference": "Mumbai",
+    "mobility": "prefers_region",
+    "employability_priority": "high",
+    "other_constraints": [
+     "Interested in hacking and security",
+     "Hadoop certification background"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0185",
+    "PR0114",
+    "PR0053",
+    "PR0109",
+    "PR0130"
+   ],
+   "feedback": null
+  }
+ ]
+}

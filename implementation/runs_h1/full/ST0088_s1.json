@@ -1,0 +1,71 @@
+{
+ "student_id": "ST0088",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a distro making certification background. My overall academic average is 79% in an IT/computer-science degree. I'm interested in cloud computing and cloud computing. I want to become a Web Developer. My family can afford at most about USD 3500 per year. I live in Bengaluru. I'm open to anywhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 79
+  },
+  "career_goal": "Web Developer",
+  "budget_max_usd_per_year": 3500,
+  "location_preference": "Bengaluru",
+  "mobility": "open_domestic",
+  "employability_priority": "high",
+  "other_constraints": [
+   "distro making certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0117",
+  "PR0198",
+  "PR0097",
+  "PR0139",
+  "PR0164",
+  "PR0029",
+  "PR0022",
+  "PR0182",
+  "PR0060",
+  "PR0191",
+  "PR0119",
+  "PR0101",
+  "PR0143",
+  "PR0186",
+  "PR0176",
+  "PR0058",
+  "PR0149",
+  "PR0092",
+  "PR0187",
+  "PR0039"
+ ],
+ "retrieved_ids": [
+  "PR0198",
+  "PR0186",
+  "PR0176",
+  "PR0164",
+  "PR0058",
+  "PR0191",
+  "PR0143",
+  "PR0187"
+ ],
+ "proposed_shortlist": [
+  "PR0198",
+  "PR0186",
+  "PR0164"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0186",
+  "PR0058",
+  "PR0191",
+  "PR0143",
+  "PR0176"
+ ],
+ "reflection_note": "The initial shortlist was flawed due to hard constraint violations (PR0198 grade requirement, PR0164 location). I dropped these. The revised list prioritizes technical relevance and budget adherence while accepting a slight compromise on the 'Bengaluru' location preference, as no perfect match exists in the candidate set. PR0186 remains the top choice due to its strong academic fit (CS background) and financial feasibility. PR0058 and PR0191 are excellent technical swaps that align well with modern development stacks (Data/Software Engineering). I included PR0143 as a high-quality, highly relevant alternative, and PR0176 as a lower-priority backup option if the student prefers management over pure engineering.",
+ "explanation": "Halcyon Institute of Technology\nThis MTech program was recommended because its focus on networking and software engineering aligns well with your existing IT/CS background and interest in deep systems knowledge. With an annual tuition of $2050 and a high placement rate of 83%, it strongly supports your goal of high employability. The main trade-off here is that while the program offers strong technical depth suitable for someone interested in distro making, the location (Pune) does not match your preference for Bengaluru.\n\nStanmore School of Engineering\nThis MCA program is a highly cost-effective option with an annual tuition of only $1350, keeping you well within your budget limit. It maintains a high placement rate of 83% and focuses on software engineering, which directly supports your Web Developer goal while requiring your CS background. The primary trade-off is that the program's location in Coimbatore deviates from your preferred city of Bengaluru.\n\nSarayu Technical University\nThis MTech Data Engineering program offers strong employability with an 84% placement rate and a median starting salary of $15951, which is excellent for your career goals. Although it does not require a CS background, its focus on data science analytics might be slightly tangential to core Web Development compared to other options. The main trade-off is that the program's specialization leans heavily into data engineering rather than pure web development, and it is located in Chennai.\n\nFairfax Technical University\nThis MSc Data Science program was recommended due to its impressive 87% placement rate, making it a top choice for your high employability priority. It requires your CS background and has an annual tuition of $2750, which fits within your budget. The main trade-off is that while the placement rate is excellent, the specialization in data science analytics means you would be pivoting slightly away from a pure Web Developer track, and it is located in Mumbai.\n\nCrestwood University\nThis MBA Technology Management program offers an affordable path with low tuition ($1900) and a solid 82% placement rate, providing valuable management skills for career growth. However, because this degree focuses on IT management rather than core coding, the main trade-off is that it shifts your focus from technical Web Development to business strategy, despite having an excellent salary potential of $15400.",
+ "wall_s": 209.9
+}

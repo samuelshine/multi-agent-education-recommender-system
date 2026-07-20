@@ -1,0 +1,74 @@
+{
+ "student_id": "ST0098",
+ "session": 1,
+ "mode": "single_objective",
+ "version": 2,
+ "message": "Hi, I'm a student with a app development certification background. My overall academic average is 78.6% in an IT/computer-science degree. I'm interested in cloud computing and testing. I want to become a Technical Engineer. My family can afford at most about USD 4400 per year. I live in Mumbai. I'm open to going abroad.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 78.6
+  },
+  "career_goal": "Technical Engineer",
+  "budget_max_usd_per_year": 4400,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in cloud computing and testing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0198",
+  "PR0104",
+  "PR0139",
+  "PR0194",
+  "PR0182",
+  "PR0119",
+  "PR0186",
+  "PR0197",
+  "PR0053",
+  "PR0072",
+  "PR0043",
+  "PR0147",
+  "PR0096",
+  "PR0065",
+  "PR0019",
+  "PR0199",
+  "PR0114",
+  "PR0113",
+  "PR0179",
+  "PR0118"
+ ],
+ "retrieved_ids": [
+  "PR0104",
+  "PR0194",
+  "PR0186",
+  "PR0197",
+  "PR0043",
+  "PR0147",
+  "PR0096",
+  "PR0118"
+ ],
+ "proposed_shortlist": [
+  "PR0194",
+  "PR0104",
+  "PR0147",
+  "PR0096",
+  "PR0043"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0194",
+  "PR0104",
+  "PR0147",
+  "PR0096",
+  "PR0043"
+ ],
+ "reflection_note": "All programs on the shortlist are valid regarding hard constraints (budget: all tuition fees are below $4400; academic fit: student's 78.6% meets minimum requirements for all listed programs). The list maintains a good balance between high-priority interests (Cloud Computing, Testing) and desirable locations (Germany), while ensuring five strong options remain.",
+ "explanation": "Aravalli School of Engineering\nThis program is highly recommended because it directly aligns with your interest in cloud computing and requires the CS background you possess. It offers a strong international pathway, boasting an 18-month post-study work visa and a median starting salary of $30,651. The annual tuition of $1950 fits well within your budget, making it cost-effective for global study. The main trade-off here is the requirement for English proficiency, which you will need to confirm before applying.\n\nAravalli Institute of Applied Sciences\nThis option was recommended because its focus on Software Quality Engineering directly addresses your interest in testing and has a strong placement rate of 77%. It also provides an excellent international opportunity with an 18-month post-study work visa, while the tuition ($3450) remains within budget. The trade-off is that this program focuses specifically on QA testing rather than cloud computing, which was your primary area of interest.\n\nFairfax Institute of Technology\nThis MSc Cloud Computing program perfectly matches your academic background and interests, and its annual tuition of $3200 is very affordable. It also does not require English proficiency, simplifying the admission process for you. The main trade-off, however, is that while it offers a high placement rate (83%), there is no post-study work visa available after graduation.\n\nAshford Institute of Applied Sciences\nThis MTech program is recommended due to its strong focus on networking and cybersecurity, which complements your cloud computing interests, and the tuition ($3350) fits comfortably within your budget. It also does not require English proficiency for admission. The primary trade-off is that despite having a high placement rate of 80%, this option offers no post-study work visa, limiting long-term international career mobility.\n\nVantage Institute of Technology\nThis program is an excellent fit as it covers cloud computing and software engineering while keeping the tuition cost low at $3950. It also meets your CS background requirement and does not mandate English proficiency for admission. The main trade-off here is that, similar to other Indian institutions listed, this option provides no post-study work visa, which limits international career prospects despite its high placement rate of 86%.",
+ "wall_s": 101.3
+}

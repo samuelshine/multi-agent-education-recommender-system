@@ -1,0 +1,73 @@
+{
+ "student_id": "ST0081",
+ "session": 1,
+ "mode": "single_objective",
+ "message": "Hi, I'm a student with a app development certification background. My overall academic average is 78.7% in an IT/computer-science degree. I'm interested in hacking and cloud computing. I want to become a Network Security Administrator. My family can afford at most about USD 10800 per year. I live in Pune. I'm open to anywhere in India.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 78.7
+  },
+  "career_goal": "Network Security Administrator",
+  "budget_max_usd_per_year": 10800,
+  "location_preference": null,
+  "mobility": "open_domestic",
+  "employability_priority": null,
+  "other_constraints": [
+   "interested in hacking and cloud computing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0186",
+  "PR0197",
+  "PR0043",
+  "PR0147",
+  "PR0096",
+  "PR0199",
+  "PR0118",
+  "PR0121",
+  "PR0148",
+  "PR0016",
+  "PR0102",
+  "PR0180",
+  "PR0162",
+  "PR0112",
+  "PR0159",
+  "PR0032",
+  "PR0184",
+  "PR0165",
+  "PR0117",
+  "PR0198"
+ ],
+ "retrieved_ids": [
+  "PR0096",
+  "PR0148",
+  "PR0186",
+  "PR0197",
+  "PR0162",
+  "PR0016",
+  "PR0102",
+  "PR0180"
+ ],
+ "proposed_shortlist": [
+  "PR0162",
+  "PR0096",
+  "PR0148",
+  "PR0197",
+  "PR0186"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0162",
+  "PR0148",
+  "PR0096",
+  "PR0016",
+  "PR0102"
+ ],
+ "reflection_note": "The initial shortlist was strong, prioritizing the core cybersecurity focus (PR0162, PR0148). I dropped PR0197 and PR0186 because their relevance to 'Network Security Administrator' is significantly lower than the remaining options. I swapped in PR0016, PR0102, and PR0180 as strong alternatives that focus on cloud/networking but are highly feasible and low-cost. The final list balances high cybersecurity fit (PR0162, PR0148) with excellent feasibility and cost control, while also providing solid networking/cloud backups for the student to consider.",
+ "explanation": "Aravalli Institute of Applied Sciences\nThis program is recommended because its focus on Cybersecurity and Networking/Cloud directly aligns with your career goal as a Network Security Administrator, while also meeting your interest in hacking and cloud computing. The annual tuition of $1150 is well within your budget limit of $10800. You meet the admission requirements since you have an IT/CS background and a grade percentage (78.7%) above the minimum 57%. The main trade-off here is that while the cost is low, the median starting salary ($7369) is the lowest among the shortlisted options.\n\nKestrel Institute of Technology\nThis option provides a strong balance between cost and potential earnings, making it highly suitable for your goal in Network Security. It covers both Cybersecurity and Networking/Cloud fields, matching your interests and career path, and its tuition of $2250 remains comfortably under budget. You meet the minimum grade requirement (62%) with your current academic standing. The trade-off is that while the median starting salary ($10571) is strong, it does not offer a post-study work visa benefit.\n\nAshford Institute of Applied Sciences\nThis program offers the highest potential return on investment among all options, boasting a high placement rate (80%) and the highest median starting salary ($12561). The curriculum in Cybersecurity and Networking/Cloud is an excellent fit for your stated goals and interests. While its tuition ($3350) is higher than some other choices, it remains within your overall budget constraint. The trade-off to consider is that this program has the highest cost of tuition among the recommended options.\n\nHalcyon Institute of Technology\nThis MSc Cloud Computing program directly addresses your interest in cloud computing and provides a solid foundation for network security roles through its focus on Networking/Cloud. With an annual tuition of $2400, it keeps costs manageable while offering a decent median starting salary of $8793. You meet the minimum grade requirement (64%) and do not require a CS background, providing flexibility. The main trade-off is that this program focuses on cloud computing and software engineering rather than pure cybersecurity.\n\nWestbrook Technical University\nThis university offers the lowest tuition cost ($1700) while still focusing heavily on Networking/Cloud, which aligns with your career path and interests. It is an excellent choice if minimizing annual expenditure is a high priority for you. You meet the minimum grade requirement (64%) and have the necessary CS background for admission. The trade-off here is that its median starting salary ($8729) is moderate compared to Ashford, but the low tuition cost makes it highly budget-friendly.",
+ "wall_s": 125.9
+}

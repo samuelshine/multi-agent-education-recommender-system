@@ -1,0 +1,54 @@
+{
+ "student_id": "ST0008",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 77.6% in an IT/computer-science degree. I'm interested in programming and Business process analyst. I want to become a UX Designer. My family can afford at most about USD 2100 per year. I live in Bengaluru. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 77.6
+  },
+  "career_goal": "UX Designer",
+  "budget_max_usd_per_year": 2100,
+  "location_preference": "Bengaluru",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in programming and Business process analyst roles"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0101",
+  "PR0039",
+  "PR0174",
+  "PR0158",
+  "PR0054",
+  "PR0084",
+  "PR0015",
+  "PR0020",
+  "PR0141",
+  "PR0013",
+  "PR0033",
+  "PR0014",
+  "PR0157",
+  "PR0181",
+  "PR0046",
+  "PR0047",
+  "PR0166",
+  "PR0074",
+  "PR0172",
+  "PR0059"
+ ],
+ "final_shortlist": [
+  "PR0013",
+  "PR0158",
+  "PR0174",
+  "PR0166",
+  "PR0039"
+ ],
+ "explanation": "This program is ideal because it focuses on HCI/UX Design, which aligns with your career goal. Crucially, it is located in Bengaluru, minimizing relocation stress and maximizing job prospects near home.\n\nThis MDes program specializes in Interaction Design (UX/UI), directly matching your career interest. While located in Pune, the tuition is affordable, and it offers a strong focus on design skills.\n\nThis MSc HCI program provides excellent training for UX Design. Although located in Delhi, its tuition is very affordable and the placement rate is high, making it a strong contender if you are willing to move within India.\n\nThis MDes program in Interaction Design aligns perfectly with your UX goal. It is located in Coimbatore, which is a reasonable compromise for staying near home while offering relevant design skills.\n\nThis MSc HCI program offers strong training in both design and software engineering. It is located in Coimbatore, keeping you close to home while providing a solid foundation for UX/Business Analyst roles.",
+ "wall_s": 53.1
+}

@@ -1,0 +1,71 @@
+{
+ "student_id": "ST0006",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a machine learning certification background. My overall academic average is 70% in an IT/computer-science degree. I'm interested in parallel computing and system developer. I want to become a Information Security Analyst. My family can afford at most about USD 1300 per year. I live in Hyderabad. I'm open to anywhere in India.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 70
+  },
+  "career_goal": "Information Security Analyst",
+  "budget_max_usd_per_year": 1300,
+  "location_preference": null,
+  "mobility": "open_domestic",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in parallel computing and system developer roles"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0015",
+  "PR0020",
+  "PR0157",
+  "PR0074",
+  "PR0087",
+  "PR0119",
+  "PR0058",
+  "PR0187",
+  "PR0053",
+  "PR0109",
+  "PR0076",
+  "PR0012",
+  "PR0019",
+  "PR0114",
+  "PR0185",
+  "PR0130",
+  "PR0084",
+  "PR0120",
+  "PR0170",
+  "PR0073"
+ ],
+ "retrieved_ids": [
+  "PR0185",
+  "PR0073",
+  "PR0119",
+  "PR0053",
+  "PR0114",
+  "PR0130",
+  "PR0087",
+  "PR0120"
+ ],
+ "proposed_shortlist": [
+  "PR0185",
+  "PR0073",
+  "PR0120",
+  "PR0130"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0073",
+  "PR0053",
+  "PR0119",
+  "PR0114"
+ ],
+ "reflection_note": "The original shortlist was too general and contained programs (IT Management, Big Data Analytics) that did not sufficiently align with the core goal of Information Security Analyst or the secondary interest in system development. I dropped these for more specialized options. PR0073 remains the top choice due to its direct focus on Cyber Security. I swapped in three new candidates (PR0053, PR0119, PR0114) that offer strong technical grounding, excellent placement rates, and meet or closely approach the academic requirements while supporting both security and system development interests.",
+ "explanation": "Elmhurst Technical University\nThis program is recommended because its focus on Cyber Security directly aligns with your career goal of becoming an Information Security Analyst. The annual tuition of $1250 fits within your maximum budget of $1300, and you meet the minimum admission requirement of 65% with your current grade. While it offers a strong placement rate of 80%, the main trade-off is that the median starting salary ($8637) is lower than other options, and there is no post-study work visa provided.\n\nCavendish University\nThis option was selected because it maintains a high placement rate (86%) while keeping tuition low at $1200, which respects your budget constraint. Furthermore, the minimum grade requirement of 70% perfectly matches your academic standing. The trade-off here is that the program focuses on Software Quality Engineering rather than pure cybersecurity, making it less direct for your stated career goal.\n\nMeridian Institute of Applied Sciences\nThis institution offers a strong median starting salary of $14917 and an excellent placement rate of 86%, all while keeping tuition at $1200 within budget. This program is highly relevant to system development roles, which aligns with your interests in parallel computing. The primary trade-off is that the minimum grade requirement (71%) is slightly higher than your current academic percentage.\n\nCrestwood School of Engineering\nThis program offers the lowest tuition cost at $850, making it the most budget-friendly option for you. It also has a low admission barrier with a minimum required grade of 60%. The main trade-off is that while the placement rate is solid (81%), both the median starting salary ($10903) and the overall earning potential are lower compared to Cavendish or Meridian.",
+ "wall_s": 247.3
+}

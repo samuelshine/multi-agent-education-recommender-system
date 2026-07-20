@@ -1,0 +1,55 @@
+{
+ "student_id": "ST0034",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 74.6% in an IT/computer-science degree. I'm interested in hacking and Business process analyst. I want to become a Database Manager. My family can afford at most about USD 2400 per year. I live in Pune. I'm open to anywhere in India.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 74.6
+  },
+  "career_goal": "Database Manager",
+  "budget_max_usd_per_year": 2400,
+  "location_preference": "Pune",
+  "mobility": "prefers_region",
+  "employability_priority": null,
+  "other_constraints": [
+   "interested in hacking",
+   "interested in Business process analyst"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0033",
+  "PR0074",
+  "PR0087",
+  "PR0101",
+  "PR0143",
+  "PR0058",
+  "PR0007",
+  "PR0054",
+  "PR0120",
+  "PR0170",
+  "PR0015",
+  "PR0020",
+  "PR0145",
+  "PR0157",
+  "PR0107",
+  "PR0047",
+  "PR0111",
+  "PR0134",
+  "PR0172",
+  "PR0129"
+ ],
+ "final_shortlist": [
+  "PR0157",
+  "PR0172",
+  "PR0015",
+  "PR0020",
+  "PR0033"
+ ],
+ "explanation": "This MSc IT Management program is highly relevant as it focuses on business information systems and IT management, aligning perfectly with your interest in becoming a Database Manager and acting as a Business Process Analyst. It also has a low tuition cost ($800) which fits well within your family's budget.\n\nLocated in Pune, this MSc IT Management program is an excellent fit for your career goals (Database Manager/Business Process Analyst) and requires no prior CS background. The tuition cost ($2250) is manageable within your budget and the location is convenient.\n\nThe MSc Information Systems program focuses on business information systems, which directly supports both Business Process Analyst and Database Manager roles. It has a low tuition cost ($1200) and is located in Bengaluru, offering good career prospects.\n\nThis MBA Business Analytics program focuses on business information systems, making it suitable for your interest in business process analysis. The tuition ($1450) is affordable and the program does not require a CS background, which is beneficial given your diverse background.\n\nThis MBA Business Analytics option provides strong business analytics skills relevant to process analysis. It has an affordable tuition fee ($2100) and is located in Coimbatore, making it a viable option that meets your financial constraints.",
+ "wall_s": 42.0
+}

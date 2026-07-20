@@ -1,0 +1,72 @@
+{
+ "student_id": "ST0063",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 78.9% in an IT/computer-science degree. I'm interested in parallel computing and cloud computing. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 3600 per year. I live in Chennai. I'm open to anywhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 78.9
+  },
+  "career_goal": null,
+  "budget_max_usd_per_year": 3600,
+  "location_preference": null,
+  "mobility": "open_domestic",
+  "employability_priority": "high",
+  "other_constraints": [
+   "r programming certification background",
+   "interested in parallel computing and cloud computing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0186",
+  "PR0197",
+  "PR0043",
+  "PR0147",
+  "PR0096",
+  "PR0199",
+  "PR0118",
+  "PR0121",
+  "PR0148",
+  "PR0016",
+  "PR0102",
+  "PR0180",
+  "PR0162",
+  "PR0112",
+  "PR0159",
+  "PR0032",
+  "PR0184",
+  "PR0165",
+  "PR0117",
+  "PR0198"
+ ],
+ "retrieved_ids": [
+  "PR0186",
+  "PR0147",
+  "PR0165",
+  "PR0180",
+  "PR0032",
+  "PR0197",
+  "PR0148",
+  "PR0112"
+ ],
+ "proposed_shortlist": [
+  "PR0186",
+  "PR0147",
+  "PR0197",
+  "PR0180"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0186",
+  "PR0032",
+  "PR0148",
+  "PR0180"
+ ],
+ "reflection_note": "The initial shortlist was heavily weighted towards high-scoring options (PR0147, PR0197) that pushed the budget limits unnecessarily. I dropped these due to cost concerns relative to better value alternatives. I swapped in PR0032 and PR0148 because they offer strong academic relevance, meet the budget constraint comfortably, and provide diverse pathways (core CS vs. Cybersecurity focus). The final list maintains the top choice (PR0186) while ensuring financial feasibility and maximizing options for the student.",
+ "explanation": "Halcyon Institute of Technology\nThis program is recommended because it offers a strong focus on networking and cloud computing while maintaining high employability, boasting an 83% placement rate. The annual tuition of $2050 fits well within your budget, and admission requirements are met by your current academic background (78.9%). While the median starting salary ($15192) is higher than some other options, this represents a trade-off where you pay slightly more in tuition for significantly better career outcomes.\n\nLongford School of Engineering\nThis option was recommended due to its extremely low annual tuition cost of $1200, which maximizes your budget. The curriculum aligns with your interests by covering networking and cloud computing, and admission is straightforward given your CS background. However, the main trade-off here is that while it offers the lowest cost, it also has the lowest placement rate (61%) and median starting salary ($7871) among all listed programs.\n\nKestrel Institute of Technology\nThis program provides a good balance between affordability and career focus, covering networking and cloud computing alongside cybersecurity. With an annual tuition of $2250, it remains within your budget, and the minimum grade requirement (62%) is easily met by your academic record. The trade-off here is that while its placement rate (73%) is solid, the curriculum focuses heavily on cybersecurity rather than pure parallel computing or cloud architecture.\n\nBraxton Institute of Technology\nThis program is a cost-effective choice with an annual tuition fee of $1250, keeping it well under your maximum budget. It directly addresses your interest in networking and cloud computing while requiring only a CS background for admission. The primary trade-off is that while the tuition is very low, its placement rate (71%) and median starting salary ($10359) are moderate compared to Halcyon Institute of Technology.",
+ "wall_s": 202.9
+}

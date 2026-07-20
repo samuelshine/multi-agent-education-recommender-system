@@ -1,0 +1,71 @@
+{
+ "student_id": "ST0072",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 80.3% in an IT/computer-science degree. I'm interested in IOT and system developer. I want to become a CRM Technical Developer. My family can afford at most about USD 3600 per year. I live in Bengaluru. I'm open to anywhere in India.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 80.3
+  },
+  "career_goal": "CRM Technical Developer",
+  "budget_max_usd_per_year": 3600,
+  "location_preference": "Bengaluru",
+  "mobility": "prefers_region",
+  "employability_priority": null,
+  "other_constraints": [
+   "r programming certification background",
+   "interested in IOT and system developer"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0117",
+  "PR0198",
+  "PR0097",
+  "PR0139",
+  "PR0164",
+  "PR0029",
+  "PR0022",
+  "PR0182",
+  "PR0060",
+  "PR0191",
+  "PR0119",
+  "PR0101",
+  "PR0143",
+  "PR0186",
+  "PR0176",
+  "PR0058",
+  "PR0149",
+  "PR0092",
+  "PR0187",
+  "PR0039"
+ ],
+ "retrieved_ids": [
+  "PR0198",
+  "PR0186",
+  "PR0176",
+  "PR0187",
+  "PR0119",
+  "PR0191",
+  "PR0143",
+  "PR0058"
+ ],
+ "proposed_shortlist": [
+  "PR0198",
+  "PR0186",
+  "PR0143"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0198",
+  "PR0176",
+  "PR0191",
+  "PR0119"
+ ],
+ "reflection_note": "The initial shortlist was heavily penalized by location constraints (Pune, Mumbai). PR0198 remains the clear top choice as it meets all hard constraints and is highly relevant. I have dropped the other two programs due to geographical mismatch. To maintain a diverse list of options, I swapped in three new candidates: PR0176 (Hyderabad MBA) for broader management skills; PR0191 (Chennai Data Engineering) for strong technical relevance matching data/system goals; and PR0119 (Hyderabad QA) as a budget-friendly backup option. This revised list prioritizes Bengaluru first, then other major tech hubs (Hyderabad), while ensuring the programs maintain high academic fit and low cost.",
+ "explanation": "Northgate Institute of Technology\nThis program is highly recommended because it meets your preferred location in Bengaluru and stays within your maximum budget of $3600 USD. The curriculum focuses on Software Engineering and QA Testing, which aligns well with your interest in system development and technical roles like CRM Developer. Furthermore, the institution has a strong placement rate of 95%, offering excellent employability. The main trade-off is that the specialization is in Quality Assurance rather than directly focusing on IoT or core CRM architecture.\n\nCrestwood University\nWhile this program fits comfortably within your budget at $1900 USD and requires a minimum grade of 72% (which you exceed), it shifts focus toward IT Management. Given your goal as a Technical Developer with an IT/CS background, the MBA structure may be too high-level or managerial for your technical interests in system development. The trade-off here is prioritizing business management skills over deep technical specialization.\n\nSarayu Technical University\nThis MTech program offers relevant exposure to data science and analytics, which are critical components of modern CRM systems, and its tuition ($3250 USD) remains within your budget. It also meets the minimum grade requirement (71%). However, since you prefer Bengaluru, this location in Chennai represents a geographical trade-off from your stated preference.\n\nMeridian Institute of Applied Sciences\nThis program is an excellent budget option at $1200 USD and maintains a technical focus on QA Testing, which supports system development skills. While the tuition is very low and meets your grade requirements, it is located in Hyderabad, representing a trade-off from your preferred Bengaluru location.",
+ "wall_s": 216.3
+}

@@ -1,0 +1,58 @@
+{
+ "student_id": "ST0026",
+ "session": 2,
+ "mode": "full",
+ "version": 1,
+ "message": "Hi, I'm a student with a shell programming certification background. My overall academic average is 74.8% in an IT/computer-science degree. I'm interested in programming and testing. I want to become a Applications Developer. My family can afford at most about USD 7100 per year. I live in Bengaluru. I cannot leave my city. About the earlier suggestions: please drop PR0193, PR0053.",
+ "memory_used": true,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 74.8
+  },
+  "career_goal": "Applications Developer",
+  "budget_max_usd_per_year": 7100,
+  "location_preference": "Bengaluru",
+  "mobility": "fixed_city",
+  "employability_priority": null,
+  "other_constraints": [
+   "shell programming certification background",
+   "interested in programming and testing"
+  ],
+  "uncertainty_notes": [
+   "employability_priority is unknown."
+  ]
+ },
+ "prefilter_ids": [
+  "PR0085",
+  "PR0015",
+  "PR0073",
+  "PR0002",
+  "PR0013",
+  "PR0173",
+  "PR0087"
+ ],
+ "retrieved_ids": [
+  "PR0085",
+  "PR0173",
+  "PR0013",
+  "PR0015",
+  "PR0087",
+  "PR0073"
+ ],
+ "proposed_shortlist": [
+  "PR0085",
+  "PR0173",
+  "PR0073"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0085",
+  "PR0015",
+  "PR0073"
+ ],
+ "reflection_note": "The original shortlist was good but missed a strong contender (PR0015). PR0173 is too generic and low-impact to keep. I swapped in PR0015 because it offers the best combination of high salary potential, solid employability, and relevance to business/application development, making it a stronger alternative to the original top pick while maintaining affordability. The final list prioritizes specialized roles (QA, Cyber) or strong application development tracks (IS).",
+ "explanation": "Keystone Institute of Applied Sciences\nThis program was recommended because its focus on Software Quality Engineering and QA testing directly aligns with your stated interest in programming and testing. The low annual tuition of $1450 keeps it well within your budget, and the curriculum is accessible as it does not require a Computer Science background. The main trade-off here is that while the program matches your interests perfectly, the median starting salary ($6488) is lower compared to other options on this list.\n\nKeystone Institute of Technology\nThis option was recommended because it provides excellent placement metrics (78% placement rate) and a strong median starting salary of $9707, which is beneficial for your career goal as an Applications Developer. The annual tuition of $1200 is highly affordable and does not require a CS background. However, the main trade-off is that its focus on business information systems may be less technical than what you are seeking through your interest in programming and testing.\n\nElmhurst Technical University\nThis program was recommended due to its high placement rate (80%) and strong median starting salary of $8637, making it a robust option for career growth. The tuition is also very affordable at $1250 annually, and the requirement for a CS background matches your academic profile. The main trade-off is that while highly technical, its focus on Cybersecurity shifts away from your stated interest in core programming and testing methodologies toward specialized security practices.",
+ "wall_s": 170.1
+}

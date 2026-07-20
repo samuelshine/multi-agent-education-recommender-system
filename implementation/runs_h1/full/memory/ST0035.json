@@ -1,0 +1,29 @@
+{
+ "student_id": "ST0035",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 82.2
+    },
+    "career_goal": "Database Administrator",
+    "budget_max_usd_per_year": 2800,
+    "location_preference": "Bengaluru",
+    "mobility": "fixed_city",
+    "employability_priority": "high",
+    "other_constraints": [
+     "Interested in Management and Business process analyst"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0173",
+    "PR0087",
+    "PR0013"
+   ],
+   "feedback": null
+  }
+ ]
+}

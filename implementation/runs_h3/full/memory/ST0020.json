@@ -1,0 +1,103 @@
+{
+ "student_id": "ST0020",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 80.3
+    },
+    "career_goal": "Systems Security Administrator",
+    "budget_max_usd_per_year": null,
+    "location_preference": null,
+    "mobility": "open_domestic",
+    "employability_priority": null,
+    "other_constraints": [
+     "Interested in cloud computing",
+     "Interested in Business process analyst"
+    ],
+    "uncertainty_notes": [
+     "Budget maximum per year not specified.",
+     "Location preference not specified.",
+     "Mobility preference not specified (defaulting to open_domestic).",
+     "Employability priority not specified."
+    ]
+   },
+   "final_shortlist": [
+    "PR0147",
+    "PR0043",
+    "PR0186",
+    "PR0197"
+   ],
+   "feedback": null
+  },
+  {
+   "session": 2,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 80.3
+    },
+    "career_goal": "Systems Security Administrator",
+    "budget_max_usd_per_year": 17700,
+    "location_preference": "Pune",
+    "mobility": "open_international",
+    "employability_priority": null,
+    "other_constraints": [
+     "Interested in cloud computing",
+     "Interested in Business process analyst"
+    ],
+    "uncertainty_notes": [
+     "Employability priority not specified."
+    ]
+   },
+   "final_shortlist": [
+    "PR0194",
+    "PR0001",
+    "PR0169",
+    "PR0000",
+    "PR0195"
+   ],
+   "feedback": {
+    "liked": [
+     "PR0147",
+     "PR0043"
+    ],
+    "disliked": []
+   }
+  },
+  {
+   "session": 3,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 80.3
+    },
+    "career_goal": "Systems Security Administrator",
+    "budget_max_usd_per_year": 17700,
+    "location_preference": "Pune",
+    "mobility": "open_international",
+    "employability_priority": "high",
+    "other_constraints": [
+     "Interested in cloud computing",
+     "Interested in Business process analyst"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0194",
+    "PR0000",
+    "PR0195",
+    "PR0061"
+   ],
+   "feedback": {
+    "liked": [
+     "PR0194",
+     "PR0001"
+    ],
+    "disliked": []
+   }
+  }
+ ]
+}

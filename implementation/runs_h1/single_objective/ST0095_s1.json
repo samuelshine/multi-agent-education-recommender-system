@@ -1,0 +1,66 @@
+{
+ "student_id": "ST0095",
+ "session": 1,
+ "mode": "single_objective",
+ "message": "Hi, I'm a student with a full stack certification background. My overall academic average is 72.6% in an IT/computer-science degree. I'm interested in Software Engineering and developer. I want to become a Applications Developer. My family can afford at most about USD 3300 per year. I live in Hyderabad. I cannot leave my city. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 72.6
+  },
+  "career_goal": "Applications Developer (Software Engineering and developer)",
+  "budget_max_usd_per_year": 3300,
+  "location_preference": "Hyderabad",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Full stack certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0026",
+  "PR0076",
+  "PR0167",
+  "PR0196",
+  "PR0142",
+  "PR0119",
+  "PR0176",
+  "PR0096",
+  "PR0130",
+  "PR0113",
+  "PR0111",
+  "PR0074",
+  "PR0050",
+  "PR0159"
+ ],
+ "retrieved_ids": [
+  "PR0196",
+  "PR0167",
+  "PR0142",
+  "PR0119",
+  "PR0096",
+  "PR0130",
+  "PR0176",
+  "PR0074"
+ ],
+ "proposed_shortlist": [
+  "PR0196",
+  "PR0167",
+  "PR0142",
+  "PR0130"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0196",
+  "PR0096",
+  "PR0167",
+  "PR0119",
+  "PR0142"
+ ],
+ "reflection_note": "The original shortlist was good but lacked diversity in technical focus and missed a strong candidate (PR0096). PR0130 was correctly identified as too broad. I swapped in PR0096 for its excellent blend of technical relevance, high placement rate, and meeting all constraints. I also swapped in PR0119 because it is a superior version of the QA track presented by PR0142 (higher salary/placement), allowing us to keep both options while improving quality. The final list prioritizes core development (PR0196) followed by strong technical adjacent fields (PR0096, PR0167), and then two distinct but related tracks: QA (PR0119) and the original QA option (PR0142).",
+ "explanation": "Elmhurst Institute of Applied Sciences\nThis program is recommended because it directly aligns with your interest in Software Engineering and keeps tuition low at $1650 USD, which fits comfortably within your maximum budget. Your current grade percentage (72.6%) exceeds the minimum requirement of 63%, making admission feasible. The primary trade-off here is that while the cost is excellent, its median starting salary ($10817) and placement rate (70%) are among the lowest on this list compared to other options.\n\nAshford Institute of Applied Sciences\nThis option provides a strong balance between high employability and good compensation, boasting an 80% placement rate and a $12561 median starting salary. The program's focus on networking and cybersecurity is highly relevant for modern application development infrastructure. Be aware that the annual tuition of $3350 slightly exceeds your stated maximum budget of $3300, representing the main trade-off for achieving these high career metrics.\n\nCharnock Institute of Technology\nThis program offers a strong combination of affordability and excellent job prospects, with an annual tuition of $2450 USD and a median starting salary of $12765. It meets your academic background requirements and is located in Hyderabad. The main trade-off to consider is that while it covers Software Engineering, its inclusion of Cybersecurity means the focus might be broader than pure application development.\n\nMeridian Institute of Applied Sciences\nThis program stands out for offering exceptional employability metrics, boasting an 86% placement rate and a high median starting salary of $14917. Furthermore, the tuition is very low at $1200 USD, keeping you well within budget. The trade-off to note is that its specialization in QA Testing deviates from your primary goal of being a pure Applications Developer.\n\nNalanda Ridge School of Engineering\nThis program offers the lowest possible tuition cost ($700 USD), making it extremely safe for your budget constraints while still offering relevant Software Engineering coursework. However, the main trade-off is that its low median starting salary ($6488) and placement rate (64%) suggest lower career outcomes compared to the other options on this list, potentially conflicting with your high employability priority.",
+ "wall_s": 118.3
+}

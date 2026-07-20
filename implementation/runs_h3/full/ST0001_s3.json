@@ -1,0 +1,72 @@
+{
+ "student_id": "ST0001",
+ "session": 3,
+ "mode": "full",
+ "message": "Hi, I'm a student with a app development certification background. My overall academic average is 75.3% in an IT/computer-science degree. I'm interested in data engineering and testing. I want to become a Web Developer. My family can afford at most about USD 3200 per year. I live in Kolkata. I'm open to going abroad. Getting a good job after graduation matters more to me than anything else. About the earlier suggestions: I liked PR0022, PR0182.",
+ "memory_used": true,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 75.3
+  },
+  "career_goal": "Web Developer",
+  "budget_max_usd_per_year": 3200,
+  "location_preference": "Kolkata",
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "app development certification background",
+   "interested in data engineering and testing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0198",
+  "PR0058",
+  "PR0053",
+  "PR0126",
+  "PR0026",
+  "PR0065",
+  "PR0019",
+  "PR0090",
+  "PR0145",
+  "PR0107",
+  "PR0008",
+  "PR0063",
+  "PR0142",
+  "PR0082",
+  "PR0052",
+  "PR0085",
+  "PR0173",
+  "PR0071",
+  "PR0051",
+  "PR0037"
+ ],
+ "retrieved_ids": [
+  "PR0053",
+  "PR0082",
+  "PR0052",
+  "PR0090",
+  "PR0126",
+  "PR0145",
+  "PR0173",
+  "PR0071"
+ ],
+ "proposed_shortlist": [
+  "PR0053",
+  "PR0052",
+  "PR0145",
+  "PR0173"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0053",
+  "PR0052",
+  "PR0071",
+  "PR0082"
+ ],
+ "reflection_note": "The original shortlist was heavily weighted towards location and cost, which is correct. PR0053 remains the top choice due to its perfect alignment with Kolkata, budget, SE/Testing focus, and high placement rate. PR0052 is a solid backup. I dropped PR0145 and PR0173 because their non-preferred locations detract from the overall fit score despite being affordable. I swapped in PR0071 (Data Engineering) as it directly addresses the student's interest in data engineering, making it highly relevant. PR0082 is included as a strong, low-cost Mumbai alternative if Kolkata options become unavailable.",
+ "explanation": "Cavendish University\nThis program is highly recommended because it meets your location preference in Kolkata and aligns well with your interest in testing through its focus on Software Quality Engineering. With an annual tuition of $1200 and a minimum grade requirement of 70%, you are well-positioned for admission given your 75.3% academic background. The high placement rate of 86% and median starting salary of $12,855 strongly support your priority for employability. The main trade-off here is that while the program offers excellent career prospects, it does not provide any post-study work visa benefits.\n\nQuilon Technical University\nThis option was recommended because it maintains your preferred location in Kolkata and offers a very low annual tuition of $950, making it highly budget-friendly. The curriculum focuses on QA Testing and Software Engineering, which directly supports your interest in testing and development. While the admission requirements are easily met (minimum 52% grade), you should note that this program has a lower placement rate (63%) and median starting salary ($6,808) compared to other options. The trade-off is accepting a lower expected earning potential for maximum cost savings in your preferred city.\n\nLongford Institute of Applied Sciences\nThis program was recommended because its focus on Data Science Analytics aligns perfectly with your stated interest in data engineering. It keeps the tuition within budget at $1300 and offers a decent median starting salary of $7,837. However, this institution is located in Mumbai, deviating from your Kolkata preference, and it has a lower placement rate of 58%. The main trade-off you must consider is moving away from your preferred location to pursue the specific data engineering focus you are interested in.\n\nElmhurst Technical University\nThis program was recommended due to its extremely low annual tuition cost of $500, making it highly accessible while still providing relevant training in QA Testing and Software Engineering. The admission requirements (minimum 55%) are easily met by your academic background. Like the Longford Institute, this option is located in Mumbai rather than Kolkata, representing a geographical trade-off. Furthermore, its median starting salary of $6,458 suggests that while it is affordable, it may offer lower immediate earning potential compared to other options.",
+ "wall_s": 21.3
+}

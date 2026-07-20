@@ -1,0 +1,73 @@
+{
+ "student_id": "ST0004",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 73.9% in an IT/computer-science degree. I'm interested in hacking and testing. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 6000 per year. I live in Pune. I cannot leave my city. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 73.9
+  },
+  "career_goal": "tech (interested in hacking and testing)",
+  "budget_max_usd_per_year": 6000,
+  "location_preference": "Pune",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "information security certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0182",
+  "PR0072",
+  "PR0019",
+  "PR0172",
+  "PR0190",
+  "PR0080",
+  "PR0186",
+  "PR0092",
+  "PR0187",
+  "PR0007",
+  "PR0158",
+  "PR0084",
+  "PR0078",
+  "PR0181",
+  "PR0046",
+  "PR0180",
+  "PR0045",
+  "PR0023",
+  "PR0025",
+  "PR0156"
+ ],
+ "retrieved_ids": [
+  "PR0045",
+  "PR0023",
+  "PR0182",
+  "PR0072",
+  "PR0190",
+  "PR0187",
+  "PR0158"
+ ],
+ "proposed_shortlist": [
+  "PR0045",
+  "PR0023",
+  "PR0182",
+  "PR0187",
+  "PR0158"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0045",
+  "PR0187",
+  "PR0023",
+  "PR0182",
+  "PR0158"
+ ],
+ "reflection_note": "The initial shortlist was well-curated and contained no hard constraint violations. I have maintained the ranking structure but slightly adjusted the final order to prioritize programs based on a combination of direct relevance (Cybersecurity/Testing) and overall viability (Academic Fit vs Grade). PR0045 remains the top recommendation due to its perfect alignment across all criteria. PR0187 is ranked second because its grade requirement is very close to your score, offering high employability in a relevant IT field. PR0023 serves as an excellent, highly affordable alternative focused purely on cybersecurity. PR0182 and PR0158 are kept at the bottom as strong secondary options for career growth or if the primary choices prove too competitive.",
+ "explanation": "Braxton Technical University\nThis program is highly recommended because its focus on \"Information Security\" directly aligns with your interest in hacking and testing, building upon your existing information security background. The annual tuition of $1450 fits well within your budget, and the minimum grade requirement (61%) is easily met by your 73.9% GPA. The main trade-off here is that while it offers strong specialization, its median starting salary ($10236) and placement rate (71%) are not the highest among the options.\n\nCavendish University\nThis program was recommended because it maintains a low annual tuition of $1450 and has an excellent placement rate of 87%, prioritizing high employability in Pune. It is suitable as it does not require a CS background, and your grade (73.9%) exceeds the minimum requirement of 72%. The trade-off to consider is that its focus on general \"Systems Administration\" is less specialized toward the security or testing niche you expressed interest in.\n\nSilverline Technical University\nThis option is recommended primarily because it offers the lowest tuition cost at $650, making it an excellent fit for your budget constraints while still providing a relevant MTech Cyber Security degree. Admission is straightforward as your grade exceeds the 57% minimum and no CS background is required. The main trade-off here is that its median starting salary ($8376) and placement rate (70%) are lower compared to other specialized options, suggesting a balance between cost savings and immediate earning potential.\n\nKeystone Technical University\nThis program is highly recommended because \"Software Quality Engineering\" directly addresses your interest in testing, and it boasts the highest placement rate of 91% with a strong median starting salary of $12865. While its tuition ($1950) is slightly higher than some options, the high employability metrics make it valuable for your career goals. The main trade-off to note is that the minimum grade requirement (75%) is marginally above your current 73.9% GPA.\n\nAshford School of Engineering\nThis program was recommended due to its strong placement rate (84%) and a competitive median starting salary ($13259), both contributing to high employability in Pune. The tuition of $1900 fits within your budget, and the minimum grade requirement (70%) is met by your academic background. However, the main trade-off is that its focus on \"Interaction Design\" deviates significantly from your stated interest in cybersecurity or testing.",
+ "wall_s": 127.2
+}

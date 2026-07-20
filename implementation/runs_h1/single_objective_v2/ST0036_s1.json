@@ -1,0 +1,76 @@
+{
+ "student_id": "ST0036",
+ "session": 1,
+ "mode": "single_objective",
+ "version": 2,
+ "message": "Hi, I'm a student with a python certification background. My overall academic average is 70.8% in an IT/computer-science degree. I'm interested in Management and developer. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 3400 per year. I live in Delhi. I'd strongly prefer to stay near home, though I might consider elsewhere in India.",
+ "memory_used": false,
+ "fallbacks": [
+  "reflect"
+ ],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 70.8
+  },
+  "career_goal": "Management and developer (in tech)",
+  "budget_max_usd_per_year": 3400,
+  "location_preference": "Delhi",
+  "mobility": "prefers_region",
+  "employability_priority": null,
+  "other_constraints": [
+   "Python certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0060",
+  "PR0176",
+  "PR0092",
+  "PR0189",
+  "PR0076",
+  "PR0130",
+  "PR0078",
+  "PR0150",
+  "PR0157",
+  "PR0160",
+  "PR0048",
+  "PR0172",
+  "PR0156",
+  "PR0029",
+  "PR0022",
+  "PR0182",
+  "PR0191",
+  "PR0119",
+  "PR0101",
+  "PR0143"
+ ],
+ "retrieved_ids": [
+  "PR0160",
+  "PR0189",
+  "PR0076",
+  "PR0130",
+  "PR0156",
+  "PR0048",
+  "PR0157",
+  "PR0172"
+ ],
+ "proposed_shortlist": [
+  "PR0160",
+  "PR0189",
+  "PR0076",
+  "PR0130",
+  "PR0157"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0160",
+  "PR0189",
+  "PR0076",
+  "PR0130",
+  "PR0157"
+ ],
+ "reflection_note": "reflect fallback: kept proposal",
+ "explanation": "Keystone Technical University\nThis program was highly recommended because it meets your primary location preference in Delhi and keeps costs low with an annual tuition of $2050, which fits well within your budget. The minimum grade requirement of 60% is easily met by your academic background (70.8%). The main trade-off here is that while the placement rate is solid at 71%, it is not as high as some other options on this list.\n\nAshford University\nThis option was recommended due to its strong career potential, boasting a median starting salary of $13059 and an excellent placement rate of 85%. However, the annual tuition of $3350 uses up most of your maximum budget, and the minimum grade requirement (71%) is slightly higher than your current academic standing. The main trade-off is balancing this high earning potential against a significant regional move to Mumbai and a tighter budget fit.\n\nSarayu Institute of Technology\nThis program offers an excellent balance of affordability and strong career outcomes, featuring a low tuition cost of $1250 alongside a median starting salary of $13142. The placement rate is also robust at 81%, making it highly appealing for your management goals. Be aware that the minimum required grade percentage (74%) is slightly higher than your current academic score, representing the main admission hurdle.\n\nElmhurst School of Engineering\nThis program is recommended primarily because of its low cost ($1000 annual tuition) and easy admission requirements (62%), making it highly budget-friendly. It offers a good balance with a placement rate of 77% and a median starting salary of $11249. The main trade-off to consider is that the potential starting salary, while respectable, is lower compared to some other options on this list.\n\nLongford University\nThis option was recommended as the most budget-friendly choice, with an annual tuition fee of only $800 and a minimum grade requirement of 64%. While it provides maximum cost savings, the main trade-off involves both location (Coimbatore) and potential salary; its median starting salary ($10444) is among the lower figures on this shortlist.",
+ "wall_s": 105.1
+}

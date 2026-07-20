@@ -1,0 +1,75 @@
+{
+ "student_id": "ST0046",
+ "session": 1,
+ "mode": "single_objective",
+ "message": "Hi, I'm a student with a full stack certification background. My overall academic average is 78% in an IT/computer-science degree. I'm interested in hacking and cloud computing. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 6900 per year. I live in Hyderabad. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [
+  "reflect"
+ ],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 78
+  },
+  "career_goal": null,
+  "budget_max_usd_per_year": 6900,
+  "location_preference": "Hyderabad",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in hacking and cloud computing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0186",
+  "PR0197",
+  "PR0043",
+  "PR0147",
+  "PR0096",
+  "PR0199",
+  "PR0118",
+  "PR0121",
+  "PR0148",
+  "PR0016",
+  "PR0102",
+  "PR0180",
+  "PR0162",
+  "PR0112",
+  "PR0159",
+  "PR0032",
+  "PR0184",
+  "PR0165",
+  "PR0117",
+  "PR0198"
+ ],
+ "retrieved_ids": [
+  "PR0096",
+  "PR0159",
+  "PR0186",
+  "PR0197",
+  "PR0147",
+  "PR0180",
+  "PR0162",
+  "PR0148"
+ ],
+ "proposed_shortlist": [
+  "PR0096",
+  "PR0162",
+  "PR0148",
+  "PR0159",
+  "PR0186"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0096",
+  "PR0162",
+  "PR0148",
+  "PR0159",
+  "PR0186"
+ ],
+ "reflection_note": "reflect fallback: kept proposal",
+ "explanation": "Ashford Institute of Applied Sciences\nThis program is highly recommended because it perfectly aligns with your location preference in Hyderabad and your interest in cybersecurity and cloud computing. With a tuition fee of $3350, it fits comfortably within your budget while offering an excellent placement rate of 80%. The main trade-off here is that the post-study work visa duration is zero months, meaning immediate job searching upon graduation will be necessary.\n\nAravalli Institute of Applied Sciences\nThis option is recommended due to its very low annual tuition cost of $1150 and strong focus on cybersecurity and cloud networking. While it meets your interest in hacking/cloud computing, the main trade-off is that the location (Chennai) does not match your Hyderabad preference, and the median starting salary ($7369) is among the lowest listed options.\n\nKestrel Institute of Technology\nThis program offers relevant fields like cybersecurity and networking/cloud at a moderate tuition cost of $2250. It provides good employability metrics with a 73% placement rate and a decent salary of $10571. The main trade-off is that while the admission requirements are flexible, the location (Coimbatore) does not match your preferred region in Hyderabad.\n\nVantage Technical University\nThis program is ideal if budget and location are your absolute highest priorities, as it is located in Hyderabad with a very low tuition of $700. However, the main trade-off is that the focus on \"Systems Administration\" and its resulting median starting salary ($6514) may not meet your high employability priority given your CS background.\n\nHalcyon Institute of Technology\nThis program is recommended because it offers the highest placement rate (83%) and the best median starting salary ($15192), directly addressing your high employability priority. The fields also cover networking/cloud, aligning with your interests. The main trade-off is that while its tuition ($2050) is manageable, the location in Pune does not match your stated preference for Hyderabad.",
+ "wall_s": 173.6
+}

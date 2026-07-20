@@ -1,0 +1,72 @@
+{
+ "student_id": "ST0003",
+ "session": 3,
+ "mode": "no_memory",
+ "version": 1,
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 81.6% in an IT/computer-science degree. I'm interested in data engineering and system developer. I want to become a Software Developer. My family can afford at most about USD 13200 per year. I live in Mumbai. I'm open to anywhere in India. Getting a good job after graduation matters more to me than anything else. About the earlier suggestions: I liked PR0071, PR0158.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 81.6
+  },
+  "career_goal": "Software Developer",
+  "budget_max_usd_per_year": 13200,
+  "location_preference": "Mumbai",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in data engineering and system developer roles.",
+   "Liked PR0071, PR0158."
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0058",
+  "PR0026",
+  "PR0090",
+  "PR0145",
+  "PR0107",
+  "PR0063",
+  "PR0173",
+  "PR0071",
+  "PR0198",
+  "PR0097",
+  "PR0144",
+  "PR0191",
+  "PR0143",
+  "PR0186",
+  "PR0039",
+  "PR0053",
+  "PR0007",
+  "PR0158",
+  "PR0043",
+  "PR0109"
+ ],
+ "retrieved_ids": [
+  "PR0071",
+  "PR0143",
+  "PR0158",
+  "PR0026",
+  "PR0191",
+  "PR0144",
+  "PR0186",
+  "PR0143"
+ ],
+ "proposed_shortlist": [
+  "PR0071",
+  "PR0158",
+  "PR0143"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0071",
+  "PR0143",
+  "PR0144",
+  "PR0026"
+ ],
+ "reflection_note": "The initial shortlist was good but missed strong, relevant alternatives. PR0158 is dropped due to location and field mismatch (Design). We swap in PR0144 (Software focus) and PR0026 (Data Engineering/High Salary) as they offer better balance across the core constraints: high employability, relevance to SE/DE roles, and manageable regional deviation from Mumbai. The final list prioritizes PR0071 and PR0143 for their perfect location match, followed by the two strongest alternatives.",
+ "explanation": "Longford Institute of Applied Sciences\nThis program is highly recommended because it aligns with your interest in Data Engineering and was one of the programs you previously liked. It offers a low annual tuition of $1300 and is located directly in Mumbai, matching your location preference. However, the main trade-off here is that while the cost is excellent, the median starting salary ($7837) and placement rate (58%) are significantly lower than other options, which may conflict with your high employability priority.\n\nFairfax Technical University\nThis option was recommended because it remains in Mumbai and offers a strong balance of affordability and career potential. With an annual tuition of $2750, it is well within your budget while providing a high placement rate of 87% and a median starting salary of $13436. The only trade-off to consider is that the minimum required grade percentage (72%) is slightly higher than necessary for admission, though you meet this requirement with an 81.6%.\n\nTejas Technical University\nThis program was highlighted due to its exceptional employability metrics and strong focus on software engineering, which aligns perfectly with your career goal. It boasts a high placement rate of 93% and the highest median starting salary ($19239) among all options. The primary trade-off is that while it offers the best job prospects, both the tuition cost ($4800) and the resulting salary exceed your stated budget constraints.\n\nNorthgate Technical University\nThis program provides an excellent balance of high employability metrics and a salary near your maximum budget limit, making it a strong contender for system developer roles. It has a placement rate of 81% and offers a median starting salary of $13385, which is right at your budget ceiling. The main trade-off here is that while the program itself is highly suitable, it requires you to relocate to Hyderabad instead of remaining in Mumbai.",
+ "wall_s": 198.1
+}

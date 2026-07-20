@@ -1,0 +1,74 @@
+{
+ "student_id": "ST0021",
+ "session": 2,
+ "mode": "no_memory",
+ "version": 1,
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 73.3% in an IT/computer-science degree. I'm interested in parallel computing and Business process analyst. I want to become a Technical Engineer. My family can afford at most about USD 1400 per year. I live in Kolkata. I'm open to anywhere in India. About the earlier suggestions: I liked PR0119, PR0087 but please drop PR0186, PR0143.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 73.3
+  },
+  "career_goal": "Technical Engineer",
+  "budget_max_usd_per_year": 1400,
+  "location_preference": "Kolkata",
+  "mobility": "open_domestic",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in parallel computing",
+   "Interested in Business process analyst",
+   "Dislikes PR0186",
+   "Dislikes PR0143"
+  ],
+  "uncertainty_notes": [
+   "No explicit statement on employability priority.",
+   "No specific location preference beyond Kolkata/India region mentioned."
+  ]
+ },
+ "prefilter_ids": [
+  "PR0015",
+  "PR0020",
+  "PR0157",
+  "PR0074",
+  "PR0087",
+  "PR0119",
+  "PR0058",
+  "PR0187",
+  "PR0053",
+  "PR0109",
+  "PR0076",
+  "PR0012",
+  "PR0019",
+  "PR0114",
+  "PR0185",
+  "PR0130",
+  "PR0084",
+  "PR0120",
+  "PR0170",
+  "PR0073"
+ ],
+ "retrieved_ids": [
+  "PR0157",
+  "PR0185",
+  "PR0053",
+  "PR0130",
+  "PR0076",
+  "PR0120"
+ ],
+ "proposed_shortlist": [
+  "PR0185",
+  "PR0053",
+  "PR0130"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0185",
+  "PR0053",
+  "PR0157"
+ ],
+ "reflection_note": "The original shortlist was strong but included PR0130, which is the weakest technical fit and located outside the preferred city. I have dropped PR0130. To maintain a diverse list of 5 options (or at least improve quality), I swapped in two highly relevant alternatives: PR0157 (low-cost IT Management backup) and PR0120 (highly technical Data Analytics). However, since the top three are excellent fits, I have prioritized keeping the best Kolkata/Technical options. The final shortlist focuses on PR0185 and PR0053 as primary choices due to location and relevance, followed by PR0157 as a highly affordable backup option.",
+ "explanation": "Longford Institute of Technology\nThis program is recommended because it is located in Kolkata, matching your location preference, and its annual tuition of $1150 falls within your budget maximum of $1400. Since you have an IT/computer-science background, you meet the admission requirement for this MSc Information Security degree. The main trade-off here is that while it aligns with a technical career goal, it does not specifically address your interest in Business Process Analysis.\n\nCavendish University\nThis option was selected because it remains in Kolkata and has an annual tuition of $1200, keeping you within budget. With a placement rate of 86% and a median starting salary of $12855, this program offers strong career prospects for a Technical Engineer goal. The trade-off is that while the curriculum focuses on Software Quality Engineering, it may be less directly aligned with your stated interest in Parallel Computing compared to pure CS roles.\n\nLongford University\nThis MSc IT Management degree was recommended because its focus on Business Information Systems aligns well with your interest in Business Process Analysis. Furthermore, the low annual tuition of $800 is highly budget-friendly. The main trade-off for this program is that it requires relocating to Coimbatore instead of Kolkata, and it has a lower placement rate (72%) compared to the other options.",
+ "wall_s": 190.6
+}

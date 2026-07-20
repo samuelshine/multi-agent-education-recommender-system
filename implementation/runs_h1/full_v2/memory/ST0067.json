@@ -1,0 +1,31 @@
+{
+ "student_id": "ST0067",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 69.6
+    },
+    "career_goal": "Database Developer",
+    "budget_max_usd_per_year": 1100,
+    "location_preference": "Mumbai",
+    "mobility": "fixed_city",
+    "employability_priority": "high",
+    "other_constraints": [
+     "Interested in Management and Business process analyst"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0114",
+    "PR0082",
+    "PR0049",
+    "PR0112",
+    "PR0071"
+   ],
+   "feedback": null
+  }
+ ]
+}

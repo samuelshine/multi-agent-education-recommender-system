@@ -1,0 +1,71 @@
+{
+ "student_id": "ST0079",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a distro making certification background. My overall academic average is 77.7% in an IT/computer-science degree. I'm interested in Management and security. I want to become a Data Architect. My family can afford at most about USD 7000 per year. I live in Mumbai. I'm open to anywhere in India.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 77.7
+  },
+  "career_goal": "Data Architect",
+  "budget_max_usd_per_year": 7000,
+  "location_preference": null,
+  "mobility": "open_domestic",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in Management and security"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0097",
+  "PR0164",
+  "PR0060",
+  "PR0191",
+  "PR0143",
+  "PR0176",
+  "PR0058",
+  "PR0092",
+  "PR0189",
+  "PR0007",
+  "PR0099",
+  "PR0026",
+  "PR0076",
+  "PR0090",
+  "PR0130",
+  "PR0120",
+  "PR0170",
+  "PR0078",
+  "PR0145",
+  "PR0033"
+ ],
+ "retrieved_ids": [
+  "PR0164",
+  "PR0176",
+  "PR0189",
+  "PR0092",
+  "PR0033"
+ ],
+ "proposed_shortlist": [
+  "PR0176",
+  "PR0164",
+  "PR0189",
+  "PR0092",
+  "PR0033"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0176",
+  "PR0164",
+  "PR0189",
+  "PR0092",
+  "PR0033"
+ ],
+ "reflection_note": "The initial shortlist is robust. All five programs meet the hard constraints (Budget max $7000, Min Grade <= 77.7). The ranking reflects a balance between cost-effectiveness (PR0176) and specific interest alignment (PR0164/PR0033). No entries were dropped as all are valid candidates.",
+ "explanation": "Crestwood University\nThis MBA Technology Management program is recommended because it aligns well with your interest in management while staying comfortably within your $7000 annual budget, with a tuition of only $1900. Your 77.7% grade exceeds the minimum requirement of 72%, and the curriculum focuses on IT management, which supports both your career goal and interests. The main trade-off here is that while the placement rate is solid at 82%, it does not offer a post-study work visa period.\n\nNorthgate School of Engineering\nThis option offers the highest median starting salary ($17361) and an excellent 90% placement rate, making it highly attractive for career growth. The program's focus on IT Management is relevant to your goals, and the tuition of $2050 keeps you well under budget. However, be aware that your current grade (77.7%) falls slightly below the minimum required percentage of 79%, representing a potential admission trade-off for these strong metrics.\n\nAshford University\nThis program is recommended as a safe and reliable option, requiring only a minimum grade of 71% and costing $3350 annually, which fits your budget constraints. The MBA Technology Management curriculum supports your interest in management within the IT sector. The primary trade-off when considering this school is that its median starting salary ($13059) and placement rate (85%) are lower compared to some of the other options listed.\n\nSilverline School of Engineering\nSimilar to Ashford, Silverline offers a manageable tuition fee of $3450 while meeting your grade requirement with a minimum of 74%. The MBA Technology Management program keeps you focused on IT management and aligns with your interest in technology. The main trade-off here is that its median starting salary ($13713) and placement rate (85%) are modest, requiring you to weigh these metrics against the cost savings.\n\nQuilon School of Engineering\nThis MBA Business Analytics program is strongly recommended because its fields\u2014Business Information Systems and Data Science Analytics\u2014are the most direct fit for your goal of becoming a Data Architect. The tuition ($2100) is affordable, and it meets your grade requirement easily. However, the main trade-off is that while the content is perfect for your career path, this program has the lowest placement rate (73%) and median starting salary ($10526) among all the options.",
+ "wall_s": 134.1
+}

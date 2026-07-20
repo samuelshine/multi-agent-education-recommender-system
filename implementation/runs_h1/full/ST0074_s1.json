@@ -1,0 +1,72 @@
+{
+ "student_id": "ST0074",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a app development certification background. My overall academic average is 78% in an IT/computer-science degree. I'm interested in parallel computing and system developer. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 16200 per year. I live in Coimbatore. I'm open to going abroad. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 78
+  },
+  "career_goal": "parallel computing and system developer (tech)",
+  "budget_max_usd_per_year": 16200,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "app development certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0000",
+  "PR0079",
+  "PR0195",
+  "PR0124",
+  "PR0021",
+  "PR0122",
+  "PR0005",
+  "PR0010",
+  "PR0169",
+  "PR0153",
+  "PR0028",
+  "PR0067",
+  "PR0075",
+  "PR0024",
+  "PR0163",
+  "PR0132",
+  "PR0051",
+  "PR0151",
+  "PR0037",
+  "PR0161"
+ ],
+ "retrieved_ids": [
+  "PR0005",
+  "PR0153",
+  "PR0169",
+  "PR0021",
+  "PR0151",
+  "PR0161",
+  "PR0037",
+  "PR0132"
+ ],
+ "proposed_shortlist": [
+  "PR0161",
+  "PR0037",
+  "PR0132",
+  "PR0005"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0037",
+  "PR0161",
+  "PR0151",
+  "PR0021",
+  "PR0153"
+ ],
+ "reflection_note": "The original shortlist was good but missed key, highly relevant German options. I dropped PR0132 and PR0005 because the student's goal (system developer) is best served by core Software Engineering programs in Germany. I swapped in PR0151 and PR0021 as strong technical alternatives. I also added PR0153 (HCI) back into the final shortlist despite its design focus, because it has an exceptionally low tuition cost ($550/year), which is a major financial advantage that should be considered alongside the core CS options.",
+ "explanation": "Tejas School of Engineering\nThis program is recommended because its focus on software engineering aligns well with your goal of becoming a system developer. You meet the admission requirements, as it requires a CS background and you have an academic record above the 62% minimum grade. Furthermore, the annual tuition of $2650 keeps you comfortably within your budget, and the program offers an 18-month post-study work visa period. The main trade-off is that while highly technical, the curriculum might be broader than specialized parallel computing development.\n\nTejas University\nThis option is a strong fit for your career goal due to its dedicated MSc Software Engineering track, which supports system developer aspirations. You meet the admission criteria (requiring a CS background and having an academic record above 63%), and the annual tuition of $3850 remains well within your maximum budget. Like the other Tejas program, it provides valuable employability with a 72% placement rate and offers an 18-month post-study work visa. The trade-off here is that the cost ($3850) is slightly higher than the alternative Tejas option for comparable outcomes.\n\nCrestwood Institute of Technology\nThis program is recommended because it maintains a strong focus on software engineering while offering flexible admission, as it does not require a CS background and accepts students with your grade (78% vs 62%). The annual tuition of $5750 fits within your budget, and the high employability priority is supported by its 72% placement rate. However, the main trade-off is that the curriculum emphasizes Software Quality Engineering and QA testing, which may deviate from a core system developer or parallel computing focus.\n\nAshford Institute of Technology\nThis program offers excellent financial value with a very low annual tuition of $450, keeping you far under budget while also providing an 18-month post-study work visa. You meet the admission requirements (73% minimum grade vs your 78%), and it boasts a high placement rate of 82%. The primary trade-off is that its focus on IT Operations/Support is less directly aligned with advanced system development or parallel computing goals compared to pure software engineering programs.\n\nKeystone University\nThis program was considered due to its low annual tuition ($550) and the fact that it does not require a CS background, making admission flexible for you. You also meet the minimum grade requirement (71% vs your 78%), and it offers an 18-month post-study work visa. The main trade-off is that its focus on Human-Computer Interaction and business systems is significantly removed from your stated goal of becoming a technical system developer specializing in parallel computing.",
+ "wall_s": 249.3
+}

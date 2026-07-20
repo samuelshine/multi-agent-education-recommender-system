@@ -1,0 +1,73 @@
+{
+ "student_id": "ST0006",
+ "session": 1,
+ "mode": "single_objective",
+ "version": 2,
+ "message": "Hi, I'm a student with a machine learning certification background. My overall academic average is 70% in an IT/computer-science degree. I'm interested in parallel computing and system developer. I want to become a Information Security Analyst. My family can afford at most about USD 1300 per year. I live in Hyderabad. I'm open to anywhere in India.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 70
+  },
+  "career_goal": "Information Security Analyst",
+  "budget_max_usd_per_year": 1300,
+  "location_preference": null,
+  "mobility": "open_domestic",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in parallel computing and system developer roles"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0015",
+  "PR0020",
+  "PR0157",
+  "PR0074",
+  "PR0087",
+  "PR0119",
+  "PR0058",
+  "PR0187",
+  "PR0053",
+  "PR0109",
+  "PR0076",
+  "PR0012",
+  "PR0019",
+  "PR0114",
+  "PR0185",
+  "PR0130",
+  "PR0084",
+  "PR0120",
+  "PR0170",
+  "PR0073"
+ ],
+ "retrieved_ids": [
+  "PR0185",
+  "PR0073",
+  "PR0119",
+  "PR0053",
+  "PR0114",
+  "PR0130",
+  "PR0087",
+  "PR0120"
+ ],
+ "proposed_shortlist": [
+  "PR0185",
+  "PR0073",
+  "PR0053",
+  "PR0119"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0185",
+  "PR0073",
+  "PR0053",
+  "PR0120",
+  "PR0130"
+ ],
+ "reflection_note": "The original shortlist was strong but lacked diversity in focus. PR0119 was dropped because its QA focus is too tangential to the student's core goals (InfoSec/System Dev). To fill the slot, I swapped in PR0120 and PR0130. PR0120 offers a data analytics path which touches on system architecture and large datasets, providing a more technical alternative than general management. PR0130 provides a solid, highly feasible backup option with good career relevance (IT Management). The final list prioritizes InfoSec/Cybersecurity (PR0185, PR0073), followed by System Development/SE (PR0053), and then two strong, diverse backups: Data Analytics (PR0120) and IT Management (PR0130).",
+ "explanation": "Longford Institute of Technology\nThis program is highly recommended because it directly aligns with your career goal of becoming an Information Security Analyst while fitting comfortably within your maximum budget of $1300 USD. The curriculum covers both cybersecurity and software engineering, which complements your interest in system developer roles. Admission requirements are easily met, as the minimum grade percentage (62%) is below your 70% academic background, and it requires a CS background, matching your degree. The main trade-off here is that while the placement rate of 78% is solid, the median starting salary ($10850) is lower than some other options on this list.\n\nElmhurst Technical University\nThis MTech Cyber Security program is an excellent fit because it directly targets your desired career path and remains within your budget at $1250 USD annually. It requires a CS background, matching your academic profile, and has a strong placement rate of 80%. The main trade-off is that this option presents the lowest median starting salary ($8637) among all recommended programs, though it offers high relevance to Information Security.\n\nCavendish University\nThis program was selected because its focus on Software Quality Engineering aligns well with your interest in system developer roles and provides the highest placement rate (86%) and median starting salary ($12855). Furthermore, the minimum grade requirement of 70% perfectly matches your academic performance. The main trade-off is that while it offers superior earning potential, its focus is on QA testing and software engineering rather than pure Information Security Analyst roles.\n\nAshford Institute of Applied Sciences\nThis program is recommended primarily because it has the lowest tuition cost ($800 USD), making it an excellent budget option for you. While the field of Big Data Analytics deviates from your core goal, its low admission requirement (63%) and strong placement rate (78%) make it a viable alternative if budget constraints become critical. The main trade-off is that this program shifts focus away from Information Security toward data science analytics.\n\nElmhurst School of Engineering\nThis option was included because it offers the lowest tuition cost ($1000 USD) and provides a respectable median starting salary of $11249. Although the curriculum focuses on IT Management, which is less technical than your goal, its low admission requirement (62%) makes it highly accessible given your academic background. The main trade-off is that this program emphasizes management skills rather than the deep cybersecurity or system development knowledge you are seeking.",
+ "wall_s": 67.3
+}

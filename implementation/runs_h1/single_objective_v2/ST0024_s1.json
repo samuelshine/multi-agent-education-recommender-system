@@ -1,0 +1,75 @@
+{
+ "student_id": "ST0024",
+ "session": 1,
+ "mode": "single_objective",
+ "version": 2,
+ "message": "Hi, I'm a student with a hadoop certification background. My overall academic average is 76.1% in an IT/computer-science degree. I'm interested in hacking and developer. I want to become a Applications Developer. My family can afford at most about USD 4800 per year. I live in Bengaluru. I'd strongly prefer to stay near home, though I might consider elsewhere in India.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 76.1
+  },
+  "career_goal": "Applications Developer",
+  "budget_max_usd_per_year": 4800,
+  "location_preference": "Bengaluru",
+  "mobility": "prefers_region",
+  "employability_priority": null,
+  "other_constraints": [
+   "Hadoop certification background",
+   "Interested in hacking and developer"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0198",
+  "PR0144",
+  "PR0139",
+  "PR0164",
+  "PR0029",
+  "PR0022",
+  "PR0182",
+  "PR0060",
+  "PR0191",
+  "PR0119",
+  "PR0101",
+  "PR0143",
+  "PR0186",
+  "PR0176",
+  "PR0058",
+  "PR0149",
+  "PR0092",
+  "PR0187",
+  "PR0039",
+  "PR0174"
+ ],
+ "retrieved_ids": [
+  "PR0198",
+  "PR0186",
+  "PR0143",
+  "PR0191",
+  "PR0029",
+  "PR0182",
+  "PR0039",
+  "PR0174"
+ ],
+ "proposed_shortlist": [
+  "PR0186",
+  "PR0198",
+  "PR0029",
+  "PR0191",
+  "PR0182"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0186",
+  "PR0198",
+  "PR0029",
+  "PR0039",
+  "PR0191"
+ ],
+ "reflection_note": "The initial list was strong, but PR0182 was dropped for being too niche (QA testing) compared to the student's core goal of 'Applications Developer'. To maintain 5 entries, PR0039 (MSc Human-Computer Interaction) was swapped in. This program offers a good blend of software development skills and user interaction design, which complements the developer interest while remaining highly feasible regarding budget ($2250/year < $4800 max) and academic background requirements.",
+ "explanation": "Halcyon Institute of Technology\nThis program is recommended because it aligns well with your IT/Computer Science background and keeps the annual tuition cost low at $2050 USD, which is comfortably within your budget. While the curriculum focuses on networking and software engineering, this path maintains a strong development focus suitable for an Applications Developer goal. The main trade-off here is location: while it meets your academic requirements (min 70% grade), the city of Pune does not match your preference for Bengaluru.\n\nNorthgate Institute of Technology\nThis program is highly recommended as it is located in Bengaluru, matching your stated location preference, and offers a high placement rate of 95%. The curriculum focuses on software engineering, which directly supports your goal as an Applications Developer, and the median starting salary ($21062 USD) is the highest listed. Be aware that while your grade (76.1%) is close to the minimum requirement, this program requires a higher minimum grade of 80%.\n\nVantage Technical University\nThis option is suggested because its focus on Information Security aligns with your interest in hacking and developer roles, offering specialized knowledge beyond core development. The tuition ($3800 USD) remains within your budget, and you meet the minimum grade requirement (75%). However, the main trade-off is that while it provides excellent placement (92%), its location in Mumbai deviates from your preferred region of Bengaluru.\n\nLongford Institute of Applied Sciences\nThis program offers a lower tuition cost ($2250 USD) and meets your academic background requirements, making it budget-friendly. The curriculum's focus on Human-Computer Interaction is valuable for any developer role, as it incorporates design principles into software engineering. The primary trade-off to consider is the combination of location (Coimbatore) and the lowest median starting salary ($13646 USD) among all options.\n\nSarayu Technical University\nThis program provides a solid blend of data science analytics and business information systems, which can complement your existing Hadoop background while supporting an Applications Developer career path. The tuition cost of $3250 USD is well within your budget, and the minimum grade requirement (71%) is easily met by your 76.1% score. The main trade-off here is that its location in Chennai does not match your preferred region of Bengaluru.",
+ "wall_s": 125.4
+}

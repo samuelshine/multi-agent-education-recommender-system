@@ -1,0 +1,66 @@
+{
+ "student_id": "ST0065",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a python certification background. My overall academic average is 79.2% in an IT/computer-science degree. I'm interested in programming and cloud computing. I want to become a Technical Engineer. My family can afford at most about USD 9600 per year. I live in Delhi. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 79.2
+  },
+  "career_goal": "Technical Engineer (programming and cloud computing)",
+  "budget_max_usd_per_year": 9600,
+  "location_preference": "Delhi",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Python certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0186",
+  "PR0197",
+  "PR0043",
+  "PR0147",
+  "PR0096",
+  "PR0199",
+  "PR0118",
+  "PR0121",
+  "PR0148",
+  "PR0016",
+  "PR0102",
+  "PR0180",
+  "PR0162",
+  "PR0112",
+  "PR0159",
+  "PR0032",
+  "PR0184",
+  "PR0165",
+  "PR0117",
+  "PR0198"
+ ],
+ "retrieved_ids": [
+  "PR0121",
+  "PR0102",
+  "PR0184"
+ ],
+ "proposed_shortlist": [
+  "PR0102",
+  "PR0121",
+  "PR0184"
+ ],
+ "guard_dropped": [],
+ "backfilled": [],
+ "final_shortlist": [
+  "PR0102",
+  "PR0121",
+  "PR0184"
+ ],
+ "reflection_note": "The current shortlist contains only 3 programs, but the goal is to provide a final list of 5 when enough valid candidates exist. Since there are no other candidate programs available (the full set was already used), I must keep the existing three and acknowledge that the constraint of providing exactly 5 items cannot be met with the provided data. The ranking order remains appropriate based on the initial scoring.",
+ "explanation": "Westbrook Technical University\nThis program is recommended because its MSc Cloud Computing focus directly aligns with your goal of becoming a technical engineer in cloud computing, and it requires a CS background, matching your academic history. The annual tuition of $1700 is well within your budget, and the 75% placement rate provides strong employability. The main trade-off here is that while the median starting salary ($8729) is solid, Aldermount Institute offers slightly higher reported employment metrics.\n\nAldermount Institute of Technology\nThis program was highly recommended due to its excellent overall employability profile, boasting a 76% placement rate and a median starting salary of $9223. Located in Delhi with an annual tuition of $2100 (still under budget), it provides relevant cloud/networking skills for your career goal. The trade-off is that this program has the highest tuition cost among the three options, though it still remains affordable relative to your maximum budget.\n\nAravalli School of Engineering\nThis option is recommended primarily because it offers the lowest annual tuition at $950, making it extremely budget-friendly for you. While its MSc Cloud Computing focus aligns with your goals, the main trade-off is that its 59% placement rate and lower median starting salary ($8153) do not meet your stated high priority for employability compared to the other two options.",
+ "wall_s": 78.0
+}

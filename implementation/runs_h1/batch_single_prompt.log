@@ -1,0 +1,208 @@
+run  ST0000 s1 [single_prompt]
+     -> ['PR0000', 'PR0194', 'PR0137', 'PR0164', 'PR0195']  (39.8s, fallbacks=[])
+run  ST0001 s1 [single_prompt]
+     -> ['PR0126', 'PR0037', 'PR0026', 'PR0090', 'PR0173']  (50.1s, fallbacks=[])
+run  ST0002 s1 [single_prompt]
+     -> ['PR0053', 'PR0015', 'PR0020', 'PR0076', 'PR0176']  (43.4s, fallbacks=[])
+run  ST0003 s1 [single_prompt]
+     -> ['PR0143', 'PR0058', 'PR0101', 'PR0071', 'PR0191']  (49.0s, fallbacks=[])
+run  ST0004 s1 [single_prompt]
+     -> ['PR0045', 'PR0023', 'PR0182', 'PR0186', 'PR0019']  (50.6s, fallbacks=[])
+run  ST0005 s1 [single_prompt]
+     -> ['PR0065', 'PR0082', 'PR0186', 'PR0198', 'PR0158']  (48.6s, fallbacks=[])
+run  ST0006 s1 [single_prompt]
+     -> ['PR0185', 'PR0073', 'PR0130', 'PR0076', 'PR0119']  (41.8s, fallbacks=[])
+run  ST0007 s1 [single_prompt]
+     -> ['PR0073', 'PR0015', 'PR0173', 'PR0087', 'PR0013']  (33.5s, fallbacks=[])
+run  ST0008 s1 [single_prompt]
+     -> ['PR0013', 'PR0158', 'PR0174', 'PR0166', 'PR0039']  (53.1s, fallbacks=[])
+run  ST0009 s1 [single_prompt]
+     -> ['PR0020', 'PR0186', 'PR0176', 'PR0157', 'PR0101']  (38.2s, fallbacks=[])
+run  ST0010 s1 [single_prompt]
+     -> ['PR0015', 'PR0073', 'PR0002', 'PR0085', 'PR0173']  (33.3s, fallbacks=[])
+run  ST0011 s1 [single_prompt]
+     -> ['PR0144', 'PR0186', 'PR0029', 'PR0139', 'PR0176']  (39.1s, fallbacks=[])
+run  ST0012 s1 [single_prompt]
+     -> ['PR0198', 'PR0139', 'PR0164', 'PR0060', 'PR0182']  (37.0s, fallbacks=[])
+run  ST0013 s1 [single_prompt]
+     -> ['PR0172', 'PR0092', 'PR0130', 'PR0157', 'PR0176']  (32.3s, fallbacks=[])
+run  ST0014 s1 [single_prompt]
+     -> ['PR0198', 'PR0186', 'PR0096', 'PR0147', 'PR0162']  (47.0s, fallbacks=[])
+run  ST0015 s1 [single_prompt]
+     -> ['PR0191', 'PR0182', 'PR0072', 'PR0164', 'PR0176']  (56.1s, fallbacks=[])
+run  ST0016 s1 [single_prompt]
+     -> ['PR0195', 'PR0021', 'PR0137', 'PR0194', 'PR0164']  (52.3s, fallbacks=[])
+run  ST0017 s1 [single_prompt]
+     -> ['PR0176', 'PR0186', 'PR0058', 'PR0119', 'PR0039']  (40.3s, fallbacks=[])
+run  ST0018 s1 [single_prompt]
+     -> ['PR0153', 'PR0195', 'PR0041', 'PR0055', 'PR0158']  (51.8s, fallbacks=[])
+run  ST0019 s1 [single_prompt]
+     -> ['PR0007', 'PR0143', 'PR0058', 'PR0074', 'PR0120']  (42.8s, fallbacks=[])
+run  ST0020 s1 [single_prompt]
+     -> ['PR0000', 'PR0194', 'PR0051', 'PR0123', 'PR0169']  (43.4s, fallbacks=[])
+run  ST0021 s1 [single_prompt]
+     -> ['PR0119', 'PR0053', 'PR0187', 'PR0076', 'PR0130']  (43.4s, fallbacks=[])
+run  ST0022 s1 [single_prompt]
+     -> ['PR0164', 'PR0186', 'PR0176', 'PR0039', 'PR0187']  (43.9s, fallbacks=[])
+run  ST0023 s1 [single_prompt]
+     -> ['PR0194', 'PR0042', 'PR0126', 'PR0037', 'PR0151']  (41.2s, fallbacks=[])
+run  ST0024 s1 [single_prompt]
+     -> ['PR0198', 'PR0144', 'PR0139', 'PR0186', 'PR0174']  (57.3s, fallbacks=[])
+run  ST0025 s1 [single_prompt]
+     -> ['PR0037', 'PR0194', 'PR0126', 'PR0167', 'PR0186']  (50.3s, fallbacks=[])
+run  ST0026 s1 [single_prompt]
+     -> ['PR0085', 'PR0013', 'PR0173', 'PR0015', 'PR0002']  (43.0s, fallbacks=[])
+run  ST0027 s1 [single_prompt]
+     -> ['PR0000', 'PR0194', 'PR0029', 'PR0164', 'PR0195']  (49.8s, fallbacks=[])
+run  ST0028 s1 [single_prompt]
+     -> ['PR0086', 'PR0136', 'PR0055', 'PR0126', 'PR0034']  (50.0s, fallbacks=[])
+run  ST0029 s1 [single_prompt]
+     -> ['PR0000', 'PR0195', 'PR0153', 'PR0128', 'PR0044']  (47.5s, fallbacks=[])
+run  ST0030 s1 [single_prompt]
+     -> ['PR0162', 'PR0197', 'PR0191', 'PR0109', 'PR0171']  (32.7s, fallbacks=[])
+run  ST0031 s1 [single_prompt]
+     -> ['PR0120', 'PR0020', 'PR0107', 'PR0074', 'PR0033']  (46.5s, fallbacks=[])
+run  ST0032 s1 [single_prompt]
+     -> ['PR0092', 'PR0172', 'PR0156', 'PR0164', 'PR0176']  (41.0s, fallbacks=[])
+run  ST0033 s1 [single_prompt]
+     -> ['PR0186', 'PR0180', 'PR0164', 'PR0121', 'PR0159']  (53.6s, fallbacks=[])
+run  ST0034 s1 [single_prompt]
+     -> ['PR0157', 'PR0172', 'PR0015', 'PR0020', 'PR0033']  (42.0s, fallbacks=[])
+run  ST0035 s1 [single_prompt]
+     -> ['PR0015', 'PR0073', 'PR0087', 'PR0002', 'PR0013']  (35.0s, fallbacks=[])
+run  ST0036 s1 [single_prompt]
+     -> ['PR0160', 'PR0156', 'PR0189', 'PR0060', 'PR0172']  (49.6s, fallbacks=[])
+run  ST0037 s1 [single_prompt]
+     -> ['PR0119', 'PR0053', 'PR0109', 'PR0076', 'PR0187']  (52.0s, fallbacks=[])
+run  ST0038 s1 [single_prompt]
+     -> ['PR0096', 'PR0167', 'PR0074', 'PR0176', 'PR0130']  (36.5s, fallbacks=[])
+run  ST0039 s1 [single_prompt]
+     -> ['PR0073', 'PR0015', 'PR0173', 'PR0087', 'PR0013']  (32.4s, fallbacks=[])
+run  ST0040 s1 [single_prompt]
+     -> ['PR0064', 'PR0120', 'PR0184', 'PR0063']  (25.3s, fallbacks=[])
+run  ST0041 s1 [single_prompt]
+     -> ['PR0085', 'PR0190', 'PR0080', 'PR0119', 'PR0053']  (50.8s, fallbacks=[])
+run  ST0042 s1 [single_prompt]
+     -> ['PR0165', 'PR0059']  (17.3s, fallbacks=[])
+run  ST0043 s1 [single_prompt]
+     -> ['PR0015', 'PR0087', 'PR0173', 'PR0073', 'PR0013']  (36.9s, fallbacks=[])
+run  ST0044 s1 [single_prompt]
+     -> ['PR0101', 'PR0033', 'PR0157', 'PR0198', 'PR0144']  (47.5s, fallbacks=[])
+run  ST0045 s1 [single_prompt]
+     -> ['PR0197', 'PR0191', 'PR0109', 'PR0171', 'PR0162']  (39.6s, fallbacks=[])
+run  ST0046 s1 [single_prompt]
+     -> ['PR0096', 'PR0186', 'PR0147', 'PR0162', 'PR0198']  (46.4s, fallbacks=[])
+run  ST0047 s1 [single_prompt]
+     -> ['PR0144', 'PR0139', 'PR0198', 'PR0085', 'PR0058']  (39.3s, fallbacks=[])
+run  ST0048 s1 [single_prompt]
+     -> ['PR0176', 'PR0076', 'PR0130', 'PR0074', 'PR0167']  (48.5s, fallbacks=[])
+run  ST0049 s1 [single_prompt]
+     -> ['PR0164', 'PR0144', 'PR0139', 'PR0198', 'PR0029']  (53.2s, fallbacks=[])
+run  ST0050 s1 [single_prompt]
+     -> ['PR0164', 'PR0139', 'PR0020', 'PR0029', 'PR0144']  (59.4s, fallbacks=[])
+run  ST0051 s1 [single_prompt]
+     -> ['PR0058', 'PR0158', 'PR0109', 'PR0012', 'PR0019']  (55.4s, fallbacks=[])
+run  ST0052 s1 [single_prompt]
+     -> ['PR0001', 'PR0194', 'PR0042', 'PR0004', 'PR0147']  (53.9s, fallbacks=[])
+run  ST0053 s1 [single_prompt]
+     -> ['PR0130', 'PR0076', 'PR0176', 'PR0157', 'PR0195']  (46.2s, fallbacks=[])
+run  ST0054 s1 [single_prompt]
+     -> ['PR0185', 'PR0053', 'PR0114', 'PR0176', 'PR0076']  (41.1s, fallbacks=[])
+run  ST0055 s1 [single_prompt]
+     -> ['PR0157', 'PR0101', 'PR0033', 'PR0020', 'PR0015']  (49.8s, fallbacks=[])
+run  ST0056 s1 [single_prompt]
+     -> ['PR0000', 'PR0195', 'PR0021', 'PR0153', 'PR0044']  (105.4s, fallbacks=[])
+run  ST0057 s1 [single_prompt]
+     -> ['PR0186', 'PR0199', 'PR0016', 'PR0102', 'PR0165']  (53.2s, fallbacks=[])
+run  ST0058 s1 [single_prompt]
+     -> ['PR0058', 'PR0053', 'PR0076', 'PR0012', 'PR0019']  (86.8s, fallbacks=['single_prompt'])
+run  ST0059 s1 [single_prompt]
+     -> ['PR0071', 'PR0173', 'PR0120', 'PR0058', 'PR0170']  (46.5s, fallbacks=[])
+run  ST0060 s1 [single_prompt]
+     -> ['PR0120', 'PR0107', 'PR0063', 'PR0143', 'PR0058']  (55.1s, fallbacks=[])
+run  ST0061 s1 [single_prompt]
+     -> ['PR0156', 'PR0078', 'PR0045', 'PR0080', 'PR0187']  (39.8s, fallbacks=[])
+run  ST0062 s1 [single_prompt]
+     -> ['PR0000', 'PR0195', 'PR0153', 'PR0122', 'PR0001']  (44.4s, fallbacks=[])
+run  ST0063 s1 [single_prompt]
+     -> ['PR0186', 'PR0147', 'PR0096', 'PR0199', 'PR0165']  (50.3s, fallbacks=[])
+run  ST0064 s1 [single_prompt]
+     -> ['PR0164', 'PR0060', 'PR0101', 'PR0176', 'PR0076']  (47.0s, fallbacks=[])
+run  ST0065 s1 [single_prompt]
+     -> ['PR0121', 'PR0102', 'PR0184', 'PR0016', 'PR0197']  (59.2s, fallbacks=[])
+run  ST0066 s1 [single_prompt]
+     -> ['PR0097', 'PR0090', 'PR0145', 'PR0026', 'PR0133']  (67.7s, fallbacks=[])
+run  ST0067 s1 [single_prompt]
+     -> ['PR0114', 'PR0193', 'PR0071', 'PR0112', 'PR0082']  (30.5s, fallbacks=[])
+run  ST0068 s1 [single_prompt]
+     -> ['PR0146', 'PR0042', 'PR0004', 'PR0194', 'PR0001']  (43.1s, fallbacks=[])
+run  ST0069 s1 [single_prompt]
+     -> ['PR0120', 'PR0170', 'PR0058', 'PR0186', 'PR0076']  (46.7s, fallbacks=[])
+run  ST0070 s1 [single_prompt]
+     -> ['PR0186', 'PR0158', 'PR0101', 'PR0076', 'PR0167']  (51.3s, fallbacks=[])
+run  ST0071 s1 [single_prompt]
+     -> ['PR0132', 'PR0051', 'PR0062', 'PR0140', 'PR0128']  (65.4s, fallbacks=[])
+run  ST0072 s1 [single_prompt]
+     -> ['PR0198', 'PR0182', 'PR0176', 'PR0039', 'PR0101']  (57.7s, fallbacks=[])
+run  ST0073 s1 [single_prompt]
+     -> ['PR0101', 'PR0054', 'PR0105', 'PR0032', 'PR0016']  (42.6s, fallbacks=[])
+run  ST0074 s1 [single_prompt]
+     -> ['PR0195', 'PR0021', 'PR0153', 'PR0037', 'PR0161']  (46.9s, fallbacks=[])
+run  ST0075 s1 [single_prompt]
+     -> ['PR0000', 'PR0195', 'PR0079', 'PR0154', 'PR0030']  (59.5s, fallbacks=[])
+run  ST0076 s1 [single_prompt]
+     -> ['PR0119', 'PR0053', 'PR0142', 'PR0157', 'PR0015']  (50.4s, fallbacks=[])
+run  ST0077 s1 [single_prompt]
+     -> ['PR0182', 'PR0019', 'PR0187', 'PR0045', 'PR0186']  (48.3s, fallbacks=[])
+run  ST0078 s1 [single_prompt]
+     -> ['PR0157', 'PR0015', 'PR0020', 'PR0074', 'PR0193']  (53.2s, fallbacks=[])
+run  ST0079 s1 [single_prompt]
+     -> ['PR0191', 'PR0099', 'PR0143', 'PR0176', 'PR0060']  (57.5s, fallbacks=[])
+run  ST0080 s1 [single_prompt]
+     -> ['PR0076', 'PR0130', 'PR0184', 'PR0162', 'PR0180']  (40.2s, fallbacks=[])
+run  ST0081 s1 [single_prompt]
+     -> ['PR0096', 'PR0148', 'PR0118', 'PR0186', 'PR0180']  (58.2s, fallbacks=[])
+run  ST0082 s1 [single_prompt]
+     -> ['PR0085', 'PR0073', 'PR0173', 'PR0013']  (39.7s, fallbacks=[])
+run  ST0083 s1 [single_prompt]
+     -> ['PR0039', 'PR0158', 'PR0149', 'PR0101', 'PR0033']  (53.7s, fallbacks=[])
+run  ST0084 s1 [single_prompt]
+     -> ['PR0185', 'PR0073', 'PR0118', 'PR0058', 'PR0170']  (46.2s, fallbacks=[])
+run  ST0085 s1 [single_prompt]
+     -> ['PR0166', 'PR0084', 'PR0013', 'PR0059', 'PR0181']  (54.4s, fallbacks=[])
+run  ST0086 s1 [single_prompt]
+     -> ['PR0021', 'PR0195', 'PR0000', 'PR0122', 'PR0088']  (56.3s, fallbacks=[])
+run  ST0087 s1 [single_prompt]
+     -> ['PR0032', 'PR0186', 'PR0147', 'PR0197', 'PR0162']  (39.8s, fallbacks=[])
+run  ST0088 s1 [single_prompt]
+     -> ['PR0198', 'PR0186', 'PR0176', 'PR0039', 'PR0191']  (60.3s, fallbacks=[])
+run  ST0089 s1 [single_prompt]
+     -> ['PR0114', 'PR0193', 'PR0082', 'PR0157', 'PR0053']  (43.1s, fallbacks=[])
+run  ST0090 s1 [single_prompt]
+     -> ['PR0034', 'PR0110', 'PR0154', 'PR0069', 'PR0030']  (53.7s, fallbacks=[])
+run  ST0091 s1 [single_prompt]
+     -> ['PR0146', 'PR0127', 'PR0042', 'PR0036', 'PR0194']  (55.2s, fallbacks=[])
+run  ST0092 s1 [single_prompt]
+     -> ['PR0186', 'PR0176', 'PR0058', 'PR0012', 'PR0187']  (54.1s, fallbacks=[])
+run  ST0093 s1 [single_prompt]
+     -> ['PR0186', 'PR0198', 'PR0072', 'PR0119', 'PR0053']  (69.5s, fallbacks=[])
+run  ST0094 s1 [single_prompt]
+     -> ['PR0096', 'PR0159', 'PR0167', 'PR0176', 'PR0130']  (38.1s, fallbacks=[])
+run  ST0095 s1 [single_prompt]
+     -> ['PR0119', 'PR0176', 'PR0026', 'PR0076', 'PR0130']  (49.4s, fallbacks=[])
+run  ST0096 s1 [single_prompt]
+     -> ['PR0151', 'PR0104', 'PR0072', 'PR0182', 'PR0053']  (54.4s, fallbacks=[])
+run  ST0097 s1 [single_prompt]
+     -> ['PR0058', 'PR0039', 'PR0145', 'PR0148', 'PR0170']  (55.6s, fallbacks=[])
+run  ST0098 s1 [single_prompt]
+     -> ['PR0104', 'PR0194', 'PR0043', 'PR0182', 'PR0065']  (55.4s, fallbacks=[])
+run  ST0099 s1 [single_prompt]
+     -> ['PR0180', 'PR0019', 'PR0045', 'PR0190', 'PR0084']  (41.3s, fallbacks=[])
+
+llm stats: {"calls": 102, "cache_hits": 100, "total_latency_s": 4808.4487726688385}
+metrics: {
+ "n": 100,
+ "ndcg@5": 0.8298,
+ "precision@5": 0.912,
+ "recall@5": 0.1664
+}

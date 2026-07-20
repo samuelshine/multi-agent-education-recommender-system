@@ -1,0 +1,73 @@
+{
+ "student_id": "ST0058",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a app development certification background. My overall academic average is 79.6% in an IT/computer-science degree. I'm interested in Software Engineering and developer. I want to become a UX Designer. My family can afford at most about USD 1200 per year. I live in Bengaluru. I'm open to anywhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 79.6
+  },
+  "career_goal": "UX Designer",
+  "budget_max_usd_per_year": 1200,
+  "location_preference": "Bengaluru",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in Software Engineering and developer roles"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0058",
+  "PR0053",
+  "PR0076",
+  "PR0012",
+  "PR0019",
+  "PR0185",
+  "PR0084",
+  "PR0171",
+  "PR0013",
+  "PR0181",
+  "PR0166",
+  "PR0059",
+  "PR0112",
+  "PR0049",
+  "PR0035",
+  "PR0008",
+  "PR0063",
+  "PR0142",
+  "PR0082",
+  "PR0032"
+ ],
+ "retrieved_ids": [
+  "PR0032",
+  "PR0112",
+  "PR0142",
+  "PR0082",
+  "PR0053",
+  "PR0185",
+  "PR0013"
+ ],
+ "proposed_shortlist": [
+  "PR0013",
+  "PR0185",
+  "PR0032",
+  "PR0112",
+  "PR0053"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0013",
+  "PR0185",
+  "PR0112",
+  "PR0053",
+  "PR0032"
+ ],
+ "reflection_note": "The initial ranking was generally sound, prioritizing PR0013 correctly. No hard constraints (budget/location/admission plausibility) were violated by any program on the shortlist. The only minor adjustment is reordering PR0032 to the bottom spot. While it has excellent financial and academic scores, its location mismatch (Kolkata vs Bengaluru preference) makes it less desirable than PR0185 or PR0112, which are in more acceptable tech hubs (or at least not explicitly penalized as heavily). The final list maintains a balance between ideal fit (PR0013), high employability/SE focus (PR0185, PR0053), and strong academic relevance (PR0112).",
+ "explanation": "Meridian Institute of Technology\nThis program is highly recommended because its focus on Human-Computer Interaction directly aligns with your goal of becoming a UX Designer. Furthermore, it meets your location preference in Bengaluru and stays well within your maximum budget at $900 USD annually. Since the program does not require a CS background, it offers flexibility while still providing strong career prospects, evidenced by a 77% placement rate. The main trade-off here is that while it perfectly matches your UX goal, its curriculum is less focused on core Software Engineering roles compared to other options.\n\nLongford Institute of Technology\nThis program was selected because it balances your interest in Software Engineering with high employability, offering a strong median starting salary of $10850 USD and an excellent 78% placement rate. It requires a CS background, which matches your academic history, and the tuition ($1150) is comfortably under budget. The main trade-off you must consider is that while it meets your financial and career goals, its location in Kolkata does not match your preferred region of Bengaluru.\n\nCharnock University\nThis option was recommended because it directly addresses your interest in Software Engineering while remaining within budget at $1150 USD. Since the program requires a CS background, it aligns well with your academic profile (IT/computer-science). However, you should note that this institution has the lowest placement rate (65%) among the shortlisted options, making location and employability the main trade-off against its strong curriculum match.\n\nCavendish University\nThis is an excellent choice for maximizing your career potential, as it boasts the highest placement rate (86%) and a high median starting salary of $12855 USD. The program also meets your academic background requirements while keeping you within budget at exactly $1200 USD. The main trade-off here is that its location in Kolkata does not match your preference for Bengaluru, and the tuition uses up your entire annual budget limit.\n\nLongford School of Engineering\nThis MTech program strongly matches your interest in Software Engineering and requires a CS background, which aligns with your academic history. While it fits within your $1200 USD budget, you should be aware that its placement rate (61%) is the lowest on this list, representing the main trade-off against its strong technical focus.",
+ "wall_s": 114.1
+}

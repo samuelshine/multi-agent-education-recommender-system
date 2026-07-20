@@ -1,0 +1,54 @@
+{
+ "student_id": "ST0017",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a python certification background. My overall academic average is 74.4% in an IT/computer-science degree. I'm interested in hacking and Business process analyst. I want to become a CRM Technical Developer. My family can afford at most about USD 2400 per year. I live in Kolkata. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 74.4
+  },
+  "career_goal": "CRM Technical Developer",
+  "budget_max_usd_per_year": 2400,
+  "location_preference": "Kolkata",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in hacking and Business process analyst roles"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0101",
+  "PR0054",
+  "PR0015",
+  "PR0020",
+  "PR0033",
+  "PR0157",
+  "PR0047",
+  "PR0074",
+  "PR0172",
+  "PR0087",
+  "PR0164",
+  "PR0182",
+  "PR0119",
+  "PR0143",
+  "PR0186",
+  "PR0176",
+  "PR0058",
+  "PR0187",
+  "PR0039",
+  "PR0174"
+ ],
+ "final_shortlist": [
+  "PR0176",
+  "PR0186",
+  "PR0058",
+  "PR0119",
+  "PR0039"
+ ],
+ "explanation": "This program in Hyderabad offers a strong median starting salary (USD 15400) and focuses on IT Management, which aligns well with your goal of becoming a CRM Technical Developer. The tuition (USD 1900) is also comfortably within your budget.\n\nLocated in Pune, this MTech program covers Computer Networks and Software Engineering, providing highly relevant technical skills for a developer role. It has a high starting salary (USD 15192) and the tuition is manageable within your budget.\n\nThis MCA in Coimbatore provides core software engineering skills and data science analytics, making it excellent for a technical developer role. The tuition is low (USD 1350), the placement rate is good, and it keeps you near home.\n\nThis program in Hyderabad focuses on QA Testing, which is a technical field that complements your interest in hacking/security. It offers a high placement rate (86%) and a good starting salary (USD 14917), while keeping you close to home.\n\nLocated in Coimbatore, this MSc program covers HCI and Software Engineering. It is budget-friendly (USD 2250) and provides a solid foundation in technical development while keeping you near your home city.",
+ "wall_s": 40.3
+}

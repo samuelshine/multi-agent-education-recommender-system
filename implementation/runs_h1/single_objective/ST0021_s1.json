@@ -1,0 +1,72 @@
+{
+ "student_id": "ST0021",
+ "session": 1,
+ "mode": "single_objective",
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 73.3% in an IT/computer-science degree. I'm interested in parallel computing and Business process analyst. I want to become a Technical Engineer. My family can afford at most about USD 1400 per year. I live in Kolkata. I'm open to anywhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 73.3
+  },
+  "career_goal": "Technical Engineer (interested in parallel computing and Business process analyst)",
+  "budget_max_usd_per_year": 1400,
+  "location_preference": null,
+  "mobility": "open_domestic",
+  "employability_priority": "high",
+  "other_constraints": [
+   "r programming certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0015",
+  "PR0020",
+  "PR0157",
+  "PR0074",
+  "PR0087",
+  "PR0119",
+  "PR0058",
+  "PR0187",
+  "PR0053",
+  "PR0109",
+  "PR0076",
+  "PR0012",
+  "PR0019",
+  "PR0114",
+  "PR0185",
+  "PR0130",
+  "PR0084",
+  "PR0120",
+  "PR0170",
+  "PR0073"
+ ],
+ "retrieved_ids": [
+  "PR0130",
+  "PR0120",
+  "PR0084",
+  "PR0157",
+  "PR0076",
+  "PR0130",
+  "PR0120",
+  "PR0015"
+ ],
+ "proposed_shortlist": [
+  "PR0157",
+  "PR0130",
+  "PR0076",
+  "PR0120"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0157",
+  "PR0015",
+  "PR0130",
+  "PR0076",
+  "PR0120"
+ ],
+ "reflection_note": "The original shortlist was strong, covering both technical and business aspects. I have kept PR0157, PR0130, PR0076, and PR0120 as they represent the best balance of fit and feasibility. I swapped in PR0015 (MSc Information Systems) because its focus on Business Information Systems is a near-perfect match for the 'Business Process Analyst' goal, and it has an excellent minimum grade requirement (61%) while remaining highly affordable ($1200). The final list prioritizes programs that blend IT management/BIS with strong technical foundations.",
+ "explanation": "Longford University\nThis program is recommended because its focus on IT Management aligns well with your interest in Business Process Analysis, and it meets your budget constraint with an annual tuition of $800. Your academic background (73.3%) exceeds the minimum required grade percentage of 64%. The main trade-off here is that while the tuition is very low, its placement rate (72%) and median starting salary ($10,444) are among the lower figures on this list.\n\nKeystone Institute of Technology\nThis program is a strong fit for your career goals as it focuses on Business Information Systems, which directly supports both technical engineering and business process analysis interests. At $1200 annually, it remains within your budget limit, and its placement rate (78%) is solid. The trade-off to consider is that while the placement rate is good, the median starting salary ($9,707) is the lowest among all options provided.\n\nElmhurst School of Engineering\nThis option provides a balanced blend of IT Management skills suitable for your dual interest in technical engineering and business process analysis. With an annual tuition cost of $1000, it fits comfortably within your budget, and its minimum grade requirement (62%) is easily met by your current academic standing. The main trade-off is that while the median starting salary ($11,249) is respectable, it does not offer the highest earning potential compared to other options.\n\nSarayu Institute of Technology\nThis program was recommended because its curriculum covers both IT Management and Software Engineering, providing a robust blend of technical depth and business acumen ideal for your goals. It boasts the highest placement rate (81%) and the highest median starting salary ($13,142), prioritizing high employability. The main trade-off is that it has the highest tuition cost at $1250 and requires meeting a minimum grade percentage of 74%, which is close to your current score.\n\nAshford Institute of Applied Sciences\nThis program is highly recommended because its focus on Big Data Analytics directly supports your interest in technical engineering, particularly parallel computing applications. With an annual tuition of only $800, it offers the lowest cost while maintaining a strong placement rate (78%). The trade-off to note is that this specialization focuses purely on data analytics and may be less broad than programs explicitly covering general IT Management or business process analysis.",
+ "wall_s": 116.7
+}

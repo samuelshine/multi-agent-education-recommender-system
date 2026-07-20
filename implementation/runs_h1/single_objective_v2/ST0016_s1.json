@@ -1,0 +1,73 @@
+{
+ "student_id": "ST0016",
+ "session": 1,
+ "mode": "single_objective",
+ "version": 2,
+ "message": "Hi, I'm a student with a full stack certification background. My overall academic average is 76.2% in an IT/computer-science degree. I'm interested in programming and system developer. I want to become a Technical Engineer. My family can afford at most about USD 4000 per year. I live in Mumbai. I'm open to going abroad. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 76.2
+  },
+  "career_goal": "Technical Engineer (Programming and System Developer)",
+  "budget_max_usd_per_year": 4000,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Full stack certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0000",
+  "PR0195",
+  "PR0021",
+  "PR0153",
+  "PR0051",
+  "PR0037",
+  "PR0161",
+  "PR0198",
+  "PR0104",
+  "PR0144",
+  "PR0139",
+  "PR0194",
+  "PR0164",
+  "PR0029",
+  "PR0022",
+  "PR0137",
+  "PR0182",
+  "PR0060",
+  "PR0191",
+  "PR0119"
+ ],
+ "retrieved_ids": [
+  "PR0195",
+  "PR0153",
+  "PR0194",
+  "PR0137",
+  "PR0021",
+  "PR0161",
+  "PR0104",
+  "PR0182"
+ ],
+ "proposed_shortlist": [
+  "PR0194",
+  "PR0161",
+  "PR0195",
+  "PR0153"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0194",
+  "PR0161",
+  "PR0195",
+  "PR0153",
+  "PR0021"
+ ],
+ "reflection_note": "All programs on the initial shortlist are kept as they meet hard constraints (budget, academic background). PR0194 was flagged for its lower placement rate/salary relative to other options. To ensure a diverse and strong final list of 5, I have swapped in PR0021 (MSc IT Operations) from the full candidate set. This program is highly relevant to system development, has excellent financial feasibility ($450 tuition), and offers a high placement rate (82%) with a good starting salary, making it an ideal addition that balances technical depth with career security.",
+ "explanation": "Aravalli School of Engineering\nThis program is highly relevant to your goal as it focuses on Cloud Computing and Software Engineering, fields critical for a Technical Engineer. It meets your budget constraint with an annual tuition of $1950, and since you have an IT/CS background, the admission requirements are met. The main trade-off here is that while the program aligns well with your technical goals, its placement rate (67%) is lower compared to other options on this list.\n\nTejas University\nThis option provides the most direct alignment with your career goal of becoming a System Developer through its MSc Software Engineering curriculum. Although the annual tuition ($3850) approaches your maximum budget limit, it offers strong employability indicators with a 72% placement rate and a median starting salary of $33731. The primary trade-off is that the tuition cost uses up most of your allocated yearly budget.\n\nKeystone School of Engineering\nThis program boasts excellent career outcomes, featuring an 82% placement rate and the highest median starting salary ($51059). Furthermore, its low annual tuition of $300 keeps you well within budget. The main trade-off is that the focus on \"business information systems\" means it deviates from a pure technical programming track toward business applications.\n\nKeystone University\nThis program offers extremely low tuition at only $550 and maintains a solid 78% placement rate, making it very budget-friendly. It also does not require a CS background, offering flexibility for your profile. However, the main trade-off is that its focus on Human-Computer Interaction (HCI) leans heavily into design rather than core system development or programming skills.\n\nAshford Institute of Technology\nThis program offers excellent financial and career metrics, boasting an 82% placement rate and a high median starting salary of $46428, all while maintaining very low tuition ($450). The trade-off is that the curriculum focuses on \"IT support,\" which is generally considered less specialized or advanced than the core programming skills required for your goal as a System Developer.",
+ "wall_s": 76.5
+}

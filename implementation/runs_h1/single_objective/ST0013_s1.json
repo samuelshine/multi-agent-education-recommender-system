@@ -1,0 +1,73 @@
+{
+ "student_id": "ST0013",
+ "session": 1,
+ "mode": "single_objective",
+ "message": "Hi, I'm a student with a python certification background. My overall academic average is 75.6% in an IT/computer-science degree. I'm interested in Management and security. I want to become a Systems Analyst. My family can afford at most about USD 4400 per year. I live in Pune. I'd strongly prefer to stay near home, though I might consider elsewhere in India.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 75.6
+  },
+  "career_goal": "Systems Analyst",
+  "budget_max_usd_per_year": 4400,
+  "location_preference": null,
+  "mobility": "prefers_region",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in Management and security"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0157",
+  "PR0172",
+  "PR0164",
+  "PR0060",
+  "PR0191",
+  "PR0101",
+  "PR0176",
+  "PR0092",
+  "PR0189",
+  "PR0054",
+  "PR0076",
+  "PR0105",
+  "PR0130",
+  "PR0015",
+  "PR0020",
+  "PR0078",
+  "PR0033",
+  "PR0150",
+  "PR0047",
+  "PR0160"
+ ],
+ "retrieved_ids": [
+  "PR0157",
+  "PR0172",
+  "PR0164",
+  "PR0060",
+  "PR0176",
+  "PR0130",
+  "PR0150",
+  "PR0160"
+ ],
+ "proposed_shortlist": [
+  "PR0176",
+  "PR0164",
+  "PR0157",
+  "PR0130",
+  "PR0060"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0176",
+  "PR0157",
+  "PR0172",
+  "PR0130",
+  "PR0060"
+ ],
+ "reflection_note": "The original shortlist was strong but contained one program (PR0164) with an admission requirement (79%) that is too high for the student's current grade (75.6%). I dropped PR0164 and swapped in PR0172, which offers a better balance of affordability, relevance, and feasibility. The final list prioritizes programs with strong IT Management focus, good admission chances, and excellent financial fit.",
+ "explanation": "Crestwood University\nThis MBA Technology Management program is recommended because it directly addresses your interest in management while remaining well within your $4,400 annual budget at a tuition of $1,900. The curriculum focuses on IT management and boasts an 82% placement rate, which supports your goal as a Systems Analyst. The main trade-off to consider is that the program does not offer any post-study work visa options.\n\nLongford University\nThis option is ideal if maintaining the lowest possible cost is your highest priority, with an annual tuition of only $800. It meets your academic requirements and provides training in both IT management and business information systems. The primary trade-off here is that it offers the lowest median starting salary ($10,444) among all the programs listed.\n\nQuilon Technical University (Pune)\nThis program fits within your budget at $2,250 annually and is located in Pune, which may suit your regional preference. It covers IT management and business information systems, aligning with your career goals. The main trade-off to note is that it has the lowest placement rate (66%) and median starting salary ($8,654) of all the shortlisted options.\n\nElmhurst School of Engineering\nThis program offers a strong balance between low cost and good outcomes, with an annual tuition of only $1,000. It provides specialized IT management training that is relevant to your career goals and meets your academic standing. The main trade-off is similar across all listed options: there are no post-study work visa opportunities available after graduation.\n\nQuilon Technical University (Mumbai)\nThis program was recommended because it offers the highest placement rate (88%) and a strong median starting salary ($13,973), while still staying under your $4,400 budget limit. The location in Mumbai is also advantageous for regional preference. The main trade-off is that its tuition fee of $3,650 is the highest among all the programs listed.",
+ "wall_s": 163.9
+}

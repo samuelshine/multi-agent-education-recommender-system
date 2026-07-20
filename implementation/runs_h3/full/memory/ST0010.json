@@ -1,0 +1,100 @@
+{
+ "student_id": "ST0010",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 79.2
+    },
+    "career_goal": "programming and cloud computing",
+    "budget_max_usd_per_year": 2700,
+    "location_preference": null,
+    "mobility": "open_domestic",
+    "employability_priority": null,
+    "other_constraints": [
+     "full stack certification background"
+    ],
+    "uncertainty_notes": [
+     "Location preference not stated.",
+     "Employability priority not stated."
+    ]
+   },
+   "final_shortlist": [
+    "PR0186",
+    "PR0199",
+    "PR0102",
+    "PR0165"
+   ],
+   "feedback": null
+  },
+  {
+   "session": 2,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 79.2
+    },
+    "career_goal": "Database Manager",
+    "budget_max_usd_per_year": 2700,
+    "location_preference": "Bengaluru",
+    "mobility": "fixed_city",
+    "employability_priority": null,
+    "other_constraints": [
+     "full stack certification background"
+    ],
+    "uncertainty_notes": [
+     "Employability priority not stated."
+    ]
+   },
+   "final_shortlist": [
+    "PR0173",
+    "PR0087",
+    "PR0085",
+    "PR0015",
+    "PR0013"
+   ],
+   "feedback": {
+    "liked": [],
+    "disliked": [
+     "PR0186",
+     "PR0199"
+    ]
+   }
+  },
+  {
+   "session": 3,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 79.2
+    },
+    "career_goal": "Database Manager",
+    "budget_max_usd_per_year": 1600,
+    "location_preference": "Bengaluru",
+    "mobility": "fixed_city",
+    "employability_priority": "high",
+    "other_constraints": [
+     "full stack certification background"
+    ],
+    "uncertainty_notes": [
+     "No explicit preference stated for the type of program (e.g., university vs bootcamp)."
+    ]
+   },
+   "final_shortlist": [
+    "PR0087",
+    "PR0015",
+    "PR0173",
+    "PR0073"
+   ],
+   "feedback": {
+    "liked": [
+     "PR0173",
+     "PR0087"
+    ],
+    "disliked": []
+   }
+  }
+ ]
+}

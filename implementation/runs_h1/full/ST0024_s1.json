@@ -1,0 +1,70 @@
+{
+ "student_id": "ST0024",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a hadoop certification background. My overall academic average is 76.1% in an IT/computer-science degree. I'm interested in hacking and developer. I want to become a Applications Developer. My family can afford at most about USD 4800 per year. I live in Bengaluru. I'd strongly prefer to stay near home, though I might consider elsewhere in India.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 76.1
+  },
+  "career_goal": "Applications Developer",
+  "budget_max_usd_per_year": 4800,
+  "location_preference": "Bengaluru",
+  "mobility": "prefers_region",
+  "employability_priority": null,
+  "other_constraints": [
+   "Hadoop certification background",
+   "Interested in hacking and developer"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0198",
+  "PR0144",
+  "PR0139",
+  "PR0164",
+  "PR0029",
+  "PR0022",
+  "PR0182",
+  "PR0060",
+  "PR0191",
+  "PR0119",
+  "PR0101",
+  "PR0143",
+  "PR0186",
+  "PR0176",
+  "PR0058",
+  "PR0149",
+  "PR0092",
+  "PR0187",
+  "PR0039",
+  "PR0174"
+ ],
+ "retrieved_ids": [
+  "PR0198",
+  "PR0186",
+  "PR0143",
+  "PR0191",
+  "PR0029",
+  "PR0182",
+  "PR0039",
+  "PR0174"
+ ],
+ "proposed_shortlist": [
+  "PR0198",
+  "PR0186",
+  "PR0029"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0186",
+  "PR0143",
+  "PR0174"
+ ],
+ "reflection_note": "The original shortlist was flawed because PR0198 had an unachievable academic requirement (min 80% vs student's 76.1%). I dropped it immediately. PR0029 was also dropped due to location and specialization mismatch. I kept PR0186 as the most viable option on the original list. To improve the set, I swapped in two strong candidates: PR0143 (Data Science) for a robust technical alternative, and PR0174 (HCI) for an affordable, user-focused development track that aligns with 'Applications Developer' goals and offers better location flexibility than Mumbai/Pune.",
+ "explanation": "Halcyon Institute of Technology\nThis program is recommended because its focus on software engineering and networking/cloud aligns well with your background in IT/CS and your interest in developer roles. The annual tuition of $2050 remains comfortably within your budget, and the minimum grade requirement (70%) is met by your 76.1% academic standing. While the location in Pune deviates from your Bengaluru preference, it offers a strong placement rate of 83% and a median starting salary of $15,192. The main trade-off here is that the curriculum emphasizes networking/cloud rather than pure application development, and there are no post-study work visa benefits listed.\n\nFairfax Technical University\nThis MSc Data Science program was selected due to its high placement rate of 87% and its technical nature, which leverages your existing CS background (minimum grade requirement is 72%). The tuition cost of $2750 fits within your budget, and the location in Mumbai is a viable alternative to Bengaluru. Although it offers excellent career prospects with a median starting salary of $13,436, the primary trade-off is that its focus on data science analytics may shift your concentration away from core applications development toward data modeling.\n\nHalcyon Institute of Applied Sciences\nThis program is recommended because it has the lowest tuition cost at $1900 and requires no prior CS background, offering maximum flexibility while still providing a strong placement rate of 84%. The focus on Human-Computer Interaction (HCI) can complement your developer interests by adding design expertise to your skill set. While the location in Delhi is not your preferred region, this program presents the trade-off of specializing heavily in user experience and design rather than core software engineering or networking principles.",
+ "wall_s": 242.1
+}

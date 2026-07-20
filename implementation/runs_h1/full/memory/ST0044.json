@@ -1,0 +1,31 @@
+{
+ "student_id": "ST0044",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 77
+    },
+    "career_goal": "Systems Analyst",
+    "budget_max_usd_per_year": 8700,
+    "location_preference": "Coimbatore (near home)",
+    "mobility": "prefers_region",
+    "employability_priority": "high",
+    "other_constraints": [
+     "information security certification background"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0101",
+    "PR0054",
+    "PR0033",
+    "PR0029",
+    "PR0164"
+   ],
+   "feedback": null
+  }
+ ]
+}

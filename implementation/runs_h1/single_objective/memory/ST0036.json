@@ -1,0 +1,30 @@
+{
+ "student_id": "ST0036",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 70.8
+    },
+    "career_goal": "Management and developer (in tech)",
+    "budget_max_usd_per_year": 3400,
+    "location_preference": "Delhi",
+    "mobility": "prefers_region",
+    "employability_priority": null,
+    "other_constraints": [
+     "Python certification background"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0160",
+    "PR0130",
+    "PR0157",
+    "PR0156"
+   ],
+   "feedback": null
+  }
+ ]
+}

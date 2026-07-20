@@ -1,0 +1,105 @@
+{
+ "student_id": "ST0016",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 76.2
+    },
+    "career_goal": "Technical Engineer (programming and system developer)",
+    "budget_max_usd_per_year": null,
+    "location_preference": null,
+    "mobility": "open_domestic",
+    "employability_priority": null,
+    "other_constraints": [
+     "full stack certification background"
+    ],
+    "uncertainty_notes": [
+     "budget maximum per year is unknown.",
+     "Location preference is unknown.",
+     "Mobility preference is unknown (defaulting to open_domestic).",
+     "Employability priority is unknown."
+    ]
+   },
+   "final_shortlist": [
+    "PR0186",
+    "PR0058",
+    "PR0198",
+    "PR0139"
+   ],
+   "feedback": null
+  },
+  {
+   "session": 2,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 76.2
+    },
+    "career_goal": "Technical Engineer (programming and system developer)",
+    "budget_max_usd_per_year": 4000,
+    "location_preference": "Mumbai",
+    "mobility": "open_international",
+    "employability_priority": null,
+    "other_constraints": [
+     "full stack certification background"
+    ],
+    "uncertainty_notes": [
+     "Employability priority is unknown."
+    ]
+   },
+   "final_shortlist": [
+    "PR0060",
+    "PR0029",
+    "PR0161",
+    "PR0137",
+    "PR0119"
+   ],
+   "feedback": {
+    "liked": [
+     "PR0186",
+     "PR0058"
+    ],
+    "disliked": [
+     "PR0139"
+    ]
+   }
+  },
+  {
+   "session": 3,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 76.2
+    },
+    "career_goal": "Technical Engineer (programming and system developer)",
+    "budget_max_usd_per_year": 4000,
+    "location_preference": "Mumbai",
+    "mobility": "open_international",
+    "employability_priority": "high",
+    "other_constraints": [
+     "full stack certification background"
+    ],
+    "uncertainty_notes": [
+     "None."
+    ]
+   },
+   "final_shortlist": [
+    "PR0198",
+    "PR0153",
+    "PR0195",
+    "PR0194",
+    "PR0164"
+   ],
+   "feedback": {
+    "liked": [
+     "PR0060",
+     "PR0029"
+    ],
+    "disliked": []
+   }
+  }
+ ]
+}

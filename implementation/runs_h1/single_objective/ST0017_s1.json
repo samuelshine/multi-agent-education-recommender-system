@@ -1,0 +1,73 @@
+{
+ "student_id": "ST0017",
+ "session": 1,
+ "mode": "single_objective",
+ "message": "Hi, I'm a student with a python certification background. My overall academic average is 74.4% in an IT/computer-science degree. I'm interested in hacking and Business process analyst. I want to become a CRM Technical Developer. My family can afford at most about USD 2400 per year. I live in Kolkata. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 74.4
+  },
+  "career_goal": "CRM Technical Developer",
+  "budget_max_usd_per_year": 2400,
+  "location_preference": "Kolkata",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in hacking and Business process analyst roles"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0101",
+  "PR0054",
+  "PR0015",
+  "PR0020",
+  "PR0033",
+  "PR0157",
+  "PR0047",
+  "PR0074",
+  "PR0172",
+  "PR0087",
+  "PR0164",
+  "PR0182",
+  "PR0119",
+  "PR0143",
+  "PR0186",
+  "PR0176",
+  "PR0058",
+  "PR0187",
+  "PR0039",
+  "PR0174"
+ ],
+ "retrieved_ids": [
+  "PR0157",
+  "PR0033",
+  "PR0176",
+  "PR0187",
+  "PR0182",
+  "PR0164",
+  "PR0174",
+  "PR0119"
+ ],
+ "proposed_shortlist": [
+  "PR0176",
+  "PR0164",
+  "PR0157",
+  "PR0174",
+  "PR0119"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0157",
+  "PR0033",
+  "PR0176",
+  "PR0119",
+  "PR0174"
+ ],
+ "reflection_note": "The original shortlist was generally good but missed a strong data analytics option (PR0033) and included one program (PR0164) with an implausible admission requirement. The revised list prioritizes programs that maximize feasibility, align with the 'Business Process Analyst' interest, and maintain low cost/high employability profile. PR0157 remains the top choice due to its perfect balance of affordability, high academic feasibility, and strong alignment with both IT Management and Business Analysis tracks. PR0033 is added as a powerful alternative for data-focused career paths.",
+ "explanation": "Longford University\nThis program is recommended because its focus on IT Management aligns well with your interest in Business Process Analyst roles, and the low annual tuition of $800 keeps you comfortably within your budget. You meet the minimum grade requirement of 64%, and the high placement rate of 72% supports your priority for employability. The main trade-off here is that while it is highly affordable, there is no post-study work visa provided, and the location in Coimbatore deviates from your Kolkata preference.\n\nQuilon School of Engineering\nThis MBA program is a strong fit because its Business Analytics focus directly addresses your interest in process analysis, making it relevant for both CRM development and business roles. The tuition cost of $2100 remains within your maximum budget, and you meet the minimum grade requirement of 63%. The trade-off to consider is that while the placement rate is high at 73%, this program does not offer any post-study work visa support.\n\nCrestwood University\nThis option was recommended because its Technology Management curriculum directly supports your goal as a CRM Technical Developer, and it boasts the highest median starting salary of $15400 among the short-listed options. Furthermore, you meet the minimum grade requirement of 72%, and the tuition of $1900 is well within budget. The primary trade-off is that while the career prospects are excellent, this program does not offer any post-study work visa support, and it is located in Hyderabad.\n\nMeridian Institute of Applied Sciences\nThis highly technical option was recommended due to its exceptional 86% placement rate, which strongly addresses your high employability priority, and its low tuition cost of $1200. The program's focus on QA Testing could also appeal to your interest in hacking roles. However, the main trade-off is that while it offers superb job prospects, the curriculum is highly technical (QA) and may be less directly aligned with a CRM Developer role than other options.\n\nHalcyon Institute of Applied Sciences\nThis program was recommended because its focus on Human-Computer Interaction (HCI) provides valuable design skills crucial for developing user-facing systems like CRMs, and it is located in Delhi, which is geographically closer to your preference than some other sites. The tuition cost of $1900 fits within your budget, and you meet the minimum grade requirement of 71%. The main trade-off here is that while the location is favorable, the program's focus on design may be less technically intensive for a \"Technical Developer\" role compared to others.",
+ "wall_s": 137.5
+}

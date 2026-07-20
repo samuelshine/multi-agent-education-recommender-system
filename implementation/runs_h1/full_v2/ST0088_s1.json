@@ -1,0 +1,74 @@
+{
+ "student_id": "ST0088",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a distro making certification background. My overall academic average is 79% in an IT/computer-science degree. I'm interested in cloud computing and cloud computing. I want to become a Web Developer. My family can afford at most about USD 3500 per year. I live in Bengaluru. I'm open to anywhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 79
+  },
+  "career_goal": "Web Developer",
+  "budget_max_usd_per_year": 3500,
+  "location_preference": "Bengaluru",
+  "mobility": "open_domestic",
+  "employability_priority": "high",
+  "other_constraints": [
+   "distro making certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0117",
+  "PR0198",
+  "PR0097",
+  "PR0139",
+  "PR0164",
+  "PR0029",
+  "PR0022",
+  "PR0182",
+  "PR0060",
+  "PR0191",
+  "PR0119",
+  "PR0101",
+  "PR0143",
+  "PR0186",
+  "PR0176",
+  "PR0058",
+  "PR0149",
+  "PR0092",
+  "PR0187",
+  "PR0039"
+ ],
+ "retrieved_ids": [
+  "PR0198",
+  "PR0186",
+  "PR0176",
+  "PR0164",
+  "PR0058",
+  "PR0191",
+  "PR0143",
+  "PR0187"
+ ],
+ "proposed_shortlist": [
+  "PR0198",
+  "PR0164",
+  "PR0186",
+  "PR0058",
+  "PR0191"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0164",
+  "PR0186",
+  "PR0058",
+  "PR0191",
+  "PR0176"
+ ],
+ "reflection_note": "Dropped PR0198 because its minimum grade requirement (80%) exceeds the student's current grade (79%), violating a hard constraint. Since 5 valid candidates are needed, I swapped in PR0176 (MBA Technology Management) from the full candidate set. This program offers good financial feasibility and is located in Hyderabad, which serves as a strong, acceptable alternative to Bengaluru while maintaining relevance to IT management/Web Development goals.",
+ "explanation": "Northgate School of Engineering\nThis program is recommended because it offers a high placement rate of 90% and meets your minimum grade requirement of 79%. The annual tuition of $2050 USD fits well within your budget maximum. However, the main trade-off here is that this MBA degree focuses on technology management rather than deep technical skills needed for a Web Developer role, and it is located in Delhi, which deviates from your Bengaluru preference.\n\nHalcyon Institute of Technology\nThis MTech program is highly relevant to your IT/CS background, as it requires a CS foundation and covers software engineering fields. The tuition ($2050 USD) is within budget, and the location in Pune is reasonably close to your preferred area. The trade-off is that while the technical focus is strong, its placement rate (83%) and median starting salary ($15192 USD) are slightly lower than some other options.\n\nStanmore School of Engineering\nThis MCA program offers a very affordable tuition fee of $1350 USD, keeping you well under budget, and it aligns perfectly with your CS background. The curriculum includes software engineering, which is ideal for your Web Developer goal. The primary trade-off is that the location in Coimbatore is further from Bengaluru, and its median starting salary ($14869 USD) is among the lowest on this list.\n\nSarayu Technical University\nThis MTech program provides a strong technical foundation through data engineering fields and has an excellent placement rate of 84%. The tuition cost of $3250 USD remains within your maximum budget, and it does not require a specific CS background, offering flexibility. The main trade-off is that the degree focuses on data science/business information systems rather than pure web development, and its location in Chennai deviates from Bengaluru.\n\nCrestwood University\nThis MBA program has an affordable tuition of $1900 USD and meets your grade requirement (min 72%). It offers a good placement rate of 82% while remaining within budget. The main trade-off is that like Northgate, this degree focuses on management rather than the deep technical skills required for a Web Developer role, and it is located in Hyderabad instead of Bengaluru.",
+ "wall_s": 130.0
+}

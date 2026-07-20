@@ -1,0 +1,31 @@
+{
+ "student_id": "ST0075",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 76.8
+    },
+    "career_goal": "E-Commerce Analyst",
+    "budget_max_usd_per_year": 37100,
+    "location_preference": "Chennai",
+    "mobility": "open_international",
+    "employability_priority": "high",
+    "other_constraints": [
+     "shell programming certification"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0195",
+    "PR0021",
+    "PR0122",
+    "PR0079",
+    "PR0030"
+   ],
+   "feedback": null
+  }
+ ]
+}

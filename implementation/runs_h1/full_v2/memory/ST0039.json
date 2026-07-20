@@ -1,0 +1,32 @@
+{
+ "student_id": "ST0039",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 79.7
+    },
+    "career_goal": null,
+    "budget_max_usd_per_year": 1100,
+    "location_preference": "Bengaluru",
+    "mobility": "fixed_city",
+    "employability_priority": "high",
+    "other_constraints": [
+     "r programming certification background",
+     "interested in data engineering and security"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0173",
+    "PR0015",
+    "PR0087",
+    "PR0013",
+    "PR0073"
+   ],
+   "feedback": null
+  }
+ ]
+}

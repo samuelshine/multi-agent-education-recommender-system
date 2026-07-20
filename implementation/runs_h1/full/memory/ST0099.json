@@ -1,0 +1,28 @@
+{
+ "student_id": "ST0099",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 76.8
+    },
+    "career_goal": "Software Systems Engineer (interested in cloud computing and developer roles)",
+    "budget_max_usd_per_year": 1200,
+    "location_preference": "Pune",
+    "mobility": "fixed_city",
+    "employability_priority": "high",
+    "other_constraints": [
+     "Full stack certification background"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0023",
+    "PR0187"
+   ],
+   "feedback": null
+  }
+ ]
+}

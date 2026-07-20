@@ -1,0 +1,56 @@
+{
+ "student_id": "ST0043",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 77.3% in an IT/computer-science degree. I'm interested in Computer Architecture and cloud computing. I want to become a Data Architect. My family can afford at most about USD 2100 per year. I live in Bengaluru. I cannot leave my city. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 77.3
+  },
+  "career_goal": "Data Architect",
+  "budget_max_usd_per_year": 2100,
+  "location_preference": "Bengaluru",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in Computer Architecture and cloud computing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0173",
+  "PR0087",
+  "PR0015",
+  "PR0073",
+  "PR0002",
+  "PR0013",
+  "PR0085"
+ ],
+ "retrieved_ids": [
+  "PR0173",
+  "PR0087",
+  "PR0015",
+  "PR0073",
+  "PR0013",
+  "PR0085"
+ ],
+ "proposed_shortlist": [
+  "PR0173",
+  "PR0087",
+  "PR0015"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0173",
+  "PR0087",
+  "PR0073",
+  "PR0013",
+  "PR0085"
+ ],
+ "reflection_note": "The initial shortlist was good but included PR0015, which is too business-focused. I swapped in PR0073 (Cyber Security) and PR0013 (HCI) because they offer stronger technical depth while remaining highly relevant to a CS background and the 'Computer Architecture/Cloud' interests. I also added PR0085 as a solid, affordable software engineering option that provides good placement rates, rounding out the list with diverse but technically sound choices.",
+ "explanation": "Longford Technical University\nThis program is recommended because it offers a highly affordable option ($500 annual tuition) while remaining in your preferred location of Bengaluru. The MTech Computer Science curriculum covers relevant fields like data science analytics and software engineering, which align with your career goal as a Data Architect. Since the minimum required grade percentage (53%) is well below your 77.3% academic background, this program minimizes risk regarding admission requirements. The main trade-off here is that while tuition is excellent, the placement rate of 62% and median salary of $6851 are moderate compared to other options.\n\nAravalli Technical University\nThis MSc Data Science program offers the most direct alignment with your stated career goal of becoming a Data Architect. The annual tuition of $1200 fits comfortably within your budget, and since you have an IT/CS background, the requirement for a CS degree is met. However, the main trade-off is that while the subject matter is perfect, the placement rate (58%) and median starting salary ($6767) are among the lowest on this list.\n\nElmhurst Technical University\nThis program was recommended due to its strong employability metrics, boasting an 80% placement rate and a high median starting salary of $8637. The tuition cost of $1250 is within your budget, and you meet the minimum grade requirement (65%). The main trade-off is that while it offers excellent job prospects, the focus on Cybersecurity deviates significantly from your primary interest in Data Architecture or Cloud Computing.\n\nMeridian Institute of Technology\nThis program provides a strong balance of high outcomes and low cost, featuring a 77% placement rate and the highest median salary ($9186) listed. The annual tuition is only $900, which respects your budget constraint while keeping you in Bengaluru. The main trade-off is that the focus on Human-Computer Interaction (HCI) is highly specialized in design and user experience, making it the furthest subject area from your goal of becoming a Data Architect.\n\nKeystone Institute of Applied Sciences\nThis MSc program provides general software engineering knowledge through its QA testing field, which supports an architectural career path. The tuition ($1450) remains within budget, and you meet the minimum grade requirement (54%). The main trade-off is that while it offers a solid foundation in software development, the focus on quality assurance is less specialized for data architecture compared to other programs, resulting in moderate placement metrics.",
+ "wall_s": 75.4
+}

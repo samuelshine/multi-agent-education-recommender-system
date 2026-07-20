@@ -1,0 +1,74 @@
+{
+ "student_id": "ST0016",
+ "session": 1,
+ "mode": "full",
+ "version": 1,
+ "message": "Hi, I'm a student with a full stack certification background. My overall academic average is 76.2% in an IT/computer-science degree. I'm interested in programming and system developer. I want to become a Technical Engineer.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 76.2
+  },
+  "career_goal": "Technical Engineer (programming and system developer)",
+  "budget_max_usd_per_year": null,
+  "location_preference": null,
+  "mobility": "open_domestic",
+  "employability_priority": null,
+  "other_constraints": [
+   "full stack certification background"
+  ],
+  "uncertainty_notes": [
+   "budget maximum per year is unknown.",
+   "Location preference is unknown.",
+   "Mobility preference is unknown (defaulting to open_domestic).",
+   "Employability priority is unknown."
+  ]
+ },
+ "prefilter_ids": [
+  "PR0198",
+  "PR0144",
+  "PR0139",
+  "PR0164",
+  "PR0029",
+  "PR0022",
+  "PR0182",
+  "PR0060",
+  "PR0191",
+  "PR0119",
+  "PR0101",
+  "PR0143",
+  "PR0186",
+  "PR0176",
+  "PR0058",
+  "PR0149",
+  "PR0092",
+  "PR0187",
+  "PR0039",
+  "PR0174"
+ ],
+ "retrieved_ids": [
+  "PR0144",
+  "PR0186",
+  "PR0058",
+  "PR0198",
+  "PR0139"
+ ],
+ "proposed_shortlist": [
+  "PR0186",
+  "PR0198",
+  "PR0058",
+  "PR0144"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0186",
+  "PR0058",
+  "PR0198",
+  "PR0139"
+ ],
+ "reflection_note": "The original shortlist contained a hard violation (PR0144 grade requirement). I dropped it immediately. PR0198 was kept because of its high employability and location, but I swapped in PR0139 to provide an alternative option with similar strengths (high salary/good placement) while offering geographical diversity (Delhi vs Bengaluru). The final list prioritizes technical depth (PR0186), financial safety (PR0058), and strong career outcomes (PR0198, PR0139).",
+ "explanation": "Halcyon Institute of Technology\nThis program is recommended because its focus on networking and cloud technologies aligns well with your goal of becoming a system developer. You meet the admission criteria, as it requires a CS background and has a minimum grade requirement of 70%, which is below your current 76.2%. The tuition cost is relatively low at $2050 per year, but the main trade-off to consider is that its placement rate (83%) is not the highest among the options.\n\nStanmore School of Engineering\nThis MCA program is a strong fit for your technical goals, combining software engineering with data science analytics. It has the lowest annual tuition cost ($1350) and requires a CS background, which matches your academic history. While it offers an 83% placement rate, the primary trade-off here is that its median starting salary of $14,869 is the lowest among all programs listed.\n\nNorthgate Institute of Technology\nThis program stands out due to its exceptional metrics, boasting a 95% placement rate and the highest median starting salary ($21,062). The curriculum focuses on software engineering, which supports your technical career goal. However, the main trade-off is that the minimum required grade percentage (80%) is higher than your current academic standing of 76.2%.\n\nQuilon University\nThis MSc program offers a high median starting salary ($20,639) and a strong placement rate of 89%, making it highly attractive for employability. The main trade-off to consider is the combination of its highest tuition fee at $4200 per year and a minimum grade requirement (81%) that exceeds your current academic percentage.",
+ "wall_s": 189.6
+}

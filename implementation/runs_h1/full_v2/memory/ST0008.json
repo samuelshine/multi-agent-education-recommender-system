@@ -1,0 +1,31 @@
+{
+ "student_id": "ST0008",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 77.6
+    },
+    "career_goal": "UX Designer",
+    "budget_max_usd_per_year": 2100,
+    "location_preference": "Bengaluru",
+    "mobility": "prefers_region",
+    "employability_priority": "high",
+    "other_constraints": [
+     "Interested in programming and Business process analyst roles"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0013",
+    "PR0015",
+    "PR0158",
+    "PR0181",
+    "PR0046"
+   ],
+   "feedback": null
+  }
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "student_id": "ST0053",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a hadoop certification background. My overall academic average is 72.1% in an IT/computer-science degree. I'm interested in Management and system developer. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 10700 per year. I live in Hyderabad. I'm open to going abroad.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 72.1
+  },
+  "career_goal": "Management and system developer (in tech)",
+  "budget_max_usd_per_year": 10700,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": null,
+  "other_constraints": [
+   "hadoop certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0057",
+  "PR0060",
+  "PR0176",
+  "PR0092",
+  "PR0189",
+  "PR0076",
+  "PR0130",
+  "PR0078",
+  "PR0150",
+  "PR0157",
+  "PR0160",
+  "PR0048",
+  "PR0172",
+  "PR0156",
+  "PR0195",
+  "PR0021",
+  "PR0122",
+  "PR0153",
+  "PR0051",
+  "PR0151"
+ ],
+ "final_shortlist": [
+  "PR0130",
+  "PR0076",
+  "PR0176",
+  "PR0157",
+  "PR0195"
+ ],
+ "explanation": "This program is located in Hyderabad and has a low tuition fee ($1000), making it highly budget-friendly while meeting your academic average (72.1% > 62%). It focuses on IT Management, aligning with your stated interests.\n\nAlso located in Hyderabad and very affordable ($1250), this MBA program covers both IT Management and Software Engineering. This dual focus is excellent for someone interested in tech but unsure of their exact specialization.\n\nThis option keeps you local in Hyderabad while offering an MBA focused on Technology Management. The minimum required grade (72%) matches your current academic average perfectly.\n\nIf you are open to moving within India and want a very low-cost option ($800), this MSc program in Coimbatore covers IT Management. It is well below your budget constraint.\n\nIf you are willing to go abroad (Germany) and prioritize career growth, this MSc Information Systems program offers a very low tuition fee ($300) and excellent post-study work opportunities (18 months).",
+ "wall_s": 46.2
+}

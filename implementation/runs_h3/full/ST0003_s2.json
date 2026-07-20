@@ -1,0 +1,74 @@
+{
+ "student_id": "ST0003",
+ "session": 2,
+ "mode": "full",
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 81.6% in an IT/computer-science degree. I'm interested in data engineering and system developer. I want to become a Software Developer. My family can afford at most about USD 13200 per year. I live in Mumbai. I'm open to anywhere in India. About the earlier suggestions: I liked PR0097, PR0026.",
+ "memory_used": true,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 81.6
+  },
+  "career_goal": "Software Developer",
+  "budget_max_usd_per_year": 13200,
+  "location_preference": null,
+  "mobility": "fixed_city",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in data engineering and system developer roles.",
+   "Background in information security certification."
+  ],
+  "uncertainty_notes": [
+   "Employability priority not specified."
+  ]
+ },
+ "prefilter_ids": [
+  "PR0191",
+  "PR0058",
+  "PR0026",
+  "PR0090",
+  "PR0145",
+  "PR0033",
+  "PR0107",
+  "PR0074",
+  "PR0063",
+  "PR0173",
+  "PR0071",
+  "PR0087",
+  "PR0198",
+  "PR0097",
+  "PR0144",
+  "PR0101",
+  "PR0143",
+  "PR0186",
+  "PR0039",
+  "PR0053"
+ ],
+ "retrieved_ids": [
+  "PR0058",
+  "PR0026",
+  "PR0145",
+  "PR0107",
+  "PR0143",
+  "PR0186",
+  "PR0039",
+  "PR0191"
+ ],
+ "proposed_shortlist": [
+  "PR0186",
+  "PR0143",
+  "PR0026",
+  "PR0145"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0186",
+  "PR0026",
+  "PR0039",
+  "PR0145"
+ ],
+ "reflection_note": "The initial shortlist was heavily weighted towards Data Science (PR0143, PR0026) and Software/Networking (PR0186). I have kept the top two strongest contenders (PR0186 and PR0026) as they best align with the student's stated interests (Software Developer, Data Engineering). PR0039 is swapped in as a strong alternative for software roles. PR0145 remains because it was the only remaining option in Coimbatore after dropping PR0143, ensuring geographical diversity while maintaining affordability.",
+ "explanation": "Halcyon Institute of Technology\nThis program is highly recommended because its focus on Computer Networks and Software Engineering aligns well with your interest in system development. Admission is straightforward as it requires a CS background, which you possess, and your 81.6% grade exceeds the minimum requirement. While the median starting salary of $15,192 is excellent and falls within your budget constraints, the main trade-off here is that the curriculum does not specifically emphasize data engineering, which was one of your stated interests.\n\nNorthgate Technical University\nThis MTech Data Engineering program is an ideal match as it directly addresses your interest in data engineering while also covering software engineering fundamentals. The tuition cost of $3,900 and the median starting salary of $13,385 both fit comfortably within your maximum budget of $13,200 per year. Since you have a strong academic background (81.6%), meeting the 73% minimum grade is easy, making this a very targeted recommendation. The main trade-off is that its tuition cost is slightly higher than some other options on this list.\n\nLongford Institute of Applied Sciences\nThis program was recommended because it offers high employability with an 85% placement rate and includes software engineering skills. It is also highly accessible, as it does not require a CS background and your grade exceeds the minimum requirement. However, since your primary interests are in data engineering or system development, the main trade-off here is that this program focuses heavily on Human-Computer Interaction (HCI) rather than core technical systems.\n\nSilverline Technical University\nThis MTech Computer Science option was selected because it maintains a strong focus on both software engineering and data science analytics while requiring your existing CS background for admission. It offers the lowest tuition cost of $2,300 and has an easy admission requirement (min 60%). The main trade-off to consider is that its median starting salary ($10,057) is significantly lower compared to other programs on this list.",
+ "wall_s": 227.2
+}

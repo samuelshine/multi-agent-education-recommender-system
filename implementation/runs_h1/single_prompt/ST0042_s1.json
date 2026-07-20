@@ -1,0 +1,34 @@
+{
+ "student_id": "ST0042",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a app development certification background. My overall academic average is 73.6% in an IT/computer-science degree. I'm interested in parallel computing and Business process analyst. I want to become a Database Administrator. My family can afford at most about USD 800 per year. I live in Chennai. I cannot leave my city. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 73.6
+  },
+  "career_goal": "Database Administrator",
+  "budget_max_usd_per_year": 800,
+  "location_preference": "Chennai",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in parallel computing",
+   "Interested in Business process analyst"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0059",
+  "PR0165"
+ ],
+ "final_shortlist": [
+  "PR0165",
+  "PR0059"
+ ],
+ "explanation": "This MSc Cloud Computing program is located in Chennai and requires a CS background, matching your profile. It offers relevant skills for database administration and has a decent starting salary, which aligns with your priority of job placement.\n\nWhile MDes Interaction Design is not directly related to databases or parallel computing, it meets all your constraints: it's in Chennai, affordable (USD 450), and has a good placement rate. It should be considered if job prospects are the absolute top priority.",
+ "wall_s": 17.3
+}

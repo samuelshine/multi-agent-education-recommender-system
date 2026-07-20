@@ -1,0 +1,71 @@
+{
+ "student_id": "ST0023",
+ "session": 3,
+ "mode": "no_memory",
+ "version": 1,
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 75.8% in an IT/computer-science degree. I'm interested in Software Engineering and cloud computing. I want to become a Data Architect. My family can afford at most about USD 9800 per year. I live in Hyderabad. I'm open to going abroad. Getting a good job after graduation matters more to me than anything else. About the earlier suggestions: I liked PR0026, PR0126.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 75.8
+  },
+  "career_goal": "Data Architect",
+  "budget_max_usd_per_year": 9800,
+  "location_preference": "Hyderabad",
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "r programming certification"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0051",
+  "PR0191",
+  "PR0143",
+  "PR0058",
+  "PR0007",
+  "PR0140",
+  "PR0128",
+  "PR0126",
+  "PR0099",
+  "PR0026",
+  "PR0009",
+  "PR0062",
+  "PR0090",
+  "PR0120",
+  "PR0170",
+  "PR0145",
+  "PR0033",
+  "PR0107",
+  "PR0111",
+  "PR0134"
+ ],
+ "retrieved_ids": [
+  "PR0111",
+  "PR0026",
+  "PR0143",
+  "PR0099",
+  "PR0126",
+  "PR0062",
+  "PR0128",
+  "PR0145"
+ ],
+ "proposed_shortlist": [
+  "PR0026",
+  "PR0145",
+  "PR0111"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0026",
+  "PR0143",
+  "PR0099",
+  "PR0111"
+ ],
+ "reflection_note": "The initial shortlist was good but lacked diversity in high-quality, specialized options. I dropped PR0145 because PR0026 is superior. I swapped in PR0143 and PR0099 as they provide excellent alternatives to PR0026 (Data Engineering) while maintaining the India location preference and strong technical fit, thus maximizing employability potential. The final list prioritizes specialization and high placement rates within or near Hyderabad.",
+ "explanation": "Northgate Technical University\nThis program is highly recommended because it perfectly matches your location preference in Hyderabad and has a low annual tuition of $3900, keeping you well within your budget. Admission requirements are favorable as the minimum grade percentage is 73%, which you exceed with 75.8%. The strong placement rate of 81% and median starting salary of $13,385 align well with your goal of becoming a Data Architect. The main trade-off here is that while the location and tuition are ideal, there is no post-study work visa provided.\n\nFairfax Technical University\nThis program offers excellent employability metrics, boasting an 87% placement rate and a median starting salary of $13,436, which strongly supports your career goal. The annual tuition of $2750 is very budget-friendly, and the minimum grade requirement (72%) is easily met by your academic background. While it does not meet your Hyderabad location preference (it is in Mumbai), this option provides a high salary potential for its cost. The main trade-off is that you must commute to Mumbai and there is no post-study work visa provided.\n\nMeridian School of Engineering\nThis program is suitable because it maintains a strong placement rate of 83% and offers a competitive median starting salary of $12,637 for your career goal. The tuition cost of $3150 remains within your maximum budget of $9800 per year. Since you have an IT/CS background, the requirement to study data science analytics is appropriate for your profile. The main trade-off is that while it offers good job prospects, its location in Mumbai does not match your Hyderabad preference, and there is no post-study work visa provided.\n\nLongford School of Engineering\nThis option is recommended because it provides the lowest tuition cost ($900) and matches your preferred location of Hyderabad, making it highly budget-friendly. Furthermore, the minimum grade percentage (60%) is easily met by your 75.8% academic background. While its placement rate (71%) and median starting salary ($9,179) are lower than other options, the significant savings on tuition make this a strong value choice. The main trade-off is accepting a lower potential starting salary and placement rate in exchange for superior cost efficiency and location match.",
+ "wall_s": 219.3
+}

@@ -1,0 +1,54 @@
+{
+ "student_id": "ST0050",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a machine learning certification background. My overall academic average is 79.9% in an IT/computer-science degree. I'm interested in programming and system developer. I want to become a Information Technology Auditor. My family can afford at most about USD 5600 per year. I live in Delhi. I'm open to anywhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 79.9
+  },
+  "career_goal": "Information Technology Auditor",
+  "budget_max_usd_per_year": 5600,
+  "location_preference": "Delhi",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in programming and system developer roles"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0191",
+  "PR0101",
+  "PR0054",
+  "PR0105",
+  "PR0015",
+  "PR0020",
+  "PR0033",
+  "PR0157",
+  "PR0047",
+  "PR0074",
+  "PR0172",
+  "PR0087",
+  "PR0117",
+  "PR0198",
+  "PR0097",
+  "PR0144",
+  "PR0139",
+  "PR0164",
+  "PR0029",
+  "PR0022"
+ ],
+ "final_shortlist": [
+  "PR0164",
+  "PR0139",
+  "PR0020",
+  "PR0029",
+  "PR0144"
+ ],
+ "explanation": "This MBA Technology Management program in Delhi is highly relevant to your interest in IT and system development, while the minimum required grade (79%) matches your academic average. It also offers a strong placement rate (90%) and a good median starting salary, aligning with your priority of job prospects.\n\nLocated in Delhi, this MSc Software Quality Engineering program directly relates to programming and system development. It has a high placement rate (89%) and a strong median starting salary of $20639, making it an excellent choice for career growth and job security.\n\nThis MBA Business Analytics program is located in Delhi and has a low tuition cost ($1450), fitting well within your budget. It provides exposure to business information systems and offers decent placement metrics, making it a safe and affordable option.\n\nThe MSc Information Security program in Mumbai is highly specialized and relevant for an IT Auditor career path. While the tuition is higher, its strong placement rate (92%) and focus on cybersecurity make it a valuable investment for job market success.\n\nThis MTech Computer Science program in Pune offers core software engineering skills, which is ideal for your interest in programming and system development. It boasts a high placement rate (93%) and a solid median starting salary, making it a strong technical choice.",
+ "wall_s": 59.4
+}

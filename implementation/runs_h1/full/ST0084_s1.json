@@ -1,0 +1,68 @@
+{
+ "student_id": "ST0084",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a distro making certification background. My overall academic average is 78.9% in an IT/computer-science degree. I'm interested in data engineering and developer. I want to become a Network Security Engineer. My family can afford at most about USD 1300 per year. I live in Pune. I'd strongly prefer to stay near home, though I might consider elsewhere in India.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 78.9
+  },
+  "career_goal": "Network Security Engineer",
+  "budget_max_usd_per_year": 1300,
+  "location_preference": "Pune",
+  "mobility": "prefers_region",
+  "employability_priority": null,
+  "other_constraints": [
+   "distro making certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0119",
+  "PR0058",
+  "PR0187",
+  "PR0053",
+  "PR0109",
+  "PR0076",
+  "PR0012",
+  "PR0019",
+  "PR0114",
+  "PR0185",
+  "PR0130",
+  "PR0084",
+  "PR0120",
+  "PR0170",
+  "PR0015",
+  "PR0020",
+  "PR0073",
+  "PR0171",
+  "PR0013",
+  "PR0118"
+ ],
+ "retrieved_ids": [
+  "PR0187",
+  "PR0019",
+  "PR0170",
+  "PR0185",
+  "PR0118",
+  "PR0073",
+  "PR0119"
+ ],
+ "proposed_shortlist": [
+  "PR0185",
+  "PR0119",
+  "PR0073"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0185",
+  "PR0019",
+  "PR0170"
+ ],
+ "reflection_note": "The original shortlist was weak because it contained a budget violation (PR0187, if included) and lacked strong location alignment. I dropped PR0119 and PR0073 due to poor focus or suboptimal location relative to Pune preference. I swapped in PR0019 (Pune, good academic fit) and PR0170 (Budget-friendly, CS required). PR0185 remains as the best cybersecurity option despite the non-ideal Kolkata location. Note: PR0187 was flagged for budget violation but is kept out of the final list because its high tuition makes it a poor trade-off compared to the alternatives.",
+ "explanation": "Longford Institute of Technology\nThis program was recommended because its focus on Information Security aligns closely with your goal of becoming a Network Security Engineer. It fits within your budget, requiring an annual tuition of $1150, which is below your maximum limit of $1300. Admission is suitable as it requires a CS background, which matches your academic profile, and the placement rate stands at 78% with a median starting salary of $10,850. The main trade-off here is that the location is Kolkata, rather than your preferred region of Pune.\n\nAshford University\nThis program was recommended because it is located in Pune, matching your location preference, and has a high placement rate of 84%. You meet the minimum admission requirements (64% grade) with your current background, and the median starting salary is $10,285. However, the main trade-off is that the annual tuition of $1450 exceeds your stated budget maximum of $1300.\n\nStanmore Institute of Applied Sciences\nThis program was recommended because its tuition of $1300 perfectly meets your budgetary constraint and requires a CS background suitable for your academic history. While it offers strong placement potential with a 77% rate and a median salary of $10,429, the main trade-off is that the field of study (Big Data Analytics) is less directly aligned with your specific career goal in Network Security Engineering.",
+ "wall_s": 254.3
+}

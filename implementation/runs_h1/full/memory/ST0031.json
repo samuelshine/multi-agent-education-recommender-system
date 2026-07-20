@@ -1,0 +1,30 @@
+{
+ "student_id": "ST0031",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 75.9
+    },
+    "career_goal": "Database Manager",
+    "budget_max_usd_per_year": 4500,
+    "location_preference": null,
+    "mobility": "prefers_region",
+    "employability_priority": null,
+    "other_constraints": [
+     "Interested in programming and Business process analyst"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0191",
+    "PR0101",
+    "PR0157",
+    "PR0120"
+   ],
+   "feedback": null
+  }
+ ]
+}

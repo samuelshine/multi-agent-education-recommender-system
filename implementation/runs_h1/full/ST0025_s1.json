@@ -1,0 +1,70 @@
+{
+ "student_id": "ST0025",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 81% in an IT/computer-science degree. I'm interested in networks and developer. I want to become a Software Engineer. My family can afford at most about USD 4400 per year. I live in Kolkata. I'm open to going abroad. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 81
+  },
+  "career_goal": "Software Engineer",
+  "budget_max_usd_per_year": 4400,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in networks and developer fields"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0037",
+  "PR0161",
+  "PR0198",
+  "PR0144",
+  "PR0194",
+  "PR0186",
+  "PR0058",
+  "PR0039",
+  "PR0053",
+  "PR0038",
+  "PR0158",
+  "PR0043",
+  "PR0126",
+  "PR0109",
+  "PR0026",
+  "PR0076",
+  "PR0012",
+  "PR0065",
+  "PR0019",
+  "PR0167"
+ ],
+ "retrieved_ids": [
+  "PR0037",
+  "PR0194",
+  "PR0126",
+  "PR0038",
+  "PR0186",
+  "PR0167",
+  "PR0043",
+  "PR0109"
+ ],
+ "proposed_shortlist": [
+  "PR0194",
+  "PR0037",
+  "PR0126"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0037",
+  "PR0194",
+  "PR0038",
+  "PR0126"
+ ],
+ "reflection_note": "The original shortlist was strong, but PR0038 (MTech Computer Science in Dresden) is a significantly better option than PR0126. It offers the same location and high employability potential as PR0037/PR0194 but at a much lower tuition cost ($1200 vs $2050), making it an exceptional value proposition while maintaining strong academic relevance (Software Engineering). I have prioritized the German options that maximize international mobility and career prospects, keeping PR0037 and PR0194 as top choices due to their high employability scores. The final list is ranked by overall potential: highest salary/employability first.",
+ "explanation": "Tejas School of Engineering\nThis program is highly recommended because it directly aligns with your Software Engineer career goal while keeping tuition well within your maximum budget at $2650 USD. It offers the highest placement rate on this list at 72%, which strongly addresses your priority for high employability. The curriculum focuses purely on software engineering, and graduates receive an 18-month post-study work visa. The main trade-off here is that its tuition cost is slightly higher than some of the other options provided.\n\nAravalli School of Engineering\nThis program is ideal because it specifically incorporates networking and cloud computing into the curriculum, matching your stated interest in networks while still leading to a Software Engineer role. At $1950 USD annually, it remains comfortably under your budget limit. You will also benefit from an 18-month post-study work visa. The trade-off is that while the field alignment is excellent, its placement rate (67%) is not the highest among the shortlisted options.\n\nHalcyon Technical University\nThis option is recommended primarily due to its exceptional affordability, boasting a low annual tuition of only $1200 USD. It provides direct training in software engineering and includes an 18-month post-study work visa. While it meets your budget constraints perfectly, the main trade-off is that it offers the lowest median starting salary ($22356) compared to the other programs listed.\n\nAshford Technical University\nThis MCA program provides a strong blend of software engineering with data science and analytics, offering a highly marketable skill set while keeping tuition low at $2050 USD. It also adheres to your budget constraints and offers an 18-month post-study work visa. The main trade-off is that the focus on data science/analytics may shift slightly away from your stated interest in networking fields.",
+ "wall_s": 223.9
+}

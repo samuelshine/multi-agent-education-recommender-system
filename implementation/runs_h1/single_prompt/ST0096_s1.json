@@ -1,0 +1,54 @@
+{
+ "student_id": "ST0096",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a distro making certification background. My overall academic average is 77.9% in an IT/computer-science degree. I'm interested in Computer Architecture and testing. I want to become a Database Developer. My family can afford at most about USD 10200 per year. I live in Pune. I'm open to going abroad.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 77.9
+  },
+  "career_goal": "Database Developer",
+  "budget_max_usd_per_year": 10200,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in Computer Architecture and testing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0051",
+  "PR0151",
+  "PR0198",
+  "PR0097",
+  "PR0104",
+  "PR0139",
+  "PR0182",
+  "PR0191",
+  "PR0119",
+  "PR0143",
+  "PR0058",
+  "PR0053",
+  "PR0007",
+  "PR0140",
+  "PR0072",
+  "PR0128",
+  "PR0126",
+  "PR0099",
+  "PR0026",
+  "PR0070"
+ ],
+ "final_shortlist": [
+  "PR0151",
+  "PR0104",
+  "PR0072",
+  "PR0182",
+  "PR0053"
+ ],
+ "explanation": "This MSc in Software Quality Engineering in Germany aligns well with your interest in testing and offers a strong post-study work visa (18 months). The tuition ($5750) is within your budget, and the minimum grade requirement (62%) is achievable given your 77.9% average.\n\nLocated in Germany, this MSc program focuses on QA testing and has a low tuition fee ($3450), making it highly budget-friendly. The minimum grade requirement (59%) is easily met by your academic average, and the post-study work visa provides excellent career prospects.\n\nThis MSc in Software Quality Engineering is located in Pune, India, which is convenient for you. The tuition ($2400) is very affordable and the minimum grade requirement (70%) is comfortably met by your current average.\n\nThis local MSc program in Pune focuses on QA testing at a very low cost ($1950), making it an excellent budget option. The minimum grade requirement (75%) is close but still manageable, and the high placement rate (91%) offers good job security.\n\nThis Indian MSc program in QA testing is highly affordable ($1200) and located in Kolkata. It meets your interest in testing while staying well within budget constraints, offering a solid local option.",
+ "wall_s": 54.4
+}

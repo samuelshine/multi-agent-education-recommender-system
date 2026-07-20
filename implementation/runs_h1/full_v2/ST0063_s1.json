@@ -1,0 +1,75 @@
+{
+ "student_id": "ST0063",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 78.9% in an IT/computer-science degree. I'm interested in parallel computing and cloud computing. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 3600 per year. I live in Chennai. I'm open to anywhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 78.9
+  },
+  "career_goal": null,
+  "budget_max_usd_per_year": 3600,
+  "location_preference": null,
+  "mobility": "open_domestic",
+  "employability_priority": "high",
+  "other_constraints": [
+   "r programming certification background",
+   "interested in parallel computing and cloud computing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0186",
+  "PR0197",
+  "PR0043",
+  "PR0147",
+  "PR0096",
+  "PR0199",
+  "PR0118",
+  "PR0121",
+  "PR0148",
+  "PR0016",
+  "PR0102",
+  "PR0180",
+  "PR0162",
+  "PR0112",
+  "PR0159",
+  "PR0032",
+  "PR0184",
+  "PR0165",
+  "PR0117",
+  "PR0198"
+ ],
+ "retrieved_ids": [
+  "PR0186",
+  "PR0147",
+  "PR0165",
+  "PR0180",
+  "PR0032",
+  "PR0197",
+  "PR0148",
+  "PR0112"
+ ],
+ "proposed_shortlist": [
+  "PR0186",
+  "PR0197",
+  "PR0147",
+  "PR0180",
+  "PR0032"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0186",
+  "PR0197",
+  "PR0147",
+  "PR0180",
+  "PR0032"
+ ],
+ "reflection_note": "The initial shortlist is strong and adheres to all hard constraints (budget, academic background). No entries were dropped. The ranking reflects the balance between high employability/academic fit (PR0186) and cost-effectiveness/specialization (PR0197, PR0147). All five programs provide relevant exposure to cloud computing and networking while remaining within the strict annual budget of $3600.",
+ "explanation": "Halcyon Institute of Technology\nThis program is recommended because it aligns well with your interest in cloud and networking while offering a strong placement rate of 83%. The annual tuition of $2050 fits comfortably within your budget maximum of $3600, and the curriculum covers both networking/cloud and software engineering. The main trade-off here is that while the salary ($15192) is high, its placement rate (83%) is slightly lower than Ashford's option.\n\nAshford Institute of Technology\nThis program was selected because it offers the highest placement rate (85%), which aligns with your priority for employability. The curriculum focuses on networking and cloud computing, matching your stated interests. While the tuition ($3350) uses a larger portion of your budget, this investment is offset by the strong career outcomes and median starting salary of $13362. The main trade-off is accepting higher tuition costs for superior placement statistics.\n\nFairfax Institute of Technology\nThis option was recommended because it provides relevant training in cloud computing while maintaining a high placement rate of 83%. With an annual tuition of $3200, it remains within your budget constraints and requires a CS background that matches your academic history. The main trade-off is balancing the higher cost ($3200) against its strong career prospects and median starting salary of $13015.\n\nBraxton Institute of Technology\nThis program is recommended for students prioritizing low costs, as the annual tuition is only $1250, leaving significant room in your budget. It covers networking/cloud computing and meets your CS background requirement. The main trade-off to consider is that while it is highly affordable, its placement rate (71%) and median starting salary ($10359) are the lowest among the shortlisted options.\n\nLongford School of Engineering\nThis program offers the most budget flexibility with a very low annual tuition of $1200, making it extremely cost-effective. It covers both networking/cloud and software engineering fields relevant to your interests. However, the main trade-off is that its significantly lower placement rate (61%) and median starting salary ($7871) suggest a potential compromise on employability compared to other options.",
+ "wall_s": 120.1
+}

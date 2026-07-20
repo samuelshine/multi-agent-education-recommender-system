@@ -1,0 +1,73 @@
+{
+ "student_id": "ST0068",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a full stack certification background. My overall academic average is 79.1% in an IT/computer-science degree. I'm interested in networks and cloud computing. I want to become a Applications Developer. My family can afford at most about USD 28400 per year. I live in Hyderabad. I'm open to going abroad.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 79.1
+  },
+  "career_goal": "Applications Developer",
+  "budget_max_usd_per_year": 28400,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in networks and cloud computing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0146",
+  "PR0094",
+  "PR0110",
+  "PR0005",
+  "PR0169",
+  "PR0127",
+  "PR0001",
+  "PR0194",
+  "PR0081",
+  "PR0042",
+  "PR0004",
+  "PR0186",
+  "PR0036",
+  "PR0197",
+  "PR0043",
+  "PR0147",
+  "PR0096",
+  "PR0199",
+  "PR0118",
+  "PR0121"
+ ],
+ "retrieved_ids": [
+  "PR0146",
+  "PR0005",
+  "PR0127",
+  "PR0001",
+  "PR0194",
+  "PR0042",
+  "PR0199",
+  "PR0036"
+ ],
+ "proposed_shortlist": [
+  "PR0146",
+  "PR0127",
+  "PR0042",
+  "PR0005",
+  "PR0194"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0042",
+  "PR0036",
+  "PR0127",
+  "PR0005",
+  "PR0194"
+ ],
+ "reflection_note": "The initial shortlist was solid but lacked a strong, budget-friendly Canadian alternative to PR0146. I dropped PR0146 due to its high cost relative to the excellent value of PR0036. Swapping in PR0036 improves the overall balance by providing another highly relevant and affordable Canadian option. The final list prioritizes affordability (PR0042, PR0036, PR0194) while maintaining strong career prospects and visa pathways (PR0127, PR0005).",
+ "explanation": "Aravalli Institute of Applied Sciences\nThis program is recommended because it directly aligns with your interest in networking and cloud computing while providing a strong foundation for an Applications Developer career. The annual tuition of $10,800 fits well within your budget maximum of $28,400, and the 36-month post-study work visa offers significant time to find employment. The main trade-off here is that the median starting salary ($29,138) slightly exceeds your stated annual budget limit.\n\nNorthgate Institute of Applied Sciences\nThis MTech program is a strong fit as it focuses on both networking and software engineering, matching your academic interests. With an annual tuition of $15,650, it remains comfortably under your maximum budget, and the 36-month post-study work visa provides excellent job search time. The main trade-off to consider is that its median starting salary ($23,362) is lower than several other options on this list.\n\nAshford School of Engineering\nThis program offers a high placement rate (79%) and an impressive median starting salary of $35,137, making it excellent for your career goal. It covers cloud computing and networking, directly addressing your stated interests, and the tuition ($21,500) is within budget. The main trade-off is that its annual tuition cost is higher compared to other programs on this shortlist.\n\nBridgewater Technical University\nThis program boasts an exceptional placement rate of 87% and a high median starting salary of $38,586, making it highly desirable for employment. It focuses on networking and cloud computing, which aligns perfectly with your interests. The main trade-off is the post-study work visa duration, which is only 12 months compared to the 36 months offered by other institutions.\n\nAravalli School of Engineering\nThis program is recommended due to its extremely low annual tuition cost of $1,950, making it highly budget-friendly while still covering cloud and networking topics. It requires a CS background, which you possess, and offers a solid median starting salary of $30,651. The main trade-off is that the post-study work visa duration (18 months) is shorter than the 36 months offered by two other listed options.",
+ "wall_s": 270.9
+}

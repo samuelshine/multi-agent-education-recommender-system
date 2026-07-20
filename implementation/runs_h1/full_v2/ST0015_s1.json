@@ -1,0 +1,77 @@
+{
+ "student_id": "ST0015",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 80% in an IT/computer-science degree. I'm interested in Management and testing. I want to become a Database Developer. My family can afford at most about USD 5600 per year. I live in Chennai. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [
+  "reflect"
+ ],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 80
+  },
+  "career_goal": "Database Developer",
+  "budget_max_usd_per_year": 5600,
+  "location_preference": "Chennai",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "r programming certification background",
+   "interested in Management and testing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0198",
+  "PR0097",
+  "PR0139",
+  "PR0164",
+  "PR0182",
+  "PR0060",
+  "PR0191",
+  "PR0119",
+  "PR0143",
+  "PR0176",
+  "PR0058",
+  "PR0092",
+  "PR0053",
+  "PR0189",
+  "PR0007",
+  "PR0072",
+  "PR0099",
+  "PR0026",
+  "PR0076",
+  "PR0065"
+ ],
+ "retrieved_ids": [
+  "PR0191",
+  "PR0176",
+  "PR0182",
+  "PR0072",
+  "PR0053",
+  "PR0198",
+  "PR0026",
+  "PR0139"
+ ],
+ "proposed_shortlist": [
+  "PR0191",
+  "PR0176",
+  "PR0053",
+  "PR0182",
+  "PR0026"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0191",
+  "PR0176",
+  "PR0053",
+  "PR0182",
+  "PR0026"
+ ],
+ "reflection_note": "reflect fallback: kept proposal",
+ "explanation": "Sarayu Technical University\nThis program is highly recommended because its MTech Data Engineering focus directly supports your goal of becoming a Database Developer. It meets your location preference in Chennai and has an annual tuition cost of $3250, which is well within your budget limit. With a placement rate of 84% and a median starting salary of $15951, it offers strong employability. The main trade-off here is that the program fields are broad (business information systems/data science analytics), meaning you might not focus exclusively on core database development topics.\n\nCrestwood University\nThis MBA Technology Management program was recommended because it aligns with your interest in management and provides a valuable business perspective alongside technology. It costs $1900 annually, keeping it well within your budget, and the location in Hyderabad is acceptable given your regional preference. While the salary ($15400) and placement rate (82%) are strong, the main trade-off is that this program shifts your focus away from technical development toward IT management strategy.\n\nCavendish University\nThis MSc Software Quality Engineering option was recommended because it directly addresses your interest in testing and QA. The tuition of $1200 is very budget-friendly, and the 86% placement rate demonstrates high employability. However, the main trade-off is that while the program fits your interests, its location in Kolkata does not match your preferred Chennai region, and it offers a lower median starting salary ($12855) compared to other options.\n\nKeystone Technical University\nThis MSc Software Quality Engineering option was recommended because it strongly aligns with your interest in testing (QA). It boasts the highest placement rate on this list at 91%, ensuring high employability. The main trade-off is that while its location in Pune is acceptable, it does not match your preferred Chennai region, and its median starting salary ($12865) is relatively low compared to other technical options.\n\nNorthgate Technical University\nThis MTech Data Engineering program was recommended because the curriculum strongly supports your career goal of becoming a Database Developer through data science analytics. It remains within budget at $3900 annually, and its location in Hyderabad is acceptable given your regional preference. The main trade-off when comparing it to Sarayu Technical University is that Northgate's tuition cost is higher ($3900 vs $3250), even though the resulting median starting salary is slightly lower ($13385 vs $15951).",
+ "wall_s": 161.5
+}

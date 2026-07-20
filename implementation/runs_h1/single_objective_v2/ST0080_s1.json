@@ -1,0 +1,75 @@
+{
+ "student_id": "ST0080",
+ "session": 1,
+ "mode": "single_objective",
+ "version": 2,
+ "message": "Hi, I'm a student with a distro making certification background. My overall academic average is 78.2% in an IT/computer-science degree. I'm interested in IOT and cloud computing. I want to become a Project Manager. My family can afford at most about USD 1300 per year. I live in Mumbai. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 78.2
+  },
+  "career_goal": "Project Manager (in IOT and cloud computing)",
+  "budget_max_usd_per_year": 1300,
+  "location_preference": "Mumbai",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Strong preference to stay near home (Mumbai)",
+   "Open to other locations within India"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0118",
+  "PR0180",
+  "PR0162",
+  "PR0112",
+  "PR0159",
+  "PR0032",
+  "PR0184",
+  "PR0165",
+  "PR0119",
+  "PR0058",
+  "PR0187",
+  "PR0053",
+  "PR0109",
+  "PR0076",
+  "PR0012",
+  "PR0019",
+  "PR0114",
+  "PR0185",
+  "PR0130",
+  "PR0084"
+ ],
+ "retrieved_ids": [
+  "PR0114",
+  "PR0112",
+  "PR0185",
+  "PR0180",
+  "PR0130",
+  "PR0076",
+  "PR0162",
+  "PR0184"
+ ],
+ "proposed_shortlist": [
+  "PR0130",
+  "PR0112",
+  "PR0180",
+  "PR0076",
+  "PR0185"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0130",
+  "PR0112",
+  "PR0180",
+  "PR0184",
+  "PR0114"
+ ],
+ "reflection_note": "The original shortlist was strong but lacked a top-tier option in the preferred location (Mumbai) with high feasibility. I swapped out PR0076 (too risky/high grade requirement) and PR0185 (less relevant focus on Cybersecurity). I replaced them with PR0184 (Cloud Computing, good fit, low barrier) and PR0114 (Excellent Mumbai location, low cost, high feasibility, strong foundational skills for PM). The final list prioritizes the best combination of career relevance (IoT/Cloud/PM), financial feasibility (all under $1300), and location preference (Mumbai/Pune/Hyderabad are all included or nearby).",
+ "explanation": "Elmhurst School of Engineering\nThis program is recommended because its focus on IT Management aligns well with your goal of becoming a Project Manager. It offers strong employability metrics, boasting a 77% placement rate and a median starting salary of $11249 USD, all while keeping the tuition within budget at $1000 USD. The main trade-off here is location: although it meets your financial needs and academic background requirements, the campus is in Hyderabad rather than your preferred Mumbai area.\n\nCharnock University\nThis option was highlighted because it perfectly matches your strong preference for staying near home in Mumbai, and its curriculum covers relevant fields like networking and cloud computing. The tuition of $1150 USD remains within your budget, and you meet the admission requirement as a CS background is needed. However, the trade-off is that while the location is ideal, it has the lowest median starting salary ($7933 USD) among the Mumbai options, impacting employability priority.\n\nBraxton Institute of Technology\nWe recommend this program because its focus on Computer Networks directly supports your interest in IoT and cloud computing, and it maintains a solid placement rate of 71% with a $10359 USD median salary. The tuition ($1250 USD) is manageable within your budget, and the location in Pune is an acceptable alternative to Mumbai. The main trade-off you must consider is that while its employability is strong, it requires a CS background, which is appropriate for your profile but slightly less flexible than other options.\n\nAravalli School of Engineering\nThis program was recommended due to its low cost ($950 USD) and the fact that it does not require a specific CS background, making admission straightforward. The curriculum covers networking and cloud computing, aligning with your career goals. However, the primary trade-off is employability: while it is the most budget-friendly option, it has the lowest placement rate (59%) among all listed programs.\n\nCrestwood School of Engineering\nThis program was recommended because it offers the best combination of location and high employability; it is in Mumbai and boasts a strong 81% placement rate with a $10903 USD salary. Furthermore, its low tuition ($850 USD) fits your budget perfectly, and it does not require a CS background. The main trade-off here is that the program focus is on QA Testing, which is less directly aligned with your Project Manager goal in IoT/Cloud compared to other options.",
+ "wall_s": 64.7
+}

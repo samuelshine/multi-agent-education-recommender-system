@@ -1,0 +1,70 @@
+{
+ "student_id": "ST0092",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a full stack certification background. My overall academic average is 72.2% in an IT/computer-science degree. I'm interested in Computer Architecture and system developer. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 2400 per year. I live in Bengaluru. I'm open to anywhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 72.2
+  },
+  "career_goal": "Computer Architecture and system developer (Tech)",
+  "budget_max_usd_per_year": 2400,
+  "location_preference": "Bengaluru",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [],
+  "uncertainty_notes": [
+   "None"
+  ]
+ },
+ "prefilter_ids": [
+  "PR0182",
+  "PR0119",
+  "PR0101",
+  "PR0143",
+  "PR0186",
+  "PR0176",
+  "PR0058",
+  "PR0187",
+  "PR0039",
+  "PR0174",
+  "PR0053",
+  "PR0007",
+  "PR0158",
+  "PR0072",
+  "PR0054",
+  "PR0109",
+  "PR0076",
+  "PR0012",
+  "PR0065",
+  "PR0019"
+ ],
+ "retrieved_ids": [
+  "PR0186",
+  "PR0058",
+  "PR0109",
+  "PR0158",
+  "PR0012",
+  "PR0187",
+  "PR0182",
+  "PR0176"
+ ],
+ "proposed_shortlist": [
+  "PR0186",
+  "PR0109",
+  "PR0012"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0186",
+  "PR0109",
+  "PR0058",
+  "PR0182"
+ ],
+ "reflection_note": "The original shortlist was solid but lacked a strong option closer to the preferred Bengaluru region. I dropped PR0012 due to location mismatch and swapped in PR0058 (Coimbatore) and PR0182 (Pune). Both swaps maintain high academic relevance, stay within budget, and offer better regional alternatives than Kolkata.",
+ "explanation": "Halcyon Institute of Technology\nThis program was recommended because it offers a relevant MTech in Computer Networks and Software Engineering while staying within your maximum budget of $2400 USD per year ($2050 tuition). The institution has an 83% placement rate, which aligns with your high employability priority. You should note that the primary trade-off here is location, as it is situated in Pune rather than your preferred Bengaluru region. Furthermore, while you meet the required CS background and minimum grade percentage (72.2% vs 70%), this program does not offer post-study work visa support.\n\nCrestwood Technical University\nThis MTech Computer Science program was selected due to its low annual tuition of $1550 USD, making it highly budget-friendly while providing a strong focus on Software Engineering. The university boasts an 82% placement rate and is located in Chennai, which falls within your preferred regional area. The main trade-off is that the median starting salary ($13300) is lower compared to other options, although the program itself directly addresses your career goal of system development.\n\nStanmore School of Engineering\nThis MCA program was recommended because it offers a very low annual tuition cost of $1350 USD and maintains an excellent 83% placement rate. The curriculum includes Data Science Analytics and Software Engineering, which are highly relevant to your tech goals. The trade-off is that the minimum required grade percentage (74%) is slightly higher than your current academic standing, but it remains a strong option for career development within your budget.\n\nKeystone Technical University\nThis MSc program was recommended primarily because of its exceptionally high placement rate of 91%, which strongly addresses your priority for employability. The tuition cost ($1950) also fits comfortably within your annual budget constraint. However, the main trade-off is that this specialization focuses on QA Testing rather than core system development or computer architecture, and it does not require a CS background, offering flexibility but potentially less direct relevance to your specific career goal.",
+ "wall_s": 253.9
+}

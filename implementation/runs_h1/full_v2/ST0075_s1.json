@@ -1,0 +1,74 @@
+{
+ "student_id": "ST0075",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a shell programming certification background. My overall academic average is 76.8% in an IT/computer-science degree. I'm interested in Software Engineering and cloud computing. I want to become a E-Commerce Analyst. My family can afford at most about USD 37100 per year. I live in Chennai. I'm open to going abroad. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 76.8
+  },
+  "career_goal": "E-Commerce Analyst",
+  "budget_max_usd_per_year": 37100,
+  "location_preference": "Chennai",
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "shell programming certification"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0116",
+  "PR0000",
+  "PR0154",
+  "PR0069",
+  "PR0079",
+  "PR0055",
+  "PR0195",
+  "PR0030",
+  "PR0124",
+  "PR0146",
+  "PR0094",
+  "PR0021",
+  "PR0135",
+  "PR0168",
+  "PR0017",
+  "PR0110",
+  "PR0034",
+  "PR0027",
+  "PR0122",
+  "PR0005"
+ ],
+ "retrieved_ids": [
+  "PR0195",
+  "PR0122",
+  "PR0030",
+  "PR0168",
+  "PR0079",
+  "PR0154",
+  "PR0021",
+  "PR0135"
+ ],
+ "proposed_shortlist": [
+  "PR0195",
+  "PR0021",
+  "PR0122",
+  "PR0168",
+  "PR0135"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0195",
+  "PR0021",
+  "PR0122",
+  "PR0079",
+  "PR0030"
+ ],
+ "reflection_note": "The original shortlist was strong but contained two entries (PR0168, PR0135) with poor location fit relative to the Chennai preference. I dropped these and swapped in PR0079 and PR0030. The final list prioritizes excellent financial feasibility and high employability while maintaining a focus on European locations (Germany/Netherlands) where possible, thus better balancing cost constraints with career goals.",
+ "explanation": "Keystone School of Engineering\nThis program is highly recommended because its MSc Information Systems focus aligns perfectly with your goal as an E-Commerce Analyst, blending business knowledge with IT skills. It offers exceptional value, boasting a minimal annual tuition fee of only $300 and maintaining a high placement rate of 82%. Furthermore, the post-study work visa provides 18 months of opportunity, which is excellent for job searching. The main trade-off here is that while the program meets all your academic requirements, the location in Aachen does not match your preferred city of Chennai.\n\nAshford Institute of Technology\nThis option is recommended due to its extremely low annual tuition cost of $450 and a strong placement rate of 82%, making it budget-friendly while supporting high employability. The MSc IT Operations program provides solid technical training, and the post-study work visa also grants you 18 months in Germany. The primary trade-off is that the specialization in \"it_support\" might be too focused on technical operations rather than the broader business analysis skills needed for an E-Commerce Analyst role.\n\nLongford University\nThis MSc Information Systems program offers a strong blend of business and IT, making it relevant to your career goal. It meets your academic standing with a minimum grade requirement of 75% and provides a solid placement rate of 77%. The main trade-off is that while the tuition ($13,300) remains well within budget, the post-study work visa period is only 12 months, which is shorter than the options available in Germany.\n\nBraxton University\nThis MBA Technology Management program was recommended because it offers the highest placement rate (88%) and a very high median starting salary of $65,157, directly supporting your priority for employability. The curriculum provides excellent management skills relevant to e-commerce analysis. However, the main trade-off is that the required minimum grade percentage (81%) exceeds your current academic standing of 76.8%.\n\nAldermount Technical University\nThis program offers the highest potential salary on the list at $74,348 and a strong focus on IT Management, which complements an analyst role well. The tuition cost of $35,050 is manageable within your annual budget maximum of $37,100. The main trade-off is that this high tuition expenditure uses up nearly your entire stated annual budget limit compared to the German options.",
+ "wall_s": 129.6
+}

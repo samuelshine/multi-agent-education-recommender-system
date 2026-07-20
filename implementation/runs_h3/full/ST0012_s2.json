@@ -1,0 +1,60 @@
+{
+ "student_id": "ST0012",
+ "session": 2,
+ "mode": "full",
+ "message": "Hi, I'm a student with a distro making certification background. My overall academic average is 82.9% in an IT/computer-science degree. I'm interested in Management and testing. I want to become a Information Technology Auditor. My family can afford at most about USD 11300 per year. I live in Chennai. I'm open to anywhere in India. About the earlier suggestions: I liked PR0198, PR0139.",
+ "memory_used": true,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 82.9
+  },
+  "career_goal": "Information Technology Auditor",
+  "budget_max_usd_per_year": 11300,
+  "location_preference": "Chennai",
+  "mobility": "fixed_city",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in Management and testing"
+  ],
+  "uncertainty_notes": [
+   "Employability priority not stated."
+  ]
+ },
+ "prefilter_ids": [
+  "PR0191",
+  "PR0197",
+  "PR0109",
+  "PR0199",
+  "PR0171",
+  "PR0059",
+  "PR0162",
+  "PR0165"
+ ],
+ "retrieved_ids": [
+  "PR0191",
+  "PR0197",
+  "PR0109",
+  "PR0199",
+  "PR0171",
+  "PR0162",
+  "PR0165"
+ ],
+ "proposed_shortlist": [
+  "PR0191",
+  "PR0197",
+  "PR0109",
+  "PR0162"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0191",
+  "PR0197",
+  "PR0162",
+  "PR0171"
+ ],
+ "reflection_note": "The original shortlist was strong, but PR0109 is slightly too generic. I have dropped it and swapped in PR0171 (MTech Computer Science at Halcyon Technical University) because it maintains the high academic relevance and low cost profile while offering a more distinct option than PR0109. The final list prioritizes specialized fields (Data Engineering, Networking/Cloud, Cyber Security) which are most directly applicable to an IT Auditor career goal, while strictly adhering to the Chennai location and budget constraints.",
+ "explanation": "Sarayu Technical University\nThis program was recommended because it aligns well with your interest in management and data analytics while remaining significantly under your maximum budget of $11,300 USD per year, costing only $3250 annually. The curriculum fields like business information systems and data science analytics are highly relevant for an IT Auditor role that requires understanding complex organizational data flows. While the median starting salary of $15951 is strong, the main trade-off here is that its focus on pure data engineering might be slightly less specialized toward core auditing practices compared to a cybersecurity track.\n\nAshford Institute of Technology\nThis program was recommended because it maintains your fixed location preference in Chennai and requires a CS background, which you possess. With an annual tuition of $3350, it fits comfortably within your budget while offering a high placement rate of 85%. The focus on networking and cloud is crucial for auditing modern IT infrastructure, making it highly relevant to your career goal. The trade-off here is that the median starting salary ($13362) is slightly lower than other options, but the strong placement record makes it a solid choice.\n\nAravalli Institute of Applied Sciences\nThis program was strongly recommended because its focus on Cybersecurity directly addresses the core skills needed for an IT Auditor role and has the lowest tuition cost at $1150, making it extremely budget-friendly. Furthermore, your 82.9% grade meets the minimum requirement of 57%. The main trade-off is that while the program is highly specialized and affordable, its lower placement rate (68%) and median starting salary ($7369) are the lowest among the options provided.\n\nHalcyon Technical University\nThis option was recommended due to its excellent affordability, with an annual tuition of only $1500, which keeps you well within your budget constraints. The program is suitable as it requires a CS background and covers software engineering principles that relate to IT management systems. However, the main trade-off is that while it addresses general IT skills, its focus on software engineering is broader than specialized auditing or cybersecurity, making it less targeted for your specific career goal.",
+ "wall_s": 199.1
+}

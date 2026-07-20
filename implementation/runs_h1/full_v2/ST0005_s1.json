@@ -1,0 +1,74 @@
+{
+ "student_id": "ST0005",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 76.2% in an IT/computer-science degree. I'm interested in IOT and testing. I want to become a Software Systems Engineer. My family can afford at most about USD 10500 per year. I live in Mumbai. I'd strongly prefer to stay near home, though I might consider elsewhere in India.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 76.2
+  },
+  "career_goal": "Software Systems Engineer",
+  "budget_max_usd_per_year": 10500,
+  "location_preference": null,
+  "mobility": "prefers_region",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in IOT and testing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0198",
+  "PR0053",
+  "PR0065",
+  "PR0019",
+  "PR0008",
+  "PR0142",
+  "PR0082",
+  "PR0052",
+  "PR0085",
+  "PR0144",
+  "PR0139",
+  "PR0182",
+  "PR0191",
+  "PR0119",
+  "PR0101",
+  "PR0186",
+  "PR0058",
+  "PR0039",
+  "PR0158",
+  "PR0072"
+ ],
+ "retrieved_ids": [
+  "PR0053",
+  "PR0065",
+  "PR0182",
+  "PR0119",
+  "PR0085",
+  "PR0198",
+  "PR0139",
+  "PR0072"
+ ],
+ "proposed_shortlist": [
+  "PR0053",
+  "PR0119",
+  "PR0065",
+  "PR0198",
+  "PR0139"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0053",
+  "PR0119",
+  "PR0065",
+  "PR0198",
+  "PR0139"
+ ],
+ "reflection_note": "All five programs on the shortlist are valid and meet all hard constraints (budget, location). The ranking reflects a balance of financial feasibility, academic relevance to SE/IoT/Testing, and high employability. PR0053 and PR0119 lead due to their exceptional cost-effectiveness and strong alignment with core skills. PR0198 is kept despite its higher tuition because the massive boost in employability (placement rate/salary) outweighs the financial concern for a career goal focused on engineering.",
+ "explanation": "Cavendish University\nThis program is recommended because it offers a highly affordable annual tuition of $1200 and meets your minimum grade requirement of 70%. It covers both QA testing and software engineering fields, which aligns well with your interest in testing and career goal. The main trade-off here is that the median starting salary ($12855) is lower compared to other options on this list.\n\nMeridian Institute of Applied Sciences\nThis option provides excellent value with a very low annual tuition of $1200, matching your budget constraints. It boasts an 86% placement rate and offers a slightly higher median starting salary ($14917) than Cavendish University. The primary trade-off is that the curriculum focuses only on QA testing, omitting the broader software engineering exposure found in other programs.\n\nTejas Institute of Technology\nThis program provides comprehensive coverage by including both 'qa_testing' and 'software_engineering' fields, which supports your goal as a Software Systems Engineer. While the tuition ($2450) is manageable within your budget, the main trade-off is that its median starting salary ($12291) is among the lowest on this shortlist.\n\nNorthgate Institute of Technology\nThis program offers the highest placement rate (95%) and a strong median starting salary of $21062, making it highly attractive for career growth. It covers both QA testing and software engineering fields, aligning perfectly with your interests. The main trade-off is that its annual tuition ($3500) represents a significant increase compared to the lower end of your stated budget maximum.\n\nQuilon University\nThis university offers a high median starting salary of $20639 and an 89% placement rate, suggesting strong career outcomes in QA testing. The main trade-off is that its annual tuition ($4200) is the highest on this list, making it the furthest from your stated budget maximum of $10500 per year.",
+ "wall_s": 174.1
+}

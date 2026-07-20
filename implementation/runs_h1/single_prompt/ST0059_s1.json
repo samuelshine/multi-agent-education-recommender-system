@@ -1,0 +1,54 @@
+{
+ "student_id": "ST0059",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a app development certification background. My overall academic average is 79.7% in an IT/computer-science degree. I'm interested in data engineering and testing. I want to become a Data Architect. My family can afford at most about USD 1300 per year. I live in Chennai. I'm open to anywhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 79.7
+  },
+  "career_goal": "Data Architect",
+  "budget_max_usd_per_year": 1300,
+  "location_preference": "Chennai",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in data engineering and testing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0058",
+  "PR0053",
+  "PR0019",
+  "PR0008",
+  "PR0063",
+  "PR0142",
+  "PR0082",
+  "PR0052",
+  "PR0085",
+  "PR0173",
+  "PR0071",
+  "PR0119",
+  "PR0109",
+  "PR0076",
+  "PR0012",
+  "PR0114",
+  "PR0185",
+  "PR0120",
+  "PR0170",
+  "PR0171"
+ ],
+ "final_shortlist": [
+  "PR0071",
+  "PR0173",
+  "PR0120",
+  "PR0058",
+  "PR0170"
+ ],
+ "explanation": "This MTech Data Engineering program directly aligns with your interest in data engineering and is located in Mumbai, which offers strong job opportunities. Its tuition (USD 1300) meets your budget constraint, and the median starting salary of USD 7837 is competitive.\n\nThis MTech Computer Science program focuses on data science analytics in Bengaluru, a major tech hub. The tuition (USD 500) is well within budget, and the combination of data focus and high placement potential makes it an excellent choice for aspiring Data Architects.\n\nThe MSc Big Data Analytics in Delhi is highly relevant to your career goal of becoming a Data Architect. With low tuition (USD 800) and a focus on data science analytics, it provides strong foundational knowledge while remaining budget-friendly.\n\nThis MCA program in Coimbatore offers data science analytics and software engineering fields. It meets your academic background requirement (requires CS background) and has a decent placement rate (83%), making it a solid option for career growth.\n\nThis MSc Big Data Analytics program in Coimbatore is relevant to your data interest. While the tuition (USD 1300) is at the upper limit of your budget, it provides specialized knowledge and a good placement rate (77%).",
+ "wall_s": 46.5
+}

@@ -1,0 +1,30 @@
+{
+ "student_id": "ST0033",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 77.7
+    },
+    "career_goal": "Portal Administrator",
+    "budget_max_usd_per_year": 2400,
+    "location_preference": "Pune",
+    "mobility": "prefers_region",
+    "employability_priority": "high",
+    "other_constraints": [
+     "Interested in IOT and cloud computing"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0186",
+    "PR0180",
+    "PR0182",
+    "PR0165"
+   ],
+   "feedback": null
+  }
+ ]
+}

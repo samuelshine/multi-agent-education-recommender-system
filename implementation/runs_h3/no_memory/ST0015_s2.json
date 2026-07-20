@@ -1,0 +1,72 @@
+{
+ "student_id": "ST0015",
+ "session": 2,
+ "mode": "no_memory",
+ "version": 1,
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 80% in an IT/computer-science degree. I'm interested in Management and testing. I want to become a Database Developer. My family can afford at most about USD 5600 per year. I live in Chennai. I'd strongly prefer to stay near home, though I might consider elsewhere in India. About the earlier suggestions: I liked PR0198, PR0065.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 80
+  },
+  "career_goal": "Database Developer",
+  "budget_max_usd_per_year": 5600,
+  "location_preference": "Chennai",
+  "mobility": "prefers_region",
+  "employability_priority": "medium",
+  "other_constraints": [
+   "r programming certification background",
+   "interested in Management and testing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0198",
+  "PR0097",
+  "PR0139",
+  "PR0164",
+  "PR0182",
+  "PR0060",
+  "PR0191",
+  "PR0119",
+  "PR0143",
+  "PR0176",
+  "PR0058",
+  "PR0092",
+  "PR0053",
+  "PR0189",
+  "PR0007",
+  "PR0072",
+  "PR0099",
+  "PR0026",
+  "PR0076",
+  "PR0065"
+ ],
+ "retrieved_ids": [
+  "PR0191",
+  "PR0182",
+  "PR0053",
+  "PR0198",
+  "PR0072",
+  "PR0164",
+  "PR0076"
+ ],
+ "proposed_shortlist": [
+  "PR0191",
+  "PR0182",
+  "PR0053"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0191",
+  "PR0198",
+  "PR0072",
+  "PR0164",
+  "PR0076"
+ ],
+ "reflection_note": "The original shortlist was heavily weighted by location and cost, but lacked diversity in tech hubs. PR0191 remains the top choice due to perfect location match (Chennai) and relevant focus (Data Engineering). I dropped PR0182 and PR0053 primarily due to significant location mismatches (Pune/Kolkata) relative to Chennai preference. I swapped in PR0198 (Bengaluru) as a strong, high-placement alternative that maintains tech relevance. I also added PR0164 (Delhi) and PR0076 (Hyderabad) as solid backup options for general IT Management/Software Engineering, ensuring the final list covers multiple major Indian tech cities while respecting budget constraints.",
+ "explanation": "Sarayu Technical University\nThis MTech Data Engineering program is highly recommended because it aligns perfectly with your career goal of becoming a Database Developer and meets your location preference in Chennai. The annual tuition of $3250 is well within your budget, and the minimum required grade percentage of 71% is comfortably below your current 80%. The main trade-off here is that while data engineering is closely related to database development, the curriculum focuses heavily on data science analytics rather than pure software development or management.\n\nNorthgate Institute of Technology\nThis MSc Software Quality Engineering program was recommended due to its exceptional placement rate of 95%, which addresses your medium employability priority, and it requires a minimum grade percentage of 80%, matching your academic background. Located in Bengaluru, this option is within your preferred region. The trade-off is that the primary focus is on QA testing, which may shift your career path away from core database development toward software quality assurance.\n\nNorthgate Institute of Applied Sciences\nThis MSc Software Quality Engineering program offers a highly affordable entry point with an annual tuition of $2400, making it one of the most budget-friendly options available. It also directly addresses your interest in testing and has a minimum grade requirement of 70%. The trade-off is that while it meets your interests and budget, its median starting salary ($13106) and placement rate (84%) are lower compared to other shortlisted programs.\n\nNorthgate School of Engineering\nThis MBA Technology Management program was recommended because it directly addresses your interest in management and offers a strong placement rate of 90% for an annual tuition of $2050, keeping you well under budget. The minimum grade requirement (79%) is also compatible with your academic standing. The main trade-off is that this degree shifts the focus away from technical database development toward general IT management principles.\n\nSarayu Institute of Technology\nThis MBA Technology Management program was recommended as a very low-cost option ($1250 annual tuition) that covers both technology and management, appealing to your secondary interests. It also meets your grade requirement with a minimum percentage of 74%. The trade-off is that this program is the least technically focused on database development compared to the MTech or MSc options, making it a weaker fit for your primary career goal.",
+ "wall_s": 191.5
+}

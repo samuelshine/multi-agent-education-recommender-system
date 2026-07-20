@@ -1,0 +1,63 @@
+{
+ "student_id": "ST0011",
+ "session": 2,
+ "mode": "no_memory",
+ "version": 1,
+ "message": "Hi, I'm a student with a python certification background. My overall academic average is 81.4% in an IT/computer-science degree. I'm interested in Computer Architecture and security. I want to become a Software Systems Engineer. My family can afford at most about USD 5400 per year. I live in Pune. I'd strongly prefer to stay near home, though I might consider elsewhere in India. About the earlier suggestions: I liked PR0029, PR0144.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 81.4
+  },
+  "career_goal": "Software Systems Engineer",
+  "budget_max_usd_per_year": 5400,
+  "location_preference": "Pune",
+  "mobility": "prefers_region",
+  "employability_priority": "medium",
+  "other_constraints": [
+   "Interested in Computer Architecture and security"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0198",
+  "PR0144",
+  "PR0191",
+  "PR0101",
+  "PR0186",
+  "PR0058",
+  "PR0039",
+  "PR0053",
+  "PR0158",
+  "PR0054",
+  "PR0043",
+  "PR0109",
+  "PR0026",
+  "PR0076",
+  "PR0105",
+  "PR0012",
+  "PR0065",
+  "PR0019",
+  "PR0167",
+  "PR0090"
+ ],
+ "retrieved_ids": [
+  "PR0144",
+  "PR0158",
+  "PR0019"
+ ],
+ "proposed_shortlist": [
+  "PR0144",
+  "PR0158",
+  "PR0019"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0144"
+ ],
+ "reflection_note": "The initial shortlist was heavily weighted towards location and budget, but failed to adequately prioritize the student's core academic interests (Computer Architecture/Systems Engineering). PR0158 and PR0019 were dropped because their primary focus areas (MDes Interaction Design and QA Testing) represent a significant deviation from the desired career path. PR0144 is retained as it offers the best balance of high academic fit, strong industry relevance for Software Systems Engineering, and perfect alignment with all hard constraints (Pune location, budget).",
+ "explanation": "Tejas Technical University\nThis program was recommended because it perfectly aligns with your location preference in Pune and fits comfortably within your maximum budget of $5400, charging an annual tuition of $4800. Admission is also feasible as your 81.4% grade exceeds the required minimum of 81%. The strong placement rate of 93% and a median starting salary of $19239 make it highly relevant for your goal of becoming a Software Systems Engineer. The main trade-off to consider is that this program does not offer any post-study work visa options, limiting international mobility after graduation.",
+ "wall_s": 147.0
+}

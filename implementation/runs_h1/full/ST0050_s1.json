@@ -1,0 +1,66 @@
+{
+ "student_id": "ST0050",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a machine learning certification background. My overall academic average is 79.9% in an IT/computer-science degree. I'm interested in programming and system developer. I want to become a Information Technology Auditor. My family can afford at most about USD 5600 per year. I live in Delhi. I'm open to anywhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [
+  "reflect"
+ ],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 79.9
+  },
+  "career_goal": "Information Technology Auditor",
+  "budget_max_usd_per_year": 5600,
+  "location_preference": "Delhi",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in programming and system developer roles"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0191",
+  "PR0101",
+  "PR0054",
+  "PR0105",
+  "PR0015",
+  "PR0020",
+  "PR0033",
+  "PR0157",
+  "PR0047",
+  "PR0074",
+  "PR0172",
+  "PR0087",
+  "PR0117",
+  "PR0198",
+  "PR0097",
+  "PR0144",
+  "PR0139",
+  "PR0164",
+  "PR0029",
+  "PR0022"
+ ],
+ "retrieved_ids": [
+  "PR0020",
+  "PR0139",
+  "PR0164"
+ ],
+ "proposed_shortlist": [
+  "PR0164",
+  "PR0139",
+  "PR0020"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0164",
+  "PR0139",
+  "PR0020"
+ ],
+ "reflection_note": "reflect fallback: kept proposal",
+ "explanation": "Northgate School of Engineering\nThis MBA Technology Management program is recommended because it aligns well with your goal of becoming an IT Auditor while keeping costs low. The annual tuition of $2050 fits comfortably within your maximum budget of $5600, and the high placement rate of 90% addresses your priority for employability. While this degree focuses on management rather than pure development, it provides a strong foundation in IT systems that is relevant to auditing roles. The main trade-off here is accepting an MBA focus over a more technical programming track, despite the excellent salary potential of $17,361.\n\nQuilon University\nThis MSc Software Quality Engineering program was recommended because its focus on QA testing directly relates to the quality assurance aspects of IT auditing and system development. It offers the highest median starting salary ($20,639) among the options and maintains a strong placement rate of 89%. The tuition cost of $4200 is also well within your budget constraints. The primary trade-off for this program is that its minimum required grade percentage (81%) is slightly higher than your current academic standing.\n\nStanmore Institute of Applied Sciences\nThis MBA Business Analytics option was recommended as a highly affordable entry point into the IT field, with an annual tuition cost of only $1450. It meets all your location preferences in Delhi and requires minimal admission qualifications (minimum 60% grade). While this program is excellent for adhering to budget constraints, the main trade-off is that it offers the lowest placement rate (76%) and median starting salary ($10,648) compared to the other two options.",
+ "wall_s": 194.6
+}

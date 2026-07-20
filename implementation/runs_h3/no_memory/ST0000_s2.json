@@ -1,0 +1,72 @@
+{
+ "student_id": "ST0000",
+ "session": 2,
+ "mode": "no_memory",
+ "version": 1,
+ "message": "Hi, I'm a student with a full stack certification background. My overall academic average is 79.4% in an IT/computer-science degree. I'm interested in hacking and system developer. I want to become a Solutions Architect. My family can afford at most about USD 8500 per year. I live in Chennai. I'm open to going abroad. About the earlier suggestions: I liked PR0186, PR0029.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 79.4
+  },
+  "career_goal": "Solutions Architect",
+  "budget_max_usd_per_year": 8500,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in hacking and system developer roles.",
+   "Liked PR0186, PR0029."
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0000",
+  "PR0195",
+  "PR0021",
+  "PR0153",
+  "PR0051",
+  "PR0151",
+  "PR0037",
+  "PR0161",
+  "PR0117",
+  "PR0198",
+  "PR0097",
+  "PR0104",
+  "PR0144",
+  "PR0139",
+  "PR0194",
+  "PR0164",
+  "PR0029",
+  "PR0022",
+  "PR0137",
+  "PR0182"
+ ],
+ "retrieved_ids": [
+  "PR0029",
+  "PR0194",
+  "PR0161",
+  "PR0151",
+  "PR0195",
+  "PR0137",
+  "PR0139",
+  "PR0182"
+ ],
+ "proposed_shortlist": [
+  "PR0194",
+  "PR0161",
+  "PR0029"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0194",
+  "PR0161",
+  "PR0151",
+  "PR0195"
+ ],
+ "reflection_note": "The original shortlist was strong but included PR0029, which is fundamentally flawed for this student due to its lack of post-study work visa and location (India). I have dropped PR0029. To improve the list while maintaining German focus and high employability, I swapped in PR0151 (stronger alternative to PR0161) and PR0195 (a highly feasible backup option). The final shortlist prioritizes German options with strong visa pathways and excellent financial feasibility over niche academic fits that lack international career prospects.",
+ "explanation": "Aravalli School of Engineering\nThis program is highly recommended because its focus on Cloud Computing and Software Engineering aligns perfectly with your goal of becoming a Solutions Architect. It meets your budget constraint with an annual tuition of only $1950, and since you have an IT/CS background (79.4%), the admission requirements are met. The strong post-study work visa of 18 months provides excellent job mobility in Germany. The main trade-off here is that while the salary ($30651) is solid, its placement rate (67%) is lower compared to some other options on this list.\n\nTejas University\nThis MSc Software Engineering program is an ideal fit for your interest in system development and hacking roles, as it directly addresses core software engineering principles. It remains highly affordable at $3850 annually, well within your budget, while offering a strong placement rate of 72% and a median starting salary of $33731. Since you have an IT/CS background, the admission requirements are easily met. The trade-off is that its tuition cost is higher than Aravalli School of Engineering, though still very manageable.\n\nCrestwood Institute of Technology\nThis program offers strong employability metrics with a 72% placement rate and a median starting salary of $35799, all while staying within your budget at $5750 per year. Although it does not require a CS background, its focus on QA testing might slightly deviate from the core system development path you are interested in. The main trade-off is that while the program provides excellent job placement opportunities, its specialization in Quality Assurance may be less direct for an aspiring Solutions Architect compared to pure software engineering roles.\n\nKeystone School of Engineering\nThis option boasts exceptional employability metrics, including a high 82% placement rate and the highest median starting salary ($51059) on this list, all with minimal tuition at $300. Since it does not require a CS background, it offers maximum flexibility for admission. The primary trade-off is that its focus on business information systems might be too geared toward business analysis rather than satisfying your deep interest in system development or hacking roles.",
+ "wall_s": 251.8
+}

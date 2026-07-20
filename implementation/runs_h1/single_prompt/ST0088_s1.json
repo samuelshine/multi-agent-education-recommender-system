@@ -1,0 +1,54 @@
+{
+ "student_id": "ST0088",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a distro making certification background. My overall academic average is 79% in an IT/computer-science degree. I'm interested in cloud computing and cloud computing. I want to become a Web Developer. My family can afford at most about USD 3500 per year. I live in Bengaluru. I'm open to anywhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 79
+  },
+  "career_goal": "Web Developer",
+  "budget_max_usd_per_year": 3500,
+  "location_preference": "Bengaluru",
+  "mobility": "open_domestic",
+  "employability_priority": "high",
+  "other_constraints": [
+   "distro making certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0117",
+  "PR0198",
+  "PR0097",
+  "PR0139",
+  "PR0164",
+  "PR0029",
+  "PR0022",
+  "PR0182",
+  "PR0060",
+  "PR0191",
+  "PR0119",
+  "PR0101",
+  "PR0143",
+  "PR0186",
+  "PR0176",
+  "PR0058",
+  "PR0149",
+  "PR0092",
+  "PR0187",
+  "PR0039"
+ ],
+ "final_shortlist": [
+  "PR0198",
+  "PR0186",
+  "PR0176",
+  "PR0039",
+  "PR0191"
+ ],
+ "explanation": "This program is located in Bengaluru and has a high placement rate (95%) with an affordable tuition fee ($3500), making it ideal for your location preference and job security focus. While focused on QA testing, the software engineering field aligns well with your goal of becoming a Web Developer.\n\nThis MTech program in Pune offers 'networking_cloud' and 'software_engineering,' directly addressing your interest in cloud computing and web development. The tuition ($2050) is well within budget, and the curriculum provides relevant technical skills for job placement.\n\nLocated in Hyderabad, this MBA program focuses on IT Management. It has a very low tuition cost ($1900) and a decent starting salary potential, offering a management perspective that can complement your technical skills while staying within budget.\n\nThis program in Coimbatore offers 'software_engineering' and HCI, which is relevant for web development. The tuition ($2250) is affordable, and the focus on software engineering provides a strong technical foundation while meeting your budget constraints.\n\nThis MTech program in Chennai covers 'data_science_analytics' and 'business_information_systems,' which are adjacent to cloud computing. With a moderate tuition fee ($3250) and being open to locations outside Bengaluru, it provides valuable technical exposure.",
+ "wall_s": 60.3
+}

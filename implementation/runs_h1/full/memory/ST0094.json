@@ -1,0 +1,29 @@
+{
+ "student_id": "ST0094",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 75.7
+    },
+    "career_goal": "Network Engineer",
+    "budget_max_usd_per_year": 3400,
+    "location_preference": "Hyderabad",
+    "mobility": "fixed_city",
+    "employability_priority": null,
+    "other_constraints": [
+     "programming and developer interest"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0096",
+    "PR0130",
+    "PR0167"
+   ],
+   "feedback": null
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+{
+ "student_id": "ST0040",
+ "session": 1,
+ "mode": "single_objective",
+ "message": "Hi, I'm a student with a hadoop certification background. My overall academic average is 80.3% in an IT/computer-science degree. I'm interested in IOT and testing. I want to become a Web Developer. My family can afford at most about USD 1200 per year. I live in Delhi. I cannot leave my city. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [
+  "reflect"
+ ],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 80.3
+  },
+  "career_goal": "Web Developer",
+  "budget_max_usd_per_year": 1200,
+  "location_preference": "Delhi",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in IOT and testing",
+   "Hadoop certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0064",
+  "PR0120",
+  "PR0020",
+  "PR0175",
+  "PR0063",
+  "PR0184"
+ ],
+ "retrieved_ids": [
+  "PR0064",
+  "PR0120",
+  "PR0184",
+  "PR0063"
+ ],
+ "proposed_shortlist": [
+  "PR0064",
+  "PR0184",
+  "PR0120",
+  "PR0063"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0064",
+  "PR0184",
+  "PR0120",
+  "PR0063"
+ ],
+ "reflection_note": "reflect fallback: kept proposal",
+ "explanation": "Kestrel Institute of Applied Sciences\nThis program was recommended because its focus on Software Quality Engineering directly aligns with your interest in testing, and the annual tuition of $650 is well within your budget maximum of $1200. Admission requirements are easily met given your 80.3% grade, and it is located in Delhi. The main trade-off here is that while the tuition is low, the placement rate is only 60%, which may be a consideration when prioritizing high employability.\n\nAravalli School of Engineering\nThis MSc Cloud Computing program fits your budget with an annual tuition cost of $950 and remains located in Delhi. The curriculum relates to modern infrastructure, which complements both web development and IoT interests. However, the placement rate is 59%, making this a trade-off against the high employability priority you stated; while affordable, it offers lower job placement statistics compared to other options.\n\nAshford Institute of Applied Sciences\nThis program was highly recommended because it provides the best balance between your budget constraints and your goal for high employability. With an annual tuition of $800, it is well under budget, and its strong data science focus complements your background in Hadoop. Furthermore, it boasts a 78% placement rate and a median starting salary of $10,021, making the trade-off between cost and career outcome highly favorable.\n\nLongford Technical University\nThis MCA program was considered due to its strong relevance to both web development and data science analytics, fields that align with your background. However, the primary constraint violation is the annual tuition of $1350, which exceeds your stated maximum budget of $1200 per year. Therefore, while it offers a solid curriculum and placement rate (64%), the cost makes this program difficult to recommend without increasing your financial allowance.",
+ "wall_s": 124.1
+}

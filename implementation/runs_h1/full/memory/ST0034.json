@@ -1,0 +1,31 @@
+{
+ "student_id": "ST0034",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 74.6
+    },
+    "career_goal": "Database Manager",
+    "budget_max_usd_per_year": 2400,
+    "location_preference": "Pune",
+    "mobility": "prefers_region",
+    "employability_priority": null,
+    "other_constraints": [
+     "interested in hacking",
+     "interested in Business process analyst"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0007",
+    "PR0157",
+    "PR0101",
+    "PR0145"
+   ],
+   "feedback": null
+  }
+ ]
+}

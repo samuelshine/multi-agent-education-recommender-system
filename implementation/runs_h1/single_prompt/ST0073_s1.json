@@ -1,0 +1,55 @@
+{
+ "student_id": "ST0073",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a shell programming certification background. My overall academic average is 75.4% in an IT/computer-science degree. I'm interested in Software Engineering and cloud computing. I want to become a Business Intelligence Analyst. My family can afford at most about USD 7100 per year. I live in Coimbatore. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 75.4
+  },
+  "career_goal": "Business Intelligence Analyst",
+  "budget_max_usd_per_year": 7100,
+  "location_preference": "Coimbatore",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Shell programming certification background",
+   "Interested in Software Engineering and cloud computing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0186",
+  "PR0043",
+  "PR0016",
+  "PR0112",
+  "PR0032",
+  "PR0198",
+  "PR0191",
+  "PR0101",
+  "PR0058",
+  "PR0039",
+  "PR0197",
+  "PR0053",
+  "PR0158",
+  "PR0054",
+  "PR0147",
+  "PR0109",
+  "PR0026",
+  "PR0076",
+  "PR0105",
+  "PR0012"
+ ],
+ "final_shortlist": [
+  "PR0101",
+  "PR0054",
+  "PR0105",
+  "PR0032",
+  "PR0016"
+ ],
+ "explanation": "This program is ideal as it focuses on Business Information Systems and is located in Coimbatore, meeting your preference to stay near home. It also has a strong median starting salary of $15394, which aligns with your priority of securing a good job.\n\nThis MBA program in Coimbatore directly addresses your goal of becoming a Business Intelligence Analyst through its focus on Business Analytics. The tuition is affordable ($2150), and the location minimizes relocation stress while offering good career prospects.\n\nLocated in Coimbatore, this MBA program specializes in Business Analytics, making it highly relevant to your goal of becoming a BI Analyst. While the tuition is higher than PR0054, its strong placement rate (79%) and local convenience make it a solid choice.\n\nIf you are willing to move to Kolkata for better career opportunities, this MTech program provides a strong foundation in Computer Science and Software Engineering. It has an affordable tuition fee ($1200) and is relevant to your interest in cloud computing.\n\nThis MSc Cloud Computing program is located right in Coimbatore, satisfying your strong preference for staying near home. It covers Software Engineering and networking/cloud, making it relevant to your interests while keeping costs low.",
+ "wall_s": 42.6
+}

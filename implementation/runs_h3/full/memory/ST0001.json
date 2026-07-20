@@ -1,0 +1,100 @@
+{
+ "student_id": "ST0001",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 75.3
+    },
+    "career_goal": "data engineering and testing",
+    "budget_max_usd_per_year": 3200,
+    "location_preference": null,
+    "mobility": "open_domestic",
+    "employability_priority": null,
+    "other_constraints": [
+     "app development certification background"
+    ],
+    "uncertainty_notes": [
+     "Location preference not stated.",
+     "Mobility preference not stated (defaulting to open_domestic).",
+     "Employability priority not stated."
+    ]
+   },
+   "final_shortlist": [
+    "PR0058",
+    "PR0145",
+    "PR0119",
+    "PR0085",
+    "PR0053"
+   ],
+   "feedback": null
+  },
+  {
+   "session": 2,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 75.3
+    },
+    "career_goal": "Web Developer",
+    "budget_max_usd_per_year": 3200,
+    "location_preference": "Kolkata",
+    "mobility": "open_international",
+    "employability_priority": null,
+    "other_constraints": [
+     "app development certification background"
+    ],
+    "uncertainty_notes": [
+     "Employability priority not stated."
+    ]
+   },
+   "final_shortlist": [
+    "PR0022",
+    "PR0182",
+    "PR0194",
+    "PR0137"
+   ],
+   "feedback": {
+    "liked": [
+     "PR0058",
+     "PR0145"
+    ],
+    "disliked": []
+   }
+  },
+  {
+   "session": 3,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 75.3
+    },
+    "career_goal": "Web Developer",
+    "budget_max_usd_per_year": 3200,
+    "location_preference": "Kolkata",
+    "mobility": "open_international",
+    "employability_priority": "high",
+    "other_constraints": [
+     "app development certification background",
+     "interested in data engineering and testing"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0053",
+    "PR0052",
+    "PR0071",
+    "PR0082"
+   ],
+   "feedback": {
+    "liked": [
+     "PR0022",
+     "PR0182"
+    ],
+    "disliked": []
+   }
+  }
+ ]
+}

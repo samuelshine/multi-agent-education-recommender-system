@@ -1,0 +1,54 @@
+{
+ "student_id": "ST0019",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a machine learning certification background. My overall academic average is 72.8% in an IT/computer-science degree. I'm interested in Computer Architecture and developer. I want to become a Database Manager. My family can afford at most about USD 10700 per year. I live in Pune. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 72.8
+  },
+  "career_goal": "Database Manager",
+  "budget_max_usd_per_year": 10700,
+  "location_preference": "Pune",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in Computer Architecture and developer roles"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0191",
+  "PR0143",
+  "PR0058",
+  "PR0007",
+  "PR0099",
+  "PR0026",
+  "PR0090",
+  "PR0120",
+  "PR0170",
+  "PR0145",
+  "PR0033",
+  "PR0107",
+  "PR0111",
+  "PR0134",
+  "PR0074",
+  "PR0129",
+  "PR0133",
+  "PR0063",
+  "PR0173",
+  "PR0071"
+ ],
+ "final_shortlist": [
+  "PR0007",
+  "PR0143",
+  "PR0058",
+  "PR0074",
+  "PR0120"
+ ],
+ "explanation": "This program is located in Pune, meeting your strong preference to stay near home. It requires a CS background and has a minimum grade requirement (70%) that you meet with your 72.8% average. The focus on Big Data Analytics aligns well with your interest in developer roles and database management.\n\nLocated in Mumbai, this program is a strong fit given its high placement rate (87%) and median starting salary ($13,436), which addresses your priority of securing a good job. It requires a CS background and has a minimum grade requirement (72%) that you meet.\n\nThis MCA program in Coimbatore offers relevant fields like software engineering and data science analytics. It is affordable ($1,350 tuition) and has a decent placement rate (83%), making it a solid option that meets your academic background requirements.\n\nThis MTech Data Engineering program is in Hyderabad, offering a good balance of affordability and job prospects. It does not require a CS background, which might be helpful, and its tuition ($1,550) is well within your budget.\n\nThis option in Delhi has the lowest tuition fee ($800), making it highly affordable and keeping you near major Indian metros. While its placement rate is lower, it meets your minimum grade requirement (63%) and provides exposure to Big Data Analytics.",
+ "wall_s": 42.8
+}

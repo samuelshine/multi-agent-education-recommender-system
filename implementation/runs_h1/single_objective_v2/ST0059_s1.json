@@ -1,0 +1,72 @@
+{
+ "student_id": "ST0059",
+ "session": 1,
+ "mode": "single_objective",
+ "version": 2,
+ "message": "Hi, I'm a student with a app development certification background. My overall academic average is 79.7% in an IT/computer-science degree. I'm interested in data engineering and testing. I want to become a Data Architect. My family can afford at most about USD 1300 per year. I live in Chennai. I'm open to anywhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 79.7
+  },
+  "career_goal": "Data Architect",
+  "budget_max_usd_per_year": 1300,
+  "location_preference": "Chennai",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in data engineering and testing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0058",
+  "PR0053",
+  "PR0019",
+  "PR0008",
+  "PR0063",
+  "PR0142",
+  "PR0082",
+  "PR0052",
+  "PR0085",
+  "PR0173",
+  "PR0071",
+  "PR0119",
+  "PR0109",
+  "PR0076",
+  "PR0012",
+  "PR0114",
+  "PR0185",
+  "PR0120",
+  "PR0170",
+  "PR0171"
+ ],
+ "retrieved_ids": [
+  "PR0171",
+  "PR0109",
+  "PR0071",
+  "PR0170",
+  "PR0058",
+  "PR0120",
+  "PR0063"
+ ],
+ "proposed_shortlist": [
+  "PR0071",
+  "PR0171",
+  "PR0109",
+  "PR0058"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0071",
+  "PR0109",
+  "PR0058",
+  "PR0170",
+  "PR0063"
+ ],
+ "reflection_note": "The original shortlist was reviewed for hard constraint violations. PR0171 was dropped because its tuition ($1500) exceeds the student's maximum budget of $1300. To maintain a list of 5, I swapped in PR0170 (MSc Big Data Analytics in Coimbatore) and PR0063 (MCA in Delhi). PR0170 was chosen because it is highly relevant to data analytics and has the perfect budget fit ($1300). PR0063 provides a strong alternative with excellent curriculum alignment, despite being slightly over budget, as it offers high employability potential in a different region.",
+ "explanation": "Longford Institute of Applied Sciences\nThis program is recommended because it meets your strict budget constraint with an annual tuition of $1300 USD, while also covering relevant fields like data science analytics and software engineering. However, the main trade-off here is that its location in Mumbai does not match your Chennai preference, and the placement rate (58%) and median starting salary ($7837) are among the lowest on this list.\n\nCrestwood Technical University\nThis program is highly recommended due to its perfect alignment with your preferred location of Chennai, coupled with a strong 82% placement rate and high median starting salary of $13300 USD. The primary trade-off is that the annual tuition ($1550) slightly exceeds your maximum budget of $1300 per year.\n\nStanmore School of Engineering\nThis MCA program offers excellent career prospects, featuring relevant fields like data science analytics and software engineering, and boasting a high placement rate of 83% with the highest median starting salary at $14869 USD. The main trade-off is that its tuition ($1350) slightly exceeds your stated budget maximum of $1300 per year.\n\nStanmore Institute of Applied Sciences\nThis MSc Big Data Analytics program is a strong fit for your career goal, as it focuses specifically on data science analytics and adheres perfectly to your annual budget limit of $1300 USD. The trade-off here is that while the tuition is ideal, its placement rate (77%) and median starting salary ($10429) are moderate compared to other options.\n\nLongford Technical University\nWhile this MCA program covers relevant fields like data science analytics and software engineering, it presents a significant trade-off regarding location and employability. Although the tuition is close to your budget limit ($1350), its location in Delhi does not match your preference, and it has the lowest placement rate (64%) and median starting salary ($6635) among all listed options.",
+ "wall_s": 81.4
+}

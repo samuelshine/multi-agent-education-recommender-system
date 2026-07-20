@@ -1,0 +1,74 @@
+{
+ "student_id": "ST0091",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a machine learning certification background. My overall academic average is 80.4% in an IT/computer-science degree. I'm interested in cloud computing and security. I want to become a Web Developer. My family can afford at most about USD 29600 per year. I live in Coimbatore. I'm open to going abroad.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 80.4
+  },
+  "career_goal": "Web Developer",
+  "budget_max_usd_per_year": 29600,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in cloud computing and security"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0146",
+  "PR0094",
+  "PR0110",
+  "PR0005",
+  "PR0169",
+  "PR0127",
+  "PR0001",
+  "PR0194",
+  "PR0081",
+  "PR0042",
+  "PR0004",
+  "PR0186",
+  "PR0036",
+  "PR0197",
+  "PR0043",
+  "PR0147",
+  "PR0096",
+  "PR0199",
+  "PR0118",
+  "PR0121"
+ ],
+ "retrieved_ids": [
+  "PR0127",
+  "PR0110",
+  "PR0005",
+  "PR0146",
+  "PR0042",
+  "PR0036",
+  "PR0194",
+  "PR0147"
+ ],
+ "proposed_shortlist": [
+  "PR0005",
+  "PR0194",
+  "PR0127",
+  "PR0042",
+  "PR0146"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0005",
+  "PR0194",
+  "PR0127",
+  "PR0042",
+  "PR0146"
+ ],
+ "reflection_note": "The initial shortlist is excellent and contains no hard constraint violations. All five programs are financially feasible (tuition well below the $29,600 maximum) and academically relevant to the student's background (IT/CS) and interests (Cloud/Security). The ranking order reflects a balance of financial feasibility (PR0194, PR0005), direct interest fit (PR0127), and strong location preference (PR0042, PR0146).",
+ "explanation": "Bridgewater Technical University\nThis program is recommended because it aligns perfectly with your interests in cybersecurity and networking/cloud computing, while keeping the annual tuition at $15,000 USD, which is well within your budget. You meet the minimum admission requirement of 69%, and the high placement rate of 87% suggests strong career outcomes. The main trade-off here is that the post-study work visa duration is only 12 months, compared to some other options on this list.\n\nAravalli School of Engineering\nThis option is highly recommended due to its extremely low annual tuition cost of $1,950 USD, making it excellent for your budget constraints. It also offers a generous post-study work visa period of 18 months and covers cloud computing fields. The trade-off is that the placement rate (67%) is moderate compared to some other institutions on this list.\n\nAshford School of Engineering\nThis program provides an ideal combination of strong career potential, offering a median starting salary of $35,137 USD and a very long 36-month post-study work visa in Canada. The curriculum covers both cybersecurity and networking/cloud computing fields that interest you. Be aware of the trade-off: the tuition cost of $21,500 USD uses up a significant portion of your maximum annual budget.\n\nAravalli Institute of Applied Sciences\nThis program is excellent for maintaining a low financial burden, with an annual tuition of only $10,800 USD and offering a long 36-month post-study work visa in Canada. It covers networking/cloud computing fields relevant to your goals. The main trade-off is that the median starting salary of $29,138 USD is very close to your maximum annual budget limit, leaving little financial cushion.\n\nFairfax Technical University\nThis program stands out due to its exceptionally high median starting salary of $48,850 USD and a strong 36-month post-study work visa in Canada. It directly addresses your interest in networking/cloud computing fields. The primary trade-off is the higher tuition cost of $23,650 USD compared to other options on this list.",
+ "wall_s": 119.8
+}

@@ -1,0 +1,76 @@
+{
+ "student_id": "ST0078",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a machine learning certification background. My overall academic average is 73.9% in an IT/computer-science degree. I'm interested in Computer Architecture and testing. I want to become a Business Intelligence Analyst. My family can afford at most about USD 1400 per year. I live in Coimbatore. I'm open to anywhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [
+  "reflect"
+ ],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 73.9
+  },
+  "career_goal": "Business Intelligence Analyst",
+  "budget_max_usd_per_year": 1400,
+  "location_preference": null,
+  "mobility": "open_domestic",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in Computer Architecture and testing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0119",
+  "PR0053",
+  "PR0019",
+  "PR0114",
+  "PR0015",
+  "PR0020",
+  "PR0179",
+  "PR0193",
+  "PR0157",
+  "PR0074",
+  "PR0050",
+  "PR0125",
+  "PR0190",
+  "PR0080",
+  "PR0008",
+  "PR0142",
+  "PR0082",
+  "PR0052",
+  "PR0085",
+  "PR0066"
+ ],
+ "retrieved_ids": [
+  "PR0119",
+  "PR0053",
+  "PR0114",
+  "PR0157",
+  "PR0082",
+  "PR0193",
+  "PR0052",
+  "PR0066"
+ ],
+ "proposed_shortlist": [
+  "PR0157",
+  "PR0193",
+  "PR0114",
+  "PR0053",
+  "PR0066"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0157",
+  "PR0193",
+  "PR0114",
+  "PR0053",
+  "PR0066"
+ ],
+ "reflection_note": "reflect fallback: kept proposal",
+ "explanation": "Longford University\nThis program is recommended because its focus on IT Management aligns well with your goal of becoming a Business Intelligence Analyst. At an annual tuition cost of $800, it fits comfortably within your budget constraint of $1400. While the placement rate is 72% and the median starting salary is $10,444, the main trade-off here is that while the cost is very low, the potential career outcomes are not as high as some other options on this list.\n\nElmhurst Institute of Technology\nThis program directly addresses your interest in testing through its focus on Software Quality Engineering (QA). With an annual tuition of $1200, it remains within your budget and requires a minimum grade percentage of 60%, which you meet. The placement rate is 72% with a median starting salary of $10,518; the trade-off to consider is that while this option meets your interest in QA, its overall employment metrics are average compared to other programs listed.\n\nCrestwood School of Engineering\nThis program is recommended for its strong combination of high employability and manageable cost. It focuses on Software Quality Engineering (QA) and boasts a placement rate of 81% with a median starting salary of $10,903. The main trade-off here is that while the tuition ($850) is low, it is slightly more expensive than other options but provides demonstrably better career outcomes due to its higher placement rate.\n\nCavendish University\nThis program is highly recommended because it offers the best combination of high employability and relevance to your interests. With a 70% minimum grade requirement (which you meet), this MSc in Software Quality Engineering has the highest placement rate at 86% and the strongest median starting salary of $12,855. The primary trade-off is that while it offers excellent career prospects, its tuition ($1200) and required minimum grade are slightly higher than some other programs on this list.\n\nCrestwood Institute of Applied Sciences\nThis option is recommended if minimizing cost is your absolute highest priority, as it has the lowest annual tuition at $800. It also has a low admission barrier with only a 55% minimum grade requirement. However, the main trade-off to be aware of is that while the tuition is very affordable, its placement rate (60%) and median starting salary ($7,437) are significantly lower than other programs, potentially limiting your employability priority.",
+ "wall_s": 162.6
+}

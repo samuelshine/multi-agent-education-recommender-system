@@ -1,0 +1,31 @@
+{
+ "student_id": "ST0051",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 80.9
+    },
+    "career_goal": "Applications Developer",
+    "budget_max_usd_per_year": 2000,
+    "location_preference": "Bengaluru",
+    "mobility": "prefers_region",
+    "employability_priority": "high",
+    "other_constraints": [
+     "Interested in Software Engineering and cloud computing"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0012",
+    "PR0185",
+    "PR0171",
+    "PR0112",
+    "PR0186"
+   ],
+   "feedback": null
+  }
+ ]
+}

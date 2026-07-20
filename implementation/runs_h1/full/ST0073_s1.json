@@ -1,0 +1,72 @@
+{
+ "student_id": "ST0073",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a shell programming certification background. My overall academic average is 75.4% in an IT/computer-science degree. I'm interested in Software Engineering and cloud computing. I want to become a Business Intelligence Analyst. My family can afford at most about USD 7100 per year. I live in Coimbatore. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 75.4
+  },
+  "career_goal": "Business Intelligence Analyst",
+  "budget_max_usd_per_year": 7100,
+  "location_preference": "Coimbatore",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Shell programming certification background",
+   "Interested in Software Engineering and cloud computing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0186",
+  "PR0043",
+  "PR0016",
+  "PR0112",
+  "PR0032",
+  "PR0198",
+  "PR0191",
+  "PR0101",
+  "PR0058",
+  "PR0039",
+  "PR0197",
+  "PR0053",
+  "PR0158",
+  "PR0054",
+  "PR0147",
+  "PR0109",
+  "PR0026",
+  "PR0076",
+  "PR0105",
+  "PR0012"
+ ],
+ "retrieved_ids": [
+  "PR0043",
+  "PR0016",
+  "PR0101",
+  "PR0058",
+  "PR0039",
+  "PR0147",
+  "PR0105",
+  "PR0186"
+ ],
+ "proposed_shortlist": [
+  "PR0101",
+  "PR0058",
+  "PR0043",
+  "PR0039"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0101",
+  "PR0058",
+  "PR0043",
+  "PR0147"
+ ],
+ "reflection_note": "The original shortlist was strong, but PR0039 (HCI) is slightly weaker than other technical options. I have dropped it. I also swapped in PR0147 because it offers a highly relevant Cloud Computing specialization (networking_cloud), meets all constraints (Coimbatore location, low budget), and provides excellent employability scores, making it a strong fourth choice that was previously overlooked.",
+ "explanation": "Braxton Institute of Applied Sciences\nThis program was recommended because its focus on Information Systems directly aligns with your goal of becoming a Business Intelligence Analyst, and it does not require a Computer Science background, which simplifies admission. Furthermore, the annual tuition of $2400 keeps you well within your budget maximum, while the 85% placement rate suggests high employability in Coimbatore. The main trade-off here is that the curriculum does not explicitly cover Software Engineering or Cloud Computing, two areas you expressed interest in.\n\nStanmore School of Engineering\nThis MCA program is highly recommended because it covers both Data Science Analytics and Software Engineering, perfectly matching your career goal and interests while adhering to your budget with a low annual tuition of $1350. Since you have an IT/CS background, the requirement for CS knowledge is met, and the location in Coimbatore matches your preference. The trade-off here is that its median starting salary ($14869) is slightly lower than some other options despite the strong curriculum fit.\n\nVantage Institute of Technology\nThis MSc Cloud Computing program was selected because it directly addresses both your interest in cloud computing and software engineering, making it a comprehensive choice for your technical background. The annual tuition of $3950 remains within your budget, and the 86% placement rate indicates strong career prospects. However, the main trade-off is that this specialization leads to the lowest median starting salary ($11981) among the shortlisted options.\n\nFairfax Institute of Technology\nThis MSc Cloud Computing program was recommended for its focused specialization in networking and cloud technologies, which aligns with your stated interests. It maintains a good placement rate of 83% and has an annual tuition of $3200, keeping you within budget while requiring a CS background that matches your qualifications. The primary trade-off is that this program focuses solely on cloud infrastructure and does not provide the explicit Software Engineering depth found in other options.",
+ "wall_s": 253.4
+}

@@ -1,0 +1,65 @@
+{
+ "student_id": "ST0056",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 83.7% in an IT/computer-science degree. I'm interested in programming and system developer. I want to become a Web Developer. My family can afford at most about USD 4300 per year. I live in Chennai. I'm open to going abroad. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 83.7
+  },
+  "career_goal": "Web Developer",
+  "budget_max_usd_per_year": 4300,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "information security certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0000",
+  "PR0195",
+  "PR0153",
+  "PR0051",
+  "PR0137",
+  "PR0191",
+  "PR0101",
+  "PR0054",
+  "PR0128",
+  "PR0044",
+  "PR0105",
+  "PR0015",
+  "PR0020",
+  "PR0033",
+  "PR0157",
+  "PR0047",
+  "PR0074",
+  "PR0172",
+  "PR0087",
+  "PR0021"
+ ],
+ "retrieved_ids": [
+  "PR0000",
+  "PR0195",
+  "PR0153",
+  "PR0021"
+ ],
+ "proposed_shortlist": [
+  "PR0000",
+  "PR0195",
+  "PR0153"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0195",
+  "PR0000",
+  "PR0021"
+ ],
+ "reflection_note": "The original shortlist was strong but included PR0153, which is slightly misaligned with the core 'Web Developer' goal due to its design focus and lower salary potential. I dropped it. The candidate set contains PR0021 (IT Operations), which offers a better balance of technical relevance, low cost, and solid employability metrics compared to PR0153. Therefore, PR0021 is swapped in for the third spot, creating a final shortlist focused on Information Systems/Management tracks that best support a high-employability Web Developer career path.",
+ "explanation": "Keystone School of Engineering\nThis program is recommended because it offers an extremely low annual tuition of $300, which fits well within your budget while meeting your minimum grade requirement of 72%. It provides a strong foundation in Information Systems and boasts an 82% placement rate, supporting your high employability priority. The main trade-off here is that the median starting salary ($51,059) is not the highest available option on this list. Furthermore, it offers 18 months of post-study work visa time after graduation.\n\nFairfax Institute of Technology\nThis program was recommended because it provides the best overall metrics for your career goals, featuring a high placement rate of 91% and the highest median starting salary at $56,198. It accepts students with an academic background above 80%, which you meet, and offers 18 months of post-study work visa time. The primary trade-off is that its annual tuition ($950) is higher than Keystone's option, but this increased cost is justified by the superior placement and salary potential.\n\nAshford Institute of Technology\nThis program is an excellent choice if budget is your absolute highest priority, as it has the lowest tuition at $450 per year while still meeting your minimum grade requirement. It offers 18 months of post-study work visa time and a solid 82% placement rate. The main trade-off to consider is that its focus on IT Support may be slightly less aligned with your Web Developer goal, and it has the lowest median starting salary ($46,428) among the three options.",
+ "wall_s": 170.4
+}

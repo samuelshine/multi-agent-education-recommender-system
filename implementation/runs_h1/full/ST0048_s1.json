@@ -1,0 +1,66 @@
+{
+ "student_id": "ST0048",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 74.1% in an IT/computer-science degree. I'm interested in Management and Business process analyst. I want to become a Information Technology Manager. My family can afford at most about USD 3400 per year. I live in Hyderabad. I cannot leave my city.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 74.1
+  },
+  "career_goal": "Information Technology Manager",
+  "budget_max_usd_per_year": 3400,
+  "location_preference": "Hyderabad",
+  "mobility": "fixed_city",
+  "employability_priority": null,
+  "other_constraints": [
+   "r programming certification background",
+   "interested in Management and Business process analyst"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0176",
+  "PR0076",
+  "PR0130",
+  "PR0074",
+  "PR0119",
+  "PR0026",
+  "PR0096",
+  "PR0167",
+  "PR0113",
+  "PR0196",
+  "PR0111",
+  "PR0050",
+  "PR0159",
+  "PR0142"
+ ],
+ "retrieved_ids": [
+  "PR0176",
+  "PR0076",
+  "PR0130",
+  "PR0167",
+  "PR0196",
+  "PR0113",
+  "PR0050",
+  "PR0159"
+ ],
+ "proposed_shortlist": [
+  "PR0076",
+  "PR0176",
+  "PR0130",
+  "PR0167"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0076",
+  "PR0176",
+  "PR0130",
+  "PR0196"
+ ],
+ "reflection_note": "The original shortlist was strong, but PR0167 (Cyber Security) is too specialized and deviates from the student's core interest in Management/Business Process Analyst. I have kept the top three management-focused options (PR0076, PR0176, PR0130). For a fourth option, I swapped in PR0196 (MTech Computer Science) because while it is purely technical and doesn't match the 'Management' interest perfectly, it offers a strong CS foundation which aligns with the student's academic background (IT/CS degree) and provides a solid fallback if management roles are not immediately available. It also meets the budget constraints ($1650 < $3400). The final ranking prioritizes Management focus first, then technical depth.",
+ "explanation": "Sarayu Institute of Technology\nThis program is highly recommended because its MBA Technology Management focus aligns perfectly with your career goal of becoming an Information Technology Manager and your interest in business processes. It meets all your constraints: it is located in Hyderabad, the annual tuition of $1250 is well within your budget, and your 74.1% grade exceeds the minimum requirement of 74%. The main trade-off here is that while it offers a strong placement rate (81%) and solid salary ($13142), Crestwood University offers a slightly higher median starting salary for a marginally higher cost.\n\nCrestwood University\nThis MBA Technology Management program is recommended because its focus on IT management directly supports your career goal, and it remains within your maximum budget of $3400 per year. It boasts the highest placement rate (82%) and the strongest median starting salary ($15400) among all options. The main trade-off to consider is that its annual tuition of $1900 is higher than Sarayu Institute's, but this increased investment is offset by a significantly higher potential earning outcome.\n\nElmhurst School of Engineering\nThis MSc IT Management program is an excellent budget-friendly option that aligns with your interest in management and business processes while keeping costs extremely low at $1000 per year. It meets your minimum grade requirement (62%) and is located in Hyderabad, making it highly accessible. The main trade-off here is balancing cost against potential earnings; while the tuition is minimal, its median starting salary ($11249) is lower than the MBA options, suggesting a slightly less aggressive career trajectory immediately post-graduation.\n\nElmhurst Institute of Applied Sciences\nWhile this MTech program offers a low annual tuition of $1650 and requires only a minimum grade of 63%, it was recommended with caution because its focus on pure Software Engineering deviates from your stated interest in management and business process analysis. The main trade-off is between technical depth (which this program provides) and career goal alignment; if you are committed to the managerial path, the MBA programs would be a more direct fit despite requiring a specific CS background.",
+ "wall_s": 196.0
+}

@@ -1,0 +1,45 @@
+{
+ "student_id": "ST0042",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a app development certification background. My overall academic average is 73.6% in an IT/computer-science degree. I'm interested in parallel computing and Business process analyst. I want to become a Database Administrator. My family can afford at most about USD 800 per year. I live in Chennai. I cannot leave my city. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [
+  "reflect"
+ ],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 73.6
+  },
+  "career_goal": "Database Administrator",
+  "budget_max_usd_per_year": 800,
+  "location_preference": "Chennai",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in parallel computing",
+   "Interested in Business process analyst"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0059",
+  "PR0165"
+ ],
+ "retrieved_ids": [
+  "PR0165"
+ ],
+ "proposed_shortlist": [
+  "PR0165"
+ ],
+ "guard_dropped": [],
+ "backfilled": [],
+ "final_shortlist": [
+  "PR0165"
+ ],
+ "reflection_note": "reflect fallback: kept proposal",
+ "explanation": "Westbrook Institute of Technology\nThis program was recommended because it perfectly matches your location preference in Chennai and stays well within your maximum budget, with an annual tuition cost of $550 USD. Furthermore, your academic background meets the minimum grade requirement of 54% and satisfies the need for a CS background. While the degree focuses on Cloud Computing rather than Database Administration, this field is highly relevant to modern database infrastructure and offers good employability potential (median salary: $7,845 USD). The main trade-off you should consider is the post-study work visa duration, which is listed as 0 months, limiting immediate career mobility after graduation.",
+ "wall_s": 54.1
+}

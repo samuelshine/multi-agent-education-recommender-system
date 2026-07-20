@@ -1,0 +1,30 @@
+{
+ "student_id": "ST0005",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 76.2
+    },
+    "career_goal": "Software Systems Engineer",
+    "budget_max_usd_per_year": 10500,
+    "location_preference": null,
+    "mobility": "prefers_region",
+    "employability_priority": null,
+    "other_constraints": [
+     "Interested in IOT and testing"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0053",
+    "PR0182",
+    "PR0119",
+    "PR0065"
+   ],
+   "feedback": null
+  }
+ ]
+}

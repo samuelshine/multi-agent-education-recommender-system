@@ -1,0 +1,71 @@
+{
+ "student_id": "ST0091",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a machine learning certification background. My overall academic average is 80.4% in an IT/computer-science degree. I'm interested in cloud computing and security. I want to become a Web Developer. My family can afford at most about USD 29600 per year. I live in Coimbatore. I'm open to going abroad.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 80.4
+  },
+  "career_goal": "Web Developer",
+  "budget_max_usd_per_year": 29600,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in cloud computing and security"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0146",
+  "PR0094",
+  "PR0110",
+  "PR0005",
+  "PR0169",
+  "PR0127",
+  "PR0001",
+  "PR0194",
+  "PR0081",
+  "PR0042",
+  "PR0004",
+  "PR0186",
+  "PR0036",
+  "PR0197",
+  "PR0043",
+  "PR0147",
+  "PR0096",
+  "PR0199",
+  "PR0118",
+  "PR0121"
+ ],
+ "retrieved_ids": [
+  "PR0127",
+  "PR0110",
+  "PR0005",
+  "PR0146",
+  "PR0042",
+  "PR0036",
+  "PR0194",
+  "PR0147"
+ ],
+ "proposed_shortlist": [
+  "PR0005",
+  "PR0194",
+  "PR0127",
+  "PR0042"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0005",
+  "PR0194",
+  "PR0146",
+  "PR0110"
+ ],
+ "reflection_note": "The original shortlist was strong but contained a mix of Canadian locations (Vancouver, Toronto) that were less appealing than the European options. I dropped PR0127 and PR0042 to prioritize the highly attractive financial/academic fit in Europe (PR0005, PR0194). I kept PR0146 as it is a strong Canadian option with high placement potential. I swapped in PR0110 because it offers an excellent academic alternative (Cloud/Cybersecurity) that was missing from the original list and provides a good balance of fit despite being at the upper limit of the budget.",
+ "explanation": "Bridgewater Technical University\nThis program is recommended because its focus on cybersecurity and networking/cloud aligns perfectly with your stated interests while keeping the annual tuition low at $15,000, which is well within your budget. You meet the minimum admission requirement of 69% with your current grade, and the high placement rate of 87% suggests strong career outcomes. The main trade-off here is that while the cost is excellent, the post-study work visa period is only 12 months.\n\nAravalli School of Engineering\nThis option is ideal if minimizing costs is your top priority, as the annual tuition is extremely low at $1,950 and covers cloud computing topics you are interested in. You meet the minimum admission requirement of 65%, and the program offers a generous 18-month post-study work visa period. The primary trade-off is that while the cost and visa length are favorable, the placement rate (67%) and median starting salary ($30,651) are lower compared to other options on this list.\n\nFairfax Technical University\nThis program offers the best long-term career prospects with a high median starting salary of $48,850 and an impressive 36 months post-study work visa. The curriculum focuses on networking/cloud, matching your interests, and you meet the minimum admission requirement of 73%. The main trade-off is that the tuition at $23,650 uses a significant portion of your maximum budget, but it provides superior job stability and earning potential.\n\nCrestwood Institute of Applied Sciences\nThis program offers an excellent alignment with both cloud computing and cybersecurity, directly matching your stated interests in these fields. While the annual tuition is slightly over your $29,600 budget limit at $29,650, it provides a highly competitive median starting salary of $48,858. The trade-off here is the cost versus the high earning potential and strong curriculum match; however, you meet the minimum admission requirement of 64%.",
+ "wall_s": 302.1
+}

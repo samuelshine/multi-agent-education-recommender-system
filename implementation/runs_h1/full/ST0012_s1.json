@@ -1,0 +1,72 @@
+{
+ "student_id": "ST0012",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a distro making certification background. My overall academic average is 82.9% in an IT/computer-science degree. I'm interested in Management and testing. I want to become a Information Technology Auditor. My family can afford at most about USD 11300 per year. I live in Chennai. I'm open to anywhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 82.9
+  },
+  "career_goal": "Information Technology Auditor",
+  "budget_max_usd_per_year": 11300,
+  "location_preference": "Chennai",
+  "mobility": "open_domestic",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in Management and testing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0157",
+  "PR0172",
+  "PR0198",
+  "PR0139",
+  "PR0164",
+  "PR0182",
+  "PR0060",
+  "PR0191",
+  "PR0119",
+  "PR0101",
+  "PR0176",
+  "PR0092",
+  "PR0053",
+  "PR0189",
+  "PR0072",
+  "PR0054",
+  "PR0076",
+  "PR0105",
+  "PR0065",
+  "PR0019"
+ ],
+ "retrieved_ids": [
+  "PR0191",
+  "PR0157",
+  "PR0172",
+  "PR0164",
+  "PR0182",
+  "PR0076",
+  "PR0176",
+  "PR0139"
+ ],
+ "proposed_shortlist": [
+  "PR0157",
+  "PR0191",
+  "PR0182",
+  "PR0076"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0191",
+  "PR0157",
+  "PR0182",
+  "PR0076",
+  "PR0172"
+ ],
+ "reflection_note": "The original shortlist was strong, balancing financial constraints and academic relevance. I kept all four originals as they represent the best trade-offs across different criteria (Location/Finance/Testing). I swapped in PR0172 because it is a direct competitor to PR0182 (both are in Pune) but offers a broader IT Management focus, providing a valuable backup option if the student prefers general management over specialized QA testing. The final list prioritizes location match (PR0191), followed by the best financial fit (PR0157), and then balancing specific interests/employability (PR0182, PR0076) with the added safety net of a similar program in the same area (PR0172).",
+ "explanation": "Sarayu Technical University\nThis program is recommended because it meets your location preference in Chennai while keeping tuition well within your budget at $3,250 USD. The curriculum covers Business Information Systems and Data Science Analytics, which are highly relevant to an IT Auditor role interested in management. With a placement rate of 84% and a median starting salary of $15,951, it strongly supports your high employability priority. The main trade-off is that the focus on Data Engineering might be slightly less direct than a dedicated testing or pure management track.\n\nKeystone Technical University\nThis program was prioritized because its core field, QA Testing, directly aligns with your stated interest in testing and is highly relevant to an IT Auditor career path. It boasts the highest placement rate (91%) among all options, strongly meeting your employability priority. The tuition of $1,950 USD remains under budget, and you meet the minimum grade requirement of 75%. The trade-off here is that the location is Pune, not Chennai.\n\nSarayu Institute of Technology\nThis option provides a strong blend of IT Management and Software Engineering, which complements your interest in management while providing technical depth for auditing. At $1,250 USD annually, it is one of the most budget-friendly choices available. The placement rate of 81% and the median starting salary of $13,142 both support a strong career start. The main trade-off is that this program is located in Hyderabad, deviating from your Chennai preference.\n\nLongford University\nThis MSc IT Management program offers excellent affordability at only $800 USD annually, making it highly budget-friendly. It covers Business Information Systems and IT Management, aligning well with your management interests. While the placement rate of 72% is acceptable, you should note that its median starting salary ($10,444) and overall employability metrics are lower compared to other options on this list.\n\nQuilon Technical University\nThis program provides a manageable entry point into IT Management for only $2,250 USD in tuition fees. The curriculum covers Business Information Systems, which is useful for an auditor role. However, the main trade-off is that its placement rate (66%) and median starting salary ($8,654) are significantly lower than other recommended programs, potentially conflicting with your high employability priority.",
+ "wall_s": 260.0
+}

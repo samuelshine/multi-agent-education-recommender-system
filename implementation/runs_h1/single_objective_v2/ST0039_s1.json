@@ -1,0 +1,56 @@
+{
+ "student_id": "ST0039",
+ "session": 1,
+ "mode": "single_objective",
+ "version": 2,
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 79.7% in an IT/computer-science degree. I'm interested in data engineering and security. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 1100 per year. I live in Bengaluru. I cannot leave my city. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 79.7
+  },
+  "career_goal": null,
+  "budget_max_usd_per_year": 1100,
+  "location_preference": "Bengaluru",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "r programming certification background",
+   "interested in data engineering and security"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0173",
+  "PR0087",
+  "PR0015",
+  "PR0073",
+  "PR0013"
+ ],
+ "retrieved_ids": [
+  "PR0173",
+  "PR0073",
+  "PR0087",
+  "PR0015",
+  "PR0013"
+ ],
+ "proposed_shortlist": [
+  "PR0073",
+  "PR0087",
+  "PR0173",
+  "PR0015"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0073",
+  "PR0087",
+  "PR0173",
+  "PR0015",
+  "PR0013"
+ ],
+ "reflection_note": "The original shortlist was strong and contained the top 4 most relevant options. I kept all of them as they meet hard constraints (budget, location). To reach the required five slots, I swapped in PR0013 (MSc Human-Computer Interaction). This program is highly feasible, located in Bengaluru, has low tuition ($900), and offers a valuable complementary skill set (HCI/Design) which can round out the student's profile alongside Data Engineering and Security.",
+ "explanation": "Elmhurst Technical University\nThis program was highly recommended because it directly aligns with your interest in security and requires a CS background, matching your academic profile. It offers strong employability metrics with an 80% placement rate and a median starting salary of $8637. The main trade-off here is that the annual tuition of $1250 slightly exceeds your stated budget maximum of $1100.\n\nAravalli Technical University\nThis option was suggested because it focuses on Data Science, matching one of your core interests in data engineering. While the program requires a CS background and is located in Bengaluru, you should note that its placement rate (58%) and median starting salary ($6767) are lower compared to other options. The trade-off here is accepting a slightly higher tuition cost ($1200) for a less robust employment outcome.\n\nLongford Technical University\nThis program was recommended due to its excellent affordability, with an annual tuition of only $500, keeping it well within your budget constraints. It also offers relevant coursework in data science analytics and software engineering while being located in Bengaluru. The main trade-off is that the median starting salary ($6851) and placement rate (62%) are moderate compared to other high-earning options.\n\nKeystone Institute of Technology\nThis program was recommended because it provides a strong blend of business information systems, leading to a high median starting salary of $9707 and a 78% placement rate. Although the tuition ($1200) slightly exceeds your budget maximum, its superior employability metrics make it a compelling choice for maximizing career outcomes. The trade-off is spending slightly over budget for significantly higher potential earnings.\n\nMeridian Institute of Technology\nThis program was recommended because it offers high earning potential and strong placement rates (77%) while keeping the tuition cost low at $900, fitting within your budget. While its focus on Human-Computer Interaction does not directly match your data or security interests, it provides a highly employable path with a median starting salary of $9186. The main trade-off is prioritizing high employability and affordability over direct alignment with your technical interests.",
+ "wall_s": 57.8
+}

@@ -1,0 +1,74 @@
+{
+ "student_id": "ST0051",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 80.9% in an IT/computer-science degree. I'm interested in Software Engineering and cloud computing. I want to become a Applications Developer. My family can afford at most about USD 2000 per year. I live in Bengaluru. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 80.9
+  },
+  "career_goal": "Applications Developer",
+  "budget_max_usd_per_year": 2000,
+  "location_preference": "Bengaluru",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in Software Engineering and cloud computing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0186",
+  "PR0016",
+  "PR0112",
+  "PR0032",
+  "PR0058",
+  "PR0039",
+  "PR0053",
+  "PR0158",
+  "PR0109",
+  "PR0076",
+  "PR0012",
+  "PR0065",
+  "PR0019",
+  "PR0167",
+  "PR0199",
+  "PR0185",
+  "PR0171",
+  "PR0155",
+  "PR0145",
+  "PR0083"
+ ],
+ "retrieved_ids": [
+  "PR0185",
+  "PR0112",
+  "PR0171",
+  "PR0158",
+  "PR0186",
+  "PR0199",
+  "PR0012",
+  "PR0083"
+ ],
+ "proposed_shortlist": [
+  "PR0012",
+  "PR0185",
+  "PR0171",
+  "PR0112",
+  "PR0083"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0012",
+  "PR0185",
+  "PR0171",
+  "PR0112",
+  "PR0186"
+ ],
+ "reflection_note": "The original shortlist was strong but included PR0083, which was dropped for lacking overall appeal despite meeting financial constraints. To ensure the final list of 5 is robust and diverse, I swapped in PR0186 (MTech Computer Networks) from the full candidate set. This program offers excellent relevance to 'Cloud Computing' and 'Software Engineering', boasts a high median starting salary (excellent employability), and is located in Pune, which is geographically acceptable given the preference for the Bengaluru region. The final list prioritizes strong financial feasibility, high employability scores, and direct alignment with SE/Cloud goals, while managing location preferences.",
+ "explanation": "Elmhurst University\nThis program is recommended because it aligns well with your interest in Software Engineering and has strong placement metrics. The annual tuition of $1500 USD fits within your budget, and its 79% placement rate coupled with a median starting salary of $13468 suggests high employability for an Applications Developer role. The main trade-off here is that while the program meets your academic requirements (min grade 73%), the location in Kolkata does not match your stated preference for Bengaluru.\n\nLongford Institute of Technology\nThis option is highly recommended if budget and admission ease are your top priorities, as it has a low annual tuition of $1150 USD and requires only a minimum grade of 62%. While it covers Software Engineering, the focus on Cybersecurity may deviate slightly from your primary goal. The trade-off is that while the cost is excellent, the median starting salary ($10850) and placement rate (78%) are lower compared to other options.\n\nHalcyon Technical University\nThis MTech program provides a solid foundation in Software Engineering for an Applications Developer career path at $1500 USD annually. It has a decent 75% placement rate, but the main trade-off is that its median starting salary ($10917) and minimum admission grade (59%) are moderate compared to your academic background. This program offers a good balance of cost and relevance in Chennai.\n\nCharnock University\nThis university is recommended due to its very low annual tuition of $1150 USD, making it the most budget-friendly option while covering both Software Engineering and Networking/Cloud topics. However, you must be aware that this comes with the trade-off of having the lowest placement rate (65%) and median starting salary ($7933) among all shortlisted programs.\n\nHalcyon Institute of Technology\nThis program is strongly recommended because it offers the highest employability metrics on the list, boasting an 83% placement rate and a strong median starting salary of $15192 USD. Furthermore, its location in Pune is geographically closer to your preferred region of Bengaluru. The main trade-off is that the annual tuition ($2050) slightly exceeds your stated maximum budget of $2000.",
+ "wall_s": 126.7
+}

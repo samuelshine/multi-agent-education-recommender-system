@@ -1,0 +1,73 @@
+{
+ "student_id": "ST0036",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a python certification background. My overall academic average is 70.8% in an IT/computer-science degree. I'm interested in Management and developer. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 3400 per year. I live in Delhi. I'd strongly prefer to stay near home, though I might consider elsewhere in India.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 70.8
+  },
+  "career_goal": "Management and developer (in tech)",
+  "budget_max_usd_per_year": 3400,
+  "location_preference": "Delhi",
+  "mobility": "prefers_region",
+  "employability_priority": null,
+  "other_constraints": [
+   "Python certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0060",
+  "PR0176",
+  "PR0092",
+  "PR0189",
+  "PR0076",
+  "PR0130",
+  "PR0078",
+  "PR0150",
+  "PR0157",
+  "PR0160",
+  "PR0048",
+  "PR0172",
+  "PR0156",
+  "PR0029",
+  "PR0022",
+  "PR0182",
+  "PR0191",
+  "PR0119",
+  "PR0101",
+  "PR0143"
+ ],
+ "retrieved_ids": [
+  "PR0160",
+  "PR0189",
+  "PR0076",
+  "PR0130",
+  "PR0156",
+  "PR0048",
+  "PR0157",
+  "PR0172"
+ ],
+ "proposed_shortlist": [
+  "PR0160",
+  "PR0189",
+  "PR0076",
+  "PR0130",
+  "PR0157"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0160",
+  "PR0076",
+  "PR0130",
+  "PR0157",
+  "PR0156"
+ ],
+ "reflection_note": "The initial shortlist was strong, but PR0189 was dropped due to budget concerns. I swapped in PR0156 (Pune) because it offers a better balance of affordability and relevance than the existing non-Delhi options (PR0076/PR0130/PR0157), providing the student with more viable alternatives if Delhi proves too competitive or expensive.",
+ "explanation": "Keystone Technical University\nThis program is highly recommended because it perfectly matches your location preference of Delhi and remains well within your maximum budget of $3400 USD per year, with an annual tuition cost of only $2050. The MBA Technology Management degree aligns directly with your goal of working in management and development within the tech sector. Since you have a 70.8% grade, you comfortably meet the minimum requirement of 60%, making this a strong fit for both budget and location. The main trade-off here is that while the placement rate is solid at 71%, the median starting salary ($8900 USD) is lower compared to some other options on your list.\n\nSarayu Institute of Technology\nThis option was highlighted due to its excellent combination of high earning potential and low cost, offering a median starting salary of $13142 USD and an 81% placement rate. The MBA Technology Management program also aligns perfectly with your career goals in tech management and development. While the tuition ($1250) is well under budget, please note that this institution is located in Hyderabad, which deviates from your preferred Delhi location. Therefore, the main trade-off you must consider is accepting a move to Hyderabad for significantly higher earning potential and placement statistics.\n\nElmhurst School of Engineering\nThis program offers an excellent balance of low cost and strong career outcomes while still being within budget ($1000 annual tuition). The MSc IT Management degree supports your goals in both development and management, and you easily meet the minimum grade requirement of 62% with your 70.8%. Although it is located in Hyderabad, this option provides a very low financial commitment compared to other schools. Your main trade-off here is accepting a move outside Delhi for one of the most affordable options available on the list.\n\nLongford University\nThis program represents the lowest cost option ($800 annual tuition) and meets your academic background requirements easily (minimum 64% needed). The MSc IT Management degree supports your interest in tech management, making it budget-friendly while staying within your financial limits. However, this institution is located in Coimbatore, which is a significant deviation from both your preferred Delhi location and the other regional options. Therefore, the main trade-off is accepting a substantial move to Coimbatore to achieve the lowest possible tuition fee.\n\nMeridian Technical University\nThis university was recommended because it has an extremely low minimum grade requirement (57%), making admission highly accessible given your 70.8% academic background. The MBA Technology Management program fits your career goals, and the annual tuition of $1350 is comfortably within your budget. While located in Pune, this option provides a good balance of cost and accessibility for someone who prefers regional mobility. The main trade-off to consider is that while it has a low admission barrier, its median starting salary ($7397 USD) is the lowest among all listed options.",
+ "wall_s": 320.0
+}

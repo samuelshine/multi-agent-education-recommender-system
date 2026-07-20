@@ -1,0 +1,40 @@
+{
+ "student_id": "ST0007",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a shell programming certification background. My overall academic average is 75% in an IT/computer-science degree. I'm interested in data engineering and security. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 1100 per year. I live in Bengaluru. I cannot leave my city. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 75
+  },
+  "career_goal": null,
+  "budget_max_usd_per_year": 1100,
+  "location_preference": "Bengaluru",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "shell programming certification background",
+   "interested in data engineering and security"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0173",
+  "PR0087",
+  "PR0015",
+  "PR0073",
+  "PR0013"
+ ],
+ "final_shortlist": [
+  "PR0073",
+  "PR0015",
+  "PR0173",
+  "PR0087",
+  "PR0013"
+ ],
+ "explanation": "This program directly addresses your interest in security and is located in Bengaluru. It has a high placement rate (80%) and offers a strong median starting salary ($8637), which aligns with your priority of securing a good job after graduation.\n\nWith a high placement rate (78%) and the highest median starting salary ($9707) among affordable options, this program is excellent for job security. While focused on business information systems, it provides valuable tech skills that can be applied to data engineering or general IT roles.\n\nThis MTech offers flexibility by covering both data science analytics and software engineering. Its low tuition ($500) is well within your budget, and the program does not require a specific CS background, making it accessible given your current certification.\n\nThis MSc Data Science option aligns with your interest in data engineering. Although the tuition ($1200) is at the upper limit of your budget and it requires a CS background, its focus on data analytics makes it highly relevant to your career goals.\n\nThis program is located in Bengaluru and has a good placement rate (77%) with manageable tuition ($900). While focused on design, it offers valuable tech experience that could complement your interests in data or security by improving user-facing aspects of systems.",
+ "wall_s": 33.5
+}

@@ -1,0 +1,71 @@
+{
+ "student_id": "ST0019",
+ "session": 3,
+ "mode": "full",
+ "version": 1,
+ "message": "Hi, I'm a student with a machine learning certification background. My overall academic average is 72.8% in an IT/computer-science degree. I'm interested in Computer Architecture and developer. I want to become a Database Manager. My family can afford at most about USD 10700 per year. I live in Pune. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else. About the earlier suggestions: I liked PR0007, PR0173.",
+ "memory_used": true,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 72.8
+  },
+  "career_goal": "Database Manager",
+  "budget_max_usd_per_year": 10700,
+  "location_preference": "Pune",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in Computer Architecture and developer roles"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0191",
+  "PR0143",
+  "PR0058",
+  "PR0007",
+  "PR0099",
+  "PR0026",
+  "PR0090",
+  "PR0120",
+  "PR0170",
+  "PR0145",
+  "PR0033",
+  "PR0107",
+  "PR0111",
+  "PR0134",
+  "PR0074",
+  "PR0129",
+  "PR0133",
+  "PR0063",
+  "PR0173",
+  "PR0071"
+ ],
+ "retrieved_ids": [
+  "PR0007",
+  "PR0143",
+  "PR0173",
+  "PR0145",
+  "PR0134",
+  "PR0129",
+  "PR0071",
+  "PR0191"
+ ],
+ "proposed_shortlist": [
+  "PR0007",
+  "PR0143",
+  "PR0173"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0007",
+  "PR0191",
+  "PR0071",
+  "PR0145"
+ ],
+ "reflection_note": "The original shortlist was good but missed better, more specialized options. PR0007 remains the top choice due to perfect alignment (Pune location, budget, and strong data focus). I dropped PR0143 because its location deviation is too high relative to the benefit over PR0007. I dropped PR0173 for being too general and having a low salary potential. I swapped in PR0191 and PR0071 as they offer excellent, specialized Data Engineering/Analytics tracks at very low costs, providing strong alternatives that are more relevant to the 'Database Manager' goal than the original options.",
+ "explanation": "Ashford Institute of Technology\nThis program is highly recommended because it meets your location preference in Pune and aligns well with your career goal of becoming a Database Manager through its focus on Big Data Analytics. Your academic background (IT/CS) satisfies the requirement for this course, and your grade percentage (72.8%) exceeds the minimum required score of 70%. The tuition cost of $2350 is well within your budget, making it an excellent fit with a strong placement rate of 86%.\n\nSarayu Technical University\nThis program was recommended because its MTech Data Engineering focus directly supports both your Database Manager goal and your interest in developer roles. While the location (Chennai) does not match your preference for Pune, this option offers the highest median starting salary ($15951) among the shortlist programs. Furthermore, the minimum grade requirement of 71% is easily met by your current academic standing. The main trade-off here is accepting a non-preferred city location for potentially higher earning potential.\n\nLongford Institute of Applied Sciences\nThis program is recommended primarily because it offers the lowest annual tuition ($1300), making it extremely budget-friendly, and its curriculum includes Software Engineering, which matches your developer interests. However, you should note that this option has the weakest placement rate (58%) and median starting salary ($7837) on the list. Therefore, while it is highly affordable, the trade-off involves accepting lower employability metrics compared to other options.\n\nSilverline Technical University\nThis MTech Computer Science program was recommended because its curriculum directly appeals to your interest in developer roles and provides strong foundational knowledge relevant to database systems. Your IT/CS background satisfies the prerequisite for this course, and the tuition ($2300) remains within your budget constraints. The main trade-off is that the location (Coimbatore) does not match your preferred region of Pune, though it offers a solid placement rate of 75%.",
+ "wall_s": 79.4
+}

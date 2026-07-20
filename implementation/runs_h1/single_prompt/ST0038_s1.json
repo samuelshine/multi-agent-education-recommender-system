@@ -1,0 +1,49 @@
+{
+ "student_id": "ST0038",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a machine learning certification background. My overall academic average is 77.9% in an IT/computer-science degree. I'm interested in IOT and Business process analyst. I want to become a Network Security Engineer. My family can afford at most about USD 4500 per year. I live in Hyderabad. I cannot leave my city. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 77.9
+  },
+  "career_goal": "Network Security Engineer",
+  "budget_max_usd_per_year": 4500,
+  "location_preference": "Hyderabad",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in IOT",
+   "Interested in Business process analyst"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0074",
+  "PR0119",
+  "PR0176",
+  "PR0026",
+  "PR0076",
+  "PR0096",
+  "PR0167",
+  "PR0130",
+  "PR0113",
+  "PR0196",
+  "PR0111",
+  "PR0050",
+  "PR0159",
+  "PR0142"
+ ],
+ "final_shortlist": [
+  "PR0096",
+  "PR0167",
+  "PR0074",
+  "PR0176",
+  "PR0130"
+ ],
+ "explanation": "This MTech in Computer Networks directly aligns with your goal of becoming a Network Security Engineer and focuses on cybersecurity/networking. It is located in Hyderabad, meets your background requirements, and offers a strong median starting salary.\n\nThe MTech Cyber Security program is highly relevant to your career goal of Network Security Engineer. It is based in Hyderabad and provides specialized knowledge in cybersecurity, making it a strong choice for job placement.\n\nWhile focused on Data Engineering, this program offers 'business_information_systems' which touches upon Business Process Analyst interests. It is located in Hyderabad and has a good placement rate and salary.\n\nThis MBA Technology Management program addresses your interest in Business Process Analysis by focusing on IT management. It is located in Hyderabad, has a high placement rate, and offers a solid starting salary.\n\nThis MSc IT Management program is the most direct fit for your Business Process Analyst interest. It is located in Hyderabad, has low tuition costs (under budget), and provides foundational knowledge in IT management.",
+ "wall_s": 36.5
+}

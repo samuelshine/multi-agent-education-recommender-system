@@ -1,0 +1,54 @@
+{
+ "student_id": "ST0078",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a machine learning certification background. My overall academic average is 73.9% in an IT/computer-science degree. I'm interested in Computer Architecture and testing. I want to become a Business Intelligence Analyst. My family can afford at most about USD 1400 per year. I live in Coimbatore. I'm open to anywhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 73.9
+  },
+  "career_goal": "Business Intelligence Analyst",
+  "budget_max_usd_per_year": 1400,
+  "location_preference": null,
+  "mobility": "open_domestic",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in Computer Architecture and testing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0119",
+  "PR0053",
+  "PR0019",
+  "PR0114",
+  "PR0015",
+  "PR0020",
+  "PR0179",
+  "PR0193",
+  "PR0157",
+  "PR0074",
+  "PR0050",
+  "PR0125",
+  "PR0190",
+  "PR0080",
+  "PR0008",
+  "PR0142",
+  "PR0082",
+  "PR0052",
+  "PR0085",
+  "PR0066"
+ ],
+ "final_shortlist": [
+  "PR0157",
+  "PR0015",
+  "PR0020",
+  "PR0074",
+  "PR0193"
+ ],
+ "explanation": "This program is ideal because it directly addresses your career goal of becoming a Business Intelligence Analyst by focusing on 'business_information_systems' and 'it_management'. It is also located in Coimbatore, minimizing relocation stress, and its tuition fee ($800) is well within your budget.\n\nThis MSc Information Systems program focuses on 'business_information_systems', aligning perfectly with your goal of becoming a Business Intelligence Analyst. While the tuition ($1200) is acceptable, its location in Bengaluru offers excellent job prospects, which you prioritized highly.\n\nThe MBA Business Analytics program directly supports your goal of becoming a BI Analyst. Although the tuition ($1450) is near your limit, the focus on business analytics and its location in Delhi provides strong job market exposure, making it a high-value option.\n\nThis MTech Data Engineering program is highly relevant as data engineering skills are foundational for BI Analysts. It offers strong technical depth and is located in Hyderabad, a major tech hub known for good job opportunities.\n\nWhile this program focuses on QA testing (which you mentioned), it has an affordable tuition ($1200) and is located in Mumbai. It provides a solid technical foundation that can be supplemented with BI-specific certifications to pivot toward your desired career path.",
+ "wall_s": 53.2
+}

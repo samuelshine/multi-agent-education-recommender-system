@@ -1,0 +1,57 @@
+{
+ "student_id": "ST0035",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 82.2% in an IT/computer-science degree. I'm interested in Management and Business process analyst. I want to become a Database Administrator. My family can afford at most about USD 2800 per year. I live in Bengaluru. I cannot leave my city. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 82.2
+  },
+  "career_goal": "Database Administrator",
+  "budget_max_usd_per_year": 2800,
+  "location_preference": "Bengaluru",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in Management and Business process analyst"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0087",
+  "PR0015",
+  "PR0173",
+  "PR0198",
+  "PR0073",
+  "PR0002",
+  "PR0013",
+  "PR0085"
+ ],
+ "retrieved_ids": [
+  "PR0015",
+  "PR0173",
+  "PR0087",
+  "PR0013",
+  "PR0085",
+  "PR0198",
+  "PR0073"
+ ],
+ "proposed_shortlist": [
+  "PR0015",
+  "PR0087",
+  "PR0173",
+  "PR0073"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0173",
+  "PR0087",
+  "PR0013"
+ ],
+ "reflection_note": "The original shortlist was good but lacked diversity in focus. I dropped PR0015 because its potential salary/employability wasn't the strongest relative to cost. I kept PR0087 and PR0173 as they are the most direct, affordable, and relevant options for a DBA career goal (Data Science/Analytics). I swapped in PR0013 (MSc HCI) because it perfectly addresses the student's secondary interest in 'Management and Business process analyst' while remaining highly affordable and located correctly. This final list provides three distinct, high-quality paths: pure technical analytics (PR0173), business data focus (PR0087), and human/process interaction (PR0013).",
+ "explanation": "Longford Technical University\nThis program is recommended because it offers strong technical relevance through its focus on `data_science_analytics` and `software_engineering`, which are highly applicable to a career as a Database Administrator. The annual tuition of $500 fits comfortably within your maximum budget, and your 82.2% grade exceeds the minimum requirement. While this option provides excellent cost savings and high technical alignment, the main trade-off is accepting a moderate placement rate of 62%.\n\nAravalli Technical University\nThis program aligns strongly with both your DBA goal and your interest in Business process analysis by featuring `business_information_systems` alongside data analytics. The tuition of $1200 remains well within budget, and since you have an IT/CS background, the requirement for a CS degree is met. However, the main trade-off here is that this option has the lowest placement rate (58%) among the three choices.\n\nMeridian Institute of Technology\nThis program offers the highest employability metrics on the list, boasting a 77% placement rate and a median starting salary of $9186. Furthermore, its low tuition cost of $900 keeps it well within your budget constraints in Bengaluru. The main trade-off is that while this option provides superior career outcomes, its core focus on design/HCI deviates from your primary goal of becoming a Database Administrator.",
+ "wall_s": 187.7
+}

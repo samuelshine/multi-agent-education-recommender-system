@@ -1,0 +1,74 @@
+{
+ "student_id": "ST0085",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a app development certification background. My overall academic average is 73% in an IT/computer-science degree. I'm interested in IOT and Business process analyst. I want to become a Design & UX. My family can afford at most about USD 1300 per year. I live in Coimbatore. I'm open to anywhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 73
+  },
+  "career_goal": "Design & UX",
+  "budget_max_usd_per_year": 1300,
+  "location_preference": null,
+  "mobility": "open_domestic",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in IOT and Business process analyst"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0084",
+  "PR0015",
+  "PR0020",
+  "PR0013",
+  "PR0157",
+  "PR0181",
+  "PR0166",
+  "PR0074",
+  "PR0059",
+  "PR0049",
+  "PR0035",
+  "PR0087",
+  "PR0119",
+  "PR0058",
+  "PR0187",
+  "PR0053",
+  "PR0109",
+  "PR0076",
+  "PR0012",
+  "PR0019"
+ ],
+ "retrieved_ids": [
+  "PR0084",
+  "PR0013",
+  "PR0181",
+  "PR0166",
+  "PR0059",
+  "PR0049",
+  "PR0157",
+  "PR0015"
+ ],
+ "proposed_shortlist": [
+  "PR0157",
+  "PR0181",
+  "PR0013",
+  "PR0166",
+  "PR0084"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0157",
+  "PR0181",
+  "PR0013",
+  "PR0166",
+  "PR0084"
+ ],
+ "reflection_note": "All programs on the shortlist are valid and meet all hard constraints (budget: max $1300/year; academic fit: min grade 59% required vs. student's 73%; location: open domestic). The current ranking reflects a strong balance between career goals (Design & UX, IT Management), financial feasibility, and employability potential in major hubs like Bengaluru and Pune.",
+ "explanation": "Longford University\nThis program was recommended because its focus on IT Management aligns well with your interest in business process analysis and general IT systems. With an annual tuition of $800 USD, it fits comfortably within your budget constraint of $1300 per year. While the placement rate is 72%, this option provides a strong foundation in both IT and business processes, making it suitable if you are willing to prioritize the \"business process analyst\" track over pure UX design.\n\nKeystone Institute of Technology\nThis program is an excellent match for your primary career goal of Design & UX, as it specializes in Human-Computer Interaction (HCI). The annual tuition of $850 USD keeps it well within your budget, and its 73% placement rate suggests good employability. This option provides a direct path into design roles without requiring a CS background, making it highly accessible given your academic profile.\n\nMeridian Institute of Technology\nThis program is strongly recommended because its focus on Human-Computer Interaction directly addresses your Design & UX career goal. With an annual tuition of $900 USD, it remains within your budget while offering a high 77% placement rate and a median starting salary of $9186 USD. The main trade-off here is that the program is general HCI, rather than focusing specifically on IOT or business process analysis.\n\nMeridian Technical University\nThis option was highlighted because its MDes Interaction Design specialization provides the most focused training for your UX career goal. Although the annual tuition of $1200 USD uses a larger portion of your budget, it offers a strong median starting salary of $10095 USD and is highly relevant to design roles. The trade-off is that its tuition cost is higher compared to other HCI options on this list.\n\nHalcyon Technical University\nThis program is the top recommendation for maximizing employability in Design & UX while staying within budget. It offers a high 77% placement rate and the highest median starting salary ($11205 USD) among the listed HCI programs, all with an annual tuition of $900 USD. This option provides excellent career alignment without sacrificing financial feasibility or exceeding your stated budget constraints.",
+ "wall_s": 152.6
+}

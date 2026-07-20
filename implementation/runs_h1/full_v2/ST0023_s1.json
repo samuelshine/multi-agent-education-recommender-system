@@ -1,0 +1,75 @@
+{
+ "student_id": "ST0023",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 75.8% in an IT/computer-science degree. I'm interested in Software Engineering and cloud computing. I want to become a Data Architect. My family can afford at most about USD 9800 per year. I live in Hyderabad. I'm open to going abroad. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 75.8
+  },
+  "career_goal": "Data Architect",
+  "budget_max_usd_per_year": 9800,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "r programming certification background",
+   "interested in Software Engineering and cloud computing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0001",
+  "PR0194",
+  "PR0042",
+  "PR0186",
+  "PR0058",
+  "PR0043",
+  "PR0126",
+  "PR0026",
+  "PR0090",
+  "PR0145",
+  "PR0016",
+  "PR0107",
+  "PR0112",
+  "PR0063",
+  "PR0032",
+  "PR0173",
+  "PR0071",
+  "PR0051",
+  "PR0151",
+  "PR0037"
+ ],
+ "retrieved_ids": [
+  "PR0194",
+  "PR0042",
+  "PR0126",
+  "PR0151",
+  "PR0037",
+  "PR0016",
+  "PR0194",
+  "PR0043"
+ ],
+ "proposed_shortlist": [
+  "PR0194",
+  "PR0037",
+  "PR0126",
+  "PR0042",
+  "PR0043"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0194",
+  "PR0037",
+  "PR0126",
+  "PR0042",
+  "PR0043"
+ ],
+ "reflection_note": "The initial shortlist is strong and adheres to all hard constraints (budget, academic background). No entries need dropping. The ranking reflects the balance of career alignment (SE/Cloud), cost-effectiveness, and post-study work opportunities. PR0194 remains the top choice due to its combination of low cost, high salary potential, and ideal focus area in a desirable location.",
+ "explanation": "Aravalli School of Engineering\nThis MSc Cloud Computing program is highly recommended because it directly aligns with your stated interests in cloud computing and software engineering. The annual tuition of $1950 is well within your maximum budget of $9800, and your 75.8% grade exceeds the minimum requirement of 65%. While this option provides a strong post-study work visa of 18 months and a solid median starting salary of $30,651, the main trade-off is that it does not specifically focus on data analytics, which might be beneficial for your Data Architect goal.\n\nTejas School of Engineering\nThis MCA program was selected because it strongly emphasizes software engineering while remaining highly affordable at an annual tuition of $2650. It offers excellent employability metrics with a 72% placement rate and the highest median starting salary ($34,339) among all listed options. Since your background is in IT/CS, you meet the program's requirements, making this a strong fit for both your budget and career goals. There are no significant trade-offs here; it offers high value across affordability, placement, and salary potential.\n\nAshford Technical University\nThis MCA program is recommended because its curriculum includes data science analytics alongside software engineering, which directly supports your goal of becoming a Data Architect. At $2050 annually, the tuition fits comfortably within your budget constraints. The trade-off here is that while it offers good academic alignment and meets admission requirements, its median starting salary ($23,468) is lower compared to other options in Germany.\n\nAravalli Institute of Applied Sciences\nThis MSc Software Engineering program was chosen because it provides a strong focus on software engineering and has the most favorable post-study work visa duration at 36 months. Although the tuition of $10,800 approaches your maximum budget limit, this option offers significant long-term career mobility in Canada. The main trade-off is that its higher cost compared to the German options must be weighed against the substantial benefit of a longer post-graduation work visa.\n\nVantage Institute of Technology\nThis MSc Cloud Computing program aligns perfectly with your interests in cloud computing and software engineering, and it has an excellent 86% placement rate. Furthermore, the tuition is low at $3950, making it highly budget-friendly. However, the primary trade-off is that despite its high placement rate, the median starting salary ($11,981) is significantly lower than other international options, and there is no post-study work visa provided.",
+ "wall_s": 172.3
+}

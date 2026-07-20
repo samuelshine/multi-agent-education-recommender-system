@@ -1,0 +1,54 @@
+{
+ "student_id": "ST0066",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a full stack certification background. My overall academic average is 79.1% in an IT/computer-science degree. I'm interested in Software Engineering and system developer. I want to become a Database Developer. My family can afford at most about USD 10100 per year. I live in Kolkata. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 79.1
+  },
+  "career_goal": "Database Developer",
+  "budget_max_usd_per_year": 10100,
+  "location_preference": "Kolkata",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "full stack certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0097",
+  "PR0191",
+  "PR0143",
+  "PR0058",
+  "PR0007",
+  "PR0099",
+  "PR0026",
+  "PR0090",
+  "PR0120",
+  "PR0170",
+  "PR0145",
+  "PR0033",
+  "PR0107",
+  "PR0111",
+  "PR0134",
+  "PR0074",
+  "PR0129",
+  "PR0133",
+  "PR0063",
+  "PR0173"
+ ],
+ "final_shortlist": [
+  "PR0097",
+  "PR0090",
+  "PR0145",
+  "PR0026",
+  "PR0133"
+ ],
+ "explanation": "This program is located in Kolkata, meeting your strong preference to stay near home. It focuses on Data Engineering and has a high placement rate (95%) and median starting salary ($19658), which aligns perfectly with your priority of securing a good job after graduation.\n\nThis option is also in Kolkata and covers both Data Science and Software Engineering. While the placement rate (78%) and salary ($12316) are lower than PR0097, it remains a strong local choice that matches your interest in software development and data.\n\nLocated in Coimbatore, this MTech program is highly relevant as it covers both Data Science Analytics and Software Engineering. It requires a CS background (which you have) and offers a decent median starting salary ($10057), making it a solid option if you are willing to relocate within India.\n\nThis MTech Data Engineering program in Hyderabad is relevant to your career goals and has a good placement rate (81%). Although it requires no CS background, its combination of data science and software engineering fields makes it a strong contender for job prospects outside Kolkata.\n\nThis program is in Kolkata, satisfying your location preference. While the placement rate (63%) and salary ($7270) are lower than other options, it directly addresses your interest in Big Data Analytics and keeps you close to home.",
+ "wall_s": 67.7
+}

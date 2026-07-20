@@ -1,0 +1,66 @@
+{
+ "student_id": "ST0038",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a machine learning certification background. My overall academic average is 77.9% in an IT/computer-science degree. I'm interested in IOT and Business process analyst. I want to become a Network Security Engineer. My family can afford at most about USD 4500 per year. I live in Hyderabad. I cannot leave my city. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 77.9
+  },
+  "career_goal": "Network Security Engineer",
+  "budget_max_usd_per_year": 4500,
+  "location_preference": "Hyderabad",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in IOT",
+   "Interested in Business process analyst"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0074",
+  "PR0119",
+  "PR0176",
+  "PR0026",
+  "PR0076",
+  "PR0096",
+  "PR0167",
+  "PR0130",
+  "PR0113",
+  "PR0196",
+  "PR0111",
+  "PR0050",
+  "PR0159",
+  "PR0142"
+ ],
+ "retrieved_ids": [
+  "PR0096",
+  "PR0167",
+  "PR0074",
+  "PR0176",
+  "PR0130",
+  "PR0076",
+  "PR0119",
+  "PR0196"
+ ],
+ "proposed_shortlist": [
+  "PR0167",
+  "PR0096",
+  "PR0196"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0167",
+  "PR0096",
+  "PR0176",
+  "PR0074",
+  "PR0130"
+ ],
+ "reflection_note": "The original shortlist was good but lacked diversity in addressing the 'Business process analyst' interest. I dropped PR0196 as it is too generic. I swapped in PR0074 (Data Engineering) and PR0176 (MBA Technology Management) to better cover both the core security goal and the secondary business/process analysis interests, while maintaining strict adherence to budget and location constraints. I also added PR0130 (MSc IT Management) as a highly affordable, general management option to round out the top 5 list.",
+ "explanation": "**Charnock Institute of Technology**\nThis program is highly recommended because its focus on Cyber Security directly aligns with your career goal of becoming a Network Security Engineer. The annual tuition of $2450 USD fits well within your budget, and you meet the minimum grade requirement (69%). While it offers strong placement metrics (79% placement rate), the main trade-off is that this program does not specifically incorporate IoT or business process analysis into its core curriculum.\n\n**Ashford Institute of Applied Sciences**\nThis MTech Computer Networks program is an excellent fit for your goal, as networking and cybersecurity are foundational to a Network Security Engineer role. It maintains high employability metrics with an 80% placement rate and a median starting salary of $12,561 USD, all while keeping the tuition under budget at $3350 USD. The primary trade-off is that this program requires a Computer Science background, which you possess, but it is slightly more expensive than other security options on your list.\n\n**Crestwood University**\nThis MBA Technology Management option is recommended if you wish to pivot toward the Business Process Analyst side of your interests while maintaining high employability. It offers the highest placement rate (82%) and a strong median starting salary of $15,400 USD for only $1900 annual tuition. The main trade-off here is that this program focuses on IT Management rather than the deep technical specialization required for Network Security Engineering.\n\n**Charnock School of Engineering**\nThis MTech Data Engineering option is suitable if you are interested in exploring data analytics, which can support both IoT and business process roles. It has a very low tuition cost of $1550 USD and requires no specific CS background, making it highly accessible. However, the main trade-off is that its placement rate (68%) and median starting salary ($9,196) are lower compared to the more specialized security or management programs listed.\n\n**Elmhurst School of Engineering**\nThis MSc IT Management program provides a low-cost entry point into the field with an annual tuition of only $1000 USD, making it very budget-friendly. It aligns well with your interest in Business Process Analysis and offers decent placement metrics (77% rate). The main trade-off is that its focus on general IT Management means it provides less direct specialization toward Network Security Engineering compared to the other options.",
+ "wall_s": 199.3
+}

@@ -1,0 +1,32 @@
+{
+ "student_id": "ST0080",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 78.2
+    },
+    "career_goal": "Project Manager (in IOT and cloud computing)",
+    "budget_max_usd_per_year": 1300,
+    "location_preference": "Mumbai",
+    "mobility": "prefers_region",
+    "employability_priority": "high",
+    "other_constraints": [
+     "Strong preference to stay near home (Mumbai)",
+     "Open to other locations within India"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0114",
+    "PR0112",
+    "PR0130",
+    "PR0184",
+    "PR0185"
+   ],
+   "feedback": null
+  }
+ ]
+}

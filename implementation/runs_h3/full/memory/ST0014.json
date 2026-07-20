@@ -1,0 +1,101 @@
+{
+ "student_id": "ST0014",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 78.6
+    },
+    "career_goal": "Programmer Analyst",
+    "budget_max_usd_per_year": 7200,
+    "location_preference": null,
+    "mobility": "open_domestic",
+    "employability_priority": null,
+    "other_constraints": [
+     "Interested in hacking and cloud computing"
+    ],
+    "uncertainty_notes": [
+     "Location preference not stated.",
+     "Employability priority not stated."
+    ]
+   },
+   "final_shortlist": [
+    "PR0186",
+    "PR0147",
+    "PR0118",
+    "PR0102",
+    "PR0043"
+   ],
+   "feedback": null
+  },
+  {
+   "session": 2,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 78.6
+    },
+    "career_goal": "Programmer Analyst",
+    "budget_max_usd_per_year": 7200,
+    "location_preference": "Bengaluru",
+    "mobility": "prefers_region",
+    "employability_priority": null,
+    "other_constraints": [
+     "Interested in hacking and cloud computing"
+    ],
+    "uncertainty_notes": [
+     "Employability priority not stated."
+    ]
+   },
+   "final_shortlist": [
+    "PR0198",
+    "PR0096",
+    "PR0159",
+    "PR0186",
+    "PR0197"
+   ],
+   "feedback": {
+    "liked": [
+     "PR0186",
+     "PR0147"
+    ],
+    "disliked": []
+   }
+  },
+  {
+   "session": 3,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 78.6
+    },
+    "career_goal": "Programmer Analyst",
+    "budget_max_usd_per_year": 4300,
+    "location_preference": "Bengaluru",
+    "mobility": "prefers_region",
+    "employability_priority": "high",
+    "other_constraints": [
+     "Interested in hacking and cloud computing"
+    ],
+    "uncertainty_notes": [
+     "None."
+    ]
+   },
+   "final_shortlist": [
+    "PR0186",
+    "PR0096",
+    "PR0148",
+    "PR0180"
+   ],
+   "feedback": {
+    "liked": [
+     "PR0198",
+     "PR0096"
+    ],
+    "disliked": []
+   }
+  }
+ ]
+}

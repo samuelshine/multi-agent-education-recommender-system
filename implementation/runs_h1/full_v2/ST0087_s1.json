@@ -1,0 +1,75 @@
+{
+ "student_id": "ST0087",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 74.4% in an IT/computer-science degree. I'm interested in IOT and cloud computing. I want to become a Quality Assurance Associate. My family can afford at most about USD 5600 per year. I live in Kolkata. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 74.4
+  },
+  "career_goal": "Quality Assurance Associate",
+  "budget_max_usd_per_year": 5600,
+  "location_preference": "Kolkata",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "r programming certification background",
+   "interested in IOT and cloud computing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0186",
+  "PR0197",
+  "PR0043",
+  "PR0147",
+  "PR0096",
+  "PR0199",
+  "PR0118",
+  "PR0121",
+  "PR0148",
+  "PR0016",
+  "PR0102",
+  "PR0180",
+  "PR0162",
+  "PR0112",
+  "PR0159",
+  "PR0032",
+  "PR0184",
+  "PR0165",
+  "PR0164",
+  "PR0029"
+ ],
+ "retrieved_ids": [
+  "PR0032",
+  "PR0186",
+  "PR0197",
+  "PR0147",
+  "PR0165",
+  "PR0180",
+  "PR0159",
+  "PR0121"
+ ],
+ "proposed_shortlist": [
+  "PR0032",
+  "PR0180",
+  "PR0165",
+  "PR0197",
+  "PR0147"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0032",
+  "PR0180",
+  "PR0165",
+  "PR0197",
+  "PR0147"
+ ],
+ "reflection_note": "The initial shortlist is robust and adheres to all hard constraints (budget: max $5600/year; academic background: IT/CS degree, 74.4% grade). No entries were dropped because they met the financial criteria or offered significant value despite location compromises. The ranking order remains appropriate based on a balance of Location Fit (Kolkata > Pune), Financial Feasibility (PR0165 being best) and Employability. PR0032 is prioritized due to its perfect location match, followed by PR0180 for the secondary city option, and then the remaining options are ranked by their overall strength/tradeoff balance.",
+ "explanation": "Longford School of Engineering\nThis program is highly recommended because its location in Kolkata matches your stated preference, and the annual tuition of $1200 fits comfortably within your budget. Admission requirements are met since your 74.4% grade exceeds the minimum 55%, and the curriculum covers networking/cloud computing, aligning with your interests. The main trade-off here is that while it meets your location preference and budget constraints, its placement rate (61%) and median starting salary ($7871) are lower compared to other options.\n\nBraxton Institute of Technology\nThis option was recommended because it offers a strong balance between cost and career potential, with an annual tuition of $1250 that is well within your budget. You meet the admission requirement (min 61%) and the program focuses on networking/cloud computing, which aligns with your interests. The trade-off here is location; while its placement rate (71%) and median starting salary ($10359) are better than some options, it is located in Pune rather than Kolkata.\n\nWestbrook Institute of Technology\nThis school was recommended primarily because it offers the lowest tuition cost at $550 per year, making it an excellent fit for your budget constraints. You meet the admission requirement (min 54%), and the program focuses on cloud computing. However, the main trade-off is employability; while the tuition is low, its placement rate of 59% and median starting salary ($7845) are among the lowest in the shortlist.\n\nAshford Institute of Technology\nThis program was recommended because it offers the highest employability metrics, boasting an 85% placement rate and a high median starting salary of $13362. You meet the admission requirement (min 71%), and the curriculum covers networking/cloud computing. The main trade-off is cost; while your grade qualifies you for admission, its annual tuition of $3350 is significantly higher than other options on this list.\n\nFairfax Institute of Technology\nThis program was recommended due to its strong combination of high employability and a manageable budget fit, offering an 83% placement rate and a median starting salary of $13015. You meet the admission requirement (min 74%), and the curriculum aligns with your interest in cloud computing. The main trade-off is that while it offers excellent career outcomes, its annual tuition of $3200 is higher than some other options on this list.",
+ "wall_s": 130.9
+}

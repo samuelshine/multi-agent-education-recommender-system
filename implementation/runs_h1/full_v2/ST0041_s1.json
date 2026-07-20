@@ -1,0 +1,72 @@
+{
+ "student_id": "ST0041",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a hadoop certification background. My overall academic average is 81.8% in an IT/computer-science degree. I'm interested in parallel computing and testing. I want to become a Solutions Architect. My family can afford at most about USD 1500 per year. I live in Pune. I'm open to anywhere in India.",
+ "memory_used": false,
+ "fallbacks": [
+  "reflect"
+ ],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 81.8
+  },
+  "career_goal": "Solutions Architect",
+  "budget_max_usd_per_year": 1500,
+  "location_preference": "Pune",
+  "mobility": "prefers_region",
+  "employability_priority": null,
+  "other_constraints": [
+   "interested in parallel computing and testing",
+   "hadoop certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0119",
+  "PR0053",
+  "PR0019",
+  "PR0114",
+  "PR0179",
+  "PR0193",
+  "PR0050",
+  "PR0125",
+  "PR0190",
+  "PR0080",
+  "PR0008",
+  "PR0142",
+  "PR0082",
+  "PR0052",
+  "PR0085",
+  "PR0066",
+  "PR0064",
+  "PR0058",
+  "PR0187",
+  "PR0109"
+ ],
+ "retrieved_ids": [
+  "PR0019",
+  "PR0080",
+  "PR0190",
+  "PR0187"
+ ],
+ "proposed_shortlist": [
+  "PR0019",
+  "PR0080",
+  "PR0190",
+  "PR0187"
+ ],
+ "guard_dropped": [],
+ "backfilled": [],
+ "final_shortlist": [
+  "PR0019",
+  "PR0080",
+  "PR0190",
+  "PR0187"
+ ],
+ "reflection_note": "reflect fallback: kept proposal",
+ "explanation": "Ashford University\nThis program is highly recommended because its focus on Software Engineering aligns well with your goal of becoming a Solutions Architect, and it meets all your constraints by being located in Pune with an annual tuition of $1450. Your academic background (81.8%) exceeds the minimum requirement of 64%, and the placement rate of 84% suggests strong employability. The main trade-off here is that while the program offers excellent career outcomes, it does not specifically emphasize parallel computing or Hadoop certification, which were areas of interest.\n\nCrestwood Technical University\nThis option was recommended because its focus on Software Quality Engineering directly addresses your stated interest in testing, and the tuition ($1450) fits within your budget maximum while being located in Pune. Admission is straightforward as your grade (81.8%) exceeds the minimum requirement of 53%. The primary trade-off is that this specialization results in a lower median starting salary ($8071) and placement rate (62%) compared to other options, suggesting a more niche career path.\n\nKestrel School of Engineering\nThis program is recommended primarily because it offers the lowest tuition cost at $1250 while remaining within your budget and located in Pune. It also focuses on Software Quality Engineering, matching your interest in testing. The main trade-off for this low cost is that it presents the lowest placement rate (64%) and median starting salary ($7265) among all listed options.\n\nCavendish University\nThis program offers excellent career outcomes with an 87% placement rate and a high median starting salary of $12687, making it highly attractive for employability. It also meets your budget constraint at $1450 tuition in Pune, and your grade easily surpasses the minimum requirement of 72%. However, the main trade-off is that its focus on IT support is significantly less aligned with your long-term goal of becoming a Solutions Architect compared to the software engineering options.",
+ "wall_s": 125.3
+}

@@ -1,0 +1,70 @@
+{
+ "student_id": "ST0005",
+ "session": 2,
+ "mode": "no_memory",
+ "version": 1,
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 76.2% in an IT/computer-science degree. I'm interested in IOT and testing. I want to become a Software Systems Engineer. My family can afford at most about USD 10500 per year. I live in Mumbai. I'd strongly prefer to stay near home, though I might consider elsewhere in India. About the earlier suggestions: I liked PR0053, PR0186.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 76.2
+  },
+  "career_goal": "Software Systems Engineer",
+  "budget_max_usd_per_year": 10500,
+  "location_preference": "Mumbai",
+  "mobility": "prefers_region",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in IOT and testing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0198",
+  "PR0053",
+  "PR0065",
+  "PR0019",
+  "PR0008",
+  "PR0142",
+  "PR0082",
+  "PR0052",
+  "PR0085",
+  "PR0144",
+  "PR0139",
+  "PR0182",
+  "PR0191",
+  "PR0119",
+  "PR0101",
+  "PR0186",
+  "PR0058",
+  "PR0039",
+  "PR0158",
+  "PR0072"
+ ],
+ "retrieved_ids": [
+  "PR0065",
+  "PR0082",
+  "PR0186",
+  "PR0198",
+  "PR0119",
+  "PR0072"
+ ],
+ "proposed_shortlist": [
+  "PR0065",
+  "PR0082",
+  "PR0186",
+  "PR0119"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0065",
+  "PR0186",
+  "PR0119",
+  "PR0198"
+ ],
+ "reflection_note": "Dropped PR0082 due to poor career metrics. Swapped in PR0198 (Bengaluru) as a superior alternative to the original Rank 4, offering higher salary potential and excellent QA/SE focus while remaining within acceptable regional boundaries.",
+ "explanation": "Tejas Institute of Technology\nThis program is highly recommended because it is located in Mumbai, matching your location preference, and its annual tuition of $2450 fits comfortably within your budget. The curriculum covers both 'qa_testing' and 'software_engineering,' aligning well with your interests and career goals. Admission is accessible as it does not require a CS background, and the placement rate stands at 80%. The main trade-off here is that the median starting salary of $12291 is lower compared to some other options on this list.\n\nHalcyon Institute of Technology\nThis option provides strong career prospects with an 83% placement rate and a solid median starting salary of $15192, while its tuition remains affordable at $2050. Since you have an IT/CS background, the requirement for a CS degree is met, making it academically suitable. The primary trade-off is that the location is Pune, which deviates from your stated preference for Mumbai.\n\nMeridian Institute of Applied Sciences\nThis program offers the lowest tuition cost at $1200 and boasts a high placement rate of 86%, making it highly budget-friendly. It focuses specifically on 'qa_testing,' directly addressing one of your interests in testing. The main trade-off is that while affordable, this option only covers QA testing and does not provide the broader software engineering scope found in other recommended programs.\n\nNorthgate Institute of Technology\nThis program offers the highest placement rate (95%) and the best median starting salary ($21062), making it excellent for maximizing career potential. The curriculum is ideal, covering both 'qa_testing' and 'software_engineering.' However, the main trade-off is that its tuition at $3500 is the highest listed option, and the minimum required grade of 80% exceeds your current academic percentage.",
+ "wall_s": 245.6
+}

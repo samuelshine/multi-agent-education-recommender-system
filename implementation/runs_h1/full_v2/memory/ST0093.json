@@ -1,0 +1,31 @@
+{
+ "student_id": "ST0093",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 81.1
+    },
+    "career_goal": "Software Systems Engineer",
+    "budget_max_usd_per_year": 13400,
+    "location_preference": null,
+    "mobility": "open_domestic",
+    "employability_priority": null,
+    "other_constraints": [
+     "Interested in parallel computing and testing."
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0198",
+    "PR0144",
+    "PR0053",
+    "PR0065",
+    "PR0182"
+   ],
+   "feedback": null
+  }
+ ]
+}

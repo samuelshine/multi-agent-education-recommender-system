@@ -1,0 +1,65 @@
+{
+ "student_id": "ST0061",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 72.9% in an IT/computer-science degree. I'm interested in data engineering and testing. I want to become a E-Commerce Analyst. My family can afford at most about USD 1500 per year. I live in Pune. I cannot leave my city. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 72.9
+  },
+  "career_goal": "E-Commerce Analyst",
+  "budget_max_usd_per_year": 1500,
+  "location_preference": "Pune",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in data engineering and testing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0019",
+  "PR0025",
+  "PR0190",
+  "PR0080",
+  "PR0187",
+  "PR0084",
+  "PR0078",
+  "PR0181",
+  "PR0180",
+  "PR0045",
+  "PR0023",
+  "PR0156"
+ ],
+ "retrieved_ids": [
+  "PR0019",
+  "PR0190",
+  "PR0080",
+  "PR0187",
+  "PR0084",
+  "PR0181",
+  "PR0045",
+  "PR0023"
+ ],
+ "proposed_shortlist": [
+  "PR0190",
+  "PR0080",
+  "PR0084",
+  "PR0181",
+  "PR0023"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0084",
+  "PR0190",
+  "PR0023",
+  "PR0080",
+  "PR0181"
+ ],
+ "reflection_note": "The original shortlist was highly accurate and adhered to all hard constraints (Budget: Max $1500, Location: Pune). The ranking has been slightly adjusted based on the student's primary goal (E-Commerce Analyst) and secondary interests (Data Engineering/Testing).\n\n1. PR0084 (HCI): Remains Rank 1 due to its direct relevance to user experience in e-commerce, combined with low cost.\n2. PR0190 (QA Testing): Ranked second as it is a highly relevant technical skill and has strong placement potential.\n3. PR0023 (Cybersecurity): Ranked third because of its extremely low tuition cost ($650) while providing a valuable, complementary technical skill set (cybersecurity/data security).\n4. PR0080 (QA Testing): Remains a solid option for testing skills but is slightly less compelling than PR0190.\n5. PR0181 (HCI): Kept as the final alternative to PR0084, offering similar HCI benefits at a lower cost.",
+ "explanation": "Halcyon Technical University\nThis program was recommended because it meets your location preference in Pune and stays well within your maximum budget of $1500 USD per year with a tuition of only $900. It offers a high placement rate of 77% and a strong median starting salary of $11,205, addressing your priority for employability. The main trade-off here is that while the program has excellent career outcomes, its focus on Human-Computer Interaction (HCI) deviates from your stated interest in data engineering and testing.\n\nKestrel School of Engineering\nThis MSc Software Quality Engineering program directly aligns with your expressed interest in testing, making it a strong candidate for your goals. It remains within budget at $1250 USD annually and is located in Pune. The primary trade-off to consider is that while the curriculum matches your interests, its placement rate (64%) and median starting salary ($7,265) are among the lower options on this list.\n\nSilverline Technical University\nThis program was recommended primarily because it offers the lowest tuition cost at $650 USD, keeping you far under your annual budget constraint while remaining in Pune. It also provides a solid placement rate of 70% and an acceptable median starting salary of $8,376. The main trade-off is that its focus on Cyber Security does not directly align with your stated interests in data engineering or testing.\n\nCrestwood Technical University\nThis MSc Software Quality Engineering program aligns well with your interest in testing, making it a relevant choice for your career path. While the tuition of $1450 USD approaches your maximum budget limit, it offers a dedicated focus on QA Testing. The main trade-off is that this option has one of the lowest placement rates (62%) and median starting salaries ($8,071) among the recommended programs.\n\nKeystone Institute of Technology\nThis program was highly recommended because it provides the highest median starting salary ($9,715) and a strong 73% placement rate, which addresses your high employability priority. Furthermore, its tuition of $850 USD is well within your budget and located in Pune. The main trade-off to note is that like other HCI programs, this option focuses on design rather than the data engineering or testing areas you are most interested in.",
+ "wall_s": 216.3
+}

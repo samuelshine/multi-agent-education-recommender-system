@@ -1,0 +1,31 @@
+{
+ "student_id": "ST0074",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 78
+    },
+    "career_goal": "parallel computing and system developer (tech)",
+    "budget_max_usd_per_year": 16200,
+    "location_preference": null,
+    "mobility": "open_international",
+    "employability_priority": "high",
+    "other_constraints": [
+     "app development certification background"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0037",
+    "PR0161",
+    "PR0151",
+    "PR0021",
+    "PR0153"
+   ],
+   "feedback": null
+  }
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "student_id": "ST0011",
+ "session": 3,
+ "mode": "no_memory",
+ "version": 1,
+ "message": "Hi, I'm a student with a python certification background. My overall academic average is 81.4% in an IT/computer-science degree. I'm interested in Computer Architecture and security. I want to become a Software Systems Engineer. My family can afford at most about USD 5400 per year. I live in Pune. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else. About the earlier suggestions: I liked PR0144.",
+ "memory_used": false,
+ "fallbacks": [
+  "reflect"
+ ],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 81.4
+  },
+  "career_goal": "Software Systems Engineer",
+  "budget_max_usd_per_year": 5400,
+  "location_preference": "Pune",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in Computer Architecture and security"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0198",
+  "PR0144",
+  "PR0191",
+  "PR0101",
+  "PR0186",
+  "PR0058",
+  "PR0039",
+  "PR0053",
+  "PR0158",
+  "PR0054",
+  "PR0043",
+  "PR0109",
+  "PR0026",
+  "PR0076",
+  "PR0105",
+  "PR0012",
+  "PR0065",
+  "PR0019",
+  "PR0167",
+  "PR0090"
+ ],
+ "retrieved_ids": [
+  "PR0144",
+  "PR0158",
+  "PR0019"
+ ],
+ "proposed_shortlist": [
+  "PR0144",
+  "PR0158",
+  "PR0019"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0144",
+  "PR0158",
+  "PR0019"
+ ],
+ "reflection_note": "reflect fallback: kept proposal",
+ "explanation": "Tejas Technical University\nThis program is highly recommended because it aligns strongly with your goal of becoming a Software Systems Engineer while remaining within your budget constraints ($4800 annual tuition vs. $5400 max). It offers excellent employability, boasting a 93% placement rate and a median starting salary of $19239. The main trade-off here is that while the program focuses on software engineering, it does not specifically highlight Computer Architecture or security, which were areas you expressed interest in.\n\nAshford School of Engineering\nThis option is excellent if minimizing cost is your highest priority, as the annual tuition is only $1900, well under your budget. It is located in Pune and requires a minimum grade percentage (70%) that is lower than your academic background (81.4%). The trade-off to consider is that this program focuses on Interaction Design (HCI), which represents a shift away from the core Software Systems Engineering path you are targeting, despite being housed within the engineering school.\n\nAshford University\nThis program provides the lowest tuition cost ($1450) and meets your location preference in Pune, making it highly budget-friendly. It is directly relevant to software engineering and requires a minimum grade percentage (64%) that you easily exceed. The main trade-off is that while the cost is minimal, the median starting salary of $10285 and placement rate of 84% are lower compared to other options, potentially limiting your immediate earning potential as an engineer.",
+ "wall_s": 182.9
+}

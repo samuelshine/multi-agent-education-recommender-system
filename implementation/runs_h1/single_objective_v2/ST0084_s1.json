@@ -1,0 +1,72 @@
+{
+ "student_id": "ST0084",
+ "session": 1,
+ "mode": "single_objective",
+ "version": 2,
+ "message": "Hi, I'm a student with a distro making certification background. My overall academic average is 78.9% in an IT/computer-science degree. I'm interested in data engineering and developer. I want to become a Network Security Engineer. My family can afford at most about USD 1300 per year. I live in Pune. I'd strongly prefer to stay near home, though I might consider elsewhere in India.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 78.9
+  },
+  "career_goal": "Network Security Engineer",
+  "budget_max_usd_per_year": 1300,
+  "location_preference": "Pune",
+  "mobility": "prefers_region",
+  "employability_priority": null,
+  "other_constraints": [
+   "distro making certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0119",
+  "PR0058",
+  "PR0187",
+  "PR0053",
+  "PR0109",
+  "PR0076",
+  "PR0012",
+  "PR0019",
+  "PR0114",
+  "PR0185",
+  "PR0130",
+  "PR0084",
+  "PR0120",
+  "PR0170",
+  "PR0015",
+  "PR0020",
+  "PR0073",
+  "PR0171",
+  "PR0013",
+  "PR0118"
+ ],
+ "retrieved_ids": [
+  "PR0187",
+  "PR0019",
+  "PR0170",
+  "PR0185",
+  "PR0118",
+  "PR0073",
+  "PR0119"
+ ],
+ "proposed_shortlist": [
+  "PR0185",
+  "PR0118",
+  "PR0073",
+  "PR0187"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0185",
+  "PR0073",
+  "PR0170",
+  "PR0119",
+  "PR0019"
+ ],
+ "reflection_note": "The original shortlist contained one program (PR0118) that violated the budget constraint ($1500 > $1300). Additionally, PR0187 also violates the budget constraint ($1450 > $1300).\n\nAfter dropping invalid entries and re-evaluating all candidates against constraints:\n1. **Budget Constraint Check:** Only programs with tuition $\\le$ $1300 are valid (PR0185, PR0073, PR0170, PR0119).\n2. **Academic/Goal Fit:** The student has a CS background and aims for Network Security. We prioritize Cybersecurity/IT programs that fit the budget.\n\n**Dropped Entries:** PR0118 (Budget violation), PR0187 (Budget violation).\n\n**Swapped In Candidates (Valid & High Priority):**\n*   **PR0170 (MSc Big Data Analytics):** While not pure cybersecurity, it is a strong technical fit for an IT/CS background and meets the budget. It provides valuable data analysis skills often used in modern security operations.\n*   **PR0119 (MSc Software Quality Engineering):** A solid alternative focused on software development quality, which complements network engineering roles, and fits the budget.\n*   **PR0019 (MSc Software Engineering):** Although not directly cybersecurity, it is a strong CS program that meets the budget. It provides general software skills useful for security tooling/development.\n\n**Final Ranking Logic:** The list prioritizes dedicated Cybersecurity programs first (PR0185, PR0073), followed by other highly relevant and affordable technical fields (Data Analytics, Software Engineering/QA).",
+ "explanation": "Longford Institute of Technology\nThis program is highly recommended because its focus on \"Information Security\" aligns directly with your goal of becoming a Network Security Engineer, and the annual tuition of $1150 fits within your maximum budget. You meet the admission requirement as it accepts candidates with a CS background, and your 78.9% grade exceeds the minimum 62%. The main trade-off here is that while the program content is excellent for your career goal, its location in Kolkata does not match your preference for Pune or the surrounding region.\n\nElmhurst Technical University\nThis MTech Cyber Security program is a strong fit because it directly addresses your career goal and maintains an annual tuition of $1250, keeping you under budget. You meet the admission criteria as it requires a CS background, which you possess, and your grade exceeds the minimum 65%. The primary trade-off for this recommendation is that while the program content is ideal, its location in Bengaluru deviates from your stated preference for Pune.\n\nStanmore Institute of Applied Sciences\nThis option was recommended because it perfectly matches your maximum budget constraint at $1300/year and requires a CS background, which you have. While the field is \"Big Data Analytics\" rather than security, this program offers a strong median starting salary of $10429. The main trade-off here is that while the financial and academic requirements are met, the specialization in data analytics does not align with your core goal of Network Security Engineering.\n\nMeridian Institute of Applied Sciences\nThis program was recommended due to its excellent placement rate of 86% and a tuition cost of $1200, which keeps you comfortably under budget. Although the field is \"QA Testing\" rather than security, it offers flexibility as it does not require a CS background for admission. The main trade-off is that while this program provides strong employability metrics and fits your budget, its focus on software quality engineering deviates from your desired path in network security.\n\nAshford University\nThis institution was recommended because the location in Pune perfectly matches your stated preference, and you meet the minimum grade requirement of 64%. Furthermore, it offers a high placement rate of 84% for an MSc Software Engineering degree. The main trade-off is that this program's annual tuition of $1450 exceeds your maximum budget constraint of $1300 per year.",
+ "wall_s": 74.7
+}

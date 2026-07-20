@@ -1,0 +1,72 @@
+{
+ "student_id": "ST0029",
+ "session": 3,
+ "mode": "no_memory",
+ "version": 1,
+ "message": "Hi, I'm a student with a python certification background. My overall academic average is 81.2% in an IT/computer-science degree. I'm interested in IOT and Business process analyst. I want to become a Database Developer. My family can afford at most about USD 4100 per year. I live in Mumbai. I'm open to going abroad. About the earlier suggestions: I liked PR0000, PR0195.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 81.2
+  },
+  "career_goal": "Database Developer",
+  "budget_max_usd_per_year": 4100,
+  "location_preference": "Mumbai",
+  "mobility": "open_international",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in IOT and Business process analyst"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0051",
+  "PR0191",
+  "PR0128",
+  "PR0033",
+  "PR0074",
+  "PR0087",
+  "PR0000",
+  "PR0195",
+  "PR0153",
+  "PR0097",
+  "PR0137",
+  "PR0101",
+  "PR0143",
+  "PR0058",
+  "PR0007",
+  "PR0054",
+  "PR0126",
+  "PR0044",
+  "PR0099",
+  "PR0026"
+ ],
+ "retrieved_ids": [
+  "PR0143",
+  "PR0099",
+  "PR0191",
+  "PR0026",
+  "PR0074",
+  "PR0137",
+  "PR0044",
+  "PR0153"
+ ],
+ "proposed_shortlist": [
+  "PR0143",
+  "PR0099",
+  "PR0191"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0143",
+  "PR0099",
+  "PR0074",
+  "PR0026",
+  "PR0137"
+ ],
+ "reflection_note": "The initial shortlist was good but lacked diversity and included a program (PR0191) that was geographically suboptimal. I have dropped PR0191 and swapped in two strong alternatives: PR0074 for its exceptional low cost and relevance, and PR0026 as a high-end backup option. For the final list, I prioritized keeping the top Mumbai options (PR0143, PR0099). Since the student is open to international mobility but has strong local preferences, I added PR0137 (Munich) as a highly ranked 'dream' option that offers excellent post-study work visa opportunities and high salary potential, despite being far from Mumbai. This provides maximum strategic choice.",
+ "explanation": "Fairfax Technical University\nThis program was recommended because it is located in Mumbai, matching your location preference, and the annual tuition of $2750 fits within your budget. The curriculum covers Data Science Analytics, which aligns with both your Database Developer goal and your interest in Business Process Analysis. Given that you have an IT/CS background (81.2%), this program is a strong technical fit. The main trade-off here is the lack of any post-study work visa options, limiting international career mobility after graduation.\n\nMeridian School of Engineering\nThis option was suggested because it meets your criteria for location in Mumbai and has an annual tuition cost of $3150, keeping you within budget. Like Fairfax Technical University, this program focuses on Data Science Analytics, which is highly relevant to a Database Developer role. Since you have the required CS background, admission should be straightforward. The primary trade-off is that while it offers good local placement potential (83% rate), it does not provide any post-study work visa support.\n\nCharnock School of Engineering\nThis program was recommended due to its low annual tuition cost of $1550 and the fact that it does not require a CS background, offering flexibility. The inclusion of Business Information Systems is particularly beneficial as it aligns with your interest in Business Process Analysis. While located in Hyderabad rather than Mumbai, this option provides an excellent budget fit. Be aware that the main trade-off here is that the median starting salary ($9196) and placement rate (68%) are lower compared to other options.\n\nNorthgate Technical University\nThis program was suggested because its curriculum includes Data Science Analytics and Software Engineering, making it highly relevant for a Database Developer career path. It also does not require a CS background, providing flexibility while keeping the tuition cost ($3900) close to your maximum budget. While located in Hyderabad instead of Mumbai, this option offers a strong median starting salary of $13385. The main trade-off is that it requires a higher tuition investment compared to other programs and still lacks post-study work visa support.\n\nMeridian Institute of Technology\nThis program was recommended because it provides the best overall international career outcome, offering an 18-month post-study work visa period which supports your open international mobility goal. Furthermore, its focus on Business Information Systems directly addresses your interest in Business Process Analysis and results in a high median starting salary of $27229. The main trade-off is that it requires English proficiency and is located in Munich, Germany, deviating from your Mumbai preference.",
+ "wall_s": 217.3
+}

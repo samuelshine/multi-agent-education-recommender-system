@@ -1,0 +1,70 @@
+{
+ "student_id": "ST0094",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a python certification background. My overall academic average is 75.7% in an IT/computer-science degree. I'm interested in programming and developer. I want to become a Network Engineer. My family can afford at most about USD 3400 per year. I live in Hyderabad. I cannot leave my city.",
+ "memory_used": false,
+ "fallbacks": [
+  "reflect"
+ ],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 75.7
+  },
+  "career_goal": "Network Engineer",
+  "budget_max_usd_per_year": 3400,
+  "location_preference": "Hyderabad",
+  "mobility": "fixed_city",
+  "employability_priority": null,
+  "other_constraints": [
+   "programming and developer interest"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0119",
+  "PR0176",
+  "PR0026",
+  "PR0076",
+  "PR0096",
+  "PR0167",
+  "PR0130",
+  "PR0113",
+  "PR0196",
+  "PR0111",
+  "PR0074",
+  "PR0050",
+  "PR0159",
+  "PR0142"
+ ],
+ "retrieved_ids": [
+  "PR0096",
+  "PR0167",
+  "PR0119",
+  "PR0142",
+  "PR0076",
+  "PR0130",
+  "PR0159",
+  "PR0113"
+ ],
+ "proposed_shortlist": [
+  "PR0096",
+  "PR0167",
+  "PR0130",
+  "PR0159",
+  "PR0076"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0096",
+  "PR0167",
+  "PR0130",
+  "PR0159",
+  "PR0076"
+ ],
+ "reflection_note": "reflect fallback: kept proposal",
+ "explanation": "Ashford Institute of Applied Sciences\nThis program is highly recommended because its MTech Computer Networks specialization directly aligns with your goal of becoming a Network Engineer and includes relevant fields like \"networking_cloud.\" The annual tuition of $3350 USD fits within your maximum budget, and your academic background meets the minimum requirement (71%). The main trade-off here is that while it offers excellent career prospects\u2014including an 80% placement rate and a median salary of $12561\u2014it requires you to have a Computer Science background.\n\nCharnock Institute of Technology\nThis MTech Cyber Security program is a strong fit because its focus on \"software_engineering\" appeals to your interest in development, while the degree itself provides technical depth for networking roles. At an annual tuition of $2450 USD, it remains well within your budget constraints and does not require a CS background. The main trade-off you should consider is that the primary specialization is Cyber Security rather than pure Network Engineering, although its competitive median salary ($12765) makes up for this.\n\nElmhurst School of Engineering\nThis MSc IT Management program offers an extremely low annual tuition of $1000 USD and has a good placement rate of 77%. It is suitable because it does not require a CS background, making admission straightforward given your current qualifications. The main trade-off with this option is that the curriculum focuses heavily on \"it_management,\" which means you will be pursuing a management track rather than the deep technical skills needed for a core Network Engineer role.\n\nVantage Technical University\nThis PG Diploma in Systems Administration is highly affordable, costing only $700 USD annually and focusing on relevant fields like \"networking_cloud.\" It also meets your admission criteria as it does not require a CS background. The main trade-off with this program is the significantly lower median starting salary of $6514 compared to other options, which might limit your initial earning potential despite its low cost.\n\nSarayu Institute of Technology\nThis MBA Technology Management option offers the highest placement rate (81%) and a strong median salary of $13142 USD, making it financially appealing. The tuition is also affordable at $1250 USD, and it does not require a CS background. However, the main trade-off to consider is that this program is an MBA focused on \"it_management,\" meaning the curriculum will emphasize business strategy over the deep technical networking skills you are aiming for.",
+ "wall_s": 168.6
+}

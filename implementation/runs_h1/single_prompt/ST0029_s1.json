@@ -1,0 +1,54 @@
+{
+ "student_id": "ST0029",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a python certification background. My overall academic average is 81.2% in an IT/computer-science degree. I'm interested in IOT and Business process analyst. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 4100 per year. I live in Mumbai. I'm open to going abroad.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 81.2
+  },
+  "career_goal": "IOT and Business process analyst (tech field)",
+  "budget_max_usd_per_year": 4100,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": "medium",
+  "other_constraints": [
+   "Python certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0000",
+  "PR0195",
+  "PR0153",
+  "PR0051",
+  "PR0137",
+  "PR0191",
+  "PR0101",
+  "PR0054",
+  "PR0128",
+  "PR0044",
+  "PR0105",
+  "PR0015",
+  "PR0020",
+  "PR0033",
+  "PR0157",
+  "PR0047",
+  "PR0074",
+  "PR0172",
+  "PR0087",
+  "PR0021"
+ ],
+ "final_shortlist": [
+  "PR0000",
+  "PR0195",
+  "PR0153",
+  "PR0128",
+  "PR0044"
+ ],
+ "explanation": "This program in Munich offers a strong blend of IT Management and business information systems, aligning well with your interest in tech roles. The low tuition fee ($950) and high placement rate (91%) make it an excellent option within your budget while providing international experience.\n\nLocated in Aachen, this MSc Information Systems program is highly relevant to both IT and business analysis. With a very low tuition fee ($300) and manageable minimum grade requirement (72%), it provides a strong international option that fits comfortably within your financial constraints.\n\nThis MSc Human-Computer Interaction program in Munich is ideal if you want to combine tech skills with a focus on user experience and business systems. The low tuition ($550) and strong placement potential make it a viable international choice that suits your interest in technology.\n\nIf you prefer to stay in India while keeping costs low, this MBA Business Analytics program in Aachen (Germany) is a strong contender. Although it's listed as German, the tuition ($3800) and focus on business analytics make it relevant for your career goals, provided you are comfortable with the location.\n\nThis MSc Information Systems program in Munich offers a good balance of low cost ($2350) and relevance to business information systems. It is an international option that meets your budget while providing valuable experience in a major tech hub.",
+ "wall_s": 47.5
+}

@@ -1,0 +1,31 @@
+{
+ "student_id": "ST0079",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 77.7
+    },
+    "career_goal": "Data Architect",
+    "budget_max_usd_per_year": 7000,
+    "location_preference": null,
+    "mobility": "open_domestic",
+    "employability_priority": null,
+    "other_constraints": [
+     "Interested in Management and security"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0176",
+    "PR0164",
+    "PR0189",
+    "PR0092",
+    "PR0033"
+   ],
+   "feedback": null
+  }
+ ]
+}

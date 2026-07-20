@@ -1,0 +1,74 @@
+{
+ "student_id": "ST0068",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a full stack certification background. My overall academic average is 79.1% in an IT/computer-science degree. I'm interested in networks and cloud computing. I want to become a Applications Developer. My family can afford at most about USD 28400 per year. I live in Hyderabad. I'm open to going abroad.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 79.1
+  },
+  "career_goal": "Applications Developer",
+  "budget_max_usd_per_year": 28400,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in networks and cloud computing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0146",
+  "PR0094",
+  "PR0110",
+  "PR0005",
+  "PR0169",
+  "PR0127",
+  "PR0001",
+  "PR0194",
+  "PR0081",
+  "PR0042",
+  "PR0004",
+  "PR0186",
+  "PR0036",
+  "PR0197",
+  "PR0043",
+  "PR0147",
+  "PR0096",
+  "PR0199",
+  "PR0118",
+  "PR0121"
+ ],
+ "retrieved_ids": [
+  "PR0146",
+  "PR0005",
+  "PR0127",
+  "PR0001",
+  "PR0194",
+  "PR0042",
+  "PR0199",
+  "PR0036"
+ ],
+ "proposed_shortlist": [
+  "PR0146",
+  "PR0127",
+  "PR0005",
+  "PR0194",
+  "PR0042"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0146",
+  "PR0127",
+  "PR0005",
+  "PR0194",
+  "PR0042"
+ ],
+ "reflection_note": "The initial shortlist is excellent and adheres to all hard constraints. All five programs are highly relevant (networking/cloud), meet the CS background requirement, and fall well within the maximum budget of $28,400 USD per year. The ranking reflects a balance between location preference (Canada > Netherlands) and financial feasibility/employability. No changes were necessary.",
+ "explanation": "Fairfax Technical University\nThis program is recommended because it directly aligns with your interest in computer networks and offers a strong career path toward development roles. The annual tuition of $23,650 remains within your maximum budget, and the high median starting salary of $48,850 suggests excellent earning potential. Furthermore, you benefit from 36 months of post-study work visa time, which is highly advantageous for international mobility. The main trade-off here is that while the salary is high, the tuition cost is also the highest among the recommended options.\n\nAshford School of Engineering\nThis MSc Cloud Computing program is an excellent fit as it matches your interest in cloud computing and keeps the annual tuition at $21,500, which respects your budget limit. Graduates benefit from a strong 79% placement rate and are eligible for 36 months on a post-study work visa. The main trade-off is that while the salary ($35,137) is solid, it is not as high as some of the other options listed.\n\nBridgewater Technical University\nThis MTech Computer Networks program offers one of the most affordable tuition costs at $15,000 and boasts a very strong 87% placement rate. This combination makes it highly appealing for maximizing your budget while ensuring good employability. The primary trade-off to consider is that the post-study work visa period is limited to only 12 months compared to other institutions.\n\nAravalli School of Engineering\nThis MSc Cloud Computing program is recommended primarily because its annual tuition of $1,950 is exceptionally low and well within your budget. This makes it a highly cost-effective option for international study in Germany. The main trade-off is that the placement rate (67%) and median starting salary ($30,651) are lower compared to some other programs on this list.\n\nAravalli Institute of Applied Sciences\nThis MSc Software Engineering program is ideal because it aligns well with your goal as an Applications Developer while maintaining a very low annual tuition cost of $10,800. It also provides the maximum post-study work visa duration of 36 months in Canada. The main trade-off is that its median starting salary ($29,138) is among the lowest on this list compared to other options with similar visa benefits.",
+ "wall_s": 129.8
+}

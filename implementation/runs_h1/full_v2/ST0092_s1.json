@@ -1,0 +1,74 @@
+{
+ "student_id": "ST0092",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a full stack certification background. My overall academic average is 72.2% in an IT/computer-science degree. I'm interested in Computer Architecture and system developer. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 2400 per year. I live in Bengaluru. I'm open to anywhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 72.2
+  },
+  "career_goal": "Computer Architecture and system developer (Tech)",
+  "budget_max_usd_per_year": 2400,
+  "location_preference": "Bengaluru",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [],
+  "uncertainty_notes": [
+   "None"
+  ]
+ },
+ "prefilter_ids": [
+  "PR0182",
+  "PR0119",
+  "PR0101",
+  "PR0143",
+  "PR0186",
+  "PR0176",
+  "PR0058",
+  "PR0187",
+  "PR0039",
+  "PR0174",
+  "PR0053",
+  "PR0007",
+  "PR0158",
+  "PR0072",
+  "PR0054",
+  "PR0109",
+  "PR0076",
+  "PR0012",
+  "PR0065",
+  "PR0019"
+ ],
+ "retrieved_ids": [
+  "PR0186",
+  "PR0058",
+  "PR0109",
+  "PR0158",
+  "PR0012",
+  "PR0187",
+  "PR0182",
+  "PR0176"
+ ],
+ "proposed_shortlist": [
+  "PR0186",
+  "PR0109",
+  "PR0012",
+  "PR0187",
+  "PR0182"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0186",
+  "PR0109",
+  "PR0158",
+  "PR0187",
+  "PR0058"
+ ],
+ "reflection_note": "The original list was strong but contained two entries (PR0012 and PR0182) that were either geographically undesirable or academically misaligned with the core goal of Computer Architecture. I dropped both. To maintain a full shortlist, I swapped in PR0158 (Pune/Software Engineering focus) as it provides a much stronger technical alternative to PR0182. Furthermore, since PR0182 was dropped and PR0158 was swapped in, the final list needs 5 items. The best remaining valid candidate is PR0058 (MCA in Coimbatore), which offers strong academic fit and affordability, making it a solid backup option despite the location deviation.",
+ "explanation": "Halcyon Institute of Technology\nThis program is recommended because it aligns well with your technical background and career goal in system development, offering coursework in networking and software engineering. The annual tuition of $2050 USD fits within your budget, and the minimum required grade percentage (70%) is met by your academic standing. With a strong placement rate of 83% and a median starting salary of $15192 USD, it offers good employability in the Pune region. The main trade-off here is that while the program is highly relevant, its location is Pune rather than your preferred Bengaluru area.\n\nCrestwood Technical University\nThis option provides excellent value with an annual tuition cost of only $1550 USD and a strong focus on software engineering. It maintains high employability metrics, boasting an 82% placement rate and a median starting salary of $13300 USD. The main trade-off is that the minimum required grade percentage (73%) is slightly higher than your current academic standing (72.2%), requiring careful consideration for admission.\n\nAshford School of Engineering\nThis program offers a high placement rate of 84% and an annual tuition cost of $1900 USD, making it budget-friendly in the Pune region. While it includes software engineering, the primary focus on Interaction Design (design_hci) means that the curriculum may lean more toward user experience than deep computer architecture development. The main trade-off is that its core specialization might deviate from your goal of becoming a system developer focused on underlying technical architecture.\n\nCavendish University\nThis program boasts the highest placement rate in the shortlist at 87%, and its tuition ($1450 USD) is very low, making it highly budget-friendly. However, because its focus is specifically on IT support, it may not provide the advanced coursework necessary for a career goal centered on Computer Architecture. The main trade-off is that while employability is excellent, the program's scope might be too foundational compared to your desired senior technical role.\n\nStanmore School of Engineering\nThis MCA program is highly relevant to your goals, combining software engineering with data science analytics and offering a strong median starting salary of $14869 USD. The annual tuition of $1350 USD is the most affordable option listed, fitting well within your budget constraints. The main trade-off is that the minimum required grade percentage (74%) is slightly above your current academic standing (72.2%), which could pose an admission challenge.",
+ "wall_s": 140.3
+}

@@ -1,0 +1,72 @@
+{
+ "student_id": "ST0072",
+ "session": 1,
+ "mode": "single_objective",
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 80.3% in an IT/computer-science degree. I'm interested in IOT and system developer. I want to become a CRM Technical Developer. My family can afford at most about USD 3600 per year. I live in Bengaluru. I'm open to anywhere in India.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 80.3
+  },
+  "career_goal": "CRM Technical Developer",
+  "budget_max_usd_per_year": 3600,
+  "location_preference": "Bengaluru",
+  "mobility": "prefers_region",
+  "employability_priority": null,
+  "other_constraints": [
+   "r programming certification background",
+   "interested in IOT and system developer"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0117",
+  "PR0198",
+  "PR0097",
+  "PR0139",
+  "PR0164",
+  "PR0029",
+  "PR0022",
+  "PR0182",
+  "PR0060",
+  "PR0191",
+  "PR0119",
+  "PR0101",
+  "PR0143",
+  "PR0186",
+  "PR0176",
+  "PR0058",
+  "PR0149",
+  "PR0092",
+  "PR0187",
+  "PR0039"
+ ],
+ "retrieved_ids": [
+  "PR0198",
+  "PR0186",
+  "PR0176",
+  "PR0187",
+  "PR0119",
+  "PR0191",
+  "PR0143",
+  "PR0058"
+ ],
+ "proposed_shortlist": [
+  "PR0186",
+  "PR0198",
+  "PR0058",
+  "PR0143"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0198",
+  "PR0176",
+  "PR0119",
+  "PR0143"
+ ],
+ "reflection_note": "The original shortlist was heavily penalized for location mismatch (Pune, Coimbatore). I prioritized keeping PR0198 due to its perfect Bengaluru fit and strong technical relevance. I swapped in PR0176 (MBA) as a valuable business/management angle for CRM roles, and PR0119 (QA) as a highly affordable, relevant alternative in the preferred region. PR0143 remains because Data Science is still useful for CRM data integration, despite not being the primary focus.",
+ "explanation": "Northgate Institute of Technology\nThis program is highly recommended because its location in Bengaluru matches your stated preference, and it has a minimum grade requirement of 80%, which aligns perfectly with your academic background. The MSc Software Quality Engineering degree is relevant to system development roles, while the high placement rate of 95% offers strong career security. The main trade-off here is that the annual tuition of $3500 uses most of your maximum budget, but it provides a median starting salary of $21062.\n\nCrestwood University\nThis MBA Technology Management program was considered because its low annual tuition of $1900 keeps you well within your budget constraints. It is also located in Hyderabad, which falls within your preferred region of mobility. However, the main trade-off is that this degree focuses on IT management rather than the technical development or IoT system roles you expressed interest in.\n\nMeridian Institute of Applied Sciences\nThis program offers a strong balance between cost and relevance, making it an excellent fit for your budget with only $1200 in annual tuition. The MSc Software Quality Engineering field is highly applicable to developing systems, which aligns with your technical interests. The main trade-off is that while the placement rate of 86% is solid, the median starting salary of $14917 is lower compared to other options.\n\nFairfax Technical University\nThis program was recommended because it requires a Computer Science background, matching your academic degree, and its tuition of $2750 remains within budget. While the MSc Data Science field is technically strong, the main trade-off is that this focus may deviate from your specific goal of becoming a CRM Technical Developer or working with IoT systems.",
+ "wall_s": 101.6
+}

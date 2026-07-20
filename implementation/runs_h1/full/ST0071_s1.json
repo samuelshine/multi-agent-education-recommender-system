@@ -1,0 +1,73 @@
+{
+ "student_id": "ST0071",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a full stack certification background. My overall academic average is 77.7% in an IT/computer-science degree. I'm interested in Computer Architecture and developer. I want to become a Data Architect. My family can afford at most about USD 15600 per year. I live in Hyderabad. I'm open to going abroad. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 77.7
+  },
+  "career_goal": "Data Architect",
+  "budget_max_usd_per_year": 15600,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in Computer Architecture and developer roles"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0132",
+  "PR0051",
+  "PR0097",
+  "PR0103",
+  "PR0061",
+  "PR0191",
+  "PR0143",
+  "PR0058",
+  "PR0007",
+  "PR0140",
+  "PR0128",
+  "PR0126",
+  "PR0099",
+  "PR0026",
+  "PR0009",
+  "PR0062",
+  "PR0090",
+  "PR0120",
+  "PR0170",
+  "PR0145"
+ ],
+ "retrieved_ids": [
+  "PR0132",
+  "PR0140",
+  "PR0097",
+  "PR0126",
+  "PR0062",
+  "PR0128",
+  "PR0009",
+  "PR0061"
+ ],
+ "proposed_shortlist": [
+  "PR0132",
+  "PR0140",
+  "PR0126",
+  "PR0062",
+  "PR0009"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0126",
+  "PR0128",
+  "PR0062",
+  "PR0061",
+  "PR0009"
+ ],
+ "reflection_note": "The original shortlist was heavily weighted towards Data Science, which is good but lacks the 'Computer Architecture' and deep developer role focus requested. I dropped PR0132 due to budget tightness and PR0140 for lacking specialization depth. I swapped in two stronger candidates: PR0128 (Germany MBA/BIS) and PR0061 (Netherlands MIS). These additions broaden the profile, offering both highly technical (PR0126), business-tech hybrid (PR0128, PR0061), and budget options. I kept PR0009 as a fallback option despite its lower ranking in the original list, simply to maintain diversity of location/type, but the primary focus is now on the German and Netherlands options that better align with the Data Architect's need for both technical depth and market viability.",
+ "explanation": "Ashford Technical University\nThis program is recommended because it offers a strong technical focus with its MCA degree and explicitly requires a CS background, aligning perfectly with your academic history and interest in developer roles. Furthermore, the annual tuition of $2050 keeps you well within your budget maximum of $15600. The main trade-off here is that while the placement rate is 62%, it is not the highest on this list, though the generous 18-month post-study work visa significantly boosts long-term employability.\n\nBridgewater Technical University\nThis option was selected due to its high reported employability metrics, boasting a 72% placement rate and the highest median starting salary of $25,862 among the shortlisting programs. While the program's focus is on Information Systems rather than strictly CS architecture, it provides excellent career outcomes. The primary trade-off for this strong employment potential is that the tuition ($12,850) is significantly higher than the German options and the degree does not require a CS background.\n\nCavendish Technical University\nThis program is highly recommended because its MSc Data Science curriculum requires a CS background, making it an ideal technical fit for your academic profile and interest in architecture. The annual tuition of $10,450 is also very budget-friendly compared to the Netherlands' other options. However, the main trade-off is that while you meet the technical requirements, this program has the lowest median starting salary ($22,551) among the two Dutch options and a lower placement rate (60%).",
+ "wall_s": 300.0
+}

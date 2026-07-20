@@ -1,0 +1,55 @@
+{
+ "student_id": "ST0020",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a machine learning certification background. My overall academic average is 80.3% in an IT/computer-science degree. I'm interested in cloud computing and Business process analyst. I want to become a Systems Security Administrator. My family can afford at most about USD 17700 per year. I live in Pune. I'm open to going abroad. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 80.3
+  },
+  "career_goal": "Systems Security Administrator",
+  "budget_max_usd_per_year": 17700,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in cloud computing",
+   "Interested in Business process analyst"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0000",
+  "PR0195",
+  "PR0122",
+  "PR0005",
+  "PR0010",
+  "PR0169",
+  "PR0153",
+  "PR0163",
+  "PR0127",
+  "PR0051",
+  "PR0103",
+  "PR0077",
+  "PR0001",
+  "PR0194",
+  "PR0081",
+  "PR0123",
+  "PR0042",
+  "PR0061",
+  "PR0004",
+  "PR0138"
+ ],
+ "final_shortlist": [
+  "PR0000",
+  "PR0194",
+  "PR0051",
+  "PR0123",
+  "PR0169"
+ ],
+ "explanation": "This program in Germany offers a strong blend of IT Management and business information systems, aligning with your interest in Business Process Analysis. It has an excellent placement rate (91%) and a high median starting salary ($56k), making it ideal for maximizing job prospects while staying within your budget.\n\nThis MSc Cloud Computing program in Germany is highly relevant to your interest in cloud computing and requires a CS background, matching your qualifications. With low tuition ($1950) and strong post-study work visa options (18 months), it offers excellent value for job placement.\n\nThis MBA program in Germany focuses on Business Analytics, which is a good fit for your interest in business process analysis. It has low tuition ($3950) and a solid placement rate (77%), offering a strong balance of affordability and career focus.\n\nThis MBA Technology Management program in the UK covers IT management and business information systems, directly addressing your interest in Business Process Analysis. While tuition is higher, it offers a good placement rate (75%) and a strong post-study work visa of 24 months.\n\nThis MSc IT Operations program in the Netherlands is relevant to both cloud computing (networking/cloud) and systems administration. Although tuition is higher ($15750), it provides practical skills and a good placement rate (77%) for career advancement.",
+ "wall_s": 43.4
+}

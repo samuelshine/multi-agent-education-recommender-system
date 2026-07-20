@@ -1,0 +1,72 @@
+{
+ "student_id": "ST0002",
+ "session": 1,
+ "mode": "single_objective",
+ "message": "Hi, I'm a student with a hadoop certification background. My overall academic average is 80% in an IT/computer-science degree. I'm interested in Computer Architecture and developer. I want to become a Business Intelligence Analyst. My family can afford at most about USD 1700 per year. I live in Kolkata. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 80
+  },
+  "career_goal": "Business Intelligence Analyst",
+  "budget_max_usd_per_year": 1700,
+  "location_preference": "Kolkata",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "hadoop certification background",
+   "interested in Computer Architecture and developer"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0015",
+  "PR0020",
+  "PR0033",
+  "PR0157",
+  "PR0047",
+  "PR0074",
+  "PR0087",
+  "PR0164",
+  "PR0182",
+  "PR0119",
+  "PR0186",
+  "PR0176",
+  "PR0058",
+  "PR0187",
+  "PR0174",
+  "PR0053",
+  "PR0158",
+  "PR0109",
+  "PR0076",
+  "PR0012"
+ ],
+ "retrieved_ids": [
+  "PR0053",
+  "PR0119",
+  "PR0176",
+  "PR0187",
+  "PR0012",
+  "PR0186",
+  "PR0058",
+  "PR0174"
+ ],
+ "proposed_shortlist": [
+  "PR0058",
+  "PR0012",
+  "PR0176",
+  "PR0186"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0053",
+  "PR0012",
+  "PR0119",
+  "PR0058"
+ ],
+ "reflection_note": "Dropped PR0176 and PR0186 due to budget violations. Swapped in PR0053 (Kolkata, within budget) as a strong alternative for location preference. Kept PR0058 (best fit/data focus) and PR0012 (location match). Added PR0119 (regional option) to diversify the shortlist while maintaining financial feasibility.",
+ "explanation": "Cavendish University\nThis program is recommended because it meets your budget constraint with a low annual tuition of $1200 and is located in your preferred city of Kolkata. With an 86% placement rate, the high employability aligns well with your priorities, and the curriculum covers software engineering skills relevant to developer roles. The main trade-off here is that the median starting salary ($12855) is lower compared to some other options on this list.\n\nElmhurst University\nThis option was selected because it remains in Kolkata and requires a CS background, which matches your academic profile (IT/computer-science). The tuition of $1500 fits within your maximum budget, and the program focuses directly on software engineering skills. However, you should note that while the placement rate is strong at 79%, this option represents a trade-off in employability compared to Cavendish University's higher rate.\n\nMeridian Institute of Applied Sciences\nThis program offers an excellent combination of low cost ($1200) and high employability (86% placement rate), making it highly attractive for your career goals. Although the location is Hyderabad rather than Kolkata, this regional shift provides a strong median starting salary of $14917 while keeping tuition well under budget. The main trade-off here is the geographical move away from your preferred city to achieve better financial and employment metrics.\n\nStanmore School of Engineering\nThis program was recommended due to its direct relevance to Business Intelligence, as it includes Data Science Analytics alongside software engineering. While the location in Coimbatore is a significant departure from Kolkata, the curriculum strongly supports your career goal, and the tuition ($1350) remains within budget. The trade-off for this strong data focus is the distance from your preferred region.",
+ "wall_s": 141.5
+}

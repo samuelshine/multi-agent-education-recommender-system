@@ -1,0 +1,74 @@
+{
+ "student_id": "ST0016",
+ "session": 3,
+ "mode": "full",
+ "version": 1,
+ "message": "Hi, I'm a student with a full stack certification background. My overall academic average is 76.2% in an IT/computer-science degree. I'm interested in programming and system developer. I want to become a Technical Engineer. My family can afford at most about USD 4000 per year. I live in Mumbai. I'm open to going abroad. Getting a good job after graduation matters more to me than anything else. About the earlier suggestions: I liked PR0060, PR0029.",
+ "memory_used": true,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 76.2
+  },
+  "career_goal": "Technical Engineer (programming and system developer)",
+  "budget_max_usd_per_year": 4000,
+  "location_preference": "Mumbai",
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "full stack certification background"
+  ],
+  "uncertainty_notes": [
+   "None."
+  ]
+ },
+ "prefilter_ids": [
+  "PR0000",
+  "PR0195",
+  "PR0021",
+  "PR0153",
+  "PR0051",
+  "PR0037",
+  "PR0161",
+  "PR0198",
+  "PR0104",
+  "PR0144",
+  "PR0139",
+  "PR0194",
+  "PR0164",
+  "PR0029",
+  "PR0022",
+  "PR0137",
+  "PR0182",
+  "PR0060",
+  "PR0191",
+  "PR0119"
+ ],
+ "retrieved_ids": [
+  "PR0060",
+  "PR0195",
+  "PR0153",
+  "PR0194",
+  "PR0161",
+  "PR0137",
+  "PR0198",
+  "PR0164"
+ ],
+ "proposed_shortlist": [
+  "PR0060",
+  "PR0194",
+  "PR0161"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0198",
+  "PR0153",
+  "PR0195",
+  "PR0194",
+  "PR0164"
+ ],
+ "reflection_note": "The original shortlist was heavily weighted towards location (Mumbai) and general management skills, neglecting the student's core technical engineering goal. I dropped PR0060 for being too managerial. While PR0194 remains due to its strong technical fit, I prioritized swapping in three highly relevant German/Indian options (PR0198, PR0153, PR0195) that offer better alignment with 'Technical Engineer' goals and are financially sound. I also added PR0164 as a final backup option because it is located in Delhi (India), which is geographically closer to Mumbai than the other German options, while still offering an IT Management track.",
+ "explanation": "Northgate Institute of Technology\nThis program is recommended because it offers a highly technical focus on software engineering and boasts an excellent 95% placement rate, aligning well with your goal as a Technical Engineer. The annual tuition of $3500 fits within your budget, and the location in Bengaluru is ideal for someone preferring India. However, you must note that this program requires a minimum grade percentage of 80%, which exceeds your current academic background of 76.2%.\n\nKeystone University\nThis option is highly recommended because it provides an excellent balance between cost, career potential, and international mobility. The low annual tuition of $550 keeps you well under budget, while the generous 18-month post-study work visa significantly aids your goal of international employment. The main trade-off here is that the focus on Human-Computer Interaction (HCI) is more design-oriented than pure programming or system development.\n\nKeystone School of Engineering\nThis program offers the strongest overall package for achieving a high salary and securing long-term international opportunities while remaining budget-friendly. With an annual tuition of only $300, it easily meets your financial constraints, and the 18-month post-study work visa provides excellent career runway in Germany. The trade-off is that the curriculum focuses on Business Information Systems, which may be less purely technical than a dedicated programming role.\n\nAravalli School of Engineering\nThis program is recommended because it directly addresses your background by requiring a Computer Science degree and offering a highly relevant specialization in Cloud Computing. It provides an 18-month post-study work visa and keeps tuition within budget at $1950. The main trade-off, however, is that its placement rate (67%) is lower compared to the other international options listed.\n\nNorthgate School of Engineering\nWhile this program offers a high placement rate (90%) in India, it was not recommended because it deviates significantly from your core goal of becoming a Technical Engineer; instead, it focuses on management (MBA). Furthermore, you would violate the minimum grade requirement of 79% with your current academic standing.",
+ "wall_s": 233.0
+}

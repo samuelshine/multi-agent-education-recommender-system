@@ -1,0 +1,108 @@
+{
+ "student_id": "ST0024",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 76.1
+    },
+    "career_goal": "Applications Developer",
+    "budget_max_usd_per_year": null,
+    "location_preference": null,
+    "mobility": "open_domestic",
+    "employability_priority": null,
+    "other_constraints": [
+     "hadoop certification background",
+     "interested in hacking and developer"
+    ],
+    "uncertainty_notes": [
+     "Budget maximum per year not specified.",
+     "Location preference not specified.",
+     "Mobility preference not specified.",
+     "Employability priority not specified."
+    ]
+   },
+   "final_shortlist": [
+    "PR0058",
+    "PR0186",
+    "PR0182",
+    "PR0029"
+   ],
+   "feedback": null
+  },
+  {
+   "session": 2,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 76.1
+    },
+    "career_goal": "Applications Developer",
+    "budget_max_usd_per_year": 4800,
+    "location_preference": "Bengaluru",
+    "mobility": "prefers_region",
+    "employability_priority": null,
+    "other_constraints": [
+     "hadoop certification background",
+     "interested in hacking and developer"
+    ],
+    "uncertainty_notes": [
+     "Employability priority not specified."
+    ]
+   },
+   "final_shortlist": [
+    "PR0186",
+    "PR0198",
+    "PR0174",
+    "PR0182"
+   ],
+   "feedback": {
+    "liked": [
+     "PR0058",
+     "PR0186"
+    ],
+    "disliked": [
+     "PR0029"
+    ]
+   }
+  },
+  {
+   "session": 3,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 76.1
+    },
+    "career_goal": "Applications Developer",
+    "budget_max_usd_per_year": 2800,
+    "location_preference": "Bengaluru",
+    "mobility": "prefers_region",
+    "employability_priority": null,
+    "other_constraints": [
+     "hadoop certification background",
+     "interested in hacking and developer"
+    ],
+    "uncertainty_notes": [
+     "Employability priority not specified."
+    ]
+   },
+   "final_shortlist": [
+    "PR0186",
+    "PR0158",
+    "PR0182",
+    "PR0053"
+   ],
+   "feedback": {
+    "liked": [
+     "PR0186",
+     "PR0198"
+    ],
+    "disliked": [
+     "PR0174"
+    ]
+   }
+  }
+ ]
+}

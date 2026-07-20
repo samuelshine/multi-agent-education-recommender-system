@@ -1,0 +1,74 @@
+{
+ "student_id": "ST0003",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 81.6% in an IT/computer-science degree. I'm interested in data engineering and system developer. I want to become a Software Developer. My family can afford at most about USD 13200 per year. I live in Mumbai. I'm open to anywhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [
+  "reflect"
+ ],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 81.6
+  },
+  "career_goal": "Software Developer",
+  "budget_max_usd_per_year": 13200,
+  "location_preference": null,
+  "mobility": "open_domestic",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in data engineering and system developer roles",
+   "Has an information security certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0191",
+  "PR0058",
+  "PR0026",
+  "PR0090",
+  "PR0145",
+  "PR0033",
+  "PR0107",
+  "PR0074",
+  "PR0063",
+  "PR0173",
+  "PR0071",
+  "PR0087",
+  "PR0198",
+  "PR0097",
+  "PR0144",
+  "PR0101",
+  "PR0143",
+  "PR0186",
+  "PR0039",
+  "PR0053"
+ ],
+ "retrieved_ids": [
+  "PR0058",
+  "PR0145",
+  "PR0107",
+  "PR0144",
+  "PR0186",
+  "PR0143",
+  "PR0097",
+  "PR0101"
+ ],
+ "proposed_shortlist": [
+  "PR0097",
+  "PR0144",
+  "PR0186",
+  "PR0143"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0097",
+  "PR0144",
+  "PR0186",
+  "PR0143"
+ ],
+ "reflection_note": "reflect fallback: kept proposal",
+ "explanation": "Northgate Institute of Technology\nThis program is highly recommended because its MTech Data Engineering specialization directly aligns with your interest in data engineering roles. It offers a strong median starting salary of $19,658 and an excellent 95% placement rate, maximizing your employability priority. However, the main trade-off here is that while your current GPA (81.6%) is very close to the required minimum grade percentage of 82%, you must confirm eligibility for admission. The annual tuition of $3,800 remains well within your maximum budget.\n\nTejas Technical University\nThis MTech Computer Science program was selected because it offers a strong balance between high employability and meeting your academic profile. With an acceptable minimum grade requirement (81%) and a 93% placement rate, this option is highly suitable for your goal of becoming a Software Developer. The tuition of $4,800 keeps you comfortably under budget while providing a robust median starting salary of $19,239. The trade-off to consider is that the annual tuition is slightly higher than some other options on this list.\n\nHalcyon Institute of Technology\nThis MTech Computer Networks program was recommended due to its low cost and relevance to system development roles through its networking and cloud fields. At an annual tuition of only $2,050, it provides significant financial flexibility while still offering a solid foundation for your career goals. The main trade-off is that this option has the lowest median starting salary ($15,192) and placement rate (83%) compared to other programs on the shortlist.\n\nFairfax Technical University\nThis MSc Data Science program was chosen because it aligns with your interest in data engineering while maintaining a low annual tuition of $2,750. It is an accessible option given that its minimum grade requirement (72%) is easily met by your academic background. The trade-off here is balancing the lower median starting salary ($13,436) against the benefit of having one of the lowest overall costs on this list.",
+ "wall_s": 234.7
+}

@@ -1,0 +1,50 @@
+{
+ "student_id": "ST0077",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a machine learning certification background. My overall academic average is 82.3% in an IT/computer-science degree. I'm interested in IOT and testing. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 1700 per year. I live in Pune. I cannot leave my city. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 82.3
+  },
+  "career_goal": null,
+  "budget_max_usd_per_year": 1700,
+  "location_preference": "Pune",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "interest in IOT and testing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0182",
+  "PR0019",
+  "PR0190",
+  "PR0080",
+  "PR0186",
+  "PR0187",
+  "PR0158",
+  "PR0084",
+  "PR0078",
+  "PR0181",
+  "PR0046",
+  "PR0180",
+  "PR0045",
+  "PR0023",
+  "PR0025",
+  "PR0156"
+ ],
+ "final_shortlist": [
+  "PR0182",
+  "PR0019",
+  "PR0187",
+  "PR0045",
+  "PR0186"
+ ],
+ "explanation": "This MSc in Software Quality Engineering is highly relevant to your interest in testing and has a strong placement rate (91%) and median starting salary ($12,865), making it excellent for job prospects. Crucially, the tuition ($1,950) slightly exceeds your budget but offers the best combination of high employability and relevance.\n\nThis MSc Software Engineering program covers both QA testing and general software engineering, aligning with your background and interests. With a tuition fee of $1,450 (within budget) and solid placement metrics, it is a strong, safe choice focused on core tech skills.\n\nThe PG Diploma in Systems Administration focuses on IT support, which is a practical and stable career path. It meets your budget ($1,450) and offers good job security with a high placement rate (87%) and respectable starting salary.\n\nIf you are interested in the technical side of IT, this MSc Information Security program is an excellent fit. It stays within your budget ($1,450) and provides a specialized, high-demand skill set (cybersecurity), which is crucial for job placement.\n\nThis MTech Computer Networks program offers the highest median starting salary ($15,192) and a strong placement rate (83%), making it ideal for job focus. While its tuition ($2,050) is slightly over budget, its high earning potential makes it worth considering.",
+ "wall_s": 48.3
+}

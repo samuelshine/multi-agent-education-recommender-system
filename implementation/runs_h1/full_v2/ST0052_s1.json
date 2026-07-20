@@ -1,0 +1,73 @@
+{
+ "student_id": "ST0052",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 85% in an IT/computer-science degree. I'm interested in cloud computing and cloud computing. I want to become a Web Developer. My family can afford at most about USD 13100 per year. I live in Delhi. I'm open to going abroad. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 85
+  },
+  "career_goal": "Web Developer",
+  "budget_max_usd_per_year": 13100,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "r programming certification background",
+   "interested in cloud computing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0005",
+  "PR0169",
+  "PR0001",
+  "PR0194",
+  "PR0081",
+  "PR0042",
+  "PR0004",
+  "PR0186",
+  "PR0036",
+  "PR0197",
+  "PR0043",
+  "PR0147",
+  "PR0096",
+  "PR0199",
+  "PR0118",
+  "PR0121",
+  "PR0148",
+  "PR0016",
+  "PR0102",
+  "PR0180"
+ ],
+ "retrieved_ids": [
+  "PR0001",
+  "PR0194",
+  "PR0042",
+  "PR0004",
+  "PR0102",
+  "PR0180"
+ ],
+ "proposed_shortlist": [
+  "PR0194",
+  "PR0042",
+  "PR0001",
+  "PR0004",
+  "PR0102"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0194",
+  "PR0042",
+  "PR0001",
+  "PR0004",
+  "PR0180"
+ ],
+ "reflection_note": "The initial shortlist was strong, but PR0102 violates the implicit constraint of 'open international mobility' and lack of post-study options makes it a poor recommendation despite low cost. I dropped PR0102 and swapped in PR0180. Although PR0180 is also located in India, it provides a more specialized technical focus (Networking/Cloud) than the initial list's lowest ranked option, making it a better 'Plan C' backup while maintaining high relevance to the student's goals.",
+ "explanation": "Aravalli School of Engineering\nThis program is highly recommended due to its low annual tuition ($1950), which fits well within your budget, while offering a strong focus on Cloud Computing and Software Engineering. It requires a CS background, matching your academic profile, and provides an 18-month post-study work visa period for international mobility. The main trade-off here is that the salary potential ($30651) is slightly higher than some other options, but the visa duration is shorter compared to Canada's programs.\n\nAravalli Institute of Applied Sciences\nThis program aligns perfectly with your goals by focusing on Software Engineering and Cloud Computing while keeping tuition manageable at $10800. It requires a CS background, which matches your qualifications, and offers an excellent 36-month post-study work visa period, maximizing your international employability priority. The trade-off is that the median starting salary ($29138) is slightly lower than some other options on this list.\n\nMeridian University\nThis option was recommended because it boasts the highest placement rate (73%) and has a flexible admission requirement since it does not mandate a CS background, giving you maximum entry flexibility. The tuition of $11850 remains within your budget, and the program is highly relevant to Web Development through its Cloud Computing focus. Be aware that the main trade-off here is that the post-study work visa period is only 12 months, which is shorter than other international options.\n\nBraxton Technical University\nThis program provides a strong pathway into Cloud Computing with an excellent 36-month post-study work visa, maximizing your long-term career prospects in Canada. While its tuition ($13250) slightly exceeds your stated budget maximum of $13100, the high employability potential and relevant curriculum make it worth considering. The trade-off is that the cost marginally surpasses your defined financial limit.\n\nBraxton Institute of Technology\nThis program offers a very low annual tuition fee ($1250), making it extremely budget-friendly for immediate study. It also has a strong placement rate (71%) and focuses on networking, which supports cloud development skills. However, the main trade-off is that the median starting salary ($10359) is significantly lower than international options, and there is no post-study work visa period listed, limiting your long-term mobility goals.",
+ "wall_s": 118.1
+}

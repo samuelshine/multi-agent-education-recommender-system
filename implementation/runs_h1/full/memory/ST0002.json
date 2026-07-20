@@ -1,0 +1,30 @@
+{
+ "student_id": "ST0002",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 80
+    },
+    "career_goal": "Business Intelligence Analyst",
+    "budget_max_usd_per_year": 1700,
+    "location_preference": "Kolkata",
+    "mobility": "prefers_region",
+    "employability_priority": "high",
+    "other_constraints": [
+     "hadoop certification background",
+     "interested in Computer Architecture and developer"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0012",
+    "PR0058",
+    "PR0119"
+   ],
+   "feedback": null
+  }
+ ]
+}

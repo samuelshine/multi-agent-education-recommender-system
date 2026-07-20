@@ -1,0 +1,59 @@
+{
+ "student_id": "ST0043",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 77.3% in an IT/computer-science degree. I'm interested in Computer Architecture and cloud computing. I want to become a Data Architect. My family can afford at most about USD 2100 per year. I live in Bengaluru. I cannot leave my city. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 77.3
+  },
+  "career_goal": "Data Architect",
+  "budget_max_usd_per_year": 2100,
+  "location_preference": "Bengaluru",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in Computer Architecture and cloud computing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0173",
+  "PR0087",
+  "PR0015",
+  "PR0073",
+  "PR0002",
+  "PR0013",
+  "PR0085"
+ ],
+ "retrieved_ids": [
+  "PR0173",
+  "PR0087",
+  "PR0015",
+  "PR0073",
+  "PR0013",
+  "PR0085"
+ ],
+ "proposed_shortlist": [
+  "PR0087",
+  "PR0173",
+  "PR0073",
+  "PR0015",
+  "PR0013"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0087",
+  "PR0173",
+  "PR0085",
+  "PR0015",
+  "PR0013"
+ ],
+ "reflection_note": "The original list was strong, but PR0073 (Cyber Security) and PR0015 were ranked highly despite being less direct for a Data Architect goal. I swapped in PR0085 (Software Quality Engineering). This program is more technically aligned with the core skills needed for Data Architecture than Cyber Security or pure Business IS, while still maintaining good financial feasibility and location fit. The final list prioritizes technical depth (PR0087, PR0173, PR0085) followed by strong business/product context options (PR0015, PR0013).",
+ "explanation": "Aravalli Technical University\nThis program was recommended because its focus on `data_science_analytics` aligns well with your goal of becoming a Data Architect. It is located in Bengaluru and the annual tuition of $1200 falls within your budget constraint. However, while the curriculum is relevant, you must weigh the trade-off between subject fit and employability, as this program has a placement rate of 58%.\n\nLongford Technical University\nThis MTech Computer Science program was recommended due to its low annual tuition cost ($500) and strong technical fields like `data_science_analytics` and `software_engineering`. It is located in Bengaluru and meets your budget requirements. The main trade-off here is that while the cost is excellent, the placement rate of 62% is only moderate compared to other options on this list.\n\nKeystone Institute of Applied Sciences\nThis program was considered because it maintains a high placement rate (63%) and fits within your $2100 budget constraint in Bengaluru. While its focus on `qa_testing` and software engineering provides valuable skills, the primary trade-off is that the specialization deviates significantly from your stated interest in Data Architecture or Cloud Computing.\n\nKeystone Institute of Technology\nThis program was recommended because it offers the highest median starting salary ($9707) and a high placement rate (78%), addressing your priority for employability. The curriculum's focus on `business_information_systems` provides a strong bridge between technical skills and business needs, which is valuable for an Architect role. The trade-off is that its emphasis is more on general business systems rather than deep computer architecture or cloud computing.\n\nMeridian Institute of Technology\nThis program was recommended because it offers high employability metrics (77% placement rate) and a low tuition cost ($900), making it budget-friendly in Bengaluru. While the HCI focus is less aligned with your technical interests, its strong performance in both salary ($9186) and placement suggests excellent career outcomes. The main trade-off is that the specialization in Human-Computer Interaction moves away from your core interest areas of Data Architecture and Cloud Computing.",
+ "wall_s": 130.7
+}

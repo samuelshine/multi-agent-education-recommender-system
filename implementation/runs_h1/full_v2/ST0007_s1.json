@@ -1,0 +1,58 @@
+{
+ "student_id": "ST0007",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a shell programming certification background. My overall academic average is 75% in an IT/computer-science degree. I'm interested in data engineering and security. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 1100 per year. I live in Bengaluru. I cannot leave my city. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 75
+  },
+  "career_goal": null,
+  "budget_max_usd_per_year": 1100,
+  "location_preference": "Bengaluru",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "shell programming certification background",
+   "interested in data engineering and security"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0173",
+  "PR0087",
+  "PR0015",
+  "PR0073",
+  "PR0013"
+ ],
+ "retrieved_ids": [
+  "PR0173",
+  "PR0073",
+  "PR0087",
+  "PR0015"
+ ],
+ "proposed_shortlist": [
+  "PR0173",
+  "PR0073",
+  "PR0015",
+  "PR0087"
+ ],
+ "guard_dropped": [],
+ "backfilled": [
+  "PR0073",
+  "PR0087"
+ ],
+ "final_shortlist": [
+  "PR0173",
+  "PR0015",
+  "PR0073",
+  "PR0087"
+ ],
+ "reflection_note": "Two programs (PR0073, PR0087) were dropped due to exceeding the hard budget constraint ($1250 and $1200 respectively, vs. max $1100). A second review of PR0015 revealed it also violates the budget constraint ($1200 > $1100), so it must also be dropped. Only PR0173 remains valid based on hard constraints (Budget: $500 < $1100; Location: Bengaluru). Since only one program is valid, and we need 5, I cannot fulfill the requirement of providing a list of 5 programs without violating constraints or making assumptions about budget flexibility. I will keep PR0173 as the sole recommendation.",
+ "explanation": "Longford Technical University\nThis program is recommended because its low annual tuition of $500 USD keeps it well within your maximum budget of $1100 per year. It aligns with your interests in data science and software engineering while being located in Bengaluru, which matches your fixed city preference. The main trade-off here is that the placement rate (62%) is lower compared to other options on this list.\n\nKeystone Institute of Technology\nThis option was recommended because it offers a high placement rate (78%) and a strong median starting salary of $9707 USD, supporting your priority for employability. While its tuition ($1200) slightly exceeds your stated budget maximum, the program is highly accessible as it does not require a Computer Science background. The trade-off to consider is that its focus on business information systems may be less specialized in data engineering or security than other options.\n\nElmhurst Technical University\nThis MTech Cyber Security program directly addresses your interest in security and boasts an excellent placement rate of 80%. Since you have an IT/computer-science background, this program meets the requirement for a CS background while being located in Bengaluru. The main trade-off is that its annual tuition ($1250) slightly exceeds your $1100 budget constraint.\n\nAravalli Technical University\nThis MSc Data Science program directly matches your interest in data analytics and is situated in Bengaluru. It also meets the requirement for a CS background, which aligns with your academic history. However, you should note that this option has the lowest placement rate (58%) and median starting salary ($6767) among the shortlisted programs, making the trade-off between subject interest and employability metrics.",
+ "wall_s": 89.6
+}

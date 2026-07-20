@@ -1,0 +1,73 @@
+{
+ "student_id": "ST0097",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 75.8% in an IT/computer-science degree. I'm interested in Management and system developer. I want to become a Mobile Applications Developer. My family can afford at most about USD 5700 per year. I live in Coimbatore. I cannot leave my city.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 75.8
+  },
+  "career_goal": "Mobile Applications Developer",
+  "budget_max_usd_per_year": 5700,
+  "location_preference": "Coimbatore",
+  "mobility": "fixed_city",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in Management and system developer roles"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0157",
+  "PR0048",
+  "PR0101",
+  "PR0058",
+  "PR0039",
+  "PR0054",
+  "PR0043",
+  "PR0147",
+  "PR0105",
+  "PR0170",
+  "PR0145",
+  "PR0148",
+  "PR0033",
+  "PR0016",
+  "PR0014",
+  "PR0068",
+  "PR0166",
+  "PR0098",
+  "PR0134",
+  "PR0106"
+ ],
+ "retrieved_ids": [
+  "PR0157",
+  "PR0048",
+  "PR0101",
+  "PR0058",
+  "PR0039",
+  "PR0033",
+  "PR0016",
+  "PR0145"
+ ],
+ "proposed_shortlist": [
+  "PR0058",
+  "PR0101",
+  "PR0039",
+  "PR0145",
+  "PR0033"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0058",
+  "PR0101",
+  "PR0039",
+  "PR0145",
+  "PR0157"
+ ],
+ "reflection_note": "The original shortlist was strong, but PR0033 (MBA) is too weak on the core technical requirement. I have dropped it and swapped in PR0157 (MSc IT Management). PR0157 offers a more direct blend of IT management and business information systems than PR0033, making it a better fit for the 'Management' interest while maintaining high relevance to tech roles. The ranking order is adjusted to prioritize the most technically focused options first.",
+ "explanation": "Stanmore School of Engineering\nThis program is highly recommended because its focus on Software Engineering and Data Science aligns well with your goal of becoming a Mobile Applications Developer while also catering to system developer roles. You meet the admission requirements, as it requires a CS background and you have a 75.8% grade (above the 74% minimum). The annual tuition of $1350 is well within your budget, and it offers a strong placement rate of 83% with a median starting salary of $14,869. There are no major trade-offs here; this option provides a strong balance between technical depth and affordability.\n\nBraxton Institute of Applied Sciences\nThis program is an excellent fit if you want to emphasize the \"Management\" aspect of your career goals while maintaining high employability. The curriculum focuses on Business Information Systems, which supports both system developer and management roles, and it does not require a CS background. With a tuition cost of $2400, it remains within budget, and its 85% placement rate and median starting salary of $15,394 are among the highest listed options. The main trade-off is that its focus is more business-oriented than deeply technical, which might be slightly less aligned with pure mobile development coding skills.\n\nLongford Institute of Applied Sciences\nThis option is ideal because it combines Software Engineering with Human-Computer Interaction (HCI), giving you a unique blend of technical skill and design expertise crucial for modern mobile app development. The annual tuition of $2250 keeps you comfortably under budget, and the 85% placement rate suggests strong career outcomes. Since this program does not require a CS background, it offers flexibility in admission. The trade-off is that while HCI is valuable for user experience (UX), the curriculum's emphasis on design might mean less deep coding practice compared to pure computer science degrees.\n\nSilverline Technical University\nThis MTech program is highly technical and directly relevant to your goal of becoming a Mobile Applications Developer, as it covers Software Engineering and Data Science. You meet the admission criteria for this CS-focused degree, and the tuition cost of $2300 fits within your budget. However, you should note that while the curriculum is technically strong, the program has the lowest placement rate (75%) and median starting salary ($10,057) among all options, representing a trade-off between technical depth and immediate career outcomes.\n\nLongford University\nThis MSc IT Management degree directly addresses your interest in management roles while keeping costs extremely low at $800 per year. The curriculum focuses on Business Information Systems and IT Management, making it excellent for transitioning into system developer or managerial positions. While this is the most budget-friendly option by far, its lower placement rate (72%) and median starting salary ($10,444) represent a trade-off: you gain maximum flexibility and low cost but potentially sacrifice some immediate earning potential compared to other options.",
+ "wall_s": 251.2
+}

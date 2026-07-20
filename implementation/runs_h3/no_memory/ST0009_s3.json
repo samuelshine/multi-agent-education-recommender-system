@@ -1,0 +1,78 @@
+{
+ "student_id": "ST0009",
+ "session": 3,
+ "mode": "no_memory",
+ "version": 1,
+ "message": "Hi, I'm a student with a app development certification background. My overall academic average is 72.6% in an IT/computer-science degree. I'm interested in hacking and Business process analyst. I want to become a Network Security Engineer. My family can afford at most about USD 4000 per year. I live in Delhi. I'd strongly prefer to stay near home, though I might consider elsewhere in India. About the earlier suggestions: I liked PR0186, PR0020 but please drop PR0176, PR0182.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 72.6
+  },
+  "career_goal": "Network Security Engineer",
+  "budget_max_usd_per_year": 4000,
+  "location_preference": "Delhi",
+  "mobility": "prefers_region",
+  "employability_priority": "medium",
+  "other_constraints": [
+   "Interested in hacking",
+   "Interested in Business process analyst",
+   "Dislike PR0176",
+   "Dislike PR0182"
+  ],
+  "uncertainty_notes": [
+   "No explicit statement on employability priority.",
+   "No specific academic background details beyond certification and degree/grade provided."
+  ]
+ },
+ "prefilter_ids": [
+  "PR0191",
+  "PR0101",
+  "PR0054",
+  "PR0105",
+  "PR0015",
+  "PR0020",
+  "PR0033",
+  "PR0157",
+  "PR0047",
+  "PR0074",
+  "PR0172",
+  "PR0087",
+  "PR0029",
+  "PR0022",
+  "PR0182",
+  "PR0060",
+  "PR0119",
+  "PR0143",
+  "PR0186",
+  "PR0176"
+ ],
+ "retrieved_ids": [
+  "PR0020",
+  "PR0186",
+  "PR0191",
+  "PR0143",
+  "PR0029",
+  "PR0172",
+  "PR0157",
+  "PR0060"
+ ],
+ "proposed_shortlist": [
+  "PR0020",
+  "PR0157",
+  "PR0172"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0029",
+  "PR0186",
+  "PR0060",
+  "PR0143",
+  "PR0191"
+ ],
+ "reflection_note": "The original shortlist was too focused on general IT Management/MBA programs, which fail to meet the student's core technical goal (Network Security Engineer) or interest in hacking. The revisions prioritize specialized security and networking degrees (PR0029, PR0186). I have included PR0143 and PR0191 as strong data science alternatives since they offer high placement rates and are technically rigorous, providing good backup options if pure security roles prove too competitive or expensive. All selected programs meet the budget constraint (<$4000/year) and provide a much stronger alignment with the student's technical background and career aspirations.",
+ "explanation": "Vantage Technical University\nThis program is highly recommended because its focus on \"cybersecurity\" directly aligns with your goal of becoming a Network Security Engineer. While the annual tuition of $3800 remains within your maximum budget of $4000, you should note that your current grade percentage (72.6%) falls slightly below the minimum requirement of 75%. The main trade-off here is the strong career alignment versus the academic hurdle presented by the minimum required grade.\n\nHalcyon Institute of Technology\nThis MTech program is an excellent fit for your networking goals, as it focuses on \"networking_cloud\" and has a low annual tuition of $2050, keeping you well under budget. Furthermore, your 72.6% academic background meets the minimum requirement of 70%, making admission feasible. The main trade-off is that while it perfectly matches your networking interest, it does not explicitly cover \"cybersecurity\" or hacking topics as directly as a dedicated security program might.\n\nQuilon Technical University\nThis MSc IT Management program was recommended because its focus on \"it_management\" aligns with your secondary interest in being a Business Process Analyst. It is also budget-friendly at $3650 and does not require a CS background, which lowers the academic barrier to entry for you. The main trade-off is that while it meets your business interests and stays within budget, its focus on general IT management is less specialized than core networking or security roles.\n\nFairfax Technical University\nThis MSc Data Science program was recommended because it successfully navigates your academic constraints; your 72.6% grade exceeds the minimum requirement of 72%, and the tuition ($2750) is well within budget. While this field does not directly relate to Network Security, it provides a strong analytical foundation that could support future roles in security analysis. The main trade-off is that while academically sound and affordable, the focus on \"data_science_analytics\" deviates significantly from your primary career goal of Network Security Engineer.\n\nSarayu Technical University\nThis MTech Data Engineering program was recommended because it aligns with your interest in business processes and meets both your budget ($3250) and academic requirements (your 72.6% exceeds the minimum 71%). This option provides a strong technical foundation while keeping costs low. The main trade-off is that like the Fairfax program, its focus on data engineering moves away from core networking or security topics, making it less direct for your stated career goal.",
+ "wall_s": 286.4
+}

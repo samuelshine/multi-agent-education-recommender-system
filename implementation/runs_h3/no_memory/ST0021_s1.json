@@ -1,0 +1,79 @@
+{
+ "student_id": "ST0021",
+ "session": 1,
+ "mode": "no_memory",
+ "version": 1,
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 73.3% in an IT/computer-science degree. I'm interested in parallel computing and Business process analyst. I want to become a Technical Engineer.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 73.3
+  },
+  "career_goal": "Technical Engineer",
+  "budget_max_usd_per_year": null,
+  "location_preference": null,
+  "mobility": "open_domestic",
+  "employability_priority": null,
+  "other_constraints": [
+   "r programming certification background",
+   "interested in parallel computing",
+   "interested in Business process analyst"
+  ],
+  "uncertainty_notes": [
+   "budget maximum per year not specified",
+   "location preference not specified",
+   "mobility preference not specified",
+   "employability priority not specified"
+  ]
+ },
+ "prefilter_ids": [
+  "PR0191",
+  "PR0101",
+  "PR0054",
+  "PR0105",
+  "PR0015",
+  "PR0020",
+  "PR0033",
+  "PR0157",
+  "PR0047",
+  "PR0074",
+  "PR0172",
+  "PR0087",
+  "PR0029",
+  "PR0022",
+  "PR0182",
+  "PR0060",
+  "PR0119",
+  "PR0143",
+  "PR0186",
+  "PR0176"
+ ],
+ "retrieved_ids": [
+  "PR0191",
+  "PR0143",
+  "PR0186",
+  "PR0074",
+  "PR0087",
+  "PR0176",
+  "PR0157",
+  "PR0119"
+ ],
+ "proposed_shortlist": [
+  "PR0186",
+  "PR0143",
+  "PR0191",
+  "PR0119"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0186",
+  "PR0143",
+  "PR0119",
+  "PR0087"
+ ],
+ "reflection_note": "The initial shortlist was strong, but PR0191 was redundant given the superior technical focus and location of PR0186. I dropped it. I swapped in PR0087 because Bengaluru is a critical market to consider for a Technical Engineer goal, even if its placement rate score was lower than others. The final list prioritizes top-tier tech hubs (Pune, Mumbai, Bengaluru) with strong technical relevance.",
+ "explanation": "Halcyon Institute of Technology\nThis program is recommended because its focus on networking and cloud aligns well with a Technical Engineer career goal, building upon your existing IT/computer-science background. With an annual tuition of $2050 and a placement rate of 83%, it offers strong industry exposure in Pune. The main trade-off here is that while the curriculum covers software engineering, its primary focus may not directly address your interest in Business Process Analyst roles as deeply as other options.\n\nFairfax Technical University\nThis program was selected because its MSc Data Science specialization provides a robust technical foundation relevant to both data analytics and business process analysis interests. You meet the minimum grade requirement (72%) with your 73.3% background, and it boasts an excellent placement rate of 87%. The main trade-off is that this option has the highest annual tuition ($2750) among the shortlisted programs.\n\nMeridian Institute of Applied Sciences\nThis program offers a highly accessible entry point into technical roles with very low costs, featuring only $1200 in annual tuition and an 86% placement rate. Its focus on software quality engineering is excellent for developing core technical skills needed as an engineer. The main trade-off is that while it meets your academic requirements, its specific concentration on QA testing may limit exposure to advanced topics like parallel computing or deep data science analytics.\n\nAravalli Technical University\nThis option was considered because the tuition ($1200) is very low and the minimum grade requirement (52%) is easily met by your 73.3% background. However, due to its significantly lower placement rate of 58% and median starting salary of $6767, it presents a major trade-off regarding career outcomes compared to the other options.",
+ "wall_s": 0.0
+}

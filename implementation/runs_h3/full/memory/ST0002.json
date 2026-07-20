@@ -1,0 +1,108 @@
+{
+ "student_id": "ST0002",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 80
+    },
+    "career_goal": "Business Intelligence Analyst",
+    "budget_max_usd_per_year": null,
+    "location_preference": null,
+    "mobility": "open_domestic",
+    "employability_priority": null,
+    "other_constraints": [
+     "hadoop certification background",
+     "interested in Computer Architecture and developer"
+    ],
+    "uncertainty_notes": [
+     "budget_max_usd_per_year is unknown.",
+     "location preference is unknown.",
+     "mobility preference is unknown (defaulting to open_domestic).",
+     "employability priority is unknown."
+    ]
+   },
+   "final_shortlist": [
+    "PR0198",
+    "PR0074",
+    "PR0191",
+    "PR0097",
+    "PR0144"
+   ],
+   "feedback": null
+  },
+  {
+   "session": 2,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 80
+    },
+    "career_goal": "Business Intelligence Analyst",
+    "budget_max_usd_per_year": 1700,
+    "location_preference": "Kolkata",
+    "mobility": "fixed_city",
+    "employability_priority": null,
+    "other_constraints": [
+     "hadoop certification background",
+     "interested in Computer Architecture and developer"
+    ],
+    "uncertainty_notes": [
+     "employability priority is unknown."
+    ]
+   },
+   "final_shortlist": [
+    "PR0133",
+    "PR0129",
+    "PR0053",
+    "PR0012"
+   ],
+   "feedback": {
+    "liked": [
+     "PR0074"
+    ],
+    "disliked": [
+     "PR0198",
+     "PR0191"
+    ]
+   }
+  },
+  {
+   "session": 3,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 80
+    },
+    "career_goal": "Business Intelligence Analyst",
+    "budget_max_usd_per_year": 1000,
+    "location_preference": "Kolkata",
+    "mobility": "prefers_region",
+    "employability_priority": "high",
+    "other_constraints": [
+     "hadoop certification background",
+     "interested in Computer Architecture and developer"
+    ],
+    "uncertainty_notes": [
+     "The student previously stated 'fixed_city' but now indicates a preference to stay near home, allowing for consideration of other places in India. The mobility has been updated to 'prefers_region'.",
+     "The student explicitly states that getting a good job after graduation matters more than anything else, updating the employability priority from null."
+    ]
+   },
+   "final_shortlist": [
+    "PR0130",
+    "PR0111",
+    "PR0185",
+    "PR0053"
+   ],
+   "feedback": {
+    "liked": [
+     "PR0133",
+     "PR0129"
+    ],
+    "disliked": []
+   }
+  }
+ ]
+}

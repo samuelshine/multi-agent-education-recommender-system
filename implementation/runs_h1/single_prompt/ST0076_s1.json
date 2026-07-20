@@ -1,0 +1,54 @@
+{
+ "student_id": "ST0076",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a python certification background. My overall academic average is 80.2% in an IT/computer-science degree. I'm interested in Computer Architecture and testing. I want to become a CRM Business Analyst. My family can afford at most about USD 1300 per year. I live in Pune. I'm open to anywhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 80.2
+  },
+  "career_goal": "CRM Business Analyst",
+  "budget_max_usd_per_year": 1300,
+  "location_preference": "Pune",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in Computer Architecture and testing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0119",
+  "PR0053",
+  "PR0019",
+  "PR0114",
+  "PR0015",
+  "PR0020",
+  "PR0193",
+  "PR0157",
+  "PR0074",
+  "PR0050",
+  "PR0125",
+  "PR0190",
+  "PR0080",
+  "PR0008",
+  "PR0142",
+  "PR0082",
+  "PR0052",
+  "PR0085",
+  "PR0066",
+  "PR0064"
+ ],
+ "final_shortlist": [
+  "PR0119",
+  "PR0053",
+  "PR0142",
+  "PR0157",
+  "PR0015"
+ ],
+ "explanation": "This program is highly relevant as it focuses on Software Quality Engineering (QA Testing), which aligns with your interest in testing. It has a strong placement rate (86%) and a high median starting salary ($14,917), maximizing your goal of securing a good job.\n\nSimilar to PR0119, this program offers MSc Software Quality Engineering and strong placement metrics (86% rate). It is located in Kolkata, which is open to you, and the tuition ($1200) fits within your budget.\n\nThis MSc Software Quality Engineering program in Hyderabad directly addresses your interest in testing. While its salary and placement rate are lower than the top picks, it is highly affordable ($700) and meets all your financial constraints.\n\nThis MSc IT Management program focuses on business information systems, which is the closest available field to becoming a CRM Business Analyst. Its low tuition ($800) and location in Coimbatore make it an excellent budget-friendly option.\n\nThis MSc Information Systems program is suitable for your goal of becoming a Business Analyst, as it focuses on business information systems. It is located in Bengaluru and has a manageable tuition fee ($1200), making it a strong contender.",
+ "wall_s": 50.4
+}

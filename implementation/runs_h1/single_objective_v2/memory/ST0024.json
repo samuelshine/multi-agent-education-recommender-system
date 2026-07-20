@@ -1,0 +1,32 @@
+{
+ "student_id": "ST0024",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 76.1
+    },
+    "career_goal": "Applications Developer",
+    "budget_max_usd_per_year": 4800,
+    "location_preference": "Bengaluru",
+    "mobility": "prefers_region",
+    "employability_priority": null,
+    "other_constraints": [
+     "Hadoop certification background",
+     "Interested in hacking and developer"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0186",
+    "PR0198",
+    "PR0029",
+    "PR0039",
+    "PR0191"
+   ],
+   "feedback": null
+  }
+ ]
+}

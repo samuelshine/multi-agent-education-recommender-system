@@ -1,0 +1,72 @@
+{
+ "student_id": "ST0020",
+ "session": 3,
+ "mode": "full",
+ "version": 1,
+ "message": "Hi, I'm a student with a machine learning certification background. My overall academic average is 80.3% in an IT/computer-science degree. I'm interested in cloud computing and Business process analyst. I want to become a Systems Security Administrator. My family can afford at most about USD 17700 per year. I live in Pune. I'm open to going abroad. Getting a good job after graduation matters more to me than anything else. About the earlier suggestions: I liked PR0194, PR0001.",
+ "memory_used": true,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 80.3
+  },
+  "career_goal": "Systems Security Administrator",
+  "budget_max_usd_per_year": 17700,
+  "location_preference": "Pune",
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in cloud computing",
+   "Interested in Business process analyst"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0000",
+  "PR0195",
+  "PR0122",
+  "PR0005",
+  "PR0010",
+  "PR0169",
+  "PR0153",
+  "PR0163",
+  "PR0127",
+  "PR0051",
+  "PR0103",
+  "PR0077",
+  "PR0001",
+  "PR0194",
+  "PR0081",
+  "PR0123",
+  "PR0042",
+  "PR0061",
+  "PR0004",
+  "PR0138"
+ ],
+ "retrieved_ids": [
+  "PR0000",
+  "PR0195",
+  "PR0153",
+  "PR0051",
+  "PR0169",
+  "PR0194",
+  "PR0001",
+  "PR0061"
+ ],
+ "proposed_shortlist": [
+  "PR0194",
+  "PR0169",
+  "PR0001"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0194",
+  "PR0000",
+  "PR0195",
+  "PR0061"
+ ],
+ "reflection_note": "The original shortlist was decent but missed better, lower-cost options in Germany that align strongly with the 'Business Process Analyst' interest (PR0000 and PR0195). I dropped PR0169 due to poor alignment/location. I kept PR0194 as the top choice because it perfectly matches the technical interests (Cloud Computing, CS background) and financial feasibility. The new shortlist prioritizes German locations (Munich/Aachen) which are closer to Pune than Amsterdam or Eindhoven, while ensuring strong academic fit for both IT Systems Security and Business Process Analyst roles.",
+ "explanation": "Aravalli School of Engineering\nThis program is highly recommended because it directly aligns with your interest in cloud computing and leverages your existing IT/computer science background, which meets the requirement for this MSc Cloud Computing degree. The annual tuition of $1950 is well within your budget, and you benefit from an 18-month post-study work visa period. The main trade-off here is that while the median starting salary ($30,651) is solid, the placement rate (67%) is lower compared to other options on this list.\n\nFairfax Institute of Technology\nThis program is a strong fit because it offers high employability metrics, boasting a 91% placement rate and a substantial median starting salary of $56,198. With an annual tuition of only $950, it respects your budget while providing the desired 18-month post-study work visa. The trade-off is that its focus on IT Management and Business Information Systems may be less technically specialized for a core Systems Security Administrator role compared to cloud-specific options.\n\nKeystone School of Engineering\nThis option is ideal due to its extremely low annual tuition ($300) and strong business focus, which aligns with your interest in being a Business Process Analyst. It maintains excellent employability metrics, including an 82% placement rate and a median starting salary of $51,059, all while providing an 18-month post-study work visa. The primary trade-off is that the curriculum focuses purely on business information systems, which might not provide as deep technical grounding in security or cloud computing as you may prefer.\n\nBridgewater Technical University\nThis program was considered because it covers business process analysis and data science analytics, complementing your career goals. While its annual tuition of $12850 is within budget, the main trade-off is that it has a significantly shorter 12-month post-study work visa compared to the other options listed. Furthermore, while the median starting salary ($25,862) is respectable, the cost and reduced visa period make it less favorable than the German alternatives for maximizing international career opportunities.",
+ "wall_s": 213.1
+}

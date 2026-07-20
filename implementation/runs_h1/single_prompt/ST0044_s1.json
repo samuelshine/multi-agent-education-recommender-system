@@ -1,0 +1,54 @@
+{
+ "student_id": "ST0044",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 77% in an IT/computer-science degree. I'm interested in Software Engineering and developer. I want to become a Systems Analyst. My family can afford at most about USD 8700 per year. I live in Coimbatore. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 77
+  },
+  "career_goal": "Systems Analyst",
+  "budget_max_usd_per_year": 8700,
+  "location_preference": "Coimbatore (near home)",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "information security certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0191",
+  "PR0101",
+  "PR0054",
+  "PR0105",
+  "PR0015",
+  "PR0020",
+  "PR0033",
+  "PR0157",
+  "PR0047",
+  "PR0074",
+  "PR0172",
+  "PR0087",
+  "PR0117",
+  "PR0198",
+  "PR0097",
+  "PR0144",
+  "PR0139",
+  "PR0164",
+  "PR0029",
+  "PR0022"
+ ],
+ "final_shortlist": [
+  "PR0101",
+  "PR0033",
+  "PR0157",
+  "PR0198",
+  "PR0144"
+ ],
+ "explanation": "This program is located in Coimbatore, meeting your strong preference to stay near home. It focuses on Information Systems, which aligns well with your interest in becoming a Systems Analyst and leverages your existing IT background.\n\nAlso located in Coimbatore, this MBA program covers both Business Analytics and Data Science, providing a strong blend of business knowledge and technical skills suitable for a Systems Analyst role while respecting your geographical preference.\n\nThis program is highly affordable (low tuition) and located in Coimbatore. The focus on IT Management directly relates to Systems Analysis, making it a practical choice that respects both your budget and location preference.\n\nWhile located in Bengaluru (a slight move), this program specializes in Software Quality Engineering, which is highly relevant to a developer/software engineering interest. It also boasts an excellent placement rate and high median salary.\n\nThis MTech in Computer Science focuses on Software Engineering, directly matching your stated career interest. Although located in Pune, it offers a strong technical foundation and high placement rate, prioritizing job prospects.",
+ "wall_s": 47.5
+}

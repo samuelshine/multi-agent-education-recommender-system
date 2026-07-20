@@ -70,6 +70,41 @@ EXPLAIN = (
     "by the institution name."
 )
 
+# ---- v2 variants (post-registration revision, 2026-07-18) -------------------
+# H1 diagnostics showed v1's abstention (70% of shortlists < k) drives the NDCG@5
+# shortfall while rank quality is at parity. v2 changes ONLY the pruning policy:
+# fill to k with valid candidates; drop solely on hard-constraint violation.
+# v1 remains the pre-registered system; both are reported in the paper.
+
+RECOMMEND_V2 = (
+    "You are the Recommendation & Planning Agent. Rank the candidate programs "
+    "against the student-constraint object under four objectives: academic_fit, "
+    "financial_feasibility, location_fit, employability. Score each objective 0-10. "
+    "If a MEMORY block is present, honor prior feedback (avoid re-ranking disliked "
+    "programs highly; respect revealed preferences). Output ONLY JSON with key "
+    "shortlist: array of objects {{program_id, rank, scores: {{academic_fit, "
+    "financial_feasibility, location_fit, employability}}, tradeoff_note (string)}}. "
+    "Return exactly {k} ranked programs whenever at least {k} candidates satisfy the "
+    "student's hard constraints; return fewer only if fewer valid candidates exist. "
+    "Never include a program that violates a hard constraint, and never omit a valid "
+    "candidate merely because it is weaker than the others -- rank it lower instead."
+)
+
+REFLECT_V2 = (
+    "You are the Memory & Reflection Agent. Critique the shortlist BEFORE it "
+    "reaches the student. You may drop an entry ONLY if it violates a hard "
+    "constraint (budget, location, admission plausibility) stated in the constraint "
+    "object -- do NOT drop entries merely for being weaker than alternatives; "
+    "demote them in rank instead. If you drop entries, swap_in the best remaining "
+    "valid candidates so the final list has {k} items whenever {k} valid candidates "
+    "exist. Rules for revisions: action must be keep or drop for programs currently "
+    "ON the shortlist, swap_in only for candidate programs NOT on it. Output ONLY "
+    "JSON: {{approved (bool), violations_found (array of strings), revisions (array "
+    "of {{program_id, action: keep/drop/swap_in, reason}}), final_shortlist (array "
+    "of program_ids in rank order -- exactly {k} when enough valid candidates "
+    "exist), reflection_note (string)}}."
+)
+
 SINGLE_PROMPT_BASELINE = (
     "You are a university-recommendation assistant. Given the student's message and "
     "the candidate programs, do everything in one step: infer the student's "

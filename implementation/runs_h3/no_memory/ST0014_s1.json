@@ -1,0 +1,75 @@
+{
+ "student_id": "ST0014",
+ "session": 1,
+ "mode": "no_memory",
+ "version": 1,
+ "message": "Hi, I'm a student with a full stack certification background. My overall academic average is 78.6% in an IT/computer-science degree. I'm interested in hacking and cloud computing. I want to become a Programmer Analyst. My family can afford at most about USD 7200 per year.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 78.6
+  },
+  "career_goal": "Programmer Analyst",
+  "budget_max_usd_per_year": 7200,
+  "location_preference": null,
+  "mobility": "open_domestic",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in hacking and cloud computing"
+  ],
+  "uncertainty_notes": [
+   "Location preference not stated.",
+   "Employability priority not stated."
+  ]
+ },
+ "prefilter_ids": [
+  "PR0186",
+  "PR0197",
+  "PR0043",
+  "PR0147",
+  "PR0096",
+  "PR0199",
+  "PR0118",
+  "PR0121",
+  "PR0148",
+  "PR0016",
+  "PR0102",
+  "PR0180",
+  "PR0162",
+  "PR0112",
+  "PR0159",
+  "PR0032",
+  "PR0184",
+  "PR0165",
+  "PR0117",
+  "PR0198"
+ ],
+ "retrieved_ids": [
+  "PR0186",
+  "PR0197",
+  "PR0043",
+  "PR0147",
+  "PR0096",
+  "PR0118",
+  "PR0148",
+  "PR0102"
+ ],
+ "proposed_shortlist": [
+  "PR0186",
+  "PR0147",
+  "PR0096"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0186",
+  "PR0147",
+  "PR0118",
+  "PR0102",
+  "PR0043"
+ ],
+ "reflection_note": "The original shortlist was good but missed better, more affordable options. PR0096 is dropped in favor of two superior swaps: PR0118 (Mumbai, low cost, cybersecurity focus) and PR0102 (Delhi, lowest cost, cloud focus). I also added PR0043 as a strong contender for Cloud Computing that was overlooked.",
+ "explanation": "Halcyon Institute of Technology\nThis program is recommended because it aligns well with your interests in cloud computing and software engineering while remaining within your budget, with an annual tuition cost of $2050. Your academic background meets the minimum requirement of 70%, and the curriculum covers both networking/cloud and software development fields relevant to a Programmer Analyst role. The primary trade-off here is that the post-study work visa duration is listed as zero months, which you should investigate further.\n\nFairfax Institute of Technology\nThis MSc Cloud Computing program is an excellent fit because its core focus on `networking_cloud` directly matches your stated interest in cloud computing. You meet the minimum grade requirement of 74% with your current academic standing, and the tuition cost of $3200 remains well under your maximum budget. The main trade-off to consider is that while it offers a high placement rate (83%), its median starting salary ($13015) is not the highest among the options.\n\nSilverline Institute of Applied Sciences\nGiven your interest in hacking, this MTech Cyber Security program is highly relevant as it covers both cybersecurity and networking/cloud fields. Furthermore, it has the lowest tuition cost at $1500, making it extremely budget-friendly for you. The main trade-off to note is that while its admission requirements are flexible (no CS background needed), it offers a lower median starting salary ($9403) compared to other options.\n\nWestbrook Technical University\nThis MSc Cloud Computing option is recommended primarily because of its very low tuition cost at $1700, making it highly budget-conscious. The program aligns with your interest in cloud computing and requires a CS background that you possess. However, the main trade-off here is that this institution has the lowest placement rate (75%) and median starting salary ($8729) among all programs on this list.\n\nVantage Institute of Technology\nThis MSc Cloud Computing program is recommended because it offers the highest placement rate (86%), which is beneficial for your career goal as a Programmer Analyst, and covers both cloud computing and software engineering. Your 78.6% grade exceeds the minimum requirement of 73%, ensuring strong eligibility. The main trade-off you must be aware of is that this program has the highest annual tuition cost ($3950) among all the shortlisted options.",
+ "wall_s": 0.0
+}

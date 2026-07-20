@@ -1,0 +1,72 @@
+{
+ "student_id": "ST0024",
+ "session": 3,
+ "mode": "no_memory",
+ "version": 1,
+ "message": "Hi, I'm a student with a hadoop certification background. My overall academic average is 76.1% in an IT/computer-science degree. I'm interested in hacking and developer. I want to become a Applications Developer. Also, my situation changed: family circumstances changed, so my budget is now lower. My family can afford at most about USD 2800 per year. I live in Bengaluru. I'd strongly prefer to stay near home, though I might consider elsewhere in India. About the earlier suggestions: I liked PR0186, PR0143.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 76.1
+  },
+  "career_goal": "Applications Developer",
+  "budget_max_usd_per_year": 2800,
+  "location_preference": "Bengaluru (strong preference)",
+  "mobility": "prefers_region",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in hacking and developer roles"
+  ],
+  "uncertainty_notes": [
+   "Employability priority not stated."
+  ]
+ },
+ "prefilter_ids": [
+  "PR0198",
+  "PR0164",
+  "PR0022",
+  "PR0182",
+  "PR0191",
+  "PR0119",
+  "PR0101",
+  "PR0143",
+  "PR0186",
+  "PR0176",
+  "PR0058",
+  "PR0092",
+  "PR0187",
+  "PR0039",
+  "PR0174",
+  "PR0197",
+  "PR0053",
+  "PR0189",
+  "PR0007",
+  "PR0158"
+ ],
+ "retrieved_ids": [
+  "PR0186",
+  "PR0158",
+  "PR0198",
+  "PR0176",
+  "PR0182",
+  "PR0053",
+  "PR0187",
+  "PR0191"
+ ],
+ "proposed_shortlist": [
+  "PR0198",
+  "PR0186",
+  "PR0182"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0186",
+  "PR0158",
+  "PR0176"
+ ],
+ "reflection_note": "The initial shortlist was flawed because PR0198 violated the hard budget constraint and had a minimum grade requirement higher than the student's current score. I dropped it immediately. For replacements, I prioritized programs that are financially feasible (under $2800), align with software development/developer roles, and maintain location flexibility (Pune or nearby). PR0158 was swapped in as a strong alternative to PR0182 because its focus on Interaction Design is broader and more aligned with the developer's interest in application building than pure QA testing. I also added PR0176 as a third option, providing geographical diversity while remaining within budget.",
+ "explanation": "Halcyon Institute of Technology\nThis program is recommended because its focus on `software_engineering` and `networking_cloud` aligns well with your interest in developer roles and hacking. The annual tuition of $2050 fits comfortably within your budget, and it offers a strong placement rate of 83% with a median starting salary of $15192. Since you have an IT/CS background, the admission requirements are met, but the main trade-off is that while this program has excellent technical alignment, its location in Pune does not meet your strong preference for Bengaluru.\n\nAshford School of Engineering\nThis option was selected because it maintains a low annual tuition cost of $1900 and features `software_engineering` alongside design skills. It offers a high placement rate of 84% and is suitable given that you do not require a specific CS background, though your degree qualifies you. The trade-off here is the program's focus on Interaction Design (`design_hci`), which may pull your career path toward UX/UI rather than pure Applications Development or hacking roles.\n\nCrestwood University\nThis MBA Technology Management program was considered due to its low tuition cost of $1900 and a solid placement rate of 82%. While the salary potential is high at $15400, this option represents a significant trade-off because it focuses on `it_management` rather than technical development. Given your goal as an Applications Developer and interest in hacking, this managerial track deviates substantially from your desired career path.",
+ "wall_s": 207.1
+}

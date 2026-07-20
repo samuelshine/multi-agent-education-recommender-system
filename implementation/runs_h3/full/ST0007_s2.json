@@ -1,0 +1,54 @@
+{
+ "student_id": "ST0007",
+ "session": 2,
+ "mode": "full",
+ "message": "Hi, I'm a student with a shell programming certification background. My overall academic average is 75% in an IT/computer-science degree. I'm interested in data engineering and security. I want to become a Web Developer. My family can afford at most about USD 1100 per year. I live in Bengaluru. I cannot leave my city. About the earlier suggestions: please drop PR0120, PR0111.",
+ "memory_used": true,
+ "fallbacks": [
+  "reflect"
+ ],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 75
+  },
+  "career_goal": "Web Developer",
+  "budget_max_usd_per_year": 1100,
+  "location_preference": "Bengaluru",
+  "mobility": "fixed_city",
+  "employability_priority": null,
+  "other_constraints": [
+   "shell programming certification background"
+  ],
+  "uncertainty_notes": [
+   "Employability priority not stated.",
+   "Data engineering and security interest (previously mentioned) is superseded by Web Developer goal."
+  ]
+ },
+ "prefilter_ids": [
+  "PR0015",
+  "PR0073",
+  "PR0013",
+  "PR0173",
+  "PR0087"
+ ],
+ "retrieved_ids": [
+  "PR0013",
+  "PR0173",
+  "PR0015"
+ ],
+ "proposed_shortlist": [
+  "PR0173",
+  "PR0013",
+  "PR0015"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0173",
+  "PR0013",
+  "PR0015"
+ ],
+ "reflection_note": "reflect fallback: kept proposal",
+ "explanation": "Longford Technical University\nThis program is recommended because its low annual tuition of $500 fits well within your maximum budget of $1100, and its \"software engineering\" field aligns directly with a Web Developer goal. Admission requirements are easily met, as the minimum grade percentage is 53%, which is below your academic background of 75%. The main trade-off here is that while the tuition is low, the placement rate (62%) and median starting salary ($6851) are lower compared to other options on this list.\n\nMeridian Institute of Technology\nThis program was recommended because its focus on Human-Computer Interaction (HCI) provides critical expertise in user experience design, which is essential for any Web Developer role. The annual tuition of $900 remains under your budget constraint, and the high placement rate of 77% suggests strong industry connections. The primary trade-off is that while it offers a higher median starting salary ($9186) than Longford Technical University, its core focus is on design rather than deep software engineering principles.\n\nKeystone Institute of Technology\nWhile the annual tuition of $1200 exceeds your stated budget maximum of $1100, this program was recommended for its strong industry outcomes and relevance to understanding business needs. The \"business information systems\" field will help you bridge technical development with client requirements, which is valuable for a Web Developer. The main trade-off is accepting the higher cost in exchange for the highest median starting salary ($9707) and placement rate (78%) among the listed options.",
+ "wall_s": 154.3
+}

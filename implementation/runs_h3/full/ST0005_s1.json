@@ -1,0 +1,76 @@
+{
+ "student_id": "ST0005",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 76.2% in an IT/computer-science degree. I'm interested in IOT and testing. I want to become a Software Systems Engineer.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 76.2
+  },
+  "career_goal": "Software Systems Engineer",
+  "budget_max_usd_per_year": null,
+  "location_preference": null,
+  "mobility": "open_domestic",
+  "employability_priority": null,
+  "other_constraints": [
+   "interested in IOT and testing"
+  ],
+  "uncertainty_notes": [
+   "budget maximum per year is unknown.",
+   "location preference is unknown.",
+   "mobility preference is unknown (defaulting to open_domestic).",
+   "employability priority is unknown."
+  ]
+ },
+ "prefilter_ids": [
+  "PR0198",
+  "PR0053",
+  "PR0065",
+  "PR0019",
+  "PR0008",
+  "PR0142",
+  "PR0082",
+  "PR0052",
+  "PR0085",
+  "PR0144",
+  "PR0139",
+  "PR0182",
+  "PR0191",
+  "PR0119",
+  "PR0101",
+  "PR0186",
+  "PR0058",
+  "PR0039",
+  "PR0158",
+  "PR0072"
+ ],
+ "retrieved_ids": [
+  "PR0053",
+  "PR0065",
+  "PR0182",
+  "PR0119",
+  "PR0072",
+  "PR0186",
+  "PR0144",
+  "PR0139"
+ ],
+ "proposed_shortlist": [
+  "PR0186",
+  "PR0144",
+  "PR0139",
+  "PR0053"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0053",
+  "PR0186",
+  "PR0182",
+  "PR0119"
+ ],
+ "reflection_note": "The initial shortlist contained two programs (PR0144, PR0139) that violated the hard constraint regarding minimum required GPA (81% > 76.2%). These have been dropped. I swapped in PR0182 and PR0119 as they are strong alternatives for QA testing that meet the student's academic profile and interests while maintaining high placement rates and reasonable costs. The final list prioritizes low-cost, high-fit options (PR0053) followed by networking/software (PR0186), and then two excellent, affordable QA options (PR0182, PR0119).",
+ "explanation": "Cavendish University\nThis program is recommended because its focus on \"qa_testing\" and \"software_engineering\" directly aligns with your interest in testing and your goal of becoming a Software Systems Engineer. With an annual tuition of $1200, it offers excellent affordability while maintaining a strong placement rate of 86%. Since you do not require a CS background and your grade (76.2%) exceeds the minimum requirement (70%), this is a highly accessible option. The main trade-off here is that its median starting salary ($12,855) is slightly lower than some other options on this list.\n\nHalcyon Institute of Technology\nThis MTech program was selected because it builds upon your IT/computer-science background and focuses on \"software_engineering,\" which supports your career goal. The tuition cost is $2050, and the placement rate stands at 83%. However, note that this curriculum emphasizes networking and cloud technologies rather than the testing or IOT areas you expressed interest in. The trade-off for its higher median starting salary ($15,192) compared to other options is a less direct alignment with your stated interests.\n\nKeystone Technical University\nThis program is highly recommended because it specializes in \"qa_testing,\" directly matching one of your key interests while supporting your goal as a Software Systems Engineer. It boasts the highest placement rate (91%) and requires no prior CS background, making it very accessible given your 76.2% grade. The main trade-off is that its median starting salary ($12,865) is comparable to Cavendish University's, meaning you are prioritizing maximum employability over maximizing initial earning potential.\n\nMeridian Institute of Applied Sciences\nThis option is recommended due to its low annual tuition cost of $1200 and its direct focus on \"qa_testing,\" aligning perfectly with your stated interests. It also requires no CS background, making it an easy entry point for you given your 76.2% grade. The main trade-off when comparing this to Cavendish University is that Meridian offers a slightly higher median starting salary ($14,917) while maintaining the same low tuition rate.",
+ "wall_s": 197.9
+}

@@ -1,0 +1,32 @@
+{
+ "student_id": "ST0015",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 80
+    },
+    "career_goal": "Database Developer",
+    "budget_max_usd_per_year": 5600,
+    "location_preference": "Chennai",
+    "mobility": "prefers_region",
+    "employability_priority": "high",
+    "other_constraints": [
+     "r programming certification background",
+     "interested in Management and testing"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0191",
+    "PR0053",
+    "PR0176",
+    "PR0026",
+    "PR0182"
+   ],
+   "feedback": null
+  }
+ ]
+}

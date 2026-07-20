@@ -1,0 +1,75 @@
+{
+ "student_id": "ST0010",
+ "session": 1,
+ "mode": "no_memory",
+ "version": 1,
+ "message": "Hi, I'm a student with a full stack certification background. My overall academic average is 79.2% in an IT/computer-science degree. I'm interested in programming and cloud computing. My family can afford at most about USD 2700 per year.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 79.2
+  },
+  "career_goal": "programming and cloud computing",
+  "budget_max_usd_per_year": 2700,
+  "location_preference": null,
+  "mobility": "open_domestic",
+  "employability_priority": null,
+  "other_constraints": [
+   "full stack certification background"
+  ],
+  "uncertainty_notes": [
+   "Location preference not stated.",
+   "Employability priority not stated."
+  ]
+ },
+ "prefilter_ids": [
+  "PR0186",
+  "PR0197",
+  "PR0147",
+  "PR0096",
+  "PR0199",
+  "PR0118",
+  "PR0121",
+  "PR0148",
+  "PR0016",
+  "PR0102",
+  "PR0180",
+  "PR0162",
+  "PR0112",
+  "PR0159",
+  "PR0032",
+  "PR0184",
+  "PR0165",
+  "PR0164",
+  "PR0022",
+  "PR0182"
+ ],
+ "retrieved_ids": [
+  "PR0186",
+  "PR0197",
+  "PR0147",
+  "PR0096",
+  "PR0199",
+  "PR0165",
+  "PR0102",
+  "PR0180"
+ ],
+ "proposed_shortlist": [
+  "PR0186",
+  "PR0199",
+  "PR0102",
+  "PR0180"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0186",
+  "PR0199",
+  "PR0102",
+  "PR0165"
+ ],
+ "reflection_note": "The initial shortlist was strong but included a program (PR0180) that is too weak in terms of career outcomes to justify its inclusion. I dropped PR0180 and swapped in PR0165, which offers an even lower cost alternative for the student to consider. All programs were checked against the hard budget constraint ($2700/year), and three high-cost options (PR0197, PR0147, PR0096) were correctly filtered out due to exceeding the maximum annual tuition.",
+ "explanation": "Halcyon Institute of Technology\nThis program is recommended because it aligns strongly with your career goal of programming and cloud computing, offering both \"networking_cloud\" and \"software_engineering\" fields. It fits comfortably within your budget constraint, requiring an annual tuition of $2050. Furthermore, your 79.2% grade meets the minimum requirement (70%), and you satisfy the need for a CS background. The main trade-off here is that while it offers excellent career potential with a median starting salary of $15192, there are no post-study work visa benefits listed.\n\nHalcyon School of Engineering\nThis option remains relevant as it focuses on \"networking_cloud,\" directly supporting your cloud computing goals, and its tuition ($2300) is within your maximum budget. You meet the minimum grade requirement (74%), and the program does not strictly require a CS background. The main trade-off when comparing this to other options is that while it maintains a good focus on networking/cloud, it lacks the explicit \"software_engineering\" component found in the Halcyon Institute of Technology listing, resulting in a lower median starting salary ($12682).\n\nWestbrook Technical University\nThis program is highly recommended due to its excellent affordability, with an annual tuition of only $1700, keeping you well under your $2700 budget. It also meets your academic requirements, as your 79.2% grade exceeds the minimum (64%), and it requires a CS background which you possess. The main trade-off is that while the cost is low, this program offers the lowest median starting salary ($8729) among the three options, potentially limiting immediate earning potential.\n\nWestbrook Institute of Technology\nThis option represents the most budget-friendly choice with an annual tuition of just $550, making it ideal for minimizing costs while pursuing cloud computing skills. You meet both the minimum grade requirement (54%) and the need for a CS background. The main trade-off is that this program has the lowest placement rate (59%) and the lowest median starting salary ($7845), meaning you are trading potential long-term earning power for maximum short-term cost savings.",
+ "wall_s": 0.0
+}

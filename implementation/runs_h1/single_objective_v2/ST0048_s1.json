@@ -1,0 +1,69 @@
+{
+ "student_id": "ST0048",
+ "session": 1,
+ "mode": "single_objective",
+ "version": 2,
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 74.1% in an IT/computer-science degree. I'm interested in Management and Business process analyst. I want to become a Information Technology Manager. My family can afford at most about USD 3400 per year. I live in Hyderabad. I cannot leave my city.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 74.1
+  },
+  "career_goal": "Information Technology Manager",
+  "budget_max_usd_per_year": 3400,
+  "location_preference": "Hyderabad",
+  "mobility": "fixed_city",
+  "employability_priority": null,
+  "other_constraints": [
+   "r programming certification background",
+   "interested in Management and Business process analyst"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0176",
+  "PR0076",
+  "PR0130",
+  "PR0074",
+  "PR0119",
+  "PR0026",
+  "PR0096",
+  "PR0167",
+  "PR0113",
+  "PR0196",
+  "PR0111",
+  "PR0050",
+  "PR0159",
+  "PR0142"
+ ],
+ "retrieved_ids": [
+  "PR0176",
+  "PR0076",
+  "PR0130",
+  "PR0167",
+  "PR0196",
+  "PR0113",
+  "PR0050",
+  "PR0159"
+ ],
+ "proposed_shortlist": [
+  "PR0076",
+  "PR0130",
+  "PR0176",
+  "PR0050",
+  "PR0167"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0076",
+  "PR0176",
+  "PR0130",
+  "PR0050",
+  "PR0167"
+ ],
+ "reflection_note": "The initial ranking was slightly off. PR0076 (Sarayu Institute) is the best fit due to its MBA format and direct alignment with IT Management/Business Process Analyst interests, making it rank #1. PR0176 (Crestwood University) follows closely as a strong alternative MBA option. The remaining programs are ranked based on decreasing relevance to the core goal while maintaining feasibility and adherence to constraints. All 5 original entries were kept because none violated hard constraints (Budget: Max $3400, Location: Hyderabad). PR0167 was retained over other candidates to ensure a full list of 5 options.",
+ "explanation": "Sarayu Institute of Technology\nThis program is highly recommended because its MBA Technology Management focus aligns perfectly with your goal of becoming an Information Technology Manager and your interest in management. It meets your academic requirements, as the minimum grade percentage is 74%, matching your background. The tuition cost of $1250 is well within your budget, offering a strong median starting salary of $13142 and an 81% placement rate. There is no significant trade-off here; it offers excellent alignment with your career goals while remaining affordable.\n\nCrestwood University\nThis program is recommended as the best option for maximizing earning potential while still focusing on management, which aligns with your IT Manager goal. Although its annual tuition of $1900 is higher than some options, it provides the highest median starting salary ($15400) and a strong 82% placement rate. The trade-off here is paying a slightly higher tuition fee to achieve potentially better post-graduation earning outcomes.\n\nElmhurst School of Engineering\nThis option is recommended if minimizing cost is your absolute top priority, as the annual tuition is only $1000. It provides an IT Management degree that supports your career goal and meets your minimum grade requirement (62%). The main trade-off to consider is that this program has the lowest median starting salary ($11249) among the management options listed.\n\nTejas Institute of Technology\nWhile affordable at $1150 per year, this program focuses on IT Support and QA Testing rather than the Management track you are interested in. Although it meets your minimum grade requirement (58%), the trade-off is that its lower placement rate (69%) and median starting salary ($7474) suggest a less direct path toward an Information Technology Manager role compared to other options.\n\nCharnock Institute of Technology\nThis program offers a specialized MTech in Cyber Security, which is highly technical and deviates from your stated interest in Management and Business Process Analysis. While it has a strong placement rate (79%) and salary ($12765), the trade-off is that its higher tuition cost ($2450) and technical focus may not best serve your primary goal of becoming an IT Manager through management skills.",
+ "wall_s": 67.2
+}

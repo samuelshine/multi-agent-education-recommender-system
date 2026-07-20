@@ -1,0 +1,31 @@
+{
+ "student_id": "ST0095",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 72.6
+    },
+    "career_goal": "Applications Developer (Software Engineering and developer)",
+    "budget_max_usd_per_year": 3300,
+    "location_preference": "Hyderabad",
+    "mobility": "fixed_city",
+    "employability_priority": "high",
+    "other_constraints": [
+     "Full stack certification background"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0196",
+    "PR0167",
+    "PR0142",
+    "PR0130",
+    "PR0119"
+   ],
+   "feedback": null
+  }
+ ]
+}

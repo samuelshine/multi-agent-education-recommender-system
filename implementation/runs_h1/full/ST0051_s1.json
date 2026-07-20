@@ -1,0 +1,69 @@
+{
+ "student_id": "ST0051",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 80.9% in an IT/computer-science degree. I'm interested in Software Engineering and cloud computing. I want to become a Applications Developer. My family can afford at most about USD 2000 per year. I live in Bengaluru. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 80.9
+  },
+  "career_goal": "Applications Developer",
+  "budget_max_usd_per_year": 2000,
+  "location_preference": "Bengaluru",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in Software Engineering and cloud computing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0186",
+  "PR0016",
+  "PR0112",
+  "PR0032",
+  "PR0058",
+  "PR0039",
+  "PR0053",
+  "PR0158",
+  "PR0109",
+  "PR0076",
+  "PR0012",
+  "PR0065",
+  "PR0019",
+  "PR0167",
+  "PR0199",
+  "PR0185",
+  "PR0171",
+  "PR0155",
+  "PR0145",
+  "PR0083"
+ ],
+ "retrieved_ids": [
+  "PR0185",
+  "PR0112",
+  "PR0171",
+  "PR0158",
+  "PR0186",
+  "PR0199",
+  "PR0012",
+  "PR0083"
+ ],
+ "proposed_shortlist": [
+  "PR0185",
+  "PR0112",
+  "PR0012"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0012",
+  "PR0171",
+  "PR0186"
+ ],
+ "reflection_note": "The original shortlist was too geographically diverse and did not adequately address the student's strong preference for Bengaluru. I dropped PR0185 (Kolkata) and PR0112 (Mumbai). I kept PR0012 as a solid, reliable backup option despite its location. Crucially, I swapped in PR0171 (Chennai) and PR0186 (Pune) because they offer superior technical fit (Software/Networking/Cloud) and high employability scores compared to the original options, providing better alternatives while maintaining strong academic rigor.",
+ "explanation": "Elmhurst University\nThis program is recommended because it offers a relevant MCA degree focused on software engineering and meets your budget with an annual tuition of $1500. Your academic background (80.9%) exceeds the minimum requirement of 73%, making admission feasible, and the placement rate stands at 79%. The main trade-off here is that while the salary ($13468) is solid, the location in Kolkata does not match your preference for Bengaluru or a nearby region.\n\nHalcyon Technical University\nThis option was included because it maintains an affordable tuition of $1500 and requires a CS background, matching your qualifications. However, this program presents a significant trade-off regarding employability; despite meeting your budget, the median starting salary ($10917) and placement rate (75%) are among the lowest in the shortlist, which conflicts with your high priority for job placement.\n\nHalcyon Institute of Technology\nThis is likely the strongest recommendation because its curriculum directly aligns with your interests in cloud computing and software engineering, and it boasts the highest placement rate at 83%. The median starting salary of $15192 is also the best option listed. The primary trade-off is that the annual tuition ($2050) slightly exceeds your stated maximum budget of $2000, but the significant boost in career prospects makes it worth considering.",
+ "wall_s": 233.1
+}

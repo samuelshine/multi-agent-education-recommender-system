@@ -1,0 +1,72 @@
+{
+ "student_id": "ST0019",
+ "session": 2,
+ "mode": "no_memory",
+ "version": 1,
+ "message": "Hi, I'm a student with a machine learning certification background. My overall academic average is 72.8% in an IT/computer-science degree. I'm interested in Computer Architecture and developer. I want to become a Database Manager. My family can afford at most about USD 10700 per year. I live in Pune. I'd strongly prefer to stay near home, though I might consider elsewhere in India. About the earlier suggestions: I liked PR0026, PR0107.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 72.8
+  },
+  "career_goal": "Database Manager",
+  "budget_max_usd_per_year": 10700,
+  "location_preference": "Pune",
+  "mobility": "prefers_region",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in Computer Architecture and developer"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0191",
+  "PR0143",
+  "PR0058",
+  "PR0007",
+  "PR0099",
+  "PR0026",
+  "PR0090",
+  "PR0120",
+  "PR0170",
+  "PR0145",
+  "PR0033",
+  "PR0107",
+  "PR0111",
+  "PR0134",
+  "PR0074",
+  "PR0129",
+  "PR0133",
+  "PR0063",
+  "PR0173",
+  "PR0071"
+ ],
+ "retrieved_ids": [
+  "PR0007",
+  "PR0143",
+  "PR0173",
+  "PR0145",
+  "PR0134",
+  "PR0074",
+  "PR0120",
+  "PR0133"
+ ],
+ "proposed_shortlist": [
+  "PR0007",
+  "PR0143",
+  "PR0173",
+  "PR0145"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0007",
+  "PR0134",
+  "PR0074",
+  "PR0173"
+ ],
+ "reflection_note": "The initial shortlist was heavily weighted on location and cost. PR0007 remains the top choice due to perfect alignment with Pune preference, low cost, and strong academic fit. We dropped PR0143 (Mumbai) and PR0145 (Coimbatore) because the location penalty is too high. I swapped in PR0074 (Hyderabad) and PR0134 (Coimbatore) as they offer excellent alternatives: Hyderabad is a major tech hub, and Coimbatore offers strong relevance at a very low cost. The final list prioritizes Pune first, then other highly relevant/low-cost options.",
+ "explanation": "Ashford Institute of Technology\nThis program is highly recommended because it meets your location preference in Pune and aligns well with your background. With a tuition cost of $2350 USD, it remains comfortably within your budget, and your 72.8% grade exceeds the minimum requirement of 70%. The strong placement rate of 86% and median starting salary of $12,541 suggest excellent career outcomes for a Database Manager role. The main trade-off here is that while it offers high returns, its location preference makes it an ideal fit without sacrificing quality.\n\nKeystone Institute of Technology\nThis option provides a lower tuition cost of $1850 USD and is located in Coimbatore, which fits your regional mobility preference. Admission requirements are manageable since your grade (72.8%) exceeds the 65% minimum, and you have the necessary CS background. While it keeps costs low, the trade-off is that its placement rate (69%) and median starting salary ($8,885) are notably lower compared to other options in the shortlist.\n\nCharnock School of Engineering\nThis program offers a very affordable tuition fee of $1550 USD while being located in Hyderabad, which satisfies your regional preference. It is flexible regarding admission since it does not require a CS background and accepts grades above 64%. The main trade-off to consider is that its placement rate (68%) and median starting salary ($9,196) are moderate compared to the top-tier options available in Pune or Bengaluru.\n\nLongford Technical University\nThis university presents the most budget-friendly option with an annual tuition of only $500 USD, making it highly accessible. It is also flexible regarding admission as it does not require a CS background and accepts grades above 53%. However, the main trade-off for this low cost is that its placement rate (62%) and median starting salary ($6,851) are the lowest among all recommended programs.",
+ "wall_s": 173.4
+}

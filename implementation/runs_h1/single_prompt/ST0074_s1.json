@@ -1,0 +1,54 @@
+{
+ "student_id": "ST0074",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a app development certification background. My overall academic average is 78% in an IT/computer-science degree. I'm interested in parallel computing and system developer. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 16200 per year. I live in Coimbatore. I'm open to going abroad. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 78
+  },
+  "career_goal": "parallel computing and system developer (tech)",
+  "budget_max_usd_per_year": 16200,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "app development certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0000",
+  "PR0079",
+  "PR0195",
+  "PR0124",
+  "PR0021",
+  "PR0122",
+  "PR0005",
+  "PR0010",
+  "PR0169",
+  "PR0153",
+  "PR0028",
+  "PR0067",
+  "PR0075",
+  "PR0024",
+  "PR0163",
+  "PR0132",
+  "PR0051",
+  "PR0151",
+  "PR0037",
+  "PR0161"
+ ],
+ "final_shortlist": [
+  "PR0195",
+  "PR0021",
+  "PR0153",
+  "PR0037",
+  "PR0161"
+ ],
+ "explanation": "This program in Germany offers a low tuition fee ($300) and meets your academic requirement (78% > 72%), while focusing on Information Systems which aligns well with general tech career goals. It also provides an 18-month post-study work visa and a decent placement rate.\n\nLocated in Germany with very low tuition ($450), this MSc IT Operations program is suitable for someone interested in system development and general tech roles. It has a manageable minimum grade requirement (73%) and offers an excellent 18-month post-study work visa.\n\nThis MSc program in Germany is highly affordable ($550) and focuses on Human-Computer Interaction (HCI), which complements an app development background. It has a low minimum grade requirement (71%) and provides the desired 18-month post-study work visa.\n\nIf you want to focus more on core development skills like parallel computing, this MCA in Germany is a strong choice. It requires a CS background (which your certification helps with) and offers an 18-month post-study work visa.\n\nThis MSc Software Engineering program in Germany is a direct fit for your interest in system development. It requires a CS background and offers an 18-month post-study work visa, making it a solid choice for career advancement.",
+ "wall_s": 46.9
+}

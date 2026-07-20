@@ -106,6 +106,7 @@ Research foundation is **not** lacking; deep-research is not needed. Open items 
   only when the artifact exists) but the wording inside it is updated.
 - The full-text reading of Cluster A/F (already an open item) is now **load-bearing for
   the thesis choice itself**, not just Related Work hygiene — highest-priority task.
+  *(Since completed for the decisive set — see GAP VERIFIED block above.)*
 
 ## Step 2 — Chapter-by-Chapter Negotiation
 
@@ -184,7 +185,7 @@ negotiation once the dataset decision lands.
 | Chapter | Budget | Status |
 |---|---|---|
 | Introduction | ~0.75 p | Drafted, aligned with thesis (a) |
-| Related Work | ~1.5 p (incl. table) | Drafted; full-text Cluster A/F read pending (load-bearing) |
+| Related Work | ~1.5 p (incl. table) | Drafted; gap verified full-text for Cluster F + `hrspca`/`studieme` (2026-07-16); peripheral Cluster A abstract-verified, stated openly in Discussion |
 | Architecture | ~1.25 p (incl. figure) | Drafted |
 | Methodology | ~1 p | Decisions locked this session; prose next |
 | Evaluation/Results | ~1.5 p | Blocked on prototype |
@@ -268,10 +269,87 @@ execution, not on decisions.
 
 | Week | Focus | Concrete outputs |
 |---|---|---|
-| **1** (Jul 16–22) | De-risk | ~~Send Elahi email~~ SENT 07-16; ~~`gemma4:e4b` spike~~ DONE 07-16, verdict GO (`implementation/spike/SPIKE_REPORT.md`); full-text read Cluster F (3 papers) then Cluster A closest matches — **in progress (author)**; ~~start synthetic-dataset generator~~ v1 DONE 07-16 (`implementation/datagen/`, 300 students / 200 programs / 60k qrels, validated) |
+| **1** (Jul 16–22) | De-risk | ~~Send Elahi email~~ SENT 07-16; ~~`gemma4:e4b` spike~~ DONE 07-16, verdict GO (`implementation/spike/SPIKE_REPORT.md`); ~~full-text read Cluster F~~ DONE (author, by 07-18 — all three confirmed in-program/enrolled-only; GAP VERIFIED, see Step 1 verdict); ~~start synthetic-dataset generator~~ v1 DONE 07-16 (`implementation/datagen/`, 300 students / 200 programs / 60k qrels, validated) |
 | **2** (Jul 23–29) | Build | ~~5-agent prototype~~ scaffold DONE EARLY 07-16 (`implementation/agentrec/`, smoke test passed: 2 students end-to-end, 0 fallbacks, NDCG@5 0.88 wiring verified — real headline numbers await full batches); multi-session memory test PASSED 07-16 (3 students × 3 sessions, 0 fallbacks: budget-drift override enforced, vague-goal convergence 3→0 uncertainty notes, disliked programs never resurfaced; simulated-user feedback added to CLI); ~~HRSPCA + StudieMe re-implementations~~ DONE 07-16 from full texts in `paper/sources/` (`implementation/baselines/` + `RECONSTRUCTION.md`, 13 logged reconstruction choices). **Baseline numbers on the synthetic eval split (100 students): HRSPCA NDCG@5 = 0.793, StudieMe = 0.673.** H1 bar is now concrete: the agentic pipeline must score ≥ 0.753 NDCG@5 (0.95 × HRSPCA) at full information. Gap honesty notes upgraded to full-text-verified in `literature_matrix.md` + `main.tex` Discussion |
 | **3** (Jul 30–Aug 5) | Evaluate | STARTED EARLY 07-16: H1 batch running (100 students, full mode, full-information state — `runs_h1/`); remaining: single_prompt / no_memory / single_objective batches, H3 session batches, judging. **Judge decision (07-16): primary `qwen2.5:14b` (Qwen family), agreement judge `mistral-nemo:12b` (Mistral family) — cross-family vs. Gemma per self-preference-bias literature; blind, absolute rubric scoring (clarity/groundedness/usefulness 1–5); harness at `implementation/agentrec/eval/judge.py`; pull judge models only after eval batches (GPU contention)** |
 | **4** (Aug 6–11) | Write & ship | Methodology/Results/Discussion/Conclusion prose; results-bearing abstract; resolve every remaining `\todo`; artifact README + license + release; citation check; internal review pass; venue formatting |
+
+### H1 RESULTS (2026-07-18) — pre-registered accuracy criterion NOT met
+
+Completed runs, 100-student eval split, full information: five-agent NDCG@5 **0.706**
+(bar was 0.753; HRSPCA 0.793) — **11% relative shortfall, outside the margin.**
+Single-prompt baseline **0.830** beats everything → the WR3 reversal scenario
+materialized on accuracy. Diagnostics: the gap is a **list-length effect** — Reflection
+abstains rather than pads (70% of shortlists < 5, mean 3.9); at emitted length the
+five-agent rank quality is 0.827 ≈ single-prompt 0.830, precision 0.904 ≈ 0.912, both
+≫ classical. Written into `main.tex` Results verbatim per pre-commitment: verdict
+stands, list-length diagnostic reported as metric-design finding, no post-hoc metric
+swap. Architecture's remaining case rests on: explanation quality (judges pending),
+H2 conflict subset, H3 cold-start (batches running). Author decision (2026-07-18): **ship documented v2, report both versions.**
+v2 implemented same day (`--v2` flag; reflection drops only hard violations +
+deterministic backfill to k; v1 untouched); single-student validation passed (5-item
+list, no backfill needed — prompts alone fixed length); v2 paragraph added to
+`main.tex` Results with pending-numbers todo; v2 batch chained after H2/H3.
+
+### Batch status (2026-07-18, after Ollama outage)
+
+The 07-18 morning chain died mid-H3 when the Ollama server went down (connection
+refused, ~ST0014); its `ALL_H2_H3_DONE` line is spurious — the script had no error
+handling. Verified state at 13:00: **H2 single_objective complete (56/56 conflict
+students)**; H3 full 42/90; H3 no_memory 1/90; v2 H1 batch not started (waiter watched
+a dead PID). Relaunched as `runs_h1/chain_resume.sh` (health-checked, 3-attempt retry
+per stage, resumes from existing records): H3 full remainder → H3 no_memory → v2 full
+batch. Expected wall time ~10–13 h at ~200 s/record.
+
+### FULL RESULTS IN (2026-07-19/20) — all eval batches complete
+
+Overnight chain finished (`ALL_STAGES_DONE`). Computed via `implementation/analyze_results.py`
+(reproducible from run records):
+
+- **H1/v2:** v2 NDCG@5 **0.806** (list 4.76) — **clears the 0.753 bar**, exceeds
+  HRSPCA (0.793); P@5 0.898 ≈ v1's 0.904; abstention diagnosis causally confirmed.
+  Single-prompt still leads on NDCG@5 (0.830): no architectural accuracy advantage,
+  either policy. Written into `main.tex` Results.
+- **H2 (56-student conflict subset): NOT SUPPORTED on accuracy — final (2026-07-20).**
+  v1 policy: multi 0.666 < single 0.718 (abstention-coupled). Matched v2 policy: multi
+  0.792 vs single **0.793 — tie**. Verdict written into `main.tex` with the diagnosis
+  (oracle already encodes all objectives; prefiltered single-objective ranking recovers
+  the signal). H2's remaining case rides on judged explanation quality (trade-off
+  naming on conflict cases).
+- **H3:** s1 identical by construction (0.583 both); memory wins s2 (+0.041) and s3
+  (+0.019), stabilizes recall (no-memory decays 0.126→0.090; full holds). Supported
+  in direction, modest at n=30; reframed honestly as *adaptivity* gain in `main.tex`.
+- **Judging: COMPLETE (2026-07-20) — H1's explanation claim is SUPPORTED, decisively.**
+  Cross-judge (qwen2.5:14b + mistral-nemo:12b) mean scores, n=100:
+  groundedness 4.92 (v1) / 4.92 (v2) vs **3.96 single-prompt**; usefulness 3.65/3.60
+  vs **2.80**; clarity 4.11/4.06 vs 3.69. Corroborated by invented-claims counts:
+  single-prompt flagged in 64/100 (qwen) and 33/100 (mistral) explanations vs 5-9/100
+  for the five-agent conditions. Inter-judge agreement far tighter on five-agent
+  (0.09-0.15 groundedness) than single-prompt (1.26) — judges disagree most exactly
+  where single-prompt is hardest to verify. **This is the paper's central empirical
+  result**: architecture loses on raw NDCG@5, wins decisively on the explainability
+  claim that WR1/WR2 pre-committed to measuring. H2 conflict-subset check confirms the
+  gap holds unchanged on the 56 financially-constrained students — H2's contribution
+  survives qualitatively even though it failed on oracle-graded ranking. All numbers
+  verified via `implementation/analyze_judge.py`, written into `main.tex` Results.
+- **Methodology + Baselines prose written** (Datasets / Baselines subsections);
+  appendix skeleton added for the reconstruction table.
+
+### FOUR WRITING TASKS DONE (2026-07-20) — down to 3 real todos
+
+Abstract rewritten (results-bearing: explainability-wins/accuracy-ties framing),
+7→5 merge todo resolved (H3 fused-mechanism result stands in for the ablation),
+conclusion rewritten (findings-bearing, 3 concrete future-work items), appendix
+reconstruction table ported in full (13 rows, both baselines). Funding statement
+resolved: no external funding, MCA curriculum work at CHRIST (Deemed to be
+University), Bengaluru — author-confirmed. Paper builds clean, 8 pages.
+
+**Remaining `\todo`s (3, all release/venue-gated, not writing):**
+1. Contribution 3 — needs artifact repo public + URL.
+2. Data Availability — needs artifact URL; Elahi on-request status once resolved.
+3. AI-Assisted Writing Disclosure — venue-specific wording; author said keep
+   general for now (no target venue chosen yet), so this stays open by choice,
+   not blockage.
 
 ### Standing risks (accepted or mitigated)
 
@@ -283,8 +361,12 @@ execution, not on decisions.
    (`implementation/spike/SPIKE_REPORT.md`). Narrowed to three prototype-design items:
    lenient admission-plausibility checks, loose reflection-revision semantics, and
    evaluation-scale throughput (~2.5 min/student → plan overnight batches).
-3. Gap collapses under full-text reading → thesis flips to improvement framing
-   (contingency rule, Step 1).
+3. ~~Gap collapses under full-text reading~~ **RETIRED** — author full-text read of all
+   three Cluster F systems confirms none address pre-admission choice; contingency
+   framing dormant. *Residual soft spot:* `multidmensionalrecsysuni` (closest classical
+   scope match, 2024) is still abstract-verified only and its PDF is not in
+   `paper/sources/` — a reviewer pointing there is the last realistic gap attack;
+   worth a full-text skim before submission.
 4. Baseline re-implementation overruns → no weekly cap set (author's choice); mentor
    re-raises library-proxy fallback if it eats week 2.
 5. Ablation shows agents ≤ single prompt → WR3 pre-commits honest reporting; paper

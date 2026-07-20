@@ -1,0 +1,31 @@
+{
+ "student_id": "ST0013",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 75.6
+    },
+    "career_goal": "Systems Analyst",
+    "budget_max_usd_per_year": 4400,
+    "location_preference": null,
+    "mobility": "prefers_region",
+    "employability_priority": null,
+    "other_constraints": [
+     "Interested in Management and security"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0176",
+    "PR0164",
+    "PR0157",
+    "PR0130",
+    "PR0060"
+   ],
+   "feedback": null
+  }
+ ]
+}

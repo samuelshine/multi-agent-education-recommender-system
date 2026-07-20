@@ -1,0 +1,42 @@
+{
+ "student_id": "ST0045",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a distro making certification background. My overall academic average is 78.1% in an IT/computer-science degree. I'm interested in programming and cloud computing. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 3400 per year. I live in Chennai. I cannot leave my city. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 78.1
+  },
+  "career_goal": null,
+  "budget_max_usd_per_year": 3400,
+  "location_preference": "Chennai",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in programming and cloud computing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0197",
+  "PR0199",
+  "PR0162",
+  "PR0165",
+  "PR0191",
+  "PR0109",
+  "PR0171",
+  "PR0059"
+ ],
+ "final_shortlist": [
+  "PR0197",
+  "PR0191",
+  "PR0109",
+  "PR0171",
+  "PR0162"
+ ],
+ "explanation": "This program aligns perfectly with your interest in cloud computing and networking, is located in Chennai, and has a high placement rate (85%) and strong median salary ($13,362), making it excellent for job prospects while staying within your budget.\n\nWith a high placement rate (84%) and the highest median starting salary ($15,951), this program offers strong job security. Although focused on data engineering, it is highly relevant to tech careers and meets all your geographical and financial constraints.\n\nThis MTech in Computer Science focuses on software engineering, a core area of programming. It is located in Chennai, has a good placement rate (82%), and the tuition ($1550) is well within your family's budget.\n\nThis MTech in Computer Science provides a strong foundation in software engineering and is located locally. While the placement rate (75%) is slightly lower than PR0109, it remains a solid choice that respects your budget and location constraints.\n\nIf you are interested in the intersection of networking and cloud computing with an added security focus, this MTech Cyber Security program is a good fit. It meets all your location and budget requirements, though its median salary ($7,369) is lower than other options.",
+ "wall_s": 39.6
+}

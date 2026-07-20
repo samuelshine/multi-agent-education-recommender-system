@@ -1,0 +1,68 @@
+{
+ "student_id": "ST0095",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a full stack certification background. My overall academic average is 72.6% in an IT/computer-science degree. I'm interested in Software Engineering and developer. I want to become a Applications Developer. My family can afford at most about USD 3300 per year. I live in Hyderabad. I cannot leave my city. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 72.6
+  },
+  "career_goal": "Applications Developer (Software Engineering and developer)",
+  "budget_max_usd_per_year": 3300,
+  "location_preference": "Hyderabad",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Full stack certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0026",
+  "PR0076",
+  "PR0167",
+  "PR0196",
+  "PR0142",
+  "PR0119",
+  "PR0176",
+  "PR0096",
+  "PR0130",
+  "PR0113",
+  "PR0111",
+  "PR0074",
+  "PR0050",
+  "PR0159"
+ ],
+ "retrieved_ids": [
+  "PR0196",
+  "PR0167",
+  "PR0142",
+  "PR0119",
+  "PR0096",
+  "PR0130",
+  "PR0176",
+  "PR0074"
+ ],
+ "proposed_shortlist": [
+  "PR0196",
+  "PR0167",
+  "PR0142",
+  "PR0130",
+  "PR0119"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0196",
+  "PR0167",
+  "PR0142",
+  "PR0130",
+  "PR0119"
+ ],
+ "reflection_note": "The initial shortlist is strong and adheres to all hard constraints (Budget: Max $3300; Location: Hyderabad). All five programs are kept because they represent the best balance of fit, affordability, and location. PR0196 remains the top choice due to its direct relevance to Software Engineering. PR0167 offers a strong technical alternative with excellent placement potential. The remaining options (PR0142, PR0130, PR0119) are kept as valuable fallbacks that meet location and budget requirements, even if their focus is slightly tangential (QA or IT Management).",
+ "explanation": "Elmhurst Institute of Applied Sciences\nThis MTech Computer Science program is highly recommended as it directly aligns with your goal of becoming an Applications Developer and requires a CS background, which you possess. At $1650 USD annually, the tuition fits well within your maximum budget of $3300 per year, and the location in Hyderabad meets your fixed city preference. The median starting salary of $10817 USD is solid for this field, offering good employability potential. The main trade-off here is that its placement rate (70%) is slightly lower compared to some other options on this list.\n\nCharnock Institute of Technology\nThis MTech Cyber Security program offers a strong blend of software engineering and security skills, which can be valuable for developers today. For $2450 USD annually, it remains within your budget while providing excellent employability metrics, including a 79% placement rate and a median starting salary of $12765 USD. Since the program does not require a CS background, it is flexible despite your strong academic history. The primary trade-off is that its specialization in Cyber Security means you will be focusing on security rather than pure application development.\n\nNalanda Ridge School of Engineering\nThis MSc Software Quality Engineering option provides the lowest tuition cost at $700 USD, making it extremely budget-friendly for your Hyderabad location. While it meets the requirement of being software-focused and does not require a CS background, its median starting salary ($6488 USD) and placement rate (64%) are significantly lower than other options. The main trade-off is that while it is highly affordable, the resulting salary potential may limit your goal of high employability in application development.\n\nElmhurst School of Engineering\nThis MSc IT Management program offers a very low tuition cost of $1000 USD and maintains a strong placement rate (77%) with a median starting salary of $11249 USD, keeping you within budget and location constraints. It is an excellent choice if you are interested in the business side of technology rather than pure coding. The main trade-off is that its focus on IT Management deviates from your stated goal of becoming a hands-on Applications Developer.\n\nMeridian Institute of Applied Sciences\nThis MSc Software Quality Engineering program boasts the highest placement rate (86%) and median starting salary ($14917 USD) among all options, making it excellent for high employability. At $1200 USD annually, it is also well within your budget constraints in Hyderabad. The main trade-off is that like Nalanda Ridge, its focus is on Quality Assurance (QA), which is a specialized field and differs from the core development skills needed for an Applications Developer role.",
+ "wall_s": 175.1
+}

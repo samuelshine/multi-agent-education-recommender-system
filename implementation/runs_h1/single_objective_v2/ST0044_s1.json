@@ -1,0 +1,73 @@
+{
+ "student_id": "ST0044",
+ "session": 1,
+ "mode": "single_objective",
+ "version": 2,
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 77% in an IT/computer-science degree. I'm interested in Software Engineering and developer. I want to become a Systems Analyst. My family can afford at most about USD 8700 per year. I live in Coimbatore. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 77
+  },
+  "career_goal": "Systems Analyst",
+  "budget_max_usd_per_year": 8700,
+  "location_preference": "Coimbatore (near home)",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "information security certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0191",
+  "PR0101",
+  "PR0054",
+  "PR0105",
+  "PR0015",
+  "PR0020",
+  "PR0033",
+  "PR0157",
+  "PR0047",
+  "PR0074",
+  "PR0172",
+  "PR0087",
+  "PR0117",
+  "PR0198",
+  "PR0097",
+  "PR0144",
+  "PR0139",
+  "PR0164",
+  "PR0029",
+  "PR0022"
+ ],
+ "retrieved_ids": [
+  "PR0101",
+  "PR0054",
+  "PR0033",
+  "PR0157",
+  "PR0164",
+  "PR0139",
+  "PR0029",
+  "PR0144"
+ ],
+ "proposed_shortlist": [
+  "PR0029",
+  "PR0101",
+  "PR0033",
+  "PR0157"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0101",
+  "PR0054",
+  "PR0033",
+  "PR0157",
+  "PR0164"
+ ],
+ "reflection_note": "The initial shortlist was strong but included PR0029, which violates the location preference (Mumbai). I dropped PR0029. To maintain 5 entries, I swapped in PR0054 as a highly relevant alternative to PR0101, keeping the focus on Coimbatore and Systems/Business Analytics roles. Since PR0164 (MBA Technology Management) is located in Delhi but offers an extremely high placement rate (90%) and strong IT management fit, it serves as the best replacement for diversity while maintaining a high employability priority, despite the location deviation.",
+ "explanation": "Braxton Institute of Applied Sciences\nThis program is highly recommended because it meets your location preference in Coimbatore while offering a strong curriculum through its MSc Information Systems degree. Your academic background (77%) exceeds the minimum requirement (71%), and the field includes \"business_information_systems,\" which aligns well with your goal of becoming a Systems Analyst. It boasts an 85% placement rate and a median starting salary of $15,394, indicating high employability. The main trade-off here is that while it keeps you near home, there are no post-study work visa options provided.\n\nElmhurst University\nThis option is ideal as it remains in Coimbatore and has an annual tuition cost ($2,150) well within your budget limit of $8,700. The MBA Business Analytics program covers \"business_information_systems,\" making it relevant to your career goal, and the placement rate (84%) suggests strong job prospects. You meet the minimum grade requirement (72%). The primary trade-off is that while this school offers excellent local relevance, neither Braxton nor Elmhurst provide any post-study work visa support.\n\nQuilon School of Engineering\nThis program keeps you in Coimbatore and has a low tuition cost ($2,100), making it budget-friendly for your goals. The MBA Business Analytics curriculum includes both \"business_information_systems\" and \"data_science_analytics,\" which are highly relevant to modern Systems Analyst roles. However, the main trade-off is that while the location and cost are perfect fits, this program has a lower placement rate (73%) and median starting salary ($10,526) compared to other options in Coimbatore.\n\nLongford University\nThis school offers the lowest tuition fee ($800) among all listed programs, making it an excellent choice for adhering strictly to your budget constraints while staying in Coimbatore. The MSc IT Management program covers \"business_information_systems\" and \"it_management,\" which aligns with your background and career goal. The main trade-off is that while the cost is minimal, this option also presents the lowest placement rate (72%) and median starting salary ($10,444) among all Coimbatore options.\n\nNorthgate School of Engineering\nThis program offers the highest employability metrics on the list, boasting a 90% placement rate and a $17,361 median starting salary. While its location in Delhi is outside your preference for Coimbatore, it would be ideal if you were willing to relocate. However, please note that your current grade percentage (77%) falls below this school's minimum requirement of 79%, making admission difficult despite the strong career outcomes.",
+ "wall_s": 72.3
+}

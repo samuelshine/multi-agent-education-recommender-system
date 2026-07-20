@@ -1,0 +1,54 @@
+{
+ "student_id": "ST0004",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 73.9% in an IT/computer-science degree. I'm interested in hacking and testing. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 6000 per year. I live in Pune. I cannot leave my city. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 73.9
+  },
+  "career_goal": "tech (interested in hacking and testing)",
+  "budget_max_usd_per_year": 6000,
+  "location_preference": "Pune",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "information security certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0182",
+  "PR0072",
+  "PR0019",
+  "PR0172",
+  "PR0190",
+  "PR0080",
+  "PR0186",
+  "PR0092",
+  "PR0187",
+  "PR0007",
+  "PR0158",
+  "PR0084",
+  "PR0078",
+  "PR0181",
+  "PR0046",
+  "PR0180",
+  "PR0045",
+  "PR0023",
+  "PR0025",
+  "PR0156"
+ ],
+ "final_shortlist": [
+  "PR0045",
+  "PR0023",
+  "PR0182",
+  "PR0186",
+  "PR0019"
+ ],
+ "explanation": "This program directly aligns with your background in information security and your interest in hacking/testing. It is located in Pune, has a low tuition cost ($1450), and offers a relevant career path.\n\nThis MTech Cyber Security program is highly specialized for your interests in hacking and testing. It has the lowest tuition cost ($650) among security options and meets all your constraints (Pune location, low cost).\n\nWhile focused on QA testing, this program is a strong fit because quality assurance often involves penetration testing and security validation. It has the highest placement rate (91%) among all Pune options, which addresses your priority of job prospects.\n\nThis MTech Computer Networks program offers a strong technical foundation in networking and software engineering. It has the highest median starting salary ($15192) listed, making it excellent for job prospects while remaining within your budget.\n\nThis MSc Software Engineering program provides a broad technical skillset that can be adapted to security roles. It is affordable ($1450), located in Pune, and has a decent placement rate (84%), offering good job stability.",
+ "wall_s": 50.6
+}

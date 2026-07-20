@@ -1,0 +1,70 @@
+{
+ "student_id": "ST0096",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a distro making certification background. My overall academic average is 77.9% in an IT/computer-science degree. I'm interested in Computer Architecture and testing. I want to become a Database Developer. My family can afford at most about USD 10200 per year. I live in Pune. I'm open to going abroad.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 77.9
+  },
+  "career_goal": "Database Developer",
+  "budget_max_usd_per_year": 10200,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in Computer Architecture and testing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0051",
+  "PR0151",
+  "PR0198",
+  "PR0097",
+  "PR0104",
+  "PR0139",
+  "PR0182",
+  "PR0191",
+  "PR0119",
+  "PR0143",
+  "PR0058",
+  "PR0053",
+  "PR0007",
+  "PR0140",
+  "PR0072",
+  "PR0128",
+  "PR0126",
+  "PR0099",
+  "PR0026",
+  "PR0070"
+ ],
+ "retrieved_ids": [
+  "PR0151",
+  "PR0104",
+  "PR0182",
+  "PR0072",
+  "PR0126",
+  "PR0140",
+  "PR0128",
+  "PR0126"
+ ],
+ "proposed_shortlist": [
+  "PR0151",
+  "PR0104",
+  "PR0126"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0126",
+  "PR0140",
+  "PR0128",
+  "PR0104"
+ ],
+ "reflection_note": "The original shortlist was heavily weighted towards testing (PR0151, PR0104) and lacked a strong Data Science/Database focus outside of the general 'Software Engineering' umbrella. I have kept PR0126 as the primary recommendation due to its perfect blend of academic fit, low cost, and location. To broaden options while maintaining financial discipline, I swapped in PR0140 (Canada) for maximum post-study work opportunity and PR0128 (Germany MBA) for business context relevant to data development. The final list prioritizes Data/Software Engineering depth (PR0126), global career mobility (PR0140), and complementary skills (PR0128). I dropped PR0151 as it was redundant and less financially appealing than the alternatives.",
+ "explanation": "Ashford Technical University\nThis program is recommended because it aligns well with your existing IT/computer science background and offers a strong focus on software engineering. The annual tuition of $2050 fits comfortably within your budget, and the curriculum supports your career goal as a developer. A key trade-off here is that while the placement rate is 62%, this option does not specifically emphasize Computer Architecture or testing, which you expressed interest in. You benefit from an 18-month post-study work visa period upon graduation.\n\nNalanda Ridge Institute of Applied Sciences\nThis program was selected because it offers a strong data science focus and provides the longest post-study work visa option at 36 months. The annual tuition of $9650 is within your budget, and you meet the admission requirement as it accepts candidates with a CS background. However, the main trade-off is that its pure data science focus may not directly address your stated interest in testing or computer architecture.\n\nKeystone Technical University\nThis option was considered because it has a very low annual tuition of $3800 and offers a decent starting salary of $24756. While this program does not require a CS background, the trade-off is that its focus on Business Analytics (MBA) might be too far removed from the deep technical skills needed for a Database Developer role or your interest in testing.\n\nAravalli Institute of Applied Sciences\nThis program is highly recommended because it directly addresses your stated interest in \"testing\" through its MSc Software Quality Engineering specialization, and it boasts the highest placement rate at 77%. Furthermore, this option provides the best median starting salary ($28649) while maintaining a low annual tuition cost of $3450. The main trade-off is that the program's intense focus on QA/Testing represents a slight pivot from your core Database Developer goal, but it maximizes your technical interests and career prospects.",
+ "wall_s": 204.7
+}

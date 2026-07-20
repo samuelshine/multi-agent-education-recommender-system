@@ -1,0 +1,55 @@
+{
+ "student_id": "ST0002",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a hadoop certification background. My overall academic average is 80% in an IT/computer-science degree. I'm interested in Computer Architecture and developer. I want to become a Business Intelligence Analyst. My family can afford at most about USD 1700 per year. I live in Kolkata. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 80
+  },
+  "career_goal": "Business Intelligence Analyst",
+  "budget_max_usd_per_year": 1700,
+  "location_preference": "Kolkata",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "hadoop certification background",
+   "interested in Computer Architecture and developer"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0015",
+  "PR0020",
+  "PR0033",
+  "PR0157",
+  "PR0047",
+  "PR0074",
+  "PR0087",
+  "PR0164",
+  "PR0182",
+  "PR0119",
+  "PR0186",
+  "PR0176",
+  "PR0058",
+  "PR0187",
+  "PR0174",
+  "PR0053",
+  "PR0158",
+  "PR0109",
+  "PR0076",
+  "PR0012"
+ ],
+ "final_shortlist": [
+  "PR0053",
+  "PR0015",
+  "PR0020",
+  "PR0076",
+  "PR0176"
+ ],
+ "explanation": "This program is ideal because it is located in Kolkata, meeting your strong preference to stay near home. It focuses on software engineering and QA testing, which aligns well with a developer interest while offering high placement potential (86%) and manageable tuition ($1200).\n\nThis MSc Information Systems program in Bengaluru is highly relevant for your goal of becoming a Business Intelligence Analyst. The low tuition cost ($1200) and strong placement rate (78%) make it an excellent choice that balances career goals with financial constraints.\n\nThe MBA Business Analytics program in Delhi directly targets your goal of becoming a BI Analyst. With a moderate tuition cost ($1450) and good placement rate (76%), it is a strong contender for career focus while remaining within budget.\n\nThis MBA Technology Management program in Hyderabad offers a blend of IT management and software engineering. The tuition is low ($1250), the placement rate is solid (81%), and it provides exposure to both business and technical domains.\n\nLocated in Hyderabad, this MBA Technology Management program offers a strong blend of IT management skills. It has an excellent median starting salary ($15400) and is affordable ($1900), making it highly attractive for job security while staying within your preferred region.",
+ "wall_s": 43.4
+}

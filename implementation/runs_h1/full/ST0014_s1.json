@@ -1,0 +1,70 @@
+{
+ "student_id": "ST0014",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a full stack certification background. My overall academic average is 78.6% in an IT/computer-science degree. I'm interested in hacking and cloud computing. I want to become a Programmer Analyst. My family can afford at most about USD 7200 per year. I live in Bengaluru. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 78.6
+  },
+  "career_goal": "Programmer Analyst",
+  "budget_max_usd_per_year": 7200,
+  "location_preference": "Bengaluru",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in hacking and cloud computing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0186",
+  "PR0197",
+  "PR0043",
+  "PR0147",
+  "PR0096",
+  "PR0199",
+  "PR0118",
+  "PR0121",
+  "PR0148",
+  "PR0016",
+  "PR0102",
+  "PR0180",
+  "PR0162",
+  "PR0112",
+  "PR0159",
+  "PR0032",
+  "PR0184",
+  "PR0165",
+  "PR0117",
+  "PR0198"
+ ],
+ "retrieved_ids": [
+  "PR0198",
+  "PR0186",
+  "PR0197",
+  "PR0096",
+  "PR0148",
+  "PR0162",
+  "PR0180",
+  "PR0165"
+ ],
+ "proposed_shortlist": [
+  "PR0198",
+  "PR0186",
+  "PR0197"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0186",
+  "PR0096",
+  "PR0197",
+  "PR0162"
+ ],
+ "reflection_note": "The original shortlist was flawed because PR0198 violated the academic grade constraint (78.6% < 80%). I dropped it immediately. Among the remaining options, I prioritized candidates that strongly align with the student's stated interests in 'hacking and cloud computing' while maintaining affordability and meeting the CS background requirement. PR0096 (Hyderabad) and PR0162 (Chennai) are superior additions because they directly address the cybersecurity/hacking interest, making them more compelling than the original set. The final list balances location preference (PR0186 in Pune) with high technical relevance and affordability.",
+ "explanation": "Halcyon Institute of Technology\nThis program was recommended because its focus on `networking_cloud` and `software_engineering` aligns well with your interest in cloud computing and career goal as a Programmer Analyst. The annual tuition of $2050 is comfortably within your maximum budget, and your 78.6% grade exceeds the minimum requirement of 70%. While this institution offers a high placement rate of 83% and a strong median starting salary of $15192, the main trade-off is that it is located in Pune rather than your preferred Bengaluru location.\n\nAshford Institute of Applied Sciences\nThis program was selected because its curriculum covers both `cybersecurity` (addressing your interest in hacking) and `networking_cloud`, making it highly relevant to your goals. The tuition cost of $3350 remains within budget, and your academic background meets the minimum grade requirement of 71%. This option is located in Hyderabad, which is a regional move from Bengaluru. The trade-off here is that while the placement rate is solid at 80%, the median starting salary ($12561) is lower compared to other options on this list.\n\nAshford Institute of Technology\nThis program was recommended due to its strong focus on `networking_cloud`, directly matching your stated interests and career path. With a tuition cost of $3350, it fits within your budget constraints, and your grade meets the minimum requirement of 71%. It boasts the highest placement rate (85%) among the shortlisted options, which supports your high employability priority. The primary trade-off is that this program is located in Chennai, requiring a move away from your preferred Bengaluru location.\n\nAravalli Institute of Applied Sciences\nThis option was recommended because it offers low tuition ($1150) and covers both `cybersecurity` and `networking_cloud`, aligning with your interests. The cost is excellent for your budget, and your grade exceeds the minimum requirement of 57%. However, the main trade-off is that despite the very low tuition, this program has a significantly lower median starting salary ($7369) and placement rate (68%), which conflicts with your high employability priority.",
+ "wall_s": 205.8
+}

@@ -1,0 +1,63 @@
+{
+ "student_id": "ST0065",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a python certification background. My overall academic average is 79.2% in an IT/computer-science degree. I'm interested in programming and cloud computing. I want to become a Technical Engineer. My family can afford at most about USD 9600 per year. I live in Delhi. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 79.2
+  },
+  "career_goal": "Technical Engineer (programming and cloud computing)",
+  "budget_max_usd_per_year": 9600,
+  "location_preference": "Delhi",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Python certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0186",
+  "PR0197",
+  "PR0043",
+  "PR0147",
+  "PR0096",
+  "PR0199",
+  "PR0118",
+  "PR0121",
+  "PR0148",
+  "PR0016",
+  "PR0102",
+  "PR0180",
+  "PR0162",
+  "PR0112",
+  "PR0159",
+  "PR0032",
+  "PR0184",
+  "PR0165",
+  "PR0117",
+  "PR0198"
+ ],
+ "retrieved_ids": [
+  "PR0121",
+  "PR0102",
+  "PR0184"
+ ],
+ "proposed_shortlist": [
+  "PR0102",
+  "PR0121",
+  "PR0184"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0102",
+  "PR0121"
+ ],
+ "reflection_note": "The original shortlist was strong but included PR0184, which is significantly weaker in terms of career outcomes (placement rate) despite its low cost. I have dropped PR0184 and kept the top two options (PR0102 and PR0121). These two programs offer excellent alignment with the student's technical goals, are located in Delhi, and are highly affordable, providing a focused and actionable shortlist of the best available choices.",
+ "explanation": "Westbrook Technical University\nThis program is highly recommended because its focus on \"MSc Cloud Computing\" directly aligns with your career goal of becoming a technical engineer specializing in cloud computing. Located in Delhi and requiring only $1700 annually for tuition, it fits comfortably within your budget while utilizing your existing IT/CS background. The placement rate of 75% is solid, offering a median starting salary of $8729. The main trade-off here is that the program does not offer any post-study work visa options (0 months).\n\nAldermount Institute of Technology\nThis option was recommended because it maintains relevance to your goals by covering \"networking_cloud\" and offers an excellent placement rate of 76% in Delhi. At $2100 per year, the tuition remains well within your maximum budget, and its median starting salary of $9223 is slightly higher than the other option. While it does not require a CS background, which provides flexibility, the primary trade-off to consider is that there are no post-study work visa options available (0 months).",
+ "wall_s": 155.9
+}

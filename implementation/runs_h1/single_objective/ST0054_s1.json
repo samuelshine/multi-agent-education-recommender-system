@@ -1,0 +1,74 @@
+{
+ "student_id": "ST0054",
+ "session": 1,
+ "mode": "single_objective",
+ "message": "Hi, I'm a student with a hadoop certification background. My overall academic average is 80.4% in an IT/computer-science degree. I'm interested in hacking and security. I want to become a Programmer Analyst. My family can afford at most about USD 1600 per year. I live in Mumbai. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 80.4
+  },
+  "career_goal": "Programmer Analyst",
+  "budget_max_usd_per_year": 1600,
+  "location_preference": "Mumbai",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in hacking and security",
+   "Hadoop certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0182",
+  "PR0119",
+  "PR0176",
+  "PR0058",
+  "PR0187",
+  "PR0174",
+  "PR0053",
+  "PR0158",
+  "PR0109",
+  "PR0076",
+  "PR0012",
+  "PR0019",
+  "PR0114",
+  "PR0185",
+  "PR0130",
+  "PR0084",
+  "PR0120",
+  "PR0170",
+  "PR0015",
+  "PR0020"
+ ],
+ "retrieved_ids": [
+  "PR0114",
+  "PR0187",
+  "PR0053",
+  "PR0185",
+  "PR0170",
+  "PR0109",
+  "PR0012",
+  "PR0130"
+ ],
+ "proposed_shortlist": [
+  "PR0185",
+  "PR0109",
+  "PR0012",
+  "PR0053",
+  "PR0114"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0185",
+  "PR0109",
+  "PR0012",
+  "PR0130",
+  "PR0114"
+ ],
+ "reflection_note": "The original shortlist was strong academically but failed to prioritize the location preference (Mumbai) effectively, leading to a potential mismatch. I have kept PR0114 for its Mumbai location and high feasibility. However, I swapped in PR0130 (Hyderabad) because it perfectly balances the budget constraint ($1000/year < $1600), offers an acceptable regional location (Hyderabad is often grouped with major tech hubs like Bangalore/Mumbai), and provides a relevant IT Management degree that supports the Programmer Analyst goal without requiring deep CS specialization, thus broadening the viable options significantly.",
+ "explanation": "Longford Institute of Technology\nThis program is highly recommended because its focus on \"cybersecurity\" directly aligns with your stated interest in hacking and security. The annual tuition of $1150 fits comfortably within your maximum budget of $1600, and the minimum grade requirement of 62% is well below your academic standing (80.4%). The main trade-off here is that while the program content is a perfect fit for your interests, the location in Kolkata does not match your preference for Mumbai.\n\nCrestwood Technical University\nThis MTech Computer Science program was selected because it offers strong software engineering training and boasts an excellent placement rate of 82% with a median starting salary of $13,300. The tuition cost of $1550 is within budget, and the minimum grade requirement (73%) is easily met by your academic background. The primary trade-off to consider is that while this program offers high employability, it is located in Chennai rather than your preferred region of Mumbai.\n\nElmhurst University\nThis MCA program provides a solid foundation in software engineering, which aligns well with your goal of becoming a Programmer Analyst. It has a strong median starting salary of $13,468 and an acceptable placement rate of 79%, all while keeping the tuition at $1500 within budget. The main trade-off is that like other options, this program is located in Kolkata, deviating from your stated preference for Mumbai.\n\nElmhurst School of Engineering\nThis MSc IT Management option was recommended due to its extremely low annual tuition cost of only $1000, making it highly budget-friendly. Furthermore, the lack of a requirement for a CS background provides maximum flexibility given your academic history. The trade-off is that this program focuses on \"it_management\" rather than deep programming or security, which might be less aligned with your core technical interests.\n\nCrestwood School of Engineering\nThis MSc Software Quality Engineering program was prioritized because it is located in Mumbai, matching your location preference, and has the lowest tuition cost at $850. The minimum grade requirement (60%) is easily met by your 80.4% GPA, making admission straightforward. The main trade-off is that while this option provides excellent value and location convenience, its specialization is in QA testing rather than core security or advanced programming.",
+ "wall_s": 183.2
+}

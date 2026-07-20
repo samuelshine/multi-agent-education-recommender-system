@@ -1,0 +1,73 @@
+{
+ "student_id": "ST0037",
+ "session": 1,
+ "mode": "single_objective",
+ "version": 2,
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 75.9% in an IT/computer-science degree. I'm interested in networks and developer. I want to become a CRM Technical Developer. My family can afford at most about USD 1600 per year. I live in Chennai. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 75.9
+  },
+  "career_goal": "CRM Technical Developer",
+  "budget_max_usd_per_year": 1600,
+  "location_preference": "Chennai",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "r programming certification"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0182",
+  "PR0119",
+  "PR0176",
+  "PR0058",
+  "PR0187",
+  "PR0174",
+  "PR0053",
+  "PR0158",
+  "PR0109",
+  "PR0076",
+  "PR0012",
+  "PR0019",
+  "PR0114",
+  "PR0185",
+  "PR0130",
+  "PR0084",
+  "PR0120",
+  "PR0170",
+  "PR0015",
+  "PR0020"
+ ],
+ "retrieved_ids": [
+  "PR0109",
+  "PR0053",
+  "PR0119",
+  "PR0176",
+  "PR0182",
+  "PR0012",
+  "PR0187",
+  "PR0158"
+ ],
+ "proposed_shortlist": [
+  "PR0109",
+  "PR0012",
+  "PR0119",
+  "PR0053"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0109",
+  "PR0012",
+  "PR0119",
+  "PR0053",
+  "PR0187"
+ ],
+ "reflection_note": "The initial shortlist was strong and contained no hard violations. I reviewed the full candidate set for potential swaps to improve diversity while maintaining constraints. PR0176 (MBA) was initially considered but violates the strict budget constraint ($1900 > $1600). PR0182 was excluded because it is not on the shortlist and its tuition ($1950) also exceeds the budget. I swapped in PR0187 (PG Diploma in Systems Administration) as a strong, low-cost alternative located in Pune. It maintains high employability relevance (IT support/Systems Admin), fits the CS background requirement implicitly through IT focus, and crucially, meets all hard constraints: Budget ($1450 <= $1600), Location (Pune is acceptable region), and Academic Fit (Min Grade 72% < 75.9%). This swap improves the list's breadth without compromising feasibility.",
+ "explanation": "Crestwood Technical University\nThis program is highly recommended because it meets your location preference in Chennai and fits comfortably within your maximum budget of $1600 per year ($1550 tuition). Since you have an IT/computer-science background and a grade percentage of 75.9%, you meet the minimum admission requirements (min grade 73% and requires CS background). The MTech in Computer Science is directly relevant to your goal as a CRM Technical Developer, offering a strong foundation in software engineering with an 82% placement rate. The main trade-off here is that while the location is perfect, the median starting salary ($13300) is not the highest among the options.\n\nElmhurst University\nThis MCA program was selected because it aligns well with your technical background and budget constraints, costing $1500 per year. While the location (Kolkata) deviates from your preference for Chennai, this option maintains a strong focus on software engineering, which is crucial for your developer goal. You meet both the minimum grade requirement (73%) and the prerequisite of having a CS background. The main trade-off to consider is that its placement rate (79%) is slightly lower compared to other options in the shortlist.\n\nMeridian Institute of Applied Sciences\nThis option offers excellent employability metrics, boasting an 86% placement rate and a median starting salary of $14917, all while keeping tuition low at $1200 per year. It also meets your academic requirements (min grade 71%). The main trade-off is that the specialization in QA testing is less focused on core development than some other options, although it still provides valuable software engineering skills.\n\nCavendish University\nThis program offers a strong balance of low cost ($1200 tuition) and high employability, with an 86% placement rate. The curriculum covers both QA testing and software engineering, making it relevant to your developer career goal while remaining within budget. Since the focus is on quality assurance rather than pure development, the main trade-off is that you would be specializing in a supporting technical role (QA) instead of core CRM development.\n\nCavendish University\nThis PG Diploma offers the highest placement rate (87%) and remains well under your annual budget at $1450 tuition. The program's focus on IT support provides practical, high-demand skills that are valuable for employability. However, because its specialization is in general IT support, the main trade-off is that it deviates significantly from your stated goal of becoming a CRM Technical Developer.",
+ "wall_s": 114.4
+}

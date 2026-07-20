@@ -1,0 +1,71 @@
+{
+ "student_id": "ST0008",
+ "session": 3,
+ "mode": "no_memory",
+ "version": 1,
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 77.6% in an IT/computer-science degree. I'm interested in programming and Business process analyst. I want to become a UX Designer. My family can afford at most about USD 2100 per year. I live in Bengaluru. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else. About the earlier suggestions: I liked PR0013, PR0046.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 77.6
+  },
+  "career_goal": "UX Designer",
+  "budget_max_usd_per_year": 2100,
+  "location_preference": "Bengaluru",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in programming and Business process analyst"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0101",
+  "PR0039",
+  "PR0174",
+  "PR0158",
+  "PR0054",
+  "PR0084",
+  "PR0015",
+  "PR0020",
+  "PR0141",
+  "PR0013",
+  "PR0033",
+  "PR0014",
+  "PR0157",
+  "PR0181",
+  "PR0046",
+  "PR0047",
+  "PR0166",
+  "PR0074",
+  "PR0172",
+  "PR0059"
+ ],
+ "retrieved_ids": [
+  "PR0013",
+  "PR0157",
+  "PR0166",
+  "PR0158",
+  "PR0039",
+  "PR0181",
+  "PR0046",
+  "PR0172"
+ ],
+ "proposed_shortlist": [
+  "PR0013",
+  "PR0166",
+  "PR0181"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0013",
+  "PR0046",
+  "PR0157",
+  "PR0166"
+ ],
+ "reflection_note": "The original shortlist was too focused on the top-ranked option (PR0013) and dropped viable alternatives. I have kept PR0013 as the clear #1 choice due to its perfect alignment with location, budget, and career goals. I replaced the weak options (PR0181) with two stronger candidates: PR0046 (better HCI/placement in Pune) and PR0157 (addresses Business Analyst interest affordably). I also kept PR0166 as a backup option since it is highly affordable, even if the location isn't ideal. Note that PR0039 was dropped due to exceeding the budget constraint.",
+ "explanation": "Meridian Institute of Technology\nThis program is highly recommended because it perfectly aligns with your career goal of becoming a UX Designer through its MSc Human-Computer Interaction curriculum. Furthermore, the location in Bengaluru matches your stated preference, and the annual tuition of $900 keeps you well within your maximum budget of $2100. The main trade-off here is that while the placement rate (77%) and median salary ($9186) are solid, they are not the highest among the options.\n\nBridgewater Institute of Applied Sciences\nThis program was recommended because its curriculum covers both HCI and software engineering, which appeals to your interest in programming alongside UX design. While it is located in Pune rather than your preferred Bengaluru region, the annual tuition of $1900 remains within your budget constraints. The trade-off you should consider is that while this option provides a broad skill set, its location deviates from your preference, and its median starting salary ($8623) is lower than some other options.\n\nLongford University\nThis program was recommended because it aligns well with your secondary interest in business process analysis through the MSc IT Management curriculum. It offers an excellent combination of low cost ($800 annual tuition) and high employability, boasting a median starting salary of $10444. The main trade-off is that this degree shifts focus away from pure UX design toward IT management, and it is located in Coimbatore, not your preferred region.\n\nMeridian Technical University\nThis program was recommended because its MDes Interaction Design curriculum provides a strong, specialized focus directly relevant to your goal of becoming a UX Designer. It also offers a high median starting salary of $10095 while keeping the tuition manageable at $1200 per year. The trade-off is that this option requires you to compromise on location, as it is situated in Coimbatore rather than Bengaluru.",
+ "wall_s": 127.2
+}

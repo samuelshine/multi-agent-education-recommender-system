@@ -1,0 +1,48 @@
+{
+ "student_id": "ST0094",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a python certification background. My overall academic average is 75.7% in an IT/computer-science degree. I'm interested in programming and developer. I want to become a Network Engineer. My family can afford at most about USD 3400 per year. I live in Hyderabad. I cannot leave my city.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 75.7
+  },
+  "career_goal": "Network Engineer",
+  "budget_max_usd_per_year": 3400,
+  "location_preference": "Hyderabad",
+  "mobility": "fixed_city",
+  "employability_priority": null,
+  "other_constraints": [
+   "programming and developer interest"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0119",
+  "PR0176",
+  "PR0026",
+  "PR0076",
+  "PR0096",
+  "PR0167",
+  "PR0130",
+  "PR0113",
+  "PR0196",
+  "PR0111",
+  "PR0074",
+  "PR0050",
+  "PR0159",
+  "PR0142"
+ ],
+ "final_shortlist": [
+  "PR0096",
+  "PR0159",
+  "PR0167",
+  "PR0176",
+  "PR0130"
+ ],
+ "explanation": "This MTech Computer Networks program directly aligns with your goal of becoming a Network Engineer and is located in Hyderabad. The tuition fee ($3350) is within your family's budget constraint.\n\nThe PG Diploma in Systems Administration focuses on networking and IT support, making it highly relevant to a Network Engineer career path. It also has the lowest tuition fee ($700), ensuring it stays well within your budget.\n\nWhile focused on Cyber Security, this MTech program is closely related to networking and developer roles. It meets all constraints (Hyderabad location, tuition under budget) and offers a strong technical foundation.\n\nThis MBA program provides general IT management skills in Hyderabad and is affordable ($1900). While not purely technical, it offers a good blend of business knowledge and technology that can support a career transition.\n\nThis MSc IT Management program is the most budget-friendly option ($1000) while remaining relevant to general developer and IT roles. It meets all location requirements and has a low tuition cost.",
+ "wall_s": 38.1
+}

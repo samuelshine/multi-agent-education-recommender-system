@@ -1,0 +1,74 @@
+{
+ "student_id": "ST0013",
+ "session": 1,
+ "mode": "single_objective",
+ "version": 2,
+ "message": "Hi, I'm a student with a python certification background. My overall academic average is 75.6% in an IT/computer-science degree. I'm interested in Management and security. I want to become a Systems Analyst. My family can afford at most about USD 4400 per year. I live in Pune. I'd strongly prefer to stay near home, though I might consider elsewhere in India.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 75.6
+  },
+  "career_goal": "Systems Analyst",
+  "budget_max_usd_per_year": 4400,
+  "location_preference": null,
+  "mobility": "prefers_region",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in Management and security"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0157",
+  "PR0172",
+  "PR0164",
+  "PR0060",
+  "PR0191",
+  "PR0101",
+  "PR0176",
+  "PR0092",
+  "PR0189",
+  "PR0054",
+  "PR0076",
+  "PR0105",
+  "PR0130",
+  "PR0015",
+  "PR0020",
+  "PR0078",
+  "PR0033",
+  "PR0150",
+  "PR0047",
+  "PR0160"
+ ],
+ "retrieved_ids": [
+  "PR0157",
+  "PR0172",
+  "PR0164",
+  "PR0060",
+  "PR0176",
+  "PR0130",
+  "PR0150",
+  "PR0160"
+ ],
+ "proposed_shortlist": [
+  "PR0176",
+  "PR0164",
+  "PR0157",
+  "PR0130",
+  "PR0060"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0176",
+  "PR0164",
+  "PR0157",
+  "PR0130",
+  "PR0060"
+ ],
+ "reflection_note": "All programs on the shortlist are financially feasible (annual tuition well below $4400 USD). No hard constraints were violated. The ranking order was adjusted slightly to prioritize PR0176 first, as it offers the best balance of high academic fit and strong admission feasibility compared to PR0164, which is borderline.",
+ "explanation": "Crestwood University\nThis MBA Technology Management program in Hyderabad is recommended because it aligns perfectly with your interest in management while keeping tuition low at $1900, which fits well within your budget. The 82% placement rate suggests strong employability for a Systems Analyst role. The main trade-off here is that the median starting salary of $15400 is lower compared to some other options on this list.\n\nNorthgate School of Engineering\nThis program offers the highest potential return, boasting a 90% placement rate and a high median starting salary of $17361, which would be excellent for your career goal. While it requires a minimum grade percentage of 79%, which is slightly higher than your current 75.6%, this option represents a trade-off between maximizing earning potential and meeting the strict admission requirement.\n\nLongford University\nIf minimizing cost is your highest priority, this MSc IT Management program at $800 annually is an excellent choice that stays far below your budget maximum. It has a low minimum grade percentage of 64%, making entry highly accessible. The trade-off for this low tuition is that the placement rate (72%) and median starting salary ($10444) are the lowest among the shortlisted options.\n\nElmhurst School of Engineering\nThis program provides a balanced option with moderate tuition at $1000, making it affordable while still offering solid career prospects. The 77% placement rate is reliable for transitioning into a Systems Analyst role, and the median starting salary of $11249 offers slightly better earning potential than some lower-cost alternatives.\n\nQuilon Technical University\nThis program is recommended due to its strong combination of high employability and location; it boasts an 88% placement rate in Mumbai. While the annual tuition of $3650 is the highest on this list, the trade-off for this higher cost is a robust median starting salary of $13973 and a desirable metropolitan location.",
+ "wall_s": 95.3
+}

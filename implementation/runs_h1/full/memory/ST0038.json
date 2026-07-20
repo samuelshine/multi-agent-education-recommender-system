@@ -1,0 +1,32 @@
+{
+ "student_id": "ST0038",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 77.9
+    },
+    "career_goal": "Network Security Engineer",
+    "budget_max_usd_per_year": 4500,
+    "location_preference": "Hyderabad",
+    "mobility": "fixed_city",
+    "employability_priority": "high",
+    "other_constraints": [
+     "Interested in IOT",
+     "Interested in Business process analyst"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0167",
+    "PR0096",
+    "PR0176",
+    "PR0074",
+    "PR0130"
+   ],
+   "feedback": null
+  }
+ ]
+}

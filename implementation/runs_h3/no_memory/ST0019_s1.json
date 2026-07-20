@@ -1,0 +1,78 @@
+{
+ "student_id": "ST0019",
+ "session": 1,
+ "mode": "no_memory",
+ "version": 1,
+ "message": "Hi, I'm a student with a machine learning certification background. My overall academic average is 72.8% in an IT/computer-science degree. I'm interested in Computer Architecture and developer. I want to become a Database Manager.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 72.8
+  },
+  "career_goal": "Database Manager",
+  "budget_max_usd_per_year": null,
+  "location_preference": null,
+  "mobility": "open_domestic",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in Computer Architecture and developer roles"
+  ],
+  "uncertainty_notes": [
+   "Budget maximum per year not specified.",
+   "Location preference not specified.",
+   "Mobility preference not specified (defaulting to open_domestic).",
+   "Employability priority not specified."
+  ]
+ },
+ "prefilter_ids": [
+  "PR0191",
+  "PR0143",
+  "PR0058",
+  "PR0007",
+  "PR0099",
+  "PR0026",
+  "PR0090",
+  "PR0120",
+  "PR0170",
+  "PR0145",
+  "PR0033",
+  "PR0107",
+  "PR0111",
+  "PR0134",
+  "PR0074",
+  "PR0129",
+  "PR0133",
+  "PR0063",
+  "PR0173",
+  "PR0071"
+ ],
+ "retrieved_ids": [
+  "PR0143",
+  "PR0099",
+  "PR0173",
+  "PR0145",
+  "PR0107",
+  "PR0026",
+  "PR0074",
+  "PR0129"
+ ],
+ "proposed_shortlist": [
+  "PR0026",
+  "PR0143",
+  "PR0129",
+  "PR0107"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0026",
+  "PR0107",
+  "PR0074",
+  "PR0173",
+  "PR0145"
+ ],
+ "reflection_note": "The initial shortlist was heavily skewed towards Data Science (PR0143, PR0129) and did not adequately explore the student's interest in 'Computer Architecture and developer roles.' I have dropped PR0143 and PR0129 because they are either too focused on pure analytics or located in less desirable markets relative to their career potential. Instead, I swapped in three new programs: PR0074 (Hyderabad - Data Engineering/BIS), PR0173 (Bengaluru - MTech CS), and PR0145 (Coimbatore - MTech CS). These additions provide a much stronger mix of pure developer roles, better geographical options (Bengaluru being top-tier), and maintain the high employability focus while keeping PR0026 as the primary recommendation. The final list prioritizes technical depth and career trajectory over minimal tuition cost.",
+ "explanation": "Northgate Technical University\nThis program was recommended because it offers a strong combination of relevant skills in Data Science Analytics and Software Engineering, which aligns well with your goal of becoming a Database Manager. It boasts the highest placement rate at 81% and a median starting salary of $13,385 USD. The main trade-off here is that while you meet most requirements, your current grade percentage (72.8%) is slightly below the minimum requirement of 73%.\n\nQuilon Institute of Technology\nThis option is recommended because it requires a Computer Science background, which perfectly matches your academic profile and interest in developer roles. Furthermore, its annual tuition of $1,850 USD makes it highly budget-friendly while still offering relevant coursework. The trade-off to consider is that the placement rate (69%) and median starting salary ($11,447) are lower compared to some other options on this list.\n\nCharnock School of Engineering\nThis program provides a very accessible entry point with low tuition at $1,550 USD and does not require a specific CS background, making it flexible for you. The curriculum covers Business Information Systems and Data Science Analytics, which are useful for database management roles. The primary trade-off is that while the cost is excellent, the median starting salary ($9,196) is among the lowest on this shortlist.\n\nLongford Technical University\nThis program is recommended if minimizing tuition costs is your absolute highest priority, as it has the lowest annual fee at $500 USD. It also does not require a CS background and covers key areas like Data Science Analytics. The main trade-off to be aware of is that this low cost comes with the lowest placement rate (62%) and median starting salary ($6,851) among all listed options.\n\nSilverline Technical University\nThis program offers an excellent balance between affordability and strong outcomes, making it a solid choice for your career goals. It requires a CS background, which aligns perfectly with your academic history, and the placement rate is respectable at 75%. The trade-off here is that while the tuition ($2,300 USD) is moderate, you must meet the requirement of having a Computer Science degree to apply.",
+ "wall_s": 0.0
+}

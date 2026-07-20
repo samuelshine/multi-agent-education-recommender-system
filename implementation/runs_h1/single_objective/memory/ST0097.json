@@ -1,0 +1,31 @@
+{
+ "student_id": "ST0097",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 75.8
+    },
+    "career_goal": "Mobile Applications Developer",
+    "budget_max_usd_per_year": 5700,
+    "location_preference": "Coimbatore",
+    "mobility": "fixed_city",
+    "employability_priority": null,
+    "other_constraints": [
+     "Interested in Management and system developer roles"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0145",
+    "PR0058",
+    "PR0039",
+    "PR0016",
+    "PR0101"
+   ],
+   "feedback": null
+  }
+ ]
+}

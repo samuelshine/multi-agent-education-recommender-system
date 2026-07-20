@@ -1,0 +1,54 @@
+{
+ "student_id": "ST0000",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a full stack certification background. My overall academic average is 79.4% in an IT/computer-science degree. I'm interested in hacking and system developer. I want to become a Solutions Architect. My family can afford at most about USD 8500 per year. I live in Chennai. I'm open to going abroad.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 79.4
+  },
+  "career_goal": "Solutions Architect",
+  "budget_max_usd_per_year": 8500,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in hacking and system developer roles"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0000",
+  "PR0195",
+  "PR0021",
+  "PR0153",
+  "PR0051",
+  "PR0151",
+  "PR0037",
+  "PR0161",
+  "PR0117",
+  "PR0198",
+  "PR0097",
+  "PR0104",
+  "PR0144",
+  "PR0139",
+  "PR0194",
+  "PR0164",
+  "PR0029",
+  "PR0022",
+  "PR0137",
+  "PR0182"
+ ],
+ "final_shortlist": [
+  "PR0000",
+  "PR0194",
+  "PR0137",
+  "PR0164",
+  "PR0195"
+ ],
+ "explanation": "This MSc IT Management program in Germany aligns well with your goal of becoming a Solutions Architect and leverages your existing full-stack background. The low tuition cost ($950) is within budget, and the post-study work visa offers excellent career opportunities abroad.\n\nThe MSc Cloud Computing program in Germany directly relates to modern system development and architecture roles. The tuition is affordable ($1950), the minimum grade requirement (65%) is manageable given your 79.4% average, and it offers a post-study work visa.\n\nThis MBA Business Analytics program in Germany provides strong business context for an architect role while keeping tuition low ($2950). It is a good option if you want to blend your technical skills with high-level business strategy.\n\nThis MBA Technology Management program in India offers relevant IT management knowledge and is highly affordable ($2050). While it lacks a post-study work visa, the high placement rate (90%) makes it a strong local option for career growth.\n\nThe MSc Information Systems program in Germany is highly relevant to IT management and system development. With very low tuition ($300) and a manageable minimum grade requirement (72%), it offers an excellent balance of cost and academic focus.",
+ "wall_s": 39.8
+}

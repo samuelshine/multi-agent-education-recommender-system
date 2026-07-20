@@ -1,0 +1,30 @@
+{
+ "student_id": "ST0057",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 72.1
+    },
+    "career_goal": "CRM Technical Developer",
+    "budget_max_usd_per_year": 2800,
+    "location_preference": null,
+    "mobility": "open_domestic",
+    "employability_priority": null,
+    "other_constraints": [
+     "Interested in programming and cloud computing"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0186",
+    "PR0199",
+    "PR0102",
+    "PR0180"
+   ],
+   "feedback": null
+  }
+ ]
+}

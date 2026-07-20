@@ -1,0 +1,32 @@
+{
+ "student_id": "ST0003",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 81.6
+    },
+    "career_goal": "Software Developer",
+    "budget_max_usd_per_year": 13200,
+    "location_preference": null,
+    "mobility": "open_domestic",
+    "employability_priority": "high",
+    "other_constraints": [
+     "Interested in data engineering and system developer roles",
+     "Has an information security certification background"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0144",
+    "PR0058",
+    "PR0186",
+    "PR0143",
+    "PR0097"
+   ],
+   "feedback": null
+  }
+ ]
+}

@@ -1,0 +1,72 @@
+{
+ "student_id": "ST0036",
+ "session": 1,
+ "mode": "single_objective",
+ "message": "Hi, I'm a student with a python certification background. My overall academic average is 70.8% in an IT/computer-science degree. I'm interested in Management and developer. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 3400 per year. I live in Delhi. I'd strongly prefer to stay near home, though I might consider elsewhere in India.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 70.8
+  },
+  "career_goal": "Management and developer (in tech)",
+  "budget_max_usd_per_year": 3400,
+  "location_preference": "Delhi",
+  "mobility": "prefers_region",
+  "employability_priority": null,
+  "other_constraints": [
+   "Python certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0060",
+  "PR0176",
+  "PR0092",
+  "PR0189",
+  "PR0076",
+  "PR0130",
+  "PR0078",
+  "PR0150",
+  "PR0157",
+  "PR0160",
+  "PR0048",
+  "PR0172",
+  "PR0156",
+  "PR0029",
+  "PR0022",
+  "PR0182",
+  "PR0191",
+  "PR0119",
+  "PR0101",
+  "PR0143"
+ ],
+ "retrieved_ids": [
+  "PR0160",
+  "PR0189",
+  "PR0076",
+  "PR0130",
+  "PR0156",
+  "PR0048",
+  "PR0157",
+  "PR0172"
+ ],
+ "proposed_shortlist": [
+  "PR0160",
+  "PR0189",
+  "PR0076",
+  "PR0130",
+  "PR0157"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0160",
+  "PR0130",
+  "PR0157",
+  "PR0156"
+ ],
+ "reflection_note": "The original shortlist was strong but contained two problematic entries (PR0189 due to location/grade, and PR0076 due to grade). I dropped these. I swapped in PR0156 as a better backup option than the originally listed PR0157 (which is already kept) because it offers high feasibility and a different city (Pune), diversifying options while maintaining strong academic fit. The final list prioritizes Delhi (PR0160) first, followed by other highly feasible and affordable options in acceptable regional hubs (Hyderabad/Coimbatore/Pune).",
+ "explanation": "**Keystone Technical University**\nThis program is recommended because it perfectly matches your preferred location of Delhi and offers an MBA in Technology Management, aligning with your career goals. The annual tuition of $2050 remains well within your maximum budget of $3400. While the placement rate is 71% and the median starting salary is $8900, the main trade-off here is that it offers the lowest reported starting salary compared to other options on this list.\n\n**Elmhurst School of Engineering**\nThis option was recommended for its strong academic outcomes and excellent value, boasting a high placement rate of 77% and a median starting salary of $11249. With an annual tuition cost of only $1000, it is highly budget-friendly while still being above your minimum grade requirement (62%). The primary trade-off to consider is the location; although its metrics are excellent, Hyderabad is not your preferred Delhi location.\n\n**Longford University**\nThis program offers the most financially advantageous option with a low annual tuition of $800, making it ideal for staying within budget. It provides an MSc in IT Management and has a solid placement rate of 72% and a median starting salary of $10444. The main trade-off is that while its cost is the lowest, the resulting median starting salary is slightly lower than the Elmhurst option.\n\n**Meridian Technical University**\nThis MBA program meets your interest in Technology Management and keeps tuition costs manageable at $1350. However, you should note that this institution has the lowest placement rate (67%) and the lowest median starting salary ($7397) among all listed options. Therefore, the main trade-off is accepting lower reported career metrics for a program located in Pune.",
+ "wall_s": 124.5
+}

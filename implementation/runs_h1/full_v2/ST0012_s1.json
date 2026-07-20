@@ -1,0 +1,74 @@
+{
+ "student_id": "ST0012",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a distro making certification background. My overall academic average is 82.9% in an IT/computer-science degree. I'm interested in Management and testing. I want to become a Information Technology Auditor. My family can afford at most about USD 11300 per year. I live in Chennai. I'm open to anywhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 82.9
+  },
+  "career_goal": "Information Technology Auditor",
+  "budget_max_usd_per_year": 11300,
+  "location_preference": "Chennai",
+  "mobility": "open_domestic",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in Management and testing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0157",
+  "PR0172",
+  "PR0198",
+  "PR0139",
+  "PR0164",
+  "PR0182",
+  "PR0060",
+  "PR0191",
+  "PR0119",
+  "PR0101",
+  "PR0176",
+  "PR0092",
+  "PR0053",
+  "PR0189",
+  "PR0072",
+  "PR0054",
+  "PR0076",
+  "PR0105",
+  "PR0065",
+  "PR0019"
+ ],
+ "retrieved_ids": [
+  "PR0191",
+  "PR0157",
+  "PR0172",
+  "PR0164",
+  "PR0182",
+  "PR0076",
+  "PR0176",
+  "PR0139"
+ ],
+ "proposed_shortlist": [
+  "PR0157",
+  "PR0191",
+  "PR0182",
+  "PR0076",
+  "PR0176"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0157",
+  "PR0191",
+  "PR0182",
+  "PR0076",
+  "PR0176"
+ ],
+ "reflection_note": "The current shortlist is strong and adheres to all constraints. The programs selected balance the student's high priority on employability, interest in Management/Testing, and strict budget limits while maintaining a reasonable proximity to their preferred location (Chennai). No entries were dropped as they are all valid candidates.",
+ "explanation": "**Longford University**\nThis program is highly recommended because it aligns well with your interest in IT Management and features relevant fields like `it_management` and `business_information_systems`. It is extremely budget-friendly, requiring only $800 in annual tuition. While the low cost keeps you comfortably within your maximum budget of $11,300, the main trade-off is that its placement rate (72%) and median starting salary ($10,444) are among the lowest on this list.\n\n**Sarayu Technical University**\nThis option is ideal because it meets your location preference in Chennai while offering a high employability focus with an 84% placement rate. The curriculum includes `business_information_systems`, which supports your career goal, and its median starting salary of $15,951 is the highest listed. The primary trade-off here is that the specialization focuses on Data Engineering rather than explicitly covering auditing or testing methodologies.\n\n**Keystone Technical University**\nThis program was recommended because it directly addresses your interest in 'testing' through its specialized `qa_testing` field and boasts an excellent 91% placement rate, prioritizing employability. The tuition ($1,950) is well within budget, offering a solid median starting salary of $12,865. However, the trade-off is that this program focuses narrowly on Quality Assurance (QA), potentially limiting exposure to broader IT management topics compared to MBA options.\n\n**Sarayu Institute of Technology**\nThis option provides an excellent blend of your interests by covering `it_management` and `software_engineering`, making it relevant for both management and technical roles. It is highly cost-effective with a low annual tuition of $1,250, keeping you well under budget while maintaining a strong 81% placement rate. The main trade-off is that the location is Hyderabad, which does not match your stated preference for Chennai.\n\n**Crestwood University**\nThis program is recommended because it offers a high median starting salary of $15,400 and covers `it_management`, supporting both your career goal and interest in management. The tuition ($1,900) is manageable and the 82% placement rate suggests strong employability. The trade-off to consider is that while its focus on IT Management is valuable, it does not specifically incorporate a testing or auditing specialization like Keystone Technical University's program.",
+ "wall_s": 131.6
+}

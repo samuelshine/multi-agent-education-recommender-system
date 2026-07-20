@@ -1,0 +1,71 @@
+{
+ "student_id": "ST0047",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a app development certification background. My overall academic average is 79.6% in an IT/computer-science degree. I'm interested in Software Engineering and testing. I want to become a Database Manager. My family can afford at most about USD 5700 per year. I live in Bengaluru. I'm open to anywhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 79.6
+  },
+  "career_goal": "Database Manager",
+  "budget_max_usd_per_year": 5700,
+  "location_preference": "Bengaluru",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in Software Engineering and testing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0198",
+  "PR0058",
+  "PR0053",
+  "PR0026",
+  "PR0065",
+  "PR0019",
+  "PR0090",
+  "PR0145",
+  "PR0107",
+  "PR0008",
+  "PR0063",
+  "PR0142",
+  "PR0082",
+  "PR0052",
+  "PR0085",
+  "PR0173",
+  "PR0071",
+  "PR0097",
+  "PR0144",
+  "PR0139"
+ ],
+ "retrieved_ids": [
+  "PR0085",
+  "PR0173",
+  "PR0198",
+  "PR0082",
+  "PR0142",
+  "PR0058",
+  "PR0063",
+  "PR0144"
+ ],
+ "proposed_shortlist": [
+  "PR0085",
+  "PR0173",
+  "PR0198"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0173",
+  "PR0085",
+  "PR0198",
+  "PR0142",
+  "PR0144"
+ ],
+ "reflection_note": "The original shortlist was strong, but the note for PR0198 contained a factual error regarding budget violation. I corrected this and kept it. I also identified two excellent swap-in options (PR0142 in Hyderabad and PR0144 in Pune) that maintain high relevance to SE/QA while offering good cost control or strong employability, thus expanding the student's choices beyond Bengaluru only.",
+ "explanation": "**Northgate Institute of Technology**\nThis program is highly recommended because it perfectly aligns with your interest in QA testing and software engineering while offering exceptional employability metrics. It is located in Bengaluru, matching your location preference, and boasts a high placement rate of 95%. Although the minimum required grade (80%) is slightly above your current 79.6%, the significantly higher median starting salary ($21,062) makes this trade-off worthwhile for maximizing career potential.\n\n**Tejas Technical University**\nThis MTech program provides a strong alternative with excellent placement prospects and a high salary potential, making it ideal for your employability priority. While located in Pune rather than Bengaluru, the annual tuition of $4800 remains well within your maximum budget of $5700. The 93% placement rate and median starting salary of $19,239 offer a strong return on investment, though you must accept the trade-off of being located outside your preferred city.\n\n**Longford Technical University**\nThis option is recommended as the most budget-friendly choice while remaining in your preferred location of Bengaluru. The MTech program covers both data science and software engineering, aligning with your career goal and interests. With a very low annual tuition cost of $500, it minimizes financial risk; however, you must be aware that its median starting salary ($6,851) is significantly lower than the other options on this list.",
+ "wall_s": 193.3
+}

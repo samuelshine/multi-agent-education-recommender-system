@@ -1,0 +1,76 @@
+{
+ "student_id": "ST0020",
+ "session": 2,
+ "mode": "full",
+ "version": 1,
+ "message": "Hi, I'm a student with a machine learning certification background. My overall academic average is 80.3% in an IT/computer-science degree. I'm interested in cloud computing and Business process analyst. I want to become a Systems Security Administrator. My family can afford at most about USD 17700 per year. I live in Pune. I'm open to going abroad. About the earlier suggestions: I liked PR0147, PR0043.",
+ "memory_used": true,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 80.3
+  },
+  "career_goal": "Systems Security Administrator",
+  "budget_max_usd_per_year": 17700,
+  "location_preference": "Pune",
+  "mobility": "open_international",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in cloud computing",
+   "Interested in Business process analyst"
+  ],
+  "uncertainty_notes": [
+   "Employability priority not specified."
+  ]
+ },
+ "prefilter_ids": [
+  "PR0000",
+  "PR0195",
+  "PR0122",
+  "PR0005",
+  "PR0010",
+  "PR0169",
+  "PR0153",
+  "PR0163",
+  "PR0127",
+  "PR0051",
+  "PR0103",
+  "PR0077",
+  "PR0001",
+  "PR0194",
+  "PR0081",
+  "PR0123",
+  "PR0042",
+  "PR0061",
+  "PR0004",
+  "PR0138"
+ ],
+ "retrieved_ids": [
+  "PR0000",
+  "PR0195",
+  "PR0153",
+  "PR0051",
+  "PR0169",
+  "PR0001",
+  "PR0194",
+  "PR0061"
+ ],
+ "proposed_shortlist": [
+  "PR0194",
+  "PR0000",
+  "PR0195",
+  "PR0153"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0194",
+  "PR0001",
+  "PR0169",
+  "PR0000",
+  "PR0195"
+ ],
+ "reflection_note": "The original shortlist was heavily weighted towards general IS/Management (PR0000, PR0195) or non-technical fields (PR0153). I have replaced the weakest options with two highly relevant technical programs: MSc Cloud Computing (PR0001) and MSc IT Operations (PR0169). These additions significantly boost the alignment with the 'Systems Security Administrator' career goal and 'Cloud Computing' interest. The final list prioritizes PR0194 due to its perfect combination of relevance, low cost, and required background match. I have maintained PR0000 and PR0195 as solid budget/location backups.",
+ "explanation": "Aravalli School of Engineering\nThis program was recommended because it aligns perfectly with your interest in cloud computing while remaining highly budget-friendly at an annual tuition of $1950, which is well within your maximum budget. Since you have a Computer Science background and the minimum requirement is 65%, you are eligible to apply. The main trade-off here is that its placement rate (67%) is lower than some other options on this list, though it offers an excellent post-study work visa of 18 months.\n\nMeridian University\nThis option was recommended for its strong focus on cloud computing and high placement rate of 73%. While the tuition ($11850) is higher than Aravalli's program, it remains within your budget, and you are eligible as a Computer Science graduate. The main trade-off compared to other programs is that the post-study work visa duration is only 12 months, which is shorter than the 18 months offered by Aravalli or Fairfax.\n\nBridgewater Institute of Applied Sciences\nThis program was selected because its focus on IT Operations and networking aligns well with your career goal as a Systems Security Administrator. It offers an excellent median starting salary of $40910 and a high placement rate of 77%, while the tuition ($15750) stays under budget. The main trade-off is that, despite its strong operational focus, it only provides a 12-month post-study work visa compared to other options.\n\nFairfax Institute of Technology\nThis program was recommended because its curriculum in business information systems directly addresses your interest in Business Process Analysis and offers the highest median starting salary ($56198) on this list. Furthermore, it has an extremely low tuition fee of $950 and a high placement rate of 91%. The main trade-off is that while excellent for management, its focus is less specialized in \"Cloud Computing\" compared to Aravalli or Meridian.\n\nKeystone School of Engineering\nThis program was recommended as the most budget-conscious option ($300 tuition) that still caters directly to your interest in Business Process Analysis through its business information systems field. It has a very strong median starting salary of $51059 and an 82% placement rate, making it highly attractive for career growth. The main trade-off is that while the salary potential is high, the program's focus on general Information Systems is less specialized than Bridgewater\u2019s operational track or Aravalli/Meridian\u2019s cloud tracks.",
+ "wall_s": 262.0
+}

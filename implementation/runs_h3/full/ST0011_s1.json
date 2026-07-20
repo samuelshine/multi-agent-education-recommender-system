@@ -1,0 +1,76 @@
+{
+ "student_id": "ST0011",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a python certification background. My overall academic average is 81.4% in an IT/computer-science degree. I'm interested in Computer Architecture and security.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 81.4
+  },
+  "career_goal": null,
+  "budget_max_usd_per_year": null,
+  "location_preference": null,
+  "mobility": "open_domestic",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in Computer Architecture and security."
+  ],
+  "uncertainty_notes": [
+   "Career goal is not specified.",
+   "Budget maximum per year is not specified.",
+   "Location preference is not specified.",
+   "Employability priority is not specified."
+  ]
+ },
+ "prefilter_ids": [
+  "PR0117",
+  "PR0198",
+  "PR0097",
+  "PR0144",
+  "PR0139",
+  "PR0164",
+  "PR0029",
+  "PR0022",
+  "PR0182",
+  "PR0060",
+  "PR0191",
+  "PR0119",
+  "PR0101",
+  "PR0143",
+  "PR0186",
+  "PR0176",
+  "PR0058",
+  "PR0149",
+  "PR0092",
+  "PR0187"
+ ],
+ "retrieved_ids": [
+  "PR0029",
+  "PR0186",
+  "PR0143",
+  "PR0058",
+  "PR0144",
+  "PR0117",
+  "PR0198",
+  "PR0187"
+ ],
+ "proposed_shortlist": [
+  "PR0029",
+  "PR0144",
+  "PR0198",
+  "PR0186"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0029",
+  "PR0144",
+  "PR0198",
+  "PR0143"
+ ],
+ "reflection_note": "The original shortlist was strong, but PR0186 is dropped as its focus is too general compared to the specialized options. I swapped in PR0143 (Data Science) because it represents a highly relevant and popular adjacent field that should be given consideration, providing better diversity than simply keeping four similar CS tracks. The final list prioritizes Security/Architecture (PR0029), Core CS (PR0144), Location/High Placement (PR0198), and a strong alternative domain (PR0143).",
+ "explanation": "Vantage Technical University\nThis program was recommended because its focus on Information Security directly aligns with your stated interest in security. Admission requirements are met, as you have a CS background and exceed the minimum 75% grade requirement. While the annual tuition of $3800 is relatively low, the main trade-off here is that both the median starting salary ($14,753) and the post-study work visa duration (0 months) are among the lowest on this list.\n\nTejas Technical University\nThis MTech program was recommended because it offers a strong combination of high placement rate (93%) and a solid median starting salary of $19,239. You meet the admission criteria with your IT/CS background and grade percentage. The trade-off is that while this degree is in Computer Science, its specialization in software engineering does not specifically target your stated interests in security or computer architecture.\n\nNorthgate Institute of Technology\nThis program stands out due to its excellent placement rate (95%) and the highest median starting salary ($21,062) among the options. You qualify for admission as you meet the minimum grade requirement of 80%. The primary trade-off is that while it offers strong career metrics, its specialization in QA testing deviates from your stated interest in security or computer architecture.\n\nFairfax Technical University\nThis program was recommended primarily because it has the lowest annual tuition ($2,750) and a low minimum grade requirement (72%), making admission highly accessible. You meet the necessary criteria as you have a CS background. The main trade-off is that this specialization in Data Science does not match your stated interest in security or architecture, and it also presents the lowest median starting salary ($13,436) on this list.",
+ "wall_s": 231.4
+}

@@ -1,0 +1,73 @@
+{
+ "student_id": "ST0088",
+ "session": 1,
+ "mode": "single_objective",
+ "version": 2,
+ "message": "Hi, I'm a student with a distro making certification background. My overall academic average is 79% in an IT/computer-science degree. I'm interested in cloud computing and cloud computing. I want to become a Web Developer. My family can afford at most about USD 3500 per year. I live in Bengaluru. I'm open to anywhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 79
+  },
+  "career_goal": "Web Developer",
+  "budget_max_usd_per_year": 3500,
+  "location_preference": "Bengaluru",
+  "mobility": "open_domestic",
+  "employability_priority": "high",
+  "other_constraints": [
+   "distro making certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0117",
+  "PR0198",
+  "PR0097",
+  "PR0139",
+  "PR0164",
+  "PR0029",
+  "PR0022",
+  "PR0182",
+  "PR0060",
+  "PR0191",
+  "PR0119",
+  "PR0101",
+  "PR0143",
+  "PR0186",
+  "PR0176",
+  "PR0058",
+  "PR0149",
+  "PR0092",
+  "PR0187",
+  "PR0039"
+ ],
+ "retrieved_ids": [
+  "PR0198",
+  "PR0186",
+  "PR0176",
+  "PR0164",
+  "PR0058",
+  "PR0191",
+  "PR0143",
+  "PR0187"
+ ],
+ "proposed_shortlist": [
+  "PR0186",
+  "PR0198",
+  "PR0058",
+  "PR0143"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0186",
+  "PR0058",
+  "PR0143",
+  "PR0176",
+  "PR0191"
+ ],
+ "reflection_note": "The initial shortlist contained one program (PR0198) that was academically infeasible due to the student's grade being below the minimum requirement. I dropped PR0198 and swapped in PR0176 because it offers a strong combination of location fit (Hyderabad, close to Bengaluru), affordability, and relevance to IT management, thus improving the overall quality and feasibility of the list. To ensure 5 viable options, I also added PR0191 (MTech Data Engineering) as a highly relevant alternative that is academically feasible and affordable, providing better coverage for the student's career goals.",
+ "explanation": "Halcyon Institute of Technology\nThis program is recommended because it offers a strong technical foundation in software engineering and networking/cloud technologies while staying within your maximum budget of $3500 USD. You meet the minimum admission requirement with your 79% grade, and the curriculum aligns well with advanced developer skills. The main trade-off here is that while the program has a high placement rate (83%) and good salary potential ($15192), it is located in Pune rather than your preferred Bengaluru location.\n\nStanmore School of Engineering\nThis MCA program is highly recommended because its focus on software engineering, combined with data science analytics, provides excellent technical depth for your Web Developer goal. It has the lowest tuition cost at $1350 and requires a CS background, which matches your academic profile. The primary trade-off is that while it offers high relevance and low cost, the location in Coimbatore deviates from your preference for Bengaluru.\n\nFairfax Technical University\nThis MSc Data Science program was selected due to its impressive placement rate of 87%, indicating strong industry connections and employability. You meet the minimum grade requirement (min 72%) and the tuition ($2750) is within budget. The main trade-off is that while it offers a high chance of employment, its core focus on data science analytics may be less directly aligned with your primary goal of becoming a Web Developer compared to other options.\n\nCrestwood University\nThis MBA Technology Management program was recommended because it has the highest median starting salary ($15400) and is very affordable at $1900, making it budget-friendly. You meet the minimum grade requirement (min 72%) and do not require a CS background, offering flexibility. The main trade-off to consider is that this degree focuses on IT management rather than core technical development skills, which might be less beneficial for your specific Web Developer career goal.\n\nSarayu Technical University\nThis MTech Data Engineering program was recommended because it offers the highest median starting salary ($15951) and a strong blend of data science analytics and business information systems. The tuition cost of $3250 is within your budget, and you meet the minimum grade requirement (min 71%). The main trade-off here is that while the program has high technical relevance and excellent salary potential, it is located in Chennai, which differs from your preferred Bengaluru location.",
+ "wall_s": 77.3
+}

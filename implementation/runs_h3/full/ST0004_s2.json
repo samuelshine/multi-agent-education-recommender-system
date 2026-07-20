@@ -1,0 +1,74 @@
+{
+ "student_id": "ST0004",
+ "session": 2,
+ "mode": "full",
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 73.9% in an IT/computer-science degree. I'm interested in hacking and testing. I want to become a Network Security Administrator. My family can afford at most about USD 6000 per year. I live in Pune. I cannot leave my city. About the earlier suggestions: please drop PR0053, PR0114.",
+ "memory_used": true,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 73.9
+  },
+  "career_goal": "Network Security Administrator",
+  "budget_max_usd_per_year": 6000,
+  "location_preference": "Pune",
+  "mobility": "fixed_city",
+  "employability_priority": null,
+  "other_constraints": [
+   "information security certification background"
+  ],
+  "uncertainty_notes": [
+   "Employability priority not stated."
+  ]
+ },
+ "prefilter_ids": [
+  "PR0172",
+  "PR0182",
+  "PR0186",
+  "PR0092",
+  "PR0187",
+  "PR0007",
+  "PR0158",
+  "PR0072",
+  "PR0019",
+  "PR0084",
+  "PR0078",
+  "PR0181",
+  "PR0046",
+  "PR0180",
+  "PR0045",
+  "PR0023",
+  "PR0025",
+  "PR0156",
+  "PR0190",
+  "PR0080"
+ ],
+ "retrieved_ids": [
+  "PR0045",
+  "PR0023",
+  "PR0186",
+  "PR0187",
+  "PR0190",
+  "PR0180",
+  "PR0019",
+  "PR0172"
+ ],
+ "proposed_shortlist": [
+  "PR0045",
+  "PR0023",
+  "PR0186",
+  "PR0187"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0045",
+  "PR0023",
+  "PR0180",
+  "PR0190",
+  "PR0187"
+ ],
+ "reflection_note": "The initial shortlist was good but lacked diversity in focus. I dropped PR0186 and PR0187 because their core fields (Networking/IT Support) are less aligned with the student's explicit goal of 'Network Security Administrator' compared to dedicated cybersecurity programs (PR0045, PR0023). I kept PR0045 and PR0023 as the top two choices. I swapped in PR0180 because it is a direct competitor to PR0186, offering similar networking skills but with better cost efficiency/fit profile for inclusion. Finally, I added PR0190 as a highly affordable backup option that maintains location and budget constraints.",
+ "explanation": "Braxton Technical University\nThis program is recommended because its focus on MSc Information Security directly aligns with your goal of becoming a Network Security Administrator. It meets your location preference in Pune and stays well within your maximum budget at $1450 annually. The main trade-off here is that while the placement rate (71%) and median salary ($10236) are solid, they are not the highest among the options provided.\n\nSilverline Technical University\nThis option is highly recommended due to its extremely low annual tuition of $650, making it the most budget-friendly choice for you in Pune. The MTech Cyber Security program directly supports your career goal and requires no specific CS background, which suits your profile. However, the main trade-off is that this program offers the lowest median starting salary ($8376) compared to other options on your list.\n\nBraxton Institute of Technology\nThis program is an excellent fit for both your desired field (networking) and your academic background, as it requires a CS degree which you possess. It remains well under budget at $1250 annually in Pune, offering a strong median starting salary of $10359. The main trade-off is that while the networking focus is relevant to security, it does not specialize in information security like other options.\n\nKestrel School of Engineering\nWhile this program meets your location and budget constraints ($1250/year), its specialization in QA Testing deviates significantly from your goal of Network Security Administrator. Although you meet the minimum grade requirement (58%), the main trade-off is that the field focus does not directly support a career path in network security or information assurance.\n\nCavendish University\nThis program was recommended because it offers the highest placement rate (87%) and median starting salary ($12687), providing strong employability outcomes for your goal. It also meets your location preference in Pune while staying under budget at $1450 annually. The main trade-off is that its focus on general Systems Administration is broader than specialized network security, though it provides valuable foundational IT skills.",
+ "wall_s": 208.9
+}

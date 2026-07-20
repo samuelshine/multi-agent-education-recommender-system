@@ -1,0 +1,65 @@
+{
+ "student_id": "ST0041",
+ "session": 1,
+ "mode": "single_objective",
+ "message": "Hi, I'm a student with a hadoop certification background. My overall academic average is 81.8% in an IT/computer-science degree. I'm interested in parallel computing and testing. I want to become a Solutions Architect. My family can afford at most about USD 1500 per year. I live in Pune. I'm open to anywhere in India.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 81.8
+  },
+  "career_goal": "Solutions Architect",
+  "budget_max_usd_per_year": 1500,
+  "location_preference": "Pune",
+  "mobility": "prefers_region",
+  "employability_priority": null,
+  "other_constraints": [
+   "interested in parallel computing and testing",
+   "hadoop certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0119",
+  "PR0053",
+  "PR0019",
+  "PR0114",
+  "PR0179",
+  "PR0193",
+  "PR0050",
+  "PR0125",
+  "PR0190",
+  "PR0080",
+  "PR0008",
+  "PR0142",
+  "PR0082",
+  "PR0052",
+  "PR0085",
+  "PR0066",
+  "PR0064",
+  "PR0058",
+  "PR0187",
+  "PR0109"
+ ],
+ "retrieved_ids": [
+  "PR0019",
+  "PR0080",
+  "PR0190",
+  "PR0187"
+ ],
+ "proposed_shortlist": [
+  "PR0019",
+  "PR0080",
+  "PR0190",
+  "PR0187"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0019"
+ ],
+ "reflection_note": "The current shortlist is heavily biased towards QA testing or operational support (PR0080, PR0190, PR0187), which are suboptimal for a Solutions Architect goal. Only PR0019 provides the necessary general Software Engineering foundation. I have dropped all other options due to either severe career mismatch (PR0187) or excessive specialization/lack of breadth (PR0080, PR0190). Since there is only one strong option, I will keep it and recommend adding 2-3 more diverse programs that focus on cloud architecture, distributed systems, or general enterprise computing to provide a balanced shortlist for the student.",
+ "explanation": "Ashford University\nThis program was recommended because it perfectly aligns with your location preference in Pune and stays within your maximum budget of $1500 USD, costing only $1450 annually. Academically, your 81.8% grade easily surpasses the minimum requirement of 64%, and the curriculum fields\u2014Software Engineering and QA Testing\u2014directly address your interest in testing. The program offers a high placement rate of 84% with a median starting salary of $10285 USD. The main trade-off to note is that it provides zero months of post-study work visa support.",
+ "wall_s": 93.8
+}

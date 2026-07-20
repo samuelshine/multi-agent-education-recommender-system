@@ -1,0 +1,54 @@
+{
+ "student_id": "ST0079",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a distro making certification background. My overall academic average is 77.7% in an IT/computer-science degree. I'm interested in Management and security. I want to become a Data Architect. My family can afford at most about USD 7000 per year. I live in Mumbai. I'm open to anywhere in India.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 77.7
+  },
+  "career_goal": "Data Architect",
+  "budget_max_usd_per_year": 7000,
+  "location_preference": null,
+  "mobility": "open_domestic",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in Management and security"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0097",
+  "PR0164",
+  "PR0060",
+  "PR0191",
+  "PR0143",
+  "PR0176",
+  "PR0058",
+  "PR0092",
+  "PR0189",
+  "PR0007",
+  "PR0099",
+  "PR0026",
+  "PR0076",
+  "PR0090",
+  "PR0130",
+  "PR0120",
+  "PR0170",
+  "PR0078",
+  "PR0145",
+  "PR0033"
+ ],
+ "final_shortlist": [
+  "PR0191",
+  "PR0099",
+  "PR0143",
+  "PR0176",
+  "PR0060"
+ ],
+ "explanation": "This MTech Data Engineering program in Chennai aligns perfectly with your goal of becoming a Data Architect and covers data science analytics. It has a low minimum grade requirement (71%) compared to your 77.7% average, making it an excellent fit.\n\nLocated in Mumbai, this MSc Big Data Analytics program is highly relevant to data architecture and has a manageable minimum grade requirement (72%). The tuition cost ($3150) is well within your family's budget of $7000.\n\nThis MSc Data Science program in Mumbai directly targets data analytics and has a minimum grade requirement (72%) that you comfortably exceed. The tuition is also affordable ($2750), making it a strong contender for your career goals.\n\nIf you want to focus more on the Management and security side while keeping costs low, this MBA Technology Management in Hyderabad is ideal. It requires no CS background, has a low minimum grade (74%), and an extremely affordable tuition ($1250).\n\nThis MSc IT Management program is located in Mumbai, matching your current location preference. It has a low minimum grade (69%) and covers management aspects, making it suitable for blending your interest in management with data architecture.",
+ "wall_s": 57.5
+}

@@ -1,0 +1,32 @@
+{
+ "student_id": "ST0055",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 81.3
+    },
+    "career_goal": "Business Systems Analyst",
+    "budget_max_usd_per_year": 2100,
+    "location_preference": "Delhi",
+    "mobility": "prefers_region",
+    "employability_priority": "high",
+    "other_constraints": [
+     "Interested in programming and testing",
+     "Strongly prefer to stay near home, though might consider elsewhere in India"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0020",
+    "PR0182",
+    "PR0157",
+    "PR0193",
+    "PR0114"
+   ],
+   "feedback": null
+  }
+ ]
+}

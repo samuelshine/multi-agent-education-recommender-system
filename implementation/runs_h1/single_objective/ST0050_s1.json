@@ -1,0 +1,66 @@
+{
+ "student_id": "ST0050",
+ "session": 1,
+ "mode": "single_objective",
+ "message": "Hi, I'm a student with a machine learning certification background. My overall academic average is 79.9% in an IT/computer-science degree. I'm interested in programming and system developer. I want to become a Information Technology Auditor. My family can afford at most about USD 5600 per year. I live in Delhi. I'm open to anywhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [
+  "reflect"
+ ],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 79.9
+  },
+  "career_goal": "Information Technology Auditor",
+  "budget_max_usd_per_year": 5600,
+  "location_preference": "Delhi",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in programming and system developer roles"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0191",
+  "PR0101",
+  "PR0054",
+  "PR0105",
+  "PR0015",
+  "PR0020",
+  "PR0033",
+  "PR0157",
+  "PR0047",
+  "PR0074",
+  "PR0172",
+  "PR0087",
+  "PR0117",
+  "PR0198",
+  "PR0097",
+  "PR0144",
+  "PR0139",
+  "PR0164",
+  "PR0029",
+  "PR0022"
+ ],
+ "retrieved_ids": [
+  "PR0020",
+  "PR0139",
+  "PR0164"
+ ],
+ "proposed_shortlist": [
+  "PR0164",
+  "PR0020",
+  "PR0139"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0164",
+  "PR0020",
+  "PR0139"
+ ],
+ "reflection_note": "reflect fallback: kept proposal",
+ "explanation": "Northgate School of Engineering\nThis program is recommended because it offers a strong balance between your career goal as an Auditor and your interest in system development, while remaining well within your maximum annual tuition budget of $5600 USD ($2050). It boasts a high placement rate of 90%, addressing your priority for employability. The main trade-off here is that the focus is on Technology Management (an MBA), which provides strategic oversight rather than deep technical programming skills, though it still supports an auditing role.\n\nStanmore Institute of Applied Sciences\nThis option is highly recommended due to its low cost ($1450 annual tuition) and suitability for your Delhi location preference, making it the most budget-friendly choice. While it aligns with business information systems relevant to an Auditor, you should note that its placement rate (76%) and median starting salary ($10648 USD) are lower compared to the other options on this list. The trade-off is prioritizing maximum affordability over maximizing immediate earning potential or placement security.\n\nQuilon University\nThis program is strongly recommended because its focus on Software Quality Engineering directly aligns with both your career goal (Auditor) and interest in system development roles, offering a high degree of technical relevance. It provides the highest median starting salary ($20639 USD) and maintains a strong placement rate of 89%, meeting your employability priority. The main trade-off is that while the tuition ($4200 USD) remains within budget, the minimum required grade percentage (81%) is slightly higher than your current academic standing.",
+ "wall_s": 121.7
+}

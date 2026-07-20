@@ -1,0 +1,55 @@
+{
+ "student_id": "ST0027",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 79.2% in an IT/computer-science degree. I'm interested in IOT and security. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 9700 per year. I live in Hyderabad. I'm open to going abroad. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 79.2
+  },
+  "career_goal": null,
+  "budget_max_usd_per_year": 9700,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "r programming certification background",
+   "interested in IOT and security"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0000",
+  "PR0195",
+  "PR0021",
+  "PR0153",
+  "PR0051",
+  "PR0151",
+  "PR0037",
+  "PR0161",
+  "PR0117",
+  "PR0198",
+  "PR0097",
+  "PR0104",
+  "PR0001",
+  "PR0144",
+  "PR0139",
+  "PR0194",
+  "PR0042",
+  "PR0164",
+  "PR0029",
+  "PR0057"
+ ],
+ "final_shortlist": [
+  "PR0000",
+  "PR0194",
+  "PR0029",
+  "PR0164",
+  "PR0195"
+ ],
+ "explanation": "This German program offers a strong focus on IT Management and has an excellent placement rate (91%) and median starting salary ($56k), making it highly attractive for career goals. The low tuition fee ($950) is well within your budget, and the post-study work visa provides great job security.\n\nThis German MSc Cloud Computing program aligns with modern tech trends (IOT/Cloud) and has a very low tuition fee ($1950), keeping costs down. While the placement rate is average, the combination of affordable cost, strong job prospects in Germany, and post-study visa options makes it a solid choice.\n\nSince you are interested in security, this Indian program offers MSc Information Security. Although the job prospects and post-study visa options are limited compared to Germany/Canada, it directly addresses your interest area while keeping tuition costs low.\n\nThis Indian MBA Technology Management program is highly relevant for someone unsure of their exact path but interested in tech management. It has a high placement rate (90%) and low tuition ($2050), making it a safe bet focused on career outcomes.\n\nThis German MSc Information Systems program is the most budget-friendly option with very low tuition ($300) and a decent placement rate (82%). It provides general IT knowledge that can be applied to your interests in IoT or security while remaining well within your financial constraints.",
+ "wall_s": 49.8
+}

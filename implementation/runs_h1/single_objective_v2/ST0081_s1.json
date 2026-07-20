@@ -1,0 +1,74 @@
+{
+ "student_id": "ST0081",
+ "session": 1,
+ "mode": "single_objective",
+ "version": 2,
+ "message": "Hi, I'm a student with a app development certification background. My overall academic average is 78.7% in an IT/computer-science degree. I'm interested in hacking and cloud computing. I want to become a Network Security Administrator. My family can afford at most about USD 10800 per year. I live in Pune. I'm open to anywhere in India.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 78.7
+  },
+  "career_goal": "Network Security Administrator",
+  "budget_max_usd_per_year": 10800,
+  "location_preference": null,
+  "mobility": "open_domestic",
+  "employability_priority": null,
+  "other_constraints": [
+   "interested in hacking and cloud computing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0186",
+  "PR0197",
+  "PR0043",
+  "PR0147",
+  "PR0096",
+  "PR0199",
+  "PR0118",
+  "PR0121",
+  "PR0148",
+  "PR0016",
+  "PR0102",
+  "PR0180",
+  "PR0162",
+  "PR0112",
+  "PR0159",
+  "PR0032",
+  "PR0184",
+  "PR0165",
+  "PR0117",
+  "PR0198"
+ ],
+ "retrieved_ids": [
+  "PR0096",
+  "PR0148",
+  "PR0186",
+  "PR0197",
+  "PR0162",
+  "PR0016",
+  "PR0102",
+  "PR0180"
+ ],
+ "proposed_shortlist": [
+  "PR0162",
+  "PR0096",
+  "PR0148",
+  "PR0197",
+  "PR0186"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0162",
+  "PR0148",
+  "PR0096",
+  "PR0197",
+  "PR0016"
+ ],
+ "reflection_note": "The original list was strong, but PR0186's focus on 'software engineering' is less direct than the alternatives. I have kept the top four programs (PR0162, PR0148, PR0096, PR0197) as they represent the best balance of cybersecurity relevance, networking/cloud focus, and high feasibility. To fill the fifth slot, I swapped in PR0016. This program is highly feasible, covers cloud computing (a stated interest), and does not require a CS background, making it an excellent, low-risk alternative that maintains the overall quality and diversity of the list.",
+ "explanation": "Aravalli Institute of Applied Sciences\nThis program is recommended because it aligns perfectly with your interest in cybersecurity and cloud computing, offering an MTech Cyber Security degree. It has a very low annual tuition cost of $1150 USD, which keeps you well within your budget constraint. The main trade-off here is that while the tuition is minimal, its placement rate (68%) and median starting salary ($7369) are lower compared to other options on this list.\n\nKestrel Institute of Technology\nThis program is a strong contender because it covers both cybersecurity and networking/cloud topics, directly matching your career goal. It maintains a manageable tuition fee of $2250 USD while offering a solid placement rate of 73% and a median starting salary of $10571. The trade-off compared to Ashford Institute is that its overall placement success metrics are slightly lower, though it remains highly affordable.\n\nAshford Institute of Applied Sciences\nThis option was recommended because it provides comprehensive coverage in cybersecurity and networking/cloud computing while offering excellent career outcomes. Although the tuition ($3350 USD) is higher than Aravalli's program, this investment is offset by its high placement rate (80%) and strong median starting salary of $12561. The trade-off to consider is that it has the highest tuition cost among the top three cybersecurity options listed.\n\nAshford Institute of Technology\nThis program was recommended due to its exceptional career outcomes, boasting the highest placement rate (85%) and the highest median starting salary ($13362). It focuses heavily on networking/cloud computing, which aligns with your interests. The main trade-off is that while it excels in job prospects, its curriculum does not explicitly list \"cybersecurity\" as a core field, unlike other programs.\n\nHalcyon Institute of Technology\nThis program was recommended because it offers a good balance between affordability and career relevance, focusing on cloud computing and networking. With an annual tuition of $2400 USD, it is budget-friendly while providing a solid placement rate (76%) and median salary ($8793). The trade-off to note is that its focus is broader \"Cloud Computing\" rather than the specific \"Cybersecurity\" specialization you listed as your primary goal.",
+ "wall_s": 67.4
+}

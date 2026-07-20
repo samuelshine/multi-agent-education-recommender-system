@@ -1,0 +1,67 @@
+{
+ "student_id": "ST0094",
+ "session": 1,
+ "mode": "single_objective",
+ "message": "Hi, I'm a student with a python certification background. My overall academic average is 75.7% in an IT/computer-science degree. I'm interested in programming and developer. I want to become a Network Engineer. My family can afford at most about USD 3400 per year. I live in Hyderabad. I cannot leave my city.",
+ "memory_used": false,
+ "fallbacks": [
+  "reflect"
+ ],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 75.7
+  },
+  "career_goal": "Network Engineer",
+  "budget_max_usd_per_year": 3400,
+  "location_preference": "Hyderabad",
+  "mobility": "fixed_city",
+  "employability_priority": null,
+  "other_constraints": [
+   "programming and developer interest"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0119",
+  "PR0176",
+  "PR0026",
+  "PR0076",
+  "PR0096",
+  "PR0167",
+  "PR0130",
+  "PR0113",
+  "PR0196",
+  "PR0111",
+  "PR0074",
+  "PR0050",
+  "PR0159",
+  "PR0142"
+ ],
+ "retrieved_ids": [
+  "PR0096",
+  "PR0167",
+  "PR0119",
+  "PR0142",
+  "PR0076",
+  "PR0130",
+  "PR0159",
+  "PR0113"
+ ],
+ "proposed_shortlist": [
+  "PR0096",
+  "PR0159",
+  "PR0167",
+  "PR0130"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0096",
+  "PR0159",
+  "PR0167",
+  "PR0130"
+ ],
+ "reflection_note": "reflect fallback: kept proposal",
+ "explanation": "Ashford Institute of Applied Sciences\nThis program is highly recommended because its MTech Computer Networks specialization directly aligns with your goal of becoming a Network Engineer, covering both 'networking_cloud' and 'cybersecurity'. It fits perfectly within your budget at $3350 annual tuition, and since you have an IT/CS background (75.7%), you meet the admission requirements. The strong placement rate of 80% and median starting salary of $12561 make this a financially sound choice. The main trade-off here is that while the program is highly relevant to your technical goals, it offers zero months of post-study work visa time.\n\nVantage Technical University\nThis option was considered due to its extremely low cost ($700 annual tuition) and minimal admission requirements, making it a safe choice if budget or ease of entry is paramount. The PG Diploma in Systems Administration covers 'networking_cloud,' which relates to your career goal. However, the main trade-off is that while it is affordable and accessible, its lower placement rate (66%) and median starting salary ($6514) suggest a less robust professional outcome compared to other options.\n\nCharnock Institute of Technology\nThis MTech Cyber Security program was recommended because it offers strong technical depth in 'cybersecurity' and 'software_engineering,' which aligns well with your interest in programming while still supporting networking concepts. At $2450 annual tuition, it remains within your budget, and you meet the minimum grade requirement (69%). The high median starting salary of $12765 and 79% placement rate are significant positives. The primary trade-off is that its focus is more on general cyber security and software engineering rather than being exclusively dedicated to core network infrastructure.\n\nElmhurst School of Engineering\nThis program was included because it offers the lowest tuition cost ($1000) and easy admission, making it highly budget-friendly for you. While it has a decent placement rate (77%) and salary ($11249), its MSc IT Management focus is primarily on 'it_management.' The main trade-off is that this program leans heavily toward business management and general IT strategy rather than providing the deep, technical networking or developer skills necessary for your stated career goal.",
+ "wall_s": 145.0
+}

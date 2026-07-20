@@ -1,0 +1,55 @@
+{
+ "student_id": "ST0070",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a python certification background. My overall academic average is 71.2% in an IT/computer-science degree. I'm interested in Software Engineering and security. I want to become a Business Intelligence Analyst. My family can afford at most about USD 3400 per year. I live in Pune. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 71.2
+  },
+  "career_goal": "Business Intelligence Analyst",
+  "budget_max_usd_per_year": 3400,
+  "location_preference": "Pune",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Python certification background",
+   "Interested in Software Engineering and security"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0191",
+  "PR0101",
+  "PR0186",
+  "PR0058",
+  "PR0039",
+  "PR0053",
+  "PR0158",
+  "PR0054",
+  "PR0043",
+  "PR0109",
+  "PR0026",
+  "PR0076",
+  "PR0105",
+  "PR0012",
+  "PR0065",
+  "PR0019",
+  "PR0167",
+  "PR0090",
+  "PR0185",
+  "PR0015"
+ ],
+ "final_shortlist": [
+  "PR0186",
+  "PR0158",
+  "PR0101",
+  "PR0076",
+  "PR0167"
+ ],
+ "explanation": "This program is located in Pune, meeting your strong preference to stay near home. It focuses on software engineering and networking/cloud, aligning well with your interests while requiring a CS background that you possess.\n\nThis is another Pune-based option focusing on design and software engineering. It meets your location preference and provides exposure to the industry skills needed for a strong job profile.\n\nThis program focuses specifically on Business Information Systems, which is ideal for your goal of becoming a Business Intelligence Analyst. It also has low tuition and meets your academic requirements.\n\nLocated in Hyderabad (a reasonable alternative to Pune), this MBA program covers IT Management and software engineering. It is highly relevant for transitioning into a business intelligence role while keeping costs low.\n\nThis MTech Cyber Security option directly addresses your interest in security. While located in Hyderabad, it is affordable and provides specialized knowledge that enhances job prospects.",
+ "wall_s": 51.3
+}

@@ -1,0 +1,29 @@
+{
+ "student_id": "ST0084",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 78.9
+    },
+    "career_goal": "Network Security Engineer",
+    "budget_max_usd_per_year": 1300,
+    "location_preference": "Pune",
+    "mobility": "prefers_region",
+    "employability_priority": null,
+    "other_constraints": [
+     "distro making certification background"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0185",
+    "PR0019",
+    "PR0170"
+   ],
+   "feedback": null
+  }
+ ]
+}

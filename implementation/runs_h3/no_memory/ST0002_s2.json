@@ -1,0 +1,76 @@
+{
+ "student_id": "ST0002",
+ "session": 2,
+ "mode": "no_memory",
+ "version": 1,
+ "message": "Hi, I'm a student with a hadoop certification background. My overall academic average is 80% in an IT/computer-science degree. I'm interested in Computer Architecture and developer. I want to become a Business Intelligence Analyst. My family can afford at most about USD 1700 per year. I live in Kolkata. I'd strongly prefer to stay near home, though I might consider elsewhere in India. About the earlier suggestions: I liked PR0074 but please drop PR0198, PR0191.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 80
+  },
+  "career_goal": "Business Intelligence Analyst",
+  "budget_max_usd_per_year": 1700,
+  "location_preference": "Kolkata",
+  "mobility": "prefers_region",
+  "employability_priority": "medium",
+  "other_constraints": [
+   "hadoop certification background",
+   "dislike PR0198",
+   "dislike PR0191"
+  ],
+  "uncertainty_notes": [
+   "academic_background.degree",
+   "academic_background.grade_pct"
+  ]
+ },
+ "prefilter_ids": [
+  "PR0015",
+  "PR0020",
+  "PR0033",
+  "PR0157",
+  "PR0047",
+  "PR0074",
+  "PR0087",
+  "PR0164",
+  "PR0182",
+  "PR0119",
+  "PR0186",
+  "PR0176",
+  "PR0058",
+  "PR0187",
+  "PR0174",
+  "PR0053",
+  "PR0158",
+  "PR0109",
+  "PR0076",
+  "PR0012"
+ ],
+ "retrieved_ids": [
+  "PR0053",
+  "PR0176",
+  "PR0119",
+  "PR0076",
+  "PR0015",
+  "PR0087",
+  "PR0174",
+  "PR0109"
+ ],
+ "proposed_shortlist": [
+  "PR0053",
+  "PR0119",
+  "PR0076"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0053",
+  "PR0076",
+  "PR0087",
+  "PR0015"
+ ],
+ "reflection_note": "The original shortlist was strong on budget and location (PR0053), but PR0119 was dropped due to the lack of location preference match. The key improvement involved identifying two highly relevant BI/Data Science programs (PR0087, PR0015) that were previously overlooked. These additions significantly boost the academic relevance for a 'Business Intelligence Analyst' goal while remaining within budget constraints. I prioritized maintaining the Kolkata option (PR0053) and keeping the strong IT Management option in Hyderabad (PR0076), resulting in a balanced list of location, cost, and career focus.",
+ "explanation": "Cavendish University\nThis program is highly recommended because its location in Kolkata aligns perfectly with your stated preference, and the annual tuition of $1200 fits comfortably within your maximum budget. Admission requirements are favorable, as it does not require a CS background, and your 80% grade exceeds the minimum requirement of 70%. The main trade-off here is that while the placement rate is high at 86%, there is no post-study work visa benefit listed.\n\nSarayu Institute of Technology\nThis program was selected because it offers a strong curriculum in IT Management, which complements your goal of becoming a Business Intelligence Analyst, and its tuition ($1250) remains within budget. While the location (Hyderabad) deviates from your Kolkata preference, the placement rate is robust at 81%, offering good job security. The primary trade-off you must consider is accepting a non-preferred region for a slightly higher median starting salary of $13142 compared to other options.\n\nAravalli Technical University\nThis option was recommended due to its strong subject matter fit, focusing on Business Information Systems and Data Science Analytics, which directly supports your career goal. Furthermore, since you have an IT/CS background, the program requires a CS background, making it academically suitable for you. The main trade-off is that while the tuition ($1200) is affordable, the placement rate (58%) and median starting salary ($6767) are among the lowest on this list.\n\nKeystone Institute of Technology\nThis program was recommended because its focus on Business Information Systems aligns very well with your goal of becoming a BI Analyst. The tuition cost of $1200 is within budget, and it does not require a CS background, providing flexibility for admission. The main trade-off is that while the curriculum is relevant, both the location (Bengaluru) and the median starting salary ($9707) are less optimal compared to other options on this list.",
+ "wall_s": 187.6
+}

@@ -1,0 +1,74 @@
+{
+ "student_id": "ST0089",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 77.7% in an IT/computer-science degree. I'm interested in networks and testing. I want to become a Information Technology Manager. My family can afford at most about USD 1200 per year. I live in Mumbai. I'd strongly prefer to stay near home, though I might consider elsewhere in India.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 77.7
+  },
+  "career_goal": "Information Technology Manager",
+  "budget_max_usd_per_year": 1200,
+  "location_preference": null,
+  "mobility": "prefers_region",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in networks and testing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0119",
+  "PR0053",
+  "PR0019",
+  "PR0114",
+  "PR0015",
+  "PR0020",
+  "PR0193",
+  "PR0157",
+  "PR0050",
+  "PR0125",
+  "PR0190",
+  "PR0080",
+  "PR0008",
+  "PR0142",
+  "PR0082",
+  "PR0052",
+  "PR0085",
+  "PR0066",
+  "PR0064",
+  "PR0087"
+ ],
+ "retrieved_ids": [
+  "PR0119",
+  "PR0053",
+  "PR0193",
+  "PR0157",
+  "PR0050",
+  "PR0125",
+  "PR0190",
+  "PR0064"
+ ],
+ "proposed_shortlist": [
+  "PR0119",
+  "PR0053",
+  "PR0193",
+  "PR0157",
+  "PR0050"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0119",
+  "PR0053",
+  "PR0193",
+  "PR0050",
+  "PR0125"
+ ],
+ "reflection_note": "The initial shortlist was strong but contained a slight conflict: PR0157 (IT Management) deviated too much from the student's core technical interest in QA/Testing, which is also reflected in their secondary constraint. While PR0157 met all hard constraints and aligned with the career goal, maintaining focus on testing provides better immediate relevance. I dropped PR0157 and swapped in PR0125 because it maintains the critical 'qa_testing' focus while being significantly cheaper than the original top options, thus improving overall financial flexibility without sacrificing core interest alignment.",
+ "explanation": "Meridian Institute of Applied Sciences\nThis program is highly recommended because it directly aligns with your interest in testing and provides a strong foundation for an IT Manager role. The annual tuition of $1200 meets your budget constraint, and your 77.7% grade exceeds the minimum requirement of 71%. Furthermore, this option boasts the highest median starting salary ($14917) and a high placement rate (86%). There is no major trade-off here; it offers excellent outcomes while remaining within your financial limits.\n\nCavendish University\nThis program is an excellent fit as it covers both QA testing and software engineering, providing broad skills useful for management roles. Like Meridian, the tuition of $1200 fits your budget, and your academic background meets the minimum grade requirement of 70%. It maintains a strong placement rate (86%) and offers a solid median salary ($12855). The main trade-off compared to Meridian is that its starting salary is slightly lower.\n\nElmhurst Institute of Technology\nThis option focuses purely on QA testing, matching your specific interest in the field. While the tuition of $1200 meets your budget and your grade exceeds the minimum (60%), you should note that this program has a significantly lower placement rate (72%) and median salary ($10518) compared to other options. The trade-off here is accepting potentially lower career outcomes in exchange for meeting all of your current financial constraints.\n\nTejas Institute of Technology\nThis MSc IT Operations program was recommended because it covers both QA testing and general IT support, which is relevant to an IT Manager goal. At $1150 annually, the tuition fits comfortably within your budget, and your grade meets the minimum requirement (58%). The trade-off is that the curriculum focuses more broadly on \"IT Support\" rather than specializing deeply in software quality engineering.\n\nAldermount Institute of Applied Sciences\nThis program offers the lowest cost option at $450 annually, making it highly budget-friendly while still focusing on QA testing. Your grade easily meets the minimum requirement (57%). However, you must be aware that this low tuition comes with a trade-off: it has the lowest placement rate (66%) and median starting salary ($8177) among all listed options.",
+ "wall_s": 132.4
+}

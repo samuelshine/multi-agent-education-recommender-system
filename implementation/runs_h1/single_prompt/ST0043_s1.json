@@ -1,0 +1,41 @@
+{
+ "student_id": "ST0043",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 77.3% in an IT/computer-science degree. I'm interested in Computer Architecture and cloud computing. I want to become a Data Architect. My family can afford at most about USD 2100 per year. I live in Bengaluru. I cannot leave my city. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 77.3
+  },
+  "career_goal": "Data Architect",
+  "budget_max_usd_per_year": 2100,
+  "location_preference": "Bengaluru",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in Computer Architecture and cloud computing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0173",
+  "PR0087",
+  "PR0015",
+  "PR0073",
+  "PR0002",
+  "PR0013",
+  "PR0085"
+ ],
+ "final_shortlist": [
+  "PR0015",
+  "PR0087",
+  "PR0173",
+  "PR0073",
+  "PR0013"
+ ],
+ "explanation": "This program focuses on business information systems, which aligns well with your goal of becoming a Data Architect. It has the highest median starting salary among all options and meets your location constraint (Bengaluru) while staying within budget.\n\nThe MSc Data Science program directly supports your interest in data architecture. It is located in Bengaluru and the tuition cost ($1200) is well within your family's budget of $2100.\n\nThis MTech Computer Science program offers data science and software engineering fields. It is highly affordable ($500/year), located in Bengaluru, and provides a solid foundation for a career in data architecture.\n\nGiven your background in information security, this MTech Cyber Security program is a strong fit. It offers high placement rates and a good salary potential, which aligns with your priority of securing a good job after graduation.\n\nWhile focused on HCI, this program is affordable ($900/year), located in Bengaluru, and has a strong placement record. It provides valuable skills that can complement your data architecture goals.",
+ "wall_s": 36.9
+}

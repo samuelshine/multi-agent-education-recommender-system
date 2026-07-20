@@ -1,0 +1,50 @@
+{
+ "student_id": "ST0007",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a shell programming certification background. My overall academic average is 75% in an IT/computer-science degree. I'm interested in data engineering and security. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 1100 per year. I live in Bengaluru. I cannot leave my city. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 75
+  },
+  "career_goal": null,
+  "budget_max_usd_per_year": 1100,
+  "location_preference": "Bengaluru",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "shell programming certification background",
+   "interested in data engineering and security"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0173",
+  "PR0087",
+  "PR0015",
+  "PR0073",
+  "PR0013"
+ ],
+ "retrieved_ids": [
+  "PR0173",
+  "PR0073",
+  "PR0087",
+  "PR0015"
+ ],
+ "proposed_shortlist": [
+  "PR0173",
+  "PR0073",
+  "PR0087"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0173",
+  "PR0015"
+ ],
+ "reflection_note": "The initial shortlist was reviewed and required significant pruning. PR0073 was dropped immediately due to a hard budget violation ($1250 > $1100). PR0087 was also dropped because its business focus is less appealing than the technical depth offered by other programs, despite being within budget. PR0173 remains the top choice for its excellent fit across all constraints and interests (Data/Software). I swapped in PR0015 as a strong alternative; it maintains budget compliance, offers high employability metrics, and provides a good balance between IT fundamentals and practical application, making it a much stronger secondary option than PR0087.",
+ "explanation": "Longford Technical University\nThis program is recommended because it perfectly aligns with your location preference in Bengaluru and keeps the annual tuition cost very low at $500 USD. The curriculum fields, including data science analytics and software engineering, are highly relevant to your interests in data engineering and security. While this option meets your budget constraints, the main trade-off is that its placement rate (62%) and median starting salary ($6851) are lower compared to other options, which might conflict with your high employability priority.\n\nKeystone Institute of Technology\nThis program was recommended due to its strong focus on employability, boasting a 78% placement rate and a higher median starting salary of $9707 USD. It also meets your location preference in Bengaluru. The primary trade-off here is the tuition cost ($1200), which slightly exceeds your stated maximum budget of $1100 per year. Despite its focus on business information systems, the excellent placement metrics make it a strong contender for achieving high career outcomes.",
+ "wall_s": 154.0
+}

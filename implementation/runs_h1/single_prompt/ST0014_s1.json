@@ -1,0 +1,54 @@
+{
+ "student_id": "ST0014",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a full stack certification background. My overall academic average is 78.6% in an IT/computer-science degree. I'm interested in hacking and cloud computing. I want to become a Programmer Analyst. My family can afford at most about USD 7200 per year. I live in Bengaluru. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 78.6
+  },
+  "career_goal": "Programmer Analyst",
+  "budget_max_usd_per_year": 7200,
+  "location_preference": "Bengaluru",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in hacking and cloud computing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0186",
+  "PR0197",
+  "PR0043",
+  "PR0147",
+  "PR0096",
+  "PR0199",
+  "PR0118",
+  "PR0121",
+  "PR0148",
+  "PR0016",
+  "PR0102",
+  "PR0180",
+  "PR0162",
+  "PR0112",
+  "PR0159",
+  "PR0032",
+  "PR0184",
+  "PR0165",
+  "PR0117",
+  "PR0198"
+ ],
+ "final_shortlist": [
+  "PR0198",
+  "PR0186",
+  "PR0096",
+  "PR0147",
+  "PR0162"
+ ],
+ "explanation": "This program is ideal because it is located in Bengaluru, minimizing relocation stress, and boasts the highest placement rate (95%) and median salary ($21062), directly addressing your primary goal of securing a good job.\n\nLocated in Pune, this MTech program covers networking and cloud computing, aligning with your interests. It has a strong placement rate (83%) and the highest median starting salary ($15192) among programs near Bengaluru's preferred region.\n\nThis MTech program in Hyderabad combines cybersecurity (hacking interest) and networking/cloud. It is geographically favorable for you and offers a solid placement rate (80%) while staying well within your budget.\n\nThis MSc Cloud Computing program focuses on networking/cloud, matching your interests. It is located in Coimbatore and has a respectable median salary ($13015) and placement rate (83%), making it a strong value option.\n\nThis MTech Cyber Security program directly addresses your interest in hacking. While the salary is lower ($7369), its low tuition fee ($1150) and strong focus on cybersecurity make it a viable option if job security is prioritized over maximum initial salary.",
+ "wall_s": 47.0
+}

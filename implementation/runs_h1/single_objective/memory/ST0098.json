@@ -1,0 +1,31 @@
+{
+ "student_id": "ST0098",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 78.6
+    },
+    "career_goal": "Technical Engineer",
+    "budget_max_usd_per_year": 4400,
+    "location_preference": null,
+    "mobility": "open_international",
+    "employability_priority": null,
+    "other_constraints": [
+     "Interested in cloud computing and testing"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0194",
+    "PR0104",
+    "PR0147",
+    "PR0096",
+    "PR0186"
+   ],
+   "feedback": null
+  }
+ ]
+}

@@ -1,0 +1,75 @@
+{
+ "student_id": "ST0028",
+ "session": 3,
+ "mode": "no_memory",
+ "version": 1,
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 72.9% in an IT/computer-science degree. I'm interested in data engineering and security. I want to become a Software Engineer. My family can afford at most about USD 33700 per year. I live in Coimbatore. I'm open to going abroad. Getting a good job after graduation matters more to me than anything else. About the earlier suggestions: I liked PR0126, PR0027.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 72.9
+  },
+  "career_goal": "Software Engineer",
+  "budget_max_usd_per_year": 33700,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "r programming certification",
+   "interested in data engineering and security"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0086",
+  "PR0058",
+  "PR0126",
+  "PR0026",
+  "PR0090",
+  "PR0145",
+  "PR0107",
+  "PR0063",
+  "PR0173",
+  "PR0071",
+  "PR0069",
+  "PR0055",
+  "PR0030",
+  "PR0034",
+  "PR0027",
+  "PR0067",
+  "PR0018",
+  "PR0136",
+  "PR0132",
+  "PR0051"
+ ],
+ "retrieved_ids": [
+  "PR0086",
+  "PR0126",
+  "PR0136",
+  "PR0034",
+  "PR0027",
+  "PR0067",
+  "PR0132",
+  "PR0173"
+ ],
+ "proposed_shortlist": [
+  "PR0086",
+  "PR0136",
+  "PR0034",
+  "PR0027",
+  "PR0126"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0126",
+  "PR0086",
+  "PR0027",
+  "PR0067",
+  "PR0136"
+ ],
+ "reflection_note": "The shortlist has been refined by dropping PR0034 due to redundancy and high cost. We swapped in PR0067 because it offers a superior combination of low tuition, strong academic fit (Data Engineering), and excellent post-study work options in Canada compared to the existing PR0027. The final list prioritizes financial feasibility while maintaining high employability potential across different regions (Germany, UK, Canada, USA) to give the student maximum choice.",
+ "explanation": "Ashford Technical University\nThis MCA program is recommended because it aligns with your goal of becoming a Software Engineer while offering low tuition at $2050 USD. The curriculum covers both software engineering and data science analytics, matching your interests in data engineering. You meet the admission requirements as you have an IT/computer-science background and your grade (72.9%) exceeds the minimum 57%. The main trade-off here is that while the tuition and visa period are favorable, the median starting salary of $23,468 USD and placement rate of 62% are lower compared to other options.\n\nHalcyon Technical University\nThis MSc Software Engineering program is a strong fit for your career goal and budget, with an annual tuition of $23,400 USD. It boasts the highest placement rate (85%) and offers a robust 24-month post-study work visa, maximizing your employability priority. Furthermore, you meet the minimum grade requirement of 70% with your current academic standing. The main trade-off is that while the salary ($33,967 USD) is excellent, it uses up most of your maximum annual budget constraint.\n\nBraxton School of Engineering\nThis MTech Data Engineering program directly addresses your interest in data engineering and offers a high median starting salary of $44,286 USD. It also provides the longest post-study work visa period at 36 months, which is excellent for international mobility. You meet the minimum grade requirement (71%) and the tuition ($27,600 USD) remains within your maximum budget constraint. The main trade-off is that this program has a higher cost compared to some other options on the list.\n\nVantage School of Engineering\nThis MTech Data Engineering option is highly recommended because it keeps costs low at $20,200 USD while still providing 36 months of post-study work visa access. The curriculum covers data science analytics and requires a CS background, which you possess. You also meet the minimum grade requirement (63%). The main trade-off here is that its median starting salary ($39,559 USD) and placement rate (76%) are slightly lower than those offered by Braxton School of Engineering.\n\nSilverline Technical University\nThis MTech Cyber Security program directly addresses your interest in security while offering the highest potential median starting salary at $46,714 USD. You also meet the minimum grade requirement (53%), and the tuition ($21,200 USD) is within budget. The main trade-off you must consider is that this option provides the shortest post-study work visa period of only 12 months, which may limit your long-term international mobility compared to other schools.",
+ "wall_s": 298.6
+}

@@ -1,0 +1,74 @@
+{
+ "student_id": "ST0087",
+ "session": 1,
+ "mode": "single_objective",
+ "version": 2,
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 74.4% in an IT/computer-science degree. I'm interested in IOT and cloud computing. I want to become a Quality Assurance Associate. My family can afford at most about USD 5600 per year. I live in Kolkata. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 74.4
+  },
+  "career_goal": "Quality Assurance Associate",
+  "budget_max_usd_per_year": 5600,
+  "location_preference": "Kolkata",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "r programming certification background",
+   "interested in IOT and cloud computing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0186",
+  "PR0197",
+  "PR0043",
+  "PR0147",
+  "PR0096",
+  "PR0199",
+  "PR0118",
+  "PR0121",
+  "PR0148",
+  "PR0016",
+  "PR0102",
+  "PR0180",
+  "PR0162",
+  "PR0112",
+  "PR0159",
+  "PR0032",
+  "PR0184",
+  "PR0165",
+  "PR0164",
+  "PR0029"
+ ],
+ "retrieved_ids": [
+  "PR0032",
+  "PR0186",
+  "PR0197",
+  "PR0147",
+  "PR0165",
+  "PR0180",
+  "PR0159",
+  "PR0121"
+ ],
+ "proposed_shortlist": [
+  "PR0032",
+  "PR0186",
+  "PR0197",
+  "PR0165"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0032",
+  "PR0197",
+  "PR0165",
+  "PR0180",
+  "PR0147"
+ ],
+ "reflection_note": "The initial shortlist was strong but contained one program (PR0186) that, while technically feasible on grade, presented a poor balance of location/feasibility compared to alternatives. PR0186 was dropped due to its high minimum grade requirement relative to the overall profile strength. I swapped in PR0147 because it offers an excellent combination of Cloud focus and strong academic fit (min 74%), providing necessary diversity while maintaining feasibility, ensuring a robust list of five candidates.",
+ "explanation": "Longford School of Engineering\nThis program is recommended because it meets your location preference in Kolkata and has a very low annual tuition cost of $1200. The curriculum covers networking and cloud computing, aligning with your interests, and the minimum grade requirement of 55% is easily met by your academic background. The main trade-off here is that while the cost is excellent, the placement rate (61%) and median starting salary ($7871) are among the lowest on this list.\n\nAshford Institute of Technology\nThis option was recommended for its high employability metrics, boasting an 85% placement rate and a strong median starting salary of $13362. The program focuses on networking and cloud computing, which aligns with your stated interests in IOT and cloud technology. The trade-off is that it requires a higher minimum grade (71%) compared to some other options, and the tuition ($3350) is moderately high.\n\nWestbrook Institute of Technology\nThis institute offers the lowest annual tuition cost at $550, making it highly budget-friendly for your maximum limit of $5600. The curriculum covers cloud computing, which matches your interests in IOT technology. However, the main trade-off is that this program has the lowest placement rate (59%) and median starting salary ($7845) among all listed options.\n\nBraxton Institute of Technology\nThis program provides a solid balance between cost, location flexibility (Pune), and career outcomes. The curriculum includes networking and cloud computing fields, directly supporting your interests. While the tuition is affordable at $1250, the main trade-off is that its placement rate (71%) and median starting salary ($10359) are good but not as high as some of the other options listed.\n\nFairfax Institute of Technology\nThis program was recommended because it offers excellent career outcomes with an 83% placement rate and a strong median starting salary of $13015. Furthermore, your current grade percentage (74.4%) perfectly meets its minimum admission requirement of 74%. The main trade-off is that the tuition ($3200) is higher than some other options, but it provides high employability in cloud computing.",
+ "wall_s": 82.1
+}

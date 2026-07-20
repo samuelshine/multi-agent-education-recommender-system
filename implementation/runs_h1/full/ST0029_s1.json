@@ -1,0 +1,72 @@
+{
+ "student_id": "ST0029",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a python certification background. My overall academic average is 81.2% in an IT/computer-science degree. I'm interested in IOT and Business process analyst. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 4100 per year. I live in Mumbai. I'm open to going abroad.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 81.2
+  },
+  "career_goal": "IOT and Business process analyst (tech field)",
+  "budget_max_usd_per_year": 4100,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": "medium",
+  "other_constraints": [
+   "Python certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0000",
+  "PR0195",
+  "PR0153",
+  "PR0051",
+  "PR0137",
+  "PR0191",
+  "PR0101",
+  "PR0054",
+  "PR0128",
+  "PR0044",
+  "PR0105",
+  "PR0015",
+  "PR0020",
+  "PR0033",
+  "PR0157",
+  "PR0047",
+  "PR0074",
+  "PR0172",
+  "PR0087",
+  "PR0021"
+ ],
+ "retrieved_ids": [
+  "PR0000",
+  "PR0195",
+  "PR0153",
+  "PR0021",
+  "PR0128",
+  "PR0044",
+  "PR0172",
+  "PR0157"
+ ],
+ "proposed_shortlist": [
+  "PR0000",
+  "PR0195",
+  "PR0153",
+  "PR0021"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0000",
+  "PR0195",
+  "PR0044",
+  "PR0153",
+  "PR0128"
+ ],
+ "reflection_note": "The original shortlist was strong on affordability and location but lacked diversity in academic focus. PR0021 was dropped due to narrow scope. I swapped in PR0128 (MBA Business Analytics) because its data science focus directly addresses the 'Business process analyst' goal, and it fits within the budget. I also swapped in PR0044 as a strong alternative to PR0153; it is more academically robust while maintaining the desirable Munich location and keeping tuition low enough. The final list prioritizes high-fit options (PR0000, PR0195) and then balances academic depth/location (PR0044), HCI relevance (PR0153), and business analytics strength (PR0128).",
+ "explanation": "Fairfax Institute of Technology\nThis program is highly recommended because its focus on IT Management and Business Information Systems aligns perfectly with your goal of becoming a Business Process Analyst in the tech field. It has an extremely low annual tuition cost of $950, which fits well within your budget, and it accepts students with a grade percentage above 80%, matching your academic background (81.2%). The high placement rate of 91% and strong median starting salary of $56,198 make this an excellent option; the main trade-off here is that the program focuses on management rather than deep technical specialization.\n\nKeystone School of Engineering\nThis is arguably the best fit due to its extremely low annual tuition cost of only $300, making it highly budget-friendly while still providing a strong foundation in Business Information Systems. It requires a minimum grade percentage of 72%, which you exceed with your current academic standing. The program offers a solid median starting salary of $51,059 and provides an 18-month post-study work visa, making it very attractive; the main trade-off is that its placement rate (82%) is slightly lower than other options on this list.\n\nKeystone University\nThis option specializes in Human-Computer Interaction (HCI), which is highly relevant for a Business Process Analyst role as it focuses on user experience and design within business systems. The tuition is very low at $550, and the program accepts students with your academic background. While its placement rate of 78% is moderate, you should note that the median starting salary ($39,426) is lower compared to other recommended programs.\n\nHalcyon University\nThis program offers a relevant focus on Business Information Systems while remaining within budget at $2350 annually. It meets your academic requirements and provides an 18-month post-study work visa. However, the main trade-off here is that it has the lowest placement rate (61%) and the lowest median starting salary ($23,809) among all options, making other programs more financially secure for your career goals.\n\nKeystone Technical University\nThis MBA Business Analytics program is highly specialized in data science analytics, which directly supports your goal of becoming a Business Process Analyst. While it has a high tuition cost of $3800 (approaching your budget limit), the main trade-off is that its placement rate (60%) and median starting salary ($24,756) are among the lowest on this list, making other options with better employment outcomes more advisable.",
+ "wall_s": 253.7
+}

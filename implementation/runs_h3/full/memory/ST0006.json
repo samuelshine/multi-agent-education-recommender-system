@@ -1,0 +1,106 @@
+{
+ "student_id": "ST0006",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 70
+    },
+    "career_goal": "Information Security Analyst",
+    "budget_max_usd_per_year": null,
+    "location_preference": null,
+    "mobility": "open_domestic",
+    "employability_priority": null,
+    "other_constraints": [
+     "Interested in parallel computing and system developer roles"
+    ],
+    "uncertainty_notes": [
+     "Budget maximum per year not specified.",
+     "Location preference not specified.",
+     "Mobility preference not specified (defaulting to open_domestic).",
+     "Employability priority not specified."
+    ]
+   },
+   "final_shortlist": [
+    "PR0186",
+    "PR0143",
+    "PR0172",
+    "PR0060",
+    "PR0176"
+   ],
+   "feedback": null
+  },
+  {
+   "session": 2,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 70
+    },
+    "career_goal": "Information Security Analyst",
+    "budget_max_usd_per_year": 1300,
+    "location_preference": null,
+    "mobility": "prefers_region",
+    "employability_priority": null,
+    "other_constraints": [
+     "Interested in parallel computing and system developer roles"
+    ],
+    "uncertainty_notes": [
+     "Location preference not specified.",
+     "Employability priority not specified."
+    ]
+   },
+   "final_shortlist": [
+    "PR0185",
+    "PR0073",
+    "PR0119",
+    "PR0130",
+    "PR0170"
+   ],
+   "feedback": {
+    "liked": [],
+    "disliked": [
+     "PR0186",
+     "PR0143"
+    ]
+   }
+  },
+  {
+   "session": 3,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 70
+    },
+    "career_goal": "Information Security Analyst",
+    "budget_max_usd_per_year": 1300,
+    "location_preference": null,
+    "mobility": "prefers_region",
+    "employability_priority": null,
+    "other_constraints": [
+     "Interested in parallel computing and system developer roles"
+    ],
+    "uncertainty_notes": [
+     "Location preference not specified.",
+     "Employability priority not specified."
+    ]
+   },
+   "final_shortlist": [
+    "PR0073",
+    "PR0185",
+    "PR0053",
+    "PR0187",
+    "PR0119"
+   ],
+   "feedback": {
+    "liked": [
+     "PR0185",
+     "PR0073"
+    ],
+    "disliked": []
+   }
+  }
+ ]
+}

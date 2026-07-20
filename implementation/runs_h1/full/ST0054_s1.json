@@ -1,0 +1,70 @@
+{
+ "student_id": "ST0054",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a hadoop certification background. My overall academic average is 80.4% in an IT/computer-science degree. I'm interested in hacking and security. I want to become a Programmer Analyst. My family can afford at most about USD 1600 per year. I live in Mumbai. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 80.4
+  },
+  "career_goal": "Programmer Analyst",
+  "budget_max_usd_per_year": 1600,
+  "location_preference": "Mumbai",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in hacking and security",
+   "Hadoop certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0182",
+  "PR0119",
+  "PR0176",
+  "PR0058",
+  "PR0187",
+  "PR0174",
+  "PR0053",
+  "PR0158",
+  "PR0109",
+  "PR0076",
+  "PR0012",
+  "PR0019",
+  "PR0114",
+  "PR0185",
+  "PR0130",
+  "PR0084",
+  "PR0120",
+  "PR0170",
+  "PR0015",
+  "PR0020"
+ ],
+ "retrieved_ids": [
+  "PR0114",
+  "PR0187",
+  "PR0053",
+  "PR0185",
+  "PR0170",
+  "PR0109",
+  "PR0012",
+  "PR0130"
+ ],
+ "proposed_shortlist": [
+  "PR0185",
+  "PR0114",
+  "PR0053"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0185",
+  "PR0114",
+  "PR0130"
+ ],
+ "reflection_note": "The initial shortlist was strong but lacked diversity in location and missed a viable, low-cost option (PR0130) that still meets the budget constraints. I kept PR0185 and PR0114 as they are the strongest fits for Security/CS background and Location preference, respectively. Dropped PR0053 because PR0185's specialized security focus is a higher priority match for the student's stated interests (hacking/security). Swapped in PR0130 to provide a third option that maintains budget adherence while offering a different geographical location (Hyderabad), broadening the scope of consideration.",
+ "explanation": "Longford Institute of Technology\nThis program was recommended because its focus on Information Security directly aligns with your stated interest in hacking and security. The annual tuition of $1150 is well within your budget, and the institution accepts students from a CS background. Since you are flexible regarding location, Kolkata is an acceptable option; however, the main trade-off is that this specialization shifts focus heavily toward cybersecurity rather than pure software development.\n\nCrestwood School of Engineering\nThis program is highly recommended because it meets your primary location preference in Mumbai and offers excellent employability metrics with an 81% placement rate. At $850 annually, it is the most budget-friendly option while still providing a strong median starting salary of $10903. The trade-off here is that its specialization in QA testing means the curriculum focuses on quality assurance rather than broader software engineering or security topics.\n\nElmhurst School of Engineering\nThis program was selected because it offers the highest median starting salary ($11249) and fits your budget with a $1000 annual tuition fee. While Hyderabad is outside your preferred location, this option strongly caters to the \"Analyst\" part of your career goal by focusing on IT Management. The main trade-off is that its management focus may be less technical than your background suggests, potentially moving you away from core programming roles.",
+ "wall_s": 181.1
+}

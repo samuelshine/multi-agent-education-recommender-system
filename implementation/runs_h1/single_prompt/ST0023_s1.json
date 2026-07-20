@@ -1,0 +1,55 @@
+{
+ "student_id": "ST0023",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 75.8% in an IT/computer-science degree. I'm interested in Software Engineering and cloud computing. I want to become a Data Architect. My family can afford at most about USD 9800 per year. I live in Hyderabad. I'm open to going abroad. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 75.8
+  },
+  "career_goal": "Data Architect",
+  "budget_max_usd_per_year": 9800,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "r programming certification background",
+   "interested in Software Engineering and cloud computing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0001",
+  "PR0194",
+  "PR0042",
+  "PR0186",
+  "PR0058",
+  "PR0043",
+  "PR0126",
+  "PR0026",
+  "PR0090",
+  "PR0145",
+  "PR0016",
+  "PR0107",
+  "PR0112",
+  "PR0063",
+  "PR0032",
+  "PR0173",
+  "PR0071",
+  "PR0051",
+  "PR0151",
+  "PR0037"
+ ],
+ "final_shortlist": [
+  "PR0194",
+  "PR0042",
+  "PR0126",
+  "PR0037",
+  "PR0151"
+ ],
+ "explanation": "This German program offers a low tuition fee (USD 1950) and strong career prospects with an 18-month post-study work visa. It aligns perfectly with your interest in Cloud Computing and Software Engineering while respecting your budget.\n\nLocated in Canada, this program provides a high earning potential (USD 29138) and an excellent 36-month post-study work visa. It is highly relevant to Software Engineering and Cloud Computing, making it ideal for maximizing job opportunities abroad.\n\nThis German MCA program has a low tuition cost (USD 2050) and offers an 18-month post-study work visa. It covers Software Engineering and Data Analytics, making it a strong choice for aspiring Data Architects while staying within budget.\n\nThis German MCA program in Berlin offers excellent job prospects with a high median starting salary (USD 34339) and an 18-month post-study work visa. It focuses on Software Engineering and is highly recommended for career growth.\n\nWhile focused on QA Testing, this German program offers a high median starting salary (USD 35799) and an 18-month post-study work visa. It is affordable and located abroad, maximizing your chances of securing a good job after graduation.",
+ "wall_s": 41.2
+}

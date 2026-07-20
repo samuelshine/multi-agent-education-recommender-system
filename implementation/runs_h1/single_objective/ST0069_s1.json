@@ -1,0 +1,72 @@
+{
+ "student_id": "ST0069",
+ "session": 1,
+ "mode": "single_objective",
+ "message": "Hi, I'm a student with a shell programming certification background. My overall academic average is 71.9% in an IT/computer-science degree. I'm interested in data engineering and cloud computing. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 1700 per year. I live in Pune. I'm open to anywhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 71.9
+  },
+  "career_goal": null,
+  "budget_max_usd_per_year": 1700,
+  "location_preference": "Pune",
+  "mobility": "open_domestic",
+  "employability_priority": "high",
+  "other_constraints": [
+   "shell programming certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0182",
+  "PR0119",
+  "PR0186",
+  "PR0176",
+  "PR0058",
+  "PR0187",
+  "PR0174",
+  "PR0053",
+  "PR0158",
+  "PR0109",
+  "PR0076",
+  "PR0012",
+  "PR0019",
+  "PR0114",
+  "PR0185",
+  "PR0130",
+  "PR0084",
+  "PR0120",
+  "PR0170",
+  "PR0015"
+ ],
+ "retrieved_ids": [
+  "PR0182",
+  "PR0186",
+  "PR0187",
+  "PR0158",
+  "PR0019",
+  "PR0084",
+  "PR0130",
+  "PR0119"
+ ],
+ "proposed_shortlist": [
+  "PR0186",
+  "PR0019",
+  "PR0182",
+  "PR0158",
+  "PR0187"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0019",
+  "PR0084",
+  "PR0158",
+  "PR0187"
+ ],
+ "reflection_note": "The original shortlist contained two programs (PR0186 and PR0182) that violated hard constraints: PR0186 exceeded the budget, and PR0182 required a minimum grade higher than the student's current score. I dropped these immediately. Among the remaining options, PR0019 remains the top choice due to its high academic fit (Software Engineering), low cost, and strong feasibility. I swapped in PR0084 because it offers a better HCI option than PR0158 while maintaining excellent financial and location alignment, improving the overall quality of the shortlist.",
+ "explanation": "Ashford University\nThis program is recommended because it meets your location preference in Pune and keeps tuition within your budget at $1450 USD. It offers a strong employability focus with an 84% placement rate, which aligns with your priority for job security. The main trade-off here is that the median starting salary ($10285) is the lowest among the shortlisted options.\n\nHalcyon Technical University\nThis option is highly budget-friendly at $900 USD and is located in Pune. It requires a minimum grade of 64%, which you meet, making it an accessible choice for your current academic standing. The trade-off to consider is that while the placement rate (77%) and salary ($11205) are solid, they are lower compared to other programs on this list.\n\nAshford School of Engineering\nThis program offers a high median starting salary of $13259 and an 84% placement rate in Pune, making it excellent for employability. However, the primary trade-off is that the annual tuition ($1900) exceeds your stated maximum budget of $1700 USD.\n\nCavendish University\nThis program boasts the highest placement rate (87%) and a strong median starting salary of $12687 in Pune, making it ideal for high employability. The main trade-off is that its minimum required grade percentage (72%) is slightly higher than your current academic standing (71.9%), which you should verify during the admission process.",
+ "wall_s": 147.8
+}

@@ -1,0 +1,69 @@
+{
+ "student_id": "ST0037",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 75.9% in an IT/computer-science degree. I'm interested in networks and developer. I want to become a CRM Technical Developer. My family can afford at most about USD 1600 per year. I live in Chennai. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 75.9
+  },
+  "career_goal": "CRM Technical Developer",
+  "budget_max_usd_per_year": 1600,
+  "location_preference": "Chennai",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "r programming certification"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0182",
+  "PR0119",
+  "PR0176",
+  "PR0058",
+  "PR0187",
+  "PR0174",
+  "PR0053",
+  "PR0158",
+  "PR0109",
+  "PR0076",
+  "PR0012",
+  "PR0019",
+  "PR0114",
+  "PR0185",
+  "PR0130",
+  "PR0084",
+  "PR0120",
+  "PR0170",
+  "PR0015",
+  "PR0020"
+ ],
+ "retrieved_ids": [
+  "PR0109",
+  "PR0053",
+  "PR0119",
+  "PR0176",
+  "PR0182",
+  "PR0012",
+  "PR0187",
+  "PR0158"
+ ],
+ "proposed_shortlist": [
+  "PR0109",
+  "PR0053",
+  "PR0119"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0109",
+  "PR0012",
+  "PR0158"
+ ],
+ "reflection_note": "The initial shortlist was good on budget and location but lacked depth in technical focus (PR0119). I dropped PR0053 due to the suboptimal location. To improve the list, I swapped in PR0012 (strong SE focus) and PR0158 (Design/SE blend). The final shortlist prioritizes PR0109 as the primary choice due to its perfect fit for Location, Budget, and Core CS background. The remaining options offer strong technical alternatives if Chennai is unavailable.",
+ "explanation": "Crestwood Technical University\nThis program was recommended because it perfectly aligns with your location preference in Chennai and meets your budget constraint with an annual tuition of $1550. Your academic background is suitable as the minimum required grade percentage is 73%, which you exceed, and the degree requirement for CS background is met. It offers a strong placement rate of 82% and a median starting salary of $13300, supporting your high employability priority. The main trade-off here is that there are no post-study work visa benefits listed.\n\nElmhurst University\nThis option was selected because its annual tuition of $1500 remains within your maximum budget of $1600 USD. While the location in Kolkata does not match your preference for Chennai, it still offers a strong median starting salary of $13468 and meets your academic requirements. The primary trade-off is that you would be moving to a different city than your preferred region.\n\nAshford School of Engineering\nThis program was recommended due to its high placement rate of 84%, which strongly supports your employability priority, and it offers relevant skills in software engineering and design_hci for a technical developer role. However, the main trade-off is that the annual tuition of $1900 exceeds your stated maximum budget of $1600 USD.",
+ "wall_s": 218.9
+}

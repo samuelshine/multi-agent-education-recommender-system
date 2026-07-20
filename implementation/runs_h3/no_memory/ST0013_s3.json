@@ -1,0 +1,70 @@
+{
+ "student_id": "ST0013",
+ "session": 3,
+ "mode": "no_memory",
+ "version": 1,
+ "message": "Hi, I'm a student with a python certification background. My overall academic average is 75.6% in an IT/computer-science degree. I'm interested in Management and security. I want to become a Systems Analyst. My family can afford at most about USD 4400 per year. I live in Pune. I'd strongly prefer to stay near home, though I might consider elsewhere in India. About the earlier suggestions: I liked PR0078, PR0172.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 75.6
+  },
+  "career_goal": "Systems Analyst",
+  "budget_max_usd_per_year": 4400,
+  "location_preference": "Pune (near home)",
+  "mobility": "prefers_region",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in Management and security"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0157",
+  "PR0172",
+  "PR0164",
+  "PR0060",
+  "PR0191",
+  "PR0101",
+  "PR0176",
+  "PR0092",
+  "PR0189",
+  "PR0054",
+  "PR0076",
+  "PR0105",
+  "PR0130",
+  "PR0015",
+  "PR0020",
+  "PR0078",
+  "PR0033",
+  "PR0150",
+  "PR0047",
+  "PR0160"
+ ],
+ "retrieved_ids": [
+  "PR0172",
+  "PR0092",
+  "PR0130",
+  "PR0176",
+  "PR0157",
+  "PR0078",
+  "PR0160",
+  "PR0189"
+ ],
+ "proposed_shortlist": [
+  "PR0078",
+  "PR0172",
+  "PR0092"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0078",
+  "PR0172",
+  "PR0130"
+ ],
+ "reflection_note": "The original shortlist was strong but included PR0092, which is less optimal due to its high tuition relative to the budget and other options. I dropped PR0092. I swapped in PR0130 (Hyderabad) because it offers a significantly lower cost ($1000) than both Pune options while maintaining good placement metrics and being in a preferred region, thus expanding the student's viable choices without compromising constraints.",
+ "explanation": "Fairfax University\nThis program is recommended because it perfectly aligns with your primary constraint of preferring Pune, and its MSc IT Management curriculum suits your goal of becoming a Systems Analyst while addressing interests in management. The annual tuition of $1750 remains well within your maximum budget of $4400 per year, and the 78% placement rate offers strong employability. The main trade-off here is that while it keeps you close to home, its median starting salary ($9426) is lower than the alternative in Hyderabad.\n\nQuilon Technical University\nThis option was recommended because it remains located in Pune, matching your location preference for staying near home. While the program fits your interest in IT Management, it has the highest annual tuition of $2250 among the three options and presents a slightly lower placement rate (66%) compared to the other two schools. The main trade-off is that while you stay in Pune, this option offers the lowest median starting salary ($8654) and the lowest placement rate on the list.\n\nElmhurst School of Engineering\nThis program was recommended because it provides the strongest financial outcome, offering the highest median starting salary at $11249 and a low annual tuition of only $1000. Although this option requires moving to Hyderabad instead of your preferred Pune location, its excellent placement rate (77%) makes it highly attractive for career growth. The main trade-off is that you must be willing to move out of the Pune region to achieve the best potential salary and lowest cost.",
+ "wall_s": 185.7
+}

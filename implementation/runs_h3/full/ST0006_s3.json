@@ -1,0 +1,74 @@
+{
+ "student_id": "ST0006",
+ "session": 3,
+ "mode": "full",
+ "message": "Hi, I'm a student with a machine learning certification background. My overall academic average is 70% in an IT/computer-science degree. I'm interested in parallel computing and system developer. I want to become a Information Security Analyst. My family can afford at most about USD 1300 per year. I live in Hyderabad. I'm open to anywhere in India. About the earlier suggestions: I liked PR0185, PR0073.",
+ "memory_used": true,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 70
+  },
+  "career_goal": "Information Security Analyst",
+  "budget_max_usd_per_year": 1300,
+  "location_preference": null,
+  "mobility": "prefers_region",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in parallel computing and system developer roles"
+  ],
+  "uncertainty_notes": [
+   "Location preference not specified.",
+   "Employability priority not specified."
+  ]
+ },
+ "prefilter_ids": [
+  "PR0015",
+  "PR0020",
+  "PR0157",
+  "PR0074",
+  "PR0087",
+  "PR0119",
+  "PR0058",
+  "PR0187",
+  "PR0053",
+  "PR0109",
+  "PR0076",
+  "PR0012",
+  "PR0019",
+  "PR0114",
+  "PR0185",
+  "PR0130",
+  "PR0084",
+  "PR0120",
+  "PR0170",
+  "PR0073"
+ ],
+ "retrieved_ids": [
+  "PR0185",
+  "PR0073",
+  "PR0119",
+  "PR0053",
+  "PR0170",
+  "PR0130",
+  "PR0076",
+  "PR0187"
+ ],
+ "proposed_shortlist": [
+  "PR0185",
+  "PR0073",
+  "PR0130"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0073",
+  "PR0185",
+  "PR0053",
+  "PR0187",
+  "PR0119"
+ ],
+ "reflection_note": "The original shortlist was good but lacked depth in addressing the student's secondary interest (system developer/parallel computing). I dropped PR0130 because it is too generic. I swapped in PR0053 and PR0187 to provide more specialized, high-relevance options: PR0053 for a strong CS backup, and PR0187 specifically targeting system development roles. The final list prioritizes the core goal (Cybersecurity) while ensuring diverse, highly relevant alternatives that fit the budget and location preferences.",
+ "explanation": "Elmhurst Technical University\nThis program is highly recommended because its focus on MTech Cyber Security directly aligns with your career goal of becoming an Information Security Analyst. It fits comfortably within your maximum budget at $1250 annual tuition and requires a CS background, which you possess, while also meeting the minimum 65% grade requirement. The main trade-off here is that while it offers strong placement (80%) and a good starting salary ($8637), this median salary is lower compared to some of your other options.\n\nLongford Institute of Technology\nThis option provides an excellent, budget-friendly pathway into Information Security at $1150 annual tuition, which is well under your maximum budget. It requires a CS background and accepts students with grades above 62%, meeting your academic standing while keeping costs low. The trade-off to consider is that the placement rate (78%) is slightly lower than some of the other programs listed.\n\nCavendish University\nThis program offers high employability with an 86% placement rate and a strong median starting salary of $12855, making it financially attractive. It also meets your minimum grade requirement of 70%. However, the main trade-off is that its focus on Software Quality Engineering deviates from your primary goal in Information Security, directing you toward QA testing roles instead.\n\nCavendish University\nWhile this program offers a high placement rate (87%) and strong salary potential ($12687), it presents two significant constraints: first, the annual tuition of $1450 exceeds your maximum budget of $1300; second, you do not meet the minimum grade requirement of 72% with your current 70%. The main trade-off is that despite its strong fit for system developer roles, it violates both your financial and academic constraints.\n\nMeridian Institute of Applied Sciences\nThis program boasts the highest median starting salary ($14917) and a high placement rate (86%), making it very attractive from an employability standpoint. However, there are two major trade-offs: first, you do not meet the minimum grade requirement of 71%; and second, its focus on Software Quality Engineering means that while it aligns with your interest in system development, it deviates from your core goal of Information Security Analyst.",
+ "wall_s": 163.0
+}

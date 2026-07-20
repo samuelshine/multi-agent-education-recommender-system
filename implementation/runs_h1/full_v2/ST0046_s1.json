@@ -1,0 +1,74 @@
+{
+ "student_id": "ST0046",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a full stack certification background. My overall academic average is 78% in an IT/computer-science degree. I'm interested in hacking and cloud computing. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 6900 per year. I live in Hyderabad. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 78
+  },
+  "career_goal": null,
+  "budget_max_usd_per_year": 6900,
+  "location_preference": "Hyderabad",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in hacking and cloud computing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0186",
+  "PR0197",
+  "PR0043",
+  "PR0147",
+  "PR0096",
+  "PR0199",
+  "PR0118",
+  "PR0121",
+  "PR0148",
+  "PR0016",
+  "PR0102",
+  "PR0180",
+  "PR0162",
+  "PR0112",
+  "PR0159",
+  "PR0032",
+  "PR0184",
+  "PR0165",
+  "PR0117",
+  "PR0198"
+ ],
+ "retrieved_ids": [
+  "PR0096",
+  "PR0159",
+  "PR0186",
+  "PR0197",
+  "PR0147",
+  "PR0180",
+  "PR0162",
+  "PR0148"
+ ],
+ "proposed_shortlist": [
+  "PR0096",
+  "PR0159",
+  "PR0186",
+  "PR0147",
+  "PR0180"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0096",
+  "PR0186",
+  "PR0180",
+  "PR0159",
+  "PR0148"
+ ],
+ "reflection_note": "The original shortlist was strong, but PR0147's location deviation (Coimbatore) is too severe to keep it in the final 5. I dropped it and swapped in PR0148 (Coimbatore) because it offers a better specialization match (Cybersecurity/Cloud) while maintaining high employability scores and being highly affordable. The remaining candidates are ranked based on the balance of location preference, specialized interest fit (hacking/cloud), and overall financial feasibility.",
+ "explanation": "Ashford Institute of Applied Sciences\nThis program is highly recommended because it perfectly aligns with your interests in cybersecurity and cloud computing, while also meeting your location preference in Hyderabad. The annual tuition of $3350 remains well within your budget maximum of $6900, and your 78% grade exceeds the minimum requirement of 71%. This option offers a strong placement rate of 80% and a median starting salary of $12561, supporting your high employability priority. The main trade-off here is that while it meets all academic criteria, there is no post-study work visa benefit listed.\n\nHalcyon Institute of Technology\nThis program was selected for its strong focus on networking/cloud and software engineering, which complements your IT background. It offers a high placement rate of 83% and the highest median starting salary ($15192) among the options, directly addressing your employability priority. The tuition cost of $2050 is also very budget-friendly. The main trade-off to consider is that while it provides excellent career outcomes, its location in Pune deviates from your preferred Hyderabad region.\n\nBraxton Institute of Technology\nThis option is recommended primarily because of its extremely low annual tuition fee of only $1250, making it highly cost-effective and well under budget. It focuses on networking/cloud, matching one of your stated interests, and requires a CS background that you possess. However, the main trade-off is that this program has the lowest placement rate (71%) and median starting salary ($10359) among the MTech options, which may conflict with your high employability priority.\n\nVantage Technical University\nThis program was recommended because it is located in Hyderabad and offers a very low tuition cost of $700, making it highly budget-friendly. Furthermore, it does not require a specific CS background, offering flexibility for admission. The main trade-off to weigh is that while the location and cost are ideal, its placement rate (66%) and median starting salary ($6514) are lower compared to other MTech options, potentially conflicting with your high employability priority.\n\nKestrel Institute of Technology\nThis program was recommended because it provides a strong curriculum in cybersecurity and networking/cloud, directly matching both of your stated interests. The tuition cost of $2250 is manageable within your budget, and the minimum grade requirement (62%) is easily met by your 78% academic background. The main trade-off to consider is that its location in Coimbatore deviates from your preferred Hyderabad region, despite offering a good placement rate of 73%.",
+ "wall_s": 135.2
+}

@@ -1,0 +1,74 @@
+{
+ "student_id": "ST0017",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a python certification background. My overall academic average is 74.4% in an IT/computer-science degree. I'm interested in hacking and Business process analyst. I want to become a CRM Technical Developer. My family can afford at most about USD 2400 per year. I live in Kolkata. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 74.4
+  },
+  "career_goal": "CRM Technical Developer",
+  "budget_max_usd_per_year": 2400,
+  "location_preference": "Kolkata",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in hacking and Business process analyst roles"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0101",
+  "PR0054",
+  "PR0015",
+  "PR0020",
+  "PR0033",
+  "PR0157",
+  "PR0047",
+  "PR0074",
+  "PR0172",
+  "PR0087",
+  "PR0164",
+  "PR0182",
+  "PR0119",
+  "PR0143",
+  "PR0186",
+  "PR0176",
+  "PR0058",
+  "PR0187",
+  "PR0039",
+  "PR0174"
+ ],
+ "retrieved_ids": [
+  "PR0157",
+  "PR0033",
+  "PR0176",
+  "PR0187",
+  "PR0182",
+  "PR0164",
+  "PR0174",
+  "PR0119"
+ ],
+ "proposed_shortlist": [
+  "PR0157",
+  "PR0182",
+  "PR0119",
+  "PR0174",
+  "PR0164"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0157",
+  "PR0182",
+  "PR0119",
+  "PR0174",
+  "PR0164"
+ ],
+ "reflection_note": "The current shortlist is strong and adheres to all hard constraints (budget, academic feasibility). No entries were dropped. The ranking reflects the initial assessment's balance between financial safety, employability, and location preference, while acknowledging the slight mismatch in program focus for PR0174.",
+ "explanation": "Longford University\nThis program is recommended because its focus on IT Management aligns well with your interest in Business Process Analyst roles and general CRM development. The annual tuition of $800 USD fits comfortably within your budget, and the minimum grade requirement of 64% is easily met by your academic background (74.4%). While it offers a low-cost entry point, the main trade-off is that its median starting salary ($10,444) and placement rate (72%) are lower compared to other options on this list.\n\nKeystone Technical University\nThis program was selected because of its high employability priority, boasting a 91% placement rate and a strong median starting salary of $12,865 USD. The tuition ($1950) is within your budget, and the location in Pune satisfies your regional preference. However, be aware that the minimum grade requirement (75%) is slightly higher than your current academic percentage (74.4%), which may require careful consideration during admission.\n\nMeridian Institute of Applied Sciences\nThis program offers a strong balance between technical skills and affordability, making it ideal for achieving high employability while staying within budget. With an annual tuition of $1200 USD, this option is highly cost-effective, and the minimum grade requirement (71%) is met by your academic record. The main trade-off here is that while the placement rate (86%) and salary ($14,917) are excellent, the curriculum focuses specifically on QA testing rather than broader CRM development or business analysis roles.\n\nHalcyon Institute of Applied Sciences\nThis program was recommended because its focus on Human-Computer Interaction (HCI) provides valuable skills that overlap with both technical development and understanding user processes. The tuition ($1900 USD) is within your budget, and the minimum grade requirement (71%) is easily met. The trade-off to consider is that while it offers a good salary potential ($14,141), its core focus is on design rather than the deep technical or business process analysis skills you listed as interests.\n\nNorthgate School of Engineering\nThis program provides the highest median starting salary ($17,361) and an excellent placement rate (90%), making it highly attractive for your employability priority. The tuition ($2050 USD) is within budget, and its IT Management focus aligns well with CRM development goals. However, the primary trade-off is that the minimum grade requirement of 79% is significantly higher than your current academic percentage (74.4%), making admission challenging despite the strong career metrics.",
+ "wall_s": 153.3
+}

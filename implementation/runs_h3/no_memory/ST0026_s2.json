@@ -1,0 +1,60 @@
+{
+ "student_id": "ST0026",
+ "session": 2,
+ "mode": "no_memory",
+ "version": 1,
+ "message": "Hi, I'm a student with a shell programming certification background. My overall academic average is 74.8% in an IT/computer-science degree. I'm interested in programming and testing. I want to become a Applications Developer. My family can afford at most about USD 7100 per year. I live in Bengaluru. I cannot leave my city. About the earlier suggestions: please drop PR0193, PR0053.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 74.8
+  },
+  "career_goal": "Applications Developer",
+  "budget_max_usd_per_year": 7100,
+  "location_preference": "Bengaluru",
+  "mobility": "fixed_city",
+  "employability_priority": null,
+  "other_constraints": [
+   "shell programming certification background"
+  ],
+  "uncertainty_notes": [
+   "Employability priority not stated.",
+   "Specific courses/areas of interest (programming and testing) are noted but not formalized as constraints or goals."
+  ]
+ },
+ "prefilter_ids": [
+  "PR0015",
+  "PR0073",
+  "PR0002",
+  "PR0013",
+  "PR0085",
+  "PR0173",
+  "PR0087"
+ ],
+ "retrieved_ids": [
+  "PR0085",
+  "PR0173",
+  "PR0073",
+  "PR0015",
+  "PR0013",
+  "PR0087"
+ ],
+ "proposed_shortlist": [
+  "PR0173",
+  "PR0085",
+  "PR0087"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0173",
+  "PR0073",
+  "PR0013",
+  "PR0015",
+  "PR0087"
+ ],
+ "reflection_note": "The original shortlist was heavily focused on PR0173, which is excellent. However, the candidate set contains two superior alternatives for a developer role: MTech Cyber Security (PR0073) and MSc HCI (PR0013). I have swapped in these programs as they offer more specialized, high-value skills that complement core development without sacrificing location or budget compliance. PR0015 (MSc Information Systems) is also a strong general business/IT option for an Applications Developer role and should be included to provide diverse options.",
+ "explanation": "**Longford Technical University**\nThis program is recommended because it offers a strong focus on Software Engineering, which aligns well with your goal of becoming an Applications Developer. With a very low annual tuition cost of $500, it fits comfortably within your budget while also meeting the minimum grade requirement (53%). The main trade-off here is that while the tuition and entry requirements are excellent, its placement rate (62%) and median starting salary ($6851) are among the lower figures on this list.\n\n**Elmhurst Technical University**\nThis program provides a high chance of success with an 80% placement rate and a strong median starting salary of $8637. Since you have an IT/computer-science background, the requirement for a CS degree is met, making it academically suitable. The primary trade-off is that its focus on Cybersecurity deviates from your core goal of becoming an Applications Developer, although it offers excellent career outcomes.\n\n**Meridian Institute of Technology**\nThis option was recommended due to its strong placement rate (77%) and high median starting salary ($9186), suggesting good employability in the Bengaluru market. The tuition cost of $900 is also very manageable within your budget, and it does not require a formal CS background. The main trade-off is that its focus on Human-Computer Interaction (HCI) shifts the emphasis from core coding skills toward design and user experience.\n\n**Keystone Institute of Technology**\nThis program stands out because it offers the highest median starting salary ($9707) and a strong placement rate (78%), suggesting excellent career potential for an Applications Developer. The tuition cost is $1200, which remains well within your budget constraints. However, the trade-off to consider is that its focus on Business Information Systems might emphasize business strategy over deep technical coding skills.\n\n**Aravalli Technical University**\nThis program was selected because it requires a CS background, matching your academic profile, and offers low tuition at $1200. While the curriculum includes data science analytics, which is valuable for developers, the main trade-off is that its placement rate (58%) and median starting salary ($6767) are the lowest among all options listed.",
+ "wall_s": 155.3
+}

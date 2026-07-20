@@ -1,0 +1,57 @@
+{
+ "student_id": "ST0026",
+ "session": 3,
+ "mode": "full",
+ "version": 1,
+ "message": "Hi, I'm a student with a shell programming certification background. My overall academic average is 74.8% in an IT/computer-science degree. I'm interested in programming and testing. I want to become a Applications Developer. My family can afford at most about USD 7100 per year. I live in Bengaluru. I cannot leave my city. Getting a good job after graduation matters more to me than anything else. About the earlier suggestions: I liked PR0085, PR0015.",
+ "memory_used": true,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 74.8
+  },
+  "career_goal": "Applications Developer",
+  "budget_max_usd_per_year": 7100,
+  "location_preference": "Bengaluru",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "shell programming certification background",
+   "interested in programming and testing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0085",
+  "PR0015",
+  "PR0073",
+  "PR0002",
+  "PR0013",
+  "PR0173",
+  "PR0087"
+ ],
+ "retrieved_ids": [
+  "PR0085",
+  "PR0173",
+  "PR0013",
+  "PR0015",
+  "PR0073",
+  "PR0087"
+ ],
+ "proposed_shortlist": [
+  "PR0085",
+  "PR0173",
+  "PR0015"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0085",
+  "PR0013",
+  "PR0073",
+  "PR0087"
+ ],
+ "reflection_note": "The original shortlist was strong on location and budget but lacked sufficient technical depth for a dedicated Applications Developer role. PR0085 remains the top choice due to its perfect fit with QA/testing interest, CS background compatibility, and excellent financial feasibility. I have dropped PR0173 (too DS-heavy) and PR0015 (too business-focused). I swapped in PR0013 (HCI - valuable for developer UX skills) and PR0073 (Cybersecurity - highly technical alternative). I also included PR0087 as a viable, albeit slightly less preferred, backup option that maintains the 'data/tech' theme while keeping the list diverse.",
+ "explanation": "**Keystone Institute of Applied Sciences**\nThis program is recommended because its focus on Software Quality Engineering directly aligns with your interest in testing, and it offers a low annual tuition of $1450, fitting well within your budget. Admission is accessible as it does not require a CS background, which provides flexibility given your current profile. The main trade-off here is that while the program matches your specific interest in QA testing, its placement rate (63%) and median starting salary ($6488) are lower compared to other options on this list.\n\n**Meridian Institute of Technology**\nThis option was recommended due to its excellent combination of low cost ($900 annual tuition) and high employability, boasting a 77% placement rate and the highest median starting salary ($9186). Furthermore, it is highly accessible as it does not require a CS background. The primary trade-off you must consider is that the focus on Human-Computer Interaction (HCI) is heavily design-oriented, which may deviate from your core interest in programming and testing development roles.\n\n**Elmhurst Technical University**\nThis program is strongly recommended because it offers the highest placement rate (80%) and a solid median starting salary ($8637), directly addressing your priority for high employability. It also aligns with your background by requiring a CS degree, which you possess, and its tuition of $1250 fits comfortably within your budget. The main trade-off is that the specialization in Cyber Security moves away from pure Applications Development, although it remains highly relevant to IT roles.\n\n**Aravalli Technical University**\nWhile this program offers a low annual tuition ($1200) and aligns with your CS background, we recommend considering other options first due to its lower placement rate (58%). Although Data Science is related to development, the combination of the lowest placement rate among the short list and a median starting salary of $6767 makes it less ideal given your high priority on employability.",
+ "wall_s": 177.4
+}

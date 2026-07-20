@@ -1,0 +1,67 @@
+{
+ "student_id": "ST0094",
+ "session": 1,
+ "mode": "single_objective",
+ "version": 2,
+ "message": "Hi, I'm a student with a python certification background. My overall academic average is 75.7% in an IT/computer-science degree. I'm interested in programming and developer. I want to become a Network Engineer. My family can afford at most about USD 3400 per year. I live in Hyderabad. I cannot leave my city.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 75.7
+  },
+  "career_goal": "Network Engineer",
+  "budget_max_usd_per_year": 3400,
+  "location_preference": "Hyderabad",
+  "mobility": "fixed_city",
+  "employability_priority": null,
+  "other_constraints": [
+   "programming and developer interest"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0119",
+  "PR0176",
+  "PR0026",
+  "PR0076",
+  "PR0096",
+  "PR0167",
+  "PR0130",
+  "PR0113",
+  "PR0196",
+  "PR0111",
+  "PR0074",
+  "PR0050",
+  "PR0159",
+  "PR0142"
+ ],
+ "retrieved_ids": [
+  "PR0096",
+  "PR0167",
+  "PR0119",
+  "PR0142",
+  "PR0076",
+  "PR0130",
+  "PR0159",
+  "PR0113"
+ ],
+ "proposed_shortlist": [
+  "PR0096",
+  "PR0159",
+  "PR0167",
+  "PR0130"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0096",
+  "PR0159",
+  "PR0167",
+  "PR0076",
+  "PR0119"
+ ],
+ "reflection_note": "The original shortlist included PR0130 (IT Management), which is too generic and less technical than the available alternatives. I replaced it with two stronger candidates: PR0076 (MBA Technology Management) for a management/strategy angle, and PR0119 (MSc Software Quality Engineering) for a strong developer/technical depth option. The final list prioritizes core networking (PR0096, PR0159), adjacent security skills (PR0167), and then balances the remaining slots with a highly relevant management track (PR0076) and a solid technical fallback (PR0119).",
+ "explanation": "Ashford Institute of Applied Sciences\nThis program was recommended because its focus on \"networking_cloud\" and \"cybersecurity\" aligns perfectly with your goal of becoming a Network Engineer. The annual tuition of $3350 is within your maximum budget, and you meet the admission requirement since it mandates a CS background and you have an IT/CS degree (75.7%). While this program offers strong technical relevance, the main trade-off is that its curriculum might be highly specialized in networking, potentially limiting exposure to broader developer interests compared to other options.\n\nVantage Technical University\nThis option was suggested due to its extremely low annual tuition of $700, making it a very budget-friendly choice for your fixed location in Hyderabad. The program covers \"networking_cloud,\" which is relevant to your career goal, and does not require a CS background, offering high flexibility. However, the trade-off here is that while the cost is low, the median starting salary ($6514) and placement rate (66%) are among the lowest in the shortlist compared to other technical options.\n\nCharnock Institute of Technology\nThis MTech program was recommended because it balances your interest in development with a strong focus on cybersecurity, which is critical for modern network roles. At $2450 annually, the tuition fits comfortably within your budget, and you meet the admission criteria despite not requiring a CS background. The primary trade-off is that while its cyber/software focus is excellent, it does not emphasize core networking concepts as directly as Ashford's program.\n\nSarayu Institute of Technology\nThis MBA program was included because it offers an impressive median starting salary ($13142) and high placement rate (81%) at a low tuition cost of $1250. While the management focus is less technical than your goal, its inclusion acknowledges your interest in programming by offering \"software_engineering\" alongside IT management skills. The main trade-off is that this path is highly managerial and deviates significantly from the deep technical specialization required for an entry-level Network Engineer role.\n\nMeridian Institute of Applied Sciences\nThis program was recommended because it boasts the highest placement rate (86%) and median starting salary ($14917) while maintaining a low tuition cost of $1200. Although its focus is purely on \"qa_testing,\" which is less directly related to networking, it provides excellent developer experience that complements your programming interest. The trade-off for this high earning potential is the minimal direct relevance of Quality Assurance testing to the core technical skills needed for a Network Engineer role.",
+ "wall_s": 89.6
+}

@@ -1,0 +1,29 @@
+{
+ "student_id": "ST0066",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 79.1
+    },
+    "career_goal": "Database Developer",
+    "budget_max_usd_per_year": 10100,
+    "location_preference": "Kolkata",
+    "mobility": "prefers_region",
+    "employability_priority": "high",
+    "other_constraints": [
+     "full stack certification background"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0129",
+    "PR0090",
+    "PR0133"
+   ],
+   "feedback": null
+  }
+ ]
+}

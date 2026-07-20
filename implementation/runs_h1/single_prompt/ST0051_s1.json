@@ -1,0 +1,54 @@
+{
+ "student_id": "ST0051",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 80.9% in an IT/computer-science degree. I'm interested in Software Engineering and cloud computing. I want to become a Applications Developer. My family can afford at most about USD 2000 per year. I live in Bengaluru. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 80.9
+  },
+  "career_goal": "Applications Developer",
+  "budget_max_usd_per_year": 2000,
+  "location_preference": "Bengaluru",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in Software Engineering and cloud computing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0186",
+  "PR0016",
+  "PR0112",
+  "PR0032",
+  "PR0058",
+  "PR0039",
+  "PR0053",
+  "PR0158",
+  "PR0109",
+  "PR0076",
+  "PR0012",
+  "PR0065",
+  "PR0019",
+  "PR0167",
+  "PR0199",
+  "PR0185",
+  "PR0171",
+  "PR0155",
+  "PR0145",
+  "PR0083"
+ ],
+ "final_shortlist": [
+  "PR0058",
+  "PR0158",
+  "PR0109",
+  "PR0012",
+  "PR0019"
+ ],
+ "explanation": "This MCA program in Coimbatore aligns well with your interest in Software Engineering and has a strong placement rate (83%) and high median starting salary ($14,869), making it excellent for job prospects while staying within budget.\n\nLocated in Pune, this MDes program focuses on Interaction Design and Software Engineering. It is highly affordable ($1900/year), has a strong placement rate (84%), and keeps you close to home, balancing cost and career goals.\n\nThis MTech Computer Science program in Chennai is highly relevant to Software Engineering. It meets your background requirements, stays within budget ($1550/year), and offers a solid median starting salary of $13,300.\n\nThis MCA program in Kolkata is directly focused on Software Engineering. It is affordable ($1500/year), requires a CS background, and provides good job prospects with a median starting salary of $13,468.\n\nThis MSc Software Engineering program in Pune is budget-friendly ($1450/year) and has a high placement rate (84%). While it also covers QA testing, its focus on software engineering makes it a strong contender for your career goals.",
+ "wall_s": 55.4
+}

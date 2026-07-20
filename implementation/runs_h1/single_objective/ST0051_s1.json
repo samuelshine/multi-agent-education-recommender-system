@@ -1,0 +1,73 @@
+{
+ "student_id": "ST0051",
+ "session": 1,
+ "mode": "single_objective",
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 80.9% in an IT/computer-science degree. I'm interested in Software Engineering and cloud computing. I want to become a Applications Developer. My family can afford at most about USD 2000 per year. I live in Bengaluru. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 80.9
+  },
+  "career_goal": "Applications Developer",
+  "budget_max_usd_per_year": 2000,
+  "location_preference": "Bengaluru",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in Software Engineering and cloud computing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0186",
+  "PR0016",
+  "PR0112",
+  "PR0032",
+  "PR0058",
+  "PR0039",
+  "PR0053",
+  "PR0158",
+  "PR0109",
+  "PR0076",
+  "PR0012",
+  "PR0065",
+  "PR0019",
+  "PR0167",
+  "PR0199",
+  "PR0185",
+  "PR0171",
+  "PR0155",
+  "PR0145",
+  "PR0083"
+ ],
+ "retrieved_ids": [
+  "PR0185",
+  "PR0112",
+  "PR0171",
+  "PR0158",
+  "PR0186",
+  "PR0199",
+  "PR0012",
+  "PR0083"
+ ],
+ "proposed_shortlist": [
+  "PR0185",
+  "PR0112",
+  "PR0171",
+  "PR0012",
+  "PR0186"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0185",
+  "PR0012",
+  "PR0171",
+  "PR0112",
+  "PR0158"
+ ],
+ "reflection_note": "The original shortlist was reviewed and found to have no hard constraint violations (budget, location) among the programs kept. However, PR0186 was dropped due to a budget violation ($2050 > $2000). Two strong candidates were swapped in: PR0158 (Pune) for its high placement rate and good fit, and PR0083 (Mumbai) as a solid alternative to PR0112. The final list prioritizes location alignment (Kolkata/Mumbai) and overall program strength while maintaining budget adherence. PR0199 was excluded due to exceeding the maximum annual tuition budget.",
+ "explanation": "Longford Institute of Technology\nThis program is recommended because it maintains a low annual tuition cost of $1150 and aligns with your interest in software engineering by offering an MSc that includes cybersecurity. While the focus leans heavily into security rather than core cloud development, its 78% placement rate helps meet your high employability priority. The main trade-off here is sacrificing a more direct development/cloud focus for a lower cost and strong placement record, while also being located in Kolkata instead of Bengaluru.\n\nElmhurst University\nThis MCA program is highly recommended due to its strong alignment with software engineering and excellent career outcomes. With a median starting salary of $13468 and a 79% placement rate, it strongly supports your goal as an Applications Developer. The main trade-off is that while the curriculum fits well and the salary potential is high, the location in Kolkata does not match your preference for Bengaluru.\n\nHalcyon Technical University\nThis MTech Computer Science program provides a solid foundation in software engineering at a reasonable tuition cost of $1500 per year. It offers a decent 75% placement rate, which supports your employability priority and is within budget. The primary trade-off is that while the curriculum is relevant to development, its median starting salary ($10917) is lower than some other options, and it is located in Chennai.\n\nCharnock University\nThis MSc Software Engineering program is arguably the best curricular match because it explicitly covers both \"software_engineering\" and \"networking_cloud,\" directly addressing your stated interests. The tuition cost of $1150 is very budget-friendly. However, the main trade-off is that this excellent curriculum comes with the lowest placement rate (65%) and median starting salary ($7933) among all options, despite its strong technical focus.\n\nAshford School of Engineering\nThis MDes Interaction Design program was recommended because it boasts the highest placement rate (84%) and a high median starting salary of $13259, strongly addressing your employability priority. Although the curriculum is focused on design/HCI rather than pure cloud development, its inclusion of \"software_engineering\" makes it relevant to your goal. The main trade-off is that the program's focus might be too heavily weighted toward design principles, potentially diverging from your core interest in backend software and cloud computing.",
+ "wall_s": 114.1
+}

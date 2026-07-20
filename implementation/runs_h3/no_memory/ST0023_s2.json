@@ -1,0 +1,70 @@
+{
+ "student_id": "ST0023",
+ "session": 2,
+ "mode": "no_memory",
+ "version": 1,
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 75.8% in an IT/computer-science degree. I'm interested in Software Engineering and cloud computing. I want to become a Data Architect. My family can afford at most about USD 9800 per year. I live in Hyderabad. I'm open to going abroad. About the earlier suggestions: I liked PR0186, PR0043.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 75.8
+  },
+  "career_goal": "Data Architect",
+  "budget_max_usd_per_year": 9800,
+  "location_preference": "Hyderabad",
+  "mobility": "open_international",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in Software Engineering and cloud computing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0001",
+  "PR0194",
+  "PR0042",
+  "PR0186",
+  "PR0058",
+  "PR0043",
+  "PR0126",
+  "PR0026",
+  "PR0090",
+  "PR0145",
+  "PR0016",
+  "PR0107",
+  "PR0112",
+  "PR0063",
+  "PR0032",
+  "PR0173",
+  "PR0071",
+  "PR0051",
+  "PR0151",
+  "PR0037"
+ ],
+ "retrieved_ids": [
+  "PR0026",
+  "PR0186",
+  "PR0043",
+  "PR0016",
+  "PR0126",
+  "PR0037",
+  "PR0151",
+  "PR0194"
+ ],
+ "proposed_shortlist": [
+  "PR0026",
+  "PR0186",
+  "PR0043"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0026",
+  "PR0126",
+  "PR0194"
+ ],
+ "reflection_note": "The initial shortlist was heavily biased towards Indian options, which is fine if the student prioritizes staying in India. However, given 'open_international' mobility and strong German programs (PR0126, PR0194) with excellent career outcomes (high salaries, long visa periods), these international options must be included as primary alternatives. I have kept PR0026 as the top choice due to its perfect alignment in Hyderabad/Budget. The final list prioritizes the best local option followed by two strong, distinct international backups.",
+ "explanation": "Northgate Technical University\nThis program is highly recommended because it perfectly matches your location preference of Hyderabad and aligns with both your Data Architect goal and interest in Software Engineering. The annual tuition of $3900 is well within your maximum budget, and your current grade percentage of 75.8% exceeds the minimum requirement of 73%. While this program offers a strong placement rate of 81%, the main trade-off to consider is that it does not provide any post-study work visa support (0 months).\n\nAshford Technical University\nThis option is recommended because it provides excellent international career prospects, offering an 18-month post-study work visa and a median starting salary of $23,468. The annual tuition of $2050 remains well within your budget, and the curriculum covers both Data Science Analytics and Software Engineering, fitting your goals. However, the main trade-off is that this program requires you to relocate to Aachen, Germany, which deviates from your Hyderabad preference.\n\nAravalli School of Engineering\nThis program is recommended because it specializes in Cloud Computing, directly addressing one of your stated interests while offering a high median starting salary of $30,651 and an 18-month post-study work visa. The annual tuition of $1950 is very budget-friendly, making it attractive for international study. The main trade-off here is that you would need to relocate to Dresden, Germany, which does not match your preferred location in Hyderabad.",
+ "wall_s": 184.3
+}

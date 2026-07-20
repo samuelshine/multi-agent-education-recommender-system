@@ -1,0 +1,101 @@
+{
+ "student_id": "ST0007",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 75
+    },
+    "career_goal": "data engineering and security",
+    "budget_max_usd_per_year": 1100,
+    "location_preference": null,
+    "mobility": "open_domestic",
+    "employability_priority": null,
+    "other_constraints": [
+     "shell programming certification background"
+    ],
+    "uncertainty_notes": [
+     "Location preference not stated.",
+     "Employability priority not stated."
+    ]
+   },
+   "final_shortlist": [
+    "PR0120",
+    "PR0111",
+    "PR0071",
+    "PR0170"
+   ],
+   "feedback": null
+  },
+  {
+   "session": 2,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 75
+    },
+    "career_goal": "Web Developer",
+    "budget_max_usd_per_year": 1100,
+    "location_preference": "Bengaluru",
+    "mobility": "fixed_city",
+    "employability_priority": null,
+    "other_constraints": [
+     "shell programming certification background"
+    ],
+    "uncertainty_notes": [
+     "Employability priority not stated.",
+     "Data engineering and security interest (previously mentioned) is superseded by Web Developer goal."
+    ]
+   },
+   "final_shortlist": [
+    "PR0173",
+    "PR0013",
+    "PR0015"
+   ],
+   "feedback": {
+    "liked": [],
+    "disliked": [
+     "PR0120",
+     "PR0111"
+    ]
+   }
+  },
+  {
+   "session": 3,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 75
+    },
+    "career_goal": "Web Developer",
+    "budget_max_usd_per_year": 1100,
+    "location_preference": "Bengaluru",
+    "mobility": "fixed_city",
+    "employability_priority": "high",
+    "other_constraints": [
+     "shell programming certification background"
+    ],
+    "uncertainty_notes": [
+     "No new constraints or changes detected regarding academic background, career goal, budget, location, or mobility.",
+     "The student explicitly stated they liked PR0173 and PR0013, and disliked PR0015 (updated from previous memory)."
+    ]
+   },
+   "final_shortlist": [
+    "PR0173",
+    "PR0013",
+    "PR0087"
+   ],
+   "feedback": {
+    "liked": [
+     "PR0173",
+     "PR0013"
+    ],
+    "disliked": [
+     "PR0015"
+    ]
+   }
+  }
+ ]
+}

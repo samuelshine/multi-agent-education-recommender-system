@@ -1,0 +1,79 @@
+{
+ "student_id": "ST0012",
+ "session": 1,
+ "mode": "no_memory",
+ "version": 1,
+ "message": "Hi, I'm a student with a distro making certification background. My overall academic average is 82.9% in an IT/computer-science degree. I'm interested in Management and testing. I want to become a Information Technology Auditor. My family can afford at most about USD 11300 per year.",
+ "memory_used": false,
+ "fallbacks": [
+  "reflect"
+ ],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 82.9
+  },
+  "career_goal": "Information Technology Auditor",
+  "budget_max_usd_per_year": 11300,
+  "location_preference": null,
+  "mobility": "open_domestic",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in Management and testing"
+  ],
+  "uncertainty_notes": [
+   "Location preference not stated.",
+   "Employability priority not stated."
+  ]
+ },
+ "prefilter_ids": [
+  "PR0157",
+  "PR0172",
+  "PR0198",
+  "PR0139",
+  "PR0164",
+  "PR0182",
+  "PR0060",
+  "PR0191",
+  "PR0119",
+  "PR0101",
+  "PR0176",
+  "PR0092",
+  "PR0053",
+  "PR0189",
+  "PR0072",
+  "PR0054",
+  "PR0076",
+  "PR0105",
+  "PR0065",
+  "PR0019"
+ ],
+ "retrieved_ids": [
+  "PR0198",
+  "PR0139",
+  "PR0182",
+  "PR0065",
+  "PR0164",
+  "PR0076",
+  "PR0176",
+  "PR0101"
+ ],
+ "proposed_shortlist": [
+  "PR0198",
+  "PR0139",
+  "PR0065",
+  "PR0164",
+  "PR0076"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0198",
+  "PR0139",
+  "PR0065",
+  "PR0164",
+  "PR0076"
+ ],
+ "reflection_note": "reflect fallback: kept proposal",
+ "explanation": "Northgate Institute of Technology\nThis MSc Software Quality Engineering program is highly recommended because it directly addresses your interest in testing and management by covering both QA testing and software engineering. With a tuition cost of $3500, it fits well within your maximum budget of $11,300 per year, and you meet the minimum grade requirement (82.9% vs 80%). The main trade-off here is that while the placement rate is excellent at 95%, the median starting salary ($21,062) is slightly higher than some other options.\n\nQuilon University\nThis MSc Software Quality Engineering program aligns strongly with your interest in testing and provides a solid educational foundation for an IT Auditor role. The annual tuition of $4200 remains comfortably under your budget, and you meet the minimum grade requirement (82.9% vs 81%). The main trade-off is that its placement rate (89%) and median starting salary ($20,639) are slightly lower compared to Northgate Institute of Technology's offering.\n\nTejas Institute of Technology\nThis MSc Software Quality Engineering option provides the lowest tuition cost at $2450 while still covering both QA testing and software engineering fields. You meet the minimum grade requirement (82.9% vs 75%), making it highly affordable for your budget. The main trade-off is that its lower median starting salary ($12,291) and placement rate (80%) suggest a potentially less robust career outcome compared to other listed programs.\n\nNorthgate School of Engineering\nThis MBA Technology Management program is ideal because it focuses on the management aspects relevant to an IT Auditor role while also covering IT management fields. At $2050 annually, this option is extremely budget-friendly and meets your grade requirement (82.9% vs 79%). The main trade-off is that its focus is purely managerial/IT, meaning it does not provide the deep technical testing skills found in the MSc programs.\n\nSarayu Institute of Technology\nThis MBA Technology Management program offers the lowest tuition cost ($1250) and covers both IT management and software engineering, appealing to your interest in management. You easily meet the minimum grade requirement (82.9% vs 74%), making it highly budget-conscious. The main trade-off is that while it is the most affordable option, its placement rate (81%) and median starting salary ($13,142) are among the lowest listed programs.",
+ "wall_s": 0.0
+}

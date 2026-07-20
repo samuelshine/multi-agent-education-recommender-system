@@ -1,0 +1,74 @@
+{
+ "student_id": "ST0008",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 77.6% in an IT/computer-science degree. I'm interested in programming and Business process analyst. I want to become a UX Designer. My family can afford at most about USD 2100 per year. I live in Bengaluru. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 77.6
+  },
+  "career_goal": "UX Designer",
+  "budget_max_usd_per_year": 2100,
+  "location_preference": "Bengaluru",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in programming and Business process analyst roles"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0101",
+  "PR0039",
+  "PR0174",
+  "PR0158",
+  "PR0054",
+  "PR0084",
+  "PR0015",
+  "PR0020",
+  "PR0141",
+  "PR0013",
+  "PR0033",
+  "PR0014",
+  "PR0157",
+  "PR0181",
+  "PR0046",
+  "PR0047",
+  "PR0166",
+  "PR0074",
+  "PR0172",
+  "PR0059"
+ ],
+ "retrieved_ids": [
+  "PR0015",
+  "PR0013",
+  "PR0157",
+  "PR0181",
+  "PR0046",
+  "PR0166",
+  "PR0039",
+  "PR0158"
+ ],
+ "proposed_shortlist": [
+  "PR0013",
+  "PR0015",
+  "PR0158",
+  "PR0181",
+  "PR0046"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0013",
+  "PR0015",
+  "PR0158",
+  "PR0181",
+  "PR0046"
+ ],
+ "reflection_note": "All programs on the shortlist are valid and meet all hard constraints (Budget: Max $2100; Location: Bengaluru preferred, but other locations are acceptable). The ranking reflects the initial assessment: PR0013 remains the top choice due to optimal fit in UX/HCI, location, and cost. PR0015 is kept as a strong backup for Business Analyst roles in Bengaluru. PR0158, PR0181, and PR0046 are retained based on their high employability scores and relevance to HCI/Design, despite being outside the primary location preference.",
+ "explanation": "Meridian Institute of Technology\nThis program is highly recommended because it perfectly aligns with your location preference in Bengaluru and focuses directly on Human-Computer Interaction (HCI), which is ideal for a UX Designer goal. The annual tuition of $900 is well within your budget, and the 77% placement rate provides strong employability. Since this option keeps you in Bengaluru while maintaining low costs, there are no major trade-offs to consider.\n\nKeystone Institute of Technology\nThis program is excellent because its focus on Information Systems directly addresses your interest in Business Process Analyst roles, while remaining located in your preferred city of Bengaluru. With a tuition cost of $1200 and a 78% placement rate, it offers strong value for money. The trade-off here is that the curriculum leans more toward business systems rather than pure design theory.\n\nAshford School of Engineering\nThis option provides the highest median starting salary ($13259) and the best placement rate (84%), making it ideal for your high employability priority. While the program focuses on Interaction Design, which suits your UX goal, the main trade-off is that the location is Pune, and the tuition of $1900 uses up a significant portion of your annual budget.\n\nKeystone Institute of Technology\nThis MSc HCI option offers the lowest tuition cost ($850) while still providing relevant design skills for a UX career. It is an affordable choice located in Pune, which meets your regional preference. The primary trade-off to note is that its placement rate (73%) is lower compared to other options on this list.\n\nBridgewater Institute of Applied Sciences\nThis program is recommended because it combines both \"design_hci\" and \"software_engineering,\" appealing to both your UX goal and interest in programming. However, the main trade-off is that despite having a high tuition cost ($1900), it offers the lowest median starting salary among all shortlisted options.",
+ "wall_s": 138.2
+}

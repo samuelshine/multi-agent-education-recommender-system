@@ -1,0 +1,71 @@
+{
+ "student_id": "ST0018",
+ "session": 3,
+ "mode": "no_memory",
+ "version": 1,
+ "message": "Hi, I'm a student with a app development certification background. My overall academic average is 73.7% in an IT/computer-science degree. I'm interested in hacking and developer. I want to become a Design & UX. My family can afford at most about USD 33200 per year. I live in Bengaluru. I'm open to going abroad. Getting a good job after graduation matters more to me than anything else. About the earlier suggestions: I liked PR0013, PR0084.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 73.7
+  },
+  "career_goal": "Design & UX",
+  "budget_max_usd_per_year": 33200,
+  "location_preference": "Bengaluru",
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in hacking and developer roles"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0153",
+  "PR0091",
+  "PR0149",
+  "PR0039",
+  "PR0174",
+  "PR0158",
+  "PR0041",
+  "PR0084",
+  "PR0141",
+  "PR0013",
+  "PR0014",
+  "PR0181",
+  "PR0046",
+  "PR0166",
+  "PR0059",
+  "PR0049",
+  "PR0035",
+  "PR0069",
+  "PR0055",
+  "PR0195"
+ ],
+ "retrieved_ids": [
+  "PR0013",
+  "PR0158",
+  "PR0046",
+  "PR0166",
+  "PR0149",
+  "PR0174",
+  "PR0141"
+ ],
+ "proposed_shortlist": [
+  "PR0013",
+  "PR0158",
+  "PR0174"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0013",
+  "PR0158",
+  "PR0046",
+  "PR0149",
+  "PR0166"
+ ],
+ "reflection_note": "The original shortlist was good but included a location outlier (Delhi). I dropped PR0174. I kept PR0013 as the top choice due to its perfect alignment with Bengaluru and budget. For alternatives, I prioritized other locations that are either highly rated or offer strong value/employability: Pune (PR0158, PR0046) and Mumbai (PR0149). I also swapped in PR0166 (Coimbatore) as a geographically diverse, low-cost option to provide maximum choice while maintaining high employability focus. All selected programs meet the budget constraint (max tuition is $3750/year, well below $33200).",
+ "explanation": "Meridian Institute of Technology\nThis program is recommended because it aligns perfectly with your location preference in Bengaluru and offers a very low annual tuition of $900. Since the minimum required grade percentage is 59%, your academic background of 73.7% makes you eligible, and the focus on HCI supports your Design & UX goals. The main trade-off here is that while the cost and location are ideal, the median starting salary ($9186) and lack of post-study work visa options may limit long-term career growth compared to other choices.\n\nAshford School of Engineering\nThis program is highly recommended because it combines both \"design_hci\" and \"software_engineering,\" directly addressing your interest in developer roles while supporting your UX goals. With a placement rate of 84% and a median starting salary of $13259, this option offers strong employability metrics that meet your high priority. The main trade-off is the location; although it provides excellent career outcomes, it is situated in Pune rather than your preferred Bengaluru.\n\nBridgewater Institute of Applied Sciences\nThis program was selected because its dual focus on \"design_hci\" and \"software_engineering\" aligns well with both your UX goals and interest in developer roles. The tuition cost ($1900) fits within your budget, and the minimum grade requirement (63%) is easily met by your 73.7% score. The main trade-off to consider is that while it offers a good blend of skills, its median starting salary ($8623) is lower than some other options on this list.\n\nBridgewater School of Engineering\nThis option was recommended because it boasts the highest placement rate (86%) and the strongest median starting salary ($13217), maximizing your employability priority. The program's focus on \"design_hci\" directly supports your career goal, and its minimum grade requirement is 70%, which you exceed. The main trade-off here is that it has a higher annual tuition of $3750 compared to other options, and the location (Mumbai) does not match your preference for Bengaluru.\n\nMeridian Technical University\nThis program is recommended due to its low cost ($1200 annual tuition), making it highly budget-friendly while still providing relevant \"design_hci\" training for your UX goals. Your 73.7% grade exceeds the minimum requirement of 65%, ensuring eligibility, and the curriculum supports your career path. The main trade-off is that its location in Coimbatore does not match your preference, and its placement rate (71%) is lower than some other highly rated options.",
+ "wall_s": 17.4
+}

@@ -1,0 +1,65 @@
+{
+ "student_id": "ST0056",
+ "session": 1,
+ "mode": "single_objective",
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 83.7% in an IT/computer-science degree. I'm interested in programming and system developer. I want to become a Web Developer. My family can afford at most about USD 4300 per year. I live in Chennai. I'm open to going abroad. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 83.7
+  },
+  "career_goal": "Web Developer",
+  "budget_max_usd_per_year": 4300,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "information security certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0000",
+  "PR0195",
+  "PR0153",
+  "PR0051",
+  "PR0137",
+  "PR0191",
+  "PR0101",
+  "PR0054",
+  "PR0128",
+  "PR0044",
+  "PR0105",
+  "PR0015",
+  "PR0020",
+  "PR0033",
+  "PR0157",
+  "PR0047",
+  "PR0074",
+  "PR0172",
+  "PR0087",
+  "PR0021"
+ ],
+ "retrieved_ids": [
+  "PR0000",
+  "PR0195",
+  "PR0153",
+  "PR0021"
+ ],
+ "proposed_shortlist": [
+  "PR0195",
+  "PR0153",
+  "PR0000",
+  "PR0021"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0195",
+  "PR0153"
+ ],
+ "reflection_note": "The initial shortlist was good but contained two programs (PR0000 and PR0021) that were too broad or misaligned with the Web Developer goal. I have dropped these to focus on the top two options: PR0195 (Information Systems) for a strong, general development/business foundation, and PR0153 (HCI) for specialized front-end design skills. Both are excellent choices given the student's background and budget constraints. The low tuition costs across all programs should be noted to the student as potentially requiring verification.",
+ "explanation": "Keystone School of Engineering\nThis program is highly recommended because it offers exceptional value while meeting your budget constraint with an annual tuition of only $300. It provides strong employability support, boasting an 82% placement rate and offering an 18-month post-study work visa after graduation. While the median starting salary of $51,059 is excellent for career goals, the main trade-off is that the focus on \"business_information_systems\" may be less specialized in pure coding compared to a dedicated development track.\n\nKeystone University\nThis program was recommended because its focus on Human-Computer Interaction (HCI) aligns strongly with modern Web Developer roles by emphasizing user experience and design. It remains well within your budget, requiring only $550 annually, and provides the same 18-month post-study work visa opportunity. The trade-off here is that the median starting salary of $39,426 is lower than the alternative option, but its specialization in HCI makes it highly relevant to building user-facing web applications.",
+ "wall_s": 83.8
+}

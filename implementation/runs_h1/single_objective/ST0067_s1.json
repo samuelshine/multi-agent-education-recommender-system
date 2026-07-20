@@ -1,0 +1,57 @@
+{
+ "student_id": "ST0067",
+ "session": 1,
+ "mode": "single_objective",
+ "message": "Hi, I'm a student with a machine learning certification background. My overall academic average is 69.6% in an IT/computer-science degree. I'm interested in Management and Business process analyst. I want to become a Database Developer. My family can afford at most about USD 1100 per year. I live in Mumbai. I cannot leave my city. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 69.6
+  },
+  "career_goal": "Database Developer",
+  "budget_max_usd_per_year": 1100,
+  "location_preference": "Mumbai",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in Management and Business process analyst"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0071",
+  "PR0114",
+  "PR0193",
+  "PR0112",
+  "PR0049",
+  "PR0035",
+  "PR0082"
+ ],
+ "retrieved_ids": [
+  "PR0114",
+  "PR0082",
+  "PR0112",
+  "PR0071",
+  "PR0049",
+  "PR0082",
+  "PR0193",
+  "PR0112"
+ ],
+ "proposed_shortlist": [
+  "PR0071",
+  "PR0114",
+  "PR0193",
+  "PR0082"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0114",
+  "PR0082",
+  "PR0049"
+ ],
+ "reflection_note": "The initial shortlist contained two programs (PR0071, PR0193) that violated the hard budget constraint ($1300 and $1200 respectively, exceeding the $1100 limit). These were dropped. I kept PR0114 and PR0082 as they are affordable and located in Mumbai. I swapped in PR0049 because it is extremely budget-friendly ($600) and provides a valuable complementary skill set (HCI/UX), which aligns with the student's interest in Business Process Analysis, while remaining highly relevant to software development.",
+ "explanation": "Crestwood School of Engineering\nThis program was recommended because it offers a high placement rate of 81% and a strong median starting salary of $10,903 USD, addressing your priority for employability while remaining within your maximum budget of $1100 per year ($850 tuition). While the focus is on Software Quality Engineering (QA Testing), which differs from pure database development, it provides highly marketable skills that complement a developer role. The main trade-off here is specializing in quality assurance rather than deep architectural database design.\n\nElmhurst Technical University\nThis option is recommended if minimizing cost is your highest priority, as the annual tuition of $500 USD is significantly lower than your budget limit. It meets all location and admission requirements (minimum grade 55% required). The main trade-off for this low cost is that it has the lowest placement rate (64%) and median starting salary ($6,458) among the three options.\n\nAravalli Institute of Applied Sciences\nThis program was recommended because its focus on Human-Computer Interaction (HCI) aligns well with your secondary interest in Management and Business Process Analysis. The tuition is affordable at $600 USD, and it meets all location requirements. The main trade-off is that the curriculum emphasizes design and user experience rather than core database development skills, though these are valuable complementary skills for a developer role.",
+ "wall_s": 105.0
+}

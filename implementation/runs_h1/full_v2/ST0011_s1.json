@@ -1,0 +1,71 @@
+{
+ "student_id": "ST0011",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a python certification background. My overall academic average is 81.4% in an IT/computer-science degree. I'm interested in Computer Architecture and security. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 5400 per year. I live in Pune. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [
+  "reflect"
+ ],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 81.4
+  },
+  "career_goal": null,
+  "budget_max_usd_per_year": 5400,
+  "location_preference": "Pune",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in Computer Architecture and security"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0117",
+  "PR0198",
+  "PR0097",
+  "PR0144",
+  "PR0139",
+  "PR0164",
+  "PR0029",
+  "PR0022",
+  "PR0182",
+  "PR0060",
+  "PR0191",
+  "PR0119",
+  "PR0101",
+  "PR0143",
+  "PR0186",
+  "PR0176",
+  "PR0058",
+  "PR0149",
+  "PR0092",
+  "PR0187"
+ ],
+ "retrieved_ids": [
+  "PR0144",
+  "PR0186",
+  "PR0182",
+  "PR0187"
+ ],
+ "proposed_shortlist": [
+  "PR0144",
+  "PR0186",
+  "PR0182",
+  "PR0187"
+ ],
+ "guard_dropped": [],
+ "backfilled": [],
+ "final_shortlist": [
+  "PR0144",
+  "PR0186",
+  "PR0182",
+  "PR0187"
+ ],
+ "reflection_note": "reflect fallback: kept proposal",
+ "explanation": "Tejas Technical University\nThis program was recommended because it aligns perfectly with your academic background, as the minimum required grade percentage is 81%, matching your current standing of 81.4%. It offers a high placement rate of 93% and a strong median starting salary of $19239 USD, addressing your priority for employability. The annual tuition of $4800 USD remains well within your budget maximum. The main trade-off here is that while the program has excellent career outcomes, it does not specifically focus on Computer Architecture or security, which are areas you expressed interest in.\n\nHalcyon Institute of Technology\nThis option was suggested because its curriculum covers networking and cloud technologies, which relates to infrastructure and system architecture interests. With an annual tuition of $2050 USD, it is highly budget-friendly while still requiring a CS background, matching your degree. The main trade-off is that while the tuition is low, the placement rate (83%) and median starting salary ($15192) are lower compared to other options on this list.\n\nKeystone Technical University\nWe recommend this program because it offers a high placement rate of 91% for an annual tuition cost of only $1950 USD, making it very budget-friendly. The admission requirements do not mandate a CS background, providing flexibility. However, the main trade-off is that despite its strong placement record, the median starting salary ($12865) is comparatively lower than other options listed.\n\nCavendish University\nThis program was recommended due to its extremely low annual tuition of $1450 USD, making it highly cost-effective for your budget. It also does not require a CS background, offering maximum admission flexibility while maintaining a solid placement rate of 87%. The primary trade-off is that the median starting salary ($12687) is the lowest among all recommended programs, despite its low overall tuition cost.",
+ "wall_s": 127.1
+}

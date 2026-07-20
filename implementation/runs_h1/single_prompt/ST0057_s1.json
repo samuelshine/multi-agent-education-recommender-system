@@ -1,0 +1,54 @@
+{
+ "student_id": "ST0057",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a app development certification background. My overall academic average is 72.1% in an IT/computer-science degree. I'm interested in programming and cloud computing. I want to become a CRM Technical Developer. My family can afford at most about USD 2800 per year. I live in Chennai. I'm open to anywhere in India.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 72.1
+  },
+  "career_goal": "CRM Technical Developer",
+  "budget_max_usd_per_year": 2800,
+  "location_preference": null,
+  "mobility": "open_domestic",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in programming and cloud computing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0186",
+  "PR0197",
+  "PR0147",
+  "PR0096",
+  "PR0199",
+  "PR0118",
+  "PR0121",
+  "PR0148",
+  "PR0016",
+  "PR0102",
+  "PR0180",
+  "PR0162",
+  "PR0112",
+  "PR0159",
+  "PR0032",
+  "PR0184",
+  "PR0165",
+  "PR0022",
+  "PR0182",
+  "PR0191"
+ ],
+ "final_shortlist": [
+  "PR0186",
+  "PR0199",
+  "PR0016",
+  "PR0102",
+  "PR0165"
+ ],
+ "explanation": "This MTech in Pune offers strong alignment with your interests (networking/cloud) and has a high placement rate. Crucially, its tuition ($2050) is well within your budget, and the minimum grade requirement (70%) is achievable given your 72.1% average.\n\nLocated in Chennai, this MTech program focuses on cloud computing and has a very low tuition fee ($2300), making it highly budget-friendly. While the minimum grade is 74%, your current average of 72.1% is close enough to consider applying.\n\nThis MSc Cloud Computing program in Coimbatore has a manageable tuition fee ($2400) and covers both cloud computing and software engineering. The minimum grade requirement (64%) is easily met by your academic average.\n\nThis MSc Cloud Computing program in Delhi has a low tuition fee ($1700) and directly addresses your interest in cloud computing. Since it requires a CS background, your current degree is suitable, and the cost is excellent for your budget.\n\nThis MSc Cloud Computing program in Chennai offers one of the lowest tuition fees ($550) while still focusing on cloud computing. It requires a CS background, making it relevant to your profile and highly affordable.",
+ "wall_s": 53.2
+}

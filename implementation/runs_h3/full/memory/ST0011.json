@@ -1,0 +1,96 @@
+{
+ "student_id": "ST0011",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 81.4
+    },
+    "career_goal": null,
+    "budget_max_usd_per_year": null,
+    "location_preference": null,
+    "mobility": "open_domestic",
+    "employability_priority": null,
+    "other_constraints": [
+     "Interested in Computer Architecture and security."
+    ],
+    "uncertainty_notes": [
+     "Career goal is not specified.",
+     "Budget maximum per year is not specified.",
+     "Location preference is not specified.",
+     "Employability priority is not specified."
+    ]
+   },
+   "final_shortlist": [
+    "PR0029",
+    "PR0144",
+    "PR0198",
+    "PR0143"
+   ],
+   "feedback": null
+  },
+  {
+   "session": 2,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 81.4
+    },
+    "career_goal": "Software Systems Engineer",
+    "budget_max_usd_per_year": 5400,
+    "location_preference": "Pune",
+    "mobility": "prefers_region",
+    "employability_priority": null,
+    "other_constraints": [
+     "Interested in Computer Architecture and security."
+    ],
+    "uncertainty_notes": [
+     "Employability priority is not specified."
+    ]
+   },
+   "final_shortlist": [
+    "PR0144",
+    "PR0186"
+   ],
+   "feedback": {
+    "liked": [
+     "PR0029",
+     "PR0144"
+    ],
+    "disliked": []
+   }
+  },
+  {
+   "session": 3,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 81.4
+    },
+    "career_goal": "Software Systems Engineer",
+    "budget_max_usd_per_year": 5400,
+    "location_preference": "Pune",
+    "mobility": "prefers_region",
+    "employability_priority": "high",
+    "other_constraints": [
+     "Interested in Computer Architecture and security."
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0144",
+    "PR0186",
+    "PR0019"
+   ],
+   "feedback": {
+    "liked": [
+     "PR0144",
+     "PR0186"
+    ],
+    "disliked": []
+   }
+  }
+ ]
+}

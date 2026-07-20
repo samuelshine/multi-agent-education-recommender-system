@@ -1,0 +1,73 @@
+{
+ "student_id": "ST0024",
+ "session": 2,
+ "mode": "no_memory",
+ "version": 1,
+ "message": "Hi, I'm a student with a hadoop certification background. My overall academic average is 76.1% in an IT/computer-science degree. I'm interested in hacking and developer. I want to become a Applications Developer. My family can afford at most about USD 4800 per year. I live in Bengaluru. I'd strongly prefer to stay near home, though I might consider elsewhere in India. About the earlier suggestions: I liked PR0058, PR0186 but please drop PR0029.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 76.1
+  },
+  "career_goal": "Applications Developer",
+  "budget_max_usd_per_year": 4800,
+  "location_preference": "Bengaluru",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Hadoop certification background",
+   "Interested in hacking and developer",
+   "Dislike PR0029"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0198",
+  "PR0144",
+  "PR0139",
+  "PR0164",
+  "PR0029",
+  "PR0022",
+  "PR0182",
+  "PR0060",
+  "PR0191",
+  "PR0119",
+  "PR0101",
+  "PR0143",
+  "PR0186",
+  "PR0176",
+  "PR0058",
+  "PR0149",
+  "PR0092",
+  "PR0187",
+  "PR0039",
+  "PR0174"
+ ],
+ "retrieved_ids": [
+  "PR0198",
+  "PR0186",
+  "PR0143",
+  "PR0182",
+  "PR0058",
+  "PR0174",
+  "PR0164",
+  "PR0039"
+ ],
+ "proposed_shortlist": [
+  "PR0198",
+  "PR0186",
+  "PR0058"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0186",
+  "PR0143",
+  "PR0182",
+  "PR0039"
+ ],
+ "reflection_note": "The original shortlist was flawed due to a hard academic constraint violation (PR0198) and a major location mismatch (PR0058). I dropped PR0198 immediately. Between the remaining options, PR0186 remains the top choice due to its strong academic fit and affordability, despite the non-preferred location. I swapped in PR0143 and PR0182 as they offer excellent alternatives with manageable grade requirements and are highly relevant (Data Science/Software Engineering). PR0039 is included as a lower-ranked backup option for maximum coverage.",
+ "explanation": "Halcyon Institute of Technology\nThis program is recommended because it aligns well with your interest in software engineering and has a strong placement rate of 83%. The annual tuition of $2050 fits comfortably within your budget maximum of $4800. While the median starting salary of $15192 is high, you should note that this program offers zero months of post-study work visa, which is the main trade-off for its strong earning potential.\n\nFairfax Technical University\nThis option was selected because it maintains a high placement rate of 87% and requires a CS background, matching your academic profile. The tuition cost of $2750 remains within your budget constraints. However, like all programs on this list, the primary trade-off is that there are no post-study work visa options available, despite its strong focus on data science analytics.\n\nKeystone Technical University\nThis program offers the highest placement rate (91%) and a low annual tuition of $1950, making it highly budget-friendly while prioritizing employability. It also meets your admission criteria with a minimum grade requirement of 75%. The main trade-off here is that despite its excellent placement record, it lists the lowest median starting salary among the shortlisted options.\n\nLongford Institute of Applied Sciences\nThis program was recommended because its focus on Human-Computer Interaction (HCI) and software engineering directly relates to your goal as an Applications Developer. It has a solid placement rate of 85% and a tuition cost of $2250, keeping you well under budget. The primary trade-off is that while the curriculum is highly relevant to development, it does not offer any post-study work visa options.",
+ "wall_s": 206.9
+}

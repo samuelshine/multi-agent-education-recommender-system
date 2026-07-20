@@ -53,6 +53,11 @@ def main():
     ap.add_argument("--out", default=str(HERE / "runs"))
     ap.add_argument("--force", action="store_true")
     ap.add_argument("--metrics", action="store_true")
+    ap.add_argument("--v2", action="store_true",
+                    help="post-registration pruning-policy revision: reflection "
+                         "drops only hard violations and the list is backfilled to "
+                         "k with valid candidates; records land in <mode>_v2/ and "
+                         "are reported alongside v1, never in place of it")
     ap.add_argument("--all-revealed", action="store_true",
                     help="H1 full-information state: every requested session exposes "
                          "the complete profile with no scripted events/feedback — the "
@@ -69,12 +74,13 @@ def main():
            else list(students)[: args.n])
     session_nos = [int(s) for s in args.sessions.split(",")]
 
-    outdir = Path(args.out) / args.mode
+    outdir = Path(args.out) / (args.mode + ("_v2" if args.v2 else ""))
     outdir.mkdir(parents=True, exist_ok=True)
     llm = LLMClient(backend=args.backend, model=args.model,
                     cache_dir=HERE / "cache")
     pipe = Pipeline(llm, programs, mode=args.mode,
-                    memory_dir=outdir / "memory")
+                    memory_dir=outdir / "memory",
+                    version=2 if args.v2 else 1)
 
     qrels_all = load_qrels(data / "qrels.csv")
     records = []

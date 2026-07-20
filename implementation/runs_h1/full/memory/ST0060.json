@@ -1,0 +1,30 @@
+{
+ "student_id": "ST0060",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 78.6
+    },
+    "career_goal": "Database Administrator",
+    "budget_max_usd_per_year": 2900,
+    "location_preference": "Delhi",
+    "mobility": "prefers_region",
+    "employability_priority": "high",
+    "other_constraints": [
+     "Interest in IOT and developer roles",
+     "Hadoop certification background"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0120",
+    "PR0107",
+    "PR0063"
+   ],
+   "feedback": null
+  }
+ ]
+}

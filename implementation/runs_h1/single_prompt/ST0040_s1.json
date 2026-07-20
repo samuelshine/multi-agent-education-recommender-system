@@ -1,0 +1,40 @@
+{
+ "student_id": "ST0040",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a hadoop certification background. My overall academic average is 80.3% in an IT/computer-science degree. I'm interested in IOT and testing. I want to become a Web Developer. My family can afford at most about USD 1200 per year. I live in Delhi. I cannot leave my city. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 80.3
+  },
+  "career_goal": "Web Developer",
+  "budget_max_usd_per_year": 1200,
+  "location_preference": "Delhi",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in IOT and testing",
+   "Hadoop certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0064",
+  "PR0120",
+  "PR0020",
+  "PR0175",
+  "PR0063",
+  "PR0184"
+ ],
+ "final_shortlist": [
+  "PR0064",
+  "PR0120",
+  "PR0184",
+  "PR0063"
+ ],
+ "explanation": "This MSc in Software Quality Engineering directly addresses your interest in testing and is located in Delhi with a low tuition cost ($650), making it highly feasible. While its placement rate (60%) is moderate, the focus on software quality aligns well with becoming a Web Developer.\n\nThe MSc Big Data Analytics program offers strong job prospects in Delhi (median salary $10,021) and has a manageable tuition fee ($800). Although focused on data science, the analytical skills gained are highly transferable to modern web development roles.\n\nMSc Cloud Computing is an excellent choice for a Web Developer aiming for high employability in Delhi. With low tuition ($950) and a strong industry focus (networking/cloud), it complements your existing background and offers good job potential.\n\nThis MCA program covers both software engineering and data analytics, making it a comprehensive option for aspiring Web Developers. The tuition ($1350) is within budget, and the curriculum provides a solid foundation in core development skills.",
+ "wall_s": 25.3
+}

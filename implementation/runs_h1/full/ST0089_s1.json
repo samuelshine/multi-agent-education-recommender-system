@@ -1,0 +1,71 @@
+{
+ "student_id": "ST0089",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 77.7% in an IT/computer-science degree. I'm interested in networks and testing. I want to become a Information Technology Manager. My family can afford at most about USD 1200 per year. I live in Mumbai. I'd strongly prefer to stay near home, though I might consider elsewhere in India.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 77.7
+  },
+  "career_goal": "Information Technology Manager",
+  "budget_max_usd_per_year": 1200,
+  "location_preference": null,
+  "mobility": "prefers_region",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in networks and testing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0119",
+  "PR0053",
+  "PR0019",
+  "PR0114",
+  "PR0015",
+  "PR0020",
+  "PR0193",
+  "PR0157",
+  "PR0050",
+  "PR0125",
+  "PR0190",
+  "PR0080",
+  "PR0008",
+  "PR0142",
+  "PR0082",
+  "PR0052",
+  "PR0085",
+  "PR0066",
+  "PR0064",
+  "PR0087"
+ ],
+ "retrieved_ids": [
+  "PR0119",
+  "PR0053",
+  "PR0193",
+  "PR0157",
+  "PR0050",
+  "PR0125",
+  "PR0190",
+  "PR0064"
+ ],
+ "proposed_shortlist": [
+  "PR0119",
+  "PR0053",
+  "PR0193",
+  "PR0157"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0119",
+  "PR0053",
+  "PR0050",
+  "PR0125"
+ ],
+ "reflection_note": "The original shortlist was strong but included two programs (PR0193, PR0157) that were either too weak in placement/salary or deviated too far from the student's core technical interest (QA/Testing). I dropped both. I swapped in PR0050 and PR0125 because they are highly relevant to QA/Testing, maintain budget adherence, and offer better value or flexibility compared to the original options. The final list prioritizes strong QA/SE programs with excellent financial feasibility (all within budget) and high employability metrics.",
+ "explanation": "Meridian Institute of Applied Sciences\nThis program is highly recommended because it aligns perfectly with your interest in testing while keeping tuition at $1200 USD, which meets your budget maximum. With a minimum required grade of 71%, you are well-qualified for admission using your 77.7% background. It offers an excellent placement rate of 86% and the highest median starting salary ($14917) among the options, providing strong career potential toward management. The main trade-off here is that while it offers high earning potential, there are no post-study work visa benefits listed.\n\nCavendish University\nThis program is an excellent choice as it provides a robust foundation in both QA testing and software engineering, directly supporting your goal of becoming an IT Manager. Like Meridian, the tuition is $1200 USD, fitting within your budget, and you easily meet the minimum admission requirement of 70%. It boasts a strong placement rate of 86% and a solid median starting salary of $12855. The trade-off compared to Meridian is that the expected starting salary is slightly lower, though still very competitive.\n\nTejas Institute of Technology\nThis program is recommended because it keeps tuition low at $1150 USD while covering QA testing and IT support fields relevant to your interests. You are well above the minimum admission requirement of 58%. However, you should be aware that this option presents a trade-off: while it meets your budget, its placement rate (69%) and median starting salary ($7474) are significantly lower than the other options listed.\n\nAldermount Institute of Applied Sciences\nThis program is ideal if minimizing cost is your absolute top priority, as the annual tuition is only $450 USD. You easily meet the minimum admission requirement of 57% and it focuses on QA testing. The main trade-off for this low cost is that it has the lowest placement rate (66%) and median starting salary ($8177) among all listed options, suggesting a potentially lower immediate earning trajectory.",
+ "wall_s": 200.4
+}

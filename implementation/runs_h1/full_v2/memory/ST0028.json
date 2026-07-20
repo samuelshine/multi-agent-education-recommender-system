@@ -1,0 +1,31 @@
+{
+ "student_id": "ST0028",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 72.9
+    },
+    "career_goal": "Software Engineer (interested in data engineering and security)",
+    "budget_max_usd_per_year": 33700,
+    "location_preference": null,
+    "mobility": "open_international",
+    "employability_priority": "high",
+    "other_constraints": [
+     "r programming certification background"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0086",
+    "PR0027",
+    "PR0136",
+    "PR0034",
+    "PR0126"
+   ],
+   "feedback": null
+  }
+ ]
+}

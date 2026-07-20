@@ -1,0 +1,104 @@
+{
+ "student_id": "ST0003",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 81.6
+    },
+    "career_goal": "Software Developer",
+    "budget_max_usd_per_year": null,
+    "location_preference": null,
+    "mobility": "open_domestic",
+    "employability_priority": null,
+    "other_constraints": [
+     "Interested in data engineering and system developer roles."
+    ],
+    "uncertainty_notes": [
+     "Budget maximum per year not specified.",
+     "Location preference not specified.",
+     "Mobility preference not specified (defaulting to open_domestic).",
+     "Employability priority not specified."
+    ]
+   },
+   "final_shortlist": [
+    "PR0097",
+    "PR0026",
+    "PR0143",
+    "PR0186",
+    "PR0145"
+   ],
+   "feedback": null
+  },
+  {
+   "session": 2,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 81.6
+    },
+    "career_goal": "Software Developer",
+    "budget_max_usd_per_year": 13200,
+    "location_preference": null,
+    "mobility": "fixed_city",
+    "employability_priority": null,
+    "other_constraints": [
+     "Interested in data engineering and system developer roles.",
+     "Background in information security certification."
+    ],
+    "uncertainty_notes": [
+     "Employability priority not specified."
+    ]
+   },
+   "final_shortlist": [
+    "PR0186",
+    "PR0026",
+    "PR0039",
+    "PR0145"
+   ],
+   "feedback": {
+    "liked": [
+     "PR0097",
+     "PR0026"
+    ],
+    "disliked": []
+   }
+  },
+  {
+   "session": 3,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 81.6
+    },
+    "career_goal": "Software Developer",
+    "budget_max_usd_per_year": 13200,
+    "location_preference": null,
+    "mobility": "prefers_region",
+    "employability_priority": "high",
+    "other_constraints": [
+     "Interested in data engineering and system developer roles.",
+     "Background in information security certification."
+    ],
+    "uncertainty_notes": [
+     "No specific location preference stated (Mumbai is current residence, but open to anywhere in India)."
+    ]
+   },
+   "final_shortlist": [
+    "PR0097",
+    "PR0186",
+    "PR0074",
+    "PR0143"
+   ],
+   "feedback": {
+    "liked": [
+     "PR0186",
+     "PR0026"
+    ],
+    "disliked": []
+   }
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "student_id": "ST0002",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a hadoop certification background. My overall academic average is 80% in an IT/computer-science degree. I'm interested in Computer Architecture and developer. I want to become a Business Intelligence Analyst.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 80
+  },
+  "career_goal": "Business Intelligence Analyst",
+  "budget_max_usd_per_year": null,
+  "location_preference": null,
+  "mobility": "open_domestic",
+  "employability_priority": null,
+  "other_constraints": [
+   "hadoop certification background",
+   "interested in Computer Architecture and developer"
+  ],
+  "uncertainty_notes": [
+   "budget_max_usd_per_year is unknown.",
+   "location preference is unknown.",
+   "mobility preference is unknown (defaulting to open_domestic).",
+   "employability priority is unknown."
+  ]
+ },
+ "prefilter_ids": [
+  "PR0191",
+  "PR0101",
+  "PR0054",
+  "PR0105",
+  "PR0015",
+  "PR0020",
+  "PR0033",
+  "PR0157",
+  "PR0047",
+  "PR0074",
+  "PR0172",
+  "PR0087",
+  "PR0117",
+  "PR0198",
+  "PR0097",
+  "PR0144",
+  "PR0139",
+  "PR0164",
+  "PR0029",
+  "PR0022"
+ ],
+ "retrieved_ids": [
+  "PR0074",
+  "PR0191",
+  "PR0087",
+  "PR0144",
+  "PR0164",
+  "PR0139",
+  "PR0198",
+  "PR0097"
+ ],
+ "proposed_shortlist": [
+  "PR0198",
+  "PR0144",
+  "PR0097",
+  "PR0164"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0198",
+  "PR0074",
+  "PR0191",
+  "PR0097",
+  "PR0144"
+ ],
+ "reflection_note": "The original shortlist was good but lacked a strong, dedicated Data Engineering option that wasn't PR0097. I dropped the MBA (PR0164) as it deviates too much from technical goals and swapped in two highly relevant MTech Data Engineering options (PR0074, PR0191). I kept PR0198 and PR0097 for their strong tech focus/location fit. I re-added PR0144 to the final list only because it is a high-scoring technical option, but the student should prioritize the Data Engineering options (PR0074, PR0191) over this general CS degree.",
+ "explanation": "Northgate Institute of Technology\nThis program was recommended because its focus on software engineering and QA testing aligns with your interest in developer roles while still providing strong technical skills. It boasts a high placement rate of 95% and a median starting salary of $21062, making it highly attractive for career growth. The main trade-off here is that the specialization shifts toward quality assurance (QA) rather than directly focusing on Business Intelligence or data analytics.\n\nCharnock School of Engineering\nThis MTech Data Engineering program is highly relevant to your goal of becoming a Business Intelligence Analyst, as its fields include business information systems and data science analytics. It has a very low annual tuition cost of $1550, making it budget-friendly for you. The primary trade-off is that while the tuition is low, the placement rate (68%) and median starting salary ($9196) are among the lowest on this list compared to other options.\n\nSarayu Technical University\nThis program was recommended because its curriculum directly supports your goal by covering business information systems and data science analytics. It offers a solid balance of metrics, featuring an 84% placement rate and a median starting salary of $15951 for an annual tuition of $3250. The main trade-off is that while it provides excellent BI alignment, the resulting salary and placement rates are moderate compared to some other highly technical options available.\n\nNorthgate Institute of Technology\nThis MTech Data Engineering program was recommended due to its strong focus on data science analytics and impressive career outcomes. It boasts a high 95% placement rate and a median starting salary of $19658, which is excellent for your BI goals. The main trade-off, however, is that the admission requires a Computer Science background, and you should confirm if your current academic standing meets this specific requirement.\n\nTejas Technical University\nThis program was recommended because its MTech in Computer Science provides deep software engineering knowledge, appealing to your interest in developer roles. It offers a high placement rate of 93% and a strong median starting salary of $19239. The main trade-off is that the annual tuition ($4800) is the highest on this list, and you should note that your current grade percentage (80%) is slightly below the program's minimum requirement of 81%.",
+ "wall_s": 0.0
+}

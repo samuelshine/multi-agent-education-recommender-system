@@ -1,0 +1,31 @@
+{
+ "student_id": "ST0022",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 79.8
+    },
+    "career_goal": "Portal Administrator",
+    "budget_max_usd_per_year": 2400,
+    "location_preference": null,
+    "mobility": "open_domestic",
+    "employability_priority": "high",
+    "other_constraints": [
+     "Interested in programming",
+     "Interested in Business process analyst"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0187",
+    "PR0164",
+    "PR0186",
+    "PR0039"
+   ],
+   "feedback": null
+  }
+ ]
+}

@@ -1,0 +1,73 @@
+{
+ "student_id": "ST0005",
+ "session": 2,
+ "mode": "full",
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 76.2% in an IT/computer-science degree. I'm interested in IOT and testing. I want to become a Software Systems Engineer. My family can afford at most about USD 10500 per year. I live in Mumbai. I'd strongly prefer to stay near home, though I might consider elsewhere in India. About the earlier suggestions: I liked PR0053, PR0186.",
+ "memory_used": true,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 76.2
+  },
+  "career_goal": "Software Systems Engineer",
+  "budget_max_usd_per_year": 10500,
+  "location_preference": "Mumbai",
+  "mobility": "prefers_region",
+  "employability_priority": null,
+  "other_constraints": [
+   "interested in IOT and testing"
+  ],
+  "uncertainty_notes": [
+   "Employability priority is unknown."
+  ]
+ },
+ "prefilter_ids": [
+  "PR0198",
+  "PR0053",
+  "PR0065",
+  "PR0019",
+  "PR0008",
+  "PR0142",
+  "PR0082",
+  "PR0052",
+  "PR0085",
+  "PR0144",
+  "PR0139",
+  "PR0182",
+  "PR0191",
+  "PR0119",
+  "PR0101",
+  "PR0186",
+  "PR0058",
+  "PR0039",
+  "PR0158",
+  "PR0072"
+ ],
+ "retrieved_ids": [
+  "PR0065",
+  "PR0082",
+  "PR0186",
+  "PR0144",
+  "PR0182",
+  "PR0072",
+  "PR0198",
+  "PR0053"
+ ],
+ "proposed_shortlist": [
+  "PR0065",
+  "PR0082",
+  "PR0182"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0198",
+  "PR0065",
+  "PR0182",
+  "PR0186",
+  "PR0072"
+ ],
+ "reflection_note": "The original shortlist was good but missed high-potential options. PR0082 was dropped due to poor employability metrics relative to its cost. I swapped in PR0198 (Bengaluru) as the top choice due to superior placement and salary potential, followed by PR0186 (Pune) for a strong technical alternative. The final list prioritizes high employability/salary while maintaining location diversity (Mumbai/Pune/Bengaluru) and adhering strictly to budget constraints.",
+ "explanation": "Northgate Institute of Technology\nThis program is highly recommended because it directly aligns with your interest in testing and software engineering, offering an MSc in Software Quality Engineering. While the placement rate is excellent at 95% and the median starting salary is $21062, you should note that the minimum required grade percentage is 80%, which is higher than your current 76.2%. The main trade-off here is balancing the high admission academic requirement against your current GPA.\n\nTejas Institute of Technology\nThis option was recommended because it perfectly matches your location preference in Mumbai and has a low annual tuition cost of $2450, keeping you well within your budget. It also meets your minimum grade requirement (75%) while focusing on Software Quality Engineering, which supports your testing interest. The primary trade-off is that the median starting salary ($12291) is among the lowest in this shortlist compared to other options.\n\nKeystone Technical University\nThis program is ideal for you as it offers a specialized focus on QA testing and has the lowest tuition fee at $1950, making it highly budget-friendly. It also meets your minimum grade requirement (75%) and boasts a strong placement rate of 91%. The main trade-off to consider is that its program scope is limited only to \"qa_testing,\" compared to options covering broader software engineering topics.\n\nHalcyon Institute of Technology\nThis MTech program was recommended because it builds upon your existing IT/CS background, which is required for admission, and covers networking alongside software engineering. The tuition ($2050) fits comfortably within your budget, and the median starting salary of $15192 is strong. However, the main trade-off is that its focus on \"networking_cloud\" shifts away from your stated interest in QA testing.\n\nNorthgate Institute of Applied Sciences\nThis program provides a solid balance for you by focusing specifically on QA testing while maintaining an affordable tuition fee of $2400. It meets your minimum grade requirement (70%) and offers a respectable median starting salary of $13106, supporting your career goal in software engineering. The main trade-off is that while it keeps the focus on testing, its placement rate (84%) is slightly lower than some other options listed.",
+ "wall_s": 278.4
+}

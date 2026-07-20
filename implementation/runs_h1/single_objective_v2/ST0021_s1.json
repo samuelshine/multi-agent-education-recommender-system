@@ -1,0 +1,73 @@
+{
+ "student_id": "ST0021",
+ "session": 1,
+ "mode": "single_objective",
+ "version": 2,
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 73.3% in an IT/computer-science degree. I'm interested in parallel computing and Business process analyst. I want to become a Technical Engineer. My family can afford at most about USD 1400 per year. I live in Kolkata. I'm open to anywhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 73.3
+  },
+  "career_goal": "Technical Engineer (interested in parallel computing and Business process analyst)",
+  "budget_max_usd_per_year": 1400,
+  "location_preference": null,
+  "mobility": "open_domestic",
+  "employability_priority": "high",
+  "other_constraints": [
+   "r programming certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0015",
+  "PR0020",
+  "PR0157",
+  "PR0074",
+  "PR0087",
+  "PR0119",
+  "PR0058",
+  "PR0187",
+  "PR0053",
+  "PR0109",
+  "PR0076",
+  "PR0012",
+  "PR0019",
+  "PR0114",
+  "PR0185",
+  "PR0130",
+  "PR0084",
+  "PR0120",
+  "PR0170",
+  "PR0073"
+ ],
+ "retrieved_ids": [
+  "PR0130",
+  "PR0120",
+  "PR0084",
+  "PR0157",
+  "PR0076",
+  "PR0130",
+  "PR0120",
+  "PR0015"
+ ],
+ "proposed_shortlist": [
+  "PR0157",
+  "PR0130",
+  "PR0076",
+  "PR0120"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0157",
+  "PR0130",
+  "PR0076",
+  "PR0120",
+  "PR0084"
+ ],
+ "reflection_note": "The initial shortlist was strong and contained four highly relevant options. I kept all of them as they address different facets of the student's goals (BIS, IT Management, Software/Tech, Data Analytics). Since there were no hard constraints violated, I swapped in PR0084 (MSc Human-Computer Interaction) from the full candidate set. This program offers a complementary skill set (design thinking, user experience) that is highly valuable for both technical engineers and business process analysts, thus rounding out the list to five strong, diverse options.",
+ "explanation": "Longford University\nThis program is recommended because its low annual tuition of $800 keeps it well within your maximum budget of $1400. The curriculum fields in IT Management and Business Information Systems align well with both your interest in business process analysis and technical engineering. While the placement rate is 72%, this option offers the lowest cost, making affordability the main trade-off for a slightly lower employability metric compared to other options.\n\nElmhurst School of Engineering\nThis program provides a strong balance between cost and career potential, with an annual tuition of $1000 and a solid placement rate of 77%. The focus on IT Management directly supports your goal as a Business Process Analyst while remaining affordable for your budget. The trade-off here is that the median starting salary ($11249) is slightly lower than Sarayu Institute's offering, but it maintains excellent employability metrics.\n\nSarayu Institute of Technology\nThis option offers the highest potential return on investment, boasting an 81% placement rate and a high median starting salary of $13142, which strongly addresses your priority for high employability. The curriculum covers both IT Management and Software Engineering, appealing to both your technical and business interests. Be aware that while you meet the minimum grade requirement (62%), this program requires 74%, representing a potential academic trade-off point.\n\nAshford Institute of Applied Sciences\nThis is an excellent choice if you want to focus heavily on data aspects relevant to parallel computing, as it offers MSc Big Data Analytics at only $800 per year. The placement rate of 78% demonstrates strong employability while keeping tuition costs minimal. The main trade-off here is that the median starting salary ($10021) is among the lowest in the shortlist, suggesting a more specialized career path focus.\n\nHalcyon Technical University\nThis program provides a good blend of technical relevance and affordability, with an annual tuition of $900 and a 77% placement rate. The curriculum fields are relevant to understanding user needs (HCI), which is valuable for both engineering and business analysis roles. The primary trade-off is that the focus on design/user experience might be less directly aligned with core parallel computing or deep data analytics compared to other options.",
+ "wall_s": 70.5
+}

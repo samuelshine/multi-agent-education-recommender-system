@@ -1,0 +1,76 @@
+{
+ "student_id": "ST0008",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 77.6% in an IT/computer-science degree. I'm interested in programming and Business process analyst. I want to become a UX Designer. My family can afford at most about USD 2100 per year.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 77.6
+  },
+  "career_goal": "UX Designer",
+  "budget_max_usd_per_year": 2100,
+  "location_preference": null,
+  "mobility": "open_domestic",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in programming and Business process analyst"
+  ],
+  "uncertainty_notes": [
+   "Location preference not stated.",
+   "Employability priority not stated."
+  ]
+ },
+ "prefilter_ids": [
+  "PR0101",
+  "PR0039",
+  "PR0174",
+  "PR0158",
+  "PR0054",
+  "PR0084",
+  "PR0015",
+  "PR0020",
+  "PR0141",
+  "PR0013",
+  "PR0033",
+  "PR0014",
+  "PR0157",
+  "PR0181",
+  "PR0046",
+  "PR0047",
+  "PR0166",
+  "PR0074",
+  "PR0172",
+  "PR0059"
+ ],
+ "retrieved_ids": [
+  "PR0039",
+  "PR0174",
+  "PR0158",
+  "PR0166",
+  "PR0181",
+  "PR0046",
+  "PR0157",
+  "PR0013"
+ ],
+ "proposed_shortlist": [
+  "PR0158",
+  "PR0039",
+  "PR0174",
+  "PR0046",
+  "PR0157"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0174",
+  "PR0158",
+  "PR0013",
+  "PR0166",
+  "PR0181"
+ ],
+ "reflection_note": "The original shortlist contained one program (PR0039) that violated the hard budget constraint ($2250 > $2100). I dropped it. The remaining programs were reviewed for optimal fit. PR0174 remains the top choice due to its strong HCI focus, excellent financial feasibility, and desirable Delhi location. PR0158 is a close second. I swapped in three new candidates (PR0013, PR0166, PR0181) because they offer highly relevant HCI/Design programs with significantly better cost-to-quality ratios or superior location benefits (Bengaluru/Pune) compared to the dropped options, thus creating a more robust and actionable list for the student.",
+ "explanation": "Halcyon Institute of Applied Sciences\nThis program is recommended because it offers a strong balance between cost and career outcomes for your goal as a UX Designer. The annual tuition of $1900 falls well within your budget, and the curriculum directly addresses Human-Computer Interaction (HCI). Furthermore, it boasts an 84% placement rate and a median starting salary of $14,141, suggesting strong employability. The main trade-off here is that while the cost and earning potential are high, no post-study work visa options were listed.\n\nAshford School of Engineering\nThis program is highly recommended because its curriculum aligns perfectly with both your UX Designer goal (Interaction Design) and your interest in programming (Software Engineering). At $1900 annually, it fits your budget while maintaining a strong 84% placement rate. The combination of HCI and software engineering fields provides excellent breadth for someone interested in technical roles within design. The trade-off is that the median starting salary ($13,259) is slightly lower than some other options, but the dual focus compensates for this.\n\nMeridian Institute of Technology\nThis option is ideal if minimizing costs is your highest priority, as it offers the lowest tuition at $900 while still providing an MSc in Human-Computer Interaction (HCI). Your 77.6% grade meets the minimum requirement, and the program does not require a CS background. The main trade-off to consider is that this option has the lowest median starting salary ($9,186) and placement rate (77%) among all shortlisted programs.\n\nMeridian Technical University\nThis university provides a solid mid-range choice for your UX Designer career goal with an annual tuition of $1200. The program focuses on Interaction Design (HCI), which is directly relevant to your field interest, and it remains well within your budget constraints. While the placement rate (71%) and median salary ($10,095) are moderate compared to other options, this provides a good balance of cost and industry relevance in Coimbatore.\n\nKeystone Institute of Technology\nIf adhering strictly to the lowest possible tuition is your primary concern, this program is recommended due to its low annual fee of $850 for an MSc in HCI. This option ensures maximum budget adherence while still providing core skills needed for a UX Designer role. The main trade-off here is that despite being the most affordable choice, it offers one of the lower median starting salaries ($9,715) among the shortlist.",
+ "wall_s": 203.6
+}

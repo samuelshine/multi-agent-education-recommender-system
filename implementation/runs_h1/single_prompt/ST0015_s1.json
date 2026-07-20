@@ -1,0 +1,55 @@
+{
+ "student_id": "ST0015",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 80% in an IT/computer-science degree. I'm interested in Management and testing. I want to become a Database Developer. My family can afford at most about USD 5600 per year. I live in Chennai. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 80
+  },
+  "career_goal": "Database Developer",
+  "budget_max_usd_per_year": 5600,
+  "location_preference": "Chennai",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "r programming certification background",
+   "interested in Management and testing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0198",
+  "PR0097",
+  "PR0139",
+  "PR0164",
+  "PR0182",
+  "PR0060",
+  "PR0191",
+  "PR0119",
+  "PR0143",
+  "PR0176",
+  "PR0058",
+  "PR0092",
+  "PR0053",
+  "PR0189",
+  "PR0007",
+  "PR0072",
+  "PR0099",
+  "PR0026",
+  "PR0076",
+  "PR0065"
+ ],
+ "final_shortlist": [
+  "PR0191",
+  "PR0182",
+  "PR0072",
+  "PR0164",
+  "PR0176"
+ ],
+ "explanation": "This program is located in Chennai, meeting your strong preference to stay near home. It focuses on Data Engineering and Business Information Systems, aligning well with your interest in Database Development while keeping the tuition cost (USD 3250) within budget.\n\nThis MSc Software Quality Engineering program is located in Pune, which is a reasonable alternative to Chennai. It focuses on QA Testing and has a low tuition cost (USD 1950), making it budget-friendly while offering strong placement prospects.\n\nLocated in Pune, this MSc Software Quality Engineering program is a good option for testing interests and has an affordable tuition fee (USD 2400). Its placement rate of 84% suggests decent job prospects.\n\nIf you are interested in the Management side, this MBA Technology Management program is located in Delhi and has a very low tuition cost (USD 2050). It provides management skills while keeping job prospects in mind.\n\nThis MBA Technology Management program is located in Hyderabad and has a very low tuition cost (USD 1250). It satisfies the management interest while being highly affordable and offering good job placement potential.",
+ "wall_s": 56.1
+}

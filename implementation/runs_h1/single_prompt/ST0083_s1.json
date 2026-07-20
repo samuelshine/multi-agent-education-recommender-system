@@ -1,0 +1,54 @@
+{
+ "student_id": "ST0083",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a full stack certification background. My overall academic average is 71% in an IT/computer-science degree. I'm interested in data engineering and Business process analyst. I want to become a Design & UX. My family can afford at most about USD 5000 per year. I live in Coimbatore. I'd strongly prefer to stay near home, though I might consider elsewhere in India.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 71
+  },
+  "career_goal": "Design & UX",
+  "budget_max_usd_per_year": 5000,
+  "location_preference": null,
+  "mobility": "prefers_region",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in data engineering and Business process analyst"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0191",
+  "PR0058",
+  "PR0039",
+  "PR0158",
+  "PR0026",
+  "PR0090",
+  "PR0145",
+  "PR0033",
+  "PR0046",
+  "PR0107",
+  "PR0074",
+  "PR0063",
+  "PR0173",
+  "PR0071",
+  "PR0087",
+  "PR0101",
+  "PR0143",
+  "PR0186",
+  "PR0149",
+  "PR0174"
+ ],
+ "final_shortlist": [
+  "PR0039",
+  "PR0158",
+  "PR0149",
+  "PR0101",
+  "PR0033"
+ ],
+ "explanation": "This program is located in Coimbatore, meeting your strong preference to stay near home. It focuses on Human-Computer Interaction (design_hci), directly aligning with your goal of becoming a Design & UX professional, and has an acceptable minimum grade requirement.\n\nThis MDes program focuses on Interaction Design (design_hci) and is located in Pune, which is a reasonable compromise if you are willing to consider other Indian cities. The tuition cost is also well within your family's budget.\n\nThis program specializes in Human-Computer Interaction (design_hci) and while located in Mumbai, it directly addresses your career interest. The tuition cost is manageable, though you should confirm if the location change is acceptable.\n\nThis MSc program focuses on Business Information Systems (business_information_systems), which aligns with your interest in Business Process Analyst. It is located right in Coimbatore and has a minimum grade requirement that matches your current academic standing.\n\nThis MBA program focuses on Business Analytics (business_information_systems), making it highly relevant to both Data Engineering and Business Process Analyst interests. It is also located in Coimbatore, satisfying your preference for staying near home.",
+ "wall_s": 53.7
+}

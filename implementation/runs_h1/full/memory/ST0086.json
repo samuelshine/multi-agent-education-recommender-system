@@ -1,0 +1,30 @@
+{
+ "student_id": "ST0086",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 75.6
+    },
+    "career_goal": "Technical Services/Help Desk/Tech Support",
+    "budget_max_usd_per_year": 13300,
+    "location_preference": "Chennai",
+    "mobility": "open_international",
+    "employability_priority": "high",
+    "other_constraints": [
+     "r programming certification"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0098",
+    "PR0187",
+    "PR0002",
+    "PR0121"
+   ],
+   "feedback": null
+  }
+ ]
+}

@@ -1,0 +1,71 @@
+{
+ "student_id": "ST0004",
+ "session": 3,
+ "mode": "full",
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 73.9% in an IT/computer-science degree. I'm interested in hacking and testing. I want to become a Network Security Administrator. My family can afford at most about USD 6000 per year. I live in Pune. I cannot leave my city. Getting a good job after graduation matters more to me than anything else. About the earlier suggestions: I liked PR0045, PR0023 but please drop PR0190.",
+ "memory_used": true,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 73.9
+  },
+  "career_goal": "Network Security Administrator",
+  "budget_max_usd_per_year": 6000,
+  "location_preference": "Pune",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "information security certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0172",
+  "PR0182",
+  "PR0186",
+  "PR0092",
+  "PR0187",
+  "PR0007",
+  "PR0158",
+  "PR0072",
+  "PR0019",
+  "PR0084",
+  "PR0078",
+  "PR0181",
+  "PR0046",
+  "PR0180",
+  "PR0045",
+  "PR0023",
+  "PR0025",
+  "PR0156",
+  "PR0190",
+  "PR0080"
+ ],
+ "retrieved_ids": [
+  "PR0045",
+  "PR0186",
+  "PR0187",
+  "PR0023",
+  "PR0172",
+  "PR0078",
+  "PR0180",
+  "PR0019"
+ ],
+ "proposed_shortlist": [
+  "PR0045",
+  "PR0186",
+  "PR0187",
+  "PR0023"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0045",
+  "PR0186",
+  "PR0180",
+  "PR0023"
+ ],
+ "reflection_note": "The original shortlist was strong but included PR0187, which is too general (IT Support) for a student aiming for specialized Network Security. I dropped it and swapped in PR0180. This new list prioritizes direct cybersecurity specialization (PR0045, PR0023) and core networking skills (PR0186, PR0180), ensuring all options are highly relevant to the 'Network Security Administrator' goal while strictly adhering to location (Pune) and budget constraints.",
+ "explanation": "Braxton Technical University\nThis program is recommended because its focus on \"cybersecurity\" aligns perfectly with your goal of becoming a Network Security Administrator. It is highly budget-friendly at $1450 annual tuition and accepts students regardless of whether they have a CS background, which is flexible for you. While the placement rate (71%) and median starting salary ($10236) are moderate, this option provides direct security training while keeping costs low. The main trade-off here is accepting lower potential career outcomes in exchange for high relevance to your desired field.\n\nHalcyon Institute of Technology\nThis program offers the strongest professional outcome, boasting an 83% placement rate and a median starting salary of $15192, which maximizes your employability priority. It focuses on \"networking_cloud,\" directly supporting your career goal in network security administration. You meet the admission requirement (min grade 70%) and it remains within your budget at $2050 annual tuition. The trade-off is that this option has the highest tuition cost among the shortlisted programs, though it offers the best return on investment.\n\nBraxton Institute of Technology\nThis program provides a strong foundation in \"networking_cloud\" while being extremely affordable at only $1250 per year, making it excellent for your budget constraint. Since you have an IT/CS background and a 73.9% grade (above the 61% minimum), admission is straightforward. While its placement rate (71%) and salary ($10359) are solid, they are not the highest available options. The main trade-off here is choosing lower potential earnings for maximum cost savings while still gaining relevant networking skills.\n\nSilverline Technical University\nThis option is ideal if budget is your absolute top priority, featuring the lowest tuition at $650 per year and requiring no CS background (min grade 57%). Its \"cybersecurity\" focus directly matches your career goal, making it highly relevant to your existing information security knowledge. However, you must be aware of the trade-off: while admission is easy and costs are minimal, the median starting salary ($8376) is significantly lower than other options on this list.",
+ "wall_s": 211.8
+}

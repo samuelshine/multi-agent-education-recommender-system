@@ -1,0 +1,72 @@
+{
+ "student_id": "ST0093",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a machine learning certification background. My overall academic average is 81.1% in an IT/computer-science degree. I'm interested in parallel computing and testing. I want to become a Software Systems Engineer. My family can afford at most about USD 13400 per year. I live in Chennai. I'm open to anywhere in India.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 81.1
+  },
+  "career_goal": "Software Systems Engineer",
+  "budget_max_usd_per_year": 13400,
+  "location_preference": null,
+  "mobility": "open_domestic",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in parallel computing and testing."
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0198",
+  "PR0053",
+  "PR0065",
+  "PR0019",
+  "PR0008",
+  "PR0142",
+  "PR0082",
+  "PR0052",
+  "PR0085",
+  "PR0144",
+  "PR0139",
+  "PR0182",
+  "PR0191",
+  "PR0119",
+  "PR0101",
+  "PR0186",
+  "PR0058",
+  "PR0039",
+  "PR0158",
+  "PR0072"
+ ],
+ "retrieved_ids": [
+  "PR0144",
+  "PR0139",
+  "PR0186",
+  "PR0198",
+  "PR0053",
+  "PR0065",
+  "PR0182",
+  "PR0119"
+ ],
+ "proposed_shortlist": [
+  "PR0198",
+  "PR0144",
+  "PR0139",
+  "PR0065"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0198",
+  "PR0144",
+  "PR0053",
+  "PR0182",
+  "PR0119"
+ ],
+ "reflection_note": "The original shortlist heavily favored PR0198, which is the clear top choice. I dropped PR0144, PR0139, and PR0065 because they are either inferior to PR0198 or do not offer enough unique value compared to other candidates. The final list prioritizes PR0198 (Bengaluru/High Placement) while filling out the remaining slots with strong, affordable alternatives that maintain a good balance of SE focus and affordability, ensuring the student has diverse but high-quality options.",
+ "explanation": "Northgate Institute of Technology\nThis program is recommended because it directly aligns with your interest in testing and software engineering while keeping tuition well within your $13,400 budget at $3500. Your 81.1% grade exceeds the minimum requirement of 80%, making admission straightforward. It offers a high placement rate of 95% and a strong median starting salary of $21062. The main trade-off here is that while it provides excellent career outcomes, there is no post-study work visa benefit listed.\n\nTejas Technical University\nThis MTech program is an excellent fit for your Software Systems Engineer goal, as the curriculum focuses on software engineering and accepts students with your 81.1% grade (minimum required: 81%). The annual tuition of $4800 remains comfortably under your budget limit. It offers a high placement rate of 93% and provides a solid median starting salary of $19239. Since the program meets both your academic standing and career goals without major trade-offs, it is highly recommended.\n\nCavendish University\nThis option was selected due to its extremely low annual tuition of only $1200, which maximizes savings within your budget. The curriculum covers both QA testing and software engineering, matching your interests while accepting students with grades above 70%. While the placement rate is 86%, the main trade-off you should consider is that it offers the lowest median starting salary ($12855) among the shortlisted options.\n\nKeystone Technical University\nThis program focuses specifically on QA testing, which aligns with your stated interest in testing methodologies. The tuition of $1950 is affordable and easily meets your budget constraints, and your 81.1% grade exceeds the minimum requirement of 75%. While it maintains a strong placement rate of 91%, the primary trade-off is that its focus is limited to QA testing fields, potentially narrowing your scope compared to broader software engineering programs.\n\nMeridian Institute of Applied Sciences\nThis institute offers very low tuition at $1200 and covers QA testing, matching one of your key interests. Your academic standing (81.1%) exceeds the minimum requirement of 71%, making it an accessible option. While its placement rate is 86% and salary ($14917) is moderate, the main trade-off compared to Northgate or Tejas is that both the median starting salary and the overall program focus are less robust for a Software Systems Engineer goal.",
+ "wall_s": 196.3
+}

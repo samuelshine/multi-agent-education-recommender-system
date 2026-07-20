@@ -1,0 +1,68 @@
+{
+ "student_id": "ST0052",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 85% in an IT/computer-science degree. I'm interested in cloud computing and cloud computing. I want to become a Web Developer. My family can afford at most about USD 13100 per year. I live in Delhi. I'm open to going abroad. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 85
+  },
+  "career_goal": "Web Developer",
+  "budget_max_usd_per_year": 13100,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "r programming certification background",
+   "interested in cloud computing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0005",
+  "PR0169",
+  "PR0001",
+  "PR0194",
+  "PR0081",
+  "PR0042",
+  "PR0004",
+  "PR0186",
+  "PR0036",
+  "PR0197",
+  "PR0043",
+  "PR0147",
+  "PR0096",
+  "PR0199",
+  "PR0118",
+  "PR0121",
+  "PR0148",
+  "PR0016",
+  "PR0102",
+  "PR0180"
+ ],
+ "retrieved_ids": [
+  "PR0001",
+  "PR0194",
+  "PR0042",
+  "PR0004",
+  "PR0102",
+  "PR0180"
+ ],
+ "proposed_shortlist": [
+  "PR0194",
+  "PR0042",
+  "PR0001"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0194",
+  "PR0042",
+  "PR0001"
+ ],
+ "reflection_note": "The current shortlist is strong and meets all hard constraints (Budget: PR0194=$1950, PR0042=$10800, PR0001=$11850; Location/Background: All are international options requiring CS background). No immediate swaps are necessary as the current top 3 provide excellent diversity in cost and location (Germany, Canada, Netherlands) while maintaining high relevance to Cloud/SE. I recommend keeping this list.",
+ "explanation": "Aravalli School of Engineering\nThis program is highly recommended because it directly aligns with your stated interest in cloud computing and fits well within your maximum budget of $13,100 USD per year, with an annual tuition cost of only $1950. Since you have a strong IT/computer-science background (85%), the required CS background is easily met, and the program offers 18 months of post-study work visa time. The main trade-off here is that while the salary potential ($30,651) is high, the placement rate (67%) is lower than some other options on your shortlist.\n\nAravalli Institute of Applied Sciences\nThis option is excellent for maximizing long-term employability due to its generous 36-month post-study work visa period, which aligns with your priority for career stability. The tuition ($10,800) remains well under your budget, and the MSc Software Engineering focus supports your goal as a Web Developer. The trade-off is that while it offers the longest stay in Canada, its median starting salary of $29,138 is slightly lower than the German option.\n\nMeridian University\nThis program is ideal because it directly addresses your interest in cloud computing and boasts the highest placement rate (73%) among all options. The annual tuition ($11,850) fits comfortably within your budget, and the lack of a strict CS background requirement offers flexibility while still providing relevant skills for web development. However, the main trade-off is that its post-study work visa period is only 12 months, which is shorter than the options in Canada or Germany.",
+ "wall_s": 169.8
+}

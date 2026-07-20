@@ -1,0 +1,70 @@
+{
+ "student_id": "ST0017",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a python certification background. My overall academic average is 74.4% in an IT/computer-science degree. I'm interested in hacking and Business process analyst. I want to become a CRM Technical Developer. My family can afford at most about USD 2400 per year. I live in Kolkata. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 74.4
+  },
+  "career_goal": "CRM Technical Developer",
+  "budget_max_usd_per_year": 2400,
+  "location_preference": "Kolkata",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in hacking and Business process analyst roles"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0101",
+  "PR0054",
+  "PR0015",
+  "PR0020",
+  "PR0033",
+  "PR0157",
+  "PR0047",
+  "PR0074",
+  "PR0172",
+  "PR0087",
+  "PR0164",
+  "PR0182",
+  "PR0119",
+  "PR0143",
+  "PR0186",
+  "PR0176",
+  "PR0058",
+  "PR0187",
+  "PR0039",
+  "PR0174"
+ ],
+ "retrieved_ids": [
+  "PR0157",
+  "PR0033",
+  "PR0176",
+  "PR0187",
+  "PR0182",
+  "PR0164",
+  "PR0174",
+  "PR0119"
+ ],
+ "proposed_shortlist": [
+  "PR0157",
+  "PR0174",
+  "PR0119"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0164",
+  "PR0174",
+  "PR0119",
+  "PR0033"
+ ],
+ "reflection_note": "The original shortlist was strong but lacked diversity in location options. I dropped PR0157 due to its poor location fit relative to the available alternatives. I swapped in PR0164 (Delhi, IT Management) as it provides a better balance of high employability and relevant field compared to PR0174's HCI focus, making it the new top choice. I also added PR0033 (Coimbatore, Business Analytics) as a strong alternative that directly addresses the 'Business process analyst' interest while maintaining excellent financial feasibility.",
+ "explanation": "Northgate School of Engineering\nThis program was recommended because it offers a high placement rate of 90% and a strong median starting salary of $17,361, which aligns with your priority for employability. The MBA Technology Management focus is relevant to both technical development and business process analysis interests. However, the main trade-off is that you currently meet the minimum grade requirement (74.4%) but the program requires 79%, and its location in Delhi does not match your preference for Kolkata.\n\nHalcyon Institute of Applied Sciences\nThis MSc Human-Computer Interaction program was suggested because it directly addresses your interest in design, which is crucial for understanding user needs in CRM development. The tuition ($1,900) fits within your budget, and you meet the minimum grade requirement (74.4% vs 71%). The primary trade-off here is that while it aligns well with a technical developer role's user focus, its location in Delhi deviates from your Kolkata preference, and its median starting salary ($14,141) is lower than some other options.\n\nMeridian Institute of Applied Sciences\nThis MSc Software Quality Engineering program was recommended because it provides highly relevant, hands-on technical skills (QA Testing) that directly support a CRM Technical Developer career path and align with your interest in \"hacking.\" Furthermore, the low tuition ($1,200) is well within budget, and you meet the minimum grade requirement. The main trade-off is that while it offers excellent technical depth, its focus is purely on quality assurance rather than the broader business process analysis role you are also interested in, and it is located in Hyderabad instead of Kolkata.\n\nQuilon School of Engineering\nThis MBA Business Analytics program was recommended because its curriculum (Business Information Systems and Data Science) provides an ideal foundation for pursuing a Business Process Analyst role, bridging your IT background with business needs. The tuition ($2,100) remains within budget, and you meet the minimum grade requirement. The main trade-off is that while it best suits your interest in business process analysis, it has the lowest placement rate (73%) and median starting salary ($10,526) among the shortlisted options.",
+ "wall_s": 69.0
+}

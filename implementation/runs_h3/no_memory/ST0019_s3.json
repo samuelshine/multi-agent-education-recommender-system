@@ -1,0 +1,71 @@
+{
+ "student_id": "ST0019",
+ "session": 3,
+ "mode": "no_memory",
+ "version": 1,
+ "message": "Hi, I'm a student with a machine learning certification background. My overall academic average is 72.8% in an IT/computer-science degree. I'm interested in Computer Architecture and developer. I want to become a Database Manager. My family can afford at most about USD 10700 per year. I live in Pune. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else. About the earlier suggestions: I liked PR0007, PR0134.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 72.8
+  },
+  "career_goal": "Database Manager",
+  "budget_max_usd_per_year": 10700,
+  "location_preference": "Pune (strong preference)",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in Computer Architecture and developer roles"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0191",
+  "PR0143",
+  "PR0058",
+  "PR0007",
+  "PR0099",
+  "PR0026",
+  "PR0090",
+  "PR0120",
+  "PR0170",
+  "PR0145",
+  "PR0033",
+  "PR0107",
+  "PR0111",
+  "PR0134",
+  "PR0074",
+  "PR0129",
+  "PR0133",
+  "PR0063",
+  "PR0173",
+  "PR0071"
+ ],
+ "retrieved_ids": [
+  "PR0007",
+  "PR0143",
+  "PR0145",
+  "PR0107",
+  "PR0074",
+  "PR0173",
+  "PR0120",
+  "PR0134"
+ ],
+ "proposed_shortlist": [
+  "PR0007",
+  "PR0143",
+  "PR0145",
+  "PR0134"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0007",
+  "PR0145",
+  "PR0120"
+ ],
+ "reflection_note": "The initial shortlist was strong but contained one critical violation (PR0143 salary exceeding budget). PR0134 was redundant compared to PR0145. I dropped PR0143 due to the hard financial constraint violation. I kept PR0007 as the top choice for its perfect alignment with location and affordability. For the remaining slots, I swapped in PR0120 (Delhi) because it offers a better balance of cost and employability than the original PR0134 (Coimbatore). The final list prioritizes Pune first, then other strong, affordable options.",
+ "explanation": "Ashford Institute of Technology\nThis program was highly recommended because it meets your strong preference for Pune and aligns with your high employability priority. The MSc Big Data Analytics curriculum supports your goal as a Database Manager, and the institution has a robust 86% placement rate with a median starting salary of $12,541. Admission is suitable given your IT/CS background (min grade 70%) and the annual tuition of only $2350 fits well within your budget. The main trade-off here is that while the program offers excellent job prospects, it does not provide a post-study work visa.\n\nSilverline Technical University\nThis MTech Computer Science program was selected because its focus on software engineering complements your interest in developer roles and utilizes your existing CS background. It remains well within your budget with an annual tuition of $2300, and the placement rate is 75% with a median starting salary of $10,057. While it satisfies your regional preference for India, the main trade-off is that the location (Coimbatore) deviates from your strong Pune preference, and its placement rate is lower than other options.\n\nAshford Institute of Applied Sciences\nThis program was recommended primarily because of its extremely low annual tuition ($800), which maximizes adherence to your budget constraints. Although located in Delhi rather than Pune, it offers a flexible admission process as it does not require a CS background and has a solid 78% placement rate. The main trade-off is that while the cost is minimal, the location deviates from your preference, and its median starting salary ($10,021) is lower compared to the Pune option.",
+ "wall_s": 211.0
+}

@@ -1,0 +1,54 @@
+{
+ "student_id": "ST0084",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a distro making certification background. My overall academic average is 78.9% in an IT/computer-science degree. I'm interested in data engineering and developer. I want to become a Network Security Engineer. My family can afford at most about USD 1300 per year. I live in Pune. I'd strongly prefer to stay near home, though I might consider elsewhere in India.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 78.9
+  },
+  "career_goal": "Network Security Engineer",
+  "budget_max_usd_per_year": 1300,
+  "location_preference": "Pune",
+  "mobility": "prefers_region",
+  "employability_priority": null,
+  "other_constraints": [
+   "distro making certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0119",
+  "PR0058",
+  "PR0187",
+  "PR0053",
+  "PR0109",
+  "PR0076",
+  "PR0012",
+  "PR0019",
+  "PR0114",
+  "PR0185",
+  "PR0130",
+  "PR0084",
+  "PR0120",
+  "PR0170",
+  "PR0015",
+  "PR0020",
+  "PR0073",
+  "PR0171",
+  "PR0013",
+  "PR0118"
+ ],
+ "final_shortlist": [
+  "PR0185",
+  "PR0073",
+  "PR0118",
+  "PR0058",
+  "PR0170"
+ ],
+ "explanation": "This program directly aligns with your goal of becoming a Network Security Engineer by focusing on 'cybersecurity' and has a low tuition fee ($1150) that fits within your budget. It is also located in Kolkata, which is a manageable distance from Pune.\n\nThis MTech Cyber Security program is highly relevant to your career goal and has an affordable tuition fee ($1250). While located in Bengaluru, it offers specialized knowledge that will help you transition into a security engineering role.\n\nThis MTech Cyber Security program is ideal because it covers both 'cybersecurity' and 'networking_cloud', which are key areas for a Network Security Engineer. Crucially, it is located in Mumbai, making it geographically close to Pune.\n\nThis MCA program provides strong foundational knowledge in 'software_engineering' and 'data_science_analytics', matching your interest in data engineering and developer roles. The tuition ($1350) is within budget, and it requires a CS background which you possess.\n\nThis MSc Big Data Analytics program addresses your interest in data engineering. The tuition ($1300) is within budget, and while located in Coimbatore, it provides specialized skills that are highly marketable for modern developer roles.",
+ "wall_s": 46.2
+}

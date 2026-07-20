@@ -1,0 +1,72 @@
+{
+ "student_id": "ST0087",
+ "session": 1,
+ "mode": "single_objective",
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 74.4% in an IT/computer-science degree. I'm interested in IOT and cloud computing. I want to become a Quality Assurance Associate. My family can afford at most about USD 5600 per year. I live in Kolkata. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 74.4
+  },
+  "career_goal": "Quality Assurance Associate",
+  "budget_max_usd_per_year": 5600,
+  "location_preference": "Kolkata",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "r programming certification background",
+   "interested in IOT and cloud computing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0186",
+  "PR0197",
+  "PR0043",
+  "PR0147",
+  "PR0096",
+  "PR0199",
+  "PR0118",
+  "PR0121",
+  "PR0148",
+  "PR0016",
+  "PR0102",
+  "PR0180",
+  "PR0162",
+  "PR0112",
+  "PR0159",
+  "PR0032",
+  "PR0184",
+  "PR0165",
+  "PR0164",
+  "PR0029"
+ ],
+ "retrieved_ids": [
+  "PR0032",
+  "PR0186",
+  "PR0197",
+  "PR0147",
+  "PR0165",
+  "PR0180",
+  "PR0159",
+  "PR0121"
+ ],
+ "proposed_shortlist": [
+  "PR0032",
+  "PR0186",
+  "PR0197",
+  "PR0165"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0032",
+  "PR0197",
+  "PR0165",
+  "PR0180"
+ ],
+ "reflection_note": "The revised shortlist prioritizes feasibility and core interests (Cloud/Networking) while maintaining the preferred location (Kolkata). PR0032 remains the top choice. I dropped PR0186 due to its high grade barrier relative to the student's score, but swapped in PR0180 as a more feasible alternative in Pune. The final list is ranked by overall fit: 1. Ideal (Kolkata), 2. Strong Focus/Moderate Location Deviation (Chennai), 3. High Feasibility Backup (Chennai), 4. Good Compromise (Pune).",
+ "explanation": "**Longford School of Engineering**\nThis program was recommended because it meets your primary location preference in Kolkata while keeping tuition low at $1200, which fits well within your budget. The curriculum covers networking and cloud computing, aligning with your interests. The main trade-off here is that while the cost is excellent, the placement rate of 61% and median starting salary of $7871 are lower compared to some other options on this list.\n\n**Ashford Institute of Technology**\nThis option was recommended for its high employability metrics, offering an impressive 85% placement rate and a strong median starting salary of $13362. Although the tuition is higher at $3350 (compared to your budget maximum), the significant boost in career prospects makes it valuable. The trade-off you must consider is moving to Chennai and paying a substantially higher annual tuition fee than other listed options.\n\n**Westbrook Institute of Technology**\nThis program is highly recommended if adhering strictly to the lowest possible cost is your top priority, as its annual tuition is only $550. It also covers cloud computing, aligning with your interests in IoT. However, the main trade-off is that this low cost comes at the expense of employability; it has the lowest placement rate (59%) and median starting salary ($7845) among all listed options.\n\n**Braxton Institute of Technology**\nThis program offers a strong balance between affordability and career potential, with an annual tuition of $1250 and a solid 71% placement rate. The median starting salary of $10359 is notably higher than the Kolkata option while remaining well under your budget. The primary trade-off is that it requires relocating to Pune, which deviates from your preferred location in Kolkata.",
+ "wall_s": 162.0
+}

@@ -1,0 +1,58 @@
+{
+ "student_id": "ST0010",
+ "session": 3,
+ "mode": "full",
+ "message": "Hi, I'm a student with a full stack certification background. My overall academic average is 79.2% in an IT/computer-science degree. I'm interested in programming and cloud computing. I want to become a Database Manager. Also, my situation changed: family circumstances changed, so my budget is now lower. My family can afford at most about USD 1600 per year. I live in Bengaluru. I cannot leave my city. Getting a good job after graduation matters more to me than anything else. About the earlier suggestions: I liked PR0173, PR0087.",
+ "memory_used": true,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 79.2
+  },
+  "career_goal": "Database Manager",
+  "budget_max_usd_per_year": 1600,
+  "location_preference": "Bengaluru",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "full stack certification background"
+  ],
+  "uncertainty_notes": [
+   "No explicit preference stated for the type of program (e.g., university vs bootcamp)."
+  ]
+ },
+ "prefilter_ids": [
+  "PR0173",
+  "PR0087",
+  "PR0015",
+  "PR0073",
+  "PR0002",
+  "PR0013",
+  "PR0085"
+ ],
+ "retrieved_ids": [
+  "PR0015",
+  "PR0087",
+  "PR0173",
+  "PR0013",
+  "PR0085",
+  "PR0073",
+  "PR0002"
+ ],
+ "proposed_shortlist": [
+  "PR0087",
+  "PR0015",
+  "PR0013"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0087",
+  "PR0015",
+  "PR0173",
+  "PR0073"
+ ],
+ "reflection_note": "The original shortlist was good but lacked depth. PR0013 (HCI) is too tangential to the Database Manager goal. I replaced it with two stronger, more relevant options: PR0173 (MTech CS/Data Science) and PR0073 (Cybersecurity). Both offer excellent technical grounding while remaining within budget and location constraints. The final list prioritizes Data Science/Analytics and core IT systems knowledge.",
+ "explanation": "Aravalli Technical University\nThis program is recommended because its focus on Data Science and Analytics aligns well with the skills needed for a Database Manager role. The annual tuition of $1200 USD fits within your budget, and you meet the minimum grade requirement of 52%. However, the main trade-off here is that while the tuition is low, the placement rate at 58% is the lowest among the options, which conflicts with your high employability priority.\n\nKeystone Institute of Technology\nThis program is an excellent fit because its focus on Business Information Systems directly supports a career goal like Database Manager. It maintains a strong placement rate of 78%, and the median starting salary of $9707 USD is the highest listed, maximizing your employability priority. The tuition of $1200 USD fits your budget, and you do not need a prior CS background, offering flexibility while providing high career value.\n\nLongford Technical University\nThis option is recommended primarily because it offers the lowest annual tuition at only $500 USD, making it highly budget-friendly. While its placement rate of 62% is moderate compared to other options, the program's blend of Data Science and Software Engineering provides strong technical skills relevant to database management. The main trade-off here is that you are sacrificing a higher placement rate for significant cost savings.\n\nElmhurst Technical University\nThis university was recommended due to its exceptional 80% placement rate, which strongly addresses your high employability priority. Furthermore, the median starting salary of $8637 USD is competitive and exceeds the minimum grade requirement of 65%. The trade-off you must consider is that while this program offers the best job prospects, its core focus on Cybersecurity is slightly less direct than the Information Systems track for a Database Manager role.",
+ "wall_s": 183.4
+}

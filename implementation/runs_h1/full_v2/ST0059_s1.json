@@ -1,0 +1,73 @@
+{
+ "student_id": "ST0059",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a app development certification background. My overall academic average is 79.7% in an IT/computer-science degree. I'm interested in data engineering and testing. I want to become a Data Architect. My family can afford at most about USD 1300 per year. I live in Chennai. I'm open to anywhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 79.7
+  },
+  "career_goal": "Data Architect",
+  "budget_max_usd_per_year": 1300,
+  "location_preference": "Chennai",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in data engineering and testing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0058",
+  "PR0053",
+  "PR0019",
+  "PR0008",
+  "PR0063",
+  "PR0142",
+  "PR0082",
+  "PR0052",
+  "PR0085",
+  "PR0173",
+  "PR0071",
+  "PR0119",
+  "PR0109",
+  "PR0076",
+  "PR0012",
+  "PR0114",
+  "PR0185",
+  "PR0120",
+  "PR0170",
+  "PR0171"
+ ],
+ "retrieved_ids": [
+  "PR0171",
+  "PR0109",
+  "PR0071",
+  "PR0170",
+  "PR0058",
+  "PR0120",
+  "PR0063"
+ ],
+ "proposed_shortlist": [
+  "PR0171",
+  "PR0109",
+  "PR0071",
+  "PR0170",
+  "PR0058"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0171",
+  "PR0071",
+  "PR0170",
+  "PR0058",
+  "PR0120"
+ ],
+ "reflection_note": "The initial shortlist was reviewed for hard constraint violations. PR0109 was dropped because its tuition ($1550) exceeds the maximum budget of $1300. Since 5 valid candidates were required, I swapped in PR0120 (MSc Big Data Analytics in Delhi). This program is highly affordable ($800), academically relevant to data science, and provides a strong alternative location option compared to Coimbatore or Chennai.",
+ "explanation": "Halcyon Technical University\nThis program is recommended because it is located in Chennai, matching your location preference, and its focus on software engineering aligns well with a Data Architect career goal. The curriculum also requires a CS background, which matches your academic profile. However, the main trade-off here is that the annual tuition of $1500 exceeds your stated maximum budget of $1300.\n\nLongford Institute of Applied Sciences\nThis program was selected because its fields\u2014Data Science Analytics and Software Engineering\u2014are highly relevant to both Data Architect roles and your interest in data engineering. Furthermore, the annual tuition of $1300 meets your budget constraint. The primary trade-off is that while it fits your budget and interests, the location (Mumbai) does not match your preference for Chennai, and its placement rate (58%) is lower than other options.\n\nStanmore Institute of Applied Sciences\nThis program is a strong fit because it focuses on Data Science Analytics, which directly supports your goal of becoming a Data Architect, and maintains an annual tuition within budget at $1300. It also boasts a high placement rate of 77%, addressing your priority for employability. The main trade-off is that while the program is highly relevant and affordable, its location in Coimbatore does not match your preference for Chennai.\n\nStanmore School of Engineering\nThis option offers excellent career prospects with an 83% placement rate and a curriculum covering Data Science Analytics and Software Engineering, making it ideal for your goals. The main trade-off is that while the program's relevance and employability are top-tier, its annual tuition of $1350 slightly exceeds your maximum budget constraint of $1300.\n\nAshford Institute of Applied Sciences\nThis program is recommended because it offers a very low annual tuition of $800, which is well within your stated budget limit. It also features Data Science Analytics, aligning with your career goals and providing a high placement rate of 78%. The main trade-off is that while the cost savings are significant, its location in Delhi does not match your preference for Chennai.",
+ "wall_s": 112.9
+}

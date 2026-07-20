@@ -1,0 +1,54 @@
+{
+ "student_id": "ST0028",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 72.9% in an IT/computer-science degree. I'm interested in data engineering and security. I want to become a Software Engineer. My family can afford at most about USD 33700 per year. I live in Coimbatore. I'm open to going abroad. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 72.9
+  },
+  "career_goal": "Software Engineer (interested in data engineering and security)",
+  "budget_max_usd_per_year": 33700,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "r programming certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0086",
+  "PR0058",
+  "PR0126",
+  "PR0026",
+  "PR0090",
+  "PR0145",
+  "PR0107",
+  "PR0063",
+  "PR0173",
+  "PR0071",
+  "PR0069",
+  "PR0055",
+  "PR0030",
+  "PR0034",
+  "PR0027",
+  "PR0067",
+  "PR0018",
+  "PR0136",
+  "PR0132",
+  "PR0051"
+ ],
+ "final_shortlist": [
+  "PR0086",
+  "PR0136",
+  "PR0055",
+  "PR0126",
+  "PR0034"
+ ],
+ "explanation": "This UK program in Software Engineering aligns perfectly with your career goal and offers a strong placement rate (85%) and median starting salary ($33967), while the tuition ($23400) is well within your budget. The post-study work visa also significantly boosts job prospects.\n\nThis US program focuses on Cyber Security and Software Engineering, directly addressing your interest in security while maintaining a manageable tuition ($21200) within budget. The 12-month post-study work visa is excellent for job placement.\n\nLocated in the US and focused on Software Engineering, this program offers a high median starting salary ($78779) and strong placement rate (84%). The tuition ($33000) is slightly over budget but provides exceptional career value.\n\nThis German MCA program offers a low tuition fee ($2050), keeping costs minimal while providing core Software Engineering skills. The post-study work visa (18 months) and manageable salary are good for job prospects.\n\nThis US program in Information Security directly matches your security interest. The tuition ($29150) is affordable and the curriculum includes Software Engineering, making it a strong choice for job placement.",
+ "wall_s": 50.0
+}

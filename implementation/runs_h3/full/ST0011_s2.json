@@ -1,0 +1,67 @@
+{
+ "student_id": "ST0011",
+ "session": 2,
+ "mode": "full",
+ "message": "Hi, I'm a student with a python certification background. My overall academic average is 81.4% in an IT/computer-science degree. I'm interested in Computer Architecture and security. I want to become a Software Systems Engineer. My family can afford at most about USD 5400 per year. I live in Pune. I'd strongly prefer to stay near home, though I might consider elsewhere in India. About the earlier suggestions: I liked PR0029, PR0144.",
+ "memory_used": true,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 81.4
+  },
+  "career_goal": "Software Systems Engineer",
+  "budget_max_usd_per_year": 5400,
+  "location_preference": "Pune",
+  "mobility": "prefers_region",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in Computer Architecture and security."
+  ],
+  "uncertainty_notes": [
+   "Employability priority is not specified."
+  ]
+ },
+ "prefilter_ids": [
+  "PR0198",
+  "PR0144",
+  "PR0191",
+  "PR0101",
+  "PR0186",
+  "PR0058",
+  "PR0039",
+  "PR0053",
+  "PR0158",
+  "PR0054",
+  "PR0043",
+  "PR0109",
+  "PR0026",
+  "PR0076",
+  "PR0105",
+  "PR0012",
+  "PR0065",
+  "PR0019",
+  "PR0167",
+  "PR0090"
+ ],
+ "retrieved_ids": [
+  "PR0144",
+  "PR0158",
+  "PR0019",
+  "PR0186"
+ ],
+ "proposed_shortlist": [
+  "PR0144",
+  "PR0186",
+  "PR0158",
+  "PR0019"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0144",
+  "PR0186"
+ ],
+ "reflection_note": "The initial shortlist correctly identified PR0144 as the top choice. The primary revisions involve dropping PR0158 and PR0019 because their core specializations (Design/QA Testing) represent too significant a pivot away from the student's strong CS background and stated goal of Software Systems Engineering, regardless of how affordable or local they are. I recommend keeping both PR0144 and PR0186 as they offer complementary technical depth\u2014PR0144 for core SE/Architecture focus, and PR0186 for critical infrastructure components (Networking/Cloud) necessary for robust systems engineering.",
+ "explanation": "Tejas Technical University\nThis program is recommended because it perfectly aligns with your location preference in Pune and fits comfortably within your maximum budget of $5400 USD, with an annual tuition cost of $4800. Admission is straightforward as your 81.4% grade exceeds the minimum requirement of 81%, and no specific CS background is required. It offers strong career outcomes, boasting a 93% placement rate and a median starting salary of $19239 USD, which supports your goal of becoming a Software Systems Engineer. The main trade-off here is that there is no post-study work visa option available.\n\nHalcyon Institute of Technology\nThis program is an excellent budget-friendly alternative located in Pune, with a low annual tuition cost of $2050 USD. It requires a CS background, which matches your academic profile, and the minimum grade requirement (70%) is easily met by your 81.4% score. While its placement rate is 83% and median salary is $15192 USD, it remains well under budget while providing relevant fields like networking and software engineering. The primary trade-off compared to Tejas Technical University is the slightly lower placement rate and a requirement for a CS background.",
+ "wall_s": 177.9
+}

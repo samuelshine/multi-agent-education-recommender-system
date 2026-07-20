@@ -1,0 +1,65 @@
+{
+ "student_id": "ST0067",
+ "session": 1,
+ "mode": "single_objective",
+ "version": 2,
+ "message": "Hi, I'm a student with a machine learning certification background. My overall academic average is 69.6% in an IT/computer-science degree. I'm interested in Management and Business process analyst. I want to become a Database Developer. My family can afford at most about USD 1100 per year. I live in Mumbai. I cannot leave my city. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [
+  "reflect"
+ ],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 69.6
+  },
+  "career_goal": "Database Developer",
+  "budget_max_usd_per_year": 1100,
+  "location_preference": "Mumbai",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in Management and Business process analyst"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0071",
+  "PR0114",
+  "PR0193",
+  "PR0112",
+  "PR0049",
+  "PR0035",
+  "PR0082"
+ ],
+ "retrieved_ids": [
+  "PR0114",
+  "PR0082",
+  "PR0112",
+  "PR0071",
+  "PR0049",
+  "PR0082",
+  "PR0193",
+  "PR0112"
+ ],
+ "proposed_shortlist": [
+  "PR0071",
+  "PR0114",
+  "PR0193",
+  "PR0082"
+ ],
+ "guard_dropped": [],
+ "backfilled": [
+  "PR0112"
+ ],
+ "final_shortlist": [
+  "PR0071",
+  "PR0114",
+  "PR0193",
+  "PR0082",
+  "PR0112"
+ ],
+ "reflection_note": "reflect fallback: kept proposal",
+ "explanation": "Longford Institute of Applied Sciences\nThis program is recommended because its focus on Data Science Analytics and Software Engineering aligns well with your goal of becoming a Database Developer. While the annual tuition of $1300 USD exceeds your stated budget maximum, it offers highly relevant technical fields for your career path. The trade-off here is accepting higher tuition costs in exchange for specialized data engineering knowledge. Furthermore, the program accepts students without a required CS background and operates in your preferred location of Mumbai.\n\nCrestwood School of Engineering\nThis option is an excellent fit because its annual tuition of $850 USD remains comfortably within your budget while offering a high placement rate of 81%. Although the focus on QA Testing might seem less direct than database development, it strongly emphasizes software quality and process, which aligns with your interest in Business Process Analyst roles. The trade-off is prioritizing high employability (81% placement) over a more specialized data engineering curriculum. This program also offers a strong median starting salary of $10903 USD.\n\nElmhurst Institute of Technology\nThis program provides a solid blend of software quality testing and development, offering a respectable median starting salary of $10518 USD. However, the annual tuition of $1200 USD slightly exceeds your maximum budget constraint of $1100 USD. The trade-off is accepting a higher cost for a strong combination of technical fields and good earning potential. It operates in Mumbai and has a placement rate of 72%.\n\nElmhurst Technical University\nThis program is the most budget-friendly option, with an annual tuition fee of only $500 USD, keeping you well under your maximum limit. While its median starting salary ($6458 USD) is lower than other options, it provides a broad foundation in Software Engineering and QA Testing that supports general development skills. The main trade-off here is accepting the lowest potential salary to maintain the highest level of cost savings. It also operates in Mumbai and requires no CS background.\n\nCharnock University\nThis program offers strong technical exposure through Networking Cloud and Software Engineering, which are valuable for backend roles like a Database Developer. Although its annual tuition of $1150 USD slightly exceeds your budget maximum, it provides excellent career prospects with a median starting salary of $7933 USD. The trade-off is spending slightly over budget to gain exposure to networking and cloud technologies in Mumbai. Since you have an IT/CS background, this program meets the technical prerequisites while keeping your location fixed in Mumbai.",
+ "wall_s": 110.3
+}

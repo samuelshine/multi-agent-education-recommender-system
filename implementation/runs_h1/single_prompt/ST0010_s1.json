@@ -1,0 +1,41 @@
+{
+ "student_id": "ST0010",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a full stack certification background. My overall academic average is 79.2% in an IT/computer-science degree. I'm interested in programming and cloud computing. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 2700 per year. I live in Bengaluru. I cannot leave my city. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 79.2
+  },
+  "career_goal": null,
+  "budget_max_usd_per_year": 2700,
+  "location_preference": "Bengaluru",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in programming and cloud computing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0015",
+  "PR0073",
+  "PR0002",
+  "PR0013",
+  "PR0085",
+  "PR0173",
+  "PR0087"
+ ],
+ "final_shortlist": [
+  "PR0015",
+  "PR0073",
+  "PR0002",
+  "PR0085",
+  "PR0173"
+ ],
+ "explanation": "This program in Business Information Systems aligns well with your general interest in tech and is located right in Bengaluru. It has a low tuition cost ($1200) that fits your budget, requires no specific CS background, and offers a strong median starting salary of $9707.\n\nGiven your full-stack background and interest in tech, MTech Cyber Security is an excellent, high-demand specialization. It remains local to Bengaluru, has a good placement rate (80%), and its tuition ($1250) is within your budget.\n\nMSc IT Operations provides practical skills in tech support, which can be a solid entry point if you are unsure of your exact specialization. It is local to Bengaluru, has a high median starting salary ($11419), and its tuition ($1700) is manageable within your budget.\n\nIf you are interested in the development side of things (full-stack background), MSc Software Quality Engineering focuses on software testing and engineering. While its placement rate is lower, it's a highly relevant technical field located locally.\n\nMTech Computer Science offers broad exposure to Data Science and Software Engineering. It has the lowest tuition cost ($500) among the technical options, is local to Bengaluru, and provides a strong foundation for your career goals.",
+ "wall_s": 33.3
+}

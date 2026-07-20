@@ -1,0 +1,75 @@
+{
+ "student_id": "ST0055",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a hadoop certification background. My overall academic average is 81.3% in an IT/computer-science degree. I'm interested in programming and testing. I want to become a Business Systems Analyst. My family can afford at most about USD 2100 per year. I live in Delhi. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 81.3
+  },
+  "career_goal": "Business Systems Analyst",
+  "budget_max_usd_per_year": 2100,
+  "location_preference": "Delhi",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in programming and testing",
+   "Strongly prefer to stay near home, though might consider elsewhere in India"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0182",
+  "PR0119",
+  "PR0101",
+  "PR0053",
+  "PR0072",
+  "PR0054",
+  "PR0065",
+  "PR0019",
+  "PR0114",
+  "PR0015",
+  "PR0020",
+  "PR0113",
+  "PR0179",
+  "PR0033",
+  "PR0193",
+  "PR0157",
+  "PR0047",
+  "PR0068",
+  "PR0074",
+  "PR0050"
+ ],
+ "retrieved_ids": [
+  "PR0182",
+  "PR0119",
+  "PR0053",
+  "PR0193",
+  "PR0114",
+  "PR0020",
+  "PR0157",
+  "PR0033"
+ ],
+ "proposed_shortlist": [
+  "PR0020",
+  "PR0157",
+  "PR0193",
+  "PR0114",
+  "PR0053"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0020",
+  "PR0182",
+  "PR0157",
+  "PR0193",
+  "PR0114"
+ ],
+ "reflection_note": "The original shortlist was strong but lacked diversity in quality/employability. I swapped in PR0182 (Pune) because its high placement rate and perfect focus on QA/SE make it a significantly stronger candidate than the originally ranked PR0053 (Kolkata). The final list prioritizes location fit (PR0020), followed by the highest quality, most relevant alternatives (PR0182), before maintaining the original strong compromises in Coimbatore and Mumbai. This balances the student's preference for Delhi with high employability needs.",
+ "explanation": "Stanmore Institute of Applied Sciences\nThis program is highly recommended because it meets your primary location preference by being located in Delhi. The MBA Business Analytics curriculum aligns well with your goal of becoming a Business Systems Analyst and utilizes the business information systems field. Furthermore, the annual tuition of $1450 remains comfortably within your budget maximum of $2100. The main trade-off here is that while it focuses on business analysis, it does not emphasize programming or testing as explicitly as the other technical options.\n\nKeystone Technical University\nThis program was recommended due to its exceptionally high placement rate of 91% and a strong median starting salary of $12,865, addressing your priority for employability. The MSc Software Quality Engineering curriculum directly matches your interest in programming and testing through QA testing fields. While the tuition of $1950 is within budget, the trade-off is that its location in Pune deviates from your strong preference to stay near Delhi.\n\nLongford University\nThis option was suggested because it offers a very low annual tuition cost of only $800, making it highly budget-friendly while still providing relevant business information systems training for a BSA role. The program also meets your academic requirements with a minimum grade percentage of 64%. However, the main trade-off is that its location in Coimbatore is significantly further from your preferred region of Delhi.\n\nElmhurst Institute of Technology\nThis technical option was recommended because it aligns perfectly with your interest in programming and testing through its QA testing specialization. The tuition cost of $1200 is well within your budget, and the program has a solid placement rate of 72%. The primary trade-off for this recommendation is that while the curriculum fits your interests, the location in Mumbai deviates from your preference to stay near Delhi.\n\nCrestwood School of Engineering\nThis program offers an excellent balance of low cost ($850 annual tuition) and high employability (81% placement rate), making it a strong technical fit for your interest in testing. The MSc Software Quality Engineering curriculum directly addresses your desire to learn about programming and testing through QA testing fields. The main trade-off is that while the program is highly recommended for its value, its location in Mumbai deviates from your preferred region of Delhi.",
+ "wall_s": 139.8
+}

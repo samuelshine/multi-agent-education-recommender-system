@@ -1,0 +1,60 @@
+{
+ "student_id": "ST0010",
+ "session": 2,
+ "mode": "no_memory",
+ "version": 1,
+ "message": "Hi, I'm a student with a full stack certification background. My overall academic average is 79.2% in an IT/computer-science degree. I'm interested in programming and cloud computing. I want to become a Database Manager. My family can afford at most about USD 2700 per year. I live in Bengaluru. I cannot leave my city. About the earlier suggestions: please drop PR0186, PR0199.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 79.2
+  },
+  "career_goal": "Database Manager",
+  "budget_max_usd_per_year": 2700,
+  "location_preference": "Bengaluru",
+  "mobility": "fixed_city",
+  "employability_priority": null,
+  "other_constraints": [
+   "Cannot leave my city"
+  ],
+  "uncertainty_notes": [
+   "No explicit mention of employability priority.",
+   "The request to drop specific codes (PR0186, PR0199) is noted but does not translate into a structured constraint for the core object."
+  ]
+ },
+ "prefilter_ids": [
+  "PR0173",
+  "PR0087",
+  "PR0015",
+  "PR0073",
+  "PR0002",
+  "PR0013",
+  "PR0085"
+ ],
+ "retrieved_ids": [
+  "PR0173",
+  "PR0087",
+  "PR0015",
+  "PR0002",
+  "PR0013",
+  "PR0085"
+ ],
+ "proposed_shortlist": [
+  "PR0015",
+  "PR0002",
+  "PR0173"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0015",
+  "PR0002",
+  "PR0087",
+  "PR0085",
+  "PR0013"
+ ],
+ "reflection_note": "The original shortlist was strong but missed opportunities for programs that better align with the 'Database Manager' career goal or offer superior placement metrics. PR0015 remains the top choice due to its perfect alignment (IS/Business focus) and excellent placement rate. PR0002 is a solid, highly relevant alternative focused on IT Operations. I have swapped in PR0087 (Data Science), PR0085 (Software Quality Engineering), and PR0013 (HCI). These additions provide a more robust set of options: PR0087/PR0015 for data focus, PR0002/PR0085 for technical operations/quality, and PR0013 as a design-oriented backup. All selected programs meet the hard constraints (Bengaluru location, tuition well under $2700 budget) and offer strong career relevance.",
+ "explanation": "Keystone Institute of Technology\nThis program is recommended because its focus on Information Systems aligns well with the requirements for a Database Manager role. It meets your budget constraint with an annual tuition of $1200 and accepts students without a mandatory CS background. While it offers a strong placement rate of 78% and a median starting salary of $9707, the main trade-off is that there is no post-study work visa support (0 months).\n\nCharnock Technical University\nThis option was selected because its IT Operations curriculum provides practical experience in system maintenance, which supports database management goals. The tuition of $1700 remains within your maximum budget of $2700 per year, and the program does not require a CS background. Although it has a slightly higher median starting salary ($11419) than some other options, the trade-off is that its placement rate (73%) is moderate compared to Keystone Institute.\n\nAravalli Technical University\nThis MSc Data Science program is highly relevant for a Database Manager career goal and fits your budget with $1200 in annual tuition. You meet the admission requirements as it accepts students with an IT/CS background, and the location is fixed in Bengaluru. The primary trade-off here is that while the tuition is low, the placement rate (58%) and median starting salary ($6767) are the lowest among the recommended programs.\n\nKeystone Institute of Applied Sciences\nThis program offers a manageable annual tuition of $1450 and does not require a CS background, making it an accessible option in Bengaluru. While its focus on QA testing is adjacent to IT management, it provides foundational skills useful for maintaining data integrity. The main trade-off is that despite the low cost, the placement rate (63%) and median starting salary ($6488) are among the lowest listed options.\n\nMeridian Institute of Technology\nThis program has the lowest tuition fee at $900, making it excellent for adhering to your budget constraints while remaining in Bengaluru. It is also highly accessible as it does not require a CS background. However, its focus on Human-Computer Interaction (HCI) makes it the least directly relevant option for a Database Manager role; therefore, the trade-off is choosing low cost and high accessibility over direct career relevance.",
+ "wall_s": 171.7
+}

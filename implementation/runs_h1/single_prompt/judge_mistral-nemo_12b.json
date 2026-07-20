@@ -1,0 +1,1110 @@
+{
+ "judge": "mistral-nemo:12b",
+ "summary": {
+  "clarity": 3.99,
+  "groundedness": 4.28,
+  "usefulness": 3.23
+ },
+ "n": 100,
+ "results": [
+  {
+   "file": "ST0000_s1.json",
+   "student_id": "ST0000",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured, readable, and specific to the student's constraints. It accurately uses data from the recommended programs."
+  },
+  {
+   "file": "ST0001_s1.json",
+   "student_id": "ST0001",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 3,
+   "usefulness": 3,
+   "invented_claims": [
+    "This German MCA program is highly recommended because it offers a strong career focus (data science/software engineering)",
+    "It has a high median starting salary ($34339)"
+   ],
+   "justification": "While the explanation provides specific details about each program, some claims are not traceable to the provided program fields. For example, there's no mention of 'strong career focus' or 'high median starting salary' in the given data."
+  },
+  {
+   "file": "ST0002_s1.json",
+   "student_id": "ST0002",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 3,
+   "usefulness": 4,
+   "invented_claims": [
+    "The MSc Information Systems program in Bengaluru is highly relevant for your goal of becoming a Business Intelligence Analyst."
+   ],
+   "justification": "While the explanation accurately reflects the student's constraints and the programs' data fields, it makes an unsupported claim about the relevance of one program to the student's career goal. The other explanations are well-grounded in the provided information."
+  },
+  {
+   "file": "ST0003_s1.json",
+   "student_id": "ST0003",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 3,
+   "usefulness": 3,
+   "invented_claims": [
+    "The MCA program at Stanmore School of Engineering is in Coimbatore",
+    "This MSc program focuses on Information Systems"
+   ],
+   "justification": "While the explanation covers most relevant details, it invents some facts (e.g., location of programs) and lacks specific trade-offs for each option."
+  },
+  {
+   "file": "ST0004_s1.json",
+   "student_id": "ST0004",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 3,
+   "usefulness": 4,
+   "invented_claims": [
+    "This program directly aligns with your background in information security and your interest in hacking/testing.",
+    "It offers a relevant career path."
+   ],
+   "justification": "The explanation makes specific recommendations based on the student's constraints, but it includes some invented claims about alignment with interests and career paths."
+  },
+  {
+   "file": "ST0005_s1.json",
+   "student_id": "ST0005",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured and specific, providing clear information about each recommended program. It accurately uses data from the programs' fields to make its points."
+  },
+  {
+   "file": "ST0006_s1.json",
+   "student_id": "ST0006",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured and readable, providing specific details about each recommended program. It accurately reflects the student's constraints and the programs' data fields without any invented claims."
+  },
+  {
+   "file": "ST0007_s1.json",
+   "student_id": "ST0007",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured and readable, providing specific details about each program. It accurately uses data from the provided programs' fields to make its points."
+  },
+  {
+   "file": "ST0008_s1.json",
+   "student_id": "ST0008",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 3,
+   "usefulness": 4,
+   "invented_claims": [
+    "minimizing relocation stress",
+    "maximizing job prospects near home"
+   ],
+   "justification": "While the explanations are well-structured and clear, they include invented claims about minimizing relocation stress and maximizing job prospects. Groundedness is slightly impacted due to these inventions."
+  },
+  {
+   "file": "ST0009_s1.json",
+   "student_id": "ST0009",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured and readable, providing specific details about each recommended program. It accurately reflects the student's constraints and career goals using information from the provided programs' data fields."
+  },
+  {
+   "file": "ST0010_s1.json",
+   "student_id": "ST0010",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 3,
+   "usefulness": 3,
+   "invented_claims": [
+    "This program in Business Information Systems aligns well with your general interest in tech",
+    "Given your full-stack background and interest in tech, MTech Cyber Security is an excellent, high-demand specialization"
+   ],
+   "justification": "The explanation includes invented claims about the student's interests and career goals that are not supported by the provided constraint object."
+  },
+  {
+   "file": "ST0011_s1.json",
+   "student_id": "ST0011",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured and readable, providing specific details about each recommended program. It accurately uses information from the student's constraints object and the programs' data fields."
+  },
+  {
+   "file": "ST0012_s1.json",
+   "student_id": "ST0012",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 3,
+   "usefulness": 3,
+   "invented_claims": [
+    "maximizes your chances of getting a good job",
+    "a top choice for career outcomes",
+    "suitable for your interest in management",
+    "provides exposure to the IT domain necessary for an auditor role"
+   ],
+   "justification": "The explanation contains invented claims about maximizing job prospects, being suitable or providing necessary exposure without explicit grounding in the program fields or student constraints."
+  },
+  {
+   "file": "ST0013_s1.json",
+   "student_id": "ST0013",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured and clear, providing specific details about each program. It is grounded in the provided data fields and student constraints. However, it lacks information about trade-offs and could benefit from more comparison between programs."
+  },
+  {
+   "file": "ST0014_s1.json",
+   "student_id": "ST0014",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 3,
+   "usefulness": 3,
+   "invented_claims": [
+    "minimizing relocation stress"
+   ],
+   "justification": "The explanation does not mention the student's preference for Bengaluru, so claiming that a program in Pune minimizes relocation stress is an invented claim."
+  },
+  {
+   "file": "ST0015_s1.json",
+   "student_id": "ST0015",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanations are well-structured, specific, and readable. They accurately reflect the student's constraints and the programs' data fields."
+  },
+  {
+   "file": "ST0016_s1.json",
+   "student_id": "ST0016",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 3,
+   "usefulness": 3,
+   "invented_claims": [
+    "highly affordable"
+   ],
+   "justification": "The explanation is well-structured and readable, but some claims are subjective (e.g., 'highly affordable') and not entirely grounded in the provided program fields or student's constraints."
+  },
+  {
+   "file": "ST0017_s1.json",
+   "student_id": "ST0017",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured and readable, providing specific details about each program's alignment with the student's constraints. All factual claims are traceable to the provided program fields or the student's constraints."
+  },
+  {
+   "file": "ST0018_s1.json",
+   "student_id": "ST0018",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured and specific, providing clear information about each recommended program. It accurately uses data from the provided programs' fields to support its claims."
+  },
+  {
+   "file": "ST0019_s1.json",
+   "student_id": "ST0019",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured, readable, and specific, providing clear information about each recommended program. It accurately reflects the student's constraints and the programs' data fields."
+  },
+  {
+   "file": "ST0020_s1.json",
+   "student_id": "ST0020",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 3,
+   "usefulness": 3,
+   "invented_claims": [
+    "aligning with your interest in Business Process Analysis",
+    "offers excellent value for job placement"
+   ],
+   "justification": "The explanation makes good use of the provided program fields but invents some claims about student's interests and does not explicitly mention trade-offs."
+  },
+  {
+   "file": "ST0021_s1.json",
+   "student_id": "ST0021",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured, readable, and specific to the student's constraints. It accurately uses data from the recommended programs' fields."
+  },
+  {
+   "file": "ST0022_s1.json",
+   "student_id": "ST0022",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured and readable, providing specific details about each program. It accurately uses data from the provided programs' fields to make its points."
+  },
+  {
+   "file": "ST0023_s1.json",
+   "student_id": "ST0023",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured with clear bullet points for each program. It accurately uses data from the provided programs' fields to make its points."
+  },
+  {
+   "file": "ST0024_s1.json",
+   "student_id": "ST0024",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured and readable, providing specific details about each program. It accurately uses information from the student's constraints and the recommended programs' data fields."
+  },
+  {
+   "file": "ST0025_s1.json",
+   "student_id": "ST0025",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 3,
+   "usefulness": 3,
+   "invented_claims": [
+    "This German MCA program in Berlin offers a strong post-study work visa (18 months)."
+   ],
+   "justification": "The explanation correctly references the student's constraints and the programs' data fields, but it also includes an invented claim about the duration of the post-study work visa for the first program."
+  },
+  {
+   "file": "ST0026_s1.json",
+   "student_id": "ST0026",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation clearly outlines the key features of each program, using specific data points from the provided fields. However, it could be more helpful by explicitly comparing programs or highlighting trade-offs."
+  },
+  {
+   "file": "ST0027_s1.json",
+   "student_id": "ST0027",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 3,
+   "usefulness": 3,
+   "invented_claims": [
+    "This German program offers a strong focus on IT Management",
+    "While the placement rate is average"
+   ],
+   "justification": "The explanation makes specific recommendations based on the student's constraints, but it includes some invented claims and lacks detail in explaining trade-offs."
+  },
+  {
+   "file": "ST0028_s1.json",
+   "student_id": "ST0028",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation clearly states facts from the program fields but could provide more context on trade-offs and how programs align with student's constraints (e.g., no mention of R programming certification)."
+  },
+  {
+   "file": "ST0029_s1.json",
+   "student_id": "ST0029",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation clearly highlights relevant program details and matches them with the student's constraints, but it could provide more information on trade-offs and does not explicitly mention the student's Python certification background."
+  },
+  {
+   "file": "ST0030_s1.json",
+   "student_id": "ST0030",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 3,
+   "usefulness": 3,
+   "invented_claims": [
+    "directly aligns with your interest in security",
+    "highly relevant to parallel computing and security interests",
+    "utilizes your quantitative skills from r programming"
+   ],
+   "justification": "The explanation makes specific recommendations based on the student's constraints, but it also includes some invented claims that are not traceable to the provided program fields or the student's constraints."
+  },
+  {
+   "file": "ST0031_s1.json",
+   "student_id": "ST0031",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured and readable, providing specific details about each program. It accurately uses information from the student's constraints and the recommended programs' data fields."
+  },
+  {
+   "file": "ST0032_s1.json",
+   "student_id": "ST0032",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured and readable, providing specific details about each program. It is grounded in facts traceable to the provided program fields or student's constraints."
+  },
+  {
+   "file": "ST0033_s1.json",
+   "student_id": "ST0033",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation clearly lists the programs' strengths and how they align with the student's constraints. However, it could provide more information about trade-offs (e.g., lower tuition but also lower placement rate in PR0159)."
+  },
+  {
+   "file": "ST0034_s1.json",
+   "student_id": "ST0034",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 3,
+   "usefulness": 3,
+   "invented_claims": [
+    "The tuition cost ($2250) is manageable within your budget",
+    "It has an affordable tuition fee ($2100)"
+   ],
+   "justification": "While the explanations are clear and well-structured, some claims about affordability of tuition fees are not traceable to the student's constraint object or the program fields."
+  },
+  {
+   "file": "ST0035_s1.json",
+   "student_id": "ST0035",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 3,
+   "usefulness": 3,
+   "invented_claims": [
+    "addresses your priority of securing a good job after graduation.",
+    "offers solid career growth potential",
+    "strong analytical skills that are valuable for career advancement in Bengaluru.",
+    "provides strong business understanding (design thinking) which complements a career in Business Process Analysis."
+   ],
+   "justification": "The explanation includes invented claims about the student's priorities and career growth potential, which cannot be traced back to the provided constraints. However, it is well-structured and specific, making relevant connections between the programs and the student's interests."
+  },
+  {
+   "file": "ST0036_s1.json",
+   "student_id": "ST0036",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 3,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured and specific, providing clear information about each recommended program. However, it lacks mention of the student's Python certification background."
+  },
+  {
+   "file": "ST0037_s1.json",
+   "student_id": "ST0037",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 3,
+   "usefulness": 3,
+   "invented_claims": [
+    "This program is located in Hyderabad, which is a reasonable alternative to Chennai.",
+    "It has a low tuition fee ($1200) that meets your budget constraint"
+   ],
+   "justification": "The explanation provides clear and specific information about the recommended programs. However, it makes some assumptions about the student's willingness to consider Hyderabad as an alternative location (invented claim), and it claims that the tuition fee meets the student's budget without explicitly stating how this was determined."
+  },
+  {
+   "file": "ST0038_s1.json",
+   "student_id": "ST0038",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured, specific, and readable. It accurately reflects the student's constraints and the recommended programs' data fields."
+  },
+  {
+   "file": "ST0039_s1.json",
+   "student_id": "ST0039",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanations are well-structured, specific, and readable. They accurately reflect the student's constraints and the programs' data fields."
+  },
+  {
+   "file": "ST0040_s1.json",
+   "student_id": "ST0040",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation clearly outlines each program's relevance to the student's interests and constraints, using specific details from both the student's constraint object and the recommended programs' data fields."
+  },
+  {
+   "file": "ST0041_s1.json",
+   "student_id": "ST0041",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured and readable, with specific details about each program's alignment with the student's constraints. All factual claims are traceable to the provided program fields or the student's constraints."
+  },
+  {
+   "file": "ST0042_s1.json",
+   "student_id": "ST0042",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 3,
+   "usefulness": 3,
+   "invented_claims": [
+    "offers relevant skills for database administration"
+   ],
+   "justification": "The explanation claims that the MSc Cloud Computing program offers relevant skills for database administration, but this is not explicitly stated in the provided program fields."
+  },
+  {
+   "file": "ST0043_s1.json",
+   "student_id": "ST0043",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured and readable, providing specific details about each recommended program. It accurately uses information from the student's constraints object and the programs' data fields."
+  },
+  {
+   "file": "ST0044_s1.json",
+   "student_id": "ST0044",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured and readable, providing specific details about each program. It accurately reflects the student's constraints and the programs' data fields."
+  },
+  {
+   "file": "ST0045_s1.json",
+   "student_id": "ST0045",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation clearly presents the relevant information about each program, using specific details from the student's constraints and the programs' data fields."
+  },
+  {
+   "file": "ST0046_s1.json",
+   "student_id": "ST0046",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 3,
+   "usefulness": 3,
+   "invented_claims": [
+    "This program offers a strong combination of 'networking_cloud' and 'software_engineering', which aligns with your full stack background."
+   ],
+   "justification": "The student's academic background is IT/computer-science, not 'full stack'."
+  },
+  {
+   "file": "ST0047_s1.json",
+   "student_id": "ST0047",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 3,
+   "usefulness": 2,
+   "invented_claims": [
+    "This program offers a strong focus on software engineering",
+    "It is an excellent hub for job opportunities"
+   ],
+   "justification": "While the explanation does provide specific details about each program, it invents claims that are not traceable to the provided data fields."
+  },
+  {
+   "file": "ST0048_s1.json",
+   "student_id": "ST0048",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 3,
+   "usefulness": 3,
+   "invented_claims": [
+    "This MBA program directly aligns with your goal of becoming an IT Manager",
+    "While focused on Data Engineering, this program includes 'business_information_systems'"
+   ],
+   "justification": "The explanations are well-structured and specific but contain invented claims about direct alignment with career goals."
+  },
+  {
+   "file": "ST0049_s1.json",
+   "student_id": "ST0049",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation clearly states the facts about each program and how they align with the student's constraints, but it could provide more information on trade-offs."
+  },
+  {
+   "file": "ST0050_s1.json",
+   "student_id": "ST0050",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured with clear bullet points for each program, and it accurately reflects the student's constraints. However, it could provide more specific trade-offs to help the student decide."
+  },
+  {
+   "file": "ST0051_s1.json",
+   "student_id": "ST0051",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 3,
+   "usefulness": 4,
+   "invented_claims": [
+    "keeps you close to home"
+   ],
+   "justification": "The explanation is well-structured and readable, providing specific details about each program. However, it includes an invented claim about the MDes program 'keeping you close to home', which is not grounded in the provided data."
+  },
+  {
+   "file": "ST0052_s1.json",
+   "student_id": "ST0052",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation clearly communicates the key aspects of each program, using specific details from the provided data fields."
+  },
+  {
+   "file": "ST0053_s1.json",
+   "student_id": "ST0053",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured, readable, and specific. It accurately reflects the student's constraints and the programs' data fields without any invented facts."
+  },
+  {
+   "file": "ST0054_s1.json",
+   "student_id": "ST0054",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation clearly presents four programs with their relevant features, but it could be more specific about trade-offs and how each program aligns with the student's career goal of 'Programmer Analyst'."
+  },
+  {
+   "file": "ST0055_s1.json",
+   "student_id": "ST0055",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation clearly outlines the key aspects of each recommended program, using specific details from both the student's constraints and the programs' data fields. However, it could provide more information on trade-offs to enhance its usefulness."
+  },
+  {
+   "file": "ST0056_s1.json",
+   "student_id": "ST0056",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanations are well-structured and specific, using facts traceable to the provided program fields. However, they do not explicitly address the student's constraint of 'information security certification background' nor do they discuss the trade-offs between different programs."
+  },
+  {
+   "file": "ST0057_s1.json",
+   "student_id": "ST0057",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 3,
+   "usefulness": 3,
+   "invented_claims": [
+    "The minimum grade requirement (64%) is easily met by your academic average."
+   ],
+   "justification": "While the explanation is generally clear and well-structured, it overstates the student's ability to meet the minimum grade requirements for some programs. The groundedness score reflects that these claims are not traceable to the provided program fields or the student's constraints."
+  },
+  {
+   "file": "ST0058_s1.json",
+   "student_id": "ST0058",
+   "mode": "single_prompt",
+   "clarity": 3,
+   "groundedness": 4,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured and readable, but could be more specific in some areas. It's grounded in the provided program fields and student constraints, with no invented facts."
+  },
+  {
+   "file": "ST0059_s1.json",
+   "student_id": "ST0059",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured and specific, providing clear information about each recommended program. It accurately reflects the student's constraints and the programs' data fields."
+  },
+  {
+   "file": "ST0060_s1.json",
+   "student_id": "ST0060",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanations clearly state the program details and how they align with the student's constraints, using accurate information from the provided programs."
+  },
+  {
+   "file": "ST0061_s1.json",
+   "student_id": "ST0061",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured and readable, providing specific details about each recommended program. It accurately uses information from the student's constraints object and the programs' data fields."
+  },
+  {
+   "file": "ST0062_s1.json",
+   "student_id": "ST0062",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 3,
+   "usefulness": 3,
+   "invented_claims": [
+    "excellent job prospects in Munich",
+    "strong career outcomes with a high placement rate"
+   ],
+   "justification": "The explanation uses phrases like 'excellent' and 'strong' without specifying the actual numbers, which are available in the program fields."
+  },
+  {
+   "file": "ST0063_s1.json",
+   "student_id": "ST0063",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured and readable, providing specific details about each program. It accurately uses data from the recommended programs' fields to support its claims."
+  },
+  {
+   "file": "ST0064_s1.json",
+   "student_id": "ST0064",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured and readable, providing specific details about each program's placement rates, salaries, tuition fees, and minimum required grades. It accurately reflects the student's constraints and career goals."
+  },
+  {
+   "file": "ST0065_s1.json",
+   "student_id": "ST0065",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 3,
+   "usefulness": 4,
+   "invented_claims": [
+    "The location advantage makes it a top consideration."
+   ],
+   "justification": "While the explanation is clear and well-structured, it invents a claim about location advantage without grounding it in any specific data field or student constraint. It also fails to mention that the program requires a CS background, which might be a deal-breaker for the student."
+  },
+  {
+   "file": "ST0066_s1.json",
+   "student_id": "ST0066",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation clearly outlines the key features of each program, using specific data points from the provided fields. It also discusses trade-offs and aligns recommendations with the student's constraints."
+  },
+  {
+   "file": "ST0067_s1.json",
+   "student_id": "ST0067",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 3,
+   "usefulness": 4,
+   "invented_claims": [
+    "The first program's tuition cost ($850) also fits within your budget constraints."
+   ],
+   "justification": "While the explanation is well-structured and clear, it contains an invented claim about the student's budget constraint being met by the first program's tuition. The groundedness score is reduced due to this invention."
+  },
+  {
+   "file": "ST0068_s1.json",
+   "student_id": "ST0068",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 3,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured and readable, providing specific details about each recommended program. However, it lacks information about the student's career goal of becoming an Applications Developer."
+  },
+  {
+   "file": "ST0069_s1.json",
+   "student_id": "ST0069",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 3,
+   "usefulness": 4,
+   "invented_claims": [
+    "directly matching your interest in data engineering"
+   ],
+   "justification": "While the explanation is well-structured and clear, it contains an invented claim about 'data engineering' interest which was not specified by the student. The groundedness score is reduced due to this."
+  },
+  {
+   "file": "ST0070_s1.json",
+   "student_id": "ST0070",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation clearly states the relevant facts about each program, but it could provide more information on trade-offs and how these programs align with the student's career goal."
+  },
+  {
+   "file": "ST0071_s1.json",
+   "student_id": "ST0071",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured and readable, providing specific details about each program. It accurately uses information from the provided programs' data fields to make its points."
+  },
+  {
+   "file": "ST0072_s1.json",
+   "student_id": "ST0072",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured with clear bullet points for each program, and all claims are traceable to the provided data fields or student's constraints."
+  },
+  {
+   "file": "ST0073_s1.json",
+   "student_id": "ST0073",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation clearly presents the programs' details and aligns them with the student's constraints, using accurate data from the provided program fields."
+  },
+  {
+   "file": "ST0074_s1.json",
+   "student_id": "ST0074",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured and readable, providing specific details about each recommended program. It accurately uses data from the provided programs' fields to make its points."
+  },
+  {
+   "file": "ST0075_s1.json",
+   "student_id": "ST0075",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured and readable, providing specific details about each recommended program. It accurately uses information from the programs' data fields to make its points."
+  },
+  {
+   "file": "ST0076_s1.json",
+   "student_id": "ST0076",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured and specific, providing clear information about each recommended program. It accurately uses data from the provided programs' fields to make its points."
+  },
+  {
+   "file": "ST0077_s1.json",
+   "student_id": "ST0077",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation clearly outlines the key features of each recommended program, using specific data points from the provided fields. It also considers the student's constraints and career interests."
+  },
+  {
+   "file": "ST0078_s1.json",
+   "student_id": "ST0078",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanations are well-structured, specific, and readable. They accurately reflect the student's constraints and the programs' data fields."
+  },
+  {
+   "file": "ST0079_s1.json",
+   "student_id": "ST0079",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 3,
+   "usefulness": 4,
+   "invented_claims": [
+    "The tuition cost ($3150) is well within your family's budget of $7000.",
+    "It requires no CS background",
+    "an extremely affordable tuition ($1250)."
+   ],
+   "justification": "While the explanation covers many relevant details from the student's constraints and program fields, it includes invented claims about affordability that are not traceable to the provided data."
+  },
+  {
+   "file": "ST0080_s1.json",
+   "student_id": "ST0080",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 3,
+   "usefulness": 3,
+   "invented_claims": [
+    "This MBA Technology Management program is ideal as it directly aligns with your goal of becoming a Project Manager",
+    "It is located in Hyderabad, which is close to Mumbai"
+   ],
+   "justification": "The explanation makes specific recommendations based on the student's career goals and budget constraints. However, some claims are not fully grounded in the provided data (e.g., 'ideal' program, 'close' location)."
+  },
+  {
+   "file": "ST0081_s1.json",
+   "student_id": "ST0081",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 3,
+   "usefulness": 4,
+   "invented_claims": [
+    "The tuition fee of $3350 is within your budget",
+    "The minimum required grade (71%) is achievable given your 78.7% average.",
+    "Its tuition ($2250) is well within budget",
+    "The minimum grade requirement (62%) is easily met by your 78.7% average.",
+    "It has a very low tuition fee ($1500), which is excellent for your budget constraint",
+    "Its minimum grade requirement (59%) is easily met.",
+    "It provides solid foundational knowledge for becoming a Network Security Administrator"
+   ],
+   "justification": "While the explanations are well-structured and clear, they contain several invented claims about how easy it will be for the student to meet the tuition fee and grade requirements based on their academic background."
+  },
+  {
+   "file": "ST0082_s1.json",
+   "student_id": "ST0082",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured and readable, providing specific details about each program's alignment with the student's constraints and interests. All factual claims are traceable to the provided program fields or the student's constraints."
+  },
+  {
+   "file": "ST0083_s1.json",
+   "student_id": "ST0083",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation clearly outlines the key details of each recommended program, using specific language and well-structured points. It accurately reflects the student's constraints and career goals."
+  },
+  {
+   "file": "ST0084_s1.json",
+   "student_id": "ST0084",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured and readable, providing specific details about each recommended program. It accurately uses information from the student's constraints and the programs' data fields."
+  },
+  {
+   "file": "ST0085_s1.json",
+   "student_id": "ST0085",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured, readable, and specific to the student's constraints. It accurately uses data from the recommended programs."
+  },
+  {
+   "file": "ST0086_s1.json",
+   "student_id": "ST0086",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured and readable, providing specific details about each recommended program. It accurately uses data from the provided programs' fields to make its points."
+  },
+  {
+   "file": "ST0087_s1.json",
+   "student_id": "ST0087",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 3,
+   "usefulness": 3,
+   "invented_claims": [
+    "manageable tuition fee"
+   ],
+   "justification": "The explanation is well-structured and readable, but it could be more specific. It also makes an unsupported claim about the tuition fee being manageable."
+  },
+  {
+   "file": "ST0088_s1.json",
+   "student_id": "ST0088",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured and readable, providing specific details about each program. It accurately uses information from the provided programs' data fields."
+  },
+  {
+   "file": "ST0089_s1.json",
+   "student_id": "ST0089",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured with clear bullet points for each program, but it lacks information about trade-offs and doesn't directly address the student's career goal."
+  },
+  {
+   "file": "ST0090_s1.json",
+   "student_id": "ST0090",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 4,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation clearly highlights relevant program details and aligns them with the student's constraints, but it could provide more information on trade-offs."
+  },
+  {
+   "file": "ST0091_s1.json",
+   "student_id": "ST0091",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 3,
+   "usefulness": 4,
+   "invented_claims": [
+    "The MTech in Computer Networks in Canada aligns well with your interest in cloud and networking.",
+    "This MSc Cloud Computing in Canada provides excellent exposure to cybersecurity and networking",
+    "This MSc Software Engineering in Canada is highly relevant to your goal of becoming a Web Developer."
+   ],
+   "justification": "While the explanations are generally clear and well-structured, they contain invented claims that cannot be traced back to the provided program fields or student's constraints. The usefulness score is high as it provides specific trade-offs for each program."
+  },
+  {
+   "file": "ST0092_s1.json",
+   "student_id": "ST0092",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 3,
+   "usefulness": 3,
+   "invented_claims": [
+    "This MTech in Computer Networks is highly relevant to your interest in system development and architecture.",
+    "The MBA Technology Management program is an excellent choice if you are unsure what to become."
+   ],
+   "justification": "While the explanations do a good job of highlighting key aspects of each program, they contain invented claims that cannot be traced back to the provided program fields or student's constraints. For example, there's no indication in the data that the MBA program is suitable for undecided students."
+  },
+  {
+   "file": "ST0093_s1.json",
+   "student_id": "ST0093",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation clearly highlights relevant aspects of each program based on the student's constraints and career goals. However, it lacks information about trade-offs or any unique selling points that differentiate these programs from one another."
+  },
+  {
+   "file": "ST0094_s1.json",
+   "student_id": "ST0094",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured with clear comparisons between programs. All factual claims are traceable to the provided program fields or student's constraints."
+  },
+  {
+   "file": "ST0095_s1.json",
+   "student_id": "ST0095",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured and specific, providing clear information about each recommended program. It accurately uses data from the programs' fields to support its claims."
+  },
+  {
+   "file": "ST0096_s1.json",
+   "student_id": "ST0096",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation is clear and well-structured, providing specific details about each program. It accurately uses information from the student's constraints and the recommended programs' data fields."
+  },
+  {
+   "file": "ST0097_s1.json",
+   "student_id": "ST0097",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured, readable, and specific to the student's constraints. It accurately reflects the data from the recommended programs."
+  },
+  {
+   "file": "ST0098_s1.json",
+   "student_id": "ST0098",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 3,
+   "usefulness": 3,
+   "invented_claims": [
+    "This German program in Software Quality Engineering aligns perfectly with your interest in testing",
+    "It is the best option for pursuing technical engineering goals abroad"
+   ],
+   "justification": "The explanation contains invented claims about perfect alignment and being the best option without providing specific reasons or data points from the student's constraints or the programs' fields."
+  },
+  {
+   "file": "ST0099_s1.json",
+   "student_id": "ST0099",
+   "mode": "single_prompt",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation is clear and well-structured, providing specific details about each recommended program. It accurately reflects the student's constraints and the programs' data fields without any invented claims."
+  }
+ ]
+}

@@ -1,0 +1,68 @@
+{
+ "student_id": "ST0058",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a app development certification background. My overall academic average is 79.6% in an IT/computer-science degree. I'm interested in Software Engineering and developer. I want to become a UX Designer. My family can afford at most about USD 1200 per year. I live in Bengaluru. I'm open to anywhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 79.6
+  },
+  "career_goal": "UX Designer",
+  "budget_max_usd_per_year": 1200,
+  "location_preference": "Bengaluru",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in Software Engineering and developer roles"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0058",
+  "PR0053",
+  "PR0076",
+  "PR0012",
+  "PR0019",
+  "PR0185",
+  "PR0084",
+  "PR0171",
+  "PR0013",
+  "PR0181",
+  "PR0166",
+  "PR0059",
+  "PR0112",
+  "PR0049",
+  "PR0035",
+  "PR0008",
+  "PR0063",
+  "PR0142",
+  "PR0082",
+  "PR0032"
+ ],
+ "retrieved_ids": [
+  "PR0032",
+  "PR0112",
+  "PR0142",
+  "PR0082",
+  "PR0053",
+  "PR0185",
+  "PR0013"
+ ],
+ "proposed_shortlist": [
+  "PR0013",
+  "PR0185",
+  "PR0032"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0013",
+  "PR0142",
+  "PR0112"
+ ],
+ "reflection_note": "The original shortlist was heavily penalized for location mismatch (Kolkata). The revised strategy prioritizes PR0013 as the clear winner due to its perfect alignment with UX/HCI and Bengaluru. We have replaced the dropped programs with two strong alternatives: PR0142 (Hyderabad) and PR0112 (Mumbai). These options maintain a focus on core developer skills while respecting the budget constraint and offering viable, major tech hub locations near the preference.",
+ "explanation": "Meridian Institute of Technology\nThis program was recommended because it aligns perfectly with your career goal by offering an MSc in Human-Computer Interaction, which is highly relevant to UX Design. It also meets your location preference, being situated in Bengaluru, and keeps tuition costs low at $900 per year. While the degree focuses on design rather than pure software engineering, its strong placement rate of 77% and median starting salary of $9186 make it a top choice for employability. The main trade-off here is that the focus is on HCI/design principles rather than core developer roles.\n\nNalanda Ridge School of Engineering\nThis program was recommended because it directly addresses your interest in software engineering through its MSc Software Quality Engineering curriculum, which covers QA testing and software engineering fields. It offers the lowest tuition cost at $700 per year, keeping you well within budget. However, the main trade-off is that while the location of Hyderabad is acceptable, the median starting salary ($6488) and placement rate (64%) are lower than other options, potentially conflicting with your high employability priority.\n\nCharnock University\nThis program was recommended because it offers a dedicated MSc Software Engineering degree, directly matching your stated interest in developer roles. Since you have an IT/CS background, this program meets the academic requirement of needing a CS background. The main trade-off is that while the tuition ($1150) remains within budget, the location (Mumbai) does not match your preference for Bengaluru, and it has a higher cost than other options on the list.",
+ "wall_s": 177.4
+}

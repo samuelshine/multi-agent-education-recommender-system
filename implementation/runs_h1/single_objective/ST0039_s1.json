@@ -1,0 +1,52 @@
+{
+ "student_id": "ST0039",
+ "session": 1,
+ "mode": "single_objective",
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 79.7% in an IT/computer-science degree. I'm interested in data engineering and security. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 1100 per year. I live in Bengaluru. I cannot leave my city. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 79.7
+  },
+  "career_goal": null,
+  "budget_max_usd_per_year": 1100,
+  "location_preference": "Bengaluru",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "r programming certification background",
+   "interested in data engineering and security"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0173",
+  "PR0087",
+  "PR0015",
+  "PR0073",
+  "PR0013"
+ ],
+ "retrieved_ids": [
+  "PR0173",
+  "PR0073",
+  "PR0087",
+  "PR0015",
+  "PR0013"
+ ],
+ "proposed_shortlist": [
+  "PR0073",
+  "PR0087",
+  "PR0173",
+  "PR0015"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0173",
+  "PR0013"
+ ],
+ "reflection_note": "The original shortlist contained multiple programs (PR0073, PR0087, PR0015) that violated the hard budget constraint ($1100 max). These have been dropped. I kept PR0173 as it is the best fit for both Data Science and Software Engineering while remaining within budget. I swapped in PR0013 (MSc HCI) because it meets all constraints (Bengaluru, low cost, high salary potential) and provides a strong, diverse option that should be presented to the student.",
+ "explanation": "Longford Technical University\nThis program is recommended because it aligns well with your interest in data science analytics and software engineering while remaining highly affordable at $500 USD annually, fitting comfortably within your budget. Your academic background of 79.7% exceeds the minimum requirement of 53%, ensuring eligibility for admission. The main trade-off here is that while the tuition is low, the placement rate is only 62%, and there are no post-study work visa options available.\n\nMeridian Institute of Technology\nThis program was recommended due to its strong employability metrics, boasting a 77% placement rate and a median starting salary of $9186 USD, which addresses your high priority for job prospects. At an annual tuition cost of $900, it remains within your maximum budget while being located in your preferred city of Bengaluru. The primary trade-off is that the focus on Human-Computer Interaction (HCI) shifts the specialization away from pure data engineering and security toward design principles.",
+ "wall_s": 87.5
+}

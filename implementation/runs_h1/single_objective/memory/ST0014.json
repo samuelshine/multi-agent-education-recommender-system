@@ -1,0 +1,31 @@
+{
+ "student_id": "ST0014",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 78.6
+    },
+    "career_goal": "Programmer Analyst",
+    "budget_max_usd_per_year": 7200,
+    "location_preference": "Bengaluru",
+    "mobility": "prefers_region",
+    "employability_priority": "high",
+    "other_constraints": [
+     "Interested in hacking and cloud computing"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0186",
+    "PR0197",
+    "PR0180",
+    "PR0162",
+    "PR0165"
+   ],
+   "feedback": null
+  }
+ ]
+}

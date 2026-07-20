@@ -1,0 +1,68 @@
+{
+ "student_id": "ST0017",
+ "session": 3,
+ "mode": "full",
+ "version": 1,
+ "message": "Hi, I'm a student with a python certification background. My overall academic average is 74.4% in an IT/computer-science degree. I'm interested in hacking and Business process analyst. I want to become a CRM Technical Developer. My family can afford at most about USD 2400 per year. I live in Kolkata. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else. About the earlier suggestions: I liked PR0185, PR0032.",
+ "memory_used": true,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 74.4
+  },
+  "career_goal": "CRM Technical Developer",
+  "budget_max_usd_per_year": 2400,
+  "location_preference": "Kolkata",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "python certification background",
+   "interested in hacking",
+   "interested in Business process analyst"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0101",
+  "PR0054",
+  "PR0015",
+  "PR0020",
+  "PR0033",
+  "PR0157",
+  "PR0047",
+  "PR0074",
+  "PR0172",
+  "PR0087",
+  "PR0164",
+  "PR0182",
+  "PR0119",
+  "PR0143",
+  "PR0186",
+  "PR0176",
+  "PR0058",
+  "PR0187",
+  "PR0039",
+  "PR0174"
+ ],
+ "retrieved_ids": [
+  "PR0157",
+  "PR0039",
+  "PR0174",
+  "PR0186"
+ ],
+ "proposed_shortlist": [
+  "PR0186",
+  "PR0157",
+  "PR0039"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0186",
+  "PR0174",
+  "PR0157"
+ ],
+ "reflection_note": "The original shortlist was strong but lacked a geographically optimal option. PR0174 (Delhi) is swapped in for PR0039 because Delhi significantly improves the location fit relative to Kolkata compared to Coimbatore, while maintaining high academic and employability scores. The final list prioritizes technical depth/employability (PR0186), best regional fit/HCI focus (PR0174), and maximum financial safety/BA interest (PR0157).",
+ "explanation": "Halcyon Institute of Technology\nThis program was recommended because it maintains a strong technical focus on software engineering and cloud networking while keeping tuition within your $2400 budget at $2050. It aligns well with your IT/CS background and offers high employability, boasting an 83% placement rate and a median starting salary of $15192. The main trade-off here is that the location is Pune, which deviates from your stated preference for Kolkata.\n\nHalcyon Institute of Applied Sciences\nThis option was suggested because its focus on Human-Computer Interaction (HCI) directly supports both technical development and an interest in business process analysis by emphasizing user design. With a tuition cost of $1900, it remains within budget while offering the highest placement rate at 84%. The trade-off is that this program is less technically deep than the MTech option, focusing more on the user experience side rather than core networking or coding infrastructure.\n\nLongford University\nThis program was recommended due to its strong alignment with your interest in Business Process Analyst roles through its focus on business information systems and IT management. Furthermore, it has the lowest tuition cost at $800, providing significant financial flexibility while still meeting your high employability priority. The primary trade-off is that this option has the lowest placement rate (72%) and median starting salary ($10444) compared to the other two programs.",
+ "wall_s": 170.3
+}

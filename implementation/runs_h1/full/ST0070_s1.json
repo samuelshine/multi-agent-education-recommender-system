@@ -1,0 +1,65 @@
+{
+ "student_id": "ST0070",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a python certification background. My overall academic average is 71.2% in an IT/computer-science degree. I'm interested in Software Engineering and security. I want to become a Business Intelligence Analyst. My family can afford at most about USD 3400 per year. I live in Pune. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 71.2
+  },
+  "career_goal": "Business Intelligence Analyst",
+  "budget_max_usd_per_year": 3400,
+  "location_preference": "Pune",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Python certification background",
+   "Interested in Software Engineering and security"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0191",
+  "PR0101",
+  "PR0186",
+  "PR0058",
+  "PR0039",
+  "PR0053",
+  "PR0158",
+  "PR0054",
+  "PR0043",
+  "PR0109",
+  "PR0026",
+  "PR0076",
+  "PR0105",
+  "PR0012",
+  "PR0065",
+  "PR0019",
+  "PR0167",
+  "PR0090",
+  "PR0185",
+  "PR0015"
+ ],
+ "retrieved_ids": [
+  "PR0186",
+  "PR0158",
+  "PR0019"
+ ],
+ "proposed_shortlist": [
+  "PR0186",
+  "PR0019",
+  "PR0158"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0186",
+  "PR0019",
+  "PR0158"
+ ],
+ "reflection_note": "The initial shortlist is generally strong and adheres to all hard constraints (Budget: $2050 < $3400; Location: Pune). PR0186 remains the top choice due to its technical depth in SE/Networking. While PR0158 meets the basic criteria, its HCI focus significantly detracts from the student's core interests (BI/Security). I recommend dropping PR0158 and replacing it with a more technically focused option if available, but since no better options are provided, I will keep the top two and re-evaluate the third spot. Given the constraints, keeping PR0158 as the third choice is acceptable only because of its high location fit score, but the student should be warned about the HCI deviation.",
+ "explanation": "Halcyon Institute of Technology\nThis program is recommended because it aligns well with your interest in Software Engineering and is located in Pune, matching your location preference. With an annual tuition of $2050, it stays within your maximum budget of $3400, and your 71.2% grade meets the minimum requirement of 70%. The MTech Computer Networks degree offers a high placement rate of 83%, addressing your priority for employability. The main trade-off is that this program does not offer any post-study work visa benefits.\n\nAshford University\nThis option is highly recommended due to its low annual tuition of $1450, which is well under your budget constraint. It maintains a high placement rate of 84% and focuses on Software Engineering, aligning with your technical interests. Furthermore, the program does not require a CS background, offering flexibility while still being located in Pune. The primary trade-off to consider is that it has the lowest median starting salary ($10285) among the shortlisted options.\n\nAshford School of Engineering\nThis MDes program was selected because it maintains a high placement rate of 84% and keeps tuition costs low at $1900, fitting your budget. While its core focus is Interaction Design (HCI), it still incorporates Software Engineering fields, which relates to building systems needed for Business Intelligence. The main trade-off here is that the curriculum's primary emphasis on design may pull you away from a deep dive into pure software engineering or security topics.",
+ "wall_s": 182.1
+}

@@ -1,0 +1,31 @@
+{
+ "student_id": "ST0081",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 78.7
+    },
+    "career_goal": "Network Security Administrator",
+    "budget_max_usd_per_year": 10800,
+    "location_preference": null,
+    "mobility": "open_domestic",
+    "employability_priority": null,
+    "other_constraints": [
+     "interested in hacking and cloud computing"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0162",
+    "PR0148",
+    "PR0096",
+    "PR0197",
+    "PR0016"
+   ],
+   "feedback": null
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "student_id": "ST0065",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 79.2
+    },
+    "career_goal": "Technical Engineer (programming and cloud computing)",
+    "budget_max_usd_per_year": 9600,
+    "location_preference": "Delhi",
+    "mobility": "prefers_region",
+    "employability_priority": "high",
+    "other_constraints": [
+     "Python certification background"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0102",
+    "PR0121",
+    "PR0184"
+   ],
+   "feedback": null
+  }
+ ]
+}

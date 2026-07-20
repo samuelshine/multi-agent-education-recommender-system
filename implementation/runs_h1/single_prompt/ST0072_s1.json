@@ -1,0 +1,55 @@
+{
+ "student_id": "ST0072",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 80.3% in an IT/computer-science degree. I'm interested in IOT and system developer. I want to become a CRM Technical Developer. My family can afford at most about USD 3600 per year. I live in Bengaluru. I'm open to anywhere in India.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 80.3
+  },
+  "career_goal": "CRM Technical Developer",
+  "budget_max_usd_per_year": 3600,
+  "location_preference": "Bengaluru",
+  "mobility": "prefers_region",
+  "employability_priority": null,
+  "other_constraints": [
+   "r programming certification background",
+   "interested in IOT and system developer"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0117",
+  "PR0198",
+  "PR0097",
+  "PR0139",
+  "PR0164",
+  "PR0029",
+  "PR0022",
+  "PR0182",
+  "PR0060",
+  "PR0191",
+  "PR0119",
+  "PR0101",
+  "PR0143",
+  "PR0186",
+  "PR0176",
+  "PR0058",
+  "PR0149",
+  "PR0092",
+  "PR0187",
+  "PR0039"
+ ],
+ "final_shortlist": [
+  "PR0198",
+  "PR0182",
+  "PR0176",
+  "PR0039",
+  "PR0101"
+ ],
+ "explanation": "This program is located in Bengaluru and has a minimum grade requirement (80%) that matches your academic average. The focus on software engineering aligns well with your interest in system development and provides strong placement prospects.\n\nThis option is located in Pune and has a very low tuition fee ($1950), which respects your budget constraint. While focused on QA testing, it provides foundational software engineering knowledge that can be leveraged toward system development roles.\n\nThis MBA program in Hyderabad has a low tuition fee ($1900) and is relevant to your goal of becoming a CRM Technical Developer by providing IT management skills. It also meets your academic average requirement (min 72%).\n\nLocated in Coimbatore, this program is highly relevant as it covers both design/HCI and software engineering. The tuition fee ($2250) is well within your budget, making it a strong contender for system development.\n\nThis program in Coimbatore focuses on business information systems, which is crucial for understanding CRM technical roles. It has a low tuition fee ($2400) and does not require a CS background, making it an accessible option.",
+ "wall_s": 57.7
+}

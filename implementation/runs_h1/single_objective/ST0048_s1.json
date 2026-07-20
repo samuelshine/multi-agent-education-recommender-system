@@ -1,0 +1,67 @@
+{
+ "student_id": "ST0048",
+ "session": 1,
+ "mode": "single_objective",
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 74.1% in an IT/computer-science degree. I'm interested in Management and Business process analyst. I want to become a Information Technology Manager. My family can afford at most about USD 3400 per year. I live in Hyderabad. I cannot leave my city.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 74.1
+  },
+  "career_goal": "Information Technology Manager",
+  "budget_max_usd_per_year": 3400,
+  "location_preference": "Hyderabad",
+  "mobility": "fixed_city",
+  "employability_priority": null,
+  "other_constraints": [
+   "r programming certification background",
+   "interested in Management and Business process analyst"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0176",
+  "PR0076",
+  "PR0130",
+  "PR0074",
+  "PR0119",
+  "PR0026",
+  "PR0096",
+  "PR0167",
+  "PR0113",
+  "PR0196",
+  "PR0111",
+  "PR0050",
+  "PR0159",
+  "PR0142"
+ ],
+ "retrieved_ids": [
+  "PR0176",
+  "PR0076",
+  "PR0130",
+  "PR0167",
+  "PR0196",
+  "PR0113",
+  "PR0050",
+  "PR0159"
+ ],
+ "proposed_shortlist": [
+  "PR0076",
+  "PR0130",
+  "PR0176",
+  "PR0050",
+  "PR0167"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0076",
+  "PR0130",
+  "PR0176",
+  "PR0196"
+ ],
+ "reflection_note": "The original shortlist was strong but included two programs (PR0050, PR0167) whose focus deviated too much from the student's core interest in 'Management' and 'Business Process Analyst'. I dropped these. I swapped in PR0196 (MTech Computer Science) as a highly relevant technical backup option that maintains location fit and high academic relevance for an IT Manager role, providing better coverage than the original set. The final list prioritizes management/business programs first, followed by a strong technical degree.",
+ "explanation": "Sarayu Institute of Technology\nThis MBA Technology Management program is highly recommended as it directly aligns with your career goal in IT management and interest in business processes. Admission requirements are favorable, accepting students without a required CS background and requiring only a minimum grade percentage of 74%, which meets your academic standing (74.1%). The annual tuition of $1250 fits well within your budget, offering a strong placement rate of 81% and a median starting salary of $13142. There is no significant trade-off here; the program appears to be an excellent match for your profile and goals.\n\nElmhurst School of Engineering\nThis MSc IT Management option is recommended because it keeps tuition costs extremely low at $1000, making it a budget-friendly choice that still focuses on IT management. It requires no CS background and accepts students with grades above 62%, which you meet easily. While the program offers an excellent entry point into Hyderabad's tech sector, the main trade-off is that its median starting salary ($11249) is lower compared to other management options listed.\n\nCrestwood University\nThis MBA Technology Management program is recommended because it provides the highest potential earning outcome while still fitting your managerial career goals. It requires no CS background and accepts students with a minimum grade of 72%, which you exceed. Although its tuition ($1900) is higher than some other options, this investment yields the best median starting salary at $15400 and boasts the highest placement rate (82%). The trade-off here is accepting a slightly higher annual tuition to achieve potentially superior career earnings.\n\nElmhurst Institute of Applied Sciences\nThis MTech Computer Science program was included because it utilizes your existing IT/CS background, but it deviates from your stated interest in management and business processes. While the curriculum focuses on software engineering, which is technically strong, this focus means the trade-off is prioritizing deep technical skills over managerial roles. The tuition of $1650 fits your budget, but its placement rate (70%) and median starting salary ($10817) are lower than the dedicated management programs.",
+ "wall_s": 108.4
+}

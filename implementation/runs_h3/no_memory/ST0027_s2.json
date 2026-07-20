@@ -1,0 +1,69 @@
+{
+ "student_id": "ST0027",
+ "session": 2,
+ "mode": "no_memory",
+ "version": 1,
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 79.2% in an IT/computer-science degree. I'm interested in IOT and security. I want to become a Technical Services/Help Desk/Tech Support. My family can afford at most about USD 9700 per year. I live in Hyderabad. I'm open to going abroad. About the earlier suggestions: I liked PR0029, PR0143.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 79.2
+  },
+  "career_goal": "Technical Services/Help Desk/Tech Support (IOT and security focus)",
+  "budget_max_usd_per_year": 9700,
+  "location_preference": "Hyderabad",
+  "mobility": "open_international",
+  "employability_priority": "medium",
+  "other_constraints": [
+   "Interested in IOT and security"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0021",
+  "PR0117",
+  "PR0022",
+  "PR0187",
+  "PR0002",
+  "PR0121",
+  "PR0188",
+  "PR0098",
+  "PR0050",
+  "PR0159",
+  "PR0000",
+  "PR0195",
+  "PR0153",
+  "PR0051",
+  "PR0151",
+  "PR0037",
+  "PR0161",
+  "PR0198",
+  "PR0097",
+  "PR0104"
+ ],
+ "retrieved_ids": [
+  "PR0050",
+  "PR0159",
+  "PR0021",
+  "PR0153",
+  "PR0000",
+  "PR0195"
+ ],
+ "proposed_shortlist": [
+  "PR0021",
+  "PR0153",
+  "PR0000",
+  "PR0195"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0021",
+  "PR0195",
+  "PR0153"
+ ],
+ "reflection_note": "The initial shortlist was strong in terms of career prospects (Germany), but PR0000 violated the academic grade constraint. I dropped it immediately. Between the remaining options, PR0021 remains the top choice due to its direct IT Support focus and excellent employability/visa potential, despite the location mismatch. I swapped out the original rank 4 (PR0195) and rank 3 (PR0000) for a more balanced list of three strong German options that meet constraints: PR0021 (Best Fit), PR0195 (Budget/Backup), and PR0153 (Alternative Focus). I prioritized the best fit first, followed by viable alternatives.",
+ "explanation": "Ashford Institute of Technology\nThis program was recommended because its focus on IT Operations directly aligns with your goal in technical services and tech support. It is highly affordable at an annual tuition of $450 USD, well within your budget, and you meet the minimum admission requirement of 73% (your grade is 79.2%). The strong placement rate of 82% and the 18-month post-study work visa provide excellent career security in Germany. The main trade-off here is that while it focuses on IT Operations, it may not offer as deep a specialization in IOT or security compared to dedicated technical programs.\n\nKeystone School of Engineering\nThis program offers an extremely low tuition cost of $300 USD and maintains a high placement rate of 82%, making it excellent for your budget constraints. You meet the minimum admission grade (79.2% vs. 72%), and the strong median starting salary of $51,059 is highly attractive. The primary trade-off to consider is that its focus on business information systems might be more geared toward corporate strategy rather than deep technical specialization in IOT or security.\n\nKeystone University\nThis option was recommended because it provides a solid foundation for service roles through its Human-Computer Interaction curriculum, and the tuition of $550 USD remains very budget-friendly. You meet all admission requirements, and the program offers an 18-month post-study work visa in Germany. The main trade-off is that while HCI is crucial for user experience in tech support, its focus on design may pull you away from your core interest in technical security or IOT hardware.",
+ "wall_s": 197.1
+}

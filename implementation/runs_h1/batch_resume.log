@@ -1,0 +1,609 @@
+[chain] stage=h3_full attempt=1 13:03:14
+skip ST0000 s1 (exists)
+skip ST0000 s2 (exists)
+skip ST0000 s3 (exists)
+skip ST0001 s1 (exists)
+skip ST0001 s2 (exists)
+skip ST0001 s3 (exists)
+skip ST0002 s1 (exists)
+skip ST0002 s2 (exists)
+skip ST0002 s3 (exists)
+skip ST0003 s1 (exists)
+skip ST0003 s2 (exists)
+skip ST0003 s3 (exists)
+skip ST0004 s1 (exists)
+skip ST0004 s2 (exists)
+skip ST0004 s3 (exists)
+skip ST0005 s1 (exists)
+skip ST0005 s2 (exists)
+skip ST0005 s3 (exists)
+skip ST0006 s1 (exists)
+skip ST0006 s2 (exists)
+skip ST0006 s3 (exists)
+skip ST0007 s1 (exists)
+skip ST0007 s2 (exists)
+skip ST0007 s3 (exists)
+skip ST0008 s1 (exists)
+skip ST0008 s2 (exists)
+skip ST0008 s3 (exists)
+skip ST0009 s1 (exists)
+skip ST0009 s2 (exists)
+skip ST0009 s3 (exists)
+skip ST0010 s1 (exists)
+skip ST0010 s2 (exists)
+skip ST0010 s3 (exists)
+skip ST0011 s1 (exists)
+skip ST0011 s2 (exists)
+skip ST0011 s3 (exists)
+skip ST0012 s1 (exists)
+skip ST0012 s2 (exists)
+skip ST0012 s3 (exists)
+skip ST0013 s1 (exists)
+skip ST0013 s2 (exists)
+skip ST0013 s3 (exists)
+run  ST0014 s1 [full]
+     -> ['PR0186', 'PR0147', 'PR0118', 'PR0102', 'PR0043']  (122.7s, fallbacks=[])
+run  ST0014 s2 [full]
+     -> ['PR0198', 'PR0096', 'PR0159', 'PR0186', 'PR0197']  (327.8s, fallbacks=[])
+run  ST0014 s3 [full]
+     -> ['PR0186', 'PR0096', 'PR0148', 'PR0180']  (222.4s, fallbacks=[])
+run  ST0015 s1 [full]
+     -> ['PR0198', 'PR0065', 'PR0182', 'PR0053']  (200.4s, fallbacks=[])
+run  ST0015 s2 [full]
+     -> ['PR0191', 'PR0109', 'PR0197', 'PR0162', 'PR0199']  (190.7s, fallbacks=[])
+run  ST0015 s3 [full]
+     -> ['PR0191', 'PR0176', 'PR0182', 'PR0053', 'PR0139']  (159.3s, fallbacks=[])
+run  ST0016 s1 [full]
+     -> ['PR0186', 'PR0058', 'PR0198', 'PR0139']  (189.6s, fallbacks=[])
+run  ST0016 s2 [full]
+     -> ['PR0060', 'PR0029', 'PR0161', 'PR0137', 'PR0119']  (224.4s, fallbacks=[])
+run  ST0016 s3 [full]
+     -> ['PR0198', 'PR0153', 'PR0195', 'PR0194', 'PR0164']  (233.0s, fallbacks=[])
+run  ST0017 s1 [full]
+     -> ['PR0143', 'PR0186', 'PR0101', 'PR0164']  (198.3s, fallbacks=[])
+run  ST0017 s2 [full]
+     -> ['PR0185', 'PR0032', 'PR0129', 'PR0053', 'PR0150']  (207.2s, fallbacks=[])
+run  ST0017 s3 [full]
+     -> ['PR0186', 'PR0174', 'PR0157']  (170.3s, fallbacks=[])
+run  ST0018 s1 [full]
+     -> ['PR0158', 'PR0149', 'PR0046', 'PR0039', 'PR0029']  (208.2s, fallbacks=[])
+run  ST0018 s2 [full]
+     -> ['PR0153', 'PR0013', 'PR0158', 'PR0174', 'PR0149']  (209.2s, fallbacks=[])
+run  ST0018 s3 [full]
+     -> ['PR0013', 'PR0039', 'PR0158', 'PR0046']  (257.3s, fallbacks=['recommend'])
+run  ST0019 s1 [full]
+     -> ['PR0026', 'PR0107', 'PR0074', 'PR0173', 'PR0145']  (234.6s, fallbacks=[])
+run  ST0019 s2 [full]
+     -> ['PR0007', 'PR0173', 'PR0145', 'PR0107', 'PR0143']  (260.6s, fallbacks=[])
+run  ST0019 s3 [full]
+[chain] stage=h3_full attempt=1 21:49:38
+skip ST0000 s1 (exists)
+skip ST0000 s2 (exists)
+skip ST0000 s3 (exists)
+skip ST0001 s1 (exists)
+skip ST0001 s2 (exists)
+skip ST0001 s3 (exists)
+skip ST0002 s1 (exists)
+skip ST0002 s2 (exists)
+skip ST0002 s3 (exists)
+skip ST0003 s1 (exists)
+skip ST0003 s2 (exists)
+skip ST0003 s3 (exists)
+skip ST0004 s1 (exists)
+skip ST0004 s2 (exists)
+skip ST0004 s3 (exists)
+skip ST0005 s1 (exists)
+skip ST0005 s2 (exists)
+skip ST0005 s3 (exists)
+skip ST0006 s1 (exists)
+skip ST0006 s2 (exists)
+skip ST0006 s3 (exists)
+skip ST0007 s1 (exists)
+skip ST0007 s2 (exists)
+skip ST0007 s3 (exists)
+skip ST0008 s1 (exists)
+skip ST0008 s2 (exists)
+skip ST0008 s3 (exists)
+skip ST0009 s1 (exists)
+skip ST0009 s2 (exists)
+skip ST0009 s3 (exists)
+skip ST0010 s1 (exists)
+skip ST0010 s2 (exists)
+skip ST0010 s3 (exists)
+skip ST0011 s1 (exists)
+skip ST0011 s2 (exists)
+skip ST0011 s3 (exists)
+skip ST0012 s1 (exists)
+skip ST0012 s2 (exists)
+skip ST0012 s3 (exists)
+skip ST0013 s1 (exists)
+skip ST0013 s2 (exists)
+skip ST0013 s3 (exists)
+skip ST0014 s1 (exists)
+skip ST0014 s2 (exists)
+skip ST0014 s3 (exists)
+skip ST0015 s1 (exists)
+skip ST0015 s2 (exists)
+skip ST0015 s3 (exists)
+skip ST0016 s1 (exists)
+skip ST0016 s2 (exists)
+skip ST0016 s3 (exists)
+skip ST0017 s1 (exists)
+skip ST0017 s2 (exists)
+skip ST0017 s3 (exists)
+skip ST0018 s1 (exists)
+skip ST0018 s2 (exists)
+skip ST0018 s3 (exists)
+skip ST0019 s1 (exists)
+skip ST0019 s2 (exists)
+run  ST0019 s3 [full]
+     -> ['PR0007', 'PR0191', 'PR0071', 'PR0145']  (79.4s, fallbacks=[])
+run  ST0020 s1 [full]
+     -> ['PR0147', 'PR0043', 'PR0186', 'PR0197']  (217.8s, fallbacks=['reflect'])
+run  ST0020 s2 [full]
+     -> ['PR0194', 'PR0001', 'PR0169', 'PR0000', 'PR0195']  (262.0s, fallbacks=[])
+run  ST0020 s3 [full]
+     -> ['PR0194', 'PR0000', 'PR0195', 'PR0061']  (213.1s, fallbacks=[])
+run  ST0021 s1 [full]
+     -> ['PR0186', 'PR0143', 'PR0119', 'PR0087']  (230.8s, fallbacks=[])
+run  ST0021 s2 [full]
+     -> ['PR0032', 'PR0185', 'PR0129', 'PR0133']  (223.7s, fallbacks=[])
+run  ST0021 s3 [full]
+     -> ['PR0053', 'PR0185', 'PR0012', 'PR0120', 'PR0087']  (295.6s, fallbacks=['recommend'])
+run  ST0022 s1 [full]
+     -> ['PR0198', 'PR0164', 'PR0144', 'PR0101']  (214.9s, fallbacks=[])
+run  ST0022 s2 [full]
+     -> ['PR0101', 'PR0054', 'PR0033', 'PR0148']  (226.7s, fallbacks=[])
+run  ST0022 s3 [full]
+     -> ['PR0101', 'PR0054', 'PR0039', 'PR0187']  (210.2s, fallbacks=[])
+run  ST0023 s1 [full]
+     -> ['PR0186', 'PR0043', 'PR0058', 'PR0197', 'PR0143']  (210.5s, fallbacks=[])
+run  ST0023 s2 [full]
+     -> ['PR0194', 'PR0037', 'PR0151', 'PR0126', 'PR0042']  (248.8s, fallbacks=[])
+run  ST0023 s3 [full]
+     -> ['PR0037', 'PR0151', 'PR0042']  (281.5s, fallbacks=[])
+run  ST0024 s1 [full]
+     -> ['PR0058', 'PR0186', 'PR0182', 'PR0029']  (193.4s, fallbacks=[])
+run  ST0024 s2 [full]
+     -> ['PR0186', 'PR0198', 'PR0174', 'PR0182']  (222.9s, fallbacks=[])
+run  ST0024 s3 [full]
+     -> ['PR0186', 'PR0158', 'PR0182', 'PR0053']  (243.6s, fallbacks=[])
+run  ST0025 s1 [full]
+     -> ['PR0186', 'PR0043', 'PR0155', 'PR0144']  (251.4s, fallbacks=['reflect'])
+run  ST0025 s2 [full]
+     -> ['PR0194', 'PR0037', 'PR0126', 'PR0038', 'PR0186']  (201.6s, fallbacks=[])
+run  ST0025 s3 [full]
+     -> ['PR0053', 'PR0186', 'PR0038', 'PR0194', 'PR0109']  (273.9s, fallbacks=[])
+run  ST0026 s1 [full]
+     -> ['PR0193', 'PR0053', 'PR0179', 'PR0119']  (180.7s, fallbacks=[])
+run  ST0026 s2 [full]
+     -> ['PR0085', 'PR0015', 'PR0073']  (170.1s, fallbacks=[])
+run  ST0026 s3 [full]
+     -> ['PR0085', 'PR0013', 'PR0073', 'PR0087']  (177.4s, fallbacks=[])
+run  ST0027 s1 [full]
+     -> ['PR0029', 'PR0143', 'PR0186', 'PR0198', 'PR0187']  (207.6s, fallbacks=[])
+run  ST0027 s2 [full]
+     -> ['PR0021', 'PR0195', 'PR0153']  (215.9s, fallbacks=[])
+run  ST0027 s3 [full]
+     -> ['PR0021', 'PR0195', 'PR0161']  (277.7s, fallbacks=[])
+run  ST0028 s1 [full]
+     -> ['PR0186', 'PR0143', 'PR0026', 'PR0109']  (211.0s, fallbacks=[])
+run  ST0028 s2 [full]
+     -> ['PR0126', 'PR0086', 'PR0034', 'PR0136', 'PR0027']  (237.9s, fallbacks=[])
+run  ST0028 s3 [full]
+     -> ['PR0086', 'PR0027', 'PR0132', 'PR0136']  (225.3s, fallbacks=[])
+run  ST0029 s1 [full]
+     -> ['PR0164', 'PR0047', 'PR0191', 'PR0033', 'PR0157']  (232.1s, fallbacks=[])
+run  ST0029 s2 [full]
+     -> ['PR0126', 'PR0062', 'PR0145', 'PR0143']  (230.6s, fallbacks=[])
+run  ST0029 s3 [full]
+     -> ['PR0195', 'PR0000', 'PR0137', 'PR0051', 'PR0044']  (224.9s, fallbacks=[])
+
+llm stats: {"calls": 162, "cache_hits": 3, "total_latency_s": 6892.260845184326}
+metrics: {
+ "n": 90,
+ "ndcg@5": 0.702,
+ "precision@5": 0.8756,
+ "recall@5": 0.0882
+}
+[chain] stage=h3_full OK
+[chain] stage=h3_no_memory attempt=1 23:44:31
+skip ST0000 s1 (exists)
+run  ST0000 s2 [no_memory]
+     -> ['PR0194', 'PR0161', 'PR0151', 'PR0195']  (251.8s, fallbacks=[])
+run  ST0000 s3 [no_memory]
+     -> ['PR0194', 'PR0161', 'PR0195', 'PR0153', 'PR0037']  (201.4s, fallbacks=[])
+run  ST0001 s1 [no_memory]
+     -> ['PR0058', 'PR0145', 'PR0119', 'PR0085', 'PR0053']  (0.0s, fallbacks=[])
+run  ST0001 s2 [no_memory]
+     -> ['PR0126', 'PR0053', 'PR0071']  (203.6s, fallbacks=[])
+run  ST0001 s3 [no_memory]
+     -> ['PR0053', 'PR0145', 'PR0026']  (200.5s, fallbacks=[])
+run  ST0002 s1 [no_memory]
+     -> ['PR0198', 'PR0074', 'PR0191', 'PR0097', 'PR0144']  (0.0s, fallbacks=[])
+run  ST0002 s2 [no_memory]
+     -> ['PR0053', 'PR0076', 'PR0087', 'PR0015']  (187.6s, fallbacks=[])
+run  ST0002 s3 [no_memory]
+     -> ['PR0120', 'PR0130', 'PR0157', 'PR0111']  (209.9s, fallbacks=[])
+run  ST0003 s1 [no_memory]
+     -> ['PR0097', 'PR0026', 'PR0143', 'PR0186', 'PR0145']  (0.0s, fallbacks=[])
+run  ST0003 s2 [no_memory]
+     -> ['PR0071', 'PR0158', 'PR0109']  (203.2s, fallbacks=[])
+run  ST0003 s3 [no_memory]
+     -> ['PR0071', 'PR0143', 'PR0144', 'PR0026']  (198.1s, fallbacks=[])
+run  ST0004 s1 [no_memory]
+     -> ['PR0053', 'PR0114', 'PR0179', 'PR0119']  (0.0s, fallbacks=[])
+run  ST0004 s2 [no_memory]
+     -> ['PR0045', 'PR0023', 'PR0187', 'PR0072', 'PR0019']  (193.8s, fallbacks=[])
+run  ST0004 s3 [no_memory]
+     -> ['PR0186', 'PR0045', 'PR0180', 'PR0187', 'PR0182']  (206.3s, fallbacks=[])
+run  ST0005 s1 [no_memory]
+     -> ['PR0053', 'PR0186', 'PR0182', 'PR0119']  (0.0s, fallbacks=[])
+run  ST0005 s2 [no_memory]
+     -> ['PR0065', 'PR0186', 'PR0119', 'PR0198']  (245.6s, fallbacks=[])
+run  ST0005 s3 [no_memory]
+     -> ['PR0065', 'PR0198', 'PR0186']  (197.3s, fallbacks=[])
+run  ST0006 s1 [no_memory]
+     -> ['PR0186', 'PR0143', 'PR0172', 'PR0060', 'PR0176']  (0.0s, fallbacks=[])
+run  ST0006 s2 [no_memory]
+     -> ['PR0130', 'PR0119', 'PR0076']  (242.5s, fallbacks=['reflect'])
+run  ST0006 s3 [no_memory]
+     -> ['PR0130', 'PR0076', 'PR0119', 'PR0073']  (180.9s, fallbacks=[])
+run  ST0007 s1 [no_memory]
+     -> ['PR0120', 'PR0111', 'PR0071', 'PR0170']  (0.0s, fallbacks=[])
+run  ST0007 s2 [no_memory]
+     -> ['PR0173', 'PR0013']  (119.7s, fallbacks=[])
+run  ST0007 s3 [no_memory]
+     -> ['PR0173', 'PR0087', 'PR0015']  (153.3s, fallbacks=[])
+run  ST0008 s1 [no_memory]
+     -> ['PR0174', 'PR0158', 'PR0013', 'PR0166', 'PR0181']  (0.0s, fallbacks=[])
+run  ST0008 s2 [no_memory]
+     -> ['PR0013', 'PR0046', 'PR0157', 'PR0039', 'PR0181']  (189.0s, fallbacks=[])
+run  ST0008 s3 [no_memory]
+     -> ['PR0013', 'PR0046', 'PR0157', 'PR0166']  (127.2s, fallbacks=[])
+run  ST0009 s1 [no_memory]
+     -> ['PR0186', 'PR0182', 'PR0172', 'PR0157', 'PR0119']  (0.0s, fallbacks=[])
+run  ST0009 s2 [no_memory]
+     -> ['PR0186', 'PR0020', 'PR0176', 'PR0182']  (252.9s, fallbacks=[])
+run  ST0009 s3 [no_memory]
+     -> ['PR0029', 'PR0186', 'PR0060', 'PR0143', 'PR0191']  (286.4s, fallbacks=[])
+run  ST0010 s1 [no_memory]
+     -> ['PR0186', 'PR0199', 'PR0102', 'PR0165']  (0.0s, fallbacks=[])
+run  ST0010 s2 [no_memory]
+     -> ['PR0015', 'PR0002', 'PR0087', 'PR0085', 'PR0013']  (171.7s, fallbacks=[])
+run  ST0010 s3 [no_memory]
+     -> ['PR0015', 'PR0087', 'PR0173', 'PR0013']  (212.9s, fallbacks=[])
+run  ST0011 s1 [no_memory]
+     -> ['PR0029', 'PR0144', 'PR0198', 'PR0143']  (0.0s, fallbacks=[])
+run  ST0011 s2 [no_memory]
+     -> ['PR0144']  (147.0s, fallbacks=[])
+run  ST0011 s3 [no_memory]
+     -> ['PR0144', 'PR0158', 'PR0019']  (182.9s, fallbacks=['reflect'])
+run  ST0012 s1 [no_memory]
+     -> ['PR0198', 'PR0139', 'PR0065', 'PR0164', 'PR0076']  (0.0s, fallbacks=['reflect'])
+run  ST0012 s2 [no_memory]
+     -> ['PR0191', 'PR0054', 'PR0076', 'PR0176', 'PR0164']  (203.4s, fallbacks=[])
+run  ST0012 s3 [no_memory]
+     -> ['PR0191', 'PR0182', 'PR0172', 'PR0119']  (204.4s, fallbacks=[])
+run  ST0013 s1 [no_memory]
+     -> ['PR0176', 'PR0164', 'PR0101', 'PR0060']  (0.0s, fallbacks=[])
+run  ST0013 s2 [no_memory]
+     -> ['PR0078', 'PR0172', 'PR0164', 'PR0176']  (196.4s, fallbacks=[])
+run  ST0013 s3 [no_memory]
+     -> ['PR0078', 'PR0172', 'PR0130']  (185.7s, fallbacks=[])
+run  ST0014 s1 [no_memory]
+     -> ['PR0186', 'PR0147', 'PR0118', 'PR0102', 'PR0043']  (0.0s, fallbacks=[])
+run  ST0014 s2 [no_memory]
+     -> ['PR0186', 'PR0096', 'PR0043', 'PR0147']  (203.8s, fallbacks=[])
+run  ST0014 s3 [no_memory]
+     -> ['PR0186', 'PR0148', 'PR0197', 'PR0184']  (249.8s, fallbacks=[])
+run  ST0015 s1 [no_memory]
+     -> ['PR0198', 'PR0065', 'PR0182', 'PR0053']  (0.0s, fallbacks=[])
+run  ST0015 s2 [no_memory]
+     -> ['PR0191', 'PR0198', 'PR0072', 'PR0164', 'PR0076']  (191.5s, fallbacks=[])
+run  ST0015 s3 [no_memory]
+     -> ['PR0191', 'PR0053', 'PR0176', 'PR0026', 'PR0182']  (16.6s, fallbacks=[])
+run  ST0016 s1 [no_memory]
+     -> ['PR0186', 'PR0058', 'PR0198', 'PR0139']  (0.0s, fallbacks=[])
+run  ST0016 s2 [no_memory]
+     -> ['PR0060', 'PR0182', 'PR0153', 'PR0195', 'PR0194']  (198.3s, fallbacks=[])
+run  ST0016 s3 [no_memory]
+     -> ['PR0029', 'PR0198', 'PR0195', 'PR0153', 'PR0164']  (264.4s, fallbacks=[])
+run  ST0017 s1 [no_memory]
+     -> ['PR0143', 'PR0186', 'PR0101', 'PR0164']  (0.0s, fallbacks=[])
+run  ST0017 s2 [no_memory]
+     -> ['PR0058', 'PR0176', 'PR0157', 'PR0186', 'PR0172']  (204.3s, fallbacks=[])
+run  ST0017 s3 [no_memory]
+     -> ['PR0176', 'PR0119', 'PR0187']  (184.3s, fallbacks=[])
+run  ST0018 s1 [no_memory]
+     -> ['PR0158', 'PR0149', 'PR0046', 'PR0039', 'PR0029']  (0.0s, fallbacks=[])
+run  ST0018 s2 [no_memory]
+     -> ['PR0013', 'PR0084', 'PR0046', 'PR0174', 'PR0158']  (204.2s, fallbacks=[])
+run  ST0018 s3 [no_memory]
+     -> ['PR0013', 'PR0158', 'PR0046', 'PR0149', 'PR0166']  (17.4s, fallbacks=[])
+run  ST0019 s1 [no_memory]
+     -> ['PR0026', 'PR0107', 'PR0074', 'PR0173', 'PR0145']  (0.0s, fallbacks=[])
+run  ST0019 s2 [no_memory]
+     -> ['PR0007', 'PR0134', 'PR0074', 'PR0173']  (173.4s, fallbacks=[])
+run  ST0019 s3 [no_memory]
+     -> ['PR0007', 'PR0145', 'PR0120']  (211.0s, fallbacks=[])
+run  ST0020 s1 [no_memory]
+     -> ['PR0147', 'PR0043', 'PR0186', 'PR0197']  (0.0s, fallbacks=['reflect'])
+run  ST0020 s2 [no_memory]
+     -> ['PR0000', 'PR0194', 'PR0195', 'PR0061']  (200.9s, fallbacks=[])
+run  ST0020 s3 [no_memory]
+     -> ['PR0000', 'PR0195', 'PR0169', 'PR0061']  (14.2s, fallbacks=[])
+run  ST0021 s1 [no_memory]
+     -> ['PR0186', 'PR0143', 'PR0119', 'PR0087']  (0.0s, fallbacks=[])
+run  ST0021 s2 [no_memory]
+     -> ['PR0185', 'PR0053', 'PR0157']  (190.6s, fallbacks=[])
+run  ST0021 s3 [no_memory]
+     -> ['PR0053', 'PR0185', 'PR0012', 'PR0130', 'PR0157']  (190.7s, fallbacks=[])
+run  ST0022 s1 [no_memory]
+     -> ['PR0198', 'PR0164', 'PR0144', 'PR0101']  (0.0s, fallbacks=[])
+run  ST0022 s2 [no_memory]
+     -> ['PR0101', 'PR0054', 'PR0033', 'PR0039', 'PR0187']  (257.7s, fallbacks=[])
+run  ST0022 s3 [no_memory]
+     -> ['PR0101', 'PR0039', 'PR0187', 'PR0176', 'PR0119']  (213.2s, fallbacks=[])
+run  ST0023 s1 [no_memory]
+     -> ['PR0186', 'PR0043', 'PR0058', 'PR0197', 'PR0143']  (0.0s, fallbacks=[])
+run  ST0023 s2 [no_memory]
+     -> ['PR0026', 'PR0126', 'PR0194']  (184.3s, fallbacks=[])
+run  ST0023 s3 [no_memory]
+     -> ['PR0026', 'PR0143', 'PR0099', 'PR0111']  (219.3s, fallbacks=[])
+run  ST0024 s1 [no_memory]
+     -> ['PR0058', 'PR0186', 'PR0182', 'PR0029']  (0.0s, fallbacks=[])
+run  ST0024 s2 [no_memory]
+     -> ['PR0186', 'PR0143', 'PR0182', 'PR0039']  (206.9s, fallbacks=[])
+run  ST0024 s3 [no_memory]
+     -> ['PR0186', 'PR0158', 'PR0176']  (207.1s, fallbacks=[])
+run  ST0025 s1 [no_memory]
+     -> ['PR0186', 'PR0043', 'PR0155', 'PR0144']  (0.0s, fallbacks=['reflect'])
+run  ST0025 s2 [no_memory]
+     -> ['PR0037', 'PR0194', 'PR0186', 'PR0038']  (228.5s, fallbacks=[])
+run  ST0025 s3 [no_memory]
+     -> ['PR0194', 'PR0037', 'PR0186', 'PR0043']  (202.2s, fallbacks=[])
+run  ST0026 s1 [no_memory]
+     -> ['PR0193', 'PR0053', 'PR0179', 'PR0119']  (0.0s, fallbacks=[])
+run  ST0026 s2 [no_memory]
+     -> ['PR0173', 'PR0073', 'PR0013', 'PR0015', 'PR0087']  (155.3s, fallbacks=[])
+run  ST0026 s3 [no_memory]
+     -> ['PR0085', 'PR0013']  (151.9s, fallbacks=[])
+run  ST0027 s1 [no_memory]
+     -> ['PR0029', 'PR0143', 'PR0186', 'PR0198', 'PR0187']  (0.0s, fallbacks=[])
+run  ST0027 s2 [no_memory]
+     -> ['PR0021', 'PR0195', 'PR0153']  (197.1s, fallbacks=[])
+run  ST0027 s3 [no_memory]
+     -> ['PR0050']  (142.3s, fallbacks=[])
+run  ST0028 s1 [no_memory]
+     -> ['PR0186', 'PR0143', 'PR0026', 'PR0109']  (0.0s, fallbacks=[])
+run  ST0028 s2 [no_memory]
+     -> ['PR0126', 'PR0027', 'PR0067', 'PR0132', 'PR0173']  (230.8s, fallbacks=[])
+run  ST0028 s3 [no_memory]
+     -> ['PR0126', 'PR0086', 'PR0027', 'PR0067', 'PR0136']  (298.6s, fallbacks=[])
+run  ST0029 s1 [no_memory]
+     -> ['PR0164', 'PR0047', 'PR0191', 'PR0033', 'PR0157']  (0.0s, fallbacks=[])
+run  ST0029 s2 [no_memory]
+     -> ['PR0000', 'PR0195', 'PR0051']  (259.3s, fallbacks=[])
+run  ST0029 s3 [no_memory]
+     -> ['PR0143', 'PR0099', 'PR0074', 'PR0026', 'PR0137']  (217.3s, fallbacks=[])
+
+llm stats: {"calls": 301, "cache_hits": 168, "total_latency_s": 11641.90338087082}
+metrics: {
+ "n": 90,
+ "ndcg@5": 0.682,
+ "precision@5": 0.8744,
+ "recall@5": 0.0824
+}
+[chain] stage=h3_no_memory OK
+[chain] stage=v2_full attempt=1 02:58:34
+run  ST0000 s1 [full]
+     -> ['PR0194', 'PR0037', 'PR0161', 'PR0151', 'PR0195']  (0.0s, fallbacks=[])
+run  ST0001 s1 [full]
+     -> ['PR0126', 'PR0037', 'PR0058', 'PR0053', 'PR0071']  (121.5s, fallbacks=[])
+run  ST0002 s1 [full]
+     -> ['PR0012', 'PR0053', 'PR0187', 'PR0058', 'PR0174']  (113.8s, fallbacks=[])
+run  ST0003 s1 [full]
+     -> ['PR0144', 'PR0058', 'PR0186', 'PR0143', 'PR0097']  (117.2s, fallbacks=[])
+run  ST0004 s1 [full]
+     -> ['PR0045', 'PR0187', 'PR0023', 'PR0182', 'PR0158']  (127.2s, fallbacks=[])
+run  ST0005 s1 [full]
+     -> ['PR0053', 'PR0119', 'PR0065', 'PR0198', 'PR0139']  (174.1s, fallbacks=[])
+run  ST0006 s1 [full]
+     -> ['PR0185', 'PR0073', 'PR0119', 'PR0120', 'PR0053']  (142.6s, fallbacks=[])
+run  ST0007 s1 [full]
+     -> ['PR0173', 'PR0015', 'PR0073', 'PR0087']  (89.6s, fallbacks=[])
+run  ST0008 s1 [full]
+     -> ['PR0013', 'PR0015', 'PR0158', 'PR0181', 'PR0046']  (138.2s, fallbacks=[])
+run  ST0009 s1 [full]
+     -> ['PR0186', 'PR0029', 'PR0176', 'PR0119', 'PR0182']  (124.4s, fallbacks=[])
+run  ST0010 s1 [full]
+     -> ['PR0073', 'PR0087', 'PR0002', 'PR0085', 'PR0015']  (166.8s, fallbacks=[])
+run  ST0011 s1 [full]
+     -> ['PR0144', 'PR0186', 'PR0182', 'PR0187']  (127.1s, fallbacks=['reflect'])
+run  ST0012 s1 [full]
+     -> ['PR0157', 'PR0191', 'PR0182', 'PR0076', 'PR0176']  (131.6s, fallbacks=[])
+run  ST0013 s1 [full]
+     -> ['PR0157', 'PR0176', 'PR0130', 'PR0150', 'PR0172']  (155.2s, fallbacks=[])
+run  ST0014 s1 [full]
+     -> ['PR0198', 'PR0186', 'PR0096', 'PR0197', 'PR0148']  (185.4s, fallbacks=['reflect'])
+run  ST0015 s1 [full]
+     -> ['PR0191', 'PR0176', 'PR0053', 'PR0182', 'PR0026']  (161.5s, fallbacks=['reflect'])
+run  ST0016 s1 [full]
+     -> ['PR0161', 'PR0195', 'PR0153', 'PR0194', 'PR0021']  (128.7s, fallbacks=[])
+run  ST0017 s1 [full]
+     -> ['PR0157', 'PR0182', 'PR0119', 'PR0174', 'PR0164']  (153.3s, fallbacks=[])
+run  ST0018 s1 [full]
+     -> ['PR0013', 'PR0149', 'PR0158', 'PR0174', 'PR0141']  (110.1s, fallbacks=[])
+run  ST0019 s1 [full]
+     -> ['PR0007', 'PR0143', 'PR0173', 'PR0071', 'PR0191']  (131.4s, fallbacks=[])
+run  ST0020 s1 [full]
+     -> ['PR0000', 'PR0195', 'PR0169', 'PR0123', 'PR0051']  (128.4s, fallbacks=[])
+run  ST0021 s1 [full]
+     -> ['PR0130', 'PR0120', 'PR0157', 'PR0015', 'PR0076']  (123.5s, fallbacks=[])
+run  ST0022 s1 [full]
+     -> ['PR0186', 'PR0164', 'PR0187', 'PR0157', 'PR0039']  (150.3s, fallbacks=[])
+run  ST0023 s1 [full]
+     -> ['PR0194', 'PR0037', 'PR0126', 'PR0042', 'PR0043']  (172.3s, fallbacks=[])
+run  ST0024 s1 [full]
+     -> ['PR0198', 'PR0029', 'PR0186', 'PR0182', 'PR0039']  (131.1s, fallbacks=[])
+run  ST0025 s1 [full]
+     -> ['PR0194', 'PR0037', 'PR0126', 'PR0038', 'PR0043']  (137.3s, fallbacks=[])
+run  ST0026 s1 [full]
+     -> ['PR0085', 'PR0073', 'PR0087', 'PR0173', 'PR0015']  (150.9s, fallbacks=['reflect'])
+run  ST0027 s1 [full]
+     -> ['PR0195', 'PR0194', 'PR0021', 'PR0153', 'PR0042']  (125.6s, fallbacks=[])
+run  ST0028 s1 [full]
+     -> ['PR0086', 'PR0027', 'PR0136', 'PR0034', 'PR0126']  (128.4s, fallbacks=[])
+run  ST0029 s1 [full]
+     -> ['PR0000', 'PR0195', 'PR0153', 'PR0021', 'PR0044']  (122.0s, fallbacks=[])
+run  ST0030 s1 [full]
+     -> ['PR0162', 'PR0197', 'PR0171', 'PR0191', 'PR0059']  (145.4s, fallbacks=[])
+run  ST0031 s1 [full]
+     -> ['PR0191', 'PR0101', 'PR0054', 'PR0157', 'PR0120']  (124.2s, fallbacks=[])
+run  ST0032 s1 [full]
+     -> ['PR0092', 'PR0172', 'PR0078', 'PR0156']  (124.4s, fallbacks=[])
+run  ST0033 s1 [full]
+     -> ['PR0186', 'PR0180', 'PR0159', 'PR0165', 'PR0182']  (141.6s, fallbacks=[])
+run  ST0034 s1 [full]
+     -> ['PR0007', 'PR0172', 'PR0134', 'PR0157', 'PR0101']  (130.9s, fallbacks=[])
+run  ST0035 s1 [full]
+     -> ['PR0173', 'PR0015', 'PR0087', 'PR0073', 'PR0013']  (169.8s, fallbacks=['reflect'])
+run  ST0036 s1 [full]
+     -> ['PR0160', 'PR0157', 'PR0076', 'PR0130', 'PR0156']  (129.6s, fallbacks=[])
+run  ST0037 s1 [full]
+     -> ['PR0109', 'PR0053', 'PR0119', 'PR0187', 'PR0158']  (146.5s, fallbacks=[])
+run  ST0038 s1 [full]
+     -> ['PR0167', 'PR0096', 'PR0176', 'PR0196', 'PR0130']  (134.5s, fallbacks=[])
+run  ST0039 s1 [full]
+     -> ['PR0173', 'PR0015', 'PR0087', 'PR0013', 'PR0073']  (123.0s, fallbacks=[])
+run  ST0040 s1 [full]
+     -> ['PR0184', 'PR0064', 'PR0120', 'PR0063']  (127.2s, fallbacks=['reflect'])
+run  ST0041 s1 [full]
+     -> ['PR0019', 'PR0080', 'PR0190', 'PR0187']  (125.3s, fallbacks=['reflect'])
+run  ST0042 s1 [full]
+     -> ['PR0165']  (54.1s, fallbacks=['reflect'])
+run  ST0043 s1 [full]
+     -> ['PR0087', 'PR0173', 'PR0085', 'PR0015', 'PR0013']  (130.7s, fallbacks=[])
+run  ST0044 s1 [full]
+     -> ['PR0101', 'PR0054', 'PR0033', 'PR0157', 'PR0139']  (121.6s, fallbacks=[])
+run  ST0045 s1 [full]
+     -> ['PR0197', 'PR0199', 'PR0162', 'PR0165', 'PR0109']  (125.9s, fallbacks=[])
+run  ST0046 s1 [full]
+     -> ['PR0096', 'PR0186', 'PR0180', 'PR0159', 'PR0148']  (135.2s, fallbacks=[])
+run  ST0047 s1 [full]
+     -> ['PR0085', 'PR0173', 'PR0198', 'PR0142', 'PR0082']  (146.9s, fallbacks=[])
+run  ST0048 s1 [full]
+     -> ['PR0076', 'PR0176', 'PR0130', 'PR0167', 'PR0196']  (147.1s, fallbacks=['reflect'])
+run  ST0049 s1 [full]
+     -> ['PR0164', 'PR0020', 'PR0139']  (114.6s, fallbacks=['reflect'])
+run  ST0050 s1 [full]
+     -> ['PR0164', 'PR0139', 'PR0020']  (65.1s, fallbacks=[])
+run  ST0051 s1 [full]
+     -> ['PR0012', 'PR0185', 'PR0171', 'PR0112', 'PR0186']  (126.7s, fallbacks=[])
+run  ST0052 s1 [full]
+     -> ['PR0194', 'PR0042', 'PR0001', 'PR0004', 'PR0180']  (118.1s, fallbacks=[])
+run  ST0053 s1 [full]
+     -> ['PR0195', 'PR0153', 'PR0151', 'PR0122', 'PR0189']  (129.7s, fallbacks=[])
+run  ST0054 s1 [full]
+     -> ['PR0185', 'PR0114', 'PR0053', 'PR0109', 'PR0130']  (129.1s, fallbacks=[])
+run  ST0055 s1 [full]
+     -> ['PR0020', 'PR0182', 'PR0157', 'PR0193', 'PR0114']  (139.8s, fallbacks=[])
+run  ST0056 s1 [full]
+     -> ['PR0000', 'PR0195', 'PR0153', 'PR0021']  (131.4s, fallbacks=['reflect'])
+run  ST0057 s1 [full]
+     -> ['PR0186', 'PR0197', 'PR0199', 'PR0102', 'PR0180']  (126.4s, fallbacks=[])
+run  ST0058 s1 [full]
+     -> ['PR0013', 'PR0185', 'PR0112', 'PR0053', 'PR0032']  (114.1s, fallbacks=[])
+run  ST0059 s1 [full]
+     -> ['PR0171', 'PR0071', 'PR0170', 'PR0058', 'PR0120']  (112.9s, fallbacks=[])
+run  ST0060 s1 [full]
+     -> ['PR0120', 'PR0107', 'PR0063']  (100.8s, fallbacks=['reflect'])
+run  ST0061 s1 [full]
+     -> ['PR0190', 'PR0084', 'PR0181', 'PR0019', 'PR0023']  (140.1s, fallbacks=[])
+run  ST0062 s1 [full]
+     -> ['PR0000', 'PR0195', 'PR0024', 'PR0163', 'PR0001']  (135.0s, fallbacks=[])
+run  ST0063 s1 [full]
+     -> ['PR0186', 'PR0197', 'PR0147', 'PR0180', 'PR0032']  (120.1s, fallbacks=[])
+run  ST0064 s1 [full]
+     -> ['PR0164', 'PR0020', 'PR0160']  (116.1s, fallbacks=['reflect'])
+run  ST0065 s1 [full]
+     -> ['PR0102', 'PR0121', 'PR0184']  (78.0s, fallbacks=[])
+run  ST0066 s1 [full]
+     -> ['PR0129', 'PR0090', 'PR0133']  (85.7s, fallbacks=[])
+run  ST0067 s1 [full]
+     -> ['PR0114', 'PR0082', 'PR0049', 'PR0112', 'PR0071']  (127.8s, fallbacks=[])
+run  ST0068 s1 [full]
+     -> ['PR0146', 'PR0127', 'PR0005', 'PR0194', 'PR0042']  (129.8s, fallbacks=[])
+run  ST0069 s1 [full]
+     -> ['PR0019', 'PR0187', 'PR0084', 'PR0158', 'PR0182']  (128.6s, fallbacks=[])
+run  ST0070 s1 [full]
+     -> ['PR0186', 'PR0019', 'PR0158']  (60.5s, fallbacks=[])
+run  ST0071 s1 [full]
+     -> ['PR0132', 'PR0140', 'PR0126', 'PR0062', 'PR0009']  (132.0s, fallbacks=[])
+run  ST0072 s1 [full]
+     -> ['PR0198', 'PR0186', 'PR0143', 'PR0176', 'PR0058']  (204.0s, fallbacks=[])
+run  ST0073 s1 [full]
+     -> ['PR0058', 'PR0043', 'PR0101', 'PR0039', 'PR0105']  (131.9s, fallbacks=[])
+run  ST0074 s1 [full]
+     -> ['PR0161', 'PR0037', 'PR0132', 'PR0005', 'PR0169']  (124.0s, fallbacks=[])
+run  ST0075 s1 [full]
+     -> ['PR0195', 'PR0021', 'PR0122', 'PR0079', 'PR0030']  (129.6s, fallbacks=[])
+run  ST0076 s1 [full]
+     -> ['PR0190', 'PR0080', 'PR0142', 'PR0050', 'PR0119']  (140.0s, fallbacks=['reflect'])
+run  ST0077 s1 [full]
+     -> ['PR0190', 'PR0019', 'PR0045', 'PR0023', 'PR0182']  (158.9s, fallbacks=['reflect'])
+run  ST0078 s1 [full]
+     -> ['PR0157', 'PR0193', 'PR0114', 'PR0053', 'PR0066']  (162.6s, fallbacks=['reflect'])
+run  ST0079 s1 [full]
+     -> ['PR0176', 'PR0164', 'PR0189', 'PR0092', 'PR0033']  (134.1s, fallbacks=[])
+run  ST0080 s1 [full]
+     -> ['PR0112', 'PR0130', 'PR0185', 'PR0180', 'PR0076']  (136.6s, fallbacks=[])
+run  ST0081 s1 [full]
+     -> ['PR0186', 'PR0197', 'PR0096', 'PR0180', 'PR0102']  (124.9s, fallbacks=[])
+run  ST0082 s1 [full]
+     -> ['PR0073', 'PR0015', 'PR0173', 'PR0085', 'PR0013']  (153.6s, fallbacks=[])
+run  ST0083 s1 [full]
+     -> ['PR0174', 'PR0158', 'PR0039', 'PR0149', 'PR0101']  (147.7s, fallbacks=[])
+run  ST0084 s1 [full]
+     -> ['PR0185', 'PR0073', 'PR0119', 'PR0170', 'PR0019']  (115.6s, fallbacks=[])
+run  ST0085 s1 [full]
+     -> ['PR0157', 'PR0181', 'PR0013', 'PR0166', 'PR0084']  (152.6s, fallbacks=[])
+run  ST0086 s1 [full]
+     -> ['PR0021', 'PR0187', 'PR0002', 'PR0098', 'PR0050']  (124.6s, fallbacks=[])
+run  ST0087 s1 [full]
+     -> ['PR0032', 'PR0180', 'PR0165', 'PR0197', 'PR0147']  (130.9s, fallbacks=[])
+run  ST0088 s1 [full]
+     -> ['PR0164', 'PR0186', 'PR0058', 'PR0191', 'PR0176']  (130.0s, fallbacks=[])
+run  ST0089 s1 [full]
+     -> ['PR0119', 'PR0053', 'PR0193', 'PR0050', 'PR0125']  (132.4s, fallbacks=[])
+run  ST0090 s1 [full]
+     -> ['PR0034', 'PR0110', 'PR0031', 'PR0168', 'PR0116']  (130.8s, fallbacks=[])
+run  ST0091 s1 [full]
+     -> ['PR0005', 'PR0194', 'PR0127', 'PR0042', 'PR0146']  (119.8s, fallbacks=[])
+run  ST0092 s1 [full]
+     -> ['PR0186', 'PR0109', 'PR0158', 'PR0187', 'PR0058']  (140.3s, fallbacks=[])
+run  ST0093 s1 [full]
+     -> ['PR0198', 'PR0144', 'PR0053', 'PR0065', 'PR0182']  (121.3s, fallbacks=[])
+run  ST0094 s1 [full]
+     -> ['PR0096', 'PR0167', 'PR0130', 'PR0159', 'PR0076']  (168.6s, fallbacks=['reflect'])
+run  ST0095 s1 [full]
+     -> ['PR0196', 'PR0167', 'PR0142', 'PR0130', 'PR0119']  (175.1s, fallbacks=[])
+run  ST0096 s1 [full]
+     -> ['PR0151', 'PR0126', 'PR0104', 'PR0140', 'PR0128']  (164.6s, fallbacks=[])
+run  ST0097 s1 [full]
+     -> ['PR0058', 'PR0145', 'PR0101', 'PR0039', 'PR0157']  (123.7s, fallbacks=[])
+run  ST0098 s1 [full]
+     -> ['PR0194', 'PR0104', 'PR0186', 'PR0197', 'PR0043']  (158.1s, fallbacks=[])
+run  ST0099 s1 [full]
+     -> ['PR0180', 'PR0023', 'PR0190', 'PR0187', 'PR0045']  (111.7s, fallbacks=[])
+
+llm stats: {"calls": 326, "cache_hits": 213, "total_latency_s": 13062.530102729797}
+metrics: {
+ "n": 100,
+ "ndcg@5": 0.8061,
+ "precision@5": 0.8985,
+ "recall@5": 0.1563
+}
+[chain] stage=v2_full OK
+ALL_STAGES_DONE

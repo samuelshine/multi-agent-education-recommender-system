@@ -1,0 +1,328 @@
+run  ST0000 s1 [single_objective]
+     -> ['PR0161', 'PR0037', 'PR0194', 'PR0029', 'PR0195']  (161.8s, fallbacks=[])
+run  ST0001 s1 [single_objective]
+     -> ['PR0126', 'PR0053', 'PR0071', 'PR0058', 'PR0173']  (110.9s, fallbacks=[])
+run  ST0002 s1 [single_objective]
+     -> ['PR0053', 'PR0012', 'PR0119', 'PR0058']  (141.5s, fallbacks=[])
+run  ST0004 s1 [single_objective]
+     -> ['PR0045', 'PR0023', 'PR0190', 'PR0072']  (91.1s, fallbacks=[])
+run  ST0006 s1 [single_objective]
+     -> ['PR0185', 'PR0053', 'PR0114', 'PR0130']  (107.7s, fallbacks=[])
+run  ST0007 s1 [single_objective]
+     -> ['PR0073', 'PR0173', 'PR0087', 'PR0015']  (120.6s, fallbacks=['reflect'])
+run  ST0009 s1 [single_objective]
+     -> ['PR0029', 'PR0186', 'PR0172', 'PR0157', 'PR0176']  (168.0s, fallbacks=['reflect'])
+run  ST0011 s1 [single_objective]
+     -> ['PR0144', 'PR0186']  (90.7s, fallbacks=[])
+run  ST0012 s1 [single_objective]
+     -> ['PR0191', 'PR0076', 'PR0139']  (114.3s, fallbacks=[])
+run  ST0013 s1 [single_objective]
+     -> ['PR0176', 'PR0157', 'PR0172', 'PR0130', 'PR0060']  (163.9s, fallbacks=[])
+run  ST0014 s1 [single_objective]
+     -> ['PR0186', 'PR0197', 'PR0180', 'PR0162', 'PR0165']  (125.4s, fallbacks=[])
+run  ST0016 s1 [single_objective]
+     -> ['PR0194', 'PR0161', 'PR0021', 'PR0137']  (104.8s, fallbacks=[])
+run  ST0017 s1 [single_objective]
+     -> ['PR0157', 'PR0033', 'PR0176', 'PR0119', 'PR0174']  (137.5s, fallbacks=[])
+run  ST0021 s1 [single_objective]
+     -> ['PR0157', 'PR0015', 'PR0130', 'PR0076', 'PR0120']  (116.7s, fallbacks=[])
+run  ST0022 s1 [single_objective]
+     -> ['PR0187', 'PR0164', 'PR0157', 'PR0186']  (152.4s, fallbacks=[])
+run  ST0024 s1 [single_objective]
+     -> ['PR0198', 'PR0186', 'PR0143', 'PR0039', 'PR0191']  (122.4s, fallbacks=[])
+run  ST0025 s1 [single_objective]
+     -> ['PR0037', 'PR0194', 'PR0038', 'PR0186']  (116.2s, fallbacks=[])
+run  ST0026 s1 [single_objective]
+     -> ['PR0173', 'PR0085', 'PR0013', 'PR0015']  (108.6s, fallbacks=[])
+run  ST0033 s1 [single_objective]
+     -> ['PR0186', 'PR0180', 'PR0121', 'PR0159', 'PR0162']  (186.4s, fallbacks=['reflect'])
+run  ST0036 s1 [single_objective]
+     -> ['PR0160', 'PR0130', 'PR0157', 'PR0156']  (124.5s, fallbacks=[])
+run  ST0037 s1 [single_objective]
+     -> ['PR0109', 'PR0012', 'PR0182', 'PR0176', 'PR0119']  (112.4s, fallbacks=[])
+run  ST0038 s1 [single_objective]
+     -> ['PR0167', 'PR0096', 'PR0196', 'PR0074', 'PR0130']  (116.1s, fallbacks=[])
+run  ST0039 s1 [single_objective]
+     -> ['PR0173', 'PR0013']  (87.5s, fallbacks=[])
+run  ST0040 s1 [single_objective]
+     -> ['PR0064', 'PR0184', 'PR0120', 'PR0063']  (124.1s, fallbacks=['reflect'])
+run  ST0041 s1 [single_objective]
+     -> ['PR0019']  (93.8s, fallbacks=[])
+run  ST0042 s1 [single_objective]
+     -> ['PR0165']  (47.9s, fallbacks=[])
+run  ST0044 s1 [single_objective]
+     -> ['PR0101', 'PR0054', 'PR0033', 'PR0157']  (109.0s, fallbacks=[])
+run  ST0045 s1 [single_objective]
+     -> ['PR0197', 'PR0162', 'PR0165', 'PR0191', 'PR0109']  (140.8s, fallbacks=[])
+run  ST0046 s1 [single_objective]
+     -> ['PR0096', 'PR0162', 'PR0148', 'PR0159', 'PR0186']  (173.6s, fallbacks=['reflect'])
+run  ST0048 s1 [single_objective]
+     -> ['PR0076', 'PR0130', 'PR0176', 'PR0196']  (108.4s, fallbacks=[])
+run  ST0050 s1 [single_objective]
+     -> ['PR0164', 'PR0020', 'PR0139']  (121.7s, fallbacks=['reflect'])
+run  ST0051 s1 [single_objective]
+     -> ['PR0185', 'PR0012', 'PR0171', 'PR0112', 'PR0158']  (114.1s, fallbacks=[])
+run  ST0054 s1 [single_objective]
+     -> ['PR0185', 'PR0109', 'PR0012', 'PR0130', 'PR0114']  (183.2s, fallbacks=[])
+run  ST0056 s1 [single_objective]
+     -> ['PR0195', 'PR0153']  (83.8s, fallbacks=[])
+run  ST0057 s1 [single_objective]
+     -> ['PR0186', 'PR0102', 'PR0180']  (106.8s, fallbacks=[])
+run  ST0059 s1 [single_objective]
+     -> ['PR0071', 'PR0170', 'PR0058', 'PR0120', 'PR0171']  (121.2s, fallbacks=[])
+run  ST0061 s1 [single_objective]
+     -> ['PR0190', 'PR0080', 'PR0045', 'PR0023', 'PR0019']  (118.4s, fallbacks=[])
+run  ST0063 s1 [single_objective]
+     -> ['PR0186', 'PR0147', 'PR0165', 'PR0180', 'PR0032']  (176.5s, fallbacks=['reflect'])
+run  ST0064 s1 [single_objective]
+     -> ['PR0160', 'PR0020']  (89.2s, fallbacks=[])
+run  ST0067 s1 [single_objective]
+     -> ['PR0114', 'PR0082', 'PR0049']  (105.0s, fallbacks=[])
+run  ST0069 s1 [single_objective]
+     -> ['PR0019', 'PR0084', 'PR0158', 'PR0187']  (147.8s, fallbacks=[])
+run  ST0072 s1 [single_objective]
+     -> ['PR0198', 'PR0176', 'PR0119', 'PR0143']  (101.6s, fallbacks=[])
+run  ST0078 s1 [single_objective]
+     -> ['PR0157', 'PR0119', 'PR0053', 'PR0066']  (120.3s, fallbacks=[])
+run  ST0080 s1 [single_objective]
+     -> ['PR0112', 'PR0114', 'PR0130', 'PR0180', 'PR0184']  (137.3s, fallbacks=[])
+run  ST0081 s1 [single_objective]
+     -> ['PR0162', 'PR0148', 'PR0096', 'PR0016', 'PR0102']  (125.9s, fallbacks=[])
+run  ST0082 s1 [single_objective]
+     -> ['PR0173', 'PR0085', 'PR0013']  (100.9s, fallbacks=[])
+run  ST0084 s1 [single_objective]
+     -> ['PR0185', 'PR0073', 'PR0019']  (111.4s, fallbacks=[])
+run  ST0087 s1 [single_objective]
+     -> ['PR0032', 'PR0197', 'PR0165', 'PR0180']  (162.0s, fallbacks=[])
+run  ST0088 s1 [single_objective]
+     -> ['PR0186', 'PR0058', 'PR0176', 'PR0164']  (119.7s, fallbacks=[])
+run  ST0089 s1 [single_objective]
+     -> ['PR0157', 'PR0119', 'PR0053', 'PR0125']  (113.3s, fallbacks=[])
+run  ST0092 s1 [single_objective]
+     -> ['PR0186', 'PR0187', 'PR0058', 'PR0158', 'PR0182']  (114.1s, fallbacks=[])
+run  ST0094 s1 [single_objective]
+     -> ['PR0096', 'PR0159', 'PR0167', 'PR0130']  (145.0s, fallbacks=['reflect'])
+run  ST0095 s1 [single_objective]
+     -> ['PR0196', 'PR0096', 'PR0167', 'PR0119', 'PR0142']  (118.3s, fallbacks=[])
+run  ST0097 s1 [single_objective]
+     -> ['PR0145', 'PR0058', 'PR0039', 'PR0016', 'PR0101']  (105.0s, fallbacks=[])
+run  ST0098 s1 [single_objective]
+     -> ['PR0194', 'PR0104', 'PR0147', 'PR0096', 'PR0186']  (139.1s, fallbacks=[])
+run  ST0099 s1 [single_objective]
+     -> ['PR0023']  (94.9s, fallbacks=[])
+
+llm stats: {"calls": 183, "cache_hits": 117, "total_latency_s": 6854.561447620392}
+metrics: {
+ "n": 56,
+ "ndcg@5": 0.7179,
+ "precision@5": 0.8664,
+ "recall@5": 0.1538
+}
+run  ST0000 s1 [full]
+     -> ['PR0186', 'PR0029', 'PR0058', 'PR0182']  (0.0s, fallbacks=[])
+run  ST0000 s2 [full]
+     -> ['PR0195', 'PR0144', 'PR0182', 'PR0022']  (21.1s, fallbacks=[])
+run  ST0000 s3 [full]
+     -> ['PR0029', 'PR0195', 'PR0153', 'PR0139', 'PR0144']  (17.7s, fallbacks=[])
+run  ST0001 s1 [full]
+     -> ['PR0058', 'PR0145', 'PR0119', 'PR0085', 'PR0053']  (0.0s, fallbacks=[])
+run  ST0001 s2 [full]
+     -> ['PR0022', 'PR0182', 'PR0194', 'PR0137']  (20.8s, fallbacks=[])
+run  ST0001 s3 [full]
+     -> ['PR0053', 'PR0052', 'PR0071', 'PR0082']  (21.3s, fallbacks=[])
+run  ST0002 s1 [full]
+     -> ['PR0198', 'PR0074', 'PR0191', 'PR0097', 'PR0144']  (0.0s, fallbacks=[])
+run  ST0002 s2 [full]
+     -> ['PR0133', 'PR0129', 'PR0053', 'PR0012']  (0.0s, fallbacks=[])
+run  ST0002 s3 [full]
+     -> ['PR0130', 'PR0111', 'PR0185', 'PR0053']  (218.6s, fallbacks=[])
+run  ST0003 s1 [full]
+     -> ['PR0097', 'PR0026', 'PR0143', 'PR0186', 'PR0145']  (192.9s, fallbacks=[])
+run  ST0003 s2 [full]
+     -> ['PR0186', 'PR0026', 'PR0039', 'PR0145']  (227.2s, fallbacks=[])
+run  ST0003 s3 [full]
+     -> ['PR0097', 'PR0186', 'PR0074', 'PR0143']  (255.9s, fallbacks=[])
+run  ST0004 s1 [full]
+     -> ['PR0053', 'PR0114', 'PR0179', 'PR0119']  (205.3s, fallbacks=[])
+run  ST0004 s2 [full]
+     -> ['PR0045', 'PR0023', 'PR0180', 'PR0190', 'PR0187']  (208.9s, fallbacks=[])
+run  ST0004 s3 [full]
+     -> ['PR0045', 'PR0186', 'PR0180', 'PR0023']  (211.8s, fallbacks=[])
+run  ST0005 s1 [full]
+     -> ['PR0053', 'PR0186', 'PR0182', 'PR0119']  (197.9s, fallbacks=[])
+run  ST0005 s2 [full]
+     -> ['PR0198', 'PR0065', 'PR0182', 'PR0186', 'PR0072']  (278.4s, fallbacks=[])
+run  ST0005 s3 [full]
+     -> ['PR0065', 'PR0082', 'PR0198', 'PR0119', 'PR0182']  (320.7s, fallbacks=[])
+run  ST0006 s1 [full]
+     -> ['PR0186', 'PR0143', 'PR0172', 'PR0060', 'PR0176']  (219.2s, fallbacks=[])
+run  ST0006 s2 [full]
+     -> ['PR0185', 'PR0073', 'PR0119', 'PR0130', 'PR0170']  (202.1s, fallbacks=[])
+run  ST0006 s3 [full]
+     -> ['PR0073', 'PR0185', 'PR0053', 'PR0187', 'PR0119']  (163.0s, fallbacks=[])
+run  ST0007 s1 [full]
+     -> ['PR0120', 'PR0111', 'PR0071', 'PR0170']  (193.4s, fallbacks=[])
+run  ST0007 s2 [full]
+     -> ['PR0173', 'PR0013', 'PR0015']  (154.3s, fallbacks=['reflect'])
+run  ST0007 s3 [full]
+     -> ['PR0173', 'PR0013', 'PR0087']  (145.9s, fallbacks=[])
+run  ST0008 s1 [full]
+     -> ['PR0174', 'PR0158', 'PR0013', 'PR0166', 'PR0181']  (203.6s, fallbacks=[])
+run  ST0008 s2 [full]
+     -> ['PR0013', 'PR0015']  (145.4s, fallbacks=[])
+run  ST0008 s3 [full]
+     -> ['PR0013', 'PR0181']  (206.6s, fallbacks=[])
+run  ST0009 s1 [full]
+     -> ['PR0186', 'PR0182', 'PR0172', 'PR0157', 'PR0119']  (212.5s, fallbacks=[])
+run  ST0009 s2 [full]
+     -> ['PR0020', 'PR0186', 'PR0176', 'PR0119']  (318.2s, fallbacks=[])
+run  ST0009 s3 [full]
+     -> ['PR0186', 'PR0157', 'PR0182', 'PR0020']  (141.1s, fallbacks=[])
+run  ST0010 s1 [full]
+     -> ['PR0186', 'PR0199', 'PR0102', 'PR0165']  (207.8s, fallbacks=[])
+run  ST0010 s2 [full]
+     -> ['PR0173', 'PR0087', 'PR0085', 'PR0015', 'PR0013']  (179.1s, fallbacks=[])
+run  ST0010 s3 [full]
+     -> ['PR0087', 'PR0015', 'PR0173', 'PR0073']  (183.4s, fallbacks=[])
+run  ST0011 s1 [full]
+     -> ['PR0029', 'PR0144', 'PR0198', 'PR0143']  (231.4s, fallbacks=[])
+run  ST0011 s2 [full]
+     -> ['PR0144', 'PR0186']  (177.9s, fallbacks=[])
+run  ST0011 s3 [full]
+     -> ['PR0144', 'PR0186', 'PR0019']  (181.0s, fallbacks=[])
+run  ST0012 s1 [full]
+     -> ['PR0198', 'PR0139', 'PR0065', 'PR0164', 'PR0076']  (249.3s, fallbacks=['reflect'])
+run  ST0012 s2 [full]
+     -> ['PR0191', 'PR0197', 'PR0162', 'PR0171']  (199.1s, fallbacks=[])
+run  ST0012 s3 [full]
+     -> ['PR0191', 'PR0182', 'PR0164']  (215.5s, fallbacks=[])
+run  ST0013 s1 [full]
+     -> ['PR0176', 'PR0164', 'PR0101', 'PR0060']  (221.2s, fallbacks=[])
+run  ST0013 s2 [full]
+     -> ['PR0078', 'PR0092', 'PR0172', 'PR0176', 'PR0130']  (214.9s, fallbacks=[])
+run  ST0013 s3 [full]
+     -> ['PR0078', 'PR0172', 'PR0092', 'PR0130', 'PR0157']  (154.8s, fallbacks=[])
+run  ST0014 s1 [full]
+Traceback (most recent call last):
+  File [35m"/Users/samuelshine/Documents/GitHub/multi-agent-education-recommender-system/implementation/run_pipeline.py"[0m, line [35m112[0m, in [35m<module>[0m
+    [1;31mre[0ms = evaluate_runs(records, qrels_all)
+    [1;31m^^[0m
+  File [35m"/Users/samuelshine/Documents/GitHub/multi-agent-education-recommender-system/implementation/run_pipeline.py"[0m, line [35m98[0m, in [35mmain[0m
+    pr[1;31mev = (json.loads(prev_path.read_[0mtext())
+      [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  File [35m"/Users/samuelshine/Documents/GitHub/multi-agent-education-recommender-system/implementation/agentrec/pipeline.py"[0m, line [35m200[0m, in [35mrun[0m
+        record["fallba[1;31mcks"].append("recommend")[0m
+                      [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    ...<7 lines>...
+        [1;31mf"Student-constraint object:\n{cons_json}"[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  File [35m"/Users/samuelshine/Documents/GitHub/multi-agent-education-recommender-system/implementation/agentrec/pipeline.py"[0m, line [35m99[0m, in [35m_step[0m
+    # one validated LLM step: parse -> check -> one re-prompt -> fallback
+  File [35m"/Users/samuelshine/Documents/GitHub/multi-agent-education-recommender-system/implementation/agentrec/llm.py"[0m, line [35m43[0m, in [35mchat[0m
+    content = self._ollama(system, user, force_json)
+  File [35m"/Users/samuelshine/Documents/GitHub/multi-agent-education-recommender-system/implementation/agentrec/llm.py"[0m, line [35m69[0m, in [35m_ollama[0m
+    with [31murllib.request.urlopen[0m[1;31m(req, timeout=600)[0m as resp:
+         [31m~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^[0m
+  File [35m"/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py"[0m, line [35m187[0m, in [35murlopen[0m
+    return [31mopener.open[0m[1;31m(url, data, timeout)[0m
+           [31m~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^^[0m
+  File [35m"/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py"[0m, line [35m487[0m, in [35mopen[0m
+    response = self._open(req, data)
+  File [35m"/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py"[0m, line [35m504[0m, in [35m_open[0m
+    result = self._call_chain(self.handle_open, protocol, protocol +
+                              '_open', req)
+  File [35m"/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py"[0m, line [35m464[0m, in [35m_call_chain[0m
+    result = func(*args)
+  File [35m"/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py"[0m, line [35m1350[0m, in [35mhttp_open[0m
+    return [31mself.do_open[0m[1;31m(http.client.HTTPConnection, req)[0m
+           [31m~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  File [35m"/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py"[0m, line [35m1325[0m, in [35mdo_open[0m
+    r = h.getresponse()
+  File [35m"/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/client.py"[0m, line [35m1459[0m, in [35mgetresponse[0m
+    [31mresponse.begin[0m[1;31m()[0m
+    [31m~~~~~~~~~~~~~~[0m[1;31m^^[0m
+  File [35m"/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/client.py"[0m, line [35m336[0m, in [35mbegin[0m
+    version, status, reason = [31mself._read_status[0m[1;31m()[0m
+                              [31m~~~~~~~~~~~~~~~~~[0m[1;31m^^[0m
+  File [35m"/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/client.py"[0m, line [35m305[0m, in [35m_read_status[0m
+    raise RemoteDisconnected("Remote end closed connection without"
+                             " response")
+[1;35mhttp.client.RemoteDisconnected[0m: [35mRemote end closed connection without response[0m
+run  ST0000 s1 [no_memory]
+     -> ['PR0186', 'PR0029', 'PR0058', 'PR0182']  (0.0s, fallbacks=[])
+run  ST0000 s2 [no_memory]
+Traceback (most recent call last):
+  File [35m"/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py"[0m, line [35m1321[0m, in [35mdo_open[0m
+    [31mh.request[0m[1;31m(req.get_method(), req.selector, req.data, headers,[0m
+    [31m~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+              [1;31mencode_chunked=req.has_header('Transfer-encoding'))[0m
+              [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  File [35m"/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/client.py"[0m, line [35m1367[0m, in [35mrequest[0m
+    [31mself._send_request[0m[1;31m(method, url, body, headers, encode_chunked)[0m
+    [31m~~~~~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  File [35m"/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/client.py"[0m, line [35m1413[0m, in [35m_send_request[0m
+    [31mself.endheaders[0m[1;31m(body, encode_chunked=encode_chunked)[0m
+    [31m~~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  File [35m"/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/client.py"[0m, line [35m1362[0m, in [35mendheaders[0m
+    [31mself._send_output[0m[1;31m(message_body, encode_chunked=encode_chunked)[0m
+    [31m~~~~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  File [35m"/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/client.py"[0m, line [35m1122[0m, in [35m_send_output[0m
+    [31mself.send[0m[1;31m(msg)[0m
+    [31m~~~~~~~~~[0m[1;31m^^^^^[0m
+  File [35m"/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/client.py"[0m, line [35m1066[0m, in [35msend[0m
+    [31mself.connect[0m[1;31m()[0m
+    [31m~~~~~~~~~~~~[0m[1;31m^^[0m
+  File [35m"/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/client.py"[0m, line [35m1032[0m, in [35mconnect[0m
+    self.sock = [31mself._create_connection[0m[1;31m([0m
+                [31m~~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31m(self.host,self.port), self.timeout, self.source_address)[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  File [35m"/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socket.py"[0m, line [35m874[0m, in [35mcreate_connection[0m
+    raise exceptions[0]
+  File [35m"/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socket.py"[0m, line [35m859[0m, in [35mcreate_connection[0m
+    [31msock.connect[0m[1;31m(sa)[0m
+    [31m~~~~~~~~~~~~[0m[1;31m^^^^[0m
+[1;35mConnectionRefusedError[0m: [35m[Errno 61] Connection refused[0m
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File [35m"/Users/samuelshine/Documents/GitHub/multi-agent-education-recommender-system/implementation/run_pipeline.py"[0m, line [35m118[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m"/Users/samuelshine/Documents/GitHub/multi-agent-education-recommender-system/implementation/run_pipeline.py"[0m, line [35m104[0m, in [35mmain[0m
+    rec = pipe.run(students[sid], session)
+  File [35m"/Users/samuelshine/Documents/GitHub/multi-agent-education-recommender-system/implementation/agentrec/pipeline.py"[0m, line [35m122[0m, in [35mrun[0m
+    constraints, _, failed = [31mself._step[0m[1;31m([0m
+                             [31m~~~~~~~~~~[0m[1;31m^[0m
+        [1;31m"profiling", prompts.PROFILING, user, schemas.check_constraints,[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    ...<4 lines>...
+                          [1;31m"other_constraints": [], "uncertainty_notes":[0m
+                          [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+                          [1;31m["profiling failed; neutral defaults"]})[0m
+                          [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  File [35m"/Users/samuelshine/Documents/GitHub/multi-agent-education-recommender-system/implementation/agentrec/pipeline.py"[0m, line [35m102[0m, in [35m_step[0m
+    raw = self.llm.chat(system, user, force_json=True)
+  File [35m"/Users/samuelshine/Documents/GitHub/multi-agent-education-recommender-system/implementation/agentrec/llm.py"[0m, line [35m43[0m, in [35mchat[0m
+    content = self._ollama(system, user, force_json)
+  File [35m"/Users/samuelshine/Documents/GitHub/multi-agent-education-recommender-system/implementation/agentrec/llm.py"[0m, line [35m69[0m, in [35m_ollama[0m
+    with [31murllib.request.urlopen[0m[1;31m(req, timeout=600)[0m as resp:
+         [31m~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^[0m
+  File [35m"/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py"[0m, line [35m187[0m, in [35murlopen[0m
+    return [31mopener.open[0m[1;31m(url, data, timeout)[0m
+           [31m~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^^[0m
+  File [35m"/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py"[0m, line [35m487[0m, in [35mopen[0m
+    response = self._open(req, data)
+  File [35m"/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py"[0m, line [35m504[0m, in [35m_open[0m
+    result = self._call_chain(self.handle_open, protocol, protocol +
+                              '_open', req)
+  File [35m"/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py"[0m, line [35m464[0m, in [35m_call_chain[0m
+    result = func(*args)
+  File [35m"/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py"[0m, line [35m1350[0m, in [35mhttp_open[0m
+    return [31mself.do_open[0m[1;31m(http.client.HTTPConnection, req)[0m
+           [31m~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  File [35m"/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py"[0m, line [35m1324[0m, in [35mdo_open[0m
+    raise URLError(err)
+[1;35murllib.error.URLError[0m: [35m<urlopen error [Errno 61] Connection refused>[0m
+ALL_H2_H3_DONE

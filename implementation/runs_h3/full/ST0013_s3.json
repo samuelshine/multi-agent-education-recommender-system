@@ -1,0 +1,75 @@
+{
+ "student_id": "ST0013",
+ "session": 3,
+ "mode": "full",
+ "message": "Hi, I'm a student with a python certification background. My overall academic average is 75.6% in an IT/computer-science degree. I'm interested in Management and security. I want to become a Systems Analyst. My family can afford at most about USD 4400 per year. I live in Pune. I'd strongly prefer to stay near home, though I might consider elsewhere in India. About the earlier suggestions: I liked PR0078, PR0092.",
+ "memory_used": true,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 75.6
+  },
+  "career_goal": "Systems Analyst",
+  "budget_max_usd_per_year": 4400,
+  "location_preference": "Pune",
+  "mobility": "prefers_region",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in Management and security"
+  ],
+  "uncertainty_notes": [
+   "Employability priority not specified."
+  ]
+ },
+ "prefilter_ids": [
+  "PR0157",
+  "PR0172",
+  "PR0164",
+  "PR0060",
+  "PR0191",
+  "PR0101",
+  "PR0176",
+  "PR0092",
+  "PR0189",
+  "PR0054",
+  "PR0076",
+  "PR0105",
+  "PR0130",
+  "PR0015",
+  "PR0020",
+  "PR0078",
+  "PR0033",
+  "PR0150",
+  "PR0047",
+  "PR0160"
+ ],
+ "retrieved_ids": [
+  "PR0172",
+  "PR0092",
+  "PR0164",
+  "PR0176",
+  "PR0078",
+  "PR0130",
+  "PR0157",
+  "PR0101"
+ ],
+ "proposed_shortlist": [
+  "PR0172",
+  "PR0078",
+  "PR0092",
+  "PR0164",
+  "PR0130"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0078",
+  "PR0172",
+  "PR0092",
+  "PR0130",
+  "PR0157"
+ ],
+ "reflection_note": "The initial shortlist was strong but contained one program (PR0164) that violated the academic plausibility constraint due to a minimum required grade of 79% vs. the student's 75.6%. I dropped this entry. PR0092 remains valuable despite being closer to the budget limit, as its high placement rate and Pune location make it highly attractive for career goals. I swapped in PR0157 (Coimbatore) because its extremely low tuition ($800) offers maximum financial safety while maintaining strong academic relevance, providing a better alternative option than the original rank 5.",
+ "explanation": "Fairfax University\nThis program is highly recommended because it perfectly matches your location preference in Pune while keeping tuition low at $1750. The MSc IT Management curriculum aligns well with your interest in management and systems analysis, and you meet the minimum grade requirement of 62%. While this option offers a strong placement rate of 78% and a median salary of $9426, the main trade-off is that it does not offer any post-study work visa duration.\n\nQuilon Technical University\nThis program remains relevant because it is located in Pune and fits comfortably within your maximum budget of $4400 per year with an annual tuition of $2250. The MSc IT Management curriculum supports your career goal, and you meet the minimum grade requirement. However, the primary trade-off here is that while it keeps you local and affordable, its placement rate (66%) and median starting salary ($8654) are lower compared to other Pune options on this list.\n\nSilverline School of Engineering\nThis option was recommended because it offers the highest earning potential in Pune with a strong 85% placement rate and a high median salary of $13713, making it excellent for your career goals. You meet the minimum grade requirement (74%) and the tuition ($3450) is still within your budget limit. The main trade-off to consider is that this program has the highest annual tuition cost among all Pune options listed.\n\nElmhurst School of Engineering\nThis school offers an extremely low tuition fee of $1000, which is excellent for managing costs, and it provides a strong placement rate (77%) with a median salary of $11249. The main trade-off to consider is that while the program itself is highly rated, its location in Hyderabad does not match your stated preference for Pune.\n\nLongford University\nThis university presents the lowest tuition cost ($800) and is therefore ideal if budget is your absolute highest priority. While it offers a relevant MSc IT Management degree, the main trade-off is that its location in Coimbatore deviates from your preferred region of Pune.",
+ "wall_s": 154.8
+}

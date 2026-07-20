@@ -1,0 +1,69 @@
+{
+ "student_id": "ST0033",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a python certification background. My overall academic average is 77.7% in an IT/computer-science degree. I'm interested in IOT and cloud computing. I want to become a Portal Administrator. My family can afford at most about USD 2400 per year. I live in Pune. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 77.7
+  },
+  "career_goal": "Portal Administrator",
+  "budget_max_usd_per_year": 2400,
+  "location_preference": "Pune",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in IOT and cloud computing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0186",
+  "PR0199",
+  "PR0118",
+  "PR0121",
+  "PR0148",
+  "PR0016",
+  "PR0102",
+  "PR0180",
+  "PR0162",
+  "PR0112",
+  "PR0159",
+  "PR0032",
+  "PR0184",
+  "PR0165",
+  "PR0164",
+  "PR0182",
+  "PR0119",
+  "PR0101",
+  "PR0143",
+  "PR0176"
+ ],
+ "retrieved_ids": [
+  "PR0186",
+  "PR0180",
+  "PR0162",
+  "PR0121",
+  "PR0159",
+  "PR0182",
+  "PR0165"
+ ],
+ "proposed_shortlist": [
+  "PR0186",
+  "PR0180",
+  "PR0121"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0186",
+  "PR0180",
+  "PR0182",
+  "PR0165"
+ ],
+ "reflection_note": "The original shortlist was good but included a program (PR0121) that violated the location preference and was therefore dropped. I swapped in PR0182 (Pune, high employability) to maintain local focus and added PR0165 (Cloud focus, extremely low cost) as a strong alternative for students willing to consider Chennai, maximizing their options while strictly adhering to budget and academic plausibility.",
+ "explanation": "Halcyon Institute of Technology\nThis program is highly recommended because it perfectly matches your location preference in Pune while also aligning with your interests in networking and cloud computing. The annual tuition of $2050 fits comfortably within your maximum budget of $2400, and your 77.7% grade exceeds the minimum requirement of 70%. While this option has a higher cost than Braxton Institute, it offers superior career outcomes with an 83% placement rate and a median starting salary of $15192. The main trade-off here is accepting a slightly higher tuition fee for significantly better reported employability metrics.\n\nBraxton Institute of Technology\nThis program is ideal if adhering strictly to your budget while staying in Pune is the highest priority, as its annual tuition is only $1250. It directly addresses your interest in networking and cloud computing fields, and your academic background meets the required criteria. The primary trade-off you must consider is that this option has lower reported placement (71%) and salary ($10359) compared to other Pune options, despite its low cost.\n\nKeystone Technical University\nThis program offers excellent employability metrics in a location you prefer, boasting a 91% placement rate and fitting within your budget with $1950 tuition. Furthermore, it has the highest placement rate among all listed programs in Pune. The main trade-off is that while the curriculum focuses on QA testing rather than core networking or IoT, its superior career outcomes make it highly valuable for maximizing your employability priority.\n\nWestbrook Institute of Technology\nThis program offers a perfect subject match with its focus on Cloud Computing and has an extremely low tuition cost of $550. However, you must be aware that this institution is located in Chennai, deviating from your Pune preference. The main trade-off here is choosing the ideal specialization and budget fit over location and high employability; it also presents the lowest placement rate (59%) among all options.",
+ "wall_s": 205.9
+}

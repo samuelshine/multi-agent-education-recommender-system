@@ -1,0 +1,28 @@
+{
+ "student_id": "ST0064",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 74.8
+    },
+    "career_goal": "Information Technology Auditor",
+    "budget_max_usd_per_year": 6700,
+    "location_preference": "Delhi",
+    "mobility": "prefers_region",
+    "employability_priority": "high",
+    "other_constraints": [
+     "Interested in Management and system developer roles"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0160",
+    "PR0020"
+   ],
+   "feedback": null
+  }
+ ]
+}

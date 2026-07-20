@@ -1,0 +1,75 @@
+{
+ "student_id": "ST0080",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a distro making certification background. My overall academic average is 78.2% in an IT/computer-science degree. I'm interested in IOT and cloud computing. I want to become a Project Manager. My family can afford at most about USD 1300 per year. I live in Mumbai. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 78.2
+  },
+  "career_goal": "Project Manager (in IOT and cloud computing)",
+  "budget_max_usd_per_year": 1300,
+  "location_preference": "Mumbai",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Strong preference to stay near home (Mumbai)",
+   "Open to other locations within India"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0118",
+  "PR0180",
+  "PR0162",
+  "PR0112",
+  "PR0159",
+  "PR0032",
+  "PR0184",
+  "PR0165",
+  "PR0119",
+  "PR0058",
+  "PR0187",
+  "PR0053",
+  "PR0109",
+  "PR0076",
+  "PR0012",
+  "PR0019",
+  "PR0114",
+  "PR0185",
+  "PR0130",
+  "PR0084"
+ ],
+ "retrieved_ids": [
+  "PR0114",
+  "PR0112",
+  "PR0185",
+  "PR0180",
+  "PR0130",
+  "PR0076",
+  "PR0162",
+  "PR0184"
+ ],
+ "proposed_shortlist": [
+  "PR0112",
+  "PR0130",
+  "PR0185",
+  "PR0180",
+  "PR0076"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0112",
+  "PR0130",
+  "PR0185",
+  "PR0180",
+  "PR0076"
+ ],
+ "reflection_note": "The initial ranking was accurate and maintained the best balance of constraints. PR0112 remains the top choice due to its ideal location (Mumbai) and strong technical foundation. The remaining programs offer excellent trade-offs: PR0130/PR0076 provide PM skills in acceptable locations, PR0180 offers deep cloud/networking expertise in a good alternative city (Pune), and PR0185 provides valuable security depth. No entries were dropped as all 5 meet the hard constraints (budget < $1300/year, location within India).",
+ "explanation": "Charnock University\nThis program is recommended because it meets your strong preference for staying near home in Mumbai while keeping the annual tuition within your $1300 budget at $1150. The MSc Software Engineering degree aligns well with a Project Manager role, and you meet the admission requirement as it accepts candidates with a CS background. The main trade-off here is that while the location is ideal, its placement rate of 65% and median starting salary of $7933 are lower compared to other options on this list.\n\nElmhurst School of Engineering\nThis option is highly recommended because it offers excellent employability metrics\u2014a 77% placement rate and a strong median starting salary of $11249\u2014while keeping the tuition low at $1000. The MSc IT Management degree directly supports your goal of becoming a Project Manager, and you qualify for admission as no CS background is required. The trade-off to consider is that this program requires relocating from Mumbai to Hyderabad, though it remains within India.\n\nLongford Institute of Technology\nThis program provides strong employability with a 78% placement rate and a median starting salary of $10850, all while staying under your budget at $1150 for tuition. The MSc Information Security degree is relevant to modern cloud and IoT infrastructure, and you meet the admission requirement as it accepts candidates with a CS background. The primary trade-off is that this option requires moving to Kolkata, which deviates from your preference to stay near Mumbai.\n\nBraxton Institute of Technology\nThis MTech program is technically relevant for your goal, focusing on networking and cloud technologies crucial for IoT/Cloud Project Managers, and the tuition ($1250) fits within your budget. You meet the admission criteria as it requires a CS background, which you possess. The main trade-off is that while the curriculum aligns well with technical skills, this option requires relocating to Pune instead of staying in Mumbai.\n\nSarayu Institute of Technology\nThis MBA program is strongly recommended because its focus on Technology Management and high placement rate (81%) make it ideal for your Project Manager career goal, boasting the highest median starting salary at $13142. Furthermore, the tuition ($1250) remains within your budget, and you meet the admission requirement as no CS background is necessary. The trade-off here is that while highly beneficial for a PM role, this option requires relocating to Hyderabad and represents a shift from technical study to management studies.",
+ "wall_s": 136.6
+}

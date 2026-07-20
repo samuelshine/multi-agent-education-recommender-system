@@ -1,0 +1,65 @@
+{
+ "student_id": "ST0011",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a python certification background. My overall academic average is 81.4% in an IT/computer-science degree. I'm interested in Computer Architecture and security. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 5400 per year. I live in Pune. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 81.4
+  },
+  "career_goal": null,
+  "budget_max_usd_per_year": 5400,
+  "location_preference": "Pune",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in Computer Architecture and security"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0117",
+  "PR0198",
+  "PR0097",
+  "PR0144",
+  "PR0139",
+  "PR0164",
+  "PR0029",
+  "PR0022",
+  "PR0182",
+  "PR0060",
+  "PR0191",
+  "PR0119",
+  "PR0101",
+  "PR0143",
+  "PR0186",
+  "PR0176",
+  "PR0058",
+  "PR0149",
+  "PR0092",
+  "PR0187"
+ ],
+ "retrieved_ids": [
+  "PR0144",
+  "PR0186",
+  "PR0182",
+  "PR0187"
+ ],
+ "proposed_shortlist": [
+  "PR0144",
+  "PR0186",
+  "PR0182"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0144",
+  "PR0186",
+  "PR0187"
+ ],
+ "reflection_note": "The initial shortlist was good but included a program (PR0182) that was too far afield from the student's niche interest in Computer Architecture and Security. I dropped PR0182 and swapped in PR0187, which focuses on Systems Administration/IT Support\u2014a field much closer to hardware/infrastructure architecture than QA testing. The final list prioritizes strong technical relevance (PR0144, PR0187) while maintaining excellent financial feasibility and location fit.",
+ "explanation": "Tejas Technical University\nThis program is highly recommended because it aligns perfectly with your academic background and budget constraints, offering an annual tuition of $4800 USD while requiring a minimum grade percentage of 81%, which meets your current standing. With a high placement rate of 93% and a median starting salary of $19239, this option strongly supports your priority for high employability. The main trade-off here is that the program focuses on general software engineering rather than specialized computer architecture or security topics.\n\nHalcyon Institute of Technology\nThis MTech Computer Networks program was selected because its focus on networking and cloud aligns well with your interest in system architecture and security, while maintaining a low annual tuition cost of $2050 USD. The institution also requires a CS background, matching your academic profile. The trade-off is that while the placement rate (83%) remains strong and within budget, the median starting salary ($15192) is lower compared to other options on this list.\n\nCavendish University\nThis PG Diploma offers the lowest tuition cost of $1450 USD and maintains a solid placement rate of 87%, making it highly budget-friendly. However, the program focuses specifically on IT support, which may not fully satisfy your advanced interest in Computer Architecture or security. The main trade-off is that this specialization is less technical than your stated interests, and it offers the lowest median starting salary ($12687) among the shortlisted options.",
+ "wall_s": 169.5
+}

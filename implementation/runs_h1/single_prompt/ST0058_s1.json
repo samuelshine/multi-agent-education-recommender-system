@@ -1,0 +1,56 @@
+{
+ "student_id": "ST0058",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a app development certification background. My overall academic average is 79.6% in an IT/computer-science degree. I'm interested in Software Engineering and developer. I want to become a UX Designer. My family can afford at most about USD 1200 per year. I live in Bengaluru. I'm open to anywhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [
+  "single_prompt"
+ ],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 79.6
+  },
+  "career_goal": "UX Designer",
+  "budget_max_usd_per_year": 1200,
+  "location_preference": "Bengaluru",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in Software Engineering and developer roles"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0058",
+  "PR0053",
+  "PR0076",
+  "PR0012",
+  "PR0019",
+  "PR0185",
+  "PR0084",
+  "PR0171",
+  "PR0013",
+  "PR0181",
+  "PR0166",
+  "PR0059",
+  "PR0112",
+  "PR0049",
+  "PR0035",
+  "PR0008",
+  "PR0063",
+  "PR0142",
+  "PR0082",
+  "PR0032"
+ ],
+ "final_shortlist": [
+  "PR0058",
+  "PR0053",
+  "PR0076",
+  "PR0012",
+  "PR0019"
+ ],
+ "explanation": "\n\n\n\n\n\n\n\n",
+ "wall_s": 86.8
+}

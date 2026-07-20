@@ -1,0 +1,48 @@
+{
+ "student_id": "ST0095",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a full stack certification background. My overall academic average is 72.6% in an IT/computer-science degree. I'm interested in Software Engineering and developer. I want to become a Applications Developer. My family can afford at most about USD 3300 per year. I live in Hyderabad. I cannot leave my city. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 72.6
+  },
+  "career_goal": "Applications Developer (Software Engineering and developer)",
+  "budget_max_usd_per_year": 3300,
+  "location_preference": "Hyderabad",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Full stack certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0026",
+  "PR0076",
+  "PR0167",
+  "PR0196",
+  "PR0142",
+  "PR0119",
+  "PR0176",
+  "PR0096",
+  "PR0130",
+  "PR0113",
+  "PR0111",
+  "PR0074",
+  "PR0050",
+  "PR0159"
+ ],
+ "final_shortlist": [
+  "PR0119",
+  "PR0176",
+  "PR0026",
+  "PR0076",
+  "PR0130"
+ ],
+ "explanation": "This program offers a high placement rate (86%) and a strong median starting salary ($14917), making it excellent for job prospects. While focused on QA testing, its practical nature aligns well with your goal of becoming an Applications Developer.\n\nWith a high placement rate (82%) and the highest median starting salary ($15400), this MBA program is ideal for maximizing job prospects. It focuses on IT management, which provides broad knowledge useful for an Applications Developer role.\n\nThis MTech in Data Engineering has a strong placement rate (81%) and good salary potential ($13385). Since it covers software engineering, it directly supports your career goal while remaining local to Hyderabad.\n\nThis MBA Technology Management program is highly affordable ($1250 tuition) and offers a strong placement rate (81%) with good salary prospects. Its focus on software engineering makes it relevant to your career path.\n\nThis MSc IT Management program is very affordable ($1000 tuition) and provides foundational knowledge in IT management. It meets all constraints (local, low cost) while offering a solid starting salary potential.",
+ "wall_s": 49.4
+}

@@ -1,0 +1,55 @@
+{
+ "student_id": "ST0007",
+ "session": 1,
+ "mode": "single_objective",
+ "message": "Hi, I'm a student with a shell programming certification background. My overall academic average is 75% in an IT/computer-science degree. I'm interested in data engineering and security. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 1100 per year. I live in Bengaluru. I cannot leave my city. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [
+  "reflect"
+ ],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 75
+  },
+  "career_goal": null,
+  "budget_max_usd_per_year": 1100,
+  "location_preference": "Bengaluru",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "shell programming certification background",
+   "interested in data engineering and security"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0173",
+  "PR0087",
+  "PR0015",
+  "PR0073",
+  "PR0013"
+ ],
+ "retrieved_ids": [
+  "PR0173",
+  "PR0073",
+  "PR0087",
+  "PR0015"
+ ],
+ "proposed_shortlist": [
+  "PR0073",
+  "PR0173",
+  "PR0087",
+  "PR0015"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0073",
+  "PR0173",
+  "PR0087",
+  "PR0015"
+ ],
+ "reflection_note": "reflect fallback: kept proposal",
+ "explanation": "Elmhurst Technical University\nThis program was recommended because its MTech Cyber Security specialization directly aligns with your interest in security and leverages your existing IT/CS background. The curriculum is highly relevant to your employability priority, boasting an 80% placement rate and a median starting salary of $8637 USD. While the annual tuition of $1250 exceeds your stated budget maximum, the high placement potential makes this specialization worth considering. The main trade-off here is balancing the slightly higher cost against superior career focus in cybersecurity.\n\nLongford Technical University\nThis option was recommended because it offers a highly affordable entry point into data analytics ($500 annual tuition), keeping you well within your budget constraints while remaining in Bengaluru. The MTech Computer Science program covers Data Science Analytics, matching your interest in the field. However, the main trade-off is that its placement rate (62%) and median starting salary ($6851) are lower compared to other options on this list.\n\nAravalli Technical University\nThis MSc Data Science program was selected because it directly addresses your interest in data engineering while requiring a CS background, which matches your academic profile. The tuition of $1200 is within budget and the location is ideal for you in Bengaluru. Be aware that although it meets your technical requirements, its placement rate (58%) is the lowest among the recommended programs, representing the main trade-off between cost/fit and immediate employability metrics.\n\nKeystone Institute of Technology\nThis program was recommended due to its strong overall career outcomes, featuring a high 78% placement rate and the highest median starting salary ($9707) on this list. The tuition is $1200, fitting within your budget while remaining in Bengaluru. The main trade-off is that the focus of the MSc Information Systems program leans toward business information systems rather than deep technical specialization in security or data engineering.",
+ "wall_s": 120.6
+}

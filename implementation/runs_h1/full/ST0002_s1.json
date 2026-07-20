@@ -1,0 +1,70 @@
+{
+ "student_id": "ST0002",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a hadoop certification background. My overall academic average is 80% in an IT/computer-science degree. I'm interested in Computer Architecture and developer. I want to become a Business Intelligence Analyst. My family can afford at most about USD 1700 per year. I live in Kolkata. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 80
+  },
+  "career_goal": "Business Intelligence Analyst",
+  "budget_max_usd_per_year": 1700,
+  "location_preference": "Kolkata",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "hadoop certification background",
+   "interested in Computer Architecture and developer"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0015",
+  "PR0020",
+  "PR0033",
+  "PR0157",
+  "PR0047",
+  "PR0074",
+  "PR0087",
+  "PR0164",
+  "PR0182",
+  "PR0119",
+  "PR0186",
+  "PR0176",
+  "PR0058",
+  "PR0187",
+  "PR0174",
+  "PR0053",
+  "PR0158",
+  "PR0109",
+  "PR0076",
+  "PR0012"
+ ],
+ "retrieved_ids": [
+  "PR0053",
+  "PR0119",
+  "PR0176",
+  "PR0187",
+  "PR0012",
+  "PR0186",
+  "PR0058",
+  "PR0174"
+ ],
+ "proposed_shortlist": [
+  "PR0012",
+  "PR0053",
+  "PR0187"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0012",
+  "PR0058",
+  "PR0119"
+ ],
+ "reflection_note": "The original shortlist was weak because it lacked strong data/analytics focus. PR0012 remains the top choice due to its perfect alignment (Kolkata, CS background, relevant degree). I dropped PR0053 and PR0187 for lacking sufficient relevance to BI Analyst goals. I swapped in PR0058 (Data Science MCA) as a superior alternative that directly addresses the career goal, despite the location deviation. PR0119 is kept as a geographically preferred backup option.",
+ "explanation": "Elmhurst University\nThis MCA program is recommended because it is located in Kolkata, matching your stated location preference, and its annual tuition of $1500 remains within your budget maximum. The curriculum covers software engineering, which aligns with your interest in developer roles, and you meet the admission requirement with an 80% grade (minimum 73%). The main trade-off here is that while it meets your location preference, its placement rate (79%) and median starting salary ($13468) are lower compared to other options.\n\nStanmore School of Engineering\nThis MCA program is highly recommended because its focus on Data Science Analytics directly supports your goal of becoming a Business Intelligence Analyst. It maintains an annual tuition cost of $1350, keeping you well under budget, and boasts a strong placement rate of 83% with a median starting salary of $14869. The primary trade-off is that the location is Coimbatore, which deviates from your preferred Kolkata area, though it remains within the region preference.\n\nMeridian Institute of Applied Sciences\nThis MSc program offers excellent employability metrics, featuring the highest placement rate (86%) and a strong median starting salary ($14917) for an annual tuition cost of only $1200. Furthermore, you meet the admission requirements easily with your 80% grade, and the program does not require a CS background, offering flexibility. The main trade-off is that its specialization in QA Testing might be slightly less aligned with your core interest in Business Intelligence or Computer Architecture compared to other options.",
+ "wall_s": 202.6
+}

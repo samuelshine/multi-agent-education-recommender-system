@@ -1,0 +1,1011 @@
+{
+ "judge": "mistral-nemo:12b",
+ "summary": {
+  "clarity": 4.05,
+  "groundedness": 4.94,
+  "usefulness": 3.86
+ },
+ "n": 100,
+ "results": [
+  {
+   "file": "ST0000_s1.json",
+   "student_id": "ST0000",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured and readable, providing specific details about each program's fit with the student's constraints. All factual claims are traceable to the provided program fields or the student's constraints."
+  },
+  {
+   "file": "ST0001_s1.json",
+   "student_id": "ST0001",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured, readable, and specific to the student's constraints. It accurately uses data from the recommended programs' fields."
+  },
+  {
+   "file": "ST0002_s1.json",
+   "student_id": "ST0002",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured, specific, and readable, with clear trade-offs mentioned for each program. It accurately reflects the student's constraints and the programs' data fields."
+  },
+  {
+   "file": "ST0003_s1.json",
+   "student_id": "ST0003",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured, specific, and readable, providing clear trade-offs for each program. It accurately uses data from the provided programs' fields."
+  },
+  {
+   "file": "ST0004_s1.json",
+   "student_id": "ST0004",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured, readable, and specific to the student's constraints. It accurately references data from the recommended programs and the student's constraint object."
+  },
+  {
+   "file": "ST0005_s1.json",
+   "student_id": "ST0005",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation clearly outlines each program's strengths and trade-offs, using specific data points from the provided programs' fields. It also directly addresses the student's constraints and career goal."
+  },
+  {
+   "file": "ST0006_s1.json",
+   "student_id": "ST0006",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured, specific, and readable, providing clear trade-offs for each program based on the student's constraints."
+  },
+  {
+   "file": "ST0007_s1.json",
+   "student_id": "ST0007",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured, specific, and readable. It clearly outlines the trade-offs for each program based on the student's constraints."
+  },
+  {
+   "file": "ST0008_s1.json",
+   "student_id": "ST0008",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 4,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation clearly outlines the trade-offs for each program, using specific data points from both the student's constraints and the recommended programs' fields."
+  },
+  {
+   "file": "ST0009_s1.json",
+   "student_id": "ST0009",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation clearly outlines the alignment of each program with the student's goals and constraints, using specific data points from the recommended programs."
+  },
+  {
+   "file": "ST0010_s1.json",
+   "student_id": "ST0010",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured, specific, and readable, with clear trade-offs mentioned for each program. It accurately uses data from the provided programs' fields to make its points."
+  },
+  {
+   "file": "ST0011_s1.json",
+   "student_id": "ST0011",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured and readable, providing specific details about each program's alignment with the student's constraints. It also honestly names trade-offs."
+  },
+  {
+   "file": "ST0012_s1.json",
+   "student_id": "ST0012",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured and readable, providing specific details about each recommended program. It accurately uses data from the provided programs' fields to make its points."
+  },
+  {
+   "file": "ST0013_s1.json",
+   "student_id": "ST0013",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured and readable, providing specific details about each recommended program. It accurately uses data from the provided programs' fields to make its points."
+  },
+  {
+   "file": "ST0014_s1.json",
+   "student_id": "ST0014",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation clearly outlines the alignment of each program's focus with the student's interests and career goal, uses specific data points from the programs' fields and constraints, and honestly names trade-offs such as location and salary."
+  },
+  {
+   "file": "ST0015_s1.json",
+   "student_id": "ST0015",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation clearly outlines the key features of each recommended program, including location, tuition fees, career relevance, employability rates, and median starting salaries. It also accurately identifies trade-offs for each option."
+  },
+  {
+   "file": "ST0016_s1.json",
+   "student_id": "ST0016",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured, specific, and readable. It accurately reflects the student's constraints and the programs' data fields."
+  },
+  {
+   "file": "ST0017_s1.json",
+   "student_id": "ST0017",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured and specific, providing clear trade-offs for each program based on the student's constraints. It uses factual information from the recommended programs' data fields."
+  },
+  {
+   "file": "ST0018_s1.json",
+   "student_id": "ST0018",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation clearly outlines the pros and cons of each recommended program, using specific data points from both the student's constraints and the programs' data fields."
+  },
+  {
+   "file": "ST0019_s1.json",
+   "student_id": "ST0019",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation clearly states facts from the student's constraints and the recommended programs' data fields, with no invented claims."
+  },
+  {
+   "file": "ST0020_s1.json",
+   "student_id": "ST0020",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured, specific, and readable, providing clear trade-offs for each program. It accurately uses data from the recommended programs' fields and student's constraints."
+  },
+  {
+   "file": "ST0021_s1.json",
+   "student_id": "ST0021",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured, specific, and readable, providing clear trade-offs for each program based on the student's constraints."
+  },
+  {
+   "file": "ST0022_s1.json",
+   "student_id": "ST0022",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured with clear trade-offs mentioned for each program. It uses specific data points traceable to the provided program fields or student's constraints."
+  },
+  {
+   "file": "ST0023_s1.json",
+   "student_id": "ST0023",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured and specific, providing clear trade-offs for each program. It accurately uses data from the recommended programs' fields to support its claims."
+  },
+  {
+   "file": "ST0024_s1.json",
+   "student_id": "ST0024",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured, readable, and specific. It accurately reflects the student's constraints and the program fields."
+  },
+  {
+   "file": "ST0025_s1.json",
+   "student_id": "ST0025",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation clearly outlines each program's alignment with the student's constraints and career goals, using specific data points from the provided programs. It also honestly names trade-offs for each option."
+  },
+  {
+   "file": "ST0026_s1.json",
+   "student_id": "ST0026",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation clearly outlines the alignment of each program's focus with the student's career goal and interests, as well as their budget constraints. It also honestly names trade-offs for each option."
+  },
+  {
+   "file": "ST0027_s1.json",
+   "student_id": "ST0027",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured and readable, providing specific details about each program's tuition, employability rates, and trade-offs. It accurately reflects the student's constraints and the programs' data fields."
+  },
+  {
+   "file": "ST0028_s1.json",
+   "student_id": "ST0028",
+   "mode": "full",
+   "clarity": 5,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation clearly outlines the key aspects of each program, including tuition fees, placement rates, visa durations, and trade-offs. It accurately uses data from the provided programs' fields."
+  },
+  {
+   "file": "ST0029_s1.json",
+   "student_id": "ST0029",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured and readable, providing specific details about each program's alignment with the student's constraints. It accurately uses data from the provided programs' fields."
+  },
+  {
+   "file": "ST0030_s1.json",
+   "student_id": "ST0030",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation clearly outlines the pros and cons of each program based on the student's constraints, using specific data points from the recommended programs."
+  },
+  {
+   "file": "ST0031_s1.json",
+   "student_id": "ST0031",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation clearly outlines each program's alignment with the student's goals and constraints, using specific data points from the provided programs."
+  },
+  {
+   "file": "ST0032_s1.json",
+   "student_id": "ST0032",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured, readable, and specific, providing clear trade-offs for each program. It accurately uses data from the student's constraints and the recommended programs' fields."
+  },
+  {
+   "file": "ST0033_s1.json",
+   "student_id": "ST0033",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured and specific, providing clear trade-offs for each program while staying grounded in the given data."
+  },
+  {
+   "file": "ST0034_s1.json",
+   "student_id": "ST0034",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured and specific, providing clear trade-offs for each program. However, it could be more concise in some sections."
+  },
+  {
+   "file": "ST0035_s1.json",
+   "student_id": "ST0035",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured, specific, and readable. It accurately reflects the student's constraints and the recommended programs' data fields."
+  },
+  {
+   "file": "ST0036_s1.json",
+   "student_id": "ST0036",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation clearly outlines each program's strengths and weaknesses, using accurate data from the provided programs' fields. It also highlights trade-offs and considers the student's constraints."
+  },
+  {
+   "file": "ST0037_s1.json",
+   "student_id": "ST0037",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured and readable, providing specific details about each recommended program. It accurately reflects the student's constraints and the programs' data fields."
+  },
+  {
+   "file": "ST0038_s1.json",
+   "student_id": "ST0038",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured and readable, providing specific details about each program's alignment with the student's constraints. It accurately uses data from the provided programs' fields."
+  },
+  {
+   "file": "ST0039_s1.json",
+   "student_id": "ST0039",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured, specific, and readable. It accurately reflects the student's constraints and the programs' data fields."
+  },
+  {
+   "file": "ST0040_s1.json",
+   "student_id": "ST0040",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured, specific, and readable. It accurately reflects the student's constraints and the programs' data fields."
+  },
+  {
+   "file": "ST0041_s1.json",
+   "student_id": "ST0041",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured and readable, providing specific details about each program's alignment with the student's constraints. It also honestly names trade-offs."
+  },
+  {
+   "file": "ST0042_s1.json",
+   "student_id": "ST0042",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation clearly states the matching aspects of location and budget, accurately mentions tuition cost, grade requirement, and CS background necessity. It also honestly presents the trade-off regarding post-study work visa duration."
+  },
+  {
+   "file": "ST0043_s1.json",
+   "student_id": "ST0043",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation clearly outlines the pros and cons of each program based on the student's constraints, using accurate data from the provided programs."
+  },
+  {
+   "file": "ST0044_s1.json",
+   "student_id": "ST0044",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation clearly outlines the key aspects of each program, including location, tuition cost, alignment with career goals, academic requirements, employability rates, and median starting salaries. It also honestly names trade-offs for each option."
+  },
+  {
+   "file": "ST0045_s1.json",
+   "student_id": "ST0045",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured, specific, and readable, providing clear trade-offs for each program based on the student's constraints."
+  },
+  {
+   "file": "ST0046_s1.json",
+   "student_id": "ST0046",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation clearly outlines the key aspects of each recommended program, including location, tuition cost, admission requirements, and employability metrics. It also honestly names trade-offs for each option."
+  },
+  {
+   "file": "ST0047_s1.json",
+   "student_id": "ST0047",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 3,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured and readable, providing specific details about each program. However, it lacks clarity in explaining why the student should consider 'Longford Technical University' despite its lower median starting salary."
+  },
+  {
+   "file": "ST0048_s1.json",
+   "student_id": "ST0048",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation clearly outlines the key features of each program, their alignment with the student's constraints and career goals, and the trade-offs involved. It uses specific data points from the provided programs' fields."
+  },
+  {
+   "file": "ST0049_s1.json",
+   "student_id": "ST0049",
+   "mode": "full",
+   "clarity": 5,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation clearly outlines the key aspects of each recommended program, including tuition fees, placement rates, median starting salaries, admission requirements, and trade-offs. All factual claims are traceable to the provided program fields or the student's constraints."
+  },
+  {
+   "file": "ST0050_s1.json",
+   "student_id": "ST0050",
+   "mode": "full",
+   "clarity": 5,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured and readable, providing specific details about each recommended program. It accurately reflects the student's constraints and the programs' data fields."
+  },
+  {
+   "file": "ST0051_s1.json",
+   "student_id": "ST0051",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation clearly outlines the key aspects of each program, including tuition fees, academic requirements, placement rates, and salaries, while also mentioning trade-offs. It is well-structured and easy to understand."
+  },
+  {
+   "file": "ST0052_s1.json",
+   "student_id": "ST0052",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation clearly outlines each program's strengths and weaknesses, using specific data points from the provided program fields to support its claims."
+  },
+  {
+   "file": "ST0053_s1.json",
+   "student_id": "ST0053",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured with clear trade-offs mentioned for each program, and all factual claims are traceable to the provided program fields or student's constraints."
+  },
+  {
+   "file": "ST0054_s1.json",
+   "student_id": "ST0054",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured and readable, providing specific details about each recommended program. It accurately reflects the student's constraints and the programs' data fields."
+  },
+  {
+   "file": "ST0055_s1.json",
+   "student_id": "ST0055",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation clearly outlines the key features of each program, their alignment with the student's constraints and goals, and the trade-offs involved. It uses specific data points from the provided programs' fields."
+  },
+  {
+   "file": "ST0056_s1.json",
+   "student_id": "ST0056",
+   "mode": "full",
+   "clarity": 5,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured and clearly communicates the trade-offs for each program based on the student's constraints."
+  },
+  {
+   "file": "ST0057_s1.json",
+   "student_id": "ST0057",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured, specific, and readable, providing clear trade-offs for each program based on the student's constraints."
+  },
+  {
+   "file": "ST0058_s1.json",
+   "student_id": "ST0058",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured, specific, and readable, providing clear trade-offs for each program. It accurately uses data from the recommended programs' fields."
+  },
+  {
+   "file": "ST0059_s1.json",
+   "student_id": "ST0059",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured and readable, providing specific trade-offs for each program. It accurately uses data from the recommended programs' fields to make its points."
+  },
+  {
+   "file": "ST0060_s1.json",
+   "student_id": "ST0060",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured, specific, and readable; all factual claims are traceable to the provided program fields or student's constraints."
+  },
+  {
+   "file": "ST0061_s1.json",
+   "student_id": "ST0061",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation clearly outlines each program's alignment with the student's constraints and career goals, while also honestly presenting trade-offs. It uses specific data points from the provided programs' fields."
+  },
+  {
+   "file": "ST0062_s1.json",
+   "student_id": "ST0062",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured and readable, providing specific details about each program's alignment with the student's constraints. It accurately uses data from the provided programs' fields."
+  },
+  {
+   "file": "ST0063_s1.json",
+   "student_id": "ST0063",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured, specific, and readable. It accurately reflects the student's constraints and the programs' data fields."
+  },
+  {
+   "file": "ST0064_s1.json",
+   "student_id": "ST0064",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation clearly outlines the key aspects of each program, their alignment with the student's goals and constraints, and honest trade-offs."
+  },
+  {
+   "file": "ST0065_s1.json",
+   "student_id": "ST0065",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation clearly outlines the key aspects of each program, their alignment with the student's constraints and career goals, and the trade-offs involved. It is well-structured and readable."
+  },
+  {
+   "file": "ST0066_s1.json",
+   "student_id": "ST0066",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation clearly states the alignment of the program with the student's constraints and provides relevant trade-offs. However, it could be more specific about how the 'software engineering' field relates to Database Development."
+  },
+  {
+   "file": "ST0067_s1.json",
+   "student_id": "ST0067",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured and specific, providing clear trade-offs for each program. It accurately reflects the student's constraints and the programs' data fields."
+  },
+  {
+   "file": "ST0068_s1.json",
+   "student_id": "ST0068",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation clearly outlines each program's strengths and trade-offs, using specific data points traceable to the provided program fields."
+  },
+  {
+   "file": "ST0069_s1.json",
+   "student_id": "ST0069",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured and readable, providing specific details about each program's alignment with the student's constraints. It honestly names trade-offs and uses factual information from the provided programs' data fields."
+  },
+  {
+   "file": "ST0070_s1.json",
+   "student_id": "ST0070",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured and readable, providing specific details about each program's alignment with the student's constraints. All factual claims are traceable to the provided program fields or the student's constraints."
+  },
+  {
+   "file": "ST0071_s1.json",
+   "student_id": "ST0071",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 3,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured, readable, and provides specific trade-offs. However, it mentions 'explicitly requires a CS background' for Ashford Technical University without specifying that this requirement is met by the student's academic background."
+  },
+  {
+   "file": "ST0072_s1.json",
+   "student_id": "ST0072",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation clearly outlines the key aspects of each program, their alignment with the student's constraints and career goals, and the trade-offs involved. It uses specific data points from the programs' fields to support its claims."
+  },
+  {
+   "file": "ST0073_s1.json",
+   "student_id": "ST0073",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured, readable, and specific to the student's constraints. It accurately reflects the data from the recommended programs."
+  },
+  {
+   "file": "ST0074_s1.json",
+   "student_id": "ST0074",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured, specific, and readable, providing clear trade-offs for each program. It accurately uses data from the recommended programs' fields to support its points."
+  },
+  {
+   "file": "ST0075_s1.json",
+   "student_id": "ST0075",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation clearly outlines the strengths and weaknesses of each recommended program, using specific data points from both the student's constraints and the programs' fields."
+  },
+  {
+   "file": "ST0076_s1.json",
+   "student_id": "ST0076",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation clearly states facts from the program fields and student constraints, with no invented claims."
+  },
+  {
+   "file": "ST0077_s1.json",
+   "student_id": "ST0077",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation clearly outlines the trade-offs for each program, using specific data points from the student's constraints and the programs' fields."
+  },
+  {
+   "file": "ST0078_s1.json",
+   "student_id": "ST0078",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation clearly outlines the key aspects of each program, including tuition fees, admission requirements, and employability metrics. It also highlights trade-offs for each option."
+  },
+  {
+   "file": "ST0079_s1.json",
+   "student_id": "ST0079",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured, readable, and specific, providing clear trade-offs for each program. It accurately uses data from the recommended programs' fields to support its claims."
+  },
+  {
+   "file": "ST0080_s1.json",
+   "student_id": "ST0080",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation clearly outlines the key aspects of each recommended program, comparing them against the student's constraints. It also honestly names trade-offs."
+  },
+  {
+   "file": "ST0081_s1.json",
+   "student_id": "ST0081",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "All factual claims are traceable to the provided program fields or the student's constraints."
+  },
+  {
+   "file": "ST0082_s1.json",
+   "student_id": "ST0082",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured, specific, and readable. It accurately reflects the student's constraints and the programs' data fields."
+  },
+  {
+   "file": "ST0083_s1.json",
+   "student_id": "ST0083",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation clearly outlines the alignment of each recommended program with the student's constraints and career goals, using specific data points from the programs' fields. It also honestly names trade-offs for each option."
+  },
+  {
+   "file": "ST0084_s1.json",
+   "student_id": "ST0084",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation clearly outlines the key aspects of each recommended program, including its alignment with the student's career goal, tuition costs, admission requirements, placement rates, and median starting salaries. It also honestly names trade-offs for each recommendation."
+  },
+  {
+   "file": "ST0085_s1.json",
+   "student_id": "ST0085",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation clearly outlines the trade-offs for each program based on facts from the provided data, making it highly grounded and useful for the student's decision."
+  },
+  {
+   "file": "ST0086_s1.json",
+   "student_id": "ST0086",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured and readable, providing specific details about each program's tuition fees, academic requirements, employment prospects, and trade-offs. All factual claims are traceable to the provided program fields or the student's constraints."
+  },
+  {
+   "file": "ST0087_s1.json",
+   "student_id": "ST0087",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation clearly outlines each program's strengths and trade-offs based on the student's constraints and the programs' data fields."
+  },
+  {
+   "file": "ST0088_s1.json",
+   "student_id": "ST0088",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured and specific, providing clear trade-offs for each program. All factual claims are traceable to the provided program fields or student's constraints."
+  },
+  {
+   "file": "ST0089_s1.json",
+   "student_id": "ST0089",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured and specific, clearly outlining the trade-offs for each program based on the student's constraints. All factual claims are traceable to the provided program fields or the student's constraints."
+  },
+  {
+   "file": "ST0090_s1.json",
+   "student_id": "ST0090",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured, specific, and readable, providing clear trade-offs for each program. It accurately uses data from the recommended programs' fields."
+  },
+  {
+   "file": "ST0091_s1.json",
+   "student_id": "ST0091",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured and readable, providing specific details about each program. It accurately uses data from the recommended programs' fields and student constraints."
+  },
+  {
+   "file": "ST0092_s1.json",
+   "student_id": "ST0092",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured and readable, providing clear trade-offs for each program while staying grounded in the provided data."
+  },
+  {
+   "file": "ST0093_s1.json",
+   "student_id": "ST0093",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured and uses specific details from the student's constraints and the recommended programs' data fields. However, it could provide more information about trade-offs to make it more useful."
+  },
+  {
+   "file": "ST0094_s1.json",
+   "student_id": "ST0094",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured, clearly outlining the alignment of each program with the student's constraints and career goals. It also honestly names trade-offs."
+  },
+  {
+   "file": "ST0095_s1.json",
+   "student_id": "ST0095",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured, specific, and readable. It accurately reflects the student's constraints and the programs' data fields."
+  },
+  {
+   "file": "ST0096_s1.json",
+   "student_id": "ST0096",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured, specific, and readable, providing clear trade-offs for each program. It accurately uses data from the recommended programs' fields to support its claims."
+  },
+  {
+   "file": "ST0097_s1.json",
+   "student_id": "ST0097",
+   "mode": "full",
+   "clarity": 5,
+   "groundedness": 4,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured, readable, and specific to the student's constraints. It accurately uses data from the recommended programs' fields."
+  },
+  {
+   "file": "ST0098_s1.json",
+   "student_id": "ST0098",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "Both explanations are well-structured, readable, and specific to the student's constraints. They clearly outline the trade-offs between each program."
+  },
+  {
+   "file": "ST0099_s1.json",
+   "student_id": "ST0099",
+   "mode": "full",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation is well-structured and readable, providing specific details about each program's fit with the student's constraints. It honestly names trade-offs."
+  }
+ ]
+}

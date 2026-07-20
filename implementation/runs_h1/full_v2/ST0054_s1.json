@@ -1,0 +1,75 @@
+{
+ "student_id": "ST0054",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a hadoop certification background. My overall academic average is 80.4% in an IT/computer-science degree. I'm interested in hacking and security. I want to become a Programmer Analyst. My family can afford at most about USD 1600 per year. I live in Mumbai. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 80.4
+  },
+  "career_goal": "Programmer Analyst",
+  "budget_max_usd_per_year": 1600,
+  "location_preference": "Mumbai",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in hacking and security",
+   "Hadoop certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0182",
+  "PR0119",
+  "PR0176",
+  "PR0058",
+  "PR0187",
+  "PR0174",
+  "PR0053",
+  "PR0158",
+  "PR0109",
+  "PR0076",
+  "PR0012",
+  "PR0019",
+  "PR0114",
+  "PR0185",
+  "PR0130",
+  "PR0084",
+  "PR0120",
+  "PR0170",
+  "PR0015",
+  "PR0020"
+ ],
+ "retrieved_ids": [
+  "PR0114",
+  "PR0187",
+  "PR0053",
+  "PR0185",
+  "PR0170",
+  "PR0109",
+  "PR0012",
+  "PR0130"
+ ],
+ "proposed_shortlist": [
+  "PR0185",
+  "PR0053",
+  "PR0170",
+  "PR0109",
+  "PR0130"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0185",
+  "PR0114",
+  "PR0053",
+  "PR0109",
+  "PR0130"
+ ],
+ "reflection_note": "The initial shortlist was strong but contained one program (PR0170) with a significant location mismatch that is detrimental to the student's profile. I dropped PR0170 and swapped in PR0114, which perfectly meets the preferred location (Mumbai), has low tuition ($850), and aligns well with software/security interests, making it a much stronger candidate than any other available option for the top slot after PR0185.",
+ "explanation": "Longford Institute of Technology\nThis program is highly recommended because its focus on \"cybersecurity\" directly aligns with your interest in hacking and security, while also building upon your IT/CS background. The annual tuition of $1150 falls well within your budget limit. The main trade-off here is location: although the curriculum is a strong fit for your interests, the institution is located in Kolkata, which does not match your preference for Mumbai.\n\nCrestwood School of Engineering\nThis program is an excellent recommendation because it meets two of your primary constraints perfectly: it is located in Mumbai and has a low annual tuition cost of $850. The curriculum focuses on Software Quality Engineering, which supports your goal as a Programmer Analyst, and the 81% placement rate suggests high employability. There are no major trade-offs here, as this option aligns strongly with both your location preference and budget constraints.\n\nCavendish University\nThis program is recommended due to its exceptionally high employability metrics, boasting an 86% placement rate and a median starting salary of $12855. The tuition cost of $1200 also fits comfortably within your maximum annual budget. However, the main trade-off is location; while it offers superior career outcomes, it is situated in Kolkata rather than your preferred Mumbai region.\n\nCrestwood Technical University\nThis MTech program was recommended because its core focus on \"software_engineering\" aligns perfectly with your Programmer Analyst goal and utilizes your existing CS background. Furthermore, the median starting salary of $13300 is among the highest listed options. The main trade-off involves location and budget: while it offers high earning potential, it is located in Chennai and costs $1550, which uses up most of your annual budget limit.\n\nElmhurst School of Engineering\nThis program was recommended primarily because its low tuition cost of $1000 makes it an excellent fit for your strict budget constraints. While the focus on IT Management might be less technical than desired, it is located in Hyderabad and maintains a solid 77% placement rate. The main trade-off here is that while the budget and salary are manageable, the program's management focus deviates from your stated interest in core programming or security.",
+ "wall_s": 129.1
+}

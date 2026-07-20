@@ -1,0 +1,54 @@
+{
+ "student_id": "ST0012",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a distro making certification background. My overall academic average is 82.9% in an IT/computer-science degree. I'm interested in Management and testing. I want to become a Information Technology Auditor. My family can afford at most about USD 11300 per year. I live in Chennai. I'm open to anywhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 82.9
+  },
+  "career_goal": "Information Technology Auditor",
+  "budget_max_usd_per_year": 11300,
+  "location_preference": "Chennai",
+  "mobility": "open_domestic",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in Management and testing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0157",
+  "PR0172",
+  "PR0198",
+  "PR0139",
+  "PR0164",
+  "PR0182",
+  "PR0060",
+  "PR0191",
+  "PR0119",
+  "PR0101",
+  "PR0176",
+  "PR0092",
+  "PR0053",
+  "PR0189",
+  "PR0072",
+  "PR0054",
+  "PR0076",
+  "PR0105",
+  "PR0065",
+  "PR0019"
+ ],
+ "final_shortlist": [
+  "PR0198",
+  "PR0139",
+  "PR0164",
+  "PR0060",
+  "PR0182"
+ ],
+ "explanation": "This program in Bengaluru focuses on Software Quality Engineering (QA Testing), which directly aligns with your interest in testing. It boasts the highest placement rate and median starting salary among all options, maximizing your chances of getting a good job.\n\nLocated in Delhi, this MSc Software Quality Engineering program is highly relevant to your testing interest. It offers an excellent placement rate and a strong median starting salary, making it a top choice for career outcomes.\n\nThis MBA Technology Management program in Delhi covers IT management, which is key to your goal of becoming an IT Auditor. It has a high placement rate and a solid median starting salary while remaining within budget.\n\nThis MSc IT Management program in Mumbai is suitable for your interest in management. It offers a good balance of tuition cost and career prospects, providing exposure to the IT domain necessary for an auditor role.\n\nThis MSc Software Quality Engineering option in Pune is a strong fit for your testing interest. It has a high placement rate and a decent median starting salary, making it a reliable choice that meets both career goals and budget constraints.",
+ "wall_s": 37.0
+}

@@ -1,0 +1,73 @@
+{
+ "student_id": "ST0083",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a full stack certification background. My overall academic average is 71% in an IT/computer-science degree. I'm interested in data engineering and Business process analyst. I want to become a Design & UX. My family can afford at most about USD 5000 per year. I live in Coimbatore. I'd strongly prefer to stay near home, though I might consider elsewhere in India.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 71
+  },
+  "career_goal": "Design & UX",
+  "budget_max_usd_per_year": 5000,
+  "location_preference": null,
+  "mobility": "prefers_region",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in data engineering and Business process analyst"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0191",
+  "PR0058",
+  "PR0039",
+  "PR0158",
+  "PR0026",
+  "PR0090",
+  "PR0145",
+  "PR0033",
+  "PR0046",
+  "PR0107",
+  "PR0074",
+  "PR0063",
+  "PR0173",
+  "PR0071",
+  "PR0087",
+  "PR0101",
+  "PR0143",
+  "PR0186",
+  "PR0149",
+  "PR0174"
+ ],
+ "retrieved_ids": [
+  "PR0039",
+  "PR0158",
+  "PR0046",
+  "PR0149",
+  "PR0174",
+  "PR0101",
+  "PR0033",
+  "PR0074"
+ ],
+ "proposed_shortlist": [
+  "PR0174",
+  "PR0158",
+  "PR0039",
+  "PR0149",
+  "PR0101"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0174",
+  "PR0158",
+  "PR0149",
+  "PR0101",
+  "PR0033"
+ ],
+ "reflection_note": "The original shortlist was strong, but PR0039 is dropped because its location (Coimbatore) significantly diminishes the career potential compared to the other options. I have replaced it with PR0033 (MBA Business Analytics). Although PR0033 shifts focus slightly towards business analytics, it directly addresses the student's secondary interest in 'Business Process Analyst' and provides a highly affordable option located in Coimbatore, thus maintaining geographic diversity while improving overall program relevance.",
+ "explanation": "Halcyon Institute of Applied Sciences\nThis program was recommended because it directly aligns with your primary goal of Design & UX through its MSc Human-Computer Interaction focus, while also being highly affordable at $1900 annually and meeting your minimum grade requirement of 71%. It is located in Delhi and offers a strong placement rate of 84%, making it an excellent fit for both cost and career goals. The main trade-off here is that the curriculum focuses purely on design interaction, potentially neglecting the more technical depth you might gain from data engineering or business process analysis.\n\nAshford School of Engineering\nThis MDes Interaction Design program is a strong match for your interest in Design & UX, as it provides specialized training and includes software engineering elements relevant to your IT background. At $1900 annually, it fits comfortably within your budget, and the minimum grade requirement (70%) is met by your 71% score. The trade-off you should consider is that this program is a design-focused degree (MDes), which may be less technically rigorous than an MSc in Computer Science, even though it covers software engineering.\n\nBridgewater School of Engineering\nThis MSc Human-Computer Interaction option maintains the focus on Design & UX while offering a high placement rate of 86% and being located in Mumbai. While its tuition of $3750 is still within your budget, this cost represents a larger portion of your maximum annual spending compared to other options. The trade-off here is that you are paying more for the program than necessary when considering the similar core skills offered by the Halcyon Institute.\n\nBraxton Institute of Applied Sciences\nThis MSc Information Systems degree was recommended because it bridges your primary interest in Design & UX with your secondary interests in Business Process Analyst and Data Engineering, making it highly versatile. It meets your minimum grade requirement (71%) and has a strong median starting salary of $15394 at an affordable tuition rate of $2400. The main trade-off is that the program's core focus is on Information Systems and Business, which may pull you away from deep design theory toward business process management.\n\nQuilon School of Engineering\nThis MBA Business Analytics program is ideal if you wish to pivot your career focus towards data engineering or business analysis, directly addressing your secondary interests. It has a low tuition cost of $2100 and meets your academic standing (min 63%). The trade-off for considering this option is that it shifts the entire focus away from Design & UX toward general management and analytics, requiring you to prioritize business skills over design theory.",
+ "wall_s": 231.6
+}

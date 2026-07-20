@@ -1,0 +1,74 @@
+{
+ "student_id": "ST0001",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a app development certification background. My overall academic average is 75.3% in an IT/computer-science degree. I'm interested in data engineering and testing. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 3200 per year. I live in Kolkata. I'm open to going abroad. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 75.3
+  },
+  "career_goal": null,
+  "budget_max_usd_per_year": 3200,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in data engineering and testing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0198",
+  "PR0058",
+  "PR0053",
+  "PR0126",
+  "PR0026",
+  "PR0065",
+  "PR0019",
+  "PR0090",
+  "PR0145",
+  "PR0107",
+  "PR0008",
+  "PR0063",
+  "PR0142",
+  "PR0082",
+  "PR0052",
+  "PR0085",
+  "PR0173",
+  "PR0071",
+  "PR0051",
+  "PR0037"
+ ],
+ "retrieved_ids": [
+  "PR0058",
+  "PR0126",
+  "PR0026",
+  "PR0145",
+  "PR0173",
+  "PR0071",
+  "PR0037",
+  "PR0053"
+ ],
+ "proposed_shortlist": [
+  "PR0126",
+  "PR0037",
+  "PR0058",
+  "PR0145",
+  "PR0053"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0126",
+  "PR0037",
+  "PR0058",
+  "PR0053",
+  "PR0071"
+ ],
+ "reflection_note": "The original shortlist was strong, but PR0145 was dropped because it failed to meet the high employability priority given its low median starting salary and location (India), making it less competitive compared to other options. To maintain 5 items, I swapped in PR0071. This program offers a good balance of cost-effectiveness ($1300 tuition) and relevance (Data Engineering focus), providing a solid international/Indian option that was previously overlooked but fits the student's profile well.",
+ "explanation": "Ashford Technical University\nThis program was recommended because it aligns well with your interest in data science and software engineering while keeping the tuition within your budget at $2050. It offers a strong international opportunity, providing 18 months of post-study work visa time which supports high employability goals. The main trade-off here is that its placement rate (62%) is moderate compared to some other options.\n\nTejas School of Engineering\nThis option provides the strongest overall package for your career goal and employability priority. With a median starting salary of $34,339 and 18 months of post-study work visa time, it offers excellent long-term potential. The trade-off is that its annual tuition ($2650) is the highest among the recommended international programs.\n\nStanmore School of Engineering\nThis program is an excellent choice if budget is your primary concern, offering a low tuition fee of $1350 and a high placement rate (83%). It directly addresses your interest in data science and software engineering fields. The main trade-off is that while the local job prospects are good, the median starting salary ($14,869) and lack of post-study visa options limit international career mobility.\n\nCavendish University\nThis program was highlighted because it perfectly matches your interest in testing (QA Testing) and offers the lowest tuition fee at $1200. It boasts a very high placement rate of 86% and does not require a CS background, making admission flexible. The main trade-off is that while the cost and local job prospects are excellent, there is no post-study work visa available for international career progression.\n\nLongford Institute of Applied Sciences\nWhile this program matches your interest in data engineering and fits within your budget ($1300), it was included with caution due to its low employability metrics. The median starting salary ($7,837) and placement rate (58%) are significantly lower than the other options. Therefore, the main trade-off is that despite being affordable and relevant in fields like data science, it offers the weakest job market indicators on this list.",
+ "wall_s": 121.5
+}

@@ -1,0 +1,75 @@
+{
+ "student_id": "ST0073",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a shell programming certification background. My overall academic average is 75.4% in an IT/computer-science degree. I'm interested in Software Engineering and cloud computing. I want to become a Business Intelligence Analyst. My family can afford at most about USD 7100 per year. I live in Coimbatore. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 75.4
+  },
+  "career_goal": "Business Intelligence Analyst",
+  "budget_max_usd_per_year": 7100,
+  "location_preference": "Coimbatore",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Shell programming certification background",
+   "Interested in Software Engineering and cloud computing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0186",
+  "PR0043",
+  "PR0016",
+  "PR0112",
+  "PR0032",
+  "PR0198",
+  "PR0191",
+  "PR0101",
+  "PR0058",
+  "PR0039",
+  "PR0197",
+  "PR0053",
+  "PR0158",
+  "PR0054",
+  "PR0147",
+  "PR0109",
+  "PR0026",
+  "PR0076",
+  "PR0105",
+  "PR0012"
+ ],
+ "retrieved_ids": [
+  "PR0043",
+  "PR0016",
+  "PR0101",
+  "PR0058",
+  "PR0039",
+  "PR0147",
+  "PR0105",
+  "PR0186"
+ ],
+ "proposed_shortlist": [
+  "PR0043",
+  "PR0058",
+  "PR0101",
+  "PR0039",
+  "PR0147"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0058",
+  "PR0043",
+  "PR0101",
+  "PR0039",
+  "PR0105"
+ ],
+ "reflection_note": "The original shortlist was strong and highly tailored. PR0147 was dropped because its narrow focus (only networking_cloud) makes it less appealing than the other options, especially given the student's interest in both SE and Cloud Computing. To maintain a list of 5, I swapped in PR0105 (MBA Business Analytics). This program is highly relevant to the 'Business Intelligence Analyst' career goal, located in Coimbatore, and fits the budget perfectly. The final ranking prioritizes programs that best combine Data Science/SE fields (PR0058), followed by strong Cloud/SE options (PR0043), direct BI focus (PR0101), adjacent technical skills (PR0039), and finally a highly relevant business-focused alternative (PR0105). This sequence provides the student with maximum choice across technical depth, business relevance, and location fit.",
+ "explanation": "Stanmore School of Engineering\nThis MCA program is highly recommended because it directly aligns with your career goal of becoming a Business Intelligence Analyst while also covering Software Engineering and Data Science Analytics. The annual tuition of $1350 fits well within your budget, and the minimum required grade percentage (74%) is met by your 75.4% academic background. This option provides strong employability potential with an 83% placement rate and a median starting salary of $14,869. The main trade-off here is that while it covers data science, its focus might be broader than pure business intelligence systems compared to the Braxton program.\n\nVantage Institute of Technology\nThis MSc Cloud Computing option directly addresses your stated interest in cloud computing and software engineering, making it a strong technical fit for your background. It maintains a high placement rate of 86% and is affordable at $3950 per year, while also requiring a CS background that matches yours. The primary trade-off to consider is the median starting salary of $11,981, which is lower than several other options on this list despite its strong technical focus.\n\nBraxton Institute of Applied Sciences\nThis MSc Information Systems program is arguably the best fit for your specific goal as a Business Intelligence Analyst, given its core field in business information systems. It has an excellent median starting salary of $15,394 and maintains a high placement rate of 85%. Furthermore, it does not require a CS background, offering flexibility while keeping tuition low at $2400. The main trade-off is that the curriculum focuses heavily on business information systems rather than deep software engineering or cloud computing topics.\n\nLongford Institute of Applied Sciences\nThis MSc Human-Computer Interaction program is recommended due to its low cost ($2250) and relevance to software engineering, which aligns with your technical interests. It also does not require a CS background, making it accessible while maintaining an 85% placement rate. The main trade-off is that the specialization in design and HCI shifts the focus away from core data analytics or cloud computing, potentially requiring you to build more business intelligence knowledge independently.\n\nAshford Technical University\nThis MBA Business Analytics program offers a direct path toward your career goal with a low annual tuition of $3500. It also does not require a CS background, which is beneficial for flexibility while keeping the focus on business information systems. However, you should note that this option has the lowest placement rate (79%) among the shortlisted programs, representing a trade-off against your stated high employability priority.",
+ "wall_s": 131.9
+}

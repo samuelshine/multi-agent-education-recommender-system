@@ -1,0 +1,76 @@
+{
+ "student_id": "ST0009",
+ "session": 1,
+ "mode": "single_objective",
+ "message": "Hi, I'm a student with a app development certification background. My overall academic average is 72.6% in an IT/computer-science degree. I'm interested in hacking and Business process analyst. I want to become a Network Security Engineer. My family can afford at most about USD 4000 per year. I live in Delhi. I'd strongly prefer to stay near home, though I might consider elsewhere in India.",
+ "memory_used": false,
+ "fallbacks": [
+  "reflect"
+ ],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 72.6
+  },
+  "career_goal": "Network Security Engineer",
+  "budget_max_usd_per_year": 4000,
+  "location_preference": null,
+  "mobility": "prefers_region",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in hacking",
+   "Interested in Business process analyst"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0191",
+  "PR0101",
+  "PR0054",
+  "PR0105",
+  "PR0015",
+  "PR0020",
+  "PR0033",
+  "PR0157",
+  "PR0047",
+  "PR0074",
+  "PR0172",
+  "PR0087",
+  "PR0029",
+  "PR0022",
+  "PR0182",
+  "PR0060",
+  "PR0119",
+  "PR0143",
+  "PR0186",
+  "PR0176"
+ ],
+ "retrieved_ids": [
+  "PR0029",
+  "PR0186",
+  "PR0172",
+  "PR0157",
+  "PR0176",
+  "PR0060",
+  "PR0119",
+  "PR0182"
+ ],
+ "proposed_shortlist": [
+  "PR0029",
+  "PR0186",
+  "PR0172",
+  "PR0157",
+  "PR0176"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0029",
+  "PR0186",
+  "PR0172",
+  "PR0157",
+  "PR0176"
+ ],
+ "reflection_note": "reflect fallback: kept proposal",
+ "explanation": "Vantage Technical University\nThis program is highly recommended because its focus on Information Security directly aligns with your goal of becoming a Network Security Engineer. The annual tuition of $3800 USD fits within your budget maximum, and the high placement rate of 92% suggests strong career outcomes. However, please note that while you have an IT/CS background, the minimum required grade percentage is 75%, which exceeds your current academic standing of 72.6%. The main trade-off here is balancing the excellent program fit with the potential difficulty meeting the strict admission grade requirement.\n\nHalcyon Institute of Technology\nThis MTech in Computer Networks is an ideal match for both your career goal and budget, as it focuses heavily on networking and cloud technologies while costing only $2050 USD annually. Since you have a CS background and your 72.6% grade meets the minimum requirement (70%), admission should be straightforward. This program offers strong technical depth, leading to a median starting salary of $15,192 USD. There is no major trade-off here; it provides a direct, affordable path toward becoming a Network Security Engineer.\n\nQuilon Technical University\nThis MSc IT Management option aligns with your interest in Business Process Analyst roles and keeps the tuition low at $2250 USD. Since the program does not require a CS background, it offers flexibility despite your technical degree. While this is a good fit for business interests, the main trade-off is that the career focus shifts away from deep security engineering toward IT management, which is reflected in the lower median starting salary of $8,654 USD.\n\nLongford University\nThis program is excellent if budget is your primary concern, offering an annual tuition fee of only $800 USD and aligning with your interest in business processes. It also does not require a CS background, making it highly accessible given your academic profile. The trade-off to consider is that while the cost is minimal, the focus on IT Management means the median starting salary ($10,444 USD) is lower compared to the more technical options available.\n\nCrestwood University\nThis MBA Technology Management program offers a strong blend of business acumen and high earning potential, boasting a median starting salary of $15,400 USD while keeping tuition low at $1900 USD. Since your 72.6% grade meets the minimum requirement (72%), this is an accessible option that also aligns with your interest in business processes. The main trade-off is that pursuing a general MBA/Technology Management means moving away from deep technical specialization, prioritizing management skills over core Network Security Engineering expertise.",
+ "wall_s": 168.0
+}

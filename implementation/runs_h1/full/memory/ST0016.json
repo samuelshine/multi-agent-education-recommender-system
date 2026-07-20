@@ -1,0 +1,30 @@
+{
+ "student_id": "ST0016",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 76.2
+    },
+    "career_goal": "Technical Engineer (Programming and System Developer)",
+    "budget_max_usd_per_year": 4000,
+    "location_preference": null,
+    "mobility": "open_international",
+    "employability_priority": "high",
+    "other_constraints": [
+     "Full stack certification background"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0195",
+    "PR0021",
+    "PR0153",
+    "PR0161"
+   ],
+   "feedback": null
+  }
+ ]
+}

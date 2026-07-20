@@ -1,0 +1,71 @@
+{
+ "student_id": "ST0001",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a app development certification background. My overall academic average is 75.3% in an IT/computer-science degree. I'm interested in data engineering and testing. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 3200 per year. I live in Kolkata. I'm open to going abroad. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 75.3
+  },
+  "career_goal": null,
+  "budget_max_usd_per_year": 3200,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in data engineering and testing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0198",
+  "PR0058",
+  "PR0053",
+  "PR0126",
+  "PR0026",
+  "PR0065",
+  "PR0019",
+  "PR0090",
+  "PR0145",
+  "PR0107",
+  "PR0008",
+  "PR0063",
+  "PR0142",
+  "PR0082",
+  "PR0052",
+  "PR0085",
+  "PR0173",
+  "PR0071",
+  "PR0051",
+  "PR0037"
+ ],
+ "retrieved_ids": [
+  "PR0058",
+  "PR0126",
+  "PR0026",
+  "PR0145",
+  "PR0173",
+  "PR0071",
+  "PR0037",
+  "PR0053"
+ ],
+ "proposed_shortlist": [
+  "PR0126",
+  "PR0037",
+  "PR0058",
+  "PR0145",
+  "PR0053"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0126",
+  "PR0037",
+  "PR0071"
+ ],
+ "reflection_note": "The original shortlist was heavily biased towards Indian programs (PR0058, PR0145, PR0053), which severely limited the student's international career prospects and violated their 'open_international' mobility preference. I dropped all three of these due to zero post-study work visa options. I kept PR0126 and PR0037 as they represent strong, internationally viable German options that meet budget constraints and align with data/software goals. I swapped in PR0071 (MTech Data Engineering in Mumbai) because it is the only remaining program that specifically targets 'Data Engineering' interest while maintaining a low cost structure ($1300), offering a third option for consideration, even if its international appeal is limited compared to the German options.",
+ "explanation": "Ashford Technical University\nThis program is recommended because it aligns well with your interest in data science and software engineering while staying within your maximum budget of $3200 per year, with an annual tuition cost of only $2050. Your academic background (75.3%) exceeds the minimum requirement of 57%, making you a strong candidate for this German institution. The program offers high employability potential, boasting an 18-month post-study work visa and a median starting salary of $23,468. The main trade-off here is that while it provides excellent international opportunities, the median starting salary is lower compared to other options.\n\nTejas School of Engineering\nThis option is highly recommended due to its strong focus on software engineering and exceptional employability metrics in Germany. With a placement rate of 72% and an 18-month post-study work visa, it maximizes your priority for high job prospects. Although the tuition ($2650) is higher than Ashford's option, it remains under your budget limit, and your grade (75.3%) easily meets the minimum requirement of 62%. The primary trade-off to consider is that this program has a slightly higher annual tuition cost compared to other shortlisted options.\n\nLongford Institute of Applied Sciences\nThis program is recommended primarily because its low annual tuition ($1300) makes it the most budget-friendly choice, and it covers your interests in data science and software engineering. However, given your open international mobility preference, you must note that this option has no post-study work visa months listed and a median starting salary of only $7837. The main trade-off is balancing its low cost against the significantly lower employability prospects and lack of guaranteed post-graduation stay in the country.",
+ "wall_s": 217.1
+}

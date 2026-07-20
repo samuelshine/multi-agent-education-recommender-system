@@ -1,0 +1,29 @@
+{
+ "student_id": "ST0058",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 79.6
+    },
+    "career_goal": "UX Designer",
+    "budget_max_usd_per_year": 1200,
+    "location_preference": "Bengaluru",
+    "mobility": "prefers_region",
+    "employability_priority": "high",
+    "other_constraints": [
+     "Interested in Software Engineering and developer roles"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0013",
+    "PR0142",
+    "PR0112"
+   ],
+   "feedback": null
+  }
+ ]
+}

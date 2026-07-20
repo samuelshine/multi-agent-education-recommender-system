@@ -1,0 +1,62 @@
+{
+ "student_id": "ST0026",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a shell programming certification background. My overall academic average is 74.8% in an IT/computer-science degree. I'm interested in programming and testing. I want to become a Applications Developer. My family can afford at most about USD 7100 per year. I live in Bengaluru. I cannot leave my city. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [
+  "reflect"
+ ],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 74.8
+  },
+  "career_goal": "Applications Developer",
+  "budget_max_usd_per_year": 7100,
+  "location_preference": "Bengaluru",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in programming and testing",
+   "Shell programming certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0085",
+  "PR0015",
+  "PR0073",
+  "PR0002",
+  "PR0013",
+  "PR0173",
+  "PR0087"
+ ],
+ "retrieved_ids": [
+  "PR0085",
+  "PR0173",
+  "PR0013",
+  "PR0015",
+  "PR0073",
+  "PR0087"
+ ],
+ "proposed_shortlist": [
+  "PR0085",
+  "PR0073",
+  "PR0087",
+  "PR0173",
+  "PR0015"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0085",
+  "PR0073",
+  "PR0087",
+  "PR0173",
+  "PR0015"
+ ],
+ "reflection_note": "reflect fallback: kept proposal",
+ "explanation": "Keystone Institute of Applied Sciences\nThis program is recommended because its focus on Software Quality Engineering directly aligns with your interest in testing and programming. The annual tuition of $1450 remains well within your maximum budget, and the minimum grade requirement of 54% is easily met by your academic background. While the median starting salary of $6488 is acceptable for a Bengaluru-based role, the main trade-off here is that its placement rate (63%) is moderate compared to other options on this list.\n\nElmhurst Technical University\nThis program offers excellent employability metrics, boasting an 80% placement rate and a high median starting salary of $8637. The annual tuition of $1250 fits comfortably within your budget, and the minimum grade requirement is also met. Since you have an IT/CS background, this MTech Cyber Security program is highly relevant to modern software development roles. The trade-off is that its specialized focus on cybersecurity may be slightly less aligned with pure applications development compared to other options.\n\nAravalli Technical University\nThis option meets your location preference in Bengaluru and keeps tuition costs low at $1200, which respects your budget constraints. Furthermore, the minimum grade requirement of 52% is easily satisfied by your academic record. However, you should note that this program's focus on Data Science Analytics may not be as directly related to core applications development or testing as other options. The main trade-off here is accepting a lower placement rate (58%) for a manageable tuition cost.\n\nLongford Technical University\nThis MTech Computer Science program is highly recommended due to its low annual tuition of only $500, making it the most budget-friendly option available. It covers both software engineering and data science analytics, aligning well with your interest in programming while also not requiring a specific CS background. While the placement rate (62%) is moderate, the combination of low cost and strong technical relevance makes this an excellent choice for maximizing value.\n\nKeystone Institute of Technology\nThis program offers the highest median starting salary ($9707) on the list, which strongly addresses your priority for high employability. The annual tuition of $1200 remains within budget, and it does not require a CS background, offering flexibility. However, because its primary field is business information systems, the main trade-off is that the curriculum may lean more toward business processes rather than deep technical programming or testing skills.",
+ "wall_s": 150.9
+}

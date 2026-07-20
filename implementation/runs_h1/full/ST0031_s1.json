@@ -1,0 +1,71 @@
+{
+ "student_id": "ST0031",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a app development certification background. My overall academic average is 75.9% in an IT/computer-science degree. I'm interested in programming and Business process analyst. I want to become a Database Manager. My family can afford at most about USD 4500 per year. I live in Delhi. I'd strongly prefer to stay near home, though I might consider elsewhere in India.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 75.9
+  },
+  "career_goal": "Database Manager",
+  "budget_max_usd_per_year": 4500,
+  "location_preference": null,
+  "mobility": "prefers_region",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in programming and Business process analyst"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0191",
+  "PR0033",
+  "PR0074",
+  "PR0087",
+  "PR0101",
+  "PR0143",
+  "PR0058",
+  "PR0007",
+  "PR0054",
+  "PR0099",
+  "PR0026",
+  "PR0105",
+  "PR0090",
+  "PR0120",
+  "PR0170",
+  "PR0015",
+  "PR0020",
+  "PR0145",
+  "PR0157",
+  "PR0107"
+ ],
+ "retrieved_ids": [
+  "PR0191",
+  "PR0033",
+  "PR0101",
+  "PR0054",
+  "PR0157",
+  "PR0020",
+  "PR0120",
+  "PR0170"
+ ],
+ "proposed_shortlist": [
+  "PR0191",
+  "PR0101",
+  "PR0054",
+  "PR0157"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0191",
+  "PR0101",
+  "PR0157",
+  "PR0120"
+ ],
+ "reflection_note": "The original shortlist was strong and met all hard constraints (Budget: Max $4500; Academic Fit: Min 71% for PR0191/PR0101, student grade 75.9%). I dropped PR0054 because the candidate set contains a superior alternative in Delhi (PR0120) that better addresses the 'programming' interest while maintaining excellent financial feasibility and relevance to data management. I swapped in PR0120 to provide a highly specialized, low-cost option in Delhi, improving the overall diversity of location/specialization options for the student.",
+ "explanation": "Sarayu Technical University\nThis program was recommended because its MTech Data Engineering curriculum directly aligns with your goal of becoming a Database Manager while also satisfying your interest in programming and data analytics. The annual tuition of $3250 is well within your maximum budget, and your 75.9% grade exceeds the required minimum of 71%. While it offers strong career prospects with an 84% placement rate and a median starting salary of $15,951, the main trade-off to consider is that there are zero months of post-study work visa support listed.\n\nBraxton Institute of Applied Sciences\nThis MSc Information Systems program is highly relevant as it focuses on Business Information Systems, which complements your interest in being a Business Process Analyst while supporting your Database Manager career goal. The annual tuition of $2400 keeps you comfortably under budget, and admission requires only a minimum grade of 71%, which you meet. It boasts an excellent placement rate of 85% and a median starting salary of $15,394; however, like the Sarayu option, there is no post-study work visa support available.\n\nLongford University\nThis MSc IT Management program was recommended for its low cost ($800 annual tuition), making it an excellent fit if budget is your primary concern while still addressing your interest in business processes. Admission is accessible with a minimum grade of 64%, and the curriculum covers key areas like IT management. The main trade-off here is that while the tuition is very low, the median starting salary ($10,444) and placement rate (72%) are among the lowest on this list.\n\nAshford Institute of Applied Sciences\nThis MSc Big Data Analytics program was selected because its focus on data science analytics strongly supports your career goal in database management and aligns with your interest in programming. At $800 annually, it is one of the most budget-friendly options available. While the low tuition is a major benefit, the trade-off to note is that the median starting salary ($10,021) and placement rate (78%) are also among the lowest on this list compared to other high-earning data programs.",
+ "wall_s": 228.2
+}

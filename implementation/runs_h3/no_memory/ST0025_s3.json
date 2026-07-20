@@ -1,0 +1,72 @@
+{
+ "student_id": "ST0025",
+ "session": 3,
+ "mode": "no_memory",
+ "version": 1,
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 81% in an IT/computer-science degree. I'm interested in networks and developer. I want to become a Software Engineer. My family can afford at most about USD 4400 per year. I live in Kolkata. I'm open to going abroad. Getting a good job after graduation matters more to me than anything else. About the earlier suggestions: I liked PR0037, PR0194.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 81
+  },
+  "career_goal": "Software Engineer",
+  "budget_max_usd_per_year": 4400,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in networks and developer roles"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0037",
+  "PR0161",
+  "PR0198",
+  "PR0144",
+  "PR0194",
+  "PR0186",
+  "PR0058",
+  "PR0039",
+  "PR0053",
+  "PR0038",
+  "PR0158",
+  "PR0043",
+  "PR0126",
+  "PR0109",
+  "PR0026",
+  "PR0076",
+  "PR0012",
+  "PR0065",
+  "PR0019",
+  "PR0167"
+ ],
+ "retrieved_ids": [
+  "PR0037",
+  "PR0194",
+  "PR0126",
+  "PR0038",
+  "PR0186",
+  "PR0167",
+  "PR0043",
+  "PR0109"
+ ],
+ "proposed_shortlist": [
+  "PR0194",
+  "PR0037",
+  "PR0126",
+  "PR0038"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0194",
+  "PR0037",
+  "PR0186",
+  "PR0043"
+ ],
+ "reflection_note": "The initial shortlist was strong but contained two weaker options (PR0126, PR0038). I dropped these to focus the student on the highest-impact international opportunities. I swapped in PR0186 because its specialization in 'Computer Networks' directly addresses a key interest point ('networks') and provides a valuable comparison point against the cloud/software options in Germany (PR0194, PR0037). Finally, I added PR0043 as a strong alternative international option from India, which offers excellent placement rates and specialization in Cloud Computing, broadening the scope while maintaining high employability focus.",
+ "explanation": "Aravalli School of Engineering\nThis program is recommended because it offers a strong international pathway while remaining within your budget, with an annual tuition cost of $1950. The curriculum aligns perfectly with your interests in networking and software engineering, and the location in Germany provides excellent career opportunities. You benefit from a median starting salary of $30651 and are supported by an 18-month post-study work visa, which is a major advantage for international mobility. The main trade-off here is that the placement rate (67%) is lower than some domestic options, but this is offset by the significant international career potential.\n\nTejas School of Engineering\nThis option provides robust international job prospects in Germany, matching your interest in software engineering with a low annual tuition fee of $2650. It boasts a high median starting salary of $34339 and an excellent 72% placement rate. Furthermore, the program supports your career goals by offering an 18-month post-study work visa, making it highly attractive for international students. The trade-off is that the tuition cost is slightly higher than Aravalli School of Engineering, but this is justified by the superior salary and visa support.\n\nHalcyon Institute of Technology\nThis program is recommended due to its high employability metrics, offering an 83% placement rate while keeping the annual tuition low at $2050. The MTech Computer Networks curriculum directly addresses your interest in networking and software development. While it provides a strong technical foundation with a median starting salary of $15192, the main trade-off is that there is no post-study work visa support (0 months), limiting international career mobility compared to the German options.\n\nVantage Institute of Technology\nThis program offers the highest placement rate on the list at 86%, making it a highly reliable choice for maximizing employability within India. The MSc Cloud Computing curriculum aligns well with your goals, and the annual tuition cost is manageable at $3950. While this option provides strong technical training and a median starting salary of $11981, the primary trade-off is that like Halcyon Institute, it offers no post-study work visa support (0 months), which limits international career options.",
+ "wall_s": 202.2
+}

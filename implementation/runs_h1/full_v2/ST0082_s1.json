@@ -1,0 +1,59 @@
+{
+ "student_id": "ST0082",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a shell programming certification background. My overall academic average is 73.7% in an IT/computer-science degree. I'm interested in Computer Architecture and testing. I want to become a Technical Engineer. My family can afford at most about USD 6100 per year. I live in Bengaluru. I cannot leave my city. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 73.7
+  },
+  "career_goal": "Technical Engineer (interested in Computer Architecture and testing)",
+  "budget_max_usd_per_year": 6100,
+  "location_preference": "Bengaluru",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Shell programming certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0085",
+  "PR0015",
+  "PR0073",
+  "PR0002",
+  "PR0013",
+  "PR0173",
+  "PR0087"
+ ],
+ "retrieved_ids": [
+  "PR0085",
+  "PR0173",
+  "PR0087",
+  "PR0073",
+  "PR0015",
+  "PR0013"
+ ],
+ "proposed_shortlist": [
+  "PR0073",
+  "PR0015",
+  "PR0173",
+  "PR0085",
+  "PR0013"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0073",
+  "PR0015",
+  "PR0173",
+  "PR0085",
+  "PR0013"
+ ],
+ "reflection_note": "All five programs on the shortlist are valid and meet all hard constraints (budget, location). No drops or swaps were necessary. The ranking reflects a balance between technical relevance (Cybersecurity > Software/Data Science) and overall fit/employability.",
+ "explanation": "**Elmhurst Technical University**\nThis program was recommended because it is highly relevant to technical engineering and requires a CS background, which matches your academic profile. The low annual tuition of $1250 keeps you well within your budget maximum of $6100, and the 80% placement rate offers strong employability. The main trade-off here is that while cybersecurity is technical, it may not align as closely with your specific interest in Computer Architecture or testing compared to other options.\n\n**Keystone Institute of Technology**\nThis option was considered due to its high median starting salary ($9707) and a solid 78% placement rate, which addresses your priority for employability. The tuition is low at $1200, fitting comfortably within your budget. However, the program focuses on Business Information Systems, meaning the main trade-off is that while it offers excellent career outcomes, its business focus deviates from your core interest in technical engineering and computer architecture.\n\n**Longford Technical University**\nThis MTech Computer Science program was recommended because its curriculum fields\u2014including Software Engineering\u2014are highly aligned with a technical engineer's goal. Furthermore, the extremely low tuition of $500 is excellent for your budget. The primary trade-off to consider is that this option has the lowest placement rate (62%) and median starting salary ($6851) among the shortlisted programs.\n\n**Keystone Institute of Applied Sciences**\nThis program was recommended because its focus on \"qa_testing\" directly matches your stated interest in testing, making it highly relevant to your career goal. The tuition is $1450, which is affordable and keeps you within budget. The main trade-off here is that while the technical relevance is high, the placement rate (63%) and median starting salary ($6488) are lower compared to other options on this list.\n\n**Meridian Institute of Technology**\nThis program was recommended because it offers a strong balance of affordability ($900 tuition) and good employability metrics, boasting a 77% placement rate and a high median starting salary of $9186. However, the curriculum focuses on Human-Computer Interaction (HCI), which is primarily design-oriented. The main trade-off is that while it offers excellent career prospects, its focus deviates significantly from your technical engineering goals in computer architecture or testing.",
+ "wall_s": 153.6
+}

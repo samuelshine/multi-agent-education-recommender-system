@@ -1,0 +1,54 @@
+{
+ "student_id": "ST0049",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a full stack certification background. My overall academic average is 78.7% in an IT/computer-science degree. I'm interested in programming and Business process analyst. I want to become a Applications Developer. My family can afford at most about USD 13400 per year. I live in Delhi. I'm open to anywhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 78.7
+  },
+  "career_goal": "Applications Developer",
+  "budget_max_usd_per_year": 13400,
+  "location_preference": "Delhi",
+  "mobility": "open_domestic",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in programming and Business process analyst roles"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0191",
+  "PR0101",
+  "PR0054",
+  "PR0105",
+  "PR0015",
+  "PR0020",
+  "PR0033",
+  "PR0157",
+  "PR0047",
+  "PR0074",
+  "PR0172",
+  "PR0087",
+  "PR0117",
+  "PR0198",
+  "PR0097",
+  "PR0144",
+  "PR0139",
+  "PR0164",
+  "PR0029",
+  "PR0022"
+ ],
+ "final_shortlist": [
+  "PR0164",
+  "PR0144",
+  "PR0139",
+  "PR0198",
+  "PR0029"
+ ],
+ "explanation": "This MBA Technology Management program in Delhi aligns well with your interest in Business Process Analyst and Applications Developer roles. It has a high placement rate (90%) and a strong median starting salary ($17361), making it excellent for job prospects while staying within your budget.\n\nThe MTech Computer Science program in Pune is highly relevant to becoming an Applications Developer, focusing on software engineering. With a high placement rate (93%) and strong salary ($19239), it offers excellent career growth potential while meeting your academic background requirements.\n\nThis MSc Software Quality Engineering program in Delhi is ideal for a technical role and has the highest median starting salary ($20639) among the top-ranked options. It provides strong job security and aligns with your interest in programming.\n\nLocated in Bengaluru, this MSc Software Quality Engineering program offers a high placement rate (95%) and excellent salary ($21062). It is highly technical and directly supports your goal of becoming an Applications Developer.\n\nThe MSc Information Security program in Mumbai provides specialized knowledge that complements both development and business analysis. It has a high placement rate (92%) and is technically focused, making it a solid choice for career advancement.",
+ "wall_s": 53.2
+}

@@ -1,0 +1,74 @@
+{
+ "student_id": "ST0046",
+ "session": 1,
+ "mode": "single_objective",
+ "version": 2,
+ "message": "Hi, I'm a student with a full stack certification background. My overall academic average is 78% in an IT/computer-science degree. I'm interested in hacking and cloud computing. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 6900 per year. I live in Hyderabad. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 78
+  },
+  "career_goal": null,
+  "budget_max_usd_per_year": 6900,
+  "location_preference": "Hyderabad",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in hacking and cloud computing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0186",
+  "PR0197",
+  "PR0043",
+  "PR0147",
+  "PR0096",
+  "PR0199",
+  "PR0118",
+  "PR0121",
+  "PR0148",
+  "PR0016",
+  "PR0102",
+  "PR0180",
+  "PR0162",
+  "PR0112",
+  "PR0159",
+  "PR0032",
+  "PR0184",
+  "PR0165",
+  "PR0117",
+  "PR0198"
+ ],
+ "retrieved_ids": [
+  "PR0096",
+  "PR0159",
+  "PR0186",
+  "PR0197",
+  "PR0147",
+  "PR0180",
+  "PR0162",
+  "PR0148"
+ ],
+ "proposed_shortlist": [
+  "PR0096",
+  "PR0162",
+  "PR0148",
+  "PR0159",
+  "PR0186"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0096",
+  "PR0162",
+  "PR0148",
+  "PR0159",
+  "PR0147"
+ ],
+ "reflection_note": "The initial shortlist was strong but lacked diversity in location and specialized cloud options. PR0096 remains the top choice due to perfect alignment (Hyderabad, Cloud/Cybersecurity). While PR0162 is geographically suboptimal (Chennai), its high relevance keeps it ranked highly. I kept all existing entries as they meet hard constraints (budget: max tuition $3350 < $6900; location: regional alternatives are acceptable). I swapped in PR0147 because it offers a specialized 'MSc Cloud Computing' degree, which directly addresses the student's interest and has strong academic feasibility (min grade 74% vs 78%). This improves the overall technical breadth of the list.",
+ "explanation": "Ashford Institute of Applied Sciences\nThis program was highly recommended because it perfectly aligns with your interests in cybersecurity and cloud computing while meeting your location preference for Hyderabad. The annual tuition of $3350 is well within your budget maximum of $6900, and the minimum required grade percentage (71%) is comfortably below your 78% academic standing. This option offers strong employability metrics with an 80% placement rate and a median starting salary of $12,561. There are no major trade-offs here; it represents a strong match across all your stated preferences.\n\nAravalli Institute of Applied Sciences\nThis program is recommended for its low annual tuition of $1150, which is excellent for your budget constraints, and its focus on cybersecurity and networking/cloud technologies. While the curriculum matches your interests, the main trade-off here is location: it is in Chennai rather than your preferred Hyderabad. Furthermore, while admission requirements are easy to meet (min 57%), this option has a lower median starting salary of $7,369 compared to other options.\n\nKestrel Institute of Technology\nThis program was suggested because it covers both cybersecurity and networking/cloud fields, matching your interests, and its tuition ($2250) is very budget-friendly. The trade-off you must consider is that the location is Coimbatore, not Hyderabad. However, this option offers flexibility as it does not require a CS background, making admission easier while still providing good employability with a 73% placement rate.\n\nVantage Technical University\nThis program was recommended because it is located in your preferred city of Hyderabad and has the lowest tuition cost at $700. While it meets your budget perfectly, the main trade-off is that its focus is on IT support rather than deep hacking or cloud computing specialization. Although admission requirements are minimal (min 52%), this option provides the least high employability metrics among the short-listed programs.\n\nFairfax Institute of Technology\nThis program was recommended because it offers a strong curriculum in networking/cloud, directly matching your interests, and boasts the highest placement rate at 83%. The primary trade-off is that while its median starting salary ($13,015) is excellent for employability, the location is Coimbatore, not Hyderabad. However, since you have an IT/CS background (78%), this option meets all academic requirements and remains within your budget of $6900.",
+ "wall_s": 87.6
+}

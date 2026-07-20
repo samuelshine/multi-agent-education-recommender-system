@@ -1,0 +1,54 @@
+{
+ "student_id": "ST0016",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a full stack certification background. My overall academic average is 76.2% in an IT/computer-science degree. I'm interested in programming and system developer. I want to become a Technical Engineer. My family can afford at most about USD 4000 per year. I live in Mumbai. I'm open to going abroad. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 76.2
+  },
+  "career_goal": "Technical Engineer (Programming and System Developer)",
+  "budget_max_usd_per_year": 4000,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Full stack certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0000",
+  "PR0195",
+  "PR0021",
+  "PR0153",
+  "PR0051",
+  "PR0037",
+  "PR0161",
+  "PR0198",
+  "PR0104",
+  "PR0144",
+  "PR0139",
+  "PR0194",
+  "PR0164",
+  "PR0029",
+  "PR0022",
+  "PR0137",
+  "PR0182",
+  "PR0060",
+  "PR0191",
+  "PR0119"
+ ],
+ "final_shortlist": [
+  "PR0195",
+  "PR0021",
+  "PR0137",
+  "PR0194",
+  "PR0164"
+ ],
+ "explanation": "This program offers a strong focus on Information Systems in Germany with very low tuition (USD 300), making it highly affordable. It meets your academic background requirements and provides excellent job prospects with a high placement rate and good starting salary.\n\nLocated in Germany, this MSc IT Operations program has low tuition (USD 450) and is suitable for your interest in system development. It also offers a good placement rate and the benefit of an 18-month post-study work visa.\n\nWhile slightly higher in tuition than other options, this MBA Business Analytics program in Germany offers a strong career focus and the benefit of an 18-month post-study work visa. It is suitable for leveraging your full stack background into management roles.\n\nThis MSc Cloud Computing program in Germany aligns well with modern system development and networking interests. Although the placement rate is lower, it provides a valuable CS-focused degree with an affordable tuition fee and post-study work visa.\n\nThis MBA Technology Management program in India offers high placement rate (90%) and low tuition (USD 2050). While it is in India, the strong job focus and manageable cost make it a solid alternative if you prefer to stay closer to home.",
+ "wall_s": 52.3
+}

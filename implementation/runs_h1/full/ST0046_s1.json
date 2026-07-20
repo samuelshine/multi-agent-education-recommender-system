@@ -1,0 +1,72 @@
+{
+ "student_id": "ST0046",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a full stack certification background. My overall academic average is 78% in an IT/computer-science degree. I'm interested in hacking and cloud computing. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 6900 per year. I live in Hyderabad. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 78
+  },
+  "career_goal": null,
+  "budget_max_usd_per_year": 6900,
+  "location_preference": "Hyderabad",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in hacking and cloud computing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0186",
+  "PR0197",
+  "PR0043",
+  "PR0147",
+  "PR0096",
+  "PR0199",
+  "PR0118",
+  "PR0121",
+  "PR0148",
+  "PR0016",
+  "PR0102",
+  "PR0180",
+  "PR0162",
+  "PR0112",
+  "PR0159",
+  "PR0032",
+  "PR0184",
+  "PR0165",
+  "PR0117",
+  "PR0198"
+ ],
+ "retrieved_ids": [
+  "PR0096",
+  "PR0159",
+  "PR0186",
+  "PR0197",
+  "PR0147",
+  "PR0180",
+  "PR0162",
+  "PR0148"
+ ],
+ "proposed_shortlist": [
+  "PR0096",
+  "PR0159",
+  "PR0186",
+  "PR0147"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0096",
+  "PR0159",
+  "PR0197",
+  "PR0162",
+  "PR0148"
+ ],
+ "reflection_note": "The original shortlist was strong but contained two options (PR0186, PR0147) that significantly deviated from the preferred location (Hyderabad). I have kept the top Hyderabad option (PR0096) and the highly affordable local alternative (PR0159). For the remaining slots, I swapped in three high-quality alternatives: PR0197 (strong degree/cloud), PR0162 (low cost/cybersecurity focus), and PR0148 (good interest fit/alternative location). This revised list prioritizes Hyderabad options first, then introduces strong, relevant alternatives that maintain affordability and academic rigor.",
+ "explanation": "Ashford Institute of Applied Sciences\nThis program is highly recommended because it meets your location preference in Hyderabad and aligns perfectly with your interests in cybersecurity and cloud computing. With a tuition cost of $3350, it fits well within your budget, and your 78% grade exceeds the minimum requirement of 71%. It offers strong employability metrics, boasting an 80% placement rate and a median starting salary of $12561. The main trade-off is that while the program is excellent for your goals, it does not offer post-study work visa benefits.\n\nVantage Technical University\nThis option was recommended primarily because it matches your location preference in Hyderabad and has an extremely low annual tuition cost of only $700. Admission requirements are minimal (52% minimum grade) and do not require a CS background. However, the main trade-off is that while the cost is excellent, the program focuses on IT support rather than advanced hacking or cloud computing, and its median starting salary ($6514) is lower compared to other options.\n\nAshford Institute of Technology\nThis institution offers the highest employability metrics in the shortlist, with an 85% placement rate and a strong median starting salary of $13362. The program focuses on networking/cloud computing and requires a CS background, which matches your academic profile. The main trade-off for this excellent career outcome is that it is located in Chennai, deviating from your stated preference for Hyderabad.\n\nAravalli Institute of Applied Sciences\nThis program was recommended because its fields\u2014cybersecurity and cloud computing\u2014are an ideal match for your interests, and the tuition ($1150) is very budget-friendly. You meet the admission requirement (71% minimum grade). The main trade-off here is that while it offers strong field alignment and low cost, it is located in Chennai instead of Hyderabad, and its median starting salary ($7369) is moderate compared to other options.\n\nKestrel Institute of Technology\nThis program was recommended due to its excellent focus on cybersecurity and cloud computing fields, which directly aligns with your interests. It also has the lowest tuition cost at $2250 and does not require a CS background. The main trade-off for this low cost and strong field alignment is that it is located in Coimbatore, deviating from your preferred location of Hyderabad.",
+ "wall_s": 202.1
+}

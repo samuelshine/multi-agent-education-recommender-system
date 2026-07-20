@@ -1,0 +1,54 @@
+{
+ "student_id": "ST0092",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a full stack certification background. My overall academic average is 72.2% in an IT/computer-science degree. I'm interested in Computer Architecture and system developer. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 2400 per year. I live in Bengaluru. I'm open to anywhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 72.2
+  },
+  "career_goal": "Computer Architecture and system developer (Tech)",
+  "budget_max_usd_per_year": 2400,
+  "location_preference": "Bengaluru",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [],
+  "uncertainty_notes": [
+   "None"
+  ]
+ },
+ "prefilter_ids": [
+  "PR0182",
+  "PR0119",
+  "PR0101",
+  "PR0143",
+  "PR0186",
+  "PR0176",
+  "PR0058",
+  "PR0187",
+  "PR0039",
+  "PR0174",
+  "PR0053",
+  "PR0007",
+  "PR0158",
+  "PR0072",
+  "PR0054",
+  "PR0109",
+  "PR0076",
+  "PR0012",
+  "PR0065",
+  "PR0019"
+ ],
+ "final_shortlist": [
+  "PR0186",
+  "PR0176",
+  "PR0058",
+  "PR0012",
+  "PR0187"
+ ],
+ "explanation": "This MTech in Computer Networks is highly relevant to your interest in system development and architecture. It requires a CS background (which you have) and offers a strong median starting salary of $15,192 while staying within your budget.\n\nThe MBA Technology Management program is an excellent choice if you are unsure what to become. It combines IT management with software engineering skills and offers a high median starting salary ($15,400) at a low tuition cost.\n\nThis MCA program focuses on data science analytics and software engineering, directly aligning with your tech interests. It has a manageable tuition fee ($1,350) and requires the CS background you possess.\n\nThis MCA program is focused purely on software engineering, making it a strong technical fit. It meets your academic requirements (73% minimum) and has an affordable tuition fee ($1,500).\n\nThe PG Diploma in Systems Administration is a practical choice for system development. It requires no specific CS background and has a low tuition cost ($1,450), making it financially safe while still being technically relevant.",
+ "wall_s": 54.1
+}

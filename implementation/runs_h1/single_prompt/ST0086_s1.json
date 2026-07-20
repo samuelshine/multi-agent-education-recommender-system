@@ -1,0 +1,54 @@
+{
+ "student_id": "ST0086",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 75.6% in an IT/computer-science degree. I'm interested in Software Engineering and cloud computing. I want to become a Technical Services/Help Desk/Tech Support. My family can afford at most about USD 13300 per year. I live in Chennai. I'm open to going abroad. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 75.6
+  },
+  "career_goal": "Technical Services/Help Desk/Tech Support",
+  "budget_max_usd_per_year": 13300,
+  "location_preference": "Chennai",
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "r programming certification"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0021",
+  "PR0169",
+  "PR0088",
+  "PR0022",
+  "PR0187",
+  "PR0002",
+  "PR0121",
+  "PR0188",
+  "PR0098",
+  "PR0050",
+  "PR0159",
+  "PR0000",
+  "PR0195",
+  "PR0122",
+  "PR0005",
+  "PR0010",
+  "PR0153",
+  "PR0024",
+  "PR0132",
+  "PR0051"
+ ],
+ "final_shortlist": [
+  "PR0021",
+  "PR0195",
+  "PR0000",
+  "PR0122",
+  "PR0088"
+ ],
+ "explanation": "This German program is highly recommended because it directly matches your interest in Tech Support/IT Operations and has a very low tuition fee ($450), making it affordable. Furthermore, the high placement rate (82%) and strong post-study work visa (18 months) maximize your chances of securing a good job abroad.\n\nWhile focused on Business Information Systems, this German program offers excellent career prospects with a high median starting salary ($51k) and strong placement rate (82%). The low tuition fee ($300) keeps it within budget while providing valuable international experience.\n\nThis German MSc program provides a strong career path with excellent job prospects (91% placement rate and $56k salary). Although it focuses on IT Management rather than pure support, the low tuition ($950) and long post-study work visa (18 months) make it an ideal choice for maximizing employment opportunities.\n\nThis Dutch program is a good alternative if you prefer the Netherlands. While the tuition ($13300) is near your budget limit, it offers strong job security with a decent placement rate (77%) and a solid post-study work visa of 12 months.\n\nThis Dutch PG Diploma is specifically in Systems Administration/IT Support, directly aligning with your career goal. The tuition ($12800) is within budget, and the program offers a good post-study work visa (12 months), making it a practical choice for immediate job placement.",
+ "wall_s": 56.3
+}

@@ -1,0 +1,71 @@
+{
+ "student_id": "ST0025",
+ "session": 1,
+ "mode": "single_objective",
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 81% in an IT/computer-science degree. I'm interested in networks and developer. I want to become a Software Engineer. My family can afford at most about USD 4400 per year. I live in Kolkata. I'm open to going abroad. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 81
+  },
+  "career_goal": "Software Engineer",
+  "budget_max_usd_per_year": 4400,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in networks and developer fields"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0037",
+  "PR0161",
+  "PR0198",
+  "PR0144",
+  "PR0194",
+  "PR0186",
+  "PR0058",
+  "PR0039",
+  "PR0053",
+  "PR0038",
+  "PR0158",
+  "PR0043",
+  "PR0126",
+  "PR0109",
+  "PR0026",
+  "PR0076",
+  "PR0012",
+  "PR0065",
+  "PR0019",
+  "PR0167"
+ ],
+ "retrieved_ids": [
+  "PR0037",
+  "PR0194",
+  "PR0126",
+  "PR0038",
+  "PR0186",
+  "PR0167",
+  "PR0043",
+  "PR0109"
+ ],
+ "proposed_shortlist": [
+  "PR0194",
+  "PR0037",
+  "PR0126",
+  "PR0038"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0037",
+  "PR0194",
+  "PR0038",
+  "PR0186"
+ ],
+ "reflection_note": "The initial shortlist was strong, focusing correctly on German options due to the student's profile and high academic fit. I dropped PR0126 because its Data Science focus diluted the core SE/Networking interest.\n\nI swapped in PR0186 (India) as a highly specialized alternative. Although it lacks post-study work visa benefits, its strong placement rate and direct alignment with 'networking_cloud' make it valuable for consideration if the German options are too competitive or financially restrictive. The final list prioritizes Germany first, followed by this high-quality Indian backup.",
+ "explanation": "Tejas School of Engineering\nThis program is recommended because its MCA curriculum directly aligns with your goal of becoming a Software Engineer and satisfies your interest in developer fields. The annual tuition of $2650 fits well within your budget constraint of $4400 per year, and the institution offers an 18-month post-study work visa, supporting your international mobility goals. While the placement rate is solid at 72%, the main trade-off here is that the median starting salary ($34,339) might not be as high as desired given your priority for employability.\n\nAravalli School of Engineering\nThis MSc Cloud Computing program is an excellent fit because it combines both networking and software engineering fields, matching your stated interests perfectly. At $1950 annually, the tuition is highly budget-friendly, and like other international options, it provides a valuable 18-month post-study work visa for career continuation. The trade-off to consider is that while the program aligns strongly with your interests, its placement rate (67%) is slightly lower than some of the other shortlisted options.\n\nHalcyon Technical University\nThis MTech Computer Science option is recommended primarily because it offers the lowest tuition cost at $1200 annually, making it ideal for adhering strictly to your budget constraint. The program focuses purely on software engineering and provides an 18-month post-study work visa, which supports international career planning. However, the main trade-off is that its median starting salary ($22,356) is significantly lower compared to other options, potentially conflicting with your high employability priority.\n\nHalcyon Institute of Technology\nThis MTech Computer Networks program offers a very strong placement rate of 83%, which directly addresses your high employability priority and aligns well with both networking and developer fields. The tuition cost ($2050) is also manageable within your budget. The major trade-off, however, is that while the placement rate is excellent, this institution does not offer a post-study work visa (0 months), which conflicts with your stated preference for international mobility.",
+ "wall_s": 116.2
+}

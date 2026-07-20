@@ -1,0 +1,54 @@
+{
+ "student_id": "ST0032",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a shell programming certification background. My overall academic average is 78.6% in an IT/computer-science degree. I'm interested in Management and system developer. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 3500 per year. I live in Pune. I'd strongly prefer to stay near home, though I might consider elsewhere in India.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 78.6
+  },
+  "career_goal": "Management and system developer (in tech)",
+  "budget_max_usd_per_year": 3500,
+  "location_preference": "Pune",
+  "mobility": "prefers_region",
+  "employability_priority": "medium",
+  "other_constraints": [
+   "Shell programming certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0164",
+  "PR0060",
+  "PR0176",
+  "PR0092",
+  "PR0189",
+  "PR0076",
+  "PR0130",
+  "PR0078",
+  "PR0150",
+  "PR0157",
+  "PR0160",
+  "PR0048",
+  "PR0172",
+  "PR0156",
+  "PR0117",
+  "PR0198",
+  "PR0097",
+  "PR0139",
+  "PR0029",
+  "PR0022"
+ ],
+ "final_shortlist": [
+  "PR0092",
+  "PR0172",
+  "PR0156",
+  "PR0164",
+  "PR0176"
+ ],
+ "explanation": "This program is ideal because it is located in Pune, matching your strong preference to stay near home. The tuition fee of $3450 is within your family's budget constraint of $3500, and the minimum required grade (74%) is close to your 78.6% average.\n\nThis option also keeps you in Pune, fulfilling your location preference while offering a slightly different focus (Business Information Systems) than the MBA. The annual tuition of $2250 is well within budget and requires only a minimum grade of 62%, making it highly accessible given your academic background.\n\nThis program is located in Pune and has the lowest tuition fee ($1350) among the local options, providing a comfortable buffer within your $3500 budget. Although it is an MBA, its low entry requirements (min grade 57%) make it a safe choice if you are unsure of your exact career path.\n\nIf you are willing to consider Delhi, this MBA program is affordable at $2050 and has a minimum grade requirement (79%) that is slightly higher than your current average. However, it offers excellent placement prospects and aligns with your interest in Management.\n\nThis MBA program in Hyderabad provides a good balance of cost ($1900) and academic fit. While not in Pune, it is geographically close and offers strong placement potential, making it a solid alternative if you are open to moving within India.",
+ "wall_s": 41.0
+}

@@ -1,0 +1,70 @@
+{
+ "student_id": "ST0027",
+ "session": 3,
+ "mode": "full",
+ "version": 1,
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 79.2% in an IT/computer-science degree. I'm interested in IOT and security. I want to become a Technical Services/Help Desk/Tech Support. My family can afford at most about USD 9700 per year. I live in Hyderabad. I'm open to going abroad. Getting a good job after graduation matters more to me than anything else. About the earlier suggestions: I liked PR0021, PR0195.",
+ "memory_used": true,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 79.2
+  },
+  "career_goal": "Technical Services/Help Desk/Tech Support",
+  "budget_max_usd_per_year": 9700,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in IOT and security"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0021",
+  "PR0117",
+  "PR0022",
+  "PR0187",
+  "PR0002",
+  "PR0121",
+  "PR0188",
+  "PR0098",
+  "PR0050",
+  "PR0159",
+  "PR0000",
+  "PR0195",
+  "PR0153",
+  "PR0051",
+  "PR0151",
+  "PR0037",
+  "PR0161",
+  "PR0198",
+  "PR0097",
+  "PR0104"
+ ],
+ "retrieved_ids": [
+  "PR0021",
+  "PR0000",
+  "PR0195",
+  "PR0153",
+  "PR0104",
+  "PR0151",
+  "PR0037",
+  "PR0161"
+ ],
+ "proposed_shortlist": [
+  "PR0021",
+  "PR0195",
+  "PR0153"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0021",
+  "PR0195",
+  "PR0161"
+ ],
+ "reflection_note": "The original shortlist was good but contained one program (PR0153) that significantly missed the mark regarding the student's career goals (Tech Support/IOT/Security). I dropped PR0153 and swapped in PR0161 (MSc Software Engineering). This new inclusion provides a more technically rigorous option, better aligning with both 'IT/CS background' and 'Technical Services' aspirations. The final list maintains the strong budget fit of PR0021 while offering two distinct technical pathways: IT Operations (PR0021) and core Software Engineering (PR0161).",
+ "explanation": "Ashford Institute of Technology\nThis program is highly recommended because its focus on IT Operations directly aligns with your career goal in Technical Services/Tech Support. It maintains a very low annual tuition cost of $450, which fits well within your budget maximum of $9700. Furthermore, the 82% placement rate addresses your high employability priority, and you are eligible to apply as your current grade (79.2%) exceeds the minimum requirement of 73%. The main trade-off here is that while it covers operations, its focus may be slightly broader than specialized IoT or security topics.\n\nKeystone School of Engineering\nThis option was recommended due to its excellent combination of low cost and high earning potential, offering a median starting salary of $51,059 USD. The annual tuition of only $300 is extremely budget-friendly, and the 82% placement rate strongly supports your employability priority. You are also eligible for an 18-month post-study work visa. The primary trade-off to consider is that its focus on business information systems may be less technical or specialized than a dedicated IT Support program.\n\nTejas University\nWhile this program aligns well with your existing IT/computer-science background, it presents a notable trade-off regarding your stated priorities. Although the tuition of $3850 remains within budget and you meet the admission requirements, its 72% placement rate is lower than other options, and the median starting salary ($33,731) is also the lowest on this list. This program focuses heavily on software engineering rather than the direct technical support or help desk role that matches your career goal.",
+ "wall_s": 277.7
+}

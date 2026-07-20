@@ -1,0 +1,75 @@
+{
+ "student_id": "ST0028",
+ "session": 2,
+ "mode": "full",
+ "version": 1,
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 72.9% in an IT/computer-science degree. I'm interested in data engineering and security. I want to become a Software Engineer. My family can afford at most about USD 33700 per year. I live in Coimbatore. I'm open to going abroad. About the earlier suggestions: I liked PR0186, PR0143.",
+ "memory_used": true,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 72.9
+  },
+  "career_goal": "Software Engineer",
+  "budget_max_usd_per_year": 33700,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in data engineering and security"
+  ],
+  "uncertainty_notes": [
+   "Employability priority not stated."
+  ]
+ },
+ "prefilter_ids": [
+  "PR0086",
+  "PR0058",
+  "PR0126",
+  "PR0026",
+  "PR0090",
+  "PR0145",
+  "PR0107",
+  "PR0063",
+  "PR0173",
+  "PR0071",
+  "PR0069",
+  "PR0055",
+  "PR0030",
+  "PR0034",
+  "PR0027",
+  "PR0067",
+  "PR0018",
+  "PR0136",
+  "PR0132",
+  "PR0051"
+ ],
+ "retrieved_ids": [
+  "PR0086",
+  "PR0126",
+  "PR0136",
+  "PR0034",
+  "PR0027",
+  "PR0067",
+  "PR0132",
+  "PR0136"
+ ],
+ "proposed_shortlist": [
+  "PR0086",
+  "PR0126",
+  "PR0136",
+  "PR0034"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0126",
+  "PR0086",
+  "PR0034",
+  "PR0136",
+  "PR0027"
+ ],
+ "reflection_note": "The original shortlist was strong but lacked diversity in international options, particularly missing the highly attractive Canadian programs (PR0027 and PR0132). I have swapped in two superior candidates: PR0027 (Data Engineering/Canada) for a strong blend of interest fit, low cost, and excellent post-study work opportunities; and PR0132 (Data Science/Canada) as a solid backup option. The ranking prioritizes the best balance of high salary potential/employability (PR0086, PR0034), followed by the most affordable options with good career prospects (PR0126, PR0136). I kept PR0034 over PR0086 in rank 3 because its higher starting salary ($47k vs $33.9k) and strong security focus might be slightly more appealing for a high-earning SE goal.",
+ "explanation": "Ashford Technical University\nThis MCA program is recommended because it aligns perfectly with your interests in data science analytics and software engineering while keeping costs extremely low at an annual tuition of $2050. Since you have a CS background, you meet the admission requirement, and the median starting salary of $23468 remains well within your budget constraints. The main trade-off here is that while the cost is minimal, both the placement rate (62%) and the resulting salary are lower compared to other options on this list.\n\nHalcyon Technical University\nThis MSc Software Engineering program is a strong fit for your career goal as a Software Engineer and covers data science analytics. It offers an excellent balance of high employability with manageable costs, featuring a median starting salary of $33967 and a placement rate of 85%. The main trade-off is that the tuition ($23400) is higher than some other options, but this investment is supported by the longest post-study work visa (24 months).\n\nAshford University\nThis MSc Information Security program directly addresses your interest in security and software engineering. It provides a high median starting salary of $47153, which significantly exceeds your budget maximum, indicating strong job market demand for this specialization. The main trade-off is that while the salary potential is excellent, the post-study work visa period is only 12 months, which is shorter than some alternatives.\n\nSilverline Technical University\nThis MTech Cyber Security program is highly recommended as it focuses on your interest in security and software engineering at a very low tuition cost of $21200. It offers a strong median starting salary of $46714, making it financially attractive while remaining under your budget maximum. The main trade-off to consider is that despite the excellent affordability, the post-study work visa period is only 12 months.\n\nBraxton School of Engineering\nThis MTech Data Engineering program is ideal because it directly targets your interest in data engineering and software engineering. It offers a high median starting salary of $44286 and provides the longest post-study work visa (36 months), maximizing your time to find employment. The main trade-off is that while its tuition ($27600) is manageable, it is one of the more expensive options on this list.",
+ "wall_s": 237.9
+}

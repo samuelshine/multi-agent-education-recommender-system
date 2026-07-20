@@ -1,0 +1,74 @@
+{
+ "student_id": "ST0093",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a machine learning certification background. My overall academic average is 81.1% in an IT/computer-science degree. I'm interested in parallel computing and testing. I want to become a Software Systems Engineer. My family can afford at most about USD 13400 per year. I live in Chennai. I'm open to anywhere in India.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 81.1
+  },
+  "career_goal": "Software Systems Engineer",
+  "budget_max_usd_per_year": 13400,
+  "location_preference": null,
+  "mobility": "open_domestic",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in parallel computing and testing."
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0198",
+  "PR0053",
+  "PR0065",
+  "PR0019",
+  "PR0008",
+  "PR0142",
+  "PR0082",
+  "PR0052",
+  "PR0085",
+  "PR0144",
+  "PR0139",
+  "PR0182",
+  "PR0191",
+  "PR0119",
+  "PR0101",
+  "PR0186",
+  "PR0058",
+  "PR0039",
+  "PR0158",
+  "PR0072"
+ ],
+ "retrieved_ids": [
+  "PR0144",
+  "PR0139",
+  "PR0186",
+  "PR0198",
+  "PR0053",
+  "PR0065",
+  "PR0182",
+  "PR0119"
+ ],
+ "proposed_shortlist": [
+  "PR0198",
+  "PR0144",
+  "PR0139",
+  "PR0053",
+  "PR0065"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0198",
+  "PR0144",
+  "PR0053",
+  "PR0065",
+  "PR0182"
+ ],
+ "reflection_note": "The original list was strong but lacked diversity in the top 5. PR0139 was dropped because, while valid, its overall appeal (location/placement) is weaker than other candidates available. I swapped in PR0182, which provides a highly focused QA option in Pune with excellent placement metrics and low cost, thus strengthening the list's depth and maintaining strong geographical coverage (Bengaluru, Pune, Mumbai).",
+ "explanation": "Northgate Institute of Technology\nThis program is highly recommended because it directly aligns with your interests in \"qa_testing\" and provides core knowledge in \"software_engineering.\" With a minimum grade requirement of 80%, you meet the admission criteria using your 81.1% background, and the annual tuition of $3500 remains well within your budget. The high placement rate of 95% and median starting salary of $21062 make this an excellent option for achieving your goal as a Software Systems Engineer. There is no significant trade-off; it offers strong outcomes while remaining affordable.\n\nTejas Technical University\nThis MTech program is suitable because its focus on \"software_engineering\" directly supports your career goals, and you meet the minimum grade requirement of 81%. While the annual tuition of $4800 is higher than some other options listed, it provides a strong foundation for your field. The placement rate of 93% and median starting salary of $19239 are excellent indicators of job success. The main trade-off here is accepting a slightly higher tuition cost compared to the lower-cost alternatives on this list.\n\nCavendish University\nThis program is recommended because it covers both \"qa_testing\" and \"software_engineering,\" matching your stated interests while maintaining an extremely low annual tuition of $1200. Admission is easy, requiring only 70% minimum grade, which you exceed with 81.1%. While the cost is minimal, the trade-off to consider is that its median starting salary ($12855) and placement rate (86%) are among the lowest on this shortlist compared to other options.\n\nTejas Institute of Technology\nThis MSc program is a strong fit as it covers both \"qa_testing\" and \"software_engineering,\" aligning perfectly with your academic interests. The annual tuition of $2450 keeps costs low, and you easily meet the 75% minimum grade requirement. However, the main trade-off is that while the cost is low, its placement rate (80%) and median starting salary ($12291) are among the lowest on this list compared to other options with similar program focuses.\n\nKeystone Technical University\nThis option was recommended because it provides specialized training in \"qa_testing,\" which directly addresses your interest in testing methodologies. You meet the 75% minimum grade requirement, and the tuition of $1950 is very budget-friendly. The trade-off to consider is that this program focuses solely on QA testing and does not list general \"software_engineering\" fields, making it a narrower scope than your overall career goal suggests.",
+ "wall_s": 121.3
+}

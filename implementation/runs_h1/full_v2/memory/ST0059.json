@@ -1,0 +1,31 @@
+{
+ "student_id": "ST0059",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 79.7
+    },
+    "career_goal": "Data Architect",
+    "budget_max_usd_per_year": 1300,
+    "location_preference": "Chennai",
+    "mobility": "prefers_region",
+    "employability_priority": "high",
+    "other_constraints": [
+     "Interested in data engineering and testing"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0171",
+    "PR0071",
+    "PR0170",
+    "PR0058",
+    "PR0120"
+   ],
+   "feedback": null
+  }
+ ]
+}

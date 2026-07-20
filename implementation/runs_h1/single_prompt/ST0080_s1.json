@@ -1,0 +1,55 @@
+{
+ "student_id": "ST0080",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a distro making certification background. My overall academic average is 78.2% in an IT/computer-science degree. I'm interested in IOT and cloud computing. I want to become a Project Manager. My family can afford at most about USD 1300 per year. I live in Mumbai. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 78.2
+  },
+  "career_goal": "Project Manager (in IOT and cloud computing)",
+  "budget_max_usd_per_year": 1300,
+  "location_preference": "Mumbai",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Strong preference to stay near home (Mumbai)",
+   "Open to other locations within India"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0118",
+  "PR0180",
+  "PR0162",
+  "PR0112",
+  "PR0159",
+  "PR0032",
+  "PR0184",
+  "PR0165",
+  "PR0119",
+  "PR0058",
+  "PR0187",
+  "PR0053",
+  "PR0109",
+  "PR0076",
+  "PR0012",
+  "PR0019",
+  "PR0114",
+  "PR0185",
+  "PR0130",
+  "PR0084"
+ ],
+ "final_shortlist": [
+  "PR0076",
+  "PR0130",
+  "PR0184",
+  "PR0162",
+  "PR0180"
+ ],
+ "explanation": "This MBA Technology Management program is ideal as it directly aligns with your goal of becoming a Project Manager and focuses on IT management. It is located in Hyderabad, which is close to Mumbai, and the median starting salary is high, addressing your priority for job placement.\n\nThe MSc IT Management program provides a strong foundation for project management roles by focusing on IT management. It is located in Hyderabad and has a reasonable tuition fee (USD 1000), making it a good fit for your budget and location preference.\n\nThis MSc Cloud Computing program directly addresses your interest in cloud computing. It is located in Delhi, which is a major Indian tech hub, and the tuition fee (USD 950) is well within your budget while offering good career prospects.\n\nWhile focused on cybersecurity, this MTech program also covers networking and cloud, aligning with your interests. It is located in Chennai, offering a lower tuition cost (USD 1150) and decent job placement potential within India.\n\nThis MTech Computer Networks program focuses on networking and cloud computing, matching your technical interests. It is located in Pune, a preferred location near Mumbai, and the tuition (USD 1250) remains within your family's budget.",
+ "wall_s": 40.2
+}

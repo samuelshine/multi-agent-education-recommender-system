@@ -1,0 +1,54 @@
+{
+ "student_id": "ST0062",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 80% in an IT/computer-science degree. I'm interested in Management and cloud computing. I want to become a CRM Business Analyst. My family can afford at most about USD 18900 per year. I live in Mumbai. I'm open to going abroad. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 80
+  },
+  "career_goal": "CRM Business Analyst",
+  "budget_max_usd_per_year": 18900,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in Management and cloud computing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0000",
+  "PR0123",
+  "PR0157",
+  "PR0172",
+  "PR0079",
+  "PR0195",
+  "PR0122",
+  "PR0005",
+  "PR0010",
+  "PR0169",
+  "PR0153",
+  "PR0075",
+  "PR0024",
+  "PR0163",
+  "PR0127",
+  "PR0183",
+  "PR0051",
+  "PR0103",
+  "PR0077",
+  "PR0001"
+ ],
+ "final_shortlist": [
+  "PR0000",
+  "PR0195",
+  "PR0153",
+  "PR0122",
+  "PR0001"
+ ],
+ "explanation": "This German program offers MSc IT Management with a very low tuition fee ($950), meets your minimum grade requirement (80%), and provides excellent job prospects in Munich with a high placement rate and post-study work visa.\n\nLocated in Germany, this MSc Information Systems program is highly affordable ($300/year), requires a manageable minimum grade (72%), and offers strong career outcomes with a high placement rate and post-study work visa.\n\nThis German MSc program focuses on Human-Computer Interaction (HCI), which is relevant to Business Analyst roles. It has a very low tuition fee ($550) and provides an excellent post-study work visa opportunity in Munich.\n\nThis Netherlands option offers MSc Information Systems with a moderate tuition cost ($13300) and is located abroad. It aligns well with your interest in business information systems while providing a post-study work visa.\n\nThis program focuses on Cloud Computing in the Netherlands and is relatively affordable ($11850). It directly addresses your interest in cloud computing while offering a post-study work visa and good career potential.",
+ "wall_s": 44.4
+}

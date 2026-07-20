@@ -1,0 +1,74 @@
+{
+ "student_id": "ST0057",
+ "session": 1,
+ "mode": "single_objective",
+ "version": 2,
+ "message": "Hi, I'm a student with a app development certification background. My overall academic average is 72.1% in an IT/computer-science degree. I'm interested in programming and cloud computing. I want to become a CRM Technical Developer. My family can afford at most about USD 2800 per year. I live in Chennai. I'm open to anywhere in India.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 72.1
+  },
+  "career_goal": "CRM Technical Developer",
+  "budget_max_usd_per_year": 2800,
+  "location_preference": null,
+  "mobility": "open_domestic",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in programming and cloud computing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0186",
+  "PR0197",
+  "PR0147",
+  "PR0096",
+  "PR0199",
+  "PR0118",
+  "PR0121",
+  "PR0148",
+  "PR0016",
+  "PR0102",
+  "PR0180",
+  "PR0162",
+  "PR0112",
+  "PR0159",
+  "PR0032",
+  "PR0184",
+  "PR0165",
+  "PR0022",
+  "PR0182",
+  "PR0191"
+ ],
+ "retrieved_ids": [
+  "PR0186",
+  "PR0197",
+  "PR0147",
+  "PR0096",
+  "PR0199",
+  "PR0165",
+  "PR0102",
+  "PR0180"
+ ],
+ "proposed_shortlist": [
+  "PR0186",
+  "PR0197",
+  "PR0096",
+  "PR0147",
+  "PR0102"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0186",
+  "PR0197",
+  "PR0096",
+  "PR0102",
+  "PR0180"
+ ],
+ "reflection_note": "The initial shortlist contained one program (PR0147) that violated the hard constraint regarding minimum required grade percentage (74% > 72.1%). This entry was dropped. To maintain a list of five, PR0180 was swapped in as it is highly relevant, meets all constraints (tuition $1250 < $2800; 72.1 >= 61), and provides an excellent low-cost alternative to the existing options.",
+ "explanation": "Halcyon Institute of Technology\nThis program was recommended because it aligns well with your interest in cloud computing and programming, offering fields like \"software_engineering\" alongside networking. The annual tuition of $2050 fits comfortably within your maximum budget of $2800 per year. Furthermore, the high placement rate of 83% and a median starting salary of $15192 make it a strong option for career development. There is no major trade-off here; it offers a good balance of cost and expected return.\n\nAshford Institute of Technology\nWhile this program has an excellent placement rate (85%) and focuses on \"networking_cloud,\" the primary constraint to note is that its annual tuition of $3350 exceeds your stated maximum budget of $2800 per year. You would be trading adherence to your financial constraints for a potentially higher placement success rate.\n\nAshford Institute of Applied Sciences\nThis program covers relevant areas like \"networking_cloud\" and cybersecurity, which aligns with your technical interests. However, similar to the previous option, its annual tuition of $3350 exceeds your maximum budget constraint of $2800 per year. The trade-off here is that you would need to significantly increase your available funds to pursue this program.\n\nWestbrook Technical University\nThis university was recommended because it offers a low annual tuition of $1700, keeping you well within your budget while focusing on \"networking_cloud.\" It meets the requirement for a CS background and aligns with your interest in cloud computing. The main trade-off is that its median starting salary ($8729) is lower compared to other options, but this allows for significant cost savings upfront.\n\nBraxton Institute of Technology\nThis program represents the most budget-friendly option, boasting an annual tuition of only $1250, which maximizes your adherence to your financial constraints. It focuses on \"networking_cloud\" and requires a CS background, matching your interests. The trade-off for this low cost is that it has the lowest placement rate (71%) and median starting salary ($10359) among the recommended schools.",
+ "wall_s": 70.2
+}

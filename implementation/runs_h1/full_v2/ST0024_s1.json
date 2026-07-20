@@ -1,0 +1,75 @@
+{
+ "student_id": "ST0024",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a hadoop certification background. My overall academic average is 76.1% in an IT/computer-science degree. I'm interested in hacking and developer. I want to become a Applications Developer. My family can afford at most about USD 4800 per year. I live in Bengaluru. I'd strongly prefer to stay near home, though I might consider elsewhere in India.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 76.1
+  },
+  "career_goal": "Applications Developer",
+  "budget_max_usd_per_year": 4800,
+  "location_preference": "Bengaluru",
+  "mobility": "prefers_region",
+  "employability_priority": null,
+  "other_constraints": [
+   "Hadoop certification background",
+   "Interested in hacking and developer"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0198",
+  "PR0144",
+  "PR0139",
+  "PR0164",
+  "PR0029",
+  "PR0022",
+  "PR0182",
+  "PR0060",
+  "PR0191",
+  "PR0119",
+  "PR0101",
+  "PR0143",
+  "PR0186",
+  "PR0176",
+  "PR0058",
+  "PR0149",
+  "PR0092",
+  "PR0187",
+  "PR0039",
+  "PR0174"
+ ],
+ "retrieved_ids": [
+  "PR0198",
+  "PR0186",
+  "PR0143",
+  "PR0191",
+  "PR0029",
+  "PR0182",
+  "PR0039",
+  "PR0174"
+ ],
+ "proposed_shortlist": [
+  "PR0198",
+  "PR0186",
+  "PR0029",
+  "PR0191",
+  "PR0182"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0198",
+  "PR0029",
+  "PR0186",
+  "PR0182",
+  "PR0039"
+ ],
+ "reflection_note": "The initial shortlist was strong but included one program (PR0191) that violated the location preference significantly. I dropped PR0191 and swapped in PR0039, which offers a relevant HCI/Software Engineering focus at a low cost, providing better diversity to the list while maintaining high relevance to the student's development goals and budget constraints. The final list prioritizes Bengaluru (PR0198) first, followed by strong academic matches (Cybersecurity in PR0029), then other viable regional options (Pune/Coimbatore).",
+ "explanation": "Northgate Institute of Technology\nThis program is highly recommended because it meets your location preference in Bengaluru and has a strong placement rate of 95%. The annual tuition of $3500 fits well within your budget maximum of $4800. While the curriculum focuses on Software Quality Engineering, which supports your goal as an Applications Developer, be aware that your current grade percentage (76.1%) is below the minimum requirement of 80% for admission.\n\nVantage Technical University\nThis option aligns well with your interest in hacking and developer roles by focusing on Cybersecurity. The tuition ($3800) remains within budget, and you meet the required minimum grade percentage of 75%. The trade-off here is that while it addresses your security interests, the median starting salary of $14753 is lower than some other options listed.\n\nHalcyon Institute of Technology\nThis MTech program offers a strong blend of skills in networking and software engineering, which supports your career goal. At an annual tuition cost of $2050, it is very budget-friendly. The main trade-off is that the placement rate (83%) is lower than some other options on this list, though you meet all academic requirements.\n\nKeystone Technical University\nThis program is a strong fit for your Applications Developer goal and is highly affordable at $1950 annually. It also does not require a specific CS background, which is beneficial given your current profile. The trade-off compared to Northgate is the lower median starting salary of $12865, but it maintains a high placement rate of 91%.\n\nLongford Institute of Applied Sciences\nThis program provides valuable skills in Human-Computer Interaction (HCI) and design, which can complement your developer role. It has low tuition ($2250) and does not require a CS background. The primary trade-off is that the location (Coimbatore) deviates from your stated preference for Bengaluru, and its placement rate of 85% is moderate compared to other options.",
+ "wall_s": 131.1
+}

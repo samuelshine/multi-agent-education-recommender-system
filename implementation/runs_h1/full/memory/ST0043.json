@@ -1,0 +1,31 @@
+{
+ "student_id": "ST0043",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 77.3
+    },
+    "career_goal": "Data Architect",
+    "budget_max_usd_per_year": 2100,
+    "location_preference": "Bengaluru",
+    "mobility": "fixed_city",
+    "employability_priority": "high",
+    "other_constraints": [
+     "Interested in Computer Architecture and cloud computing"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0173",
+    "PR0087",
+    "PR0073",
+    "PR0013",
+    "PR0085"
+   ],
+   "feedback": null
+  }
+ ]
+}

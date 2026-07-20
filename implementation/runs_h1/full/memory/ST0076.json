@@ -1,0 +1,30 @@
+{
+ "student_id": "ST0076",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 80.2
+    },
+    "career_goal": "CRM Business Analyst",
+    "budget_max_usd_per_year": 1300,
+    "location_preference": "Pune",
+    "mobility": "prefers_region",
+    "employability_priority": "high",
+    "other_constraints": [
+     "Interested in Computer Architecture and testing"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0190",
+    "PR0050",
+    "PR0142",
+    "PR0119"
+   ],
+   "feedback": null
+  }
+ ]
+}

@@ -1,0 +1,71 @@
+{
+ "student_id": "ST0056",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 83.7% in an IT/computer-science degree. I'm interested in programming and system developer. I want to become a Web Developer. My family can afford at most about USD 4300 per year. I live in Chennai. I'm open to going abroad. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [
+  "reflect"
+ ],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 83.7
+  },
+  "career_goal": "Web Developer",
+  "budget_max_usd_per_year": 4300,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "information security certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0000",
+  "PR0195",
+  "PR0153",
+  "PR0051",
+  "PR0137",
+  "PR0191",
+  "PR0101",
+  "PR0054",
+  "PR0128",
+  "PR0044",
+  "PR0105",
+  "PR0015",
+  "PR0020",
+  "PR0033",
+  "PR0157",
+  "PR0047",
+  "PR0074",
+  "PR0172",
+  "PR0087",
+  "PR0021"
+ ],
+ "retrieved_ids": [
+  "PR0000",
+  "PR0195",
+  "PR0153",
+  "PR0021"
+ ],
+ "proposed_shortlist": [
+  "PR0000",
+  "PR0195",
+  "PR0153",
+  "PR0021"
+ ],
+ "guard_dropped": [],
+ "backfilled": [],
+ "final_shortlist": [
+  "PR0000",
+  "PR0195",
+  "PR0153",
+  "PR0021"
+ ],
+ "reflection_note": "reflect fallback: kept proposal",
+ "explanation": "Fairfax Institute of Technology\nThis program is highly recommended because it offers a strong combination of high employability and low cost, fitting your budget maximum of $4300 per year with an annual tuition of only $950. With a 91% placement rate and a median starting salary of $56,198, this option strongly supports your priority for high career employability. The main trade-off here is that the focus is on IT Management rather than core web development skills, though it still provides excellent career outcomes.\n\nKeystone School of Engineering\nThis program represents the most budget-friendly and highly relevant option, boasting an annual tuition cost of just $300. It meets your academic requirements (83.7% grade vs. 72% minimum) while providing a strong median starting salary of $51,059 and an 18-month post-study work visa. The primary trade-off is that its placement rate (82%) is slightly lower than the Fairfax option, but this is offset by the significantly reduced cost.\n\nKeystone University\nThis program is recommended if you are interested in specializing in user experience design, which complements a Web Developer career goal. It maintains an 18-month post-study work visa and fits within your budget with $550 annual tuition. However, the main trade-off is that its lower median starting salary ($39,426) and placement rate (78%) suggest less immediate earning potential compared to other options.\n\nAshford Institute of Technology\nThis option is a solid choice for maintaining low costs while securing an 18-month post-study work visa, with tuition at $450 per year. It provides a respectable median starting salary of $46,428 and an 82% placement rate, meeting your employability priority. The main trade-off is that the program focuses on IT Operations and support rather than the direct development skills needed for a Web Developer role.",
+ "wall_s": 131.4
+}

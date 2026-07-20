@@ -1,0 +1,42 @@
+{
+ "student_id": "ST0030",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 77.1% in an IT/computer-science degree. I'm interested in parallel computing and security. I want to become a Design & UX. My family can afford at most about USD 4900 per year. I live in Chennai. I cannot leave my city. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 77.1
+  },
+  "career_goal": "Design & UX",
+  "budget_max_usd_per_year": 4900,
+  "location_preference": "Chennai",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in parallel computing and security"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0059",
+  "PR0191",
+  "PR0197",
+  "PR0109",
+  "PR0199",
+  "PR0171",
+  "PR0162",
+  "PR0165"
+ ],
+ "final_shortlist": [
+  "PR0162",
+  "PR0197",
+  "PR0191",
+  "PR0109",
+  "PR0171"
+ ],
+ "explanation": "This MTech Cyber Security program directly aligns with your interest in security and is located in Chennai. While the median starting salary is lower, it provides specialized knowledge that complements your r programming background.\n\nThis MTech Computer Networks program focuses on networking and cloud, which are highly relevant to parallel computing and security interests. It has a strong placement rate (85%) and is based in Chennai.\n\nAlthough focused on Data Engineering, this program offers high job prospects with a median starting salary of $15,951 and is located in Chennai. It utilizes your quantitative skills from r programming.\n\nThis MTech Computer Science program provides a strong foundation in software engineering, which is crucial for both parallel computing and security roles. It has good placement metrics and fits your academic background.\n\nThis MTech Computer Science option offers a strong software engineering focus in Chennai with low tuition ($1500). It is a solid choice for improving job prospects and building upon your existing CS knowledge.",
+ "wall_s": 32.7
+}

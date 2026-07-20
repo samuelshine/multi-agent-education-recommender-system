@@ -1,0 +1,67 @@
+{
+ "student_id": "ST0021",
+ "session": 2,
+ "mode": "full",
+ "version": 1,
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 73.3% in an IT/computer-science degree. I'm interested in parallel computing and Business process analyst. I want to become a Technical Engineer. My family can afford at most about USD 1400 per year. I live in Kolkata. I'm open to anywhere in India. About the earlier suggestions: I liked PR0119, PR0087 but please drop PR0186, PR0143.",
+ "memory_used": true,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 73.3
+  },
+  "career_goal": "Technical Engineer",
+  "budget_max_usd_per_year": 1400,
+  "location_preference": "Kolkata",
+  "mobility": "fixed_city",
+  "employability_priority": null,
+  "other_constraints": [
+   "r programming certification background",
+   "interested in parallel computing",
+   "interested in Business process analyst"
+  ],
+  "uncertainty_notes": [
+   "employability priority not specified"
+  ]
+ },
+ "prefilter_ids": [
+  "PR0053",
+  "PR0012",
+  "PR0185",
+  "PR0115",
+  "PR0125",
+  "PR0129",
+  "PR0008",
+  "PR0133",
+  "PR0032",
+  "PR0052",
+  "PR0066"
+ ],
+ "retrieved_ids": [
+  "PR0053",
+  "PR0185",
+  "PR0125",
+  "PR0129",
+  "PR0008",
+  "PR0133",
+  "PR0032",
+  "PR0052"
+ ],
+ "proposed_shortlist": [
+  "PR0185",
+  "PR0053",
+  "PR0125",
+  "PR0032"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0032",
+  "PR0185",
+  "PR0129",
+  "PR0133"
+ ],
+ "reflection_note": "The original shortlist was heavily weighted towards QA/Software Quality Engineering (PR0053, PR0125), which is too narrow for a student interested in advanced topics like parallel computing and data science. I have dropped these programs. The revised list prioritizes core technical depth (MTech CS - PR0032) and specialized high-value areas (Cybersecurity - PR0185, Data Science - PR0129/PR0133). All selected options meet the hard constraints: Kolkata location, within budget ($1400 max), and require a compatible technical background. The inclusion of two data science options provides necessary breadth to cover all stated interests.",
+ "explanation": "Longford School of Engineering\nThis program is recommended because it aligns with your technical engineering goal and fits comfortably within your maximum budget of $1400 USD/year, costing only $1200. Located in Kolkata, this MTech focuses on software engineering and networking/cloud fields relevant to your IT background. The main trade-off here is that while the tuition is low, the median starting salary of $7871 is lower compared to some other options.\n\nLongford Institute of Technology\nThis program is highly recommended because it offers a strong balance between affordability and career outcomes in Kolkata. For an annual tuition of $1150, you meet your budget while gaining skills in cybersecurity and software engineering, which are excellent for a Technical Engineer role. The primary trade-off involves the slightly higher cost compared to Ashford Institute, but this is offset by its superior placement rate of 78% and median starting salary of $10850.\n\nWestbrook Technical University\nThis option was selected because it directly addresses your interest in data science and analytics, which complements your background in R programming. The annual tuition of $1200 keeps you within budget while providing relevant skills for a Business Process Analyst role. However, the main trade-off is that despite fitting your interests and budget, this program has the lowest median starting salary ($6936) among all options listed.\n\nAshford Institute of Technology\nThis institution offers the most significant financial advantage with an annual tuition fee of only $900, making it ideal for adhering to your strict budget constraints in Kolkata. The MSc Big Data Analytics program is highly relevant to your interest in data and analytics. The main trade-off you must consider is that while the cost is minimal, its placement rate (63%) is not the highest among the shortlisted programs.",
+ "wall_s": 223.7
+}

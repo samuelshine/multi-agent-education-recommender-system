@@ -1,0 +1,46 @@
+{
+ "student_id": "ST0061",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 72.9% in an IT/computer-science degree. I'm interested in data engineering and testing. I want to become a E-Commerce Analyst. My family can afford at most about USD 1500 per year. I live in Pune. I cannot leave my city. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 72.9
+  },
+  "career_goal": "E-Commerce Analyst",
+  "budget_max_usd_per_year": 1500,
+  "location_preference": "Pune",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in data engineering and testing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0019",
+  "PR0025",
+  "PR0190",
+  "PR0080",
+  "PR0187",
+  "PR0084",
+  "PR0078",
+  "PR0181",
+  "PR0180",
+  "PR0045",
+  "PR0023",
+  "PR0156"
+ ],
+ "final_shortlist": [
+  "PR0156",
+  "PR0078",
+  "PR0045",
+  "PR0080",
+  "PR0187"
+ ],
+ "explanation": "This MBA program in Technology Management is highly relevant to your goal of becoming an E-Commerce Analyst, as it focuses on IT management and business strategy. It also fits within your budget (USD 1350) and location constraints.\n\nThe MSc IT Management program directly aligns with the analytical and business side of E-Commerce Analyst roles. It is located in Pune, within budget (USD 1750 - slightly over but close), and offers a decent starting salary.\n\nGiven your background in information security, this MSc Information Security program is the most natural fit. It keeps you local (Pune), respects your budget (USD 1450), and enhances your job prospects in a high-demand field.\n\nThis MSc Software Quality Engineering program focuses on testing, which is one of your stated interests. It meets the budget and location requirements (Pune) while providing a structured path to improving job readiness.\n\nWhile focused on IT Support, this PG Diploma offers the highest placement rate among affordable options and is located in Pune. Its strong career focus makes it a good choice if job security is your top priority.",
+ "wall_s": 39.8
+}

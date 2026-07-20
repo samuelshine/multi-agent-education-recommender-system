@@ -1,0 +1,72 @@
+{
+ "student_id": "ST0016",
+ "session": 3,
+ "mode": "no_memory",
+ "version": 1,
+ "message": "Hi, I'm a student with a full stack certification background. My overall academic average is 76.2% in an IT/computer-science degree. I'm interested in programming and system developer. I want to become a Technical Engineer. My family can afford at most about USD 4000 per year. I live in Mumbai. I'm open to going abroad. Getting a good job after graduation matters more to me than anything else. About the earlier suggestions: I liked PR0060, PR0182.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 76.2
+  },
+  "career_goal": "Technical Engineer",
+  "budget_max_usd_per_year": 4000,
+  "location_preference": "Mumbai",
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in programming and system developer"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0000",
+  "PR0195",
+  "PR0021",
+  "PR0153",
+  "PR0051",
+  "PR0037",
+  "PR0161",
+  "PR0198",
+  "PR0104",
+  "PR0144",
+  "PR0139",
+  "PR0194",
+  "PR0164",
+  "PR0029",
+  "PR0022",
+  "PR0137",
+  "PR0182",
+  "PR0060",
+  "PR0191",
+  "PR0119"
+ ],
+ "retrieved_ids": [
+  "PR0060",
+  "PR0195",
+  "PR0153",
+  "PR0194",
+  "PR0137",
+  "PR0029",
+  "PR0164",
+  "PR0198"
+ ],
+ "proposed_shortlist": [
+  "PR0060",
+  "PR0029",
+  "PR0194"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0029",
+  "PR0198",
+  "PR0195",
+  "PR0153",
+  "PR0164"
+ ],
+ "reflection_note": "The original shortlist was too heavily weighted towards the location preference (Mumbai) and included a weak international option. I have dropped PR0060 due to scope creep, and replaced the poor German option (PR0194) with two much stronger candidates: PR0195 and PR0153. Furthermore, I swapped in PR0198 as it provides the most direct technical fit (Software Engineering/QA) with excellent local metrics, making it a superior choice to any other Indian program on the original list. The final list prioritizes strong technical relevance and high employability while maintaining location preference where possible.",
+ "explanation": "Vantage Technical University\nThis program was recommended because it perfectly matches your location preference in Mumbai and keeps tuition within your $4000 annual budget. The MSc Information Security field is highly technical and relevant to system development, and the curriculum requires a CS background, which you possess. While the 92% placement rate suggests high employability, the main trade-off is that this program offers no post-study work visa months, limiting your international career options immediately after graduation.\n\nNorthgate Institute of Technology\nThis option was selected due to its strong focus on software engineering and QA testing, which aligns closely with your interest in programming and system development. It maintains a low tuition cost ($3500) within budget and boasts an excellent 95% placement rate. The trade-off here is that while the salary potential is high, like other Indian options, it does not provide any post-study work visa months for international mobility.\n\nKeystone School of Engineering\nThis program offers a highly attractive combination of low cost ($300 tuition) and excellent international opportunities in Germany. The 18 months of post-study work visa significantly boosts your employability potential abroad, and the median starting salary is high at $51059. The main trade-off is that while it covers information systems, its focus on business applications may be less hands-on programming than you prefer.\n\nKeystone University\nThis German option provides a strong international pathway with an 18-month post-study work visa and low tuition ($550). It offers valuable skills in design and HCI, which are crucial for system developers, and the median starting salary is competitive at $39426. The primary trade-off is that while highly beneficial internationally, the program's focus leans more toward user experience (design) rather than core programming development.\n\nNorthgate School of Engineering\nThis option was recommended because it remains within your budget ($2050 tuition) and offers a high local placement rate (90%) in India. However, since you are interested in technical development, the main trade-off is that this MBA program focuses on IT management rather than deep programming or system architecture, making it less aligned with your core career goal.",
+ "wall_s": 264.4
+}

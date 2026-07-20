@@ -1,0 +1,74 @@
+{
+ "student_id": "ST0086",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 75.6% in an IT/computer-science degree. I'm interested in Software Engineering and cloud computing. I want to become a Technical Services/Help Desk/Tech Support. My family can afford at most about USD 13300 per year. I live in Chennai. I'm open to going abroad. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 75.6
+  },
+  "career_goal": "Technical Services/Help Desk/Tech Support",
+  "budget_max_usd_per_year": 13300,
+  "location_preference": "Chennai",
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "r programming certification"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0021",
+  "PR0169",
+  "PR0088",
+  "PR0022",
+  "PR0187",
+  "PR0002",
+  "PR0121",
+  "PR0188",
+  "PR0098",
+  "PR0050",
+  "PR0159",
+  "PR0000",
+  "PR0195",
+  "PR0122",
+  "PR0005",
+  "PR0010",
+  "PR0153",
+  "PR0024",
+  "PR0132",
+  "PR0051"
+ ],
+ "retrieved_ids": [
+  "PR0021",
+  "PR0187",
+  "PR0002",
+  "PR0121",
+  "PR0188",
+  "PR0098",
+  "PR0050",
+  "PR0159"
+ ],
+ "proposed_shortlist": [
+  "PR0021",
+  "PR0187",
+  "PR0002",
+  "PR0121",
+  "PR0188"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0021",
+  "PR0187",
+  "PR0002",
+  "PR0098",
+  "PR0050"
+ ],
+ "reflection_note": "The original shortlist contained two programs (PR0121, PR0188) located in major metros (Delhi, Mumbai) that are not the preferred Chennai location and do not significantly improve the overall profile compared to other options. These were dropped. To maintain a list of 5, I swapped in three new candidates: PR0098 (Coimbatore), PR0050 (Hyderabad), and PR0159 (Hyderabad). While PR0159 was selected as the best replacement for PR0050 due to its significantly lower tuition fee ($700 vs $1150) while maintaining a strong location profile, I kept both in consideration during ranking. The final list prioritizes international options with high employability/low cost (PR0021), followed by local Indian options that are either highly ranked or located closer to the preferred Chennai area and offer excellent financial feasibility (PR0187, PR0002, PR0098, PR0050). Note: I swapped in PR0098 and kept PR0050 because Coimbatore is a better fit for location proximity than Hyderabad/Coimbatore. The final ranking reflects the best balance of high employability (PR0187), low cost international options (PR0021), and strong local Indian alternatives near Chennai (PR0098, PR0050). I prioritized keeping PR0050 over PR0159 in the final list because while PR0159 is cheaper, PR0050 offers a slightly better balance of location fit/profile strength for this student.",
+ "explanation": "Ashford Institute of Technology\nThis program was recommended because it offers a strong pathway for your career goal in IT Support while providing significant international opportunity. The annual tuition is very low at $450, and the high placement rate of 82% suggests good employability. Crucially, the 18-month post-study work visa greatly enhances your global mobility options. The main trade-off here is that the location in Dresden deviates from your preferred Chennai area.\n\nCavendish University\nThis option was recommended due to its excellent placement rate of 87%, which aligns with your high employability priority, and its tuition cost of $1450 remains within budget. While located in Pune rather than Chennai, it offers a solid median starting salary of $12687. The primary trade-off is that while the placement rate is high, there is no post-study work visa benefit (0 months), limiting international career options compared to other choices.\n\nCharnock Technical University\nThis program was recommended as a local alternative in Bengaluru, which is geographically closer than some other Indian options. It provides relevant IT Support training and has an acceptable placement rate of 73%. The main trade-off is that the tuition ($1700) is higher than your budget maximum for annual tuition, and its median starting salary ($11419) is lower than Cavendish University's offering.\n\nCrestwood Institute of Applied Sciences\nThis program was recommended primarily because it offers the lowest tuition cost at $800, making it highly budget-friendly. However, this low cost comes with a trade-off: its placement rate (70%) and median starting salary ($9161) are among the lowest on the list, potentially conflicting with your priority for high employability.\n\nTejas Institute of Technology\nThis option was recommended because it offers IT Support alongside QA Testing skills, broadening your technical profile while maintaining a low tuition cost of $1150. The main trade-off is that this program has the lowest placement rate (69%) and median starting salary ($7474) among all options, which may compromise your goal of maximizing employability.",
+ "wall_s": 124.6
+}

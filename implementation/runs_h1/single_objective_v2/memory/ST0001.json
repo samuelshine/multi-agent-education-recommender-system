@@ -1,0 +1,31 @@
+{
+ "student_id": "ST0001",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 75.3
+    },
+    "career_goal": null,
+    "budget_max_usd_per_year": 3200,
+    "location_preference": null,
+    "mobility": "open_international",
+    "employability_priority": "high",
+    "other_constraints": [
+     "Interested in data engineering and testing"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0053",
+    "PR0126",
+    "PR0026",
+    "PR0071",
+    "PR0145"
+   ],
+   "feedback": null
+  }
+ ]
+}

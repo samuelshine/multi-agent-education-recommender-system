@@ -1,0 +1,69 @@
+{
+ "student_id": "ST0060",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a hadoop certification background. My overall academic average is 78.6% in an IT/computer-science degree. I'm interested in IOT and developer. I want to become a Database Administrator. My family can afford at most about USD 2900 per year. I live in Delhi. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [
+  "reflect"
+ ],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 78.6
+  },
+  "career_goal": "Database Administrator",
+  "budget_max_usd_per_year": 2900,
+  "location_preference": "Delhi",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interest in IOT and developer roles",
+   "Hadoop certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0191",
+  "PR0143",
+  "PR0058",
+  "PR0007",
+  "PR0099",
+  "PR0090",
+  "PR0120",
+  "PR0170",
+  "PR0145",
+  "PR0033",
+  "PR0107",
+  "PR0111",
+  "PR0134",
+  "PR0074",
+  "PR0129",
+  "PR0133",
+  "PR0063",
+  "PR0173",
+  "PR0071",
+  "PR0087"
+ ],
+ "retrieved_ids": [
+  "PR0120",
+  "PR0063",
+  "PR0107"
+ ],
+ "proposed_shortlist": [
+  "PR0120",
+  "PR0107",
+  "PR0063"
+ ],
+ "guard_dropped": [],
+ "backfilled": [],
+ "final_shortlist": [
+  "PR0120",
+  "PR0107",
+  "PR0063"
+ ],
+ "reflection_note": "reflect fallback: kept proposal",
+ "explanation": "Ashford Institute of Applied Sciences\nThis program was recommended because it aligns well with your interests in data analytics and is located in Delhi. It has a very low annual tuition cost of $800, which fits comfortably within your budget while offering a strong placement rate of 78%. The curriculum's focus on Big Data Analytics is highly relevant to both Database Administrator roles and your interest in IoT. The main trade-off here is that the program does not offer any post-study work visa months.\n\nQuilon Institute of Technology\nThis MTech Computer Science program was recommended because it builds upon your existing IT/CS background while offering a strong focus on software engineering, which suits your developer interests. At $1850 annually, the tuition remains within your budget and the median starting salary is high at $11,447. You meet the minimum grade requirement of 59% for admission. The primary trade-off to consider is that this program requires a CS background and does not offer post-study work visa months.\n\nLongford Technical University\nThis MCA program was recommended due to its low annual tuition cost of $1350, making it the most budget-friendly option in Delhi. It also offers flexibility by not requiring a specific CS background for admission. While this course covers software engineering, which aligns with your interests, the main trade-off is that it has the lowest median starting salary ($6,635) and placement rate (64%) among the shortlisted options.",
+ "wall_s": 100.8
+}

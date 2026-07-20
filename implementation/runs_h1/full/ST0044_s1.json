@@ -1,0 +1,72 @@
+{
+ "student_id": "ST0044",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 77% in an IT/computer-science degree. I'm interested in Software Engineering and developer. I want to become a Systems Analyst. My family can afford at most about USD 8700 per year. I live in Coimbatore. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 77
+  },
+  "career_goal": "Systems Analyst",
+  "budget_max_usd_per_year": 8700,
+  "location_preference": "Coimbatore (near home)",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "information security certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0191",
+  "PR0101",
+  "PR0054",
+  "PR0105",
+  "PR0015",
+  "PR0020",
+  "PR0033",
+  "PR0157",
+  "PR0047",
+  "PR0074",
+  "PR0172",
+  "PR0087",
+  "PR0117",
+  "PR0198",
+  "PR0097",
+  "PR0144",
+  "PR0139",
+  "PR0164",
+  "PR0029",
+  "PR0022"
+ ],
+ "retrieved_ids": [
+  "PR0101",
+  "PR0054",
+  "PR0033",
+  "PR0157",
+  "PR0164",
+  "PR0139",
+  "PR0029",
+  "PR0144"
+ ],
+ "proposed_shortlist": [
+  "PR0101",
+  "PR0054",
+  "PR0033",
+  "PR0157"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0101",
+  "PR0054",
+  "PR0033",
+  "PR0029",
+  "PR0164"
+ ],
+ "reflection_note": "The original shortlist was heavily biased towards location (Coimbatore) and missed high-employability options. I dropped PR0157 as it offered diminishing returns on employability despite its low cost. I swapped in PR0029 (Information Security, addressing a key background constraint) and PR0164 (High Salary/Employability, justifying the location deviation) to create a more balanced list that prioritizes career goals and high earning potential while maintaining strong local options.",
+ "explanation": "Braxton Institute of Applied Sciences\nThis program is highly recommended because it perfectly aligns with your location preference in Coimbatore and directly supports your goal as a Systems Analyst through its focus on Information Systems. The annual tuition of $2400 is well within your budget, and your 77% GPA exceeds the minimum requirement of 71%. While this institution offers high employability with an 85% placement rate, the main trade-off is that it does not offer any post-study work visa support.\n\nElmhurst University\nThis MBA in Business Analytics remains a strong option as it meets your location preference in Coimbatore and falls comfortably under your maximum budget of $8700 per year. It provides relevant skills for a Systems Analyst role, boasting an 84% placement rate. The primary trade-off here is that its median starting salary ($13094) is lower than the Braxton Institute option, though it remains highly affordable.\n\nQuilon School of Engineering\nThis program maintains your preferred location in Coimbatore and has a low tuition cost of $2100. While it meets your academic background requirements, we recommend considering other options because its placement rate (73%) and median starting salary ($10526) are the lowest among the shortlisted programs, representing a trade-off against higher employability.\n\nVantage Technical University\nThis program is recommended for its exceptional employability, boasting a 92% placement rate and a strong median starting salary of $14753. It also aligns well with your background knowledge by focusing on Information Security. The main trade-off is the location; while it offers excellent career prospects, it is situated in Mumbai rather than your preferred region of Coimbatore.\n\nNorthgate School of Engineering\nThis MBA Technology Management program offers the highest median starting salary ($17361) and a strong 90% placement rate, making it highly attractive for employability. The tuition cost of $2050 is also excellent for your budget. However, the main trade-off is that this institution is located in Delhi, deviating from your Coimbatore preference, and its minimum required GPA (79%) is slightly higher than your current 77%.",
+ "wall_s": 234.2
+}

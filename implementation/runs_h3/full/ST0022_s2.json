@@ -1,0 +1,72 @@
+{
+ "student_id": "ST0022",
+ "session": 2,
+ "mode": "full",
+ "version": 1,
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 79.8% in an IT/computer-science degree. I'm interested in programming and Business process analyst. I want to become a Portal Administrator. My family can afford at most about USD 2400 per year. I live in Coimbatore. I'm open to anywhere in India. About the earlier suggestions: I liked PR0164, PR0101 but please drop PR0198, PR0144.",
+ "memory_used": true,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 79.8
+  },
+  "career_goal": "Portal Administrator",
+  "budget_max_usd_per_year": 2400,
+  "location_preference": "Coimbatore",
+  "mobility": "fixed_city",
+  "employability_priority": null,
+  "other_constraints": [
+   "interested in programming",
+   "interested in Business process analyst"
+  ],
+  "uncertainty_notes": [
+   "employability priority is unknown."
+  ]
+ },
+ "prefilter_ids": [
+  "PR0101",
+  "PR0054",
+  "PR0033",
+  "PR0157",
+  "PR0058",
+  "PR0039",
+  "PR0170",
+  "PR0145",
+  "PR0148",
+  "PR0016",
+  "PR0014",
+  "PR0068",
+  "PR0166",
+  "PR0098",
+  "PR0134",
+  "PR0048",
+  "PR0106"
+ ],
+ "retrieved_ids": [
+  "PR0101",
+  "PR0054",
+  "PR0033",
+  "PR0157",
+  "PR0148",
+  "PR0016",
+  "PR0166",
+  "PR0098"
+ ],
+ "proposed_shortlist": [
+  "PR0101",
+  "PR0054",
+  "PR0157",
+  "PR0148"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0101",
+  "PR0054",
+  "PR0033",
+  "PR0148"
+ ],
+ "reflection_note": "The original shortlist was strong but included PR0157, which is significantly weaker in terms of career outcomes (placement/salary) compared to the student's profile. I dropped PR0157 and swapped in PR0033 because it offers a comparable business analytics focus at an even lower cost ($2100 vs $2150 for PR0054), making it a superior alternative for rank 3. The final list prioritizes the best blend of IT/BIS relevance, strong financial feasibility, and high placement potential while maintaining location preference.",
+ "explanation": "Braxton Institute of Applied Sciences\nThis program was recommended because it offers an MSc in Information Systems, which aligns well with your interest in business processes and programming. It is located in Coimbatore and accepts students with a grade percentage above 71%, meeting your academic standing. While the annual tuition of $2400 meets your maximum budget, this represents the main trade-off as it uses your entire allocated budget. The program boasts a high placement rate of 85% and a median starting salary of $15394.\n\nElmhurst University\nThis MBA in Business Analytics is an excellent fit for your goal of becoming a Portal Administrator and aligns with your interest in business process analysis. Located in Coimbatore, the tuition cost of $2150 keeps you comfortably under budget while still offering strong career prospects. The program has a placement rate of 84% and offers a median starting salary of $13094. The main trade-off here is that its median starting salary is slightly lower than Braxton Institute, but it provides a safer financial buffer within your budget constraints.\n\nQuilon School of Engineering\nThis MBA in Business Analytics option is highly affordable at an annual tuition cost of $2100, making it very budget-friendly for someone interested in business process analysis and data science. It is located in Coimbatore and accepts students with a minimum grade percentage of 63%. The main trade-off to consider is that while the tuition is low, its placement rate (73%) and median starting salary ($10526) are among the lowest on this list compared to other options.\n\nKestrel Institute of Technology\nThis MTech in Computer Networks was recommended because it strongly appeals to your interest in programming and technical IT fields like cybersecurity. Located in Coimbatore, the tuition is $2250, keeping you within budget while offering a strong technical specialization. The main trade-off is that this program focuses heavily on networking and cloud technologies rather than the business process analysis skills needed for a Portal Administrator role.",
+ "wall_s": 226.7
+}

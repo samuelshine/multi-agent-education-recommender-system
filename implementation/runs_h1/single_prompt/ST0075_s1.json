@@ -1,0 +1,54 @@
+{
+ "student_id": "ST0075",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a shell programming certification background. My overall academic average is 76.8% in an IT/computer-science degree. I'm interested in Software Engineering and cloud computing. I want to become a E-Commerce Analyst. My family can afford at most about USD 37100 per year. I live in Chennai. I'm open to going abroad. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 76.8
+  },
+  "career_goal": "E-Commerce Analyst",
+  "budget_max_usd_per_year": 37100,
+  "location_preference": "Chennai",
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "shell programming certification"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0116",
+  "PR0000",
+  "PR0154",
+  "PR0069",
+  "PR0079",
+  "PR0055",
+  "PR0195",
+  "PR0030",
+  "PR0124",
+  "PR0146",
+  "PR0094",
+  "PR0021",
+  "PR0135",
+  "PR0168",
+  "PR0017",
+  "PR0110",
+  "PR0034",
+  "PR0027",
+  "PR0122",
+  "PR0005"
+ ],
+ "final_shortlist": [
+  "PR0000",
+  "PR0195",
+  "PR0079",
+  "PR0154",
+  "PR0030"
+ ],
+ "explanation": "This program in Germany offers a very low tuition fee ($950), making it highly affordable within your budget. It focuses on IT Management and Business Information Systems, which aligns well with your goal of becoming an E-Commerce Analyst while providing strong job prospects (high salary and placement rate).\n\nAnother excellent low-cost option in Germany, this MSc Information Systems program focuses on business information systems. It is extremely affordable (only $300 tuition) and has a strong post-study work visa of 18 months, maximizing your job search opportunities.\n\nThis MBA Technology Management program in the Netherlands is relatively affordable and directly combines IT management with software engineering. It provides a strong blend of technical knowledge and business acumen necessary for an E-Commerce Analyst role.\n\nThe MCA in the UK focuses on Software Engineering, which is a core interest. While the tuition is higher, it offers excellent job prospects with a high median starting salary and a long post-study work visa of 24 months.\n\nThis MSc IT Management program in the USA is affordable compared to other US options and covers both IT management and software engineering. It provides a solid foundation for transitioning into an E-Commerce Analyst role with decent job placement potential.",
+ "wall_s": 59.5
+}

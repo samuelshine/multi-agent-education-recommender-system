@@ -1,0 +1,72 @@
+{
+ "student_id": "ST0008",
+ "session": 2,
+ "mode": "no_memory",
+ "version": 1,
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 77.6% in an IT/computer-science degree. I'm interested in programming and Business process analyst. I want to become a UX Designer. My family can afford at most about USD 2100 per year. I live in Bengaluru. I'd strongly prefer to stay near home, though I might consider elsewhere in India. About the earlier suggestions: I liked PR0174, PR0158.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 77.6
+  },
+  "career_goal": "UX Designer",
+  "budget_max_usd_per_year": 2100,
+  "location_preference": "Bengaluru",
+  "mobility": "prefers_region",
+  "employability_priority": "medium",
+  "other_constraints": [
+   "Interested in programming and Business process analyst"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0101",
+  "PR0039",
+  "PR0174",
+  "PR0158",
+  "PR0054",
+  "PR0084",
+  "PR0015",
+  "PR0020",
+  "PR0141",
+  "PR0013",
+  "PR0033",
+  "PR0014",
+  "PR0157",
+  "PR0181",
+  "PR0046",
+  "PR0047",
+  "PR0166",
+  "PR0074",
+  "PR0172",
+  "PR0059"
+ ],
+ "retrieved_ids": [
+  "PR0013",
+  "PR0157",
+  "PR0166",
+  "PR0158",
+  "PR0039",
+  "PR0181",
+  "PR0046",
+  "PR0172"
+ ],
+ "proposed_shortlist": [
+  "PR0013",
+  "PR0181",
+  "PR0166"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0013",
+  "PR0046",
+  "PR0157",
+  "PR0039",
+  "PR0181"
+ ],
+ "reflection_note": "The original shortlist was heavily biased towards the top-ranked option (PR0013). I dropped PR0166 due to location mismatch. For a more balanced and robust list, I swapped in PR0046 as a strong Pune alternative, which is better positioned than PR0181. I also added PR0157 and PR0039 (both Coimbatore) because they address the 'Business process analyst' interest while maintaining good financial feasibility and relevance to IT/CS background, providing diverse options if Bengaluru proves impossible.",
+ "explanation": "**Meridian Institute of Technology**\nThis program was highly recommended because it perfectly aligns with your primary goal of becoming a UX Designer while respecting your location preference in Bengaluru. The annual tuition of $900 is well within your maximum budget, and the curriculum directly covers Human-Computer Interaction (HCI). Furthermore, the 77% placement rate and median starting salary of $9186 offer strong career prospects right where you prefer to live. There are no major trade-offs here; it meets all your key criteria.\n\n**Bridgewater Institute of Applied Sciences**\nThis option is recommended because it offers a relevant MSc HCI program that fits within your budget, with an annual tuition cost of $1900. While the placement rate (75%) and median starting salary ($8623) are solid, this institution is located in Pune rather than your preferred Bengaluru location. The main trade-off here is accepting a different city to maintain strong program relevance and stay within budget.\n\n**Longford University**\nThis program was suggested because the MSc IT Management degree directly addresses your secondary interest in Business Process Analyst roles, while keeping tuition low at $800 per year. Although it offers the highest median starting salary ($10444) on the list, you must note that this institution is located in Coimbatore and does not meet your location preference for Bengaluru. The trade-off involves prioritizing a specific career interest (Business Process Analyst) and high salary over both preferred location and core UX focus.\n\n**Longford Institute of Applied Sciences**\nThis program provides excellent statistics with the highest placement rate (85%) and median starting salary ($13646), making it highly attractive for employability. However, this option presents two significant trade-offs: its annual tuition of $2250 exceeds your maximum budget of $2100, and it is located in Coimbatore instead of Bengaluru. It was recommended only because the high ROI (Return on Investment) metrics are exceptional despite these constraints.\n\n**Keystone Institute of Technology**\nThis program is a strong contender for UX design as it offers an MSc HCI degree with low tuition at $850 per year, keeping you well under budget. The median starting salary of $9715 is also very competitive. The primary trade-off to consider is that this institution is located in Pune and does not meet your stated preference for Bengaluru.",
+ "wall_s": 189.0
+}

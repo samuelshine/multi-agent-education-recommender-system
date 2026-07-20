@@ -1,0 +1,78 @@
+{
+ "student_id": "ST0024",
+ "session": 1,
+ "mode": "no_memory",
+ "version": 1,
+ "message": "Hi, I'm a student with a hadoop certification background. My overall academic average is 76.1% in an IT/computer-science degree. I'm interested in hacking and developer. I want to become a Applications Developer.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 76.1
+  },
+  "career_goal": "Applications Developer",
+  "budget_max_usd_per_year": null,
+  "location_preference": null,
+  "mobility": "open_domestic",
+  "employability_priority": null,
+  "other_constraints": [
+   "hadoop certification background",
+   "interested in hacking and developer"
+  ],
+  "uncertainty_notes": [
+   "Budget maximum per year not specified.",
+   "Location preference not specified.",
+   "Mobility preference not specified.",
+   "Employability priority not specified."
+  ]
+ },
+ "prefilter_ids": [
+  "PR0198",
+  "PR0144",
+  "PR0139",
+  "PR0164",
+  "PR0029",
+  "PR0022",
+  "PR0182",
+  "PR0060",
+  "PR0191",
+  "PR0119",
+  "PR0101",
+  "PR0143",
+  "PR0186",
+  "PR0176",
+  "PR0058",
+  "PR0149",
+  "PR0092",
+  "PR0187",
+  "PR0039",
+  "PR0174"
+ ],
+ "retrieved_ids": [
+  "PR0029",
+  "PR0186",
+  "PR0143",
+  "PR0198",
+  "PR0139",
+  "PR0182",
+  "PR0058",
+  "PR0174"
+ ],
+ "proposed_shortlist": [
+  "PR0058",
+  "PR0186",
+  "PR0029",
+  "PR0143"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0058",
+  "PR0186",
+  "PR0182",
+  "PR0029"
+ ],
+ "reflection_note": "The original shortlist was strong, but PR0182 (MSc Software Quality Engineering) is a superior alternative to PR0143 because it offers the same SE focus and location (Pune) as PR0186 but at a significantly lower tuition cost ($1950 vs $2050). I swapped in PR0182, maintaining the core focus on Software Engineering/Networking while improving financial feasibility. The final list prioritizes strong SE options (PR0058, PR0186, PR0182) and keeps the cybersecurity option (PR0029) for breadth.",
+ "explanation": "Stanmore School of Engineering\nThis MCA program is recommended because its focus on Software Engineering aligns well with your goal as an Applications Developer, and the minimum grade requirement of 74% is met by your academic background. At a low annual tuition cost of $1350, it offers a strong placement rate of 83% and a median starting salary of $14,869. The main trade-off here is that while the tuition is very affordable, the resulting median starting salary is not the highest among the options.\n\nHalcyon Institute of Technology\nThis MTech program combines networking/cloud expertise with Software Engineering, making it highly relevant for a modern developer role and utilizing your existing CS background. You meet the minimum grade requirement of 70%, and the institution offers an 83% placement rate with a median starting salary of $15,192. The trade-off is that the annual tuition ($2050) is higher than Stanmore's program, but it provides exposure to critical cloud and networking infrastructure skills.\n\nKeystone Technical University\nThis MSc in Software Quality Engineering offers an excellent placement rate of 91%, which is a major benefit for employability. Since you have a CS background, the curriculum remains technically relevant, and your grade (76.1%) exceeds the minimum requirement of 75%. The primary trade-off to consider is that while the placement rate is high, the median starting salary ($12,865) is lower than some other options on this list.\n\nVantage Technical University\nThis MSc in Information Security is highly recommended because it directly taps into your stated interest in hacking and security, providing a specialized path for developers. You meet the minimum grade requirement of 75%, and the program boasts the highest placement rate at 92%. The main trade-off is that this specialization comes with the highest annual tuition cost ($3800) compared to the other listed options.",
+ "wall_s": 0.0
+}

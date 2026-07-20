@@ -1,0 +1,68 @@
+{
+ "student_id": "ST0049",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a full stack certification background. My overall academic average is 78.7% in an IT/computer-science degree. I'm interested in programming and Business process analyst. I want to become a Applications Developer. My family can afford at most about USD 13400 per year. I live in Delhi. I'm open to anywhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [
+  "reflect"
+ ],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 78.7
+  },
+  "career_goal": "Applications Developer",
+  "budget_max_usd_per_year": 13400,
+  "location_preference": "Delhi",
+  "mobility": "open_domestic",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in programming and Business process analyst roles"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0191",
+  "PR0101",
+  "PR0054",
+  "PR0105",
+  "PR0015",
+  "PR0020",
+  "PR0033",
+  "PR0157",
+  "PR0047",
+  "PR0074",
+  "PR0172",
+  "PR0087",
+  "PR0117",
+  "PR0198",
+  "PR0097",
+  "PR0144",
+  "PR0139",
+  "PR0164",
+  "PR0029",
+  "PR0022"
+ ],
+ "retrieved_ids": [
+  "PR0020",
+  "PR0164",
+  "PR0139"
+ ],
+ "proposed_shortlist": [
+  "PR0164",
+  "PR0020",
+  "PR0139"
+ ],
+ "guard_dropped": [],
+ "backfilled": [],
+ "final_shortlist": [
+  "PR0164",
+  "PR0020",
+  "PR0139"
+ ],
+ "reflection_note": "reflect fallback: kept proposal",
+ "explanation": "Northgate School of Engineering\nThis program is recommended because it offers a strong blend of technology and management skills through its MBA Technology Management degree, aligning well with your interest in business process roles. Located in Delhi, the annual tuition cost is low at $2050, and the median starting salary of $17,361 suggests high employability. The main trade-off here is that while your academic background is close to the minimum required grade percentage (79%), it is slightly below this threshold.\n\nStanmore Institute of Applied Sciences\nThis option is highly recommended due to its extremely low cost ($1450 annual tuition) and easy admission requirements, making it a safe choice within your budget constraints. The MBA Business Analytics program directly supports your interest in business process roles while utilizing your IT background. However, the main trade-off is that this program has the lowest median starting salary ($10,648) and placement rate (76%) compared to the other options on this list.\n\nQuilon University\nThis MSc Software Quality Engineering program is recommended because it offers the highest potential career outcomes, boasting a high placement rate of 89% and the best median starting salary at $20,639. The focus on QA testing aligns strongly with your goal as an Applications Developer. The main trade-off to consider is that the minimum required grade percentage (81%) is slightly higher than your current academic standing (78.7%).",
+ "wall_s": 114.6
+}

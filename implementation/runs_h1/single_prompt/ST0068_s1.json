@@ -1,0 +1,54 @@
+{
+ "student_id": "ST0068",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a full stack certification background. My overall academic average is 79.1% in an IT/computer-science degree. I'm interested in networks and cloud computing. I want to become a Applications Developer. My family can afford at most about USD 28400 per year. I live in Hyderabad. I'm open to going abroad.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 79.1
+  },
+  "career_goal": "Applications Developer",
+  "budget_max_usd_per_year": 28400,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in networks and cloud computing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0146",
+  "PR0094",
+  "PR0110",
+  "PR0005",
+  "PR0169",
+  "PR0127",
+  "PR0001",
+  "PR0194",
+  "PR0081",
+  "PR0042",
+  "PR0004",
+  "PR0186",
+  "PR0036",
+  "PR0197",
+  "PR0043",
+  "PR0147",
+  "PR0096",
+  "PR0199",
+  "PR0118",
+  "PR0121"
+ ],
+ "final_shortlist": [
+  "PR0146",
+  "PR0042",
+  "PR0004",
+  "PR0194",
+  "PR0001"
+ ],
+ "explanation": "This MTech in Computer Networks in Canada aligns perfectly with your interest in networking and cloud computing. The tuition ($23650) is within budget, your academic average (79.1%) exceeds the minimum requirement (73%), and it offers a strong post-study work visa opportunity.\n\nThis MSc Software Engineering in Canada is highly relevant as it combines networking/cloud with software development, fulfilling your goal of becoming an Applications Developer. The tuition ($10800) is very affordable and the post-study work visa (36 months) is excellent.\n\nAnother strong Canadian option, this MSc Cloud Computing program combines networking and software engineering. The tuition ($13250) is well within budget, and the long post-study work visa (36 months) provides great career security.\n\nFor a low-cost international option, this MSc Cloud Computing in Germany has minimal tuition ($1950), is relevant to your interests, and requires a CS background. This makes it an excellent choice if budget is the primary constraint.\n\nThis MSc Cloud Computing in the Netherlands offers low tuition ($11850) and directly covers networking/cloud and software engineering. It is a strong international option that respects your budget while supporting your career goal.",
+ "wall_s": 43.1
+}

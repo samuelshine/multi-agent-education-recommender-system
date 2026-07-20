@@ -1,0 +1,41 @@
+{
+ "student_id": "ST0067",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a machine learning certification background. My overall academic average is 69.6% in an IT/computer-science degree. I'm interested in Management and Business process analyst. I want to become a Database Developer. My family can afford at most about USD 1100 per year. I live in Mumbai. I cannot leave my city. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 69.6
+  },
+  "career_goal": "Database Developer",
+  "budget_max_usd_per_year": 1100,
+  "location_preference": "Mumbai",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in Management and Business process analyst"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0071",
+  "PR0114",
+  "PR0193",
+  "PR0112",
+  "PR0049",
+  "PR0035",
+  "PR0082"
+ ],
+ "final_shortlist": [
+  "PR0114",
+  "PR0193",
+  "PR0071",
+  "PR0112",
+  "PR0082"
+ ],
+ "explanation": "This program offers a high placement rate (81%) and a strong median starting salary ($10903), which aligns with your priority of securing good employment. The low tuition cost ($850) also fits within your budget constraints.\n\nWith a solid placement rate (72%) and a respectable starting salary ($10518), this program is a strong contender for job security. Its tuition cost ($1200) remains manageable within your family's budget.\n\nThe MTech Data Engineering program directly relates to your ML background and interest in database development. While the tuition ($1300) is near your limit, its focus on data science makes it highly relevant for career growth.\n\nThis MSc Software Engineering program provides a foundational technical skill set that supports both database development and general IT roles. The tuition ($1150) is within budget, though the placement rate (65%) is lower than other options.\n\nThis option has the lowest tuition cost ($500), making it very budget-friendly. It offers core software engineering skills and is located in Mumbai, meeting all your geographical constraints.",
+ "wall_s": 30.5
+}

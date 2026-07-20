@@ -1,0 +1,56 @@
+{
+ "student_id": "ST0082",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a shell programming certification background. My overall academic average is 73.7% in an IT/computer-science degree. I'm interested in Computer Architecture and testing. I want to become a Technical Engineer. My family can afford at most about USD 6100 per year. I live in Bengaluru. I cannot leave my city. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 73.7
+  },
+  "career_goal": "Technical Engineer (interested in Computer Architecture and testing)",
+  "budget_max_usd_per_year": 6100,
+  "location_preference": "Bengaluru",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Shell programming certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0085",
+  "PR0015",
+  "PR0073",
+  "PR0002",
+  "PR0013",
+  "PR0173",
+  "PR0087"
+ ],
+ "retrieved_ids": [
+  "PR0085",
+  "PR0173",
+  "PR0087",
+  "PR0073",
+  "PR0015",
+  "PR0013"
+ ],
+ "proposed_shortlist": [
+  "PR0073",
+  "PR0015",
+  "PR0173",
+  "PR0085"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0073",
+  "PR0015",
+  "PR0087",
+  "PR0013"
+ ],
+ "reflection_note": "The original shortlist was strong on location and budget but lacked focus on the student's core interest: Computer Architecture. PR0173 (Data Science) and PR0085 (QA Testing) were dropped for being too tangential to the desired specialization. I swapped in PR0013 (HCI) as a more specialized, engineering-adjacent alternative. Furthermore, while PR0087 (MSc Data Science) was not on the original shortlist, it offers a better blend of technical relevance and lower tuition than PR0173, making it a necessary inclusion to round out the list with strong academic/financial options.",
+ "explanation": "Elmhurst Technical University\nThis program is recommended because its focus on cybersecurity aligns well with a technical engineering background and the interest in testing. It meets your academic requirements, as it requires a CS background and accepts students with grades above 65%. The tuition of $1250 remains well within your budget, offering an 80% placement rate and a median starting salary of $8637. The main trade-off here is that while the placement rate is high, the median starting salary is slightly lower compared to other options on this list.\n\nKeystone Institute of Technology\nThis option was selected because it offers strong employability in Bengaluru with a median starting salary of $9707 and an affordable tuition of $1200. It does not require a CS background, providing flexibility while still being located in your preferred city. The trade-off is that the program focuses on business information systems rather than core technical engineering or computer architecture, which may deviate from your primary career goal.\n\nAravalli Technical University\nThis Data Science program was recommended because it maintains a strong technical focus and requires the CS background you possess. It fits comfortably within your budget with an annual tuition of $1200 in Bengaluru. However, the main trade-off is that this program has the lowest placement rate (58%) and median starting salary ($6767) among all options, despite its technical relevance.\n\nMeridian Institute of Technology\nThis program offers the most budget-friendly option with a low tuition cost of $900 in Bengaluru. It provides excellent earning potential, boasting a median starting salary of $9186 and a 77% placement rate. The primary trade-off is that its focus on Human-Computer Interaction (HCI) is heavily geared toward design rather than the core technical engineering or computer architecture you are interested in pursuing.",
+ "wall_s": 51023.8
+}

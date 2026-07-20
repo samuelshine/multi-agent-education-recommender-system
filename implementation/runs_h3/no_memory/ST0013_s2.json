@@ -1,0 +1,72 @@
+{
+ "student_id": "ST0013",
+ "session": 2,
+ "mode": "no_memory",
+ "version": 1,
+ "message": "Hi, I'm a student with a python certification background. My overall academic average is 75.6% in an IT/computer-science degree. I'm interested in Management and security. I want to become a Systems Analyst. My family can afford at most about USD 4400 per year. I live in Pune. I'd strongly prefer to stay near home, though I might consider elsewhere in India. About the earlier suggestions: I liked PR0176, PR0164.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 75.6
+  },
+  "career_goal": "Systems Analyst",
+  "budget_max_usd_per_year": 4400,
+  "location_preference": "Pune",
+  "mobility": "prefers_region",
+  "employability_priority": "medium",
+  "other_constraints": [
+   "Interested in Management and security",
+   "Liked PR0176, PR0164"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0157",
+  "PR0172",
+  "PR0164",
+  "PR0060",
+  "PR0191",
+  "PR0101",
+  "PR0176",
+  "PR0092",
+  "PR0189",
+  "PR0054",
+  "PR0076",
+  "PR0105",
+  "PR0130",
+  "PR0015",
+  "PR0020",
+  "PR0078",
+  "PR0033",
+  "PR0150",
+  "PR0047",
+  "PR0160"
+ ],
+ "retrieved_ids": [
+  "PR0172",
+  "PR0092",
+  "PR0176",
+  "PR0164",
+  "PR0157",
+  "PR0130",
+  "PR0078",
+  "PR0033"
+ ],
+ "proposed_shortlist": [
+  "PR0078",
+  "PR0172",
+  "PR0092"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0078",
+  "PR0172",
+  "PR0164",
+  "PR0176"
+ ],
+ "reflection_note": "The original shortlist was good but missed two superior options (PR0164, PR0176) that offer significantly better employability metrics and are highly affordable. I have kept the top Pune option (PR0078) and a solid runner-up (PR0172). I swapped in PR0164 and PR0176 because their superior placement rates and strong IT Management focus outweigh the location preference, making them essential additions for maximizing career outcomes. The final list is ranked by overall fit/priority: 1. Best Pune option; 2. Solid Pune backup; 3. Best non-Pune high-value option (Delhi); 4. Strong alternative regional option (Hyderabad).",
+ "explanation": "Fairfax University\nThis program is recommended because it perfectly matches your location preference of Pune while keeping tuition costs low at $1750 USD, which is well within your maximum budget. The MSc IT Management degree aligns with your interest in management and systems analysis, and you meet the minimum grade requirement (62%). The main trade-off here is that while the placement rate is strong at 78%, there are no post-study work visa options provided.\n\nQuilon Technical University\nThis option remains relevant because it is located in Pune, matching your primary location preference, and its annual tuition of $2250 USD fits comfortably within your budget. The MSc IT Management program supports your career goal as a Systems Analyst. However, the main trade-off to consider is that while the cost is manageable, the placement rate (66%) is lower compared to other options on this list.\n\nNorthgate School of Engineering\nSince you previously expressed interest in this institution, it was included because it offers an MBA Technology Management degree with excellent metrics, including a 90% placement rate and a high median starting salary of $17361 USD. The main trade-off is that the location is Delhi, not Pune, and your current grade percentage (75.6%) is slightly below the required minimum of 79%.\n\nCrestwood University\nThis program was recommended because you previously liked it, and it offers an MBA Technology Management degree that aligns with your interest in management. It provides strong placement metrics (82% rate) and a high median starting salary ($15400 USD), all while keeping the tuition cost low at $1900 USD. The main trade-off is that the location is Hyderabad, which deviates from your Pune preference.",
+ "wall_s": 196.4
+}

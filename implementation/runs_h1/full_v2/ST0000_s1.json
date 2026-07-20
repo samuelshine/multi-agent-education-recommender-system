@@ -1,0 +1,74 @@
+{
+ "student_id": "ST0000",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a full stack certification background. My overall academic average is 79.4% in an IT/computer-science degree. I'm interested in hacking and system developer. I want to become a Solutions Architect. My family can afford at most about USD 8500 per year. I live in Chennai. I'm open to going abroad.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 79.4
+  },
+  "career_goal": "Solutions Architect",
+  "budget_max_usd_per_year": 8500,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in hacking and system developer roles"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0000",
+  "PR0195",
+  "PR0021",
+  "PR0153",
+  "PR0051",
+  "PR0151",
+  "PR0037",
+  "PR0161",
+  "PR0117",
+  "PR0198",
+  "PR0097",
+  "PR0104",
+  "PR0144",
+  "PR0139",
+  "PR0194",
+  "PR0164",
+  "PR0029",
+  "PR0022",
+  "PR0137",
+  "PR0182"
+ ],
+ "retrieved_ids": [
+  "PR0194",
+  "PR0161",
+  "PR0151",
+  "PR0195",
+  "PR0137",
+  "PR0037",
+  "PR0144",
+  "PR0029"
+ ],
+ "proposed_shortlist": [
+  "PR0194",
+  "PR0037",
+  "PR0161",
+  "PR0151",
+  "PR0195"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0194",
+  "PR0037",
+  "PR0161",
+  "PR0151",
+  "PR0195"
+ ],
+ "reflection_note": "The current shortlist is strong and adheres to all hard constraints (budget max $8500/year, CS background required/preferred). All programs are in Germany or have excellent financial feasibility. The ranking order reflects the student's interest in hacking/system development (PR0194) followed by core software engineering tracks (PR0037, PR0161, PR0151), concluding with a high-potential alternative (PR0195). No changes were necessary.",
+ "explanation": "Aravalli School of Engineering\nThis program is recommended because its focus on Cloud Computing and networking aligns well with your goal of becoming a Solutions Architect. The annual tuition of $1950 fits comfortably within your budget, and the curriculum requires a CS background, matching your academic profile. You will also benefit from an 18-month post-study work visa and a median starting salary of $30,651. The main trade-off here is that while the specialization is excellent, the placement rate (67%) is slightly lower than some other options on this list.\n\nTejas School of Engineering\nThis MCA program provides strong foundational software engineering skills relevant to your career goals and requires a CS background, which matches your academic history. With an annual tuition of $2650, it remains well within your budget constraints. The school offers a solid 72% placement rate and a median starting salary of $34,339, along with an 18-month post-study work visa. The trade-off is that the tuition cost ($2650) is slightly higher than Aravalli School of Engineering while offering similar career outcomes.\n\nTejas University\nThis MSc Software Engineering program maintains a strong focus on core development skills and requires your CS background, making it highly relevant to system developer roles. While its annual tuition of $3850 is the highest among the technical options, it still remains under your maximum budget. Graduates benefit from an 18-month post-study work visa and a good median starting salary of $33,731. The main trade-off here is that this program has the highest tuition cost compared to other highly relevant engineering programs listed.\n\nCrestwood Institute of Technology\nThis MSc Software Quality Engineering option provides excellent industry exposure with a 72% placement rate and a solid median starting salary of $35,799. Although it does not require a CS background, its annual tuition of $5750 is significantly higher than the other technical options provided. The main trade-off is that while this program offers strong career outcomes, its focus on QA testing may be less aligned with your specific interest in core system development or hacking roles compared to cloud/software engineering programs.\n\nKeystone School of Engineering\nThis MSc Information Systems program stands out due to its exceptional placement rate (82%) and the highest median starting salary ($51,059), making it financially attractive. Furthermore, its low annual tuition of $300 is ideal for your budget. The main trade-off, however, is that this degree focuses on business information systems rather than core software engineering or cloud computing, which might deviate from your stated interest in system developer roles.",
+ "wall_s": 0.0
+}

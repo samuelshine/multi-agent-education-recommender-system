@@ -1,0 +1,100 @@
+{
+ "student_id": "ST0004",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 73.9
+    },
+    "career_goal": "hacking and testing",
+    "budget_max_usd_per_year": 6000,
+    "location_preference": null,
+    "mobility": "open_domestic",
+    "employability_priority": null,
+    "other_constraints": [
+     "information security certification background"
+    ],
+    "uncertainty_notes": [
+     "Location preference not stated.",
+     "Employability priority not stated."
+    ]
+   },
+   "final_shortlist": [
+    "PR0053",
+    "PR0114",
+    "PR0179",
+    "PR0119"
+   ],
+   "feedback": null
+  },
+  {
+   "session": 2,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 73.9
+    },
+    "career_goal": "Network Security Administrator",
+    "budget_max_usd_per_year": 6000,
+    "location_preference": "Pune",
+    "mobility": "fixed_city",
+    "employability_priority": null,
+    "other_constraints": [
+     "information security certification background"
+    ],
+    "uncertainty_notes": [
+     "Employability priority not stated."
+    ]
+   },
+   "final_shortlist": [
+    "PR0045",
+    "PR0023",
+    "PR0180",
+    "PR0190",
+    "PR0187"
+   ],
+   "feedback": {
+    "liked": [],
+    "disliked": [
+     "PR0053",
+     "PR0114"
+    ]
+   }
+  },
+  {
+   "session": 3,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 73.9
+    },
+    "career_goal": "Network Security Administrator",
+    "budget_max_usd_per_year": 6000,
+    "location_preference": "Pune",
+    "mobility": "fixed_city",
+    "employability_priority": "high",
+    "other_constraints": [
+     "information security certification background"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0045",
+    "PR0186",
+    "PR0180",
+    "PR0023"
+   ],
+   "feedback": {
+    "liked": [
+     "PR0045",
+     "PR0023"
+    ],
+    "disliked": [
+     "PR0190"
+    ]
+   }
+  }
+ ]
+}

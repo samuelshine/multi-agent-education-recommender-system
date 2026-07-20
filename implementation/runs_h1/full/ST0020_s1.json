@@ -1,0 +1,72 @@
+{
+ "student_id": "ST0020",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a machine learning certification background. My overall academic average is 80.3% in an IT/computer-science degree. I'm interested in cloud computing and Business process analyst. I want to become a Systems Security Administrator. My family can afford at most about USD 17700 per year. I live in Pune. I'm open to going abroad. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 80.3
+  },
+  "career_goal": "Systems Security Administrator",
+  "budget_max_usd_per_year": 17700,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in cloud computing",
+   "Interested in Business process analyst"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0000",
+  "PR0195",
+  "PR0122",
+  "PR0005",
+  "PR0010",
+  "PR0169",
+  "PR0153",
+  "PR0163",
+  "PR0127",
+  "PR0051",
+  "PR0103",
+  "PR0077",
+  "PR0001",
+  "PR0194",
+  "PR0081",
+  "PR0123",
+  "PR0042",
+  "PR0061",
+  "PR0004",
+  "PR0138"
+ ],
+ "retrieved_ids": [
+  "PR0000",
+  "PR0195",
+  "PR0153",
+  "PR0051",
+  "PR0061",
+  "PR0123",
+  "PR0138",
+  "PR0169"
+ ],
+ "proposed_shortlist": [
+  "PR0000",
+  "PR0195",
+  "PR0169",
+  "PR0123"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0000",
+  "PR0195",
+  "PR0169",
+  "PR0061"
+ ],
+ "reflection_note": "The initial shortlist was good but included two MBA programs (PR0123, PR0138) that are too general for a student aiming for the specialized role of Systems Security Administrator. I have dropped these and swapped in PR0061, which is a highly relevant, low-cost German option focusing on Business Analytics/IS, maintaining strong technical focus while keeping budget feasibility high. The final list prioritizes direct technical relevance (PR0000, PR0195, PR0169) and cost-effective specialization (PR0061).",
+ "explanation": "Fairfax Institute of Technology\nThis program is highly recommended because it aligns well with your interest in business process analysis while maintaining a strong focus on IT management. It has an excellent placement rate of 91% and offers a high median starting salary of $56,198 USD. Furthermore, the annual tuition of only $950 USD keeps you comfortably within your budget constraint. The main trade-off here is that while it covers business systems, its focus on \"IT Management\" might be slightly less technical than pure security roles.\n\nKeystone School of Engineering\nThis program represents the best overall value and fit for your profile, offering a low annual tuition of just $300 USD while still providing high employability. Its curriculum in Business Information Systems directly addresses your interest in business process analysis. With an 82% placement rate and an 18-month post-study work visa, it maximizes your chances of securing employment quickly. The trade-off is that its focus is purely on \"Information Systems,\" which may be less specialized toward advanced cloud or security topics compared to other options.\n\nBridgewater Institute of Applied Sciences\nThis program was recommended because its fields\u2014IT Support and Networking/Cloud\u2014are the most directly relevant to your goal of becoming a Systems Security Administrator and interest in cloud computing. The annual tuition of $15,750 USD remains within your budget limit. However, you must be aware of the trade-off: while it offers technical relevance, its median starting salary ($40,910 USD) and placement rate (77%) are lower compared to other options on this list.\n\nBridgewater Technical University\nThis option was considered because it is within your budget and covers business systems relevant to process analysis. However, the primary trade-off here is that its median starting salary of $25,862 USD is significantly lower than the other programs listed, which could impact your immediate career goals. While it offers a good degree of flexibility in fields like data science analytics, you should weigh this low earning potential against the high employability priority you stated.",
+ "wall_s": 199.5
+}

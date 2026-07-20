@@ -1,0 +1,71 @@
+{
+ "student_id": "ST0055",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a hadoop certification background. My overall academic average is 81.3% in an IT/computer-science degree. I'm interested in programming and testing. I want to become a Business Systems Analyst. My family can afford at most about USD 2100 per year. I live in Delhi. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 81.3
+  },
+  "career_goal": "Business Systems Analyst",
+  "budget_max_usd_per_year": 2100,
+  "location_preference": "Delhi",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in programming and testing",
+   "Strongly prefer to stay near home, though might consider elsewhere in India"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0182",
+  "PR0119",
+  "PR0101",
+  "PR0053",
+  "PR0072",
+  "PR0054",
+  "PR0065",
+  "PR0019",
+  "PR0114",
+  "PR0015",
+  "PR0020",
+  "PR0113",
+  "PR0179",
+  "PR0033",
+  "PR0193",
+  "PR0157",
+  "PR0047",
+  "PR0068",
+  "PR0074",
+  "PR0050"
+ ],
+ "retrieved_ids": [
+  "PR0182",
+  "PR0119",
+  "PR0053",
+  "PR0193",
+  "PR0114",
+  "PR0020",
+  "PR0157",
+  "PR0033"
+ ],
+ "proposed_shortlist": [
+  "PR0020",
+  "PR0193",
+  "PR0114",
+  "PR0182"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0020",
+  "PR0119",
+  "PR0114"
+ ],
+ "reflection_note": "The original shortlist was heavily weighted towards technical QA testing programs in Mumbai/Pune, which contradicts the student's primary career goal (Business Systems Analyst) and strong location preference (Delhi). PR0020 remains the top choice due to its perfect alignment with goals and location. I have replaced the weaker options with PR0119 (Hyderabad) as a superior technical backup, maintaining affordability and high employability, while keeping PR0114 (Mumbai) as the most budget-friendly alternative.",
+ "explanation": "Stanmore Institute of Applied Sciences\nThis program is recommended because it meets your location preference in Delhi and fits within your maximum budget of $2100 per year with an annual tuition of $1450. The MBA Business Analytics focus aligns well with your goal of becoming a Business Systems Analyst, and you meet the admission requirement with your 81.3% grade. The main trade-off here is that while it keeps you local, its focus on business analytics is less aligned with your stated interest in programming and testing compared to the other options.\n\nMeridian Institute of Applied Sciences\nThis program strongly aligns with your interest in programming and testing through its MSc Software Quality Engineering curriculum, offering a high placement rate of 86% and a median starting salary of $14,917. The annual tuition of $1200 is well within your budget, and you meet the minimum grade requirement. The primary trade-off for this excellent employability outcome is that it requires relocating to Hyderabad, which deviates from your strong preference to stay near home in Delhi.\n\nCrestwood School of Engineering\nThis option provides a highly affordable path into software quality engineering with an annual tuition of only $850, making it the most budget-friendly choice while still offering high employability metrics. You meet the admission criteria and the program directly addresses your interest in testing. The main trade-off is that while the low cost is beneficial, this option requires moving to Mumbai, which deviates from your preferred location in Delhi.",
+ "wall_s": 210.5
+}

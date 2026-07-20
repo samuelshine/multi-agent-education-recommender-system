@@ -1,0 +1,72 @@
+{
+ "student_id": "ST0037",
+ "session": 1,
+ "mode": "single_objective",
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 75.9% in an IT/computer-science degree. I'm interested in networks and developer. I want to become a CRM Technical Developer. My family can afford at most about USD 1600 per year. I live in Chennai. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 75.9
+  },
+  "career_goal": "CRM Technical Developer",
+  "budget_max_usd_per_year": 1600,
+  "location_preference": "Chennai",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "r programming certification"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0182",
+  "PR0119",
+  "PR0176",
+  "PR0058",
+  "PR0187",
+  "PR0174",
+  "PR0053",
+  "PR0158",
+  "PR0109",
+  "PR0076",
+  "PR0012",
+  "PR0019",
+  "PR0114",
+  "PR0185",
+  "PR0130",
+  "PR0084",
+  "PR0120",
+  "PR0170",
+  "PR0015",
+  "PR0020"
+ ],
+ "retrieved_ids": [
+  "PR0109",
+  "PR0053",
+  "PR0119",
+  "PR0176",
+  "PR0182",
+  "PR0012",
+  "PR0187",
+  "PR0158"
+ ],
+ "proposed_shortlist": [
+  "PR0109",
+  "PR0012",
+  "PR0119",
+  "PR0053"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0109",
+  "PR0012",
+  "PR0182",
+  "PR0176",
+  "PR0119"
+ ],
+ "reflection_note": "The original shortlist was good but lacked depth in exploring high-employability options outside the primary location (Chennai). I have kept PR0109 and PR0012 as they are the best matches for Location/Core CS. I swapped in PR0182 (Pune) due to its superior placement rate, and PR0176 (Hyderabad) due to its high salary potential and acceptable location. I retained PR0119 at rank 5 because it is a solid backup option that meets all hard constraints, even if the focus is slightly off-target.",
+ "explanation": "**Crestwood Technical University**\nThis program is highly recommended because it perfectly aligns with your location preference of Chennai and keeps tuition within your budget at $1550 USD. The MTech Computer Science degree maintains a strong technical focus, which supports your goal as a CRM Technical Developer, while the 82% placement rate addresses your high employability priority. The main trade-off here is that the curriculum is general CS rather than specializing directly in CRM or QA testing.\n\n**Elmhurst University**\nThis option is excellent for meeting your budget constraint with an annual tuition of $1500 USD, and the MCA program remains highly relevant to a technical developer career path. While it does not match your preferred location of Chennai (it is in Kolkata), its low cost and strong academic relevance make it a viable alternative. The trade-off you must consider is accepting a non-preferred city location for significant budget savings.\n\n**Keystone Technical University**\nAlthough the annual tuition of $1950 USD exceeds your maximum budget of $1600, this program was shortlisted due to its exceptional 91% placement rate and strong technical focus on QA testing. This high employability score makes it a compelling option despite the cost increase. The main trade-off is that you would need to adjust your budget significantly to attend this highly rated institution.\n\n**Crestwood University**\nThis program was shortlisted because its median starting salary of $15400 USD is among the highest listed, and the tuition ($1900) is within a reasonable range for high-paying roles. However, please note that the MBA focus shifts away from your technical developer goal toward IT management, and the annual cost exceeds your stated budget maximum. The primary trade-off here is moving into a management role rather than remaining in a purely technical development track.\n\n**Meridian Institute of Applied Sciences**\nThis program offers the lowest tuition fee at $1200 USD, making it an excellent fit for your strict budget constraint while maintaining a strong focus on software quality engineering. Although its location is Hyderabad and not Chennai, the high placement rate (86%) ensures good employability. The main trade-off is that this QA specialization represents a shift in technical focus away from general CS development toward testing methodologies.",
+ "wall_s": 112.4
+}

@@ -1,0 +1,80 @@
+{
+ "student_id": "ST0020",
+ "session": 1,
+ "mode": "no_memory",
+ "version": 1,
+ "message": "Hi, I'm a student with a machine learning certification background. My overall academic average is 80.3% in an IT/computer-science degree. I'm interested in cloud computing and Business process analyst. I want to become a Systems Security Administrator.",
+ "memory_used": false,
+ "fallbacks": [
+  "reflect"
+ ],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 80.3
+  },
+  "career_goal": "Systems Security Administrator",
+  "budget_max_usd_per_year": null,
+  "location_preference": null,
+  "mobility": "open_domestic",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in cloud computing",
+   "Interested in Business process analyst"
+  ],
+  "uncertainty_notes": [
+   "Budget maximum per year not specified.",
+   "Location preference not specified.",
+   "Mobility preference not specified (defaulting to open_domestic).",
+   "Employability priority not specified."
+  ]
+ },
+ "prefilter_ids": [
+  "PR0191",
+  "PR0101",
+  "PR0186",
+  "PR0197",
+  "PR0054",
+  "PR0043",
+  "PR0147",
+  "PR0105",
+  "PR0096",
+  "PR0199",
+  "PR0015",
+  "PR0020",
+  "PR0118",
+  "PR0121",
+  "PR0148",
+  "PR0033",
+  "PR0016",
+  "PR0157",
+  "PR0102",
+  "PR0047"
+ ],
+ "retrieved_ids": [
+  "PR0096",
+  "PR0118",
+  "PR0148",
+  "PR0186",
+  "PR0197",
+  "PR0043",
+  "PR0147",
+  "PR0121"
+ ],
+ "proposed_shortlist": [
+  "PR0147",
+  "PR0043",
+  "PR0186",
+  "PR0197"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0147",
+  "PR0043",
+  "PR0186",
+  "PR0197"
+ ],
+ "reflection_note": "reflect fallback: kept proposal",
+ "explanation": "**Fairfax Institute of Technology**\nThis program is recommended because its focus on \"Cloud Computing\" directly aligns with your stated interests, and it requires a Computer Science background, which you possess. With an annual tuition of $3200 and a placement rate of 83%, it offers a strong entry point into the cloud sector. The main trade-off here is that while the program has good placement metrics, its median starting salary of $13015 is moderate compared to some other options on this list.\n\n**Vantage Institute of Technology**\nThis option was selected because it boasts the highest placement rate (86%) and covers both \"Cloud Computing\" and \"software engineering,\" providing a robust skill set for systems security roles. While its annual tuition ($3950) is higher than some alternatives, this high employability metric makes it valuable. The trade-off to consider is that despite having the best placement record among the cloud options, its median starting salary of $11981 is the lowest on the list.\n\n**Halcyon Institute of Technology**\nThis program is highly recommended due to its excellent combination of a low annual tuition ($2050) and the highest median starting salary ($15192). The curriculum focusing on \"Computer Networks\" is ideal for your goal of becoming a Systems Security Administrator, and you meet the minimum grade requirement (70%). The primary trade-off is that while it excels in networking, its title does not explicitly emphasize cloud computing, which was one of your stated interests.\n\n**Ashford Institute of Technology**\nThis program provides a strong foundation in \"Computer Networks,\" making it highly relevant to your career goal as a Systems Security Administrator. It offers a solid placement rate of 85% and requires only a minimum grade of 71%, which you exceed with your 80.3%. The main trade-off is that its tuition ($3350) is slightly higher than the Halcyon Institute's program, even though both focus on similar networking fields.",
+ "wall_s": 0.0
+}

@@ -1,0 +1,54 @@
+{
+ "student_id": "ST0097",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 75.8% in an IT/computer-science degree. I'm interested in Management and system developer. I want to become a Mobile Applications Developer. My family can afford at most about USD 5700 per year. I live in Coimbatore. I cannot leave my city.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 75.8
+  },
+  "career_goal": "Mobile Applications Developer",
+  "budget_max_usd_per_year": 5700,
+  "location_preference": "Coimbatore",
+  "mobility": "fixed_city",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in Management and system developer roles"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0157",
+  "PR0048",
+  "PR0101",
+  "PR0058",
+  "PR0039",
+  "PR0054",
+  "PR0043",
+  "PR0147",
+  "PR0105",
+  "PR0170",
+  "PR0145",
+  "PR0148",
+  "PR0033",
+  "PR0016",
+  "PR0014",
+  "PR0068",
+  "PR0166",
+  "PR0098",
+  "PR0134",
+  "PR0106"
+ ],
+ "final_shortlist": [
+  "PR0058",
+  "PR0039",
+  "PR0145",
+  "PR0148",
+  "PR0170"
+ ],
+ "explanation": "This MCA program is highly relevant as it covers 'software_engineering' and requires a CS background, aligning with your technical interest. It also meets your academic average (75.8% > 74%) and stays within budget ($1350).\n\nThe MSc Human-Computer Interaction program focuses on design and software engineering, which is ideal for aspiring Mobile Applications Developers. It meets your academic average (75.8% > 70%) and is well within budget ($2250).\n\nThis MTech Computer Science program offers 'software_engineering' and 'data_science_analytics', providing a strong technical foundation for development. It requires a CS background (which you have) and is affordable ($2300).\n\nThe MTech Computer Networks program provides core networking skills ('networking_cloud') which are foundational for system development. It is affordable ($2250) and does not require a specific CS background.\n\nWhile focused on data analytics, this MSc Big Data Analytics program offers strong technical skills ('data_science_analytics') and is highly affordable ($1300). It also requires a CS background and meets your academic average (75.8% > 62%).",
+ "wall_s": 55.6
+}

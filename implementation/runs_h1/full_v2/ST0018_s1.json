@@ -1,0 +1,73 @@
+{
+ "student_id": "ST0018",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a app development certification background. My overall academic average is 73.7% in an IT/computer-science degree. I'm interested in hacking and developer. I want to become a Design & UX. My family can afford at most about USD 33200 per year. I live in Bengaluru. I'm open to going abroad. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 73.7
+  },
+  "career_goal": "Design & UX",
+  "budget_max_usd_per_year": 33200,
+  "location_preference": "Bengaluru",
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in hacking and developer roles"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0153",
+  "PR0091",
+  "PR0149",
+  "PR0039",
+  "PR0174",
+  "PR0158",
+  "PR0041",
+  "PR0084",
+  "PR0141",
+  "PR0013",
+  "PR0014",
+  "PR0181",
+  "PR0046",
+  "PR0166",
+  "PR0059",
+  "PR0049",
+  "PR0035",
+  "PR0069",
+  "PR0055",
+  "PR0195"
+ ],
+ "retrieved_ids": [
+  "PR0013",
+  "PR0158",
+  "PR0046",
+  "PR0166",
+  "PR0149",
+  "PR0174",
+  "PR0141"
+ ],
+ "proposed_shortlist": [
+  "PR0174",
+  "PR0149",
+  "PR0158",
+  "PR0013",
+  "PR0141"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0013",
+  "PR0149",
+  "PR0158",
+  "PR0174",
+  "PR0141"
+ ],
+ "reflection_note": "The initial shortlist was well-curated and contained no hard constraint violations (budget, location, admission plausibility). I have reordered the final list to prioritize candidates based on a weighted score that balances Location Fit (Bengaluru preference) > Employability/Career Goal (High priority for developer roles) > Financial Feasibility. PR0013 remains the top choice due to its perfect location match and low cost, despite lower median salary compared to others; however, I have placed it first as per student preference weightings. PR0149 is now ranked second because while its tuition is higher than ideal, its strong employability score and excellent academic fit make it a highly compelling alternative. The remaining programs maintain their relative positions based on the balance of trade-offs.",
+ "explanation": "Meridian Institute of Technology\nThis program was recommended because it is located in Bengaluru, matching your stated location preference, and offers a very low annual tuition fee of $900 USD. The curriculum focuses on Human-Computer Interaction, aligning with your Design & UX goal, while also being accessible since no prior CS background is required. The main trade-off here is that while the cost and location are ideal, the median starting salary ($9186) is lower compared to some other options on this list.\n\nBridgewater School of Engineering\nThis program was recommended for its high employability metrics, boasting an 86% placement rate and a strong median starting salary of $13217 USD. The curriculum directly addresses your UX goals through Human-Computer Interaction. The primary trade-off is that the location is Mumbai, which deviates from your Bengaluru preference, although it offers excellent career outcomes.\n\nAshford School of Engineering\nThis program was recommended because its MDes program includes both \"design_hci\" and \"software_engineering,\" which directly addresses your interest in developer roles alongside UX design. It maintains a high placement rate (84%) and a solid median starting salary ($13259 USD). The main trade-off is that the location is Pune, rather than your preferred Bengaluru, though it offers strong career potential at an affordable tuition cost of $1900 USD.\n\nHalcyon Institute of Applied Sciences\nThis program was recommended primarily because it offers the highest median starting salary ($14141 USD) among all options, which strongly supports your priority for high employability. The curriculum is focused on Human-Computer Interaction and has an 84% placement rate. The main trade-off to consider is that its location is Delhi, deviating from your preference for Bengaluru.\n\nBraxton Technical University\nThis program was recommended as a highly affordable option with an annual tuition of $2450 USD. It provides the core Human-Computer Interaction focus needed for Design & UX and requires no specific CS background. The main trade-off to note is that while it keeps costs low, its median starting salary ($9069 USD) and placement rate (78%) are among the lowest on this shortlist.",
+ "wall_s": 110.1
+}

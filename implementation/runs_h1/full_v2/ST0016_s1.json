@@ -1,0 +1,74 @@
+{
+ "student_id": "ST0016",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a full stack certification background. My overall academic average is 76.2% in an IT/computer-science degree. I'm interested in programming and system developer. I want to become a Technical Engineer. My family can afford at most about USD 4000 per year. I live in Mumbai. I'm open to going abroad. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 76.2
+  },
+  "career_goal": "Technical Engineer (Programming and System Developer)",
+  "budget_max_usd_per_year": 4000,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Full stack certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0000",
+  "PR0195",
+  "PR0021",
+  "PR0153",
+  "PR0051",
+  "PR0037",
+  "PR0161",
+  "PR0198",
+  "PR0104",
+  "PR0144",
+  "PR0139",
+  "PR0194",
+  "PR0164",
+  "PR0029",
+  "PR0022",
+  "PR0137",
+  "PR0182",
+  "PR0060",
+  "PR0191",
+  "PR0119"
+ ],
+ "retrieved_ids": [
+  "PR0195",
+  "PR0153",
+  "PR0194",
+  "PR0137",
+  "PR0021",
+  "PR0161",
+  "PR0104",
+  "PR0182"
+ ],
+ "proposed_shortlist": [
+  "PR0195",
+  "PR0153",
+  "PR0021",
+  "PR0194",
+  "PR0161"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0161",
+  "PR0195",
+  "PR0153",
+  "PR0194",
+  "PR0021"
+ ],
+ "reflection_note": "The original ranking was slightly misleading. I have re-ranked the list based on a holistic assessment of technical fit, career goal alignment (System Developer), and overall risk/reward profile. PR0161 (Software Engineering) is the most direct match for 'Technical Engineer' and should be ranked first. PR0195 offers excellent financial feasibility with strong industry relevance despite the business focus. PR0153 provides a desirable location and good fit, while PR0194 maintains high technical rigor (Cloud). PR0021 is kept as a highly affordable, safe backup option to ensure five choices are presented.",
+ "explanation": "Tejas University\nThis program is recommended because its focus on Software Engineering aligns perfectly with your goal of becoming a Technical Engineer. The annual tuition of $3850 remains within your maximum budget of $4000, and it requires a Computer Science background, which you possess. While the median starting salary ($33731) is moderate compared to other options, the program offers an 18-month post-study work visa, providing strong long-term career stability in Germany. The main trade-off here is that while the tuition fits your budget, the resulting salary potential is not the highest on this list.\n\nKeystone School of Engineering\nThis option provides excellent employability metrics with a high placement rate of 82% and a median starting salary of $51059, making it highly attractive for job security. Furthermore, its low annual tuition of only $300 keeps you well under your budget constraint. The main trade-off is that the program focuses on Business Information Systems rather than core programming or system development, which deviates from your primary technical engineering goal.\n\nKeystone University\nThis program offers a very affordable path with an annual tuition of just $550 and a solid placement rate of 78%. It also provides an 18-month post-study work visa in Germany. The main trade-off is that the curriculum focuses on Human-Computer Interaction (HCI) and design, which represents a significant shift away from your stated technical programming background and career goal.\n\nAravalli School of Engineering\nThis program is highly relevant to your goals, combining networking/cloud technologies with software engineering, making it technically robust and suitable for your CS background. The tuition cost of $1950 fits within your budget, and the curriculum directly supports a modern developer role. However, the main trade-off is that this option has the lowest placement rate (67%) among the shortlisted programs, despite its strong technical alignment.\n\nAshford Institute of Technology\nThis program offers exceptional job prospects with an 82% placement rate and a median starting salary of $46428, making it highly appealing for employability. Its low annual tuition of $450 is also excellent for your budget constraints. The main trade-off is that the focus on IT Support means the curriculum is less aligned with advanced programming or system development compared to other options.",
+ "wall_s": 128.7
+}

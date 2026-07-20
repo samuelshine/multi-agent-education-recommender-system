@@ -1,0 +1,42 @@
+{
+ "student_id": "ST0026",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a shell programming certification background. My overall academic average is 74.8% in an IT/computer-science degree. I'm interested in programming and testing. I want to become a Applications Developer. My family can afford at most about USD 7100 per year. I live in Bengaluru. I cannot leave my city. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 74.8
+  },
+  "career_goal": "Applications Developer",
+  "budget_max_usd_per_year": 7100,
+  "location_preference": "Bengaluru",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in programming and testing",
+   "Shell programming certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0085",
+  "PR0015",
+  "PR0073",
+  "PR0002",
+  "PR0013",
+  "PR0173",
+  "PR0087"
+ ],
+ "final_shortlist": [
+  "PR0085",
+  "PR0013",
+  "PR0173",
+  "PR0015",
+  "PR0002"
+ ],
+ "explanation": "This program in Software Quality Engineering directly aligns with your interest in testing and is located in Bengaluru. It has a low tuition cost ($1450) and offers a decent starting salary ($6488), making it a strong fit for an Applications Developer role focused on quality.\n\nMSc Human-Computer Interaction is highly relevant to becoming an Applications Developer, focusing on the user experience aspect. It has a very low tuition cost ($900) and a good placement rate (77%), which addresses your priority of securing a good job.\n\nThis MTech Computer Science program offers 'software_engineering' and is located in Bengaluru with minimal tuition ($500). While the placement rate (62%) is lower than others, its core focus on software engineering makes it a solid technical choice for your career goal.\n\nMSc Information Systems provides strong business context and is located in Bengaluru with low tuition ($1200). It boasts a high placement rate (78%) and a good starting salary ($9707), making it attractive if you want to blend development skills with business requirements.\n\nMSc IT Operations is situated in Bengaluru and has a high median starting salary ($11419). While focused on 'it_support,' it offers strong job prospects within the tech industry and remains well within your budget.",
+ "wall_s": 43.0
+}

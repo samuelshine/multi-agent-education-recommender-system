@@ -1,0 +1,54 @@
+{
+ "student_id": "ST0025",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 81% in an IT/computer-science degree. I'm interested in networks and developer. I want to become a Software Engineer. My family can afford at most about USD 4400 per year. I live in Kolkata. I'm open to going abroad. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 81
+  },
+  "career_goal": "Software Engineer",
+  "budget_max_usd_per_year": 4400,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in networks and developer fields"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0037",
+  "PR0161",
+  "PR0198",
+  "PR0144",
+  "PR0194",
+  "PR0186",
+  "PR0058",
+  "PR0039",
+  "PR0053",
+  "PR0038",
+  "PR0158",
+  "PR0043",
+  "PR0126",
+  "PR0109",
+  "PR0026",
+  "PR0076",
+  "PR0012",
+  "PR0065",
+  "PR0019",
+  "PR0167"
+ ],
+ "final_shortlist": [
+  "PR0037",
+  "PR0194",
+  "PR0126",
+  "PR0167",
+  "PR0186"
+ ],
+ "explanation": "This German MCA program in Berlin is highly recommended because it aligns with your goal of becoming a Software Engineer and offers a strong post-study work visa (18 months). The low tuition fee ($2650) also fits well within your family's budget constraint.\n\nThis MSc Cloud Computing program in Germany offers a strong focus on networking and software engineering while keeping tuition low ($1950). The combination of German education, relevant fields, and an 18-month post-study work visa makes it an excellent option for career growth.\n\nLocated in Germany, this MCA program provides a direct path to Software Engineering with low tuition ($2050) and the benefit of an 18-month post-study work visa. It is a strong international option that respects your budget.\n\nIf you prefer to stay in India and leverage your information security background, this MTech Cyber Security program in Hyderabad is a good fit. It directly uses your existing knowledge while providing exposure to software engineering.\n\nThis Indian MTech Computer Networks program allows you to focus on networking and software engineering, which are your stated interests. While it doesn't offer a post-study visa, the low tuition ($2050) is budget-friendly.",
+ "wall_s": 50.3
+}

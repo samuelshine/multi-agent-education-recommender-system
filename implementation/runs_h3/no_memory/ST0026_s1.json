@@ -1,0 +1,78 @@
+{
+ "student_id": "ST0026",
+ "session": 1,
+ "mode": "no_memory",
+ "version": 1,
+ "message": "Hi, I'm a student with a shell programming certification background. My overall academic average is 74.8% in an IT/computer-science degree. I'm interested in programming and testing. I want to become a Applications Developer.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 74.8
+  },
+  "career_goal": "Applications Developer",
+  "budget_max_usd_per_year": null,
+  "location_preference": null,
+  "mobility": "open_domestic",
+  "employability_priority": null,
+  "other_constraints": [
+   "shell programming certification background",
+   "interested in programming and testing"
+  ],
+  "uncertainty_notes": [
+   "budget_max_usd_per_year is unknown.",
+   "location_preference is unknown.",
+   "mobility preference is unknown (defaulting to open_domestic).",
+   "employability_priority is unknown."
+  ]
+ },
+ "prefilter_ids": [
+  "PR0182",
+  "PR0119",
+  "PR0053",
+  "PR0072",
+  "PR0065",
+  "PR0019",
+  "PR0114",
+  "PR0113",
+  "PR0179",
+  "PR0193",
+  "PR0068",
+  "PR0050",
+  "PR0125",
+  "PR0190",
+  "PR0080",
+  "PR0008",
+  "PR0142",
+  "PR0082",
+  "PR0052",
+  "PR0085"
+ ],
+ "retrieved_ids": [
+  "PR0193",
+  "PR0179",
+  "PR0119",
+  "PR0053",
+  "PR0019",
+  "PR0085",
+  "PR0182",
+  "PR0113"
+ ],
+ "proposed_shortlist": [
+  "PR0119",
+  "PR0053",
+  "PR0182",
+  "PR0113"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0193",
+  "PR0053",
+  "PR0179",
+  "PR0119"
+ ],
+ "reflection_note": "The original shortlist contained a critical hard constraint violation (PR0182) and an option with poor value/high cost (PR0113). I have dropped these. The final list prioritizes programs that are highly accessible based on the student's 74.8% score, offer strong career alignment (QA/SE), and maintain excellent financial feasibility (low tuition costs like $1200-$1450). PR0193 is added as a high-value backup option due to its low entry barrier.",
+ "explanation": "Elmhurst Institute of Technology\nThis program is recommended if budget is your primary concern, as it offers a very low annual tuition of $1200 USD. The curriculum focuses on QA testing, which aligns well with your interest in programming and testing while building upon your IT/computer-science background. However, the main trade-off here is that its median starting salary ($10518) and placement rate (72%) are lower compared to other options on this list.\n\nCavendish University\nThis program offers a strong balance of outcomes, boasting an 86% placement rate and a solid median starting salary of $12855 USD. The curriculum covers both QA testing and software engineering fields, providing broad skills relevant to your goal as an Applications Developer. You should note the trade-off: while its minimum grade requirement (70%) is slightly higher than some other options, the resulting career outcomes are excellent for a low tuition cost of $1200 USD.\n\nMeridian Institute of Technology\nThis option has a moderate placement rate of 78% and provides training in QA testing, which complements your background interest in programming and testing. The main trade-off to consider is that it has the highest annual tuition ($1700) among the listed institutions, yet its median starting salary ($8535) is lower than several other options.\n\nMeridian Institute of Applied Sciences\nThis program presents the best overall value proposition for your career goals, offering both a high 86% placement rate and the highest median starting salary ($14917 USD). The low annual tuition of $1200 USD makes it highly affordable while providing strong job prospects in QA testing. The main trade-off is that its minimum grade requirement (71%) is slightly higher than some other programs, but the superior expected salary justifies this consideration.",
+ "wall_s": 0.0
+}

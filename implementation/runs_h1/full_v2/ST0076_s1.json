@@ -1,0 +1,76 @@
+{
+ "student_id": "ST0076",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a python certification background. My overall academic average is 80.2% in an IT/computer-science degree. I'm interested in Computer Architecture and testing. I want to become a CRM Business Analyst. My family can afford at most about USD 1300 per year. I live in Pune. I'm open to anywhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [
+  "reflect"
+ ],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 80.2
+  },
+  "career_goal": "CRM Business Analyst",
+  "budget_max_usd_per_year": 1300,
+  "location_preference": "Pune",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in Computer Architecture and testing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0119",
+  "PR0053",
+  "PR0019",
+  "PR0114",
+  "PR0015",
+  "PR0020",
+  "PR0193",
+  "PR0157",
+  "PR0074",
+  "PR0050",
+  "PR0125",
+  "PR0190",
+  "PR0080",
+  "PR0008",
+  "PR0142",
+  "PR0082",
+  "PR0052",
+  "PR0085",
+  "PR0066",
+  "PR0064"
+ ],
+ "retrieved_ids": [
+  "PR0190",
+  "PR0080",
+  "PR0142",
+  "PR0050",
+  "PR0119",
+  "PR0053",
+  "PR0157",
+  "PR0015"
+ ],
+ "proposed_shortlist": [
+  "PR0190",
+  "PR0080",
+  "PR0142",
+  "PR0050",
+  "PR0119"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0190",
+  "PR0080",
+  "PR0142",
+  "PR0050",
+  "PR0119"
+ ],
+ "reflection_note": "reflect fallback: kept proposal",
+ "explanation": "Kestrel School of Engineering\nThis program is recommended because it perfectly aligns with your preferred location in Pune and stays within your maximum budget of $1300 USD per year. The curriculum focuses on QA Testing, which directly relates to your interest in testing and career goal. While the placement rate (64%) is moderate, this option minimizes trade-offs by meeting both your budgetary and geographical constraints.\n\nCrestwood Technical University\nThis program was selected due to its ideal location in Pune and strong focus on QA Testing, aligning with your interests. Although the annual tuition of $1450 exceeds your stated budget maximum of $1300, it offers a higher median starting salary ($8071) compared to other options in Pune. The main trade-off here is that you would need to increase your budget to attend this program.\n\nNalanda Ridge School of Engineering\nThis option was recommended because it provides the lowest tuition cost at $700 USD, keeping you well under budget while offering relevant fields like QA Testing and Software Engineering. However, the main trade-off is the location; since you prefer Pune, this school in Hyderabad deviates from your geographical preference.\n\nTejas Institute of Technology\nThis program maintains a good balance by fitting within your $1300 annual budget and providing strong employability with a 69% placement rate. While it is located in Hyderabad rather than your preferred region of Pune, its combination of affordable tuition and high placement rate makes it a solid alternative for meeting your employability priority.\n\nMeridian Institute of Applied Sciences\nThis program was recommended because it offers the highest median starting salary ($14917) and an excellent 86% placement rate, strongly addressing your high employability priority. The main trade-off is that this institution is located in Hyderabad, which conflicts with your Pune preference; however, its superior career outcomes make it a strong recommendation despite the location change.",
+ "wall_s": 140.0
+}

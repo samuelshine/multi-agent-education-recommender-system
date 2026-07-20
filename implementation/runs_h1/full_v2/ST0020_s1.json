@@ -1,0 +1,75 @@
+{
+ "student_id": "ST0020",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a machine learning certification background. My overall academic average is 80.3% in an IT/computer-science degree. I'm interested in cloud computing and Business process analyst. I want to become a Systems Security Administrator. My family can afford at most about USD 17700 per year. I live in Pune. I'm open to going abroad. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 80.3
+  },
+  "career_goal": "Systems Security Administrator",
+  "budget_max_usd_per_year": 17700,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in cloud computing",
+   "Interested in Business process analyst"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0000",
+  "PR0195",
+  "PR0122",
+  "PR0005",
+  "PR0010",
+  "PR0169",
+  "PR0153",
+  "PR0163",
+  "PR0127",
+  "PR0051",
+  "PR0103",
+  "PR0077",
+  "PR0001",
+  "PR0194",
+  "PR0081",
+  "PR0123",
+  "PR0042",
+  "PR0061",
+  "PR0004",
+  "PR0138"
+ ],
+ "retrieved_ids": [
+  "PR0000",
+  "PR0195",
+  "PR0153",
+  "PR0051",
+  "PR0061",
+  "PR0123",
+  "PR0138",
+  "PR0169"
+ ],
+ "proposed_shortlist": [
+  "PR0000",
+  "PR0195",
+  "PR0169",
+  "PR0123",
+  "PR0138"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0000",
+  "PR0195",
+  "PR0169",
+  "PR0123",
+  "PR0051"
+ ],
+ "reflection_note": "The original list was strong, but PR0138 was dropped because its focus on Business Analytics is less aligned with the student's core goal of Systems Security Administrator compared to other available options. Since 5 valid candidates were needed and only one drop occurred, I swapped in PR0051 (MBA Business Analytics) as it represents a viable alternative focusing on data/business analytics within Germany, maintaining geographical diversity and keeping the list at five items. The final ranking prioritizes programs with the highest relevance to IT Management/Security (PR0000, PR0195, PR0169), followed by options that offer strong career pathways despite minor drawbacks (PR0123), and finally a solid backup option in Germany (PR0051).",
+ "explanation": "Fairfax Institute of Technology\nThis program is highly recommended because its focus on IT Management and Business Information Systems aligns well with your interest in business process analysis while providing a strong foundation for systems administration. It requires a minimum grade percentage of 80%, which perfectly matches your academic standing, and the annual tuition cost of $950 fits comfortably within your budget. The high placement rate of 91% and the generous 18-month post-study work visa significantly boost your employability after graduation. The main trade-off here is that while it offers excellent career prospects, its curriculum may be broader than a specialized security track.\n\nKeystone School of Engineering\nThis option is an excellent budget choice, offering low tuition at $300 per year while providing relevant training in Business Information Systems. It meets your high employability priority with a solid placement rate of 82% and grants you an 18-month post-study work visa. Given its extremely low cost, it maximizes your financial resources for other career development needs. The main trade-off is that the program description does not explicitly mention cloud computing or deep security management, making it slightly less specialized than some of your interests.\n\nBridgewater Institute of Applied Sciences\nThis program was recommended because its focus on IT Support and Networking/Cloud directly addresses both your interest in cloud computing and your technical background. The annual tuition of $15,750 is within your budget maximum, and the curriculum provides highly relevant skills for a Systems Security Administrator role. However, you should be aware that this option has the shortest post-study work visa period at 12 months compared to other choices.\n\nNorthgate Technical University\nThis program offers strong management training in IT Management and Business Information Systems, which supports your interest in business process analysis alongside technical skills. It provides the longest post-study work visa of 24 months, offering maximum time for job searching after graduation. The main trade-off is that while it has a long visa period, its median starting salary ($26,119) and placement rate (75%) are lower than some other options on this list.\n\nWestbrook University\nThis program provides an affordable entry point into the field with low tuition at $3,950 per year, while also covering Business Information Systems and Data Science Analytics. This blend of business knowledge and data skills is beneficial for a modern systems administrator role interested in process analysis. The main trade-off is that while it keeps costs very low, its median starting salary ($33,574) is the lowest among all recommended options, which could impact your immediate earning potential.",
+ "wall_s": 128.4
+}

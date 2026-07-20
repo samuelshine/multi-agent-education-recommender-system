@@ -1,0 +1,31 @@
+{
+ "student_id": "ST0029",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 81.2
+    },
+    "career_goal": "IOT and Business process analyst (tech field)",
+    "budget_max_usd_per_year": 4100,
+    "location_preference": null,
+    "mobility": "open_international",
+    "employability_priority": "medium",
+    "other_constraints": [
+     "Python certification background"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0000",
+    "PR0195",
+    "PR0153",
+    "PR0021",
+    "PR0044"
+   ],
+   "feedback": null
+  }
+ ]
+}

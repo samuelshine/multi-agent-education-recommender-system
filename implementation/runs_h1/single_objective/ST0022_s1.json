@@ -1,0 +1,73 @@
+{
+ "student_id": "ST0022",
+ "session": 1,
+ "mode": "single_objective",
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 79.8% in an IT/computer-science degree. I'm interested in programming and Business process analyst. I want to become a Portal Administrator. My family can afford at most about USD 2400 per year. I live in Coimbatore. I'm open to anywhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 79.8
+  },
+  "career_goal": "Portal Administrator",
+  "budget_max_usd_per_year": 2400,
+  "location_preference": null,
+  "mobility": "open_domestic",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in programming",
+   "Interested in Business process analyst"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0101",
+  "PR0054",
+  "PR0015",
+  "PR0020",
+  "PR0033",
+  "PR0157",
+  "PR0047",
+  "PR0074",
+  "PR0172",
+  "PR0087",
+  "PR0164",
+  "PR0182",
+  "PR0119",
+  "PR0143",
+  "PR0186",
+  "PR0176",
+  "PR0058",
+  "PR0187",
+  "PR0039",
+  "PR0174"
+ ],
+ "retrieved_ids": [
+  "PR0157",
+  "PR0176",
+  "PR0187",
+  "PR0039",
+  "PR0174",
+  "PR0164",
+  "PR0054",
+  "PR0186"
+ ],
+ "proposed_shortlist": [
+  "PR0187",
+  "PR0164",
+  "PR0157",
+  "PR0176",
+  "PR0054"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0187",
+  "PR0164",
+  "PR0157",
+  "PR0186"
+ ],
+ "reflection_note": "The original shortlist was strong but lacked a highly technical option. I dropped PR0176 and PR0054 because PR0157 offers better value (lower cost) while maintaining the desired IT Management focus. I swapped in PR0186 as it provides a specialized, high-employability networking/cloud track that complements the general administration roles of PR0187 and PR0157. The final list balances core admin skills (PR0187), business process integration (PR0164), foundational IT knowledge (PR0157), and deep technical specialization (PR0186).",
+ "explanation": "Cavendish University\nThis program is recommended because it provides a direct, technical path into systems administration, which aligns well with the core functions of a Portal Administrator role. It has an excellent placement rate of 87% and fits comfortably within your maximum budget of $2400 USD per year at $1450. Since you are interested in programming, this diploma offers practical IT support skills while requiring no prior CS background or English proficiency. The main trade-off is that the program does not offer any post-study work visa options.\n\nNorthgate School of Engineering\nThis MBA Technology Management program is ideal because it directly addresses your interest in Business Process Analyst roles by focusing on IT management and business strategy. It maintains a high placement rate of 90% and costs $2050, staying within your budget. Given your academic background (79.8%), you meet the minimum grade requirement of 79%. The trade-off is that this program focuses heavily on management theory rather than deep programming skills.\n\nLongford University\nThis MSc IT Management degree is highly recommended for its low cost ($800) and strong focus on business information systems, which aligns perfectly with your interest in Business Process Analysis. It also meets your budget constraint while providing a foundational understanding of IT management principles. The primary trade-off here is that it has the lowest placement rate (72%) among the options provided.\n\nHalcyon Institute of Technology\nThis MTech Computer Networks program is recommended if you wish to prioritize deep technical skills and programming, as its curriculum includes software engineering and networking/cloud fields. It requires a CS background, which matches your academic profile, and offers a strong median starting salary of $15192. The main trade-off is that it has the highest tuition cost ($2050) among the affordable options and is highly specialized in technical infrastructure rather than business process analysis.",
+ "wall_s": 152.4
+}

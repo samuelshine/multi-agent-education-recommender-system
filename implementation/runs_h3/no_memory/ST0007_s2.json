@@ -1,0 +1,54 @@
+{
+ "student_id": "ST0007",
+ "session": 2,
+ "mode": "no_memory",
+ "version": 1,
+ "message": "Hi, I'm a student with a shell programming certification background. My overall academic average is 75% in an IT/computer-science degree. I'm interested in data engineering and security. I want to become a Web Developer. My family can afford at most about USD 1100 per year. I live in Bengaluru. I cannot leave my city. About the earlier suggestions: please drop PR0120, PR0111.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 75
+  },
+  "career_goal": "Web Developer",
+  "budget_max_usd_per_year": 1100,
+  "location_preference": "Bengaluru",
+  "mobility": "fixed_city",
+  "employability_priority": null,
+  "other_constraints": [
+   "shell programming certification background"
+  ],
+  "uncertainty_notes": [
+   "No explicit mention of employability priority.",
+   "The request to drop specific course codes (PR0120, PR0111) is a constraint on recommendations, not a core student profile element."
+  ]
+ },
+ "prefilter_ids": [
+  "PR0015",
+  "PR0073",
+  "PR0013",
+  "PR0173",
+  "PR0087"
+ ],
+ "retrieved_ids": [
+  "PR0173",
+  "PR0013",
+  "PR0073",
+  "PR0015"
+ ],
+ "proposed_shortlist": [
+  "PR0173",
+  "PR0013",
+  "PR0073",
+  "PR0015"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0173",
+  "PR0013"
+ ],
+ "reflection_note": "The original shortlist contained two programs (PR0073 and PR0015) that violate the critical budget constraint ($1250 and $1200, respectively, both exceeding the $1100 maximum). These must be dropped. Both remaining programs (PR0173 and PR0013) are strong candidates as they meet all hard constraints (Budget, Location). I recommend keeping them in rank order based on overall fit/relevance for a Web Developer goal: PR0173 offers the most direct CS path, while PR0013 offers high placement potential with relevant HCI skills. Since there are no other viable candidates that improve upon these two options and maintain constraint compliance, the final list is limited to these two.",
+ "explanation": "Longford Technical University\nThis program is recommended because it fits your budget constraints with an annual tuition of $500 USD and is located in your preferred city of Bengaluru. The curriculum includes \"software_engineering,\" which aligns well with a Web Developer goal, and the admission requirement (min 53%) is easily met by your academic background. While this option keeps costs very low, the main trade-off is that the median starting salary ($6851) and placement rate (62%) are moderate compared to other available options.\n\nMeridian Institute of Technology\nThis program was recommended because it remains within your maximum budget of $1100 USD while offering a strong focus on \"design_hci,\" which is critical for modern web development user experience. It is located in Bengaluru, and the admission requirement (min 59%) is easily met by your current grades. The main trade-off here is that the tuition ($900) is higher than Longford Technical University, but this is balanced by a significantly higher placement rate of 77% and a median starting salary of $9186.",
+ "wall_s": 119.7
+}

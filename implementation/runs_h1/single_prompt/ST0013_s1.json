@@ -1,0 +1,54 @@
+{
+ "student_id": "ST0013",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a python certification background. My overall academic average is 75.6% in an IT/computer-science degree. I'm interested in Management and security. I want to become a Systems Analyst. My family can afford at most about USD 4400 per year. I live in Pune. I'd strongly prefer to stay near home, though I might consider elsewhere in India.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 75.6
+  },
+  "career_goal": "Systems Analyst",
+  "budget_max_usd_per_year": 4400,
+  "location_preference": null,
+  "mobility": "prefers_region",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in Management and security"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0157",
+  "PR0172",
+  "PR0164",
+  "PR0060",
+  "PR0191",
+  "PR0101",
+  "PR0176",
+  "PR0092",
+  "PR0189",
+  "PR0054",
+  "PR0076",
+  "PR0105",
+  "PR0130",
+  "PR0015",
+  "PR0020",
+  "PR0078",
+  "PR0033",
+  "PR0150",
+  "PR0047",
+  "PR0160"
+ ],
+ "final_shortlist": [
+  "PR0172",
+  "PR0092",
+  "PR0130",
+  "PR0157",
+  "PR0176"
+ ],
+ "explanation": "This program is ideal because it is located in Pune, meeting your strong preference to stay near home. The MSc IT Management field aligns perfectly with your interest in management and systems analysis, while the tuition cost ($2250) is well within your family's budget.\n\nAnother excellent option located right in Pune. The MBA Technology Management program matches your interest in management and systems analysis. Furthermore, the minimum required grade (74%) is close to your current average (75.6%), making it a strong candidate.\n\nThis program offers an MSc IT Management degree in Hyderabad, which is a reasonable alternative location to Pune. The low tuition cost ($1000) makes it highly budget-friendly, and the curriculum directly addresses your interest in IT management.\n\nIf you are willing to consider Coimbatore, this MSc IT Management program is a strong fit for your career goals. It has a very low tuition fee ($800), keeping it well within budget, and the field of IT management directly supports becoming a Systems Analyst.\n\nLocated in Hyderabad, this MBA Technology Management program is suitable for your interest in management. The tuition fee ($1900) is affordable and the placement rate (82%) suggests good industry outcomes, making it a solid backup option outside of Pune.",
+ "wall_s": 32.3
+}

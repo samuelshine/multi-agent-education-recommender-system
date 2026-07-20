@@ -1,0 +1,70 @@
+{
+ "student_id": "ST0078",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a machine learning certification background. My overall academic average is 73.9% in an IT/computer-science degree. I'm interested in Computer Architecture and testing. I want to become a Business Intelligence Analyst. My family can afford at most about USD 1400 per year. I live in Coimbatore. I'm open to anywhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 73.9
+  },
+  "career_goal": "Business Intelligence Analyst",
+  "budget_max_usd_per_year": 1400,
+  "location_preference": null,
+  "mobility": "open_domestic",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in Computer Architecture and testing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0119",
+  "PR0053",
+  "PR0019",
+  "PR0114",
+  "PR0015",
+  "PR0020",
+  "PR0179",
+  "PR0193",
+  "PR0157",
+  "PR0074",
+  "PR0050",
+  "PR0125",
+  "PR0190",
+  "PR0080",
+  "PR0008",
+  "PR0142",
+  "PR0082",
+  "PR0052",
+  "PR0085",
+  "PR0066"
+ ],
+ "retrieved_ids": [
+  "PR0119",
+  "PR0053",
+  "PR0114",
+  "PR0157",
+  "PR0082",
+  "PR0193",
+  "PR0052",
+  "PR0066"
+ ],
+ "proposed_shortlist": [
+  "PR0157",
+  "PR0193",
+  "PR0119",
+  "PR0053"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0157",
+  "PR0119",
+  "PR0114"
+ ],
+ "reflection_note": "The student's primary goal is Business Intelligence Analyst, which strongly favors PR0157 (IT Management). The shortlist was heavily skewed towards QA/SE programs. I have kept the top BI-focused option and added two strong, affordable QA alternatives (PR0119, PR0114) to provide a balanced choice based on their secondary interest in Computer Architecture/Testing while respecting the budget constraint. PR0193 was dropped for poor goal alignment, and PR0053 was replaced by the stronger option PR0114.",
+ "explanation": "Longford University\nThis program was recommended because its focus on IT Management and Business Information Systems aligns directly with your career goal of becoming a Business Intelligence Analyst. It is highly budget-friendly, requiring only $800 in annual tuition, which is well within your maximum budget of $1400 USD. Admission is accessible as it does not require a CS background or English proficiency, and your 73.9% grade exceeds the minimum requirement of 64%. The main trade-off here is that while the program aligns with your career goal, its placement rate (72%) and median starting salary ($10,444) are lower compared to other options on this list.\n\nMeridian Institute of Applied Sciences\nThis option was recommended because it offers the highest employability potential while satisfying your interest in testing through its MSc Software Quality Engineering program. The tuition is $1,200 USD, keeping you within budget, and your 73.9% grade meets the minimum admission requirement of 71%. With an impressive placement rate of 86% and a median starting salary of $14,917, this program maximizes your employability priority. The main trade-off is that it requires meeting a slightly higher minimum grade (71%) compared to Crestwood School of Engineering.\n\nCrestwood School of Engineering\nThis program was recommended as an excellent budget-conscious choice that addresses your interest in testing through its MSc Software Quality Engineering curriculum. At only $850 USD annually, it is the most affordable option while still maintaining a strong placement rate of 81%. Admission is straightforward, requiring no CS background and accepting students with grades above 60%. The main trade-off to consider is that despite having high employability metrics, its median starting salary ($10,903) is lower than Meridian Institute of Applied Sciences.",
+ "wall_s": 241.2
+}

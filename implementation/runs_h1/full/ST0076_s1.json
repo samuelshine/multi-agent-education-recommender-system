@@ -1,0 +1,70 @@
+{
+ "student_id": "ST0076",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a python certification background. My overall academic average is 80.2% in an IT/computer-science degree. I'm interested in Computer Architecture and testing. I want to become a CRM Business Analyst. My family can afford at most about USD 1300 per year. I live in Pune. I'm open to anywhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 80.2
+  },
+  "career_goal": "CRM Business Analyst",
+  "budget_max_usd_per_year": 1300,
+  "location_preference": "Pune",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in Computer Architecture and testing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0119",
+  "PR0053",
+  "PR0019",
+  "PR0114",
+  "PR0015",
+  "PR0020",
+  "PR0193",
+  "PR0157",
+  "PR0074",
+  "PR0050",
+  "PR0125",
+  "PR0190",
+  "PR0080",
+  "PR0008",
+  "PR0142",
+  "PR0082",
+  "PR0052",
+  "PR0085",
+  "PR0066",
+  "PR0064"
+ ],
+ "retrieved_ids": [
+  "PR0190",
+  "PR0080",
+  "PR0142",
+  "PR0050",
+  "PR0119",
+  "PR0053",
+  "PR0157",
+  "PR0015"
+ ],
+ "proposed_shortlist": [
+  "PR0190",
+  "PR0080",
+  "PR0142"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0190",
+  "PR0050",
+  "PR0142",
+  "PR0119"
+ ],
+ "reflection_note": "The initial shortlist was reviewed for hard constraint violations. PR0080 was dropped due to exceeding the annual budget limit ($1450 > $1300). To improve the list, I swapped in two highly relevant and affordable programs (PR0050 and PR0119) that maintain the focus on QA testing while offering better overall value or placement rates than the existing options. The final shortlist prioritizes location fit (Pune: PR0190), followed by strong budget/employability trade-offs in Hyderabad (PR0050, PR0119), and finally keeping the low-cost option from Hyderabad (PR0142).",
+ "explanation": "Kestrel School of Engineering\nThis program is recommended because it is located in Pune, matching your location preference, and its annual tuition of $1250 remains within your maximum budget of $1300. The focus on QA Testing aligns well with your interest in testing and provides valuable skills for a CRM Business Analyst role. The main trade-off here is that while the program fits your geographical constraints perfectly, it offers a moderate placement rate of 64% compared to some other options.\n\nTejas Institute of Technology\nThis option was selected because it keeps tuition costs low at $1150 and is located in Hyderabad, allowing you flexibility within your preferred region. The curriculum includes QA Testing, directly addressing your interest while also providing IT Support skills useful for a Business Analyst role. The trade-off to consider is that the median starting salary of $7474 is modest compared to other programs on this list.\n\nNalanda Ridge School of Engineering\nThis program offers the lowest tuition cost at $700, making it an excellent fit for your budget constraints while providing training in QA Testing and Software Engineering. While its low cost is a major advantage, the trade-off is that it also presents the lowest median starting salary ($6488) and placement rate (64%) among all the listed options.\n\nMeridian Institute of Applied Sciences\nThis program is highly recommended due to its exceptional employability metrics, boasting an 86% placement rate and a high median starting salary of $14917. The focus on QA Testing directly supports your interest in testing and provides strong skills for a Business Analyst career path. The main trade-off is that while the tuition ($1200) fits your budget, this program requires a minimum grade percentage of 71%, which is slightly higher than some other listed options.",
+ "wall_s": 237.0
+}

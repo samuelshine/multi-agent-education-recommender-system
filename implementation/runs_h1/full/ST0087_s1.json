@@ -1,0 +1,71 @@
+{
+ "student_id": "ST0087",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 74.4% in an IT/computer-science degree. I'm interested in IOT and cloud computing. I want to become a Quality Assurance Associate. My family can afford at most about USD 5600 per year. I live in Kolkata. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 74.4
+  },
+  "career_goal": "Quality Assurance Associate",
+  "budget_max_usd_per_year": 5600,
+  "location_preference": "Kolkata",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "r programming certification background",
+   "interested in IOT and cloud computing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0186",
+  "PR0197",
+  "PR0043",
+  "PR0147",
+  "PR0096",
+  "PR0199",
+  "PR0118",
+  "PR0121",
+  "PR0148",
+  "PR0016",
+  "PR0102",
+  "PR0180",
+  "PR0162",
+  "PR0112",
+  "PR0159",
+  "PR0032",
+  "PR0184",
+  "PR0165",
+  "PR0164",
+  "PR0029"
+ ],
+ "retrieved_ids": [
+  "PR0032",
+  "PR0186",
+  "PR0197",
+  "PR0147",
+  "PR0165",
+  "PR0180",
+  "PR0159",
+  "PR0121"
+ ],
+ "proposed_shortlist": [
+  "PR0032",
+  "PR0180",
+  "PR0165"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0032",
+  "PR0180",
+  "PR0197",
+  "PR0147"
+ ],
+ "reflection_note": "The original shortlist was heavily weighted by location and cost, but PR0165's poor location fit (Chennai) made it a weak inclusion. I have dropped PR0165. The final list prioritizes programs in Kolkata (PR0032), followed by the most relevant alternatives: PR0180 (Pune - strong relevance/affordability), and two high-quality, specialized options (PR0197 and PR0147) that cover networking/cloud interests. This provides a balanced mix of perfect match (Kolkata) and excellent functional alternatives.",
+ "explanation": "Longford School of Engineering\nThis program is recommended because it is located in Kolkata, matching your location preference, and its low annual tuition of $1200 fits well within your budget. The curriculum covers networking and cloud computing, aligning with your interests in IoT and cloud technology. However, the main trade-off here is that while the tuition is very affordable, this option has the lowest placement rate (61%) and median starting salary ($7871) among the shortlisted programs.\n\nBraxton Institute of Technology\nThis program is a strong regional alternative located in Pune, which is close to Kolkata, and its low annual tuition of $1250 keeps it well within your budget constraints. It offers networking and cloud computing fields while requiring a minimum grade percentage (61%) that you meet with your 74.4%. The trade-off compared to the higher-cost options is that both the placement rate (71%) and median starting salary ($10359) are moderate, offering a balance between cost and employability.\n\nAshford Institute of Technology\nThis option was recommended due to its high employability priority, boasting an impressive 85% placement rate and the highest median starting salary ($13362). The program focuses on networking and cloud computing fields that align with your interests. The main trade-off is the significantly higher annual tuition of $3350 compared to other options, though it remains within your maximum budget.\n\nFairfax Institute of Technology\nThis institution was recommended because its minimum grade requirement (74%) perfectly matches your academic background percentage, and its curriculum focuses on networking and cloud computing fields. It offers a high placement rate of 83% and a strong median starting salary of $13015. The trade-off is that the annual tuition ($3200) is higher than the most budget-friendly options, but it provides excellent job prospects for your career goal.",
+ "wall_s": 208.4
+}

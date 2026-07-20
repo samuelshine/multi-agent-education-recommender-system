@@ -1,0 +1,72 @@
+{
+ "student_id": "ST0009",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a app development certification background. My overall academic average is 72.6% in an IT/computer-science degree. I'm interested in hacking and Business process analyst. I want to become a Network Security Engineer. My family can afford at most about USD 4000 per year. I live in Delhi. I'd strongly prefer to stay near home, though I might consider elsewhere in India.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 72.6
+  },
+  "career_goal": "Network Security Engineer",
+  "budget_max_usd_per_year": 4000,
+  "location_preference": null,
+  "mobility": "prefers_region",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in hacking",
+   "Interested in Business process analyst"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0191",
+  "PR0101",
+  "PR0054",
+  "PR0105",
+  "PR0015",
+  "PR0020",
+  "PR0033",
+  "PR0157",
+  "PR0047",
+  "PR0074",
+  "PR0172",
+  "PR0087",
+  "PR0029",
+  "PR0022",
+  "PR0182",
+  "PR0060",
+  "PR0119",
+  "PR0143",
+  "PR0186",
+  "PR0176"
+ ],
+ "retrieved_ids": [
+  "PR0029",
+  "PR0186",
+  "PR0172",
+  "PR0157",
+  "PR0176",
+  "PR0060",
+  "PR0119",
+  "PR0182"
+ ],
+ "proposed_shortlist": [
+  "PR0186",
+  "PR0029",
+  "PR0176",
+  "PR0119"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0186",
+  "PR0172",
+  "PR0176",
+  "PR0157"
+ ],
+ "reflection_note": "The initial shortlist was good but contained one hard constraint violation (PR0029). I dropped PR0029 immediately. I kept PR0186 and PR0176 as they represent the best technical/business balance while meeting academic criteria. I swapped in PR0172 because it is a strong, low-barrier option for the 'Business process analyst' interest and is located in Pune (a preferred tech hub). PR0157 remains an excellent budget backup option for IT Management.",
+ "explanation": "Halcyon Institute of Technology\nThis program is highly recommended because its focus on networking and software engineering directly aligns with your goal of becoming a Network Security Engineer. The annual tuition of $2050 remains well within your maximum budget of $4000, and your 72.6% grade meets the minimum requirement of 70%. While this program offers excellent placement potential (83%) and a strong median starting salary ($15192), the main trade-off is that its technical focus may not fully incorporate your interest in business process analysis.\n\nQuilon Technical University\nThis option was suggested because it addresses your secondary interest in business processes through its IT Management curriculum, and it does not require a Computer Science background. The annual tuition of $2250 fits within your budget, and your academic grade meets the minimum requirement of 62%. However, you should note that while this program is flexible regarding your technical background, the median starting salary ($8654) and placement rate (66%) are lower compared to other options.\n\nCrestwood University\nThis MBA Technology Management program was recommended because it aligns with your interest in business process analysis and has a high chance of success given your academic standing. With an annual tuition of $1900, it is budget-friendly, and your 72.6% grade meets the minimum requirement of 72%. The main trade-off here is that while the salary potential ($15400) is excellent, the MBA format might be too general and less technically specialized than what a Network Security Engineer role requires.\n\nLongford University\nThis program offers the most budget flexibility with an annual tuition of only $800, making it highly affordable compared to your maximum budget. It also accommodates your interest in business processes through its IT Management curriculum without requiring a CS background. The primary trade-off is that while the cost is minimal, the median starting salary ($10444) and placement rate (72%) are lower than those offered by other institutions on this list.",
+ "wall_s": 200.8
+}

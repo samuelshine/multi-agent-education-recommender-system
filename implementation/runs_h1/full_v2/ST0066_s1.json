@@ -1,0 +1,66 @@
+{
+ "student_id": "ST0066",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a full stack certification background. My overall academic average is 79.1% in an IT/computer-science degree. I'm interested in Software Engineering and system developer. I want to become a Database Developer. My family can afford at most about USD 10100 per year. I live in Kolkata. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 79.1
+  },
+  "career_goal": "Database Developer",
+  "budget_max_usd_per_year": 10100,
+  "location_preference": "Kolkata",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "full stack certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0097",
+  "PR0191",
+  "PR0143",
+  "PR0058",
+  "PR0007",
+  "PR0099",
+  "PR0026",
+  "PR0090",
+  "PR0120",
+  "PR0170",
+  "PR0145",
+  "PR0033",
+  "PR0107",
+  "PR0111",
+  "PR0134",
+  "PR0074",
+  "PR0129",
+  "PR0133",
+  "PR0063",
+  "PR0173"
+ ],
+ "retrieved_ids": [
+  "PR0090",
+  "PR0129",
+  "PR0133"
+ ],
+ "proposed_shortlist": [
+  "PR0129",
+  "PR0090",
+  "PR0133"
+ ],
+ "guard_dropped": [],
+ "backfilled": [],
+ "final_shortlist": [
+  "PR0129",
+  "PR0090",
+  "PR0133"
+ ],
+ "reflection_note": "The current shortlist contains only 3 programs, but the goal is to provide a final list of exactly 5 when enough valid candidates exist. Since there are no other candidate programs available for swapping in (the full set was already considered), I must keep the existing three and acknowledge that the constraint of providing 5 items cannot be met with the provided data. The ranking order remains based on the original assessment scores, prioritizing PR0129 due to its strong academic fit and low cost, followed by PR0090 for high employability, and finally PR0133.",
+ "explanation": "Westbrook Technical University\nThis program is recommended because it aligns well with your IT/CS background and keeps the annual tuition low at $1200. Since you have a CS degree, this program meets your academic requirements while keeping costs significantly below your maximum budget of $10,100. The main trade-off here is that while the placement rate is 67% and the median salary is $6936, these figures are lower compared to other options on the list.\n\nWestbrook Institute of Applied Sciences\nThis option was recommended due to its strong focus on employability metrics, boasting a high placement rate of 78% and a robust median starting salary of $12316. It also includes software engineering fields, which is highly relevant for your Database Developer goal. The trade-off you must consider is the higher tuition cost of $3550 compared to the other schools, though it remains within your budget limit.\n\nAshford Institute of Technology\nThis program is ideal if minimizing costs is your highest priority, as its annual tuition is only $900, making it the most budget-friendly option available. It also requires a CS background, which matches your academic history. The main trade-off for this low cost is that it offers the lowest placement rate (63%) and median starting salary ($7270) among the three listed programs.",
+ "wall_s": 85.7
+}

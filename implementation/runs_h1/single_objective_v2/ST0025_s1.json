@@ -1,0 +1,73 @@
+{
+ "student_id": "ST0025",
+ "session": 1,
+ "mode": "single_objective",
+ "version": 2,
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 81% in an IT/computer-science degree. I'm interested in networks and developer. I want to become a Software Engineer. My family can afford at most about USD 4400 per year. I live in Kolkata. I'm open to going abroad. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 81
+  },
+  "career_goal": "Software Engineer",
+  "budget_max_usd_per_year": 4400,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in networks and developer fields"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0037",
+  "PR0161",
+  "PR0198",
+  "PR0144",
+  "PR0194",
+  "PR0186",
+  "PR0058",
+  "PR0039",
+  "PR0053",
+  "PR0038",
+  "PR0158",
+  "PR0043",
+  "PR0126",
+  "PR0109",
+  "PR0026",
+  "PR0076",
+  "PR0012",
+  "PR0065",
+  "PR0019",
+  "PR0167"
+ ],
+ "retrieved_ids": [
+  "PR0037",
+  "PR0194",
+  "PR0126",
+  "PR0038",
+  "PR0186",
+  "PR0167",
+  "PR0043",
+  "PR0109"
+ ],
+ "proposed_shortlist": [
+  "PR0194",
+  "PR0037",
+  "PR0126",
+  "PR0038"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0194",
+  "PR0037",
+  "PR0126",
+  "PR0038",
+  "PR0186"
+ ],
+ "reflection_note": "The initial shortlist was strong and contained the top 4 candidates based on criteria. Since only 4 were provided, I added PR0186 (MTech Computer Networks in India) as a fifth option. While it is located in India (violating the implicit preference for international/Germany options), it perfectly matches the student's interest in 'networks and developer fields' and has high placement rates. It serves as a strong, highly relevant alternative if German options prove too competitive or costly.",
+ "explanation": "Aravalli School of Engineering\nThis program is highly recommended because its focus on Cloud Computing and Software Engineering directly aligns with your interests in networks and developer fields. The annual tuition of $1950 fits well within your budget, and the curriculum meets your requirement for a CS background. Furthermore, it offers strong employability metrics with a 67% placement rate and provides an 18-month post-study work visa, which is excellent for international mobility. The main trade-off here is that the median starting salary ($30,651) is moderate compared to some other options.\n\nTejas School of Engineering\nThis MCA program is a top recommendation because it strongly focuses on Software Engineering while remaining well within your budget at $2650 annually. It offers excellent employability prospects with a 72% placement rate and provides an 18-month post-study work visa, maximizing your career opportunities in Germany. Since you have a strong IT/CS background (81%), the minimum grade requirement of 62% is easily met. The program offers a high median starting salary of $34,339, making it very attractive for your goal as a Software Engineer.\n\nAshford Technical University\nThis MCA program provides a solid foundation in Software Engineering and Data Science Analytics while keeping tuition low at $2050 per year. It is suitable given your strong academic background (81%) and meets the requirement of having a CS degree. While it offers an 18-month post-study work visa, the main trade-off is that its median starting salary ($23,468) is lower than other options on this list, which may impact your immediate earning potential.\n\nHalcyon Technical University\nThis MTech Computer Science program is recommended due to its extremely low tuition cost of $1200, making it the most budget-friendly option while still providing core Software Engineering skills. It meets your CS background requirement and offers an 18-month post-study work visa, supporting your international career goals. The main trade-off you should consider is that this program has the lowest median starting salary ($22,356) among all listed options, despite its low cost.\n\nHalcyon Institute of Technology\nThis MTech Computer Networks program is highly relevant as it perfectly combines networking and software engineering, directly addressing your stated interests. It boasts the highest placement rate (83%) and a strong curriculum that utilizes your CS background. However, the main trade-off is the lack of post-study work visa duration (0 months), which severely limits long-term career mobility in Germany compared to other options.",
+ "wall_s": 113.7
+}

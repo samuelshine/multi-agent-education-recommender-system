@@ -1,0 +1,29 @@
+{
+ "student_id": "ST0041",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 81.8
+    },
+    "career_goal": "Solutions Architect",
+    "budget_max_usd_per_year": 1500,
+    "location_preference": "Pune",
+    "mobility": "prefers_region",
+    "employability_priority": null,
+    "other_constraints": [
+     "interested in parallel computing and testing",
+     "hadoop certification background"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0019",
+    "PR0187"
+   ],
+   "feedback": null
+  }
+ ]
+}

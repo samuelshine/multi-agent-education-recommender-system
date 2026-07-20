@@ -1,0 +1,28 @@
+{
+ "student_id": "ST0042",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 73.6
+    },
+    "career_goal": "Database Administrator",
+    "budget_max_usd_per_year": 800,
+    "location_preference": "Chennai",
+    "mobility": "fixed_city",
+    "employability_priority": "high",
+    "other_constraints": [
+     "Interested in parallel computing",
+     "Interested in Business process analyst"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0165"
+   ],
+   "feedback": null
+  }
+ ]
+}

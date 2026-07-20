@@ -1,0 +1,54 @@
+{
+ "student_id": "ST0007",
+ "session": 3,
+ "mode": "no_memory",
+ "version": 1,
+ "message": "Hi, I'm a student with a shell programming certification background. My overall academic average is 75% in an IT/computer-science degree. I'm interested in data engineering and security. I want to become a Web Developer. My family can afford at most about USD 1100 per year. I live in Bengaluru. I cannot leave my city. Getting a good job after graduation matters more to me than anything else. About the earlier suggestions: I liked PR0173, PR0013.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 75
+  },
+  "career_goal": "Web Developer",
+  "budget_max_usd_per_year": 1100,
+  "location_preference": "Bengaluru",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "shell programming certification background",
+   "interested in data engineering and security"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0173",
+  "PR0087",
+  "PR0015",
+  "PR0073",
+  "PR0013"
+ ],
+ "retrieved_ids": [
+  "PR0173",
+  "PR0073",
+  "PR0087",
+  "PR0015",
+  "PR0173"
+ ],
+ "proposed_shortlist": [
+  "PR0173",
+  "PR0073",
+  "PR0087",
+  "PR0015"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0173",
+  "PR0087",
+  "PR0015"
+ ],
+ "reflection_note": "The primary violation was PR0073 exceeding the budget. After dropping it, PR0173 remains the strongest option due to its low cost and direct CS/Data focus. I have kept PR0087 and PR0015 as viable backups based on location and finance, but they are ranked lower because their core focus (Data Science/BIS) is less aligned with a pure Web Developer goal compared to PR0173's Software Engineering track.",
+ "explanation": "Longford Technical University\nThis program was recommended because it is the most budget-friendly option at $500 annual tuition, staying well within your maximum budget of $1100. The curriculum includes \"Software Engineering,\" which aligns with your goal of becoming a Web Developer, and you meet the minimum admission requirement (75% grade vs 53% min). The main trade-off here is that while the cost is low, its placement rate of 62% and median salary of $6851 are lower compared to other options.\n\nAravalli Technical University\nWhile this program aligns with your interest in data science analytics, it presents a significant conflict with your budget constraint, as the annual tuition of $1200 exceeds your maximum allowed spending of $1100. Furthermore, its placement rate (58%) and median starting salary ($6767) are among the lowest on the list, making this program difficult to recommend despite meeting your CS background requirement.\n\nKeystone Institute of Technology\nThis option was recommended primarily because it offers the highest employability metrics, boasting a 78% placement rate and the highest median starting salary of $9707. Although its annual tuition of $1200 exceeds your stated budget maximum of $1100, the superior career outcomes make this trade-off worthwhile for achieving high employability. You also meet the minimum grade requirement (75% vs 61%).",
+ "wall_s": 153.3
+}

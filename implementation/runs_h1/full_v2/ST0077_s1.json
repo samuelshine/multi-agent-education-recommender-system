@@ -1,0 +1,72 @@
+{
+ "student_id": "ST0077",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a machine learning certification background. My overall academic average is 82.3% in an IT/computer-science degree. I'm interested in IOT and testing. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 1700 per year. I live in Pune. I cannot leave my city. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [
+  "reflect"
+ ],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 82.3
+  },
+  "career_goal": null,
+  "budget_max_usd_per_year": 1700,
+  "location_preference": "Pune",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "interest in IOT and testing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0182",
+  "PR0019",
+  "PR0190",
+  "PR0080",
+  "PR0186",
+  "PR0187",
+  "PR0158",
+  "PR0084",
+  "PR0078",
+  "PR0181",
+  "PR0046",
+  "PR0180",
+  "PR0045",
+  "PR0023",
+  "PR0025",
+  "PR0156"
+ ],
+ "retrieved_ids": [
+  "PR0182",
+  "PR0019",
+  "PR0190",
+  "PR0080",
+  "PR0187",
+  "PR0186",
+  "PR0045",
+  "PR0023"
+ ],
+ "proposed_shortlist": [
+  "PR0190",
+  "PR0019",
+  "PR0045",
+  "PR0023",
+  "PR0182"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0190",
+  "PR0019",
+  "PR0045",
+  "PR0023",
+  "PR0182"
+ ],
+ "reflection_note": "reflect fallback: kept proposal",
+ "explanation": "Kestrel School of Engineering\nThis program was recommended because it directly aligns with your interest in testing through the MSc Software Quality Engineering curriculum. It is highly budget-friendly at $1250 USD annually and has an easy admission requirement given your 82.3% grade. The main trade-off here is that while the tuition is low, its placement rate of 64% and median starting salary of $7265 are lower compared to other options on this list.\n\nAshford University\nThis program is a strong recommendation because it combines your interest in QA testing with general software engineering principles, all within your budget at $1450 USD per year. It offers excellent employability metrics, boasting an 84% placement rate and a median starting salary of $10285. The trade-off you should consider is that while the cost is manageable, it is slightly higher than Kestrel School's offering for similar testing focus.\n\nBraxton Technical University\nThis option was included because it maintains your location preference in Pune and fits within your budget at $1450 USD annually. It provides a strong salary potential with a median starting salary of $10236 and a 71% placement rate, making employability high. The main trade-off is that the focus on cybersecurity does not directly match your stated interest in IOT or testing, although it remains a solid technical degree.\n\nSilverline Technical University\nThis program is recommended as the most budget-conscious choice, costing only $650 USD annually while remaining in Pune. It meets your admission requirements easily and provides a stable placement rate of 70%. The primary trade-off here is that its median starting salary ($8376) and overall cost are lower compared to other programs offering similar career focus areas.\n\nKeystone Technical University\nThis program offers the highest employability metrics on the list, with a 91% placement rate and a strong median starting salary of $12865. It also directly aligns with your interest in QA testing and is accessible given your high academic standing (min grade 75%). However, the main trade-off is that its annual tuition of $1950 exceeds your stated maximum budget of $1700 USD per year.",
+ "wall_s": 158.9
+}

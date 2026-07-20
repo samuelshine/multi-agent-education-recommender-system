@@ -1,0 +1,74 @@
+{
+ "student_id": "ST0044",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 77% in an IT/computer-science degree. I'm interested in Software Engineering and developer. I want to become a Systems Analyst. My family can afford at most about USD 8700 per year. I live in Coimbatore. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 77
+  },
+  "career_goal": "Systems Analyst",
+  "budget_max_usd_per_year": 8700,
+  "location_preference": "Coimbatore (near home)",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "information security certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0191",
+  "PR0101",
+  "PR0054",
+  "PR0105",
+  "PR0015",
+  "PR0020",
+  "PR0033",
+  "PR0157",
+  "PR0047",
+  "PR0074",
+  "PR0172",
+  "PR0087",
+  "PR0117",
+  "PR0198",
+  "PR0097",
+  "PR0144",
+  "PR0139",
+  "PR0164",
+  "PR0029",
+  "PR0022"
+ ],
+ "retrieved_ids": [
+  "PR0101",
+  "PR0054",
+  "PR0033",
+  "PR0157",
+  "PR0164",
+  "PR0139",
+  "PR0029",
+  "PR0144"
+ ],
+ "proposed_shortlist": [
+  "PR0101",
+  "PR0054",
+  "PR0033",
+  "PR0157",
+  "PR0164"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0101",
+  "PR0054",
+  "PR0033",
+  "PR0157",
+  "PR0139"
+ ],
+ "reflection_note": "The initial shortlist was strong but included PR0164, which violates the critical location constraint (Coimbatore preference). This entry has been dropped. To maintain 5 slots, I swapped in two highly relevant alternatives: PR0139 (MSc Software Quality Engineering) and PR0029 (MSc Information Security). PR0139 was chosen because it is a strong technical option with high employability, despite being in Delhi. PR0029 was added because its focus on Information Security directly addresses the student's stated background interest, making it highly relevant for career goal alignment, even though it is in Mumbai. The remaining four programs (PR0101, PR0054, PR0033, PR0157) are kept as they satisfy the location constraint and represent a good progression of technical/business fit.",
+ "explanation": "Braxton Institute of Applied Sciences\nThis program is highly recommended because it perfectly aligns with your location preference in Coimbatore and provides a strong focus on Business Information Systems, which suits your goal of becoming a Systems Analyst. The annual tuition of $2400 is well within your budget, and your 77% grade exceeds the minimum requirement of 71%. While this program offers excellent employability metrics\u2014an 85% placement rate and a median starting salary of $15394\u2014the main trade-off is that it does not offer any post-study work visa options.\n\nElmhurst University\nThis option remains strong because it maintains your preferred location in Coimbatore while offering a relevant curriculum focused on Business Information Systems. With an annual tuition cost of $2150, it keeps you comfortably under budget and accepts your academic background (minimum grade 72%). The program boasts a high placement rate of 84% and a solid median starting salary of $13094. The trade-off compared to Braxton is that its reported placement rate and salary are slightly lower.\n\nQuilon School of Engineering\nThis institution also meets your location preference in Coimbatore and provides relevant coursework combining Business Information Systems with Data Science Analytics. At an annual tuition cost of $2100, it is very budget-friendly for you. However, the main trade-off here is that while the program content is excellent, its reported placement rate (73%) and median starting salary ($10526) are lower than other options in Coimbatore.\n\nLongford University\nThis university is recommended primarily because of its extremely low annual tuition cost of $800, making it the most budget-friendly choice for you. It also meets your location preference in Coimbatore and accepts your academic background. The main trade-off to consider is that while it is affordable, its reported placement rate (72%) and median starting salary ($10444) are among the lowest on this list, potentially impacting your high employability priority.\n\nQuilon University\nAlthough this program offers the highest placement rate (89%) and a strong median starting salary of $20639, it is not recommended because it violates two key constraints: first, its location in Delhi does not match your preference for Coimbatore; and second, your 77% grade falls below the required minimum grade percentage of 81%.",
+ "wall_s": 121.6
+}

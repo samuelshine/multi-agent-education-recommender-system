@@ -1,0 +1,63 @@
+{
+ "student_id": "ST0094",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a python certification background. My overall academic average is 75.7% in an IT/computer-science degree. I'm interested in programming and developer. I want to become a Network Engineer. My family can afford at most about USD 3400 per year. I live in Hyderabad. I cannot leave my city.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 75.7
+  },
+  "career_goal": "Network Engineer",
+  "budget_max_usd_per_year": 3400,
+  "location_preference": "Hyderabad",
+  "mobility": "fixed_city",
+  "employability_priority": null,
+  "other_constraints": [
+   "programming and developer interest"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0119",
+  "PR0176",
+  "PR0026",
+  "PR0076",
+  "PR0096",
+  "PR0167",
+  "PR0130",
+  "PR0113",
+  "PR0196",
+  "PR0111",
+  "PR0074",
+  "PR0050",
+  "PR0159",
+  "PR0142"
+ ],
+ "retrieved_ids": [
+  "PR0096",
+  "PR0167",
+  "PR0119",
+  "PR0142",
+  "PR0076",
+  "PR0130",
+  "PR0159",
+  "PR0113"
+ ],
+ "proposed_shortlist": [
+  "PR0096",
+  "PR0167",
+  "PR0159"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0096",
+  "PR0130",
+  "PR0167"
+ ],
+ "reflection_note": "The original shortlist was good but included a weak option (PR0159 - PG Diploma). I dropped PR0159 and swapped in PR0130 because it provides broader IT management skills, which are excellent for a Network Engineer aiming for career growth. The final list prioritizes the most direct fit (PR0096), followed by a strong complementary option (PR0130), and finally a related backup (PR0167). All options meet the budget ($3400 max) and location (Hyderabad) constraints.",
+ "explanation": "Ashford Institute of Applied Sciences\nThis program is highly recommended because its focus on \"networking\\_cloud\" and cybersecurity directly aligns with your goal of becoming a Network Engineer, while also satisfying your interest in programming. The annual tuition of $3350 fits within your maximum budget of $3400, and your 75.7% grade exceeds the minimum requirement of 71%. The main trade-off here is that while the program offers excellent technical relevance, it does not provide any post-study work visa options (0 months).\n\nElmhurst School of Engineering\nThis option is recommended because it has a very low annual tuition of $1000 and meets your location preference in Hyderabad. However, since this MSc IT Management focuses purely on \"it\\_management,\" the curriculum may be too far removed from your core goal of becoming a Network Engineer or satisfying your developer interest. The trade-off is that you gain significant affordability and flexibility regarding your academic background (no CS requirement), but at the expense of deep technical specialization needed for networking roles.\n\nCharnock Institute of Technology\nThis program is recommended because its blend of \"cybersecurity\" and \"software\\_engineering\" provides a strong, technically focused path that supports both your Network Engineer goal and your interest in development. The annual tuition of $2450 is well within your budget, and your 75.7% grade exceeds the minimum requirement of 69%. The main trade-off for this program is similar to the others: while it offers strong technical skills, it does not provide any post-study work visa options (0 months).",
+ "wall_s": 184.1
+}

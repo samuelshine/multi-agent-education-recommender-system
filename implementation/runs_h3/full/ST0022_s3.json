@@ -1,0 +1,76 @@
+{
+ "student_id": "ST0022",
+ "session": 3,
+ "mode": "full",
+ "version": 1,
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 79.8% in an IT/computer-science degree. I'm interested in programming and Business process analyst. I want to become a Portal Administrator. My family can afford at most about USD 2400 per year. I live in Coimbatore. I'm open to anywhere in India. Getting a good job after graduation matters more to me than anything else. About the earlier suggestions: I liked PR0101, PR0054.",
+ "memory_used": true,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 79.8
+  },
+  "career_goal": "Portal Administrator",
+  "budget_max_usd_per_year": 2400,
+  "location_preference": "Coimbatore",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "interested in programming",
+   "interested in Business process analyst"
+  ],
+  "uncertainty_notes": [
+   "No new constraints or changes detected regarding academic background, career goal, budget, or other interests."
+  ]
+ },
+ "prefilter_ids": [
+  "PR0101",
+  "PR0054",
+  "PR0015",
+  "PR0020",
+  "PR0033",
+  "PR0157",
+  "PR0047",
+  "PR0074",
+  "PR0172",
+  "PR0087",
+  "PR0164",
+  "PR0182",
+  "PR0119",
+  "PR0143",
+  "PR0186",
+  "PR0176",
+  "PR0058",
+  "PR0187",
+  "PR0039",
+  "PR0174"
+ ],
+ "retrieved_ids": [
+  "PR0101",
+  "PR0054",
+  "PR0033",
+  "PR0157",
+  "PR0039",
+  "PR0187",
+  "PR0176",
+  "PR0186"
+ ],
+ "proposed_shortlist": [
+  "PR0101",
+  "PR0054",
+  "PR0033",
+  "PR0157",
+  "PR0039"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0101",
+  "PR0054",
+  "PR0039",
+  "PR0187"
+ ],
+ "reflection_note": "The original shortlist was strong but included PR0157 (MSc IT Management) which, while meeting constraints, has lower employability and salary potential compared to PR0039. I dropped PR0157. I kept the top three Coimbatore options (PR0101, PR0054, PR0039) as they are ideal. I swapped in PR0187 (Pune) because its focus on Systems Administration is extremely relevant to 'Portal Administrator' and it offers a high placement rate, making it a valuable out-of-area consideration despite the location preference.",
+ "explanation": "Braxton Institute of Applied Sciences\nThis program was recommended because it perfectly matches your location preference in Coimbatore and utilizes your full budget limit of $2400. The MSc Information Systems degree is highly relevant to both Portal Administrator roles and your interest in Business Process Analysis, boasting an 85% placement rate and a median starting salary of $15394. Since the tuition uses your entire maximum budget, the main trade-off here is cost versus maximizing potential earnings and relevance.\n\nElmhurst University\nThis MBA program is an excellent fit as it remains within your budget at $2150 while keeping you in Coimbatore. The focus on Business Analytics aligns strongly with your interest in Business Process Analysis, and the institution offers a high employability rate of 84%. While the median starting salary is slightly lower than other options, this program provides significant cost savings relative to your maximum budget.\n\nLongford Institute of Applied Sciences\nThis MSc Human-Computer Interaction program was recommended because it keeps you within Coimbatore while catering to your interest in programming and technical systems. It maintains a strong 85% placement rate and has a manageable tuition fee of $2250, leaving room in your budget. The main trade-off is that the focus shifts slightly from pure business process analysis toward design and user experience (HCI), but it strengthens your overall IT profile.\n\nCavendish University\nThis program offers exceptional value with a low annual tuition of only $1450 and the highest placement rate on the list at 87%. The PG Diploma in Systems Administration is highly relevant to an administrator role, making it technically robust. However, the main trade-off is that while your preference is Coimbatore, this institution is located in Pune.",
+ "wall_s": 210.2
+}

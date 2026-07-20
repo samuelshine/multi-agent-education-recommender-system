@@ -1,0 +1,72 @@
+{
+ "student_id": "ST0029",
+ "session": 2,
+ "mode": "no_memory",
+ "version": 1,
+ "message": "Hi, I'm a student with a python certification background. My overall academic average is 81.2% in an IT/computer-science degree. I'm interested in IOT and Business process analyst. I want to become a Database Developer. My family can afford at most about USD 4100 per year. I live in Mumbai. I'm open to going abroad. About the earlier suggestions: I liked PR0164, PR0047.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 81.2
+  },
+  "career_goal": "Database Developer",
+  "budget_max_usd_per_year": 4100,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in IOT and Business process analyst",
+   "Liked PR0164, PR0047"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0051",
+  "PR0191",
+  "PR0128",
+  "PR0033",
+  "PR0074",
+  "PR0087",
+  "PR0000",
+  "PR0195",
+  "PR0153",
+  "PR0097",
+  "PR0137",
+  "PR0101",
+  "PR0143",
+  "PR0058",
+  "PR0007",
+  "PR0054",
+  "PR0126",
+  "PR0044",
+  "PR0099",
+  "PR0026"
+ ],
+ "retrieved_ids": [
+  "PR0051",
+  "PR0128",
+  "PR0137",
+  "PR0000",
+  "PR0195",
+  "PR0153",
+  "PR0044",
+  "PR0126"
+ ],
+ "proposed_shortlist": [
+  "PR0000",
+  "PR0195",
+  "PR0153",
+  "PR0051"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0000",
+  "PR0195",
+  "PR0051"
+ ],
+ "reflection_note": "The original shortlist was strong, but PR0153 was dropped because its HCI focus is too tangential for a Database Developer goal. I kept the top three programs (PR0000, PR0195, PR0051) as they represent the best balance of direct career relevance (IS/Data), affordability, and high placement potential. The final list prioritizes maximum utility for the student's stated goals.",
+ "explanation": "Fairfax Institute of Technology\nThis program is recommended because it offers a strong balance of high career potential and low cost while aligning with your interest in business process analysis. With an annual tuition of only $950, it remains well within your maximum budget of $4100. Furthermore, the 91% placement rate and median starting salary of $56,198 make this a highly attractive option for achieving your goal as a Database Developer. The main trade-off here is that while the program is excellent overall, it requires meeting a minimum grade percentage of 80%, which you meet with your current 81.2%.\n\nKeystone School of Engineering\nThis option provides the most budget flexibility and directly addresses your interest in business information systems through its curriculum. At only $300 annually, this program is significantly cheaper than your maximum budget, making it a low-risk choice for international study. Admission is straightforward as you exceed the minimum grade requirement of 72%, and the post-study work visa offers 18 months of opportunity. The main trade-off to consider is that its placement rate (82%) is lower compared to other options on this list, though it maintains a strong median starting salary of $51,059.\n\nWestbrook University\nThis MBA program was recommended because its focus on Data Science Analytics and Business Information Systems directly supports your goal as a Database Developer. While the tuition of $3,950 uses up most of your annual budget limit, it provides highly relevant skills for modern data roles. You are guaranteed 18 months post-study work visa opportunities upon graduation. The main trade-off is that this program has the lowest placement rate (77%) and median starting salary ($33,574) among the three options, despite its strong curriculum fit.",
+ "wall_s": 259.3
+}

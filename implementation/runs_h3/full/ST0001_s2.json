@@ -1,0 +1,71 @@
+{
+ "student_id": "ST0001",
+ "session": 2,
+ "mode": "full",
+ "message": "Hi, I'm a student with a app development certification background. My overall academic average is 75.3% in an IT/computer-science degree. I'm interested in data engineering and testing. I want to become a Web Developer. My family can afford at most about USD 3200 per year. I live in Kolkata. I'm open to going abroad. About the earlier suggestions: I liked PR0058, PR0145.",
+ "memory_used": true,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 75.3
+  },
+  "career_goal": "Web Developer",
+  "budget_max_usd_per_year": 3200,
+  "location_preference": "Kolkata",
+  "mobility": "open_international",
+  "employability_priority": null,
+  "other_constraints": [
+   "app development certification background"
+  ],
+  "uncertainty_notes": [
+   "Employability priority not stated."
+  ]
+ },
+ "prefilter_ids": [
+  "PR0000",
+  "PR0195",
+  "PR0021",
+  "PR0153",
+  "PR0051",
+  "PR0037",
+  "PR0161",
+  "PR0198",
+  "PR0104",
+  "PR0194",
+  "PR0164",
+  "PR0029",
+  "PR0022",
+  "PR0137",
+  "PR0182",
+  "PR0060",
+  "PR0191",
+  "PR0119",
+  "PR0101",
+  "PR0143"
+ ],
+ "retrieved_ids": [
+  "PR0022",
+  "PR0164",
+  "PR0198",
+  "PR0137",
+  "PR0194",
+  "PR0104",
+  "PR0182"
+ ],
+ "proposed_shortlist": [
+  "PR0022",
+  "PR0182",
+  "PR0198"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0022",
+  "PR0182",
+  "PR0194",
+  "PR0137"
+ ],
+ "reflection_note": "The original shortlist was flawed because PR0198 violated the hard budget constraint. I dropped it and swapped in two stronger international options (PR0194, PR0137) that offer better technical alignment or career growth potential while respecting the budget. The final list prioritizes local/budget-safe options first (PR0022, PR0182), followed by strong international alternatives (PR0194, PR0137). I kept PR0022 and PR0182 as they are the most reliable choices given the location preference and budget constraints.",
+ "explanation": "Halcyon Technical University\nThis program was recommended because it perfectly aligns with your location preference in Kolkata while remaining within your maximum budget of $3200 USD per year. Your academic standing (75.3%) exceeds the minimum requirement of 73%, and the curriculum is relevant to IT operations. The main trade-off here is that while the placement rate is high at 88%, there is no post-study work visa provided, limiting your international mobility options.\n\nKeystone Technical University\nThis option is a strong fit because it maintains an excellent balance of cost and performance, with tuition at $1950 USD and a minimum grade requirement of 75%. The location in Pune is geographically close to your preferred area of Kolkata, and the program boasts a very high placement rate of 91%. There are no significant trade-offs; it meets all your academic criteria while offering excellent job prospects within budget.\n\nAravalli School of Engineering\nThis international option was recommended because it supports your open international mobility goal and keeps tuition low at $1950 USD, which is well under budget. The program's focus on Cloud Computing and Software Engineering directly relates to a Web Developer career path, and the 18-month post-study work visa is highly valuable. The main trade-off is that while the median starting salary ($30,651) is excellent, the placement rate (67%) is lower compared to the domestic options.\n\nMeridian Institute of Technology\nThis program was recommended for its strong international appeal, offering an 18-month post-study work visa and a high median starting salary of $27,229 USD. While it fits your budget ($2950), the primary trade-off is that the curriculum focuses on MBA Business Analytics rather than core web development engineering, which may deviate from your stated career goal.",
+ "wall_s": 20.8
+}

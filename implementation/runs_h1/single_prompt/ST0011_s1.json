@@ -1,0 +1,54 @@
+{
+ "student_id": "ST0011",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a python certification background. My overall academic average is 81.4% in an IT/computer-science degree. I'm interested in Computer Architecture and security. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 5400 per year. I live in Pune. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 81.4
+  },
+  "career_goal": null,
+  "budget_max_usd_per_year": 5400,
+  "location_preference": "Pune",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in Computer Architecture and security"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0117",
+  "PR0198",
+  "PR0097",
+  "PR0144",
+  "PR0139",
+  "PR0164",
+  "PR0029",
+  "PR0022",
+  "PR0182",
+  "PR0060",
+  "PR0191",
+  "PR0119",
+  "PR0101",
+  "PR0143",
+  "PR0186",
+  "PR0176",
+  "PR0058",
+  "PR0149",
+  "PR0092",
+  "PR0187"
+ ],
+ "final_shortlist": [
+  "PR0144",
+  "PR0186",
+  "PR0029",
+  "PR0139",
+  "PR0176"
+ ],
+ "explanation": "This MTech Computer Science program is located in Pune, which strongly aligns with your preference to stay near home. It requires a CS background and has an acceptable minimum grade (81%), making it a strong fit for your academic profile while focusing on core software engineering skills.\n\nLocated in Pune, this MTech Computer Networks program is highly relevant to your interest in technical fields and requires a CS background. It focuses on networking and software engineering, offering a strong technical foundation that could lead to good job opportunities.\n\nThis MSc Information Security program directly addresses your interest in security (cybersecurity). While located in Mumbai, it is a specialized and high-demand field that promises good job prospects, provided you meet the CS background requirement.\n\nThis MSc Software Quality Engineering program focuses on QA testing, which is a stable and high-placement area in tech. Although located in Delhi, it meets your minimum grade requirement (81%) and offers solid career prospects.\n\nIf you are open to management roles that leverage technology, this MBA Technology Management program is a low-cost option (low tuition) and located in Hyderabad. It provides general tech management skills without requiring a deep CS background.",
+ "wall_s": 39.1
+}

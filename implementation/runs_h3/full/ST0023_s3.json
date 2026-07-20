@@ -1,0 +1,73 @@
+{
+ "student_id": "ST0023",
+ "session": 3,
+ "mode": "full",
+ "version": 1,
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 75.8% in an IT/computer-science degree. I'm interested in Software Engineering and cloud computing. I want to become a Data Architect. My family can afford at most about USD 9800 per year. I live in Hyderabad. I'm open to going abroad. Getting a good job after graduation matters more to me than anything else. About the earlier suggestions: I liked PR0194, PR0037.",
+ "memory_used": true,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 75.8
+  },
+  "career_goal": "Data Architect",
+  "budget_max_usd_per_year": 9800,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "r programming certification background",
+   "interested in Software Engineering and cloud computing"
+  ],
+  "uncertainty_notes": [
+   "location preference not stated"
+  ]
+ },
+ "prefilter_ids": [
+  "PR0001",
+  "PR0194",
+  "PR0042",
+  "PR0186",
+  "PR0058",
+  "PR0043",
+  "PR0126",
+  "PR0026",
+  "PR0090",
+  "PR0145",
+  "PR0016",
+  "PR0107",
+  "PR0112",
+  "PR0063",
+  "PR0032",
+  "PR0173",
+  "PR0071",
+  "PR0051",
+  "PR0151",
+  "PR0037"
+ ],
+ "retrieved_ids": [
+  "PR0194",
+  "PR0042",
+  "PR0126",
+  "PR0037",
+  "PR0151",
+  "PR0016",
+  "PR0032",
+  "PR0173"
+ ],
+ "proposed_shortlist": [
+  "PR0194",
+  "PR0037",
+  "PR0126"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0037",
+  "PR0151",
+  "PR0042"
+ ],
+ "reflection_note": "The original shortlist was too conservative. PR0037 remains the top choice due to its superior employability metrics and strong fit. I dropped PR0194 and PR0126 because their placement rates/salaries are inferior to other candidates in the full set (PR0151). I swapped in PR0151 for a high-quality German alternative with better career outcomes, and PR0042 as a strong international option offering maximum post-study work visa time, balancing location preference uncertainty with employability goals.",
+ "explanation": "Tejas School of Engineering\nThis program was recommended because it offers an excellent balance of affordability and career focus, with an annual tuition of only $2650, which fits well within your budget maximum. The curriculum focuses on Software Engineering, aligning perfectly with your interests in the field, and boasts a 72% placement rate. Furthermore, you benefit from a strong post-study work visa period of 18 months and a median starting salary of $34,339. The main trade-off here is that while the cost is low, the post-study work visa duration is shorter compared to the Canadian option.\n\nCrestwood Institute of Technology\nThis program is highly recommended due to its very affordable tuition of $5750 and strong focus on Software Engineering principles through Quality Engineering. It maintains a high employability priority with a 72% placement rate and offers a competitive median starting salary of $35,799. The cost-effectiveness makes it an excellent choice given your budget constraint, while the post-study work visa is set for 18 months. The primary trade-off to consider is that its specialization in QA testing might be slightly narrower than a pure Data Architect track, although it still builds strong SE skills.\n\nAravalli Institute of Applied Sciences\nThis program was recommended primarily because it offers the longest post-study work visa period at 36 months and includes Networking/Cloud computing fields relevant to your goals. However, the main trade-off is that its annual tuition of $10800 exceeds your stated budget maximum of $9800. Despite this cost concern, the program aligns with your background (requiring a CS degree) and offers a strong focus on cloud technologies crucial for a Data Architect role.",
+ "wall_s": 281.5
+}

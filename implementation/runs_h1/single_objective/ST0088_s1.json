@@ -1,0 +1,71 @@
+{
+ "student_id": "ST0088",
+ "session": 1,
+ "mode": "single_objective",
+ "message": "Hi, I'm a student with a distro making certification background. My overall academic average is 79% in an IT/computer-science degree. I'm interested in cloud computing and cloud computing. I want to become a Web Developer. My family can afford at most about USD 3500 per year. I live in Bengaluru. I'm open to anywhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 79
+  },
+  "career_goal": "Web Developer",
+  "budget_max_usd_per_year": 3500,
+  "location_preference": "Bengaluru",
+  "mobility": "open_domestic",
+  "employability_priority": "high",
+  "other_constraints": [
+   "distro making certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0117",
+  "PR0198",
+  "PR0097",
+  "PR0139",
+  "PR0164",
+  "PR0029",
+  "PR0022",
+  "PR0182",
+  "PR0060",
+  "PR0191",
+  "PR0119",
+  "PR0101",
+  "PR0143",
+  "PR0186",
+  "PR0176",
+  "PR0058",
+  "PR0149",
+  "PR0092",
+  "PR0187",
+  "PR0039"
+ ],
+ "retrieved_ids": [
+  "PR0198",
+  "PR0186",
+  "PR0176",
+  "PR0164",
+  "PR0058",
+  "PR0191",
+  "PR0143",
+  "PR0187"
+ ],
+ "proposed_shortlist": [
+  "PR0186",
+  "PR0198",
+  "PR0058",
+  "PR0143"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0186",
+  "PR0058",
+  "PR0176",
+  "PR0164"
+ ],
+ "reflection_note": "The original shortlist was flawed because PR0198 violated the admission grade constraint (79% < 80%). We dropped it. The remaining options were reviewed for hard constraints and relevance. I swapped in two new MBA/IT Management programs (PR0176, PR0164) as they offer better location diversity and are more flexible than pure CS roles, while still being highly affordable and meeting the grade requirements. PR0186 remains the top choice due to its strong technical relevance and acceptable location/cost. PR0058 is kept as a reliable, low-cost alternative.",
+ "explanation": "Halcyon Institute of Technology\nThis program is recommended because it maintains a strong technical focus with fields like software engineering and networking/cloud, which aligns well with your IT background and goal to be a Web Developer. The annual tuition of $2050 remains within your maximum budget of $3500, and the 83% placement rate supports your high employability priority. The main trade-off here is that while it requires your CS background, its location in Pune does not match your stated preference for Bengaluru.\n\nStanmore School of Engineering\nThis option is highly recommended due to its low annual tuition of $1350, making it the most budget-friendly choice while still meeting your academic requirements (minimum grade 74%). The curriculum includes software engineering and data science analytics, providing a strong technical foundation suitable for Web Development. The trade-off you must consider is that this program is located in Coimbatore, which deviates from your preferred location of Bengaluru.\n\nCrestwood University\nThis MBA Technology Management program was selected because it offers a good balance of cost ($1900 annual tuition) and employability (82% placement rate), while being located in Hyderabad, which is geographically closer to your preference for Bengaluru. Although the curriculum focuses on IT management rather than core development, this path could be beneficial if you wish to transition into technical leadership roles later. The main trade-off is that its focus on \"it_management\" may not provide the deep, hands-on technical skills implied by your distro making background and Web Developer goal.\n\nNorthgate School of Engineering\nThis program was recommended primarily because it offers the highest placement rate (90%) and median starting salary ($17361), directly addressing your high employability priority. Furthermore, its minimum grade requirement of 79% perfectly matches your academic performance. The main trade-off is that despite having excellent career outcomes, this MBA program focuses on IT management rather than the core software engineering skills needed for a Web Developer role.",
+ "wall_s": 119.7
+}

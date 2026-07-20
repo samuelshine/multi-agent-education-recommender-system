@@ -1,0 +1,105 @@
+{
+ "student_id": "ST0000",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 79.4
+    },
+    "career_goal": "Solutions Architect",
+    "budget_max_usd_per_year": null,
+    "location_preference": null,
+    "mobility": "open_domestic",
+    "employability_priority": null,
+    "other_constraints": [
+     "Interested in hacking and system developer fields",
+     "Has a full stack certification background"
+    ],
+    "uncertainty_notes": [
+     "Budget maximum per year is unknown.",
+     "Location preference is unknown.",
+     "Mobility preference is unknown (defaulting to open_domestic).",
+     "Employability priority is unknown."
+    ]
+   },
+   "final_shortlist": [
+    "PR0186",
+    "PR0029",
+    "PR0058",
+    "PR0182"
+   ],
+   "feedback": null
+  },
+  {
+   "session": 2,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 79.4
+    },
+    "career_goal": "Solutions Architect",
+    "budget_max_usd_per_year": 8500,
+    "location_preference": "Chennai",
+    "mobility": "open_international",
+    "employability_priority": null,
+    "other_constraints": [
+     "Interested in hacking and system developer fields",
+     "Has a full stack certification background"
+    ],
+    "uncertainty_notes": [
+     "Employability priority is unknown."
+    ]
+   },
+   "final_shortlist": [
+    "PR0195",
+    "PR0144",
+    "PR0182",
+    "PR0022"
+   ],
+   "feedback": {
+    "liked": [
+     "PR0186",
+     "PR0029"
+    ],
+    "disliked": []
+   }
+  },
+  {
+   "session": 3,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 79.4
+    },
+    "career_goal": "Solutions Architect",
+    "budget_max_usd_per_year": 8500,
+    "location_preference": "Chennai",
+    "mobility": "open_international",
+    "employability_priority": null,
+    "other_constraints": [
+     "Interested in hacking and system developer fields",
+     "Has a full stack certification background"
+    ],
+    "uncertainty_notes": [
+     "Employability priority is unknown."
+    ]
+   },
+   "final_shortlist": [
+    "PR0029",
+    "PR0195",
+    "PR0153",
+    "PR0139",
+    "PR0144"
+   ],
+   "feedback": {
+    "liked": [
+     "PR0195",
+     "PR0144"
+    ],
+    "disliked": []
+   }
+  }
+ ]
+}

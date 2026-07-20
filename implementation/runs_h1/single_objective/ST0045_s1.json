@@ -1,0 +1,60 @@
+{
+ "student_id": "ST0045",
+ "session": 1,
+ "mode": "single_objective",
+ "message": "Hi, I'm a student with a distro making certification background. My overall academic average is 78.1% in an IT/computer-science degree. I'm interested in programming and cloud computing. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 3400 per year. I live in Chennai. I cannot leave my city. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 78.1
+  },
+  "career_goal": null,
+  "budget_max_usd_per_year": 3400,
+  "location_preference": "Chennai",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in programming and cloud computing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0197",
+  "PR0199",
+  "PR0162",
+  "PR0165",
+  "PR0191",
+  "PR0109",
+  "PR0171",
+  "PR0059"
+ ],
+ "retrieved_ids": [
+  "PR0197",
+  "PR0199",
+  "PR0162",
+  "PR0165",
+  "PR0109",
+  "PR0171",
+  "PR0191"
+ ],
+ "proposed_shortlist": [
+  "PR0197",
+  "PR0162",
+  "PR0165",
+  "PR0199",
+  "PR0109"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0197",
+  "PR0162",
+  "PR0165",
+  "PR0191",
+  "PR0109"
+ ],
+ "reflection_note": "The original shortlist was strong but contained redundancies and missed a high-value alternative. I dropped PR0199 and PR0109 because their core focus areas were less aligned with the student's primary interests (Cloud/Networking) compared to other options. I swapped in PR0191 as a highly valuable, high-paying data analytics option that provides excellent employability depth. The final list prioritizes direct interest matches (PR0197, PR0165), strong value/feasibility (PR0162), and then includes the best alternative for career growth (PR0191). I kept PR0109 in the final shortlist as a fallback option because it is academically sound and highly feasible, even if not the top choice.",
+ "explanation": "Ashford Institute of Technology\nThis program is highly recommended because it directly aligns with your interest in networking and cloud computing while remaining within your maximum budget of $3400 USD. It requires a CS background, which matches your academic profile, and offers strong employability metrics with an 85% placement rate and a median starting salary of $13,362. The main trade-off here is that the program does not offer any post-study work visa duration, meaning you would need to secure employment immediately upon graduation.\n\nAravalli Institute of Applied Sciences\nThis option fits your budget ($1150 USD) and interests by covering both cybersecurity and cloud networking. Since it requires a CS background, it is compatible with your academic history in IT/computer science. However, the primary trade-off to consider is that while the tuition is low, its placement rate (68%) and median starting salary ($7,369) are among the lowest on this list compared to other options.\n\nWestbrook Institute of Technology\nThis program is an excellent fit for your budget constraints at only $550 USD annually and directly addresses your interest in cloud computing. It also requires a CS background, matching your academic profile. The main trade-off here is that despite the low cost and high relevance to your interests, it has the lowest placement rate (59%) and median starting salary ($7,845) among all listed options.\n\nSarayu Technical University\nThis university offers the highest potential earning power on this list, boasting a $15,951 median starting salary and an 84% placement rate, which addresses your high employability priority. The tuition of $3250 USD is within your budget, and it does not require a CS background, offering flexibility. The main trade-off is that the program focuses on Data Engineering rather than the core cloud computing or networking topics you expressed interest in.\n\nCrestwood Technical University\nThis general MTech Computer Science degree provides strong overall employability with an 82% placement rate and a solid median starting salary of $13,300 USD. The annual tuition of $1550 USD is well within your budget, and the program requires a CS background matching your profile. The main trade-off is that it is a generalist degree focused on software engineering, making it less specialized in cloud computing compared to other options.",
+ "wall_s": 140.8
+}

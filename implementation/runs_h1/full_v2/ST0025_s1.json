@@ -1,0 +1,74 @@
+{
+ "student_id": "ST0025",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 81% in an IT/computer-science degree. I'm interested in networks and developer. I want to become a Software Engineer. My family can afford at most about USD 4400 per year. I live in Kolkata. I'm open to going abroad. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 81
+  },
+  "career_goal": "Software Engineer",
+  "budget_max_usd_per_year": 4400,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in networks and developer fields"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0037",
+  "PR0161",
+  "PR0198",
+  "PR0144",
+  "PR0194",
+  "PR0186",
+  "PR0058",
+  "PR0039",
+  "PR0053",
+  "PR0038",
+  "PR0158",
+  "PR0043",
+  "PR0126",
+  "PR0109",
+  "PR0026",
+  "PR0076",
+  "PR0012",
+  "PR0065",
+  "PR0019",
+  "PR0167"
+ ],
+ "retrieved_ids": [
+  "PR0037",
+  "PR0194",
+  "PR0126",
+  "PR0038",
+  "PR0186",
+  "PR0167",
+  "PR0043",
+  "PR0109"
+ ],
+ "proposed_shortlist": [
+  "PR0194",
+  "PR0037",
+  "PR0126",
+  "PR0038",
+  "PR0186"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0194",
+  "PR0037",
+  "PR0126",
+  "PR0038",
+  "PR0043"
+ ],
+ "reflection_note": "The initial shortlist was strong, focusing heavily on German options which align well with the student's high employability priority and open international mobility. PR0186 was correctly identified as a weak candidate due to its location (India) and lack of post-study work visa, violating the implicit constraint of maximizing career potential for an international student. I dropped it. To fill the 5th slot, I reviewed all remaining candidates. While PR0167 and PR0043 are also Indian options, they suffer from the same critical flaw (zero post-study work visa) as PR0186. However, PR0043 offers a strong academic fit (Networking/Cloud), low tuition, and is technically superior to other remaining candidates in terms of program relevance and financial feasibility compared to its peers. I swapped it in for the dropped slot, maintaining the focus on high-quality international options while acknowledging that all 5 slots must be filled.",
+ "explanation": "Aravalli School of Engineering\nThis program is highly recommended because its curriculum directly aligns with your interests, covering both networking/cloud and software engineering fields. It fits comfortably within your budget at an annual tuition of $1950, and you meet the minimum admission requirement of 65% with your 81% grade. Furthermore, it offers a strong pathway to employment with a median starting salary of $30,651 and provides an 18-month post-study work visa, making this a well-rounded option.\n\nTejas School of Engineering\nThis program is recommended for its excellent balance of high employability metrics while remaining within your budget. With an annual tuition of $2650, it offers the highest placement rate (72%) and the strongest median starting salary ($34,339) among all options. You meet the minimum grade requirement of 62%, and like other German programs, it provides a valuable 18-month post-study work visa.\n\nAshford Technical University\nThis option is recommended because it keeps your tuition costs low at $2050 while still providing relevant software engineering training. Admission is straightforward as your 81% grade exceeds the minimum requirement of 57%. The main trade-off here is that its median starting salary ($23,468) and placement rate (62%) are lower compared to other options in Germany.\n\nHalcyon Technical University\nThis program is recommended primarily because it offers the lowest tuition cost at $1200, making it extremely budget-friendly. It provides core software engineering training and meets your background requirements. However, the trade-off for this low tuition is that it has the lowest median starting salary ($22,356) and placement rate (66%) among all listed programs.\n\nVantage Institute of Technology\nWhile this program boasts an exceptionally high placement rate of 86%, making employability a major draw, there are significant trade-offs you must consider. Although its tuition is under budget at $3950, the median starting salary ($11,981) is very low, and critically, it does not offer any post-study work visa months (0), which limits your long-term career options in that country.",
+ "wall_s": 137.3
+}

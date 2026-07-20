@@ -1,0 +1,74 @@
+{
+ "student_id": "ST0096",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a distro making certification background. My overall academic average is 77.9% in an IT/computer-science degree. I'm interested in Computer Architecture and testing. I want to become a Database Developer. My family can afford at most about USD 10200 per year. I live in Pune. I'm open to going abroad.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 77.9
+  },
+  "career_goal": "Database Developer",
+  "budget_max_usd_per_year": 10200,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in Computer Architecture and testing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0051",
+  "PR0151",
+  "PR0198",
+  "PR0097",
+  "PR0104",
+  "PR0139",
+  "PR0182",
+  "PR0191",
+  "PR0119",
+  "PR0143",
+  "PR0058",
+  "PR0053",
+  "PR0007",
+  "PR0140",
+  "PR0072",
+  "PR0128",
+  "PR0126",
+  "PR0099",
+  "PR0026",
+  "PR0070"
+ ],
+ "retrieved_ids": [
+  "PR0151",
+  "PR0104",
+  "PR0182",
+  "PR0072",
+  "PR0126",
+  "PR0140",
+  "PR0128",
+  "PR0126"
+ ],
+ "proposed_shortlist": [
+  "PR0151",
+  "PR0126",
+  "PR0104",
+  "PR0140",
+  "PR0128"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0151",
+  "PR0126",
+  "PR0104",
+  "PR0140",
+  "PR0128"
+ ],
+ "reflection_note": "The initial shortlist was strong, but PR0128 (MBA Business Analytics) is significantly less relevant to the student's technical background and goal (Database Developer/CS focus) compared to the other options. I am dropping it for its low academic fit relative to the core CS track. Since there are 5 valid candidates on the shortlist, and only one drop occurred, I must swap in a replacement candidate from the full set that is highly relevant and meets constraints. PR0182 (India) has high employability but zero post-study work visa months, making it less ideal for an international student seeking career progression. PR0072 (India) is also not optimal due to location/visa concerns. Given the strong focus on Germany and CS/Testing, I will swap in a highly relevant German option that was overlooked: PR0151's sister program or another core tech track if available. Since no other ideal German CS/Dev role exists, and all 5 original candidates are valid based on constraints (budget < $10200), I must keep the list of 5 programs as they were originally ranked, even though PR0128 was demoted in rank due to poor fit, not violation. However, since the instruction is to swap_in only if a hard constraint is violated and an entry is dropped, and PR0128's drop is based on academic relevance (a soft metric), I will keep the original 5 programs but re-rank them based on overall suitability after dropping PR0128. Wait, the instruction says: 'If you drop entries, swap_in the best remaining valid candidates so the final list has 5 items whenever 5 valid candidates exist.' Since I dropped one (PR0128), and there are 4 others kept, I need to find a fifth candidate. PR0126 is listed twice in the full set; I will assume the first instance of PR0126 was used for ranking. The best remaining valid candidate that hasn't been shortlisted is PR0182 (India) or PR0072 (India). Both are poor choices due to location/visa. Given the strong preference for Germany, and no other suitable German option exists, I will re-evaluate if any of the dropped candidates should be swapped in instead. Since all 5 original programs were valid regarding hard constraints (budget, background), I must keep them all or find a replacement that is equally good. Let's assume PR0128 remains on the list but at rank 5 due to its low fit score, as it does not violate any hard constraint. Reverting the drop and keeping the original ranking structure for compliance with the 'drop only if violation' rule.",
+ "explanation": "Crestwood Institute of Technology\nThis program is highly recommended because it directly aligns with your interest in testing through its focus on Software Quality Engineering. The annual tuition of $5750 fits well within your budget, and you are eligible to apply despite the program not requiring a CS background. Furthermore, this option offers a strong median starting salary of $35799 and provides an 18-month post-study work visa, making it very attractive for career progression. The main trade-off is that while excellent for testing, its focus might be slightly broader than pure Database Development.\n\nAshford Technical University\nThis MCA program is a strong choice because it requires a CS background, matching your academic profile, and maintains an extremely low annual tuition of $2050. It provides relevant training in software engineering and helps you stay well under your maximum budget. The program offers an 18-month post-study work visa, which supports international career goals. The main trade-off here is that the median starting salary ($23468) and tuition are on the lower end compared to some other options.\n\nAravalli Institute of Applied Sciences\nThis MSc Software Quality Engineering program is recommended because it aligns with your interest in testing while being highly budget-friendly, with an annual tuition cost of $3450. It does not require a CS background, offering flexibility for admission. The placement rate of 77% and the 18-month post-study work visa are significant advantages. The main trade-off is that like Crestwood, its focus is on QA/Testing rather than core database development.\n\nNalanda Ridge Institute of Applied Sciences\nThis MSc Data Science program is recommended because it directly supports your goal as a Database Developer and requires the CS background you possess. While the annual tuition of $9650 approaches your budget limit, this option provides an excellent 36-month post-study work visa, which is highly beneficial for long-term planning in Canada. The main trade-off is that its focus is on data science analytics rather than pure database architecture or testing.\n\nKeystone Technical University\nThis MBA Business Analytics program is recommended primarily because it is very affordable with an annual tuition of $3800 and does not require a CS background, making admission straightforward. It offers a good 18-month post-study work visa and remains well within your budget constraints. The main trade-off is that this option shifts the focus from technical development or testing towards business strategy, which may deviate from your core goal of becoming a Database Developer.",
+ "wall_s": 164.6
+}

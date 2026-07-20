@@ -1,0 +1,73 @@
+{
+ "student_id": "ST0097",
+ "session": 1,
+ "mode": "single_objective",
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 75.8% in an IT/computer-science degree. I'm interested in Management and system developer. I want to become a Mobile Applications Developer. My family can afford at most about USD 5700 per year. I live in Coimbatore. I cannot leave my city.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 75.8
+  },
+  "career_goal": "Mobile Applications Developer",
+  "budget_max_usd_per_year": 5700,
+  "location_preference": "Coimbatore",
+  "mobility": "fixed_city",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in Management and system developer roles"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0157",
+  "PR0048",
+  "PR0101",
+  "PR0058",
+  "PR0039",
+  "PR0054",
+  "PR0043",
+  "PR0147",
+  "PR0105",
+  "PR0170",
+  "PR0145",
+  "PR0148",
+  "PR0033",
+  "PR0016",
+  "PR0014",
+  "PR0068",
+  "PR0166",
+  "PR0098",
+  "PR0134",
+  "PR0106"
+ ],
+ "retrieved_ids": [
+  "PR0157",
+  "PR0048",
+  "PR0101",
+  "PR0058",
+  "PR0039",
+  "PR0033",
+  "PR0016",
+  "PR0145"
+ ],
+ "proposed_shortlist": [
+  "PR0058",
+  "PR0145",
+  "PR0039",
+  "PR0157",
+  "PR0048"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0145",
+  "PR0058",
+  "PR0039",
+  "PR0016",
+  "PR0101"
+ ],
+ "reflection_note": "The original shortlist was technically sound but contained two weak management options (PR0157, PR0048) that diluted the focus on core development. I have dropped these and swapped in three stronger alternatives: PR0101 (IS), PR0033 (MBA Analytics), and PR0016 (Cloud Computing). The final list prioritizes technical depth (PR0145, PR0058, PR0039) while ensuring the 'Management' interest is covered by high-quality, relevant options that maintain location and budget feasibility. The ranking reflects a balance of core development relevance first, followed by specialized technical skills, and finally management/business applications.",
+ "explanation": "Silverline Technical University\nThis program was recommended because it offers a strong technical foundation in Software Engineering and Data Science while remaining well within your $5700 annual budget at $2300. Since you have an IT/computer-science background, the requirement for CS knowledge is met, and the curriculum aligns directly with core development skills needed for mobile applications. The main trade-off here is that its median starting salary ($10,057) is lower compared to other options on this list.\n\nStanmore School of Engineering\nThis MCA program is highly recommended because it provides a deep dive into Software Engineering at a very low cost of $1350, making it an excellent value proposition for your budget. It requires the CS background you possess and offers strong placement potential with an 83% placement rate and a median starting salary of $14,869. The primary trade-off is that while technically robust, its focus might be slightly less specialized in modern mobile frameworks compared to dedicated development roles.\n\nLongford Institute of Applied Sciences\nThis MSc Human-Computer Interaction program was recommended because it directly addresses your interest in system developer and management roles by focusing on design (HCI). It has a high placement rate of 85% and a strong median starting salary ($13,646), all while keeping tuition low at $2250. The main trade-off is that its focus shifts away from pure coding depth toward user experience and system design, which may be less direct for becoming a specialized Mobile Applications Developer.\n\nBraxton Institute of Applied Sciences\nThis MSc Information Systems program is ideal if you want to prioritize the \"Management\" side of your career goals while maintaining strong employability. It boasts the highest median starting salary ($15,394) and an 85% placement rate for only $2400 in tuition. The trade-off is that its focus on business information systems means it provides less hands-on, deep technical training compared to the MCA or MTech options.\n\nHalcyon Institute of Technology\nThis MSc Cloud Computing program was included because it offers a relevant technical specialization (networking/cloud) and meets your budget constraints with $2400 in tuition. However, you should note that its median starting salary ($8,793) is the lowest among all programs listed, representing the main trade-off against the other highly paid options.",
+ "wall_s": 105.0
+}

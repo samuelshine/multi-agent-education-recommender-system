@@ -1,0 +1,31 @@
+{
+ "student_id": "ST0068",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 79.1
+    },
+    "career_goal": "Applications Developer",
+    "budget_max_usd_per_year": 28400,
+    "location_preference": null,
+    "mobility": "open_international",
+    "employability_priority": null,
+    "other_constraints": [
+     "Interested in networks and cloud computing"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0042",
+    "PR0036",
+    "PR0127",
+    "PR0005",
+    "PR0194"
+   ],
+   "feedback": null
+  }
+ ]
+}

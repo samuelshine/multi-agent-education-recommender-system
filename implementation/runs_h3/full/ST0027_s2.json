@@ -1,0 +1,72 @@
+{
+ "student_id": "ST0027",
+ "session": 2,
+ "mode": "full",
+ "version": 1,
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 79.2% in an IT/computer-science degree. I'm interested in IOT and security. I want to become a Technical Services/Help Desk/Tech Support. My family can afford at most about USD 9700 per year. I live in Hyderabad. I'm open to going abroad. About the earlier suggestions: I liked PR0029, PR0143.",
+ "memory_used": true,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 79.2
+  },
+  "career_goal": "Technical Services/Help Desk/Tech Support",
+  "budget_max_usd_per_year": 9700,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in IOT and security"
+  ],
+  "uncertainty_notes": [
+   "Employability priority not stated."
+  ]
+ },
+ "prefilter_ids": [
+  "PR0021",
+  "PR0117",
+  "PR0022",
+  "PR0187",
+  "PR0002",
+  "PR0121",
+  "PR0188",
+  "PR0098",
+  "PR0050",
+  "PR0159",
+  "PR0000",
+  "PR0195",
+  "PR0153",
+  "PR0051",
+  "PR0151",
+  "PR0037",
+  "PR0161",
+  "PR0198",
+  "PR0097",
+  "PR0104"
+ ],
+ "retrieved_ids": [
+  "PR0021",
+  "PR0000",
+  "PR0195",
+  "PR0153",
+  "PR0104",
+  "PR0151",
+  "PR0037",
+  "PR0161"
+ ],
+ "proposed_shortlist": [
+  "PR0021",
+  "PR0195",
+  "PR0000"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0021",
+  "PR0195",
+  "PR0153"
+ ],
+ "reflection_note": "The initial shortlist was strong but contained one high-risk option (PR0000) due to the minimum grade requirement. PR0021 remains the clear top choice. I have dropped PR0000 and swapped in PR0153, which offers a more academically secure alternative with a lower entry barrier while still maintaining relevance to technology fields.",
+ "explanation": "Ashford Institute of Technology\nThis program is highly recommended because its focus on IT Operations directly aligns with your career goal in Technical Services and Tech Support. It maintains a very low annual tuition cost of $450, which fits well within your budget constraints. Graduates benefit from an 82% placement rate and can utilize the 18-month post-study work visa to secure employment at a median starting salary of $46,428. The main trade-off here is that while it covers core IT support, its curriculum may be less specialized in advanced IoT or security topics compared to dedicated cybersecurity programs.\n\nKeystone School of Engineering\nThis program offers excellent financial outcomes with a low annual tuition of $300 and a high median starting salary of $51,059. It meets your admission requirements (minimum 72% grade) and provides the benefit of an 18-month post-study work visa. The primary trade-off is that its focus on business information systems shifts the career emphasis away from hands-on technical support toward corporate data management.\n\nKeystone University\nThis program would equip you with valuable user experience skills through Human-Computer Interaction, which can be useful for understanding end-user needs in tech support roles. It has a low tuition of $550 and provides an 18-month post-study work visa. However, the main trade-off is that its core focus on design (HCI) is less directly aligned with your stated goal of technical services or specialized IoT/security knowledge.",
+ "wall_s": 215.9
+}

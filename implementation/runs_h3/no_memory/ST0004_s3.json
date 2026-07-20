@@ -1,0 +1,73 @@
+{
+ "student_id": "ST0004",
+ "session": 3,
+ "mode": "no_memory",
+ "version": 1,
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 73.9% in an IT/computer-science degree. I'm interested in hacking and testing. I want to become a Network Security Administrator. My family can afford at most about USD 6000 per year. I live in Pune. I cannot leave my city. Getting a good job after graduation matters more to me than anything else. About the earlier suggestions: I liked PR0045, PR0023.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 73.9
+  },
+  "career_goal": "Network Security Administrator",
+  "budget_max_usd_per_year": 6000,
+  "location_preference": "Pune",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in hacking and testing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0182",
+  "PR0072",
+  "PR0019",
+  "PR0190",
+  "PR0080",
+  "PR0186",
+  "PR0092",
+  "PR0187",
+  "PR0007",
+  "PR0158",
+  "PR0084",
+  "PR0078",
+  "PR0181",
+  "PR0046",
+  "PR0180",
+  "PR0045",
+  "PR0023",
+  "PR0025",
+  "PR0172",
+  "PR0156"
+ ],
+ "retrieved_ids": [
+  "PR0045",
+  "PR0023",
+  "PR0186",
+  "PR0187",
+  "PR0182",
+  "PR0190",
+  "PR0072",
+  "PR0180"
+ ],
+ "proposed_shortlist": [
+  "PR0045",
+  "PR0023",
+  "PR0180",
+  "PR0186"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0186",
+  "PR0045",
+  "PR0180",
+  "PR0187",
+  "PR0182"
+ ],
+ "reflection_note": "The original shortlist was strong but lacked diversity in high-employability options. PR0023 was dropped because its lower placement potential detracts from the student's primary goal of maximizing employability. I swapped in PR0187 and PR0182 as they offer excellent, highly employable alternatives (IT Support and QA) that meet all hard constraints (Pune location, low tuition). The final ranking prioritizes PR0186 due to its superior career alignment and salary potential, followed by the strong cybersecurity option (PR0045), then the networking focus (PR0180), and finally two highly reliable, high-placement options for breadth.",
+ "explanation": "Halcyon Institute of Technology\nThis program is highly recommended because its focus on Computer Networks and Software Engineering aligns perfectly with your goal of becoming a Network Security Administrator. Your 73.9% grade exceeds the minimum requirement of 70%, making admission feasible while utilizing your IT/computer-science background. The strong placement rate of 83% and median starting salary of $15,192 demonstrate excellent employability for your career goal. The main trade-off here is that the annual tuition ($2,050) is slightly higher than some other options on this list.\n\nBraxton Technical University\nThis MSc Information Security program is a strong fit because its core focus on cybersecurity directly addresses your interest in hacking and testing. It has a low barrier to entry, requiring only a minimum grade of 61% and not mandating a CS background. While the tuition ($1,450) is very budget-friendly, the trade-off is that the median starting salary ($10,236) and placement rate (71%) are among the lower figures on this shortlist.\n\nBraxton Institute of Technology\nThis MTech Computer Networks program offers a cost-effective path into networking fundamentals, which is foundational for security administration. With an annual tuition of only $1,250, it keeps you well within your budget while requiring a CS background that matches your academic history. The trade-off to consider is that its placement rate (71%) and median starting salary ($10,359) are not significantly higher than other options, despite the low cost.\n\nCavendish University\nThis PG Diploma in Systems Administration was recommended because it offers a high placement rate of 87% and requires a minimum grade (72%) that your academic background meets. The program is highly relevant for maintaining secure systems, which supports your goal as a Network Security Administrator. The main trade-off is that the curriculum focuses on general IT support rather than specialized cybersecurity or hacking techniques.\n\nKeystone Technical University\nThis MSc Software Quality Engineering program boasts the highest placement rate (91%) and provides strong career security, making it excellent for employability. While its focus is QA testing, this skill set involves rigorous system testing, which is valuable in security administration. The primary trade-off is that your current grade of 73.9% falls slightly below the program's minimum requirement of 75%, and the specialization is less direct than a dedicated cybersecurity degree.",
+ "wall_s": 206.3
+}

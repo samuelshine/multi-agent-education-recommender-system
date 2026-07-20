@@ -1,0 +1,29 @@
+{
+ "student_id": "ST0007",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 75
+    },
+    "career_goal": null,
+    "budget_max_usd_per_year": 1100,
+    "location_preference": "Bengaluru",
+    "mobility": "fixed_city",
+    "employability_priority": "high",
+    "other_constraints": [
+     "shell programming certification background",
+     "interested in data engineering and security"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0173",
+    "PR0015"
+   ],
+   "feedback": null
+  }
+ ]
+}

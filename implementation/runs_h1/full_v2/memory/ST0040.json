@@ -1,0 +1,31 @@
+{
+ "student_id": "ST0040",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 80.3
+    },
+    "career_goal": "Web Developer",
+    "budget_max_usd_per_year": 1200,
+    "location_preference": "Delhi",
+    "mobility": "fixed_city",
+    "employability_priority": "high",
+    "other_constraints": [
+     "Interested in IOT and testing",
+     "Hadoop certification background"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0184",
+    "PR0064",
+    "PR0120",
+    "PR0063"
+   ],
+   "feedback": null
+  }
+ ]
+}

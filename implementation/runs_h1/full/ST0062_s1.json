@@ -1,0 +1,73 @@
+{
+ "student_id": "ST0062",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 80% in an IT/computer-science degree. I'm interested in Management and cloud computing. I want to become a CRM Business Analyst. My family can afford at most about USD 18900 per year. I live in Mumbai. I'm open to going abroad. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 80
+  },
+  "career_goal": "CRM Business Analyst",
+  "budget_max_usd_per_year": 18900,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in Management and cloud computing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0000",
+  "PR0123",
+  "PR0157",
+  "PR0172",
+  "PR0079",
+  "PR0195",
+  "PR0122",
+  "PR0005",
+  "PR0010",
+  "PR0169",
+  "PR0153",
+  "PR0075",
+  "PR0024",
+  "PR0163",
+  "PR0127",
+  "PR0183",
+  "PR0051",
+  "PR0103",
+  "PR0077",
+  "PR0001"
+ ],
+ "retrieved_ids": [
+  "PR0000",
+  "PR0195",
+  "PR0153",
+  "PR0122",
+  "PR0001",
+  "PR0169",
+  "PR0024",
+  "PR0163"
+ ],
+ "proposed_shortlist": [
+  "PR0000",
+  "PR0195",
+  "PR0153",
+  "PR0024",
+  "PR0169"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0000",
+  "PR0195",
+  "PR0122",
+  "PR0153",
+  "PR0001"
+ ],
+ "reflection_note": "The original shortlist was strong, prioritizing the best financial and career fit (Germany options). I kept PR0000 and PR0195 as they are the top choices due to low cost, high employability, and direct relevance. I swapped in PR0122 and PR0001 from the candidate set. PR0122 provides a strong alternative location/academic fit if the student is open to the Netherlands but wants a more general IS degree than PR0169. PR0001 was added specifically to address the 'cloud computing' interest, giving the student dedicated options for that area. The final list maintains the German focus (PR0000, PR0195) while providing diverse and highly relevant alternatives in the Netherlands (PR0122, PR0001), ensuring all stated interests are covered without violating budget or academic plausibility.",
+ "explanation": "Fairfax Institute of Technology\nThis program is highly recommended because its focus on \"IT Management\" directly aligns with your goal of becoming a CRM Business Analyst and satisfies your interest in management. It offers excellent employability metrics, boasting a 91% placement rate and a median starting salary of $56,198 USD, all while maintaining an extremely low annual tuition cost of only $950. Furthermore, the program accepts students with your current grade percentage (min 80%) and provides an extended 18-month post-study work visa. There is no significant trade-off here; it appears to be a near-perfect match for your academic background, budget, and career goals.\n\nKeystone School of Engineering\nThis option is ideal due to its extremely low tuition cost ($300 USD) while still providing relevant training in \"business_information_systems.\" It meets your minimum grade requirement (72% vs 80%) and offers strong employment prospects with an 82% placement rate and a median starting salary of $51,059 USD. The main trade-off is that the curriculum focuses purely on Information Systems rather than explicitly incorporating management principles like the Fairfax option does.\n\nLongford University\nThis program provides relevant training in \"business_information_systems\" and fits within your budget with an annual tuition of $13,300 USD. It is a strong choice if you prioritize studying in the Netherlands while maintaining affordability. The primary trade-off here is that despite its manageable cost, it offers a shorter 12-month post-study work visa compared to other options on this list, and its placement rate (77%) is lower than some alternatives.\n\nKeystone University\nThis program is recommended because the focus on \"business_information_systems\" provides valuable skills for a Business Analyst role, while keeping tuition costs very low at $550 USD. It also offers an extended 18-month post-study work visa and accepts students with your grade level (min 71%). The main trade-off is that the curriculum focuses heavily on design/HCI rather than management or cloud computing, which may limit its direct applicability to a pure CRM BA role compared to other options.\n\nMeridian University\nThis program directly addresses your interest in \"Cloud Computing,\" making it highly relevant for modern IT roles. It has an affordable tuition rate of $11,850 USD and provides the benefit of an 18-month post-study work visa. The main trade-off is that while fulfilling your cloud computing interest, this program offers a lower median starting salary ($29,303 USD) compared to other options on the list.",
+ "wall_s": 231.9
+}

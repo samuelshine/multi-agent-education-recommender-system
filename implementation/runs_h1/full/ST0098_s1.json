@@ -1,0 +1,68 @@
+{
+ "student_id": "ST0098",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a app development certification background. My overall academic average is 78.6% in an IT/computer-science degree. I'm interested in cloud computing and testing. I want to become a Technical Engineer. My family can afford at most about USD 4400 per year. I live in Mumbai. I'm open to going abroad.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 78.6
+  },
+  "career_goal": "Technical Engineer",
+  "budget_max_usd_per_year": 4400,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in cloud computing and testing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0198",
+  "PR0104",
+  "PR0139",
+  "PR0194",
+  "PR0182",
+  "PR0119",
+  "PR0186",
+  "PR0197",
+  "PR0053",
+  "PR0072",
+  "PR0043",
+  "PR0147",
+  "PR0096",
+  "PR0065",
+  "PR0019",
+  "PR0199",
+  "PR0114",
+  "PR0113",
+  "PR0179",
+  "PR0118"
+ ],
+ "retrieved_ids": [
+  "PR0104",
+  "PR0194",
+  "PR0186",
+  "PR0197",
+  "PR0043",
+  "PR0147",
+  "PR0096",
+  "PR0118"
+ ],
+ "proposed_shortlist": [
+  "PR0194",
+  "PR0104",
+  "PR0147"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0194",
+  "PR0104"
+ ],
+ "reflection_note": "The initial shortlist was good but contained one program (PR0147) that violated the core constraint of international career mobility due to its location and lack of post-study visa. PR0194 remains the top choice as it perfectly aligns with Cloud Computing interest, is highly affordable, and provides excellent international prospects in Germany. PR0104 serves as a strong backup focusing on testing while maintaining German benefits. All other Indian options (PR0186, PR0096, etc.) are automatically de-prioritized because the student's stated goal of 'open_international' mobility is best served by the European location and visa options provided by PR0194 and PR0104.",
+ "explanation": "Aravalli School of Engineering\nThis program was recommended because it directly aligns with your interest in cloud computing and is highly relevant to a Technical Engineer career goal. The annual tuition of $1950 USD fits comfortably within your maximum budget of $4400 USD per year, and you meet the prerequisite requirement for a CS background. Graduates benefit from an 18-month post-study work visa and can expect a median starting salary of $30651 USD. The main trade-off here is that while the specialization fit is excellent, the placement rate (67%) is lower compared to your other option.\n\nAravalli Institute of Applied Sciences\nThis program was recommended because it perfectly matches your interest in testing through its focus on Software Quality Engineering and QA testing. Although the tuition ($3450 USD) is higher than the alternative, it still remains under your $4400 USD budget limit. You benefit from a strong 77% placement rate, an 18-month post-study work visa, and are eligible for this program even without requiring a CS background. The main trade-off here is that you sacrifice the direct cloud computing focus in exchange for a higher reported placement rate.",
+ "wall_s": 195.4
+}

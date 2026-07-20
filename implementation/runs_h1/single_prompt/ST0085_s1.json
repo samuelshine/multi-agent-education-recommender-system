@@ -1,0 +1,54 @@
+{
+ "student_id": "ST0085",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a app development certification background. My overall academic average is 73% in an IT/computer-science degree. I'm interested in IOT and Business process analyst. I want to become a Design & UX. My family can afford at most about USD 1300 per year. I live in Coimbatore. I'm open to anywhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 73
+  },
+  "career_goal": "Design & UX",
+  "budget_max_usd_per_year": 1300,
+  "location_preference": null,
+  "mobility": "open_domestic",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in IOT and Business process analyst"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0084",
+  "PR0015",
+  "PR0020",
+  "PR0013",
+  "PR0157",
+  "PR0181",
+  "PR0166",
+  "PR0074",
+  "PR0059",
+  "PR0049",
+  "PR0035",
+  "PR0087",
+  "PR0119",
+  "PR0058",
+  "PR0187",
+  "PR0053",
+  "PR0109",
+  "PR0076",
+  "PR0012",
+  "PR0019"
+ ],
+ "final_shortlist": [
+  "PR0166",
+  "PR0084",
+  "PR0013",
+  "PR0059",
+  "PR0181"
+ ],
+ "explanation": "This MDes Interaction Design program in Coimbatore directly aligns with your goal of becoming a Design & UX professional and is located in your current city. It has a strong placement rate (71%) and a median starting salary ($10095) that balances job prospects with affordability.\n\nThe MSc Human-Computer Interaction program in Pune is highly relevant to your UX goal (design_hci). It has a good placement rate (77%) and a low tuition fee ($900), making it an excellent option that meets both your career goals and financial constraints.\n\nThis MSc Human-Computer Interaction program in Bengaluru is ideal for pursuing a UX/Design career. With low tuition ($900) and strong placement metrics (77% rate, $9186 salary), it offers high relevance while remaining well within your budget.\n\nIf cost is the absolute priority, this MDes Interaction Design program in Chennai is very affordable ($450 tuition). While its placement rate (66%) and salary are lower than others, it remains a direct path to UX design.\n\nThis MSc Human-Computer Interaction program in Pune is another strong choice for your UX career goal. It has low tuition ($850) and a decent placement rate (73%), making it a reliable option that respects both your budget and professional interests.",
+ "wall_s": 54.4
+}

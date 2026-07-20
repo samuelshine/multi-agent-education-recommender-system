@@ -1,0 +1,74 @@
+{
+ "student_id": "ST0037",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 75.9% in an IT/computer-science degree. I'm interested in networks and developer. I want to become a CRM Technical Developer. My family can afford at most about USD 1600 per year. I live in Chennai. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 75.9
+  },
+  "career_goal": "CRM Technical Developer",
+  "budget_max_usd_per_year": 1600,
+  "location_preference": "Chennai",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "r programming certification"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0182",
+  "PR0119",
+  "PR0176",
+  "PR0058",
+  "PR0187",
+  "PR0174",
+  "PR0053",
+  "PR0158",
+  "PR0109",
+  "PR0076",
+  "PR0012",
+  "PR0019",
+  "PR0114",
+  "PR0185",
+  "PR0130",
+  "PR0084",
+  "PR0120",
+  "PR0170",
+  "PR0015",
+  "PR0020"
+ ],
+ "retrieved_ids": [
+  "PR0109",
+  "PR0053",
+  "PR0119",
+  "PR0176",
+  "PR0182",
+  "PR0012",
+  "PR0187",
+  "PR0158"
+ ],
+ "proposed_shortlist": [
+  "PR0109",
+  "PR0053",
+  "PR0119",
+  "PR0187",
+  "PR0182"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0109",
+  "PR0053",
+  "PR0119",
+  "PR0187",
+  "PR0158"
+ ],
+ "reflection_note": "Dropped PR0182 due to budget violation. Swapped in PR0158 as the best remaining valid candidate, maintaining a diverse set of options that balance location preference (Chennai/Kolkata) with high employability and strong academic relevance for a Technical Developer role.",
+ "explanation": "Crestwood Technical University\nThis program is highly recommended because its location in Chennai perfectly matches your stated preference, and the annual tuition of $1550 remains within your maximum budget. Furthermore, the MTech Computer Science degree aligns well with a technical developer career goal, and you meet the academic requirements with your 75.9% grade against their minimum of 73%. The main trade-off here is that while the location is ideal, its median starting salary ($13300) and placement rate (82%) are not the highest among the options.\n\nCavendish University\nThis option was recommended because it offers a low annual tuition of $1200, keeping you well under budget, and requires no specific CS background, providing flexibility for your current academic standing. The MSc Software Quality Engineering program is relevant to technical development by focusing on QA testing, and the placement rate (86%) is strong. The primary trade-off is that while it meets your financial constraints, its focus on quality assurance may be less directly aligned with core CRM Technical Developer roles compared to other software engineering options.\n\nMeridian Institute of Applied Sciences\nThis program was recommended because it provides a high employability priority through an 86% placement rate and a strong median starting salary of $14917, all while keeping the tuition low at $1200. The MSc Software Quality Engineering degree is relevant to technical development, and you meet the admission requirements easily with your grade. The main trade-off is that its location in Hyderabad does not match your preferred region of Chennai.\n\nCavendish University\nThis program was recommended due to its excellent placement rate (87%) and low tuition cost of $1450, making it financially viable while offering high employability metrics. While the PG Diploma focuses on IT support rather than core software development, this specialization could provide valuable foundational skills for a technical developer role. The trade-off is that the program's focus area is less specialized toward advanced CRM development compared to pure software engineering degrees.\n\nAshford School of Engineering\nThis option was not recommended because its annual tuition of $1900 significantly exceeds your stated maximum budget of $1600 per year, making it financially unfeasible regardless of its strong placement rate (84%). Although the MDes program touches on software engineering, the high cost immediately disqualifies it based on your primary financial constraint.",
+ "wall_s": 146.5
+}

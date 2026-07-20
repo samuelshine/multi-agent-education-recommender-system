@@ -1,0 +1,65 @@
+{
+ "student_id": "ST0011",
+ "session": 1,
+ "mode": "single_objective",
+ "message": "Hi, I'm a student with a python certification background. My overall academic average is 81.4% in an IT/computer-science degree. I'm interested in Computer Architecture and security. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 5400 per year. I live in Pune. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 81.4
+  },
+  "career_goal": null,
+  "budget_max_usd_per_year": 5400,
+  "location_preference": "Pune",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in Computer Architecture and security"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0117",
+  "PR0198",
+  "PR0097",
+  "PR0144",
+  "PR0139",
+  "PR0164",
+  "PR0029",
+  "PR0022",
+  "PR0182",
+  "PR0060",
+  "PR0191",
+  "PR0119",
+  "PR0101",
+  "PR0143",
+  "PR0186",
+  "PR0176",
+  "PR0058",
+  "PR0149",
+  "PR0092",
+  "PR0187"
+ ],
+ "retrieved_ids": [
+  "PR0144",
+  "PR0186",
+  "PR0182",
+  "PR0187"
+ ],
+ "proposed_shortlist": [
+  "PR0144",
+  "PR0186",
+  "PR0182",
+  "PR0187"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0144",
+  "PR0186"
+ ],
+ "reflection_note": "The initial shortlist contained two programs (PR0182, PR0187) that were too far afield from the student's core interests in Computer Architecture and Security. While these programs are highly feasible regarding grades and budget, they do not align with the 'other constraints' or academic goals. I have dropped them. The remaining two options (PR0144 and PR0186) both meet the location preference (Pune), are within budget, and offer strong CS foundations. PR0144 is a general MTech CS which covers Architecture/Security well, while PR0186 focuses on Networking/Cloud, which often intersects with security. I recommend keeping both as they represent the best available options for this student's profile.",
+ "explanation": "Tejas Technical University\nThis program is recommended because it perfectly aligns with your location preference in Pune and fits comfortably within your maximum budget of $5400 USD per year, costing only $4800 annually. Your academic standing (81.4%) exceeds the minimum requirement of 81%, and the high placement rate of 93% strongly supports your priority for employability. The main trade-off to consider is that while it offers a higher median starting salary ($19239), there are no post-study work visa options available, limiting international mobility.\n\nHalcyon Institute of Technology\nThis option is highly recommended due to its excellent affordability at $2050 USD annually and its location in Pune. The curriculum focus on networking and cloud aligns well with your stated interest in security and architecture, while your 81.4% grade easily meets the minimum requirement. The primary trade-off here is that the median starting salary ($15192) is lower than the alternative program, although it remains a very budget-friendly choice.",
+ "wall_s": 90.7
+}

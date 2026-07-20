@@ -1,0 +1,29 @@
+{
+ "student_id": "ST0056",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 83.7
+    },
+    "career_goal": "Web Developer",
+    "budget_max_usd_per_year": 4300,
+    "location_preference": null,
+    "mobility": "open_international",
+    "employability_priority": "high",
+    "other_constraints": [
+     "information security certification background"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0195",
+    "PR0000",
+    "PR0021"
+   ],
+   "feedback": null
+  }
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "student_id": "ST0045",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a distro making certification background. My overall academic average is 78.1% in an IT/computer-science degree. I'm interested in programming and cloud computing. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 3400 per year. I live in Chennai. I cannot leave my city. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 78.1
+  },
+  "career_goal": null,
+  "budget_max_usd_per_year": 3400,
+  "location_preference": "Chennai",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in programming and cloud computing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0197",
+  "PR0199",
+  "PR0162",
+  "PR0165",
+  "PR0191",
+  "PR0109",
+  "PR0171",
+  "PR0059"
+ ],
+ "retrieved_ids": [
+  "PR0197",
+  "PR0199",
+  "PR0162",
+  "PR0165",
+  "PR0109",
+  "PR0171",
+  "PR0191"
+ ],
+ "proposed_shortlist": [
+  "PR0197",
+  "PR0199",
+  "PR0162",
+  "PR0165"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0197",
+  "PR0199",
+  "PR0109",
+  "PR0191"
+ ],
+ "reflection_note": "The initial shortlist was strong but included two programs (PR0162, PR0165) that compromised the student's high employability priority due to low median starting salaries or poor placement rates. I dropped these and swapped in PR0191 and PR0109. The final list prioritizes specialized networking/cloud tracks (PR0197, PR0199) while ensuring strong career outcomes via the inclusion of general CS (PR0109) and high-paying data engineering (PR0191). This revised set offers maximum choice while maintaining focus on employability.",
+ "explanation": "Ashford Institute of Technology\nThis program is highly recommended because it perfectly aligns with your stated interests in cloud computing and networking, as its curriculum focuses on \"networking_cloud.\" It meets all your location requirements by being in Chennai, and the annual tuition of $3350 remains within your maximum budget. With a placement rate of 85% and a median starting salary of $13362, this option strongly supports your priority for high employability. The main trade-off here is that while it is an excellent fit, the tuition cost is near the upper limit of your stated budget.\n\nHalcyon School of Engineering\nThis program is a strong contender because its focus on \"networking_cloud\" directly matches your academic interests and is located in Chennai. At $2300 annually, it offers significant savings compared to other options while still maintaining eligibility for your background. It provides good employability metrics with a 79% placement rate; however, the main trade-off is that its median starting salary of $12682 is slightly lower than some of the other programs on this list.\n\nCrestwood Technical University\nThis option is recommended due to its excellent affordability ($1550 annual tuition) and high employability metrics, boasting an 82% placement rate and a strong salary of $13300. It also meets your location preference in Chennai while requiring a CS background that matches your academic history. The main trade-off is that the specialization is general \"software_engineering,\" which differs from your stated interest in cloud computing, though it remains highly relevant to programming.\n\nSarayu Technical University\nThis program stands out because of its high median starting salary of $15951 and a strong 84% placement rate, making it excellent for employability goals within Chennai. The annual tuition of $3250 is also manageable within your budget constraints. The primary trade-off to consider is that the specialization focuses on data science and business information systems, which deviates from your stated interest in core programming and cloud computing.",
+ "wall_s": 197.1
+}

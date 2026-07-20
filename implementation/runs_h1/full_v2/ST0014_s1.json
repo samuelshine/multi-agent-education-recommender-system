@@ -1,0 +1,76 @@
+{
+ "student_id": "ST0014",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a full stack certification background. My overall academic average is 78.6% in an IT/computer-science degree. I'm interested in hacking and cloud computing. I want to become a Programmer Analyst. My family can afford at most about USD 7200 per year. I live in Bengaluru. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [
+  "reflect"
+ ],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 78.6
+  },
+  "career_goal": "Programmer Analyst",
+  "budget_max_usd_per_year": 7200,
+  "location_preference": "Bengaluru",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in hacking and cloud computing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0186",
+  "PR0197",
+  "PR0043",
+  "PR0147",
+  "PR0096",
+  "PR0199",
+  "PR0118",
+  "PR0121",
+  "PR0148",
+  "PR0016",
+  "PR0102",
+  "PR0180",
+  "PR0162",
+  "PR0112",
+  "PR0159",
+  "PR0032",
+  "PR0184",
+  "PR0165",
+  "PR0117",
+  "PR0198"
+ ],
+ "retrieved_ids": [
+  "PR0198",
+  "PR0186",
+  "PR0197",
+  "PR0096",
+  "PR0148",
+  "PR0162",
+  "PR0180",
+  "PR0165"
+ ],
+ "proposed_shortlist": [
+  "PR0198",
+  "PR0186",
+  "PR0096",
+  "PR0197",
+  "PR0148"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0198",
+  "PR0186",
+  "PR0096",
+  "PR0197",
+  "PR0148"
+ ],
+ "reflection_note": "reflect fallback: kept proposal",
+ "explanation": "Northgate Institute of Technology\nThis program is recommended because it is located in your preferred city, Bengaluru, and offers a very high placement rate of 95%, which aligns with your priority for employability. The curriculum focuses on Software Engineering, complementing your goal as a Programmer Analyst, and the annual tuition of $3500 remains well within your budget. The main trade-off is that your current grade percentage (78.6%) falls slightly below the minimum required grade of 80% for admission.\n\nHalcyon Institute of Technology\nThis program is a strong fit because it covers both networking/cloud and software engineering, directly matching your interests in cloud computing and your career goal. The annual tuition of $2050 is low and well within budget, and you meet the minimum grade requirement (78.6% vs 70%). The primary trade-off here is that the location is Pune, which deviates from your Bengaluru preference.\n\nAshford Institute of Applied Sciences\nThis option was recommended due to its excellent alignment with your interests in cybersecurity and networking/cloud computing, making it highly relevant for a Programmer Analyst role. While the tuition ($3350) fits your budget and you meet the minimum grade requirement (78.6% vs 71%), the main trade-off is that the median starting salary of $12561 is lower compared to other options, and the location is Hyderabad.\n\nAshford Institute of Technology\nThis program provides a strong focus on networking/cloud computing, which directly addresses your interest in cloud technologies while maintaining good employability with an 85% placement rate. The tuition ($3350) fits within your budget, and you meet the minimum grade requirement (78.6% vs 71%). The trade-off is that the location is Chennai, moving away from your preferred Bengaluru area.\n\nKestrel Institute of Technology\nThis program offers a curriculum focused on cybersecurity and networking/cloud, perfectly matching both your interests in hacking and cloud computing. It has the lowest tuition ($2250) and does not require a CS background, making it highly accessible regarding academic prerequisites. However, the main trade-off is that its placement rate (73%) and median starting salary ($10571) are significantly lower than other options on this list.",
+ "wall_s": 185.4
+}

@@ -1,0 +1,54 @@
+{
+ "student_id": "ST0081",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a app development certification background. My overall academic average is 78.7% in an IT/computer-science degree. I'm interested in hacking and cloud computing. I want to become a Network Security Administrator. My family can afford at most about USD 10800 per year. I live in Pune. I'm open to anywhere in India.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 78.7
+  },
+  "career_goal": "Network Security Administrator",
+  "budget_max_usd_per_year": 10800,
+  "location_preference": null,
+  "mobility": "open_domestic",
+  "employability_priority": null,
+  "other_constraints": [
+   "interested in hacking and cloud computing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0186",
+  "PR0197",
+  "PR0043",
+  "PR0147",
+  "PR0096",
+  "PR0199",
+  "PR0118",
+  "PR0121",
+  "PR0148",
+  "PR0016",
+  "PR0102",
+  "PR0180",
+  "PR0162",
+  "PR0112",
+  "PR0159",
+  "PR0032",
+  "PR0184",
+  "PR0165",
+  "PR0117",
+  "PR0198"
+ ],
+ "final_shortlist": [
+  "PR0096",
+  "PR0148",
+  "PR0118",
+  "PR0186",
+  "PR0180"
+ ],
+ "explanation": "This MTech program in Hyderabad is highly relevant as it specifically covers 'cybersecurity' and 'networking_cloud,' aligning perfectly with your interest in hacking and network security. The tuition fee of $3350 is within your budget, and the minimum required grade (71%) is achievable given your 78.7% average.\n\nLocated in Coimbatore, this MTech program focuses on 'cybersecurity' and 'networking_cloud,' making it a strong match for your career goal of Network Security Administrator. Its tuition ($2250) is well within budget, and the minimum grade requirement (62%) is easily met by your 78.7% average.\n\nThis MTech Cyber Security program in Mumbai directly addresses your interest in hacking and network security. It has a very low tuition fee ($1500), which is excellent for your budget constraint, and its minimum grade requirement (59%) is easily met.\n\nThis MTech program in Pune offers 'networking_cloud' and has a low tuition fee ($2050), making it convenient for you as a local candidate. It is highly relevant to network security and cloud computing, and the minimum grade requirement (70%) is manageable.\n\nThis MTech program in Pune focuses on 'networking_cloud' with a very low tuition fee ($1250), which respects your budget. While less focused on hacking than the others, it provides solid foundational knowledge for becoming a Network Security Administrator and is geographically convenient.",
+ "wall_s": 58.2
+}

@@ -1,0 +1,74 @@
+{
+ "student_id": "ST0028",
+ "session": 3,
+ "mode": "full",
+ "version": 1,
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 72.9% in an IT/computer-science degree. I'm interested in data engineering and security. I want to become a Software Engineer. My family can afford at most about USD 33700 per year. I live in Coimbatore. I'm open to going abroad. Getting a good job after graduation matters more to me than anything else. About the earlier suggestions: I liked PR0126, PR0086.",
+ "memory_used": true,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 72.9
+  },
+  "career_goal": "Software Engineer",
+  "budget_max_usd_per_year": 33700,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in data engineering and security"
+  ],
+  "uncertainty_notes": [
+   "No new constraints added."
+  ]
+ },
+ "prefilter_ids": [
+  "PR0086",
+  "PR0058",
+  "PR0126",
+  "PR0026",
+  "PR0090",
+  "PR0145",
+  "PR0107",
+  "PR0063",
+  "PR0173",
+  "PR0071",
+  "PR0069",
+  "PR0055",
+  "PR0030",
+  "PR0034",
+  "PR0027",
+  "PR0067",
+  "PR0018",
+  "PR0136",
+  "PR0132",
+  "PR0051"
+ ],
+ "retrieved_ids": [
+  "PR0086",
+  "PR0126",
+  "PR0136",
+  "PR0034",
+  "PR0027",
+  "PR0067",
+  "PR0132",
+  "PR0173"
+ ],
+ "proposed_shortlist": [
+  "PR0086",
+  "PR0126",
+  "PR0136",
+  "PR0034"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0086",
+  "PR0027",
+  "PR0132",
+  "PR0136"
+ ],
+ "reflection_note": "The original shortlist was strong but missed opportunities in Canada, which aligns well with the student's open international mobility and high employability goals. PR0126 (Germany) is replaced by PR0027 (Canada) and PR0132 (Canada) because they offer superior financial feasibility and better post-study work visa options while maintaining strong academic relevance for Data Engineering/SE. PR0034 was dropped as it is less optimal than the newly added Canadian options or the existing top picks.",
+ "explanation": "**Halcyon Technical University**\nThis program is recommended because it directly aligns with your Software Engineer goal while keeping tuition well within your budget at $23,400 USD. You meet the minimum admission requirement of 70% with your current grade, and the curriculum covers both software engineering and data science analytics. The high placement rate of 85% suggests strong employability, though the main trade-off is that the median starting salary ($33,967) slightly exceeds your stated budget maximum. Furthermore, you benefit from a generous 24-month post-study work visa.\n\n**Braxton School of Engineering**\nThis MTech Data Engineering program strongly matches your interest in data engineering and fits within your annual tuition budget at $27,600 USD. You meet the minimum grade requirement of 71%, and the primary benefit here is the extensive 36-month post-study work visa period. The trade-off to consider is that this option has a higher tuition cost than some other recommendations, and its placement rate (78%) is moderate compared to others on the list.\n\n**Nalanda Ridge University**\nThis MSc Data Science program is highly recommended due to its low annual tuition of $15,600 USD, making it excellent for budget adherence while also offering a 36-month post-study work visa. You meet the minimum grade requirement (62%), and since you have an IT/CS background, you satisfy the required CS background prerequisite. The main trade-off is that this program has the lowest median starting salary ($32,235) among all options listed.\n\n**Silverline Technical University**\nThis MTech Cyber Security option directly addresses your interest in security and offers a high potential earning capacity with a median starting salary of $46,714 USD. The tuition cost of $21,200 USD is well within your budget, and you meet the minimum grade requirement (53%). However, the primary trade-off here is that it offers the shortest post-study work visa period at only 12 months compared to the other options.",
+ "wall_s": 225.3
+}

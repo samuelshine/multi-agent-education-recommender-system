@@ -1,0 +1,78 @@
+{
+ "student_id": "ST0015",
+ "session": 1,
+ "mode": "no_memory",
+ "version": 1,
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 80% in an IT/computer-science degree. I'm interested in Management and testing. I want to become a Database Developer.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 80
+  },
+  "career_goal": "Database Developer",
+  "budget_max_usd_per_year": null,
+  "location_preference": null,
+  "mobility": "open_domestic",
+  "employability_priority": null,
+  "other_constraints": [
+   "r programming certification background",
+   "interested in Management and testing"
+  ],
+  "uncertainty_notes": [
+   "budget_max_usd_per_year is unknown.",
+   "location_preference is unknown.",
+   "mobility preference is unknown (defaulting to open_domestic).",
+   "employability priority is unknown."
+  ]
+ },
+ "prefilter_ids": [
+  "PR0198",
+  "PR0097",
+  "PR0139",
+  "PR0164",
+  "PR0182",
+  "PR0060",
+  "PR0191",
+  "PR0119",
+  "PR0143",
+  "PR0176",
+  "PR0058",
+  "PR0092",
+  "PR0053",
+  "PR0189",
+  "PR0007",
+  "PR0072",
+  "PR0099",
+  "PR0026",
+  "PR0076",
+  "PR0065"
+ ],
+ "retrieved_ids": [
+  "PR0198",
+  "PR0139",
+  "PR0182",
+  "PR0053",
+  "PR0065",
+  "PR0026",
+  "PR0191",
+  "PR0143"
+ ],
+ "proposed_shortlist": [
+  "PR0198",
+  "PR0139",
+  "PR0065",
+  "PR0143"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0198",
+  "PR0065",
+  "PR0182",
+  "PR0053"
+ ],
+ "reflection_note": "The initial shortlist was strong but contained a program (PR0143) that deviated too far from the core goal of Database Development. I dropped PR0143 and replaced it with two highly affordable, relevant alternatives (PR0182, PR0053). The final list prioritizes Software Quality Engineering programs in India that align perfectly with the student's interest in testing/management while maintaining high affordability and strong academic fit.",
+ "explanation": "Northgate Institute of Technology\nThis program is recommended because it offers the highest median starting salary ($21062) and an excellent placement rate of 95%, which maximizes your career potential in testing. While the annual tuition is $3500, this investment is offset by the strong job outcomes, making it a high-return option for someone interested in management and testing. The main trade-off here is that it has the highest tuition cost among the listed options.\n\nTejas Institute of Technology\nThis program provides a solid balance between affordability and career prospects, with an annual tuition of $2450 and a placement rate of 80%. It meets your academic background requirement (min grade 75%) and focuses on QA testing, aligning with your interest in testing. The primary trade-off is that the median starting salary ($12291) is lower compared to some other options, but it remains highly accessible financially.\n\nKeystone Technical University\nThis option is recommended for its strong balance of low cost and high employability; the tuition is only $1950 while maintaining a very high placement rate of 91%. It requires a minimum grade of 75% and focuses on QA testing, which complements your interest in management and testing. The main trade-off is that the median starting salary ($12865) is moderate compared to Northgate Institute, but it offers excellent job security for its price point.\n\nCavendish University\nIf minimizing upfront costs is a priority, this program is ideal due to its low annual tuition of $1200 and minimal admission requirement (min grade 70%). It provides exposure to QA testing while being the most budget-friendly choice available. The main trade-off you must consider is that it has the lowest placement rate (86%) among the group, suggesting slightly lower job security compared to other options.",
+ "wall_s": 0.0
+}

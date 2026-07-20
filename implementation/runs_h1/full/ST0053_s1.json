@@ -1,0 +1,72 @@
+{
+ "student_id": "ST0053",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a hadoop certification background. My overall academic average is 72.1% in an IT/computer-science degree. I'm interested in Management and system developer. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 10700 per year. I live in Hyderabad. I'm open to going abroad.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 72.1
+  },
+  "career_goal": "Management and system developer (in tech)",
+  "budget_max_usd_per_year": 10700,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": null,
+  "other_constraints": [
+   "hadoop certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0057",
+  "PR0060",
+  "PR0176",
+  "PR0092",
+  "PR0189",
+  "PR0076",
+  "PR0130",
+  "PR0078",
+  "PR0150",
+  "PR0157",
+  "PR0160",
+  "PR0048",
+  "PR0172",
+  "PR0156",
+  "PR0195",
+  "PR0021",
+  "PR0122",
+  "PR0153",
+  "PR0051",
+  "PR0151"
+ ],
+ "retrieved_ids": [
+  "PR0057",
+  "PR0195",
+  "PR0021",
+  "PR0153",
+  "PR0151",
+  "PR0122",
+  "PR0156",
+  "PR0189"
+ ],
+ "proposed_shortlist": [
+  "PR0195",
+  "PR0153",
+  "PR0021",
+  "PR0151"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0195",
+  "PR0021",
+  "PR0153",
+  "PR0151",
+  "PR0057"
+ ],
+ "reflection_note": "The original shortlist was strong but missed a key international option (Canada) and failed to consider the viability of India, which is often an acceptable alternative when location preference is null. PR0122 was correctly identified as violating the budget constraint. I swapped in PR0057 (Canada) and PR0156 (India) to provide broader geographical options while maintaining focus on high-quality, affordable German programs for the top spots. The ranking order has been adjusted slightly: PR0195 remains #1 due to its perfect fit across all metrics; PR0021 is ranked second because it offers a better balance of low cost and strong employability compared to PR0153; PR0153 follows, and the remaining German options are kept in order. The final list now includes 5 diverse, viable options.",
+ "explanation": "Keystone School of Engineering\nThis program is highly recommended because it directly aligns with your career goal of becoming a System Developer through its focus on Information Systems. Admission requirements are ideal, as the minimum grade percentage is 72%, matching your academic background, and there is no requirement for a CS degree. Furthermore, the annual tuition of $300 fits comfortably within your budget, offering an excellent return with a median starting salary of $51,059 and an 82% placement rate. The main trade-off here is that while it offers strong career outcomes, its focus might be slightly more business-oriented than deep technical development.\n\nAshford Institute of Technology\nThis program provides a solid foundation in technology operations, which supports your goal as a system developer. It maintains an excellent budget profile with only $450 annual tuition and boasts an 82% placement rate. However, the minimum required grade percentage is 73%, which is slightly above your current academic standing of 72.1%. The trade-off here is that you may need to address a minor gap in your GPA requirement compared to the rest of the shortlist.\n\nKeystone University\nThis MSc program focuses on Human-Computer Interaction, providing valuable design skills relevant to system development and user experience. It has an accessible tuition cost of $550 and accepts students without a required CS background, fitting your profile well. The main trade-off is that while it offers strong foundational knowledge, the median starting salary ($39,426) and placement rate (78%) are lower compared to other options on this list.\n\nCrestwood Institute of Technology\nThis program is highly relevant for a system developer as it focuses on Software Quality Engineering and QA testing. It maintains an excellent budget profile with $5,750 annual tuition and accepts students without a required CS background. The trade-off is that the tuition cost is higher than other German options, and while the placement rate (72%) is decent, the median starting salary ($35,799) is lower than Keystone School of Engineering.\n\nNorthgate Institute of Applied Sciences\nThis program offers the most direct alignment with your management goal through its focus on IT Management. It has a very low admission barrier, requiring only 53% and accepting students without a CS background. The main trade-off is that the annual tuition ($10,850) slightly exceeds your stated maximum budget of $10,700, and it also presents the lowest placement rate (59%) on this list.",
+ "wall_s": 201.1
+}

@@ -1,0 +1,32 @@
+{
+ "student_id": "ST0087",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 74.4
+    },
+    "career_goal": "Quality Assurance Associate",
+    "budget_max_usd_per_year": 5600,
+    "location_preference": "Kolkata",
+    "mobility": "prefers_region",
+    "employability_priority": "high",
+    "other_constraints": [
+     "r programming certification background",
+     "interested in IOT and cloud computing"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0032",
+    "PR0197",
+    "PR0165",
+    "PR0180",
+    "PR0147"
+   ],
+   "feedback": null
+  }
+ ]
+}

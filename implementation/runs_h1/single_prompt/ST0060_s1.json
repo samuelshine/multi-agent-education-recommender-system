@@ -1,0 +1,55 @@
+{
+ "student_id": "ST0060",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a hadoop certification background. My overall academic average is 78.6% in an IT/computer-science degree. I'm interested in IOT and developer. I want to become a Database Administrator. My family can afford at most about USD 2900 per year. I live in Delhi. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 78.6
+  },
+  "career_goal": "Database Administrator",
+  "budget_max_usd_per_year": 2900,
+  "location_preference": "Delhi",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interest in IOT and developer roles",
+   "Hadoop certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0191",
+  "PR0143",
+  "PR0058",
+  "PR0007",
+  "PR0099",
+  "PR0090",
+  "PR0120",
+  "PR0170",
+  "PR0145",
+  "PR0033",
+  "PR0107",
+  "PR0111",
+  "PR0134",
+  "PR0074",
+  "PR0129",
+  "PR0133",
+  "PR0063",
+  "PR0173",
+  "PR0071",
+  "PR0087"
+ ],
+ "final_shortlist": [
+  "PR0120",
+  "PR0107",
+  "PR0063",
+  "PR0143",
+  "PR0058"
+ ],
+ "explanation": "This program is located in Delhi, meeting your strong preference to stay near home. It has a very low tuition fee ($800), keeping you well within your budget constraint of $2900/year, and the curriculum focuses on data analytics which aligns with your interest in developer roles.\n\nLocated right in Delhi, this MTech program is highly relevant to your background and interests (Data Science/Software Engineering). The tuition ($1850) is comfortably within budget, making it a strong contender for staying close to home while pursuing a technical degree.\n\nThis MCA program is also in Delhi and offers relevant fields like data science and software engineering. With a low tuition fee ($1350), it respects your budget while providing a strong technical foundation that supports career goals.\n\nWhile in Mumbai (a possible alternative location), this program offers high placement rates and is highly focused on Data Science. The tuition ($2750) is near your maximum budget limit but provides a strong career focus that prioritizes job outcomes.\n\nThis MCA program in Coimbatore offers relevant fields (Data Science/Software Engineering) and has a very low tuition fee ($1350), making it budget-friendly. It is also suitable for students with an IT background who are aiming for developer roles.",
+ "wall_s": 55.1
+}

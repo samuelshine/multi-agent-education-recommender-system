@@ -1,0 +1,71 @@
+{
+ "student_id": "ST0021",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 73.3% in an IT/computer-science degree. I'm interested in parallel computing and Business process analyst. I want to become a Technical Engineer. My family can afford at most about USD 1400 per year. I live in Kolkata. I'm open to anywhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 73.3
+  },
+  "career_goal": "Technical Engineer (interested in parallel computing and Business process analyst)",
+  "budget_max_usd_per_year": 1400,
+  "location_preference": null,
+  "mobility": "open_domestic",
+  "employability_priority": "high",
+  "other_constraints": [
+   "r programming certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0015",
+  "PR0020",
+  "PR0157",
+  "PR0074",
+  "PR0087",
+  "PR0119",
+  "PR0058",
+  "PR0187",
+  "PR0053",
+  "PR0109",
+  "PR0076",
+  "PR0012",
+  "PR0019",
+  "PR0114",
+  "PR0185",
+  "PR0130",
+  "PR0084",
+  "PR0120",
+  "PR0170",
+  "PR0073"
+ ],
+ "retrieved_ids": [
+  "PR0130",
+  "PR0120",
+  "PR0084",
+  "PR0157",
+  "PR0076",
+  "PR0130",
+  "PR0120",
+  "PR0015"
+ ],
+ "proposed_shortlist": [
+  "PR0076",
+  "PR0130",
+  "PR0120",
+  "PR0157"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0120",
+  "PR0084",
+  "PR0015",
+  "PR0130"
+ ],
+ "reflection_note": "The original shortlist was too heavily weighted towards general IT Management (PR0130, PR0157) and included a program (PR0076) that violated the student's academic grade constraint. I dropped PR0076 due to the hard constraint violation. I swapped in PR0084 (HCI) and PR0015 (Information Systems) because they offer more specialized, technically relevant pathways\u2014either focusing on user experience/design or bridging pure IT with business processes\u2014which better addresses the student's dual interest in 'Technical Engineer' and 'Business process analyst'. The final list prioritizes affordability while maximizing technical relevance and plausibility.",
+ "explanation": "Ashford Institute of Applied Sciences\nThis program is recommended because its focus on Big Data Analytics aligns well with your interest in technical engineering and utilizing your existing R programming background. The annual tuition of $800 USD fits comfortably within your maximum budget of $1400, and the minimum grade requirement (63%) is easily met by your 73.3% academic standing. The main trade-off here is that while it offers strong technical skills, its primary focus on data analytics may be less directly applicable to the business process analyst side of your career goals compared to other options.\n\nHalcyon Technical University\nThis MSc in Human-Computer Interaction is a good fit because HCI principles are crucial for designing effective business systems, supporting your interest in being a Business Process Analyst. The tuition cost of $900 USD respects your budget constraint, and the program does not require a CS background, making admission straightforward. However, the main trade-off to consider is that its strong emphasis on design (HCI) might be less aligned with developing core technical engineering skills like parallel computing compared to other listed programs.\n\nKeystone Institute of Technology\nThis MSc in Information Systems was selected because its focus on business information systems directly bridges your IT/CS background with your goal of becoming a Business Process Analyst. The annual tuition of $1200 USD remains within your budget, and the program has a high placement rate of 78%. The main trade-off to note is that while it offers strong relevance to your career goals, its median starting salary ($9,707) is the lowest among the recommended options.\n\nElmhurst School of Engineering\nThis MSc IT Management program is highly recommended as it provides a balanced curriculum that supports both technical engineering and business process analysis interests. The tuition cost of $1000 USD fits well within your budget, and the minimum grade requirement (62%) is easily met by your academic record. This option offers strong employability with a median starting salary of $11,249, making it an excellent choice that minimizes any significant trade-offs between technical depth and business application.",
+ "wall_s": 186.7
+}

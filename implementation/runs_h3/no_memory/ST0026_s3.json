@@ -1,0 +1,52 @@
+{
+ "student_id": "ST0026",
+ "session": 3,
+ "mode": "no_memory",
+ "version": 1,
+ "message": "Hi, I'm a student with a shell programming certification background. My overall academic average is 74.8% in an IT/computer-science degree. I'm interested in programming and testing. I want to become a Applications Developer. My family can afford at most about USD 7100 per year. I live in Bengaluru. I cannot leave my city. Getting a good job after graduation matters more to me than anything else. About the earlier suggestions: I liked PR0173, PR0073.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 74.8
+  },
+  "career_goal": "Applications Developer",
+  "budget_max_usd_per_year": 7100,
+  "location_preference": "Bengaluru",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in programming and testing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0085",
+  "PR0015",
+  "PR0073",
+  "PR0002",
+  "PR0013",
+  "PR0173",
+  "PR0087"
+ ],
+ "retrieved_ids": [
+  "PR0085",
+  "PR0173",
+  "PR0013",
+  "PR0015"
+ ],
+ "proposed_shortlist": [
+  "PR0085",
+  "PR0173",
+  "PR0015"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0085",
+  "PR0013"
+ ],
+ "reflection_note": "The initial shortlist was heavily weighted towards financial/location fit but neglected the critical academic alignment (programming/testing). PR0085 remains the top choice. I have dropped PR0173 and PR0015 due to poor functional fit. I swapped in PR0013 because its focus on HCI is a necessary complement to pure development skills, providing a more well-rounded set of options for an Applications Developer role.",
+ "explanation": "Keystone Institute of Applied Sciences\nThis program was recommended because its focus on Software Quality Engineering directly aligns with your interest in testing and programming. It is highly budget-friendly, requiring only $1450 in annual tuition, which fits well within your maximum budget of $7100. While the placement rate (63%) and median starting salary ($6488) are lower than other options, this program provides a strong technical foundation relevant to an Applications Developer role. The main trade-off here is accepting a potentially lower earning potential for a curriculum that strongly matches your testing interests.\n\nMeridian Institute of Technology\nThis option was recommended due to its excellent affordability ($900 annual tuition) and high placement rate (77%), which addresses your priority for employability. Furthermore, the median starting salary of $9186 is higher than the other listed program, offering better financial potential. The main trade-off is that while it offers a strong career outcome, its primary focus on design_hci may be less directly aligned with your stated interest in programming and testing compared to the Keystone Institute.",
+ "wall_s": 151.9
+}

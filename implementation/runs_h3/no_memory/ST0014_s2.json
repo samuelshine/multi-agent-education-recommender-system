@@ -1,0 +1,72 @@
+{
+ "student_id": "ST0014",
+ "session": 2,
+ "mode": "no_memory",
+ "version": 1,
+ "message": "Hi, I'm a student with a full stack certification background. My overall academic average is 78.6% in an IT/computer-science degree. I'm interested in hacking and cloud computing. I want to become a Programmer Analyst. My family can afford at most about USD 7200 per year. I live in Bengaluru. I'd strongly prefer to stay near home, though I might consider elsewhere in India. About the earlier suggestions: I liked PR0186, PR0147.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 78.6
+  },
+  "career_goal": "Programmer Analyst",
+  "budget_max_usd_per_year": 7200,
+  "location_preference": "Bengaluru",
+  "mobility": "prefers_region",
+  "employability_priority": "medium",
+  "other_constraints": [
+   "Interested in hacking and cloud computing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0186",
+  "PR0197",
+  "PR0043",
+  "PR0147",
+  "PR0096",
+  "PR0199",
+  "PR0118",
+  "PR0121",
+  "PR0148",
+  "PR0016",
+  "PR0102",
+  "PR0180",
+  "PR0162",
+  "PR0112",
+  "PR0159",
+  "PR0032",
+  "PR0184",
+  "PR0165",
+  "PR0117",
+  "PR0198"
+ ],
+ "retrieved_ids": [
+  "PR0198",
+  "PR0186",
+  "PR0197",
+  "PR0043",
+  "PR0147",
+  "PR0096",
+  "PR0165",
+  "PR0184"
+ ],
+ "proposed_shortlist": [
+  "PR0198",
+  "PR0186",
+  "PR0096",
+  "PR0197"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0186",
+  "PR0096",
+  "PR0043",
+  "PR0147"
+ ],
+ "reflection_note": "The original shortlist was flawed due to a hard constraint violation (PR0198 grade requirement) and one program with poor location fit (PR0197). I dropped PR0198 immediately. Between the remaining options, PR0043 and PR0147 were strong candidates that needed to be swapped in as they offer excellent technical alignment (Cloud/Networking) while maintaining affordability and a better overall profile than the original PR0197.",
+ "explanation": "Halcyon Institute of Technology\nThis program is recommended because its focus on networking and cloud computing aligns perfectly with your interests in hacking and cloud technology. With a tuition cost of $2050, it fits comfortably within your maximum budget of $7200 per year, and your 78.6% grade exceeds the minimum requirement of 70%. The main trade-off here is location; while you prefer Bengaluru, this program is located in Pune.\n\nAshford Institute of Applied Sciences\nThis option was selected because its curriculum explicitly includes cybersecurity alongside networking and cloud computing, matching your stated interests. At $3350 annually, the tuition remains well within your budget constraints, and your academic background meets the minimum grade requirement of 71%. The primary trade-off to consider is that while it offers a strong focus on cyber topics, its median starting salary ($12561) is lower than some other options.\n\nVantage Institute of Technology\nThis program provides an excellent blend of cloud computing and software engineering, directly supporting your goal of becoming a Programmer Analyst. It has the highest placement rate (86%) among the shortlisted programs, which is beneficial for employability. The main trade-off you must weigh is that while it offers strong placement metrics, its median starting salary ($11981) is the lowest on this list, and it is located in Coimbatore rather than your preferred Bengaluru region.\n\nFairfax Institute of Technology\nThis program focuses specifically on cloud computing and networking, which directly addresses your stated interests. With a tuition cost of $3200, it keeps you well under your annual budget limit, and your 78.6% grade easily surpasses the minimum admission requirement of 74%. The main trade-off is that while its salary ($13015) is strong, the program is located in Coimbatore, which deviates from your preferred Bengaluru region.",
+ "wall_s": 203.8
+}

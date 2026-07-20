@@ -1,0 +1,77 @@
+{
+ "student_id": "ST0029",
+ "session": 3,
+ "mode": "full",
+ "version": 1,
+ "message": "Hi, I'm a student with a python certification background. My overall academic average is 81.2% in an IT/computer-science degree. I'm interested in IOT and Business process analyst. I want to become a Database Developer. My family can afford at most about USD 4100 per year. I live in Mumbai. I'm open to going abroad. About the earlier suggestions: I liked PR0126, PR0062.",
+ "memory_used": true,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 81.2
+  },
+  "career_goal": "Database Developer",
+  "budget_max_usd_per_year": 4100,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": null,
+  "other_constraints": [
+   "python certification background",
+   "interest in IOT",
+   "interest in Business process analyst"
+  ],
+  "uncertainty_notes": [
+   "Location preference not specified.",
+   "Employability priority not specified."
+  ]
+ },
+ "prefilter_ids": [
+  "PR0051",
+  "PR0191",
+  "PR0128",
+  "PR0033",
+  "PR0074",
+  "PR0087",
+  "PR0000",
+  "PR0195",
+  "PR0153",
+  "PR0097",
+  "PR0137",
+  "PR0101",
+  "PR0143",
+  "PR0058",
+  "PR0007",
+  "PR0054",
+  "PR0126",
+  "PR0044",
+  "PR0099",
+  "PR0026"
+ ],
+ "retrieved_ids": [
+  "PR0051",
+  "PR0128",
+  "PR0137",
+  "PR0044",
+  "PR0195",
+  "PR0153",
+  "PR0000",
+  "PR0126"
+ ],
+ "proposed_shortlist": [
+  "PR0195",
+  "PR0000",
+  "PR0126"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0195",
+  "PR0000",
+  "PR0137",
+  "PR0051",
+  "PR0044"
+ ],
+ "reflection_note": "The original shortlist was good but lacked diversity in cost and focus. I dropped PR0126 because its career outcomes are weaker compared to the top two choices. I swapped in four new programs (PR0051, PR0128, PR0137, PR0044) that offer strong Business Analytics/Information Systems tracks. PR0137 was selected over PR0128 because it offers a better balance of cost and outcome potential while still addressing the student's interest in business processes. The final list prioritizes high employability (PR0195, PR0000) and then balances affordability/business focus using PR0137, PR0051, and PR0044 to provide maximum choice within budget constraints.",
+ "explanation": "Keystone School of Engineering\nThis program is highly recommended because it offers a strong blend of business information systems knowledge at an extremely low cost of $300 annual tuition. Your academic background meets the minimum requirement of 72%, and the curriculum aligns well with your interest in system development. Furthermore, graduates benefit from a high placement rate of 82% and receive 18 months of post-study work visa time. The main trade-off here is that while the cost is minimal, the median starting salary ($51,059) is not the highest available option.\n\nFairfax Institute of Technology\nThis program is an excellent fit due to its low tuition cost of $950 and strong alignment with both business information systems and IT management principles. Your 81.2% grade exceeds the minimum requirement of 80%, making admission straightforward, and it offers a high placement rate of 91%. Graduates also benefit from a median starting salary of $56,198 and an 18-month post-study work visa. The main trade-off is that while this option provides the highest earning potential listed, its curriculum focuses on IT Management rather than pure database development.\n\nMeridian Institute of Technology\nThis program was considered because it addresses your interest in business process analysis through its MBA Business Analytics focus. While the tuition ($2,950) remains within budget and you meet the minimum grade requirement (58%), the main trade-off is between cost and career outcome. Graduates face a lower median starting salary of $27,229 compared to other options, and it has the lowest placement rate on this list at 63%.\n\nWestbrook University\nThis option was recommended because its MBA Business Analytics focus aligns with your interest in data science analytics fields. The tuition cost of $3,950 is near your maximum budget limit, but you meet the minimum grade requirement (61%). Graduates receive an 18-month post-study work visa and a median starting salary of $33,574. The main trade-off here is that this program has the highest tuition cost among the recommended options while offering a moderate placement rate of 77%.\n\nHalcyon University\nThis program provides relevant training in business information systems at a reasonable annual tuition of $2,350. You meet the minimum grade requirement (52%), and it offers an 18-month post-study work visa. However, the main trade-off is that while the cost is low, this option presents the lowest median starting salary ($23,809) and a lower placement rate of 61% compared to other available programs.",
+ "wall_s": 224.9
+}

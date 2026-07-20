@@ -1,0 +1,71 @@
+{
+ "student_id": "ST0090",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a app development certification background. My overall academic average is 79.7% in an IT/computer-science degree. I'm interested in hacking and security. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 31100 per year. I live in Mumbai. I'm open to going abroad. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 79.7
+  },
+  "career_goal": "hacking and security (tech)",
+  "budget_max_usd_per_year": 31100,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "app development certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0116",
+  "PR0000",
+  "PR0031",
+  "PR0154",
+  "PR0069",
+  "PR0079",
+  "PR0055",
+  "PR0195",
+  "PR0030",
+  "PR0124",
+  "PR0146",
+  "PR0094",
+  "PR0021",
+  "PR0135",
+  "PR0168",
+  "PR0017",
+  "PR0110",
+  "PR0034",
+  "PR0027",
+  "PR0122"
+ ],
+ "retrieved_ids": [
+  "PR0110",
+  "PR0034",
+  "PR0168",
+  "PR0154",
+  "PR0031",
+  "PR0055",
+  "PR0116",
+  "PR0034"
+ ],
+ "proposed_shortlist": [
+  "PR0034",
+  "PR0110",
+  "PR0031",
+  "PR0154"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0110",
+  "PR0034",
+  "PR0168",
+  "PR0055"
+ ],
+ "reflection_note": "The original shortlist was flawed due to budget violations (PR0154) and academic plausibility issues (PR0031/Delft). I have removed these. The new list prioritizes direct cybersecurity relevance (PR0110, PR0034), followed by strong, affordable alternatives that maintain high employability potential while respecting the budget constraints. PR0168 and PR0055 offer excellent geographical diversity and solid fallback options.",
+ "explanation": "Crestwood Institute of Applied Sciences\nThis program is recommended because its focus on \"cybersecurity\" and networking aligns well with your goal of hacking and security, and the required CS background matches your academic profile. The annual tuition of $29,650 remains within your maximum budget of $31,100, and you benefit from a 12-month post-study work visa. The main trade-off here is that the tuition cost uses up most of your available budget while providing strong career alignment.\n\nAshford University\nThis program is an excellent fit because its core focus on \"cybersecurity\" directly addresses your career goals, and it does not require a CS background, offering flexibility. With an annual tuition of $29,150, it stays under budget, and the 74% placement rate suggests high employability. The only minor trade-off is that the median starting salary ($47,153) is slightly lower than Crestwood's option.\n\nHalcyon Institute of Applied Sciences\nWhile this program offers exceptional benefits\u2014including a very high 84% placement rate and an extended 36-month post-study work visa\u2014it is less ideal for your specific goal. The curriculum focuses on \"business_information_systems,\" which is more business-oriented than the technical hacking/security focus you desire. Therefore, the main trade-off is prioritizing excellent career outcomes (placement/visa) over direct alignment with a deep technical security track.\n\nWestbrook School of Engineering\nThis program offers the highest median starting salary ($78,779) and an 84% placement rate, making it highly attractive for your employability priority. However, its annual tuition of $33,000 exceeds your maximum budget constraint of $31,100. The main trade-off is that while the career outcomes are excellent, the cost makes this program financially unfeasible based on your stated budget limits.",
+ "wall_s": 206.5
+}

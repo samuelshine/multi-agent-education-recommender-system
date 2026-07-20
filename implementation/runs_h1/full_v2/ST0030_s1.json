@@ -1,0 +1,62 @@
+{
+ "student_id": "ST0030",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 77.1% in an IT/computer-science degree. I'm interested in parallel computing and security. I want to become a Design & UX. My family can afford at most about USD 4900 per year. I live in Chennai. I cannot leave my city. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 77.1
+  },
+  "career_goal": "Design & UX",
+  "budget_max_usd_per_year": 4900,
+  "location_preference": "Chennai",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in parallel computing and security"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0059",
+  "PR0191",
+  "PR0197",
+  "PR0109",
+  "PR0199",
+  "PR0171",
+  "PR0162",
+  "PR0165"
+ ],
+ "retrieved_ids": [
+  "PR0162",
+  "PR0197",
+  "PR0109",
+  "PR0171",
+  "PR0191",
+  "PR0199",
+  "PR0165",
+  "PR0059"
+ ],
+ "proposed_shortlist": [
+  "PR0162",
+  "PR0197",
+  "PR0109",
+  "PR0191",
+  "PR0059"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0162",
+  "PR0197",
+  "PR0171",
+  "PR0191",
+  "PR0059"
+ ],
+ "reflection_note": "The original shortlist was strong but included PR0109, which is academically demanding (min grade 73) and less relevant to the student's primary goal of Design & UX compared to other options. I dropped PR0109 and swapped in PR0171 instead. PR0171 offers a better balance: it maintains general software engineering relevance while having a much lower minimum required grade (59 vs 73), improving the overall feasibility of the list. The final list prioritizes Cybersecurity/Data (PR0162, PR0191) and UX Design (PR0059), supplemented by two strong, feasible general CS options (PR0197, PR0171).",
+ "explanation": "Aravalli Institute of Applied Sciences\nThis program is recommended because it directly addresses your interest in security through its MTech Cyber Security specialization and fits within your budget at $1150 annually. Since you have an IT/CS background, the admission requirements are met, and the location is Chennai. The main trade-off here is that while the tuition is low and the focus matches your interests, the placement rate of 68% is lower compared to other options on this list.\n\nAshford Institute of Technology\nThis program was recommended because it offers a high placement rate (85%) and a strong median starting salary ($13362), prioritizing your need for high employability in Chennai. The tuition cost of $3350 remains well within your maximum budget, and the technical focus aligns with your CS background. However, the main trade-off is that this program focuses on computer networks rather than your primary career goal of Design & UX.\n\nHalcyon Technical University\nThis option was recommended primarily because it offers an extremely low annual tuition ($1500) while still being located in Chennai and accepting students with a CS background. This keeps you well under budget, making it highly cost-effective. The main trade-off is that the program focuses on general software engineering, which does not specifically align with your stated interests in UX design or cybersecurity.\n\nSarayu Technical University\nThis university was recommended due to its excellent employability metrics, boasting a high placement rate of 84% and the highest median starting salary ($15951) among all options. The tuition cost of $3250 is also within your budget constraints in Chennai. The main trade-off is that while it offers strong technical career prospects, its focus on Data Engineering deviates from both Design & UX and pure security interests.\n\nTejas University\nThis program was recommended because it is the best match for your stated career goal of Design & UX, offering a specialized MDes Interaction Design degree. Furthermore, it has the lowest tuition cost ($450) and meets your location preference in Chennai. The main trade-off is that while it perfectly matches your design goals and budget, its placement rate (66%) is the lowest among all programs listed.",
+ "wall_s": 145.4
+}

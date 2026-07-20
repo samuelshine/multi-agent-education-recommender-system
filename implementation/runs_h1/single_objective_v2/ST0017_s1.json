@@ -1,0 +1,74 @@
+{
+ "student_id": "ST0017",
+ "session": 1,
+ "mode": "single_objective",
+ "version": 2,
+ "message": "Hi, I'm a student with a python certification background. My overall academic average is 74.4% in an IT/computer-science degree. I'm interested in hacking and Business process analyst. I want to become a CRM Technical Developer. My family can afford at most about USD 2400 per year. I live in Kolkata. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 74.4
+  },
+  "career_goal": "CRM Technical Developer",
+  "budget_max_usd_per_year": 2400,
+  "location_preference": "Kolkata",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in hacking and Business process analyst roles"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0101",
+  "PR0054",
+  "PR0015",
+  "PR0020",
+  "PR0033",
+  "PR0157",
+  "PR0047",
+  "PR0074",
+  "PR0172",
+  "PR0087",
+  "PR0164",
+  "PR0182",
+  "PR0119",
+  "PR0143",
+  "PR0186",
+  "PR0176",
+  "PR0058",
+  "PR0187",
+  "PR0039",
+  "PR0174"
+ ],
+ "retrieved_ids": [
+  "PR0157",
+  "PR0033",
+  "PR0176",
+  "PR0187",
+  "PR0182",
+  "PR0164",
+  "PR0174",
+  "PR0119"
+ ],
+ "proposed_shortlist": [
+  "PR0176",
+  "PR0164",
+  "PR0157",
+  "PR0174",
+  "PR0119"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0176",
+  "PR0157",
+  "PR0119",
+  "PR0033",
+  "PR0174"
+ ],
+ "reflection_note": "The original list was strong, but PR0164 had a minimum grade requirement (79%) that is too high for the student's current score (74.4), violating the admission plausibility constraint. I dropped it and swapped in PR0033 (MBA Business Analytics) because its focus on data/analytics strongly supports both CRM Technical Developer and Business Process Analyst goals, while remaining within budget and having a good fit profile. The final list prioritizes programs with high employability, strong alignment with business process/CRM roles, and excellent admission feasibility.",
+ "explanation": "Crestwood University\nThis program was recommended because its MBA Technology Management focus aligns well with your interest in Business Process Analyst roles while still supporting a technical career path. The annual tuition of $1900 is within your budget, and your 74.4% grade exceeds the minimum requirement of 72%. While it offers a strong placement rate of 82% and a median starting salary of $15,400, the main trade-off is that its MBA structure might be less hands-on for a pure \"Technical Developer\" role compared to more specialized technical degrees.\n\nLongford University\nThis option is highly recommended because it offers the lowest tuition cost at just $800, making it an excellent fit for your budget constraints. The MSc IT Management program covers general business information systems, which supports both your CRM goal and interest in process analysis. However, you should note the trade-off: while it saves significant money, its placement rate (72%) and median starting salary ($10,444) are among the lowest on this list.\n\nMeridian Institute of Applied Sciences\nThis program is recommended because its focus on Software Quality Engineering provides a highly technical foundation that directly supports your goal as a Technical Developer and aligns with an interest in hacking/QA testing. With an annual tuition of $1200, it remains well within budget, and you meet the minimum grade requirement (74.4% vs 71%). The trade-off here is that its highly technical focus might not provide enough exposure to the business process analysis side of your interests.\n\nQuilon School of Engineering\nThis MBA Business Analytics program was selected because it strongly supports your interest in Business Process Analyst roles by focusing on data science and business information systems. At $2100 annually, the tuition is within budget, and you meet the minimum grade requirement (74.4% vs 63%). The primary trade-off to consider is that while the curriculum is highly relevant for process analysis, its median starting salary ($10,526) and placement rate (73%) are lower than some of the other technical options.\n\nHalcyon Institute of Applied Sciences\nThis program was recommended because Human-Computer Interaction provides valuable skills in understanding user needs, which is crucial for developing effective CRM solutions. The tuition of $1900 fits your budget, and you meet the minimum grade requirement (74.4% vs 71%). The main trade-off to consider is that its primary focus on design/HCI might be less directly technical than a dedicated software or analytics track, potentially moving away from your core \"Technical Developer\" goal.",
+ "wall_s": 84.7
+}

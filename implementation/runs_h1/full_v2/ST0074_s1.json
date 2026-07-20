@@ -1,0 +1,74 @@
+{
+ "student_id": "ST0074",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a app development certification background. My overall academic average is 78% in an IT/computer-science degree. I'm interested in parallel computing and system developer. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 16200 per year. I live in Coimbatore. I'm open to going abroad. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 78
+  },
+  "career_goal": "parallel computing and system developer (tech)",
+  "budget_max_usd_per_year": 16200,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "app development certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0000",
+  "PR0079",
+  "PR0195",
+  "PR0124",
+  "PR0021",
+  "PR0122",
+  "PR0005",
+  "PR0010",
+  "PR0169",
+  "PR0153",
+  "PR0028",
+  "PR0067",
+  "PR0075",
+  "PR0024",
+  "PR0163",
+  "PR0132",
+  "PR0051",
+  "PR0151",
+  "PR0037",
+  "PR0161"
+ ],
+ "retrieved_ids": [
+  "PR0005",
+  "PR0153",
+  "PR0169",
+  "PR0021",
+  "PR0151",
+  "PR0161",
+  "PR0037",
+  "PR0132"
+ ],
+ "proposed_shortlist": [
+  "PR0161",
+  "PR0037",
+  "PR0132",
+  "PR0005",
+  "PR0153"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0161",
+  "PR0037",
+  "PR0132",
+  "PR0005",
+  "PR0169"
+ ],
+ "reflection_note": "The initial shortlist was strong but included PR0153, which is too niche (HCI) given the student's explicit goal in 'parallel computing and system developer'. I dropped it because of low career relevance. To maintain 5 options, I swapped in PR0169 (MSc IT Operations), which offers excellent alignment with systems/networking development, strong employability metrics, and remains within budget constraints. The remaining list prioritizes core software engineering and data science tracks while maintaining geographical diversity and high financial feasibility.",
+ "explanation": "Tejas University\nThis program is recommended because it offers a strong foundation in software engineering while remaining well within your maximum budget of $16,200 USD per year, with an annual tuition cost of only $3850. It requires a CS background, which you possess, and provides excellent post-study opportunities with an 18-month work visa and a median starting salary of $33,731. The main trade-off is that the curriculum focuses on general software engineering rather than specialized parallel computing concepts.\n\nTejas School of Engineering\nThis MCA program is highly recommended due to its low cost ($2650 annual tuition) and strong employability metrics, including a 72% placement rate and an 18-month post-study work visa in Germany. Since you have an IT/computer-science background, you meet the prerequisite for this degree. The trade-off is that while it provides excellent general software skills, its focus remains broad and may not be as specialized for advanced system development as your career goal suggests.\n\nNalanda Ridge University\nThis program was selected because of its high placement rate (81%) and generous 36-month post-study work visa in Canada, making it ideal for maximizing international job opportunities. The tuition ($15600) fits within your budget, and you meet the CS background requirement. However, the main trade-off is that the specialization in Data Science/Analytics deviates significantly from your stated goal of becoming a parallel computing and system developer.\n\nBridgewater Technical University\nThis MTech program is recommended for its exceptional employability metrics, boasting an 87% placement rate and a high median starting salary of $38586 USD. The annual tuition of $15000 keeps it within your budget, and the focus on networking/cloud aligns well with system development principles. The main trade-off is that its specialization in networking may limit exposure to advanced parallel computing theory.\n\nBridgewater Institute of Applied Sciences\nThis program offers a very high median starting salary ($40910) and an accessible tuition cost ($15750), making it financially attractive while providing strong job prospects. Furthermore, it does not require a CS background, which could simplify your application process. The main trade-off is that the curriculum focuses on IT Support/Operations, which is quite far removed from the advanced technical depth required for parallel computing and system development.",
+ "wall_s": 124.0
+}

@@ -1,0 +1,31 @@
+{
+ "student_id": "ST0019",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 72.8
+    },
+    "career_goal": "Database Manager",
+    "budget_max_usd_per_year": 10700,
+    "location_preference": "Pune",
+    "mobility": "prefers_region",
+    "employability_priority": "high",
+    "other_constraints": [
+     "Interested in Computer Architecture and developer roles"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0007",
+    "PR0129",
+    "PR0071",
+    "PR0134",
+    "PR0191"
+   ],
+   "feedback": null
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "student_id": "ST0010",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 79.2
+    },
+    "career_goal": null,
+    "budget_max_usd_per_year": 2700,
+    "location_preference": "Bengaluru",
+    "mobility": "fixed_city",
+    "employability_priority": "high",
+    "other_constraints": [
+     "Interested in programming and cloud computing"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0073",
+    "PR0087",
+    "PR0002",
+    "PR0085",
+    "PR0015"
+   ],
+   "feedback": null
+  }
+ ]
+}

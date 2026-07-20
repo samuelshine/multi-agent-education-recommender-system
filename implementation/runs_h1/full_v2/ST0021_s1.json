@@ -1,0 +1,74 @@
+{
+ "student_id": "ST0021",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 73.3% in an IT/computer-science degree. I'm interested in parallel computing and Business process analyst. I want to become a Technical Engineer. My family can afford at most about USD 1400 per year. I live in Kolkata. I'm open to anywhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 73.3
+  },
+  "career_goal": "Technical Engineer (interested in parallel computing and Business process analyst)",
+  "budget_max_usd_per_year": 1400,
+  "location_preference": null,
+  "mobility": "open_domestic",
+  "employability_priority": "high",
+  "other_constraints": [
+   "r programming certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0015",
+  "PR0020",
+  "PR0157",
+  "PR0074",
+  "PR0087",
+  "PR0119",
+  "PR0058",
+  "PR0187",
+  "PR0053",
+  "PR0109",
+  "PR0076",
+  "PR0012",
+  "PR0019",
+  "PR0114",
+  "PR0185",
+  "PR0130",
+  "PR0084",
+  "PR0120",
+  "PR0170",
+  "PR0073"
+ ],
+ "retrieved_ids": [
+  "PR0130",
+  "PR0120",
+  "PR0084",
+  "PR0157",
+  "PR0076",
+  "PR0130",
+  "PR0120",
+  "PR0015"
+ ],
+ "proposed_shortlist": [
+  "PR0130",
+  "PR0120",
+  "PR0157",
+  "PR0015",
+  "PR0076"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0130",
+  "PR0120",
+  "PR0157",
+  "PR0015",
+  "PR0076"
+ ],
+ "reflection_note": "The initial shortlist is strong and adheres to all hard constraints (budget, academic background). All five programs are kept as they represent diverse but highly relevant pathways: PR0130/PR0157 for Business Process Analyst focus, PR0120 for Data Analytics depth, PR0015 for core BIS knowledge, and PR0076 for maximizing employability in a technical context. The ranking order reflects the balance between academic fit (BIS/IT Management) and high employability potential.",
+ "explanation": "Elmhurst School of Engineering\nThis MSc IT Management program was recommended because its focus on IT management aligns well with your interest in Business Process Analysis while still providing technical depth. It is highly affordable at $1000 annual tuition and requires a minimum grade percentage of 62%, which you exceed. The placement rate of 77% and median starting salary of $11,249 demonstrate strong employability. The main trade-off here is that while the program fits your goals and budget, it offers no post-study work visa benefit.\n\nAshford Institute of Applied Sciences\nThis MSc Big Data Analytics option was selected because its technical focus directly supports your goal as a Technical Engineer, and the field complements your R programming background. At $800 annual tuition, it is one of the most budget-friendly options while maintaining a strong placement rate of 78%. The program requires no specific CS background and offers a median starting salary of $10,021. The trade-off is that while this option is highly relevant to your technical goals, its low cost means there is no post-study work visa benefit.\n\nLongford University\nThis MSc IT Management degree was recommended for its strong alignment with both Technical Engineering and Business Process Analysis interests through the \"IT Management\" field. With an annual tuition of $800, it remains highly affordable and has a minimum grade requirement of 64%. It boasts a placement rate of 72% and a median starting salary of $10,444. The main trade-off is that while the cost is low and the fit is good, its placement rate is slightly lower compared to other options on this list, and it offers no post-study work visa benefit.\n\nKeystone Institute of Technology\nThe MSc Information Systems program was recommended because \"Information Systems\" provides an excellent blend of technical knowledge and business process understanding, fitting both your career goals. It has a high placement rate of 78% and is affordable at $1200 annual tuition, while also requiring no CS background. The median starting salary of $9,707 demonstrates solid employability for the cost. The trade-off here is that although it offers a good balance of skills, it presents the lowest median starting salary among the recommended programs and has no post-study work visa benefit.\n\nSarayu Institute of Technology\nThis MBA Technology Management program was highly recommended because its curriculum\u2014combining \"IT Management\" and \"Software Engineering\"\u2014is an ideal fit for both your Technical Engineer and BPA interests. It offers the highest median starting salary ($13,142) and a strong placement rate of 81%, indicating excellent employability. The main trade-off is that it has the highest tuition cost at $1250 and, like all options, does not provide post-study work visa benefits.",
+ "wall_s": 123.5
+}

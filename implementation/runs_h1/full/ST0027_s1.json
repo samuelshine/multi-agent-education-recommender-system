@@ -1,0 +1,73 @@
+{
+ "student_id": "ST0027",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 79.2% in an IT/computer-science degree. I'm interested in IOT and security. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 9700 per year. I live in Hyderabad. I'm open to going abroad. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 79.2
+  },
+  "career_goal": null,
+  "budget_max_usd_per_year": 9700,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "r programming certification background",
+   "interested in IOT and security"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0000",
+  "PR0195",
+  "PR0021",
+  "PR0153",
+  "PR0051",
+  "PR0151",
+  "PR0037",
+  "PR0161",
+  "PR0117",
+  "PR0198",
+  "PR0097",
+  "PR0104",
+  "PR0001",
+  "PR0144",
+  "PR0139",
+  "PR0194",
+  "PR0042",
+  "PR0164",
+  "PR0029",
+  "PR0057"
+ ],
+ "retrieved_ids": [
+  "PR0195",
+  "PR0153",
+  "PR0021",
+  "PR0194",
+  "PR0042",
+  "PR0057",
+  "PR0164",
+  "PR0029"
+ ],
+ "proposed_shortlist": [
+  "PR0195",
+  "PR0153",
+  "PR0021",
+  "PR0194"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0195",
+  "PR0153",
+  "PR0021",
+  "PR0042",
+  "PR0057"
+ ],
+ "reflection_note": "The initial shortlist was strong but lacked diversity in high-potential, affordable alternatives. I dropped PR0194 due to its tuition making it less competitive against the top German options. I swapped in two Canadian programs (PR0042 and PR0057) because their 36-month post-study work visas significantly boost 'employability' potential, offering a valuable alternative path if the student is willing to consider higher tuition for better long-term career prospects.",
+ "explanation": "Keystone School of Engineering\nThis program is highly recommended because it offers a strong balance between cost and career prospects while aligning with your technical background. The annual tuition is extremely low at $300, keeping you well within your budget maximum. Furthermore, its high placement rate of 82% and median starting salary of $51,059 suggest excellent employability in the field. The main trade-off here is that the program focuses on general business information systems rather than specifically deep technical areas like IoT or security.\n\nKeystone University\nThis option remains budget-friendly with an annual tuition of only $550, and it requires no specific CS background, making admission straightforward given your 79.2% grade. It provides a solid post-study work visa of 18 months in Munich. The primary trade-off is that the median starting salary ($39,426) is lower than other options, and the focus on Human-Computer Interaction might be less aligned with your stated interest in core IT security or IoT infrastructure.\n\nAshford Institute of Technology\nThis program is an excellent fit because it offers a high placement rate (82%) and a strong median starting salary ($46,428) while maintaining a very low annual tuition cost of $450. The focus on IT Support directly relates to operational aspects of security and infrastructure, which aligns well with your interests. There is no major trade-off here; it meets your budget constraints and provides high employability in a relevant technical domain.\n\nAravalli Institute of Applied Sciences\nThis program is technically highly relevant, covering networking/cloud and software engineering fields that align perfectly with IoT and security interests, and it accepts students with an IT background. However, the main trade-off is that its annual tuition ($10800) significantly exceeds your maximum budget constraint of $9700. Despite this cost barrier, it offers a strong 36-month post-study work visa period.\n\nNorthgate Institute of Applied Sciences\nWhile this program offers an extended 36-month post-study work visa and is open to non-CS majors, the main trade-off is that its annual tuition ($10850) exceeds your budget maximum of $9700. Furthermore, the focus on IT Management suggests a more administrative career path rather than the deep technical specialization in IoT or security that you expressed interest in.",
+ "wall_s": 220.2
+}

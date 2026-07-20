@@ -1,0 +1,61 @@
+{
+ "student_id": "ST0027",
+ "session": 3,
+ "mode": "no_memory",
+ "version": 1,
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 79.2% in an IT/computer-science degree. I'm interested in IOT and security. I want to become a Technical Services/Help Desk/Tech Support. My family can afford at most about USD 9700 per year. I live in Hyderabad. I'm open to going abroad. Getting a good job after graduation matters more to me than anything else. About the earlier suggestions: I liked PR0021, PR0195.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 79.2
+  },
+  "career_goal": "Technical Services/Help Desk/Tech Support (IOT and security focus)",
+  "budget_max_usd_per_year": 9700,
+  "location_preference": "Hyderabad",
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "r programming certification"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0021",
+  "PR0117",
+  "PR0022",
+  "PR0187",
+  "PR0002",
+  "PR0121",
+  "PR0188",
+  "PR0098",
+  "PR0050",
+  "PR0159",
+  "PR0000",
+  "PR0195",
+  "PR0153",
+  "PR0051",
+  "PR0151",
+  "PR0037",
+  "PR0161",
+  "PR0198",
+  "PR0097",
+  "PR0104"
+ ],
+ "retrieved_ids": [
+  "PR0050",
+  "PR0159"
+ ],
+ "proposed_shortlist": [
+  "PR0050",
+  "PR0159"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0050"
+ ],
+ "reflection_note": "The initial shortlist was excellent, but since both programs are highly constrained by budget and location, I recommend keeping only the single best option (PR0050). While PR0159 is good, PR0050 offers a better salary projection and its IT Operations/QA focus aligns slightly better with modern tech support roles that often involve process improvement and quality assurance.",
+ "explanation": "Tejas Institute of Technology\nThis program was recommended because it is located in your preferred city of Hyderabad and directly aligns with your career goal by focusing on IT Support and QA Testing. The annual tuition fee of $1,150 USD is significantly below your maximum budget constraint of $9,700, making it highly affordable. Furthermore, the 69% placement rate addresses your high employability priority, offering a median starting salary of $7,474 USD. The main trade-off to consider is that the program offers zero months of post-study work visa support, which limits international mobility compared to other options.",
+ "wall_s": 142.3
+}

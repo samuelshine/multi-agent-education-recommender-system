@@ -1,0 +1,101 @@
+{
+ "student_id": "ST0013",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 75.6
+    },
+    "career_goal": "Systems Analyst",
+    "budget_max_usd_per_year": 4400,
+    "location_preference": null,
+    "mobility": "open_domestic",
+    "employability_priority": null,
+    "other_constraints": [
+     "Interested in Management and security"
+    ],
+    "uncertainty_notes": [
+     "Location preference not specified.",
+     "Employability priority not specified."
+    ]
+   },
+   "final_shortlist": [
+    "PR0176",
+    "PR0164",
+    "PR0101",
+    "PR0060"
+   ],
+   "feedback": null
+  },
+  {
+   "session": 2,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 75.6
+    },
+    "career_goal": "Systems Analyst",
+    "budget_max_usd_per_year": 4400,
+    "location_preference": "Pune",
+    "mobility": "prefers_region",
+    "employability_priority": null,
+    "other_constraints": [
+     "Interested in Management and security"
+    ],
+    "uncertainty_notes": [
+     "Employability priority not specified."
+    ]
+   },
+   "final_shortlist": [
+    "PR0078",
+    "PR0092",
+    "PR0172",
+    "PR0176",
+    "PR0130"
+   ],
+   "feedback": {
+    "liked": [
+     "PR0176",
+     "PR0164"
+    ],
+    "disliked": []
+   }
+  },
+  {
+   "session": 3,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 75.6
+    },
+    "career_goal": "Systems Analyst",
+    "budget_max_usd_per_year": 4400,
+    "location_preference": "Pune",
+    "mobility": "prefers_region",
+    "employability_priority": null,
+    "other_constraints": [
+     "Interested in Management and security"
+    ],
+    "uncertainty_notes": [
+     "Employability priority not specified."
+    ]
+   },
+   "final_shortlist": [
+    "PR0078",
+    "PR0172",
+    "PR0092",
+    "PR0130",
+    "PR0157"
+   ],
+   "feedback": {
+    "liked": [
+     "PR0078",
+     "PR0092"
+    ],
+    "disliked": []
+   }
+  }
+ ]
+}

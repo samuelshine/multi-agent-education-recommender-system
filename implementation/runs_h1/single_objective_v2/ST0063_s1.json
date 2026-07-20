@@ -1,0 +1,75 @@
+{
+ "student_id": "ST0063",
+ "session": 1,
+ "mode": "single_objective",
+ "version": 2,
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 78.9% in an IT/computer-science degree. I'm interested in parallel computing and cloud computing. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 3600 per year. I live in Chennai. I'm open to anywhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 78.9
+  },
+  "career_goal": null,
+  "budget_max_usd_per_year": 3600,
+  "location_preference": null,
+  "mobility": "open_domestic",
+  "employability_priority": "high",
+  "other_constraints": [
+   "r programming certification background",
+   "interested in parallel computing and cloud computing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0186",
+  "PR0197",
+  "PR0043",
+  "PR0147",
+  "PR0096",
+  "PR0199",
+  "PR0118",
+  "PR0121",
+  "PR0148",
+  "PR0016",
+  "PR0102",
+  "PR0180",
+  "PR0162",
+  "PR0112",
+  "PR0159",
+  "PR0032",
+  "PR0184",
+  "PR0165",
+  "PR0117",
+  "PR0198"
+ ],
+ "retrieved_ids": [
+  "PR0186",
+  "PR0147",
+  "PR0165",
+  "PR0180",
+  "PR0032",
+  "PR0197",
+  "PR0148",
+  "PR0112"
+ ],
+ "proposed_shortlist": [
+  "PR0186",
+  "PR0147",
+  "PR0165",
+  "PR0180",
+  "PR0032"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0186",
+  "PR0147",
+  "PR0165",
+  "PR0180",
+  "PR0032"
+ ],
+ "reflection_note": "All programs on the shortlist are valid and meet all hard constraints (budget: max $3600/year; admission: 78.9% >= min_grade_pct). The current ranking reflects a strong balance of academic fit, specialization in cloud/networking, and financial feasibility. No swaps were necessary as the existing five candidates provide excellent coverage.",
+ "explanation": "Halcyon Institute of Technology\nThis program is recommended because it directly addresses your interests in cloud and networking while offering a high placement rate of 83%. With an annual tuition cost of $2050, it remains well within your maximum budget of $3600. The median starting salary of $15192 is the highest among the options, supporting your priority for employability. The main trade-off here is that while the placement rate and salary are excellent, there is no post-study work visa benefit listed.\n\nFairfax Institute of Technology\nThis program aligns strongly with your interest in cloud computing through its dedicated curriculum and boasts a high placement rate of 83%. While the annual tuition of $3200 approaches your budget limit, it provides strong career prospects with a median starting salary of $13015. The primary trade-off is that this program has the highest tuition cost among the top two options while still maintaining excellent employability metrics.\n\nWestbrook Institute of Technology\nThis option was recommended due to its extremely low annual tuition fee of only $550, making it highly budget-friendly. It focuses on networking and cloud computing, matching your interests in parallel and cloud technologies. However, you must weigh the trade-off between this minimal cost and the lowest placement rate (59%) and median starting salary ($7845) among all listed programs.\n\nBraxton Institute of Technology\nThis program offers a good balance of affordability and relevance, with an annual tuition of $1250 that is well under budget. It focuses on networking and cloud computing fields, aligning with your stated interests. The main trade-off is that while the cost is moderate, the placement rate (71%) and median starting salary ($10359) are only average compared to other options.\n\nLongford School of Engineering\nThis program provides a low tuition fee of $1200 and covers both cloud computing and software engineering fields, matching your interests. While it is very affordable, the main trade-off is that its placement rate (61%) and median starting salary ($7871) are among the lowest on this list, potentially conflicting with your high employability priority.",
+ "wall_s": 55.8
+}

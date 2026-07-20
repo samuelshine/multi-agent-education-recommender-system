@@ -1,0 +1,76 @@
+{
+ "student_id": "ST0004",
+ "session": 2,
+ "mode": "no_memory",
+ "version": 1,
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 73.9% in an IT/computer-science degree. I'm interested in hacking and testing. I want to become a Network Security Administrator. My family can afford at most about USD 6000 per year. I live in Pune. I cannot leave my city. About the earlier suggestions: please drop PR0053, PR0114.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 73.9
+  },
+  "career_goal": "Network Security Administrator",
+  "budget_max_usd_per_year": 6000,
+  "location_preference": "Pune",
+  "mobility": "fixed_city",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in hacking and testing"
+  ],
+  "uncertainty_notes": [
+   "No explicit statement on employability priority."
+  ]
+ },
+ "prefilter_ids": [
+  "PR0182",
+  "PR0072",
+  "PR0019",
+  "PR0190",
+  "PR0080",
+  "PR0186",
+  "PR0092",
+  "PR0187",
+  "PR0007",
+  "PR0158",
+  "PR0084",
+  "PR0078",
+  "PR0181",
+  "PR0046",
+  "PR0180",
+  "PR0045",
+  "PR0023",
+  "PR0025",
+  "PR0172",
+  "PR0156"
+ ],
+ "retrieved_ids": [
+  "PR0045",
+  "PR0023",
+  "PR0186",
+  "PR0187",
+  "PR0180",
+  "PR0072",
+  "PR0019",
+  "PR0156"
+ ],
+ "proposed_shortlist": [
+  "PR0045",
+  "PR0023",
+  "PR0186",
+  "PR0187",
+  "PR0180"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0045",
+  "PR0023",
+  "PR0187",
+  "PR0072",
+  "PR0019"
+ ],
+ "reflection_note": "The original shortlist was strong but contained two programs (PR0186, PR0180) that required a CS background, introducing unnecessary risk. I have dropped these and swapped in PR0072 and PR0019. These additions maintain the focus on 'testing' and provide diverse, highly relevant options (Cybersecurity, Systems Admin/Testing, QA Testing). The final list prioritizes programs with low entry barriers, perfect location fit (Pune), and strong alignment with either Network Security or the stated interest in hacking/testing.",
+ "explanation": "Braxton Technical University\nThis program was recommended because its focus on Information Security aligns perfectly with your goal of becoming a Network Security Administrator. The annual tuition of $1450 is well within your budget maximum of $6000, and your 73.9% grade exceeds the minimum requirement of 61%. While this degree offers strong career relevance and a decent median starting salary of $10236, the main trade-off is that it does not offer any post-study work visa months.\n\nSilverline Technical University\nThis option was highlighted because it provides the most budget-friendly path to achieving your goal with its low annual tuition of $650. It offers a dedicated MTech in Cyber Security and meets all your location preferences in Pune, while also being easily accessible given your academic background (min 57% required). The primary trade-off here is that it has the lowest median starting salary ($8376) among the security-focused options on this list.\n\nCavendish University\nThis program was recommended due to its high placement rate of 87% and a strong median starting salary of $12687, making it highly attractive for employability. The tuition is affordable at $1450, and your grade easily surpasses the minimum requirement of 72%. However, the main trade-off is that while it offers excellent general IT skills, its focus on Systems Administration is less specialized toward advanced network security or hacking compared to dedicated cyber programs.\n\nNorthgate Institute of Applied Sciences\nThis program was recommended because its curriculum in Software Quality Engineering directly addresses your stated interest in testing and hacking methodologies. It boasts the highest median starting salary ($13106) and a high placement rate (84%), making it financially appealing. The trade-off is that while the skills are highly valuable, the core focus of QA engineering is slightly tangential to the specific role of Network Security Administrator.\n\nAshford University\nThis program was recommended as an affordable option ($1450 tuition) with a strong placement rate (84%) and a median starting salary of $10285. It provides general software skills that are foundational for any IT career, including security roles. The main trade-off is that its broad focus on Software Engineering does not provide the specialized depth in network security or hacking techniques that you expressed interest in pursuing.",
+ "wall_s": 193.8
+}

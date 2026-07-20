@@ -1,0 +1,32 @@
+{
+ "student_id": "ST0027",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 79.2
+    },
+    "career_goal": null,
+    "budget_max_usd_per_year": 9700,
+    "location_preference": null,
+    "mobility": "open_international",
+    "employability_priority": "high",
+    "other_constraints": [
+     "r programming certification background",
+     "interested in IOT and security"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0195",
+    "PR0194",
+    "PR0021",
+    "PR0153",
+    "PR0042"
+   ],
+   "feedback": null
+  }
+ ]
+}

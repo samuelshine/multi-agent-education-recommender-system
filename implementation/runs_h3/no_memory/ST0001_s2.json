@@ -1,0 +1,71 @@
+{
+ "student_id": "ST0001",
+ "session": 2,
+ "mode": "no_memory",
+ "version": 1,
+ "message": "Hi, I'm a student with a app development certification background. My overall academic average is 75.3% in an IT/computer-science degree. I'm interested in data engineering and testing. I want to become a Web Developer. My family can afford at most about USD 3200 per year. I live in Kolkata. I'm open to going abroad. About the earlier suggestions: I liked PR0058, PR0145.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 75.3
+  },
+  "career_goal": "Web Developer",
+  "budget_max_usd_per_year": 3200,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": "medium",
+  "other_constraints": [
+   "Interested in data engineering and testing.",
+   "Liked PR0058, PR0145."
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0198",
+  "PR0058",
+  "PR0053",
+  "PR0126",
+  "PR0026",
+  "PR0065",
+  "PR0019",
+  "PR0090",
+  "PR0145",
+  "PR0107",
+  "PR0008",
+  "PR0063",
+  "PR0142",
+  "PR0082",
+  "PR0052",
+  "PR0085",
+  "PR0173",
+  "PR0071",
+  "PR0051",
+  "PR0037"
+ ],
+ "retrieved_ids": [
+  "PR0058",
+  "PR0145",
+  "PR0126",
+  "PR0065",
+  "PR0053",
+  "PR0071",
+  "PR0173",
+  "PR0085"
+ ],
+ "proposed_shortlist": [
+  "PR0126",
+  "PR0058",
+  "PR0145"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0126",
+  "PR0053",
+  "PR0071"
+ ],
+ "reflection_note": "The original shortlist was too heavily weighted towards local Indian options (PR0058, PR0145), which fail to capitalize on the student's 'open_international' mobility preference and potential for global career growth. I have kept PR0126 as the primary recommendation due to its superior international value (Germany/Post-Study Visa). I replaced the dropped programs with two strong alternatives: PR0053 (for testing focus) and PR0071 (for data engineering focus). This revised list offers a balanced view: 1) The best international option, 2) A top local alternative for Testing/SE, and 3) A specialized local alternative for Data Engineering. This structure allows the student to weigh 'International Opportunity' vs. 'Local Specialization'.",
+ "explanation": "Ashford Technical University\nThis program was recommended because it aligns perfectly with your interest in both software engineering and data science analytics, while keeping tuition well within your $3200 annual budget at $2050 USD. Admission is suitable as you have a CS background (75.3% grade) and the curriculum offers strong career outcomes, boasting an 18-month post-study work visa and a median starting salary of $23468. The main trade-off here is that while it provides excellent international mobility benefits in Germany, it requires meeting specific academic requirements for admission.\n\nCavendish University\nThis option was selected because its focus on QA testing and software engineering directly addresses your interest in testing and development, all at a very low annual tuition of $1200 USD. It offers the highest placement rate (86%) among the options and is highly affordable, making it an excellent choice for immediate job prospects. The primary trade-off you must consider is that while the local employment opportunities are strong, this program does not provide any post-study work visa support.\n\nLongford Institute of Applied Sciences\nThis program was recommended because it covers both data science analytics and software engineering, fitting your stated interests in these fields while maintaining a low tuition cost of $1300 USD. It is highly budget-friendly and requires no specific CS background for admission. However, the main trade-off is that despite its affordability, this option presents lower career outcomes compared to Cavendish University, with a significantly lower placement rate (58%) and median starting salary ($7837).",
+ "wall_s": 203.6
+}

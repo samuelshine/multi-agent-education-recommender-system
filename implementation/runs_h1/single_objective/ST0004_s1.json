@@ -1,0 +1,70 @@
+{
+ "student_id": "ST0004",
+ "session": 1,
+ "mode": "single_objective",
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 73.9% in an IT/computer-science degree. I'm interested in hacking and testing. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 6000 per year. I live in Pune. I cannot leave my city. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 73.9
+  },
+  "career_goal": "tech (interested in hacking and testing)",
+  "budget_max_usd_per_year": 6000,
+  "location_preference": "Pune",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "information security certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0182",
+  "PR0072",
+  "PR0019",
+  "PR0172",
+  "PR0190",
+  "PR0080",
+  "PR0186",
+  "PR0092",
+  "PR0187",
+  "PR0007",
+  "PR0158",
+  "PR0084",
+  "PR0078",
+  "PR0181",
+  "PR0046",
+  "PR0180",
+  "PR0045",
+  "PR0023",
+  "PR0025",
+  "PR0156"
+ ],
+ "retrieved_ids": [
+  "PR0045",
+  "PR0023",
+  "PR0182",
+  "PR0072",
+  "PR0190",
+  "PR0187",
+  "PR0158"
+ ],
+ "proposed_shortlist": [
+  "PR0045",
+  "PR0023",
+  "PR0182",
+  "PR0187"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0045",
+  "PR0023",
+  "PR0190",
+  "PR0072"
+ ],
+ "reflection_note": "The original shortlist was good but included PR0182, which has a minimum grade requirement (75%) that is too high for the student's 73.9%. I dropped it and swapped in two better alternatives: PR0190 (lowest barrier to entry QA) and PR0072 (stronger overall option for QA). The final list prioritizes InfoSec/Cybersecurity (PR0045, PR0023) as the primary focus, followed by the most feasible and relevant QA options.",
+ "explanation": "Braxton Technical University\nThis program is highly recommended because its focus on Information Security directly aligns with your interest in hacking and testing, while also building upon your existing information security background. It is located in Pune and has a low annual tuition of $1450, which fits well within your budget constraint. The placement rate of 71% and median starting salary of $10236 suggest strong employability outcomes for your career goal. The main trade-off here is that the post-study work visa duration is zero months.\n\nSilverline Technical University\nThis MTech Cyber Security program is an excellent, budget-friendly option that directly matches your interest in hacking and testing within Pune. With a very low annual tuition of $650, it keeps you well under your maximum budget constraint. While the placement rate (70%) and median starting salary ($8376) are solid for employability, the trade-off is that this option offers the lowest potential earning power among all recommended cybersecurity programs.\n\nKestrel School of Engineering\nThis program addresses your interest in testing through its focus on Software Quality Engineering (QA). It maintains a low annual tuition of $1250 and meets your location preference in Pune. However, while it fits your budget, the main trade-off is that its placement rate (64%) and median starting salary ($7265) are lower compared to other available options for both cybersecurity and QA testing.\n\nNorthgate Institute of Applied Sciences\nThis program is recommended because it offers a strong combination of high employability metrics while still focusing on your interest in testing through Software Quality Engineering. It boasts the highest placement rate (84%) and median starting salary ($13106) among all listed options, which supports your priority for high employability. The main trade-off to consider is that its annual tuition of $2400 is higher than other QA or cybersecurity programs on this list.",
+ "wall_s": 91.1
+}

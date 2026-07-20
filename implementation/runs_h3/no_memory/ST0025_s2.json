@@ -1,0 +1,71 @@
+{
+ "student_id": "ST0025",
+ "session": 2,
+ "mode": "no_memory",
+ "version": 1,
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 81% in an IT/computer-science degree. I'm interested in networks and developer. I want to become a Software Engineer. My family can afford at most about USD 4400 per year. I live in Kolkata. I'm open to going abroad. About the earlier suggestions: I liked PR0186, PR0043.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 81
+  },
+  "career_goal": "Software Engineer",
+  "budget_max_usd_per_year": 4400,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in networks and developer"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0037",
+  "PR0161",
+  "PR0198",
+  "PR0144",
+  "PR0194",
+  "PR0186",
+  "PR0058",
+  "PR0039",
+  "PR0053",
+  "PR0038",
+  "PR0158",
+  "PR0043",
+  "PR0126",
+  "PR0109",
+  "PR0026",
+  "PR0076",
+  "PR0012",
+  "PR0065",
+  "PR0019",
+  "PR0167"
+ ],
+ "retrieved_ids": [
+  "PR0037",
+  "PR0194",
+  "PR0126",
+  "PR0038",
+  "PR0186",
+  "PR0167",
+  "PR0043",
+  "PR0109"
+ ],
+ "proposed_shortlist": [
+  "PR0194",
+  "PR0037",
+  "PR0126"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0037",
+  "PR0194",
+  "PR0186",
+  "PR0038"
+ ],
+ "reflection_note": "The original shortlist was strong but included PR0126, which is slightly off-topic. I dropped it and swapped in two superior alternatives: PR0186 (India) for direct network focus, and PR0038 (Germany) as a highly affordable SE option. The final list prioritizes German options with excellent career prospects (PR0037, PR0194) while adding the best pure networking match (PR0186) and a budget-friendly German alternative (PR0038). This provides maximum choice across different cost/focus profiles.",
+ "explanation": "Tejas School of Engineering\nThis program is highly recommended because it aligns perfectly with your goal of becoming a Software Engineer and keeps tuition well within your $4400 budget at $2650. It offers strong career prospects, boasting a 72% placement rate and providing an excellent post-study work visa for 18 months in Germany. The main trade-off here is that while the salary ($34,339) is high, it is slightly more expensive than some other options on this list.\n\nAravalli School of Engineering\nThis program is ideal because its curriculum directly addresses your interest in both networks and development through \"MSc Cloud Computing,\" and the tuition ($1950) is very budget-friendly. It maintains a strong international appeal by offering an 18-month post-study work visa in Germany, which supports your open mobility preference. The primary trade-off to consider is that its placement rate (67%) is slightly lower than some of the other options provided.\n\nHalcyon Institute of Technology\nThis option was recommended due to its very high placement rate of 83% and low tuition cost ($2050). Since you are interested in networks, this MTech program is a strong fit for your technical background. However, the main trade-off is that while it offers excellent local job prospects, it does not provide any post-study work visa months (0), limiting international mobility compared to the German options.\n\nHalcyon Technical University\nThis university provides an extremely low tuition cost of $1200, making it highly budget-friendly while still offering a valuable 18-month post-study work visa in Germany. The program focuses purely on Software Engineering and is suitable for your CS background. The main trade-off you should be aware of is that its median starting salary ($22,356) is lower than the other international options listed.",
+ "wall_s": 228.5
+}

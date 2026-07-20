@@ -1,0 +1,70 @@
+{
+ "student_id": "ST0034",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 74.6% in an IT/computer-science degree. I'm interested in hacking and Business process analyst. I want to become a Database Manager. My family can afford at most about USD 2400 per year. I live in Pune. I'm open to anywhere in India.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 74.6
+  },
+  "career_goal": "Database Manager",
+  "budget_max_usd_per_year": 2400,
+  "location_preference": "Pune",
+  "mobility": "prefers_region",
+  "employability_priority": null,
+  "other_constraints": [
+   "interested in hacking",
+   "interested in Business process analyst"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0033",
+  "PR0074",
+  "PR0087",
+  "PR0101",
+  "PR0143",
+  "PR0058",
+  "PR0007",
+  "PR0054",
+  "PR0120",
+  "PR0170",
+  "PR0015",
+  "PR0020",
+  "PR0145",
+  "PR0157",
+  "PR0107",
+  "PR0047",
+  "PR0111",
+  "PR0134",
+  "PR0172",
+  "PR0129"
+ ],
+ "retrieved_ids": [
+  "PR0172",
+  "PR0007",
+  "PR0134",
+  "PR0157",
+  "PR0101",
+  "PR0058",
+  "PR0145"
+ ],
+ "proposed_shortlist": [
+  "PR0172",
+  "PR0007",
+  "PR0134"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0007",
+  "PR0157",
+  "PR0101",
+  "PR0145"
+ ],
+ "reflection_note": "The initial shortlist was heavily biased towards PR0007, which is excellent. However, by dropping PR0134 due to location mismatch and keeping PR0172 despite its general focus, we missed valuable alternatives. The revised strategy prioritizes the Pune option (PR0007) as the top choice, but expands the list with high-value, budget-friendly, or highly employable options from Coimbatore (PR0157, PR0101). I also swapped in PR0145 because it is a strong technical alternative to PR0007 and remains within acceptable salary/budget parameters, providing more choice without compromising quality.",
+ "explanation": "Ashford Institute of Technology\nThis program is highly recommended because it is located in Pune, matching your location preference, and the annual tuition of $2350 fits within your budget. The MSc Big Data Analytics degree directly supports a career goal like Database Manager by focusing on data science analytics, and you meet the minimum grade requirement (74.6% vs 70%). There is no major trade-off here as it aligns perfectly with both location and academic background.\n\nLongford University\nThis program is an excellent fit for your interest in Business Process Analysis while remaining well under budget at $800 annually. The MSc IT Management curriculum focuses on business information systems, which complements a Database Manager role without requiring a specific CS background. The main trade-off to consider is that the median starting salary of $10,444 is lower compared to some other options on your list.\n\nBraxton Institute of Applied Sciences\nThis program aligns strongly with both your career goal and interest in Business Process Analysis through its focus on business information systems. While located in Coimbatore, it remains within your preferred region, and the tuition cost of $2400 uses your entire annual budget limit. Since this degree does not require a CS background, it offers flexibility while providing highly relevant knowledge for managing data within a business context.\n\nSilverline Technical University\nThis MTech program is technically robust, appealing to your interest in hacking through its focus on software engineering and data science analytics. You meet the minimum grade requirement, and the tuition of $2300 keeps you under budget. The main trade-off here is that while it provides strong technical depth for a Database Manager role, its heavy emphasis on core computer science might be less focused on the business process side compared to other options.",
+ "wall_s": 199.2
+}

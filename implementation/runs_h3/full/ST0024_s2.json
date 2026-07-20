@@ -1,0 +1,74 @@
+{
+ "student_id": "ST0024",
+ "session": 2,
+ "mode": "full",
+ "version": 1,
+ "message": "Hi, I'm a student with a hadoop certification background. My overall academic average is 76.1% in an IT/computer-science degree. I'm interested in hacking and developer. I want to become a Applications Developer. My family can afford at most about USD 4800 per year. I live in Bengaluru. I'd strongly prefer to stay near home, though I might consider elsewhere in India. About the earlier suggestions: I liked PR0058, PR0186 but please drop PR0029.",
+ "memory_used": true,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 76.1
+  },
+  "career_goal": "Applications Developer",
+  "budget_max_usd_per_year": 4800,
+  "location_preference": "Bengaluru",
+  "mobility": "prefers_region",
+  "employability_priority": null,
+  "other_constraints": [
+   "hadoop certification background",
+   "interested in hacking and developer"
+  ],
+  "uncertainty_notes": [
+   "Employability priority not specified."
+  ]
+ },
+ "prefilter_ids": [
+  "PR0198",
+  "PR0144",
+  "PR0139",
+  "PR0164",
+  "PR0029",
+  "PR0022",
+  "PR0182",
+  "PR0060",
+  "PR0191",
+  "PR0119",
+  "PR0101",
+  "PR0143",
+  "PR0186",
+  "PR0176",
+  "PR0058",
+  "PR0149",
+  "PR0092",
+  "PR0187",
+  "PR0039",
+  "PR0174"
+ ],
+ "retrieved_ids": [
+  "PR0198",
+  "PR0186",
+  "PR0174",
+  "PR0139",
+  "PR0182",
+  "PR0039",
+  "PR0143",
+  "PR0191"
+ ],
+ "proposed_shortlist": [
+  "PR0186",
+  "PR0198",
+  "PR0139"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0186",
+  "PR0198",
+  "PR0174",
+  "PR0182"
+ ],
+ "reflection_note": "The original shortlist was good but included a program (PR0139) with poor location fit and limited scope. I dropped PR0139 and swapped in two superior alternatives: PR0174 (better HCI focus, low cost) and PR0182 (low-cost QA option in Pune). The final list prioritizes Bengaluru/Pune locations while maintaining strong academic relevance and financial feasibility. The student should be advised that PR0198 is the top choice due to location and placement rate, followed closely by PR0186 for its technical depth and low cost.",
+ "explanation": "**Northgate Institute of Technology**\nThis program was recommended because it is located in Bengaluru, matching your stated location preference, and its focus on Software Engineering aligns well with your goal as an Applications Developer. The annual tuition of $3500 remains within your maximum budget of $4800 USD per year. While the minimum grade requirement (80%) is slightly higher than your current 76.1%, this program offers a high placement rate of 95% and the highest median starting salary ($21,062) among the shortlisted options. The main trade-off here is accepting a location that requires you to consider a grade gap relative to the minimum requirement.\n\n**Halcyon Institute of Technology**\nThis MTech program was recommended because its focus on Computer Networks and Software Engineering directly utilizes your IT/computer science background, which is required for admission. With an annual tuition of $2050, it fits comfortably within your budget while offering a strong placement rate of 83% and a median starting salary of $15,192. The primary trade-off is that the institution is located in Pune, which does not match your stated preference for Bengaluru.\n\n**Halcyon Institute of Applied Sciences**\nThis program was recommended due to its low annual tuition cost of $1900 and a minimum grade requirement (71%) that you meet with your 76.1% background. While the curriculum focuses on design/HCI, which is valuable for developers, it offers the lowest median starting salary ($14,141) among all options. The main trade-off to consider is that this program's focus (design_hci) may be less aligned with your interest in core development or hacking compared to other software engineering tracks.\n\n**Keystone Technical University**\nThis option was recommended because its annual tuition of $1950 keeps it well within your budget, and the minimum grade requirement (75%) is met by your 76.1% background. It offers a high placement rate of 91%, which suggests strong employability in the field. The main trade-off to consider is that its focus on QA Testing might be less directly aligned with an Applications Developer role compared to programs emphasizing core software engineering, and it is located in Pune rather than your preferred Bengaluru region.",
+ "wall_s": 222.9
+}

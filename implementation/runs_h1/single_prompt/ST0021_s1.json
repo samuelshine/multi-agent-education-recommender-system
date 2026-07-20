@@ -1,0 +1,54 @@
+{
+ "student_id": "ST0021",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 73.3% in an IT/computer-science degree. I'm interested in parallel computing and Business process analyst. I want to become a Technical Engineer. My family can afford at most about USD 1400 per year. I live in Kolkata. I'm open to anywhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 73.3
+  },
+  "career_goal": "Technical Engineer (interested in parallel computing and Business process analyst)",
+  "budget_max_usd_per_year": 1400,
+  "location_preference": null,
+  "mobility": "open_domestic",
+  "employability_priority": "high",
+  "other_constraints": [
+   "r programming certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0015",
+  "PR0020",
+  "PR0157",
+  "PR0074",
+  "PR0087",
+  "PR0119",
+  "PR0058",
+  "PR0187",
+  "PR0053",
+  "PR0109",
+  "PR0076",
+  "PR0012",
+  "PR0019",
+  "PR0114",
+  "PR0185",
+  "PR0130",
+  "PR0084",
+  "PR0120",
+  "PR0170",
+  "PR0073"
+ ],
+ "final_shortlist": [
+  "PR0119",
+  "PR0053",
+  "PR0187",
+  "PR0076",
+  "PR0130"
+ ],
+ "explanation": "This program offers the highest median starting salary among all options and has a strong placement rate (86%), directly addressing your priority of securing a good job. While focused on QA testing, it is highly technical and suitable for someone with an IT background.\n\nLocated in Kolkata, this program offers excellent placement (86%) and a high median salary. The focus on Software Quality Engineering aligns well with technical roles and is highly relevant for career growth.\n\nThis PG Diploma in Systems Administration provides a strong blend of IT support skills and has an excellent placement rate (87%) and high median salary. It is a practical choice that fits your technical engineering goal.\n\nThis MBA Technology Management program combines IT management with software engineering, directly addressing both your interest in business analysis and technical roles. It has a high median salary and is affordable.\n\nThis MSc IT Management program is highly relevant to Business Process Analyst goals while remaining within budget (USD 1000). It offers a good balance of management and technical skills for career transition.",
+ "wall_s": 43.4
+}

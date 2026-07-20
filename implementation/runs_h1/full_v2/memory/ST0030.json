@@ -1,0 +1,31 @@
+{
+ "student_id": "ST0030",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 77.1
+    },
+    "career_goal": "Design & UX",
+    "budget_max_usd_per_year": 4900,
+    "location_preference": "Chennai",
+    "mobility": "fixed_city",
+    "employability_priority": "high",
+    "other_constraints": [
+     "Interested in parallel computing and security"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0162",
+    "PR0197",
+    "PR0171",
+    "PR0191",
+    "PR0059"
+   ],
+   "feedback": null
+  }
+ ]
+}

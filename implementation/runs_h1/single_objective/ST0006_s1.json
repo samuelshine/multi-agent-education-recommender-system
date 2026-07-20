@@ -1,0 +1,71 @@
+{
+ "student_id": "ST0006",
+ "session": 1,
+ "mode": "single_objective",
+ "message": "Hi, I'm a student with a machine learning certification background. My overall academic average is 70% in an IT/computer-science degree. I'm interested in parallel computing and system developer. I want to become a Information Security Analyst. My family can afford at most about USD 1300 per year. I live in Hyderabad. I'm open to anywhere in India.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 70
+  },
+  "career_goal": "Information Security Analyst",
+  "budget_max_usd_per_year": 1300,
+  "location_preference": null,
+  "mobility": "open_domestic",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in parallel computing and system developer roles"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0015",
+  "PR0020",
+  "PR0157",
+  "PR0074",
+  "PR0087",
+  "PR0119",
+  "PR0058",
+  "PR0187",
+  "PR0053",
+  "PR0109",
+  "PR0076",
+  "PR0012",
+  "PR0019",
+  "PR0114",
+  "PR0185",
+  "PR0130",
+  "PR0084",
+  "PR0120",
+  "PR0170",
+  "PR0073"
+ ],
+ "retrieved_ids": [
+  "PR0185",
+  "PR0073",
+  "PR0119",
+  "PR0053",
+  "PR0114",
+  "PR0130",
+  "PR0087",
+  "PR0120"
+ ],
+ "proposed_shortlist": [
+  "PR0185",
+  "PR0073",
+  "PR0053",
+  "PR0119"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0185",
+  "PR0053",
+  "PR0114",
+  "PR0130"
+ ],
+ "reflection_note": "The original shortlist was heavily weighted towards InfoSec (PR0185, PR0073) and QA/SE (PR0053, PR0119). I dropped PR0073 due to the borderline admission risk. I dropped PR0119 because its focus is too narrow (QA testing only).\n\nI swapped in two superior options: PR0114 (MSc Software Quality Engineering) and PR0130 (MSc IT Management). PR0114 is a direct, cheaper alternative to PR0053, making it the primary SE recommendation. PR0130 provides a low-risk, highly affordable backup option.\n\nThe final list prioritizes: 1) Direct InfoSec fit (PR0185), 2) Strong SE/System Dev fit (PR0053/PR0114), and 3) Low-risk alternative (PR0130). The ranking reflects the student's primary goal (InfoSec Analyst) first, followed by their secondary interest (System Developer).",
+ "explanation": "Longford Institute of Technology\nThis program is highly recommended because its focus on \"MSc Information Security\" directly aligns with your stated career goal of becoming an Information Security Analyst, and it also covers software engineering. The annual tuition of $1150 USD fits comfortably within your maximum budget of $1300 USD per year, and your 70% grade exceeds the minimum requirement of 62%. The main trade-off here is that while the curriculum is perfect for your goal, there are no post-study work visa options listed.\n\nCavendish University\nThis option was recommended because it offers a strong balance between high employability and meeting your academic requirements. With an annual tuition of $1200 USD, it stays within budget, and your 70% grade meets the minimum admission requirement exactly. While the program focuses on Software Quality Engineering (QA testing), this field is closely related to system development roles you are interested in. The trade-off is that its focus is more on quality assurance rather than deep information security or parallel computing concepts.\n\nCrestwood School of Engineering\nThis program represents the most budget-friendly option, with an annual tuition cost of only $850 USD, which is well below your maximum limit. It also has a low minimum grade requirement (60%), making admission straightforward given your 70% academic background. The main trade-off is that its focus is narrowly defined on QA testing and does not directly address the Information Security Analyst role or advanced system development interests you expressed.\n\nElmhurst School of Engineering\nThis program is recommended primarily because it has a low annual tuition cost of $1000 USD, keeping it well within your budget constraints. Furthermore, its minimum grade requirement (62%) is easily met by your 70% academic background. However, the main trade-off is that this MSc IT Management curriculum focuses heavily on business and management rather than the technical system development or core security skills needed for your desired career path.",
+ "wall_s": 107.7
+}

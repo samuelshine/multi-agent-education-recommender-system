@@ -1,0 +1,69 @@
+{
+ "student_id": "ST0038",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a machine learning certification background. My overall academic average is 77.9% in an IT/computer-science degree. I'm interested in IOT and Business process analyst. I want to become a Network Security Engineer. My family can afford at most about USD 4500 per year. I live in Hyderabad. I cannot leave my city. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 77.9
+  },
+  "career_goal": "Network Security Engineer",
+  "budget_max_usd_per_year": 4500,
+  "location_preference": "Hyderabad",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in IOT",
+   "Interested in Business process analyst"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0074",
+  "PR0119",
+  "PR0176",
+  "PR0026",
+  "PR0076",
+  "PR0096",
+  "PR0167",
+  "PR0130",
+  "PR0113",
+  "PR0196",
+  "PR0111",
+  "PR0050",
+  "PR0159",
+  "PR0142"
+ ],
+ "retrieved_ids": [
+  "PR0096",
+  "PR0167",
+  "PR0074",
+  "PR0176",
+  "PR0130",
+  "PR0076",
+  "PR0119",
+  "PR0196"
+ ],
+ "proposed_shortlist": [
+  "PR0167",
+  "PR0096",
+  "PR0196",
+  "PR0076",
+  "PR0130"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0167",
+  "PR0096",
+  "PR0176",
+  "PR0196",
+  "PR0130"
+ ],
+ "reflection_note": "The original list was strong, but PR0176 (MBA Technology Management) is a significantly better option than the originally ranked PR0076 or PR0130 for balancing the 'Business process analyst' interest with high employability and technical relevance. I swapped in PR0176 to replace PR0076 because it offers superior career alignment while maintaining feasibility. The final list prioritizes specialized cybersecurity (PR0167, PR0096), followed by a strong management/business track (PR0176), a core technical fallback (PR0196), and finally the broad IT Management option (PR0130). All selected programs meet the budget, location, and academic requirements.",
+ "explanation": "Charnock Institute of Technology\nThis MTech Cyber Security program is highly recommended because it directly aligns with your goal of becoming a Network Security Engineer and is located in Hyderabad. The annual tuition of $2450 USD fits well within your budget, and the minimum required grade percentage (69%) is easily met by your 77.9% academic background. While this program provides excellent specialization for cybersecurity, the main trade-off is that it does not explicitly cover your interests in IoT or Business Process Analysis.\n\nAshford Institute of Applied Sciences\nThis MTech Computer Networks program is an excellent fit as it focuses on both Cybersecurity and Networking/Cloud, which are core components of a Network Security Engineer role. The tuition of $3350 USD remains under your maximum budget, and the placement rate of 80% suggests strong employability in Hyderabad. The trade-off here is that while it requires a CS background (which you possess), its curriculum might be less broad than an IT Management degree if you wished to focus more on business processes.\n\nCrestwood University\nThis MBA Technology Management program is recommended because it offers the highest median starting salary ($15,400 USD) and placement rate (82%) among all options, making it ideal for your high employability priority. The tuition of $1900 USD is very budget-friendly, and its focus on IT management aligns with your interest in Business Process Analysis. However, the main trade-off is that this degree is not technically specialized enough to directly prepare you for a Network Security Engineer role.\n\nElmhurst Institute of Applied Sciences\nThis MTech Computer Science program provides a solid technical foundation suitable for an engineering career path and meets your requirement for a CS background. With a low tuition cost of $1650 USD, it is highly budget-friendly and located in Hyderabad. The main trade-off to consider is that its placement rate (70%) and median starting salary ($10,817 USD) are the lowest among the shortlisted options for your career goal.\n\nElmhurst School of Engineering\nThis MSc IT Management program is recommended due to its very low tuition cost of $1000 USD and its focus on IT management, which aligns with your interest in Business Process Analysis. It also meets all location requirements within Hyderabad while keeping you well under budget. The primary trade-off is that this degree is less specialized for the technical demands of a Network Security Engineer compared to the MTech options.",
+ "wall_s": 134.5
+}

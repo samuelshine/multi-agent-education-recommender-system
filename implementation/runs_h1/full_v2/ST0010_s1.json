@@ -1,0 +1,60 @@
+{
+ "student_id": "ST0010",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a full stack certification background. My overall academic average is 79.2% in an IT/computer-science degree. I'm interested in programming and cloud computing. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 2700 per year. I live in Bengaluru. I cannot leave my city. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 79.2
+  },
+  "career_goal": null,
+  "budget_max_usd_per_year": 2700,
+  "location_preference": "Bengaluru",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in programming and cloud computing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0015",
+  "PR0073",
+  "PR0002",
+  "PR0013",
+  "PR0085",
+  "PR0173",
+  "PR0087"
+ ],
+ "retrieved_ids": [
+  "PR0073",
+  "PR0173",
+  "PR0085",
+  "PR0015",
+  "PR0087",
+  "PR0002",
+  "PR0013"
+ ],
+ "proposed_shortlist": [
+  "PR0073",
+  "PR0087",
+  "PR0173",
+  "PR0085",
+  "PR0015"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0073",
+  "PR0087",
+  "PR0002",
+  "PR0085",
+  "PR0015"
+ ],
+ "reflection_note": "The initial shortlist was strong but included PR0173, which had a notably low placement rate (62%), contradicting the student's high priority for employability. This program was dropped. To maintain 5 slots, PR0002 (MSc IT Operations) was swapped in. PR0002 provides excellent salary potential and is highly relevant to general IT/programming needs while meeting all hard constraints (budget: $1700 < $2700; location: Bengaluru). The final list prioritizes specialized, high-employability options that align with the student's CS background and interest in programming/cloud.",
+ "explanation": "Elmhurst Technical University\nThis program is recommended because it aligns strongly with your interest in technical fields by focusing on Cybersecurity. You meet the admission requirement of a CS background and your 79.2% grade exceeds the minimum 65% required. It offers a high placement rate of 80%, which addresses your priority for employability, and the annual tuition of $1250 is well within your budget. The main trade-off here is that while cybersecurity is highly technical, it does not specifically emphasize cloud computing or general programming skills as much as some other options.\n\nAravalli Technical University\nThis program offers a low annual tuition of $1200 and covers Data Science Analytics, which utilizes programming concepts relevant to your interests. You meet the minimum grade requirement of 52% and are located in Bengaluru. However, while the cost is excellent, the main trade-off is that its placement rate of 58% and median starting salary of $6767 are among the lowest on this list, potentially conflicting with your high employability priority.\n\nCharnock Technical University\nThis option was recommended due to its strong financial outcomes, boasting a median starting salary of $11419 and a solid placement rate of 73%. The annual tuition of $1700 remains within your budget, and you meet the minimum grade requirement of 62%. The main trade-off is that while it offers excellent job prospects, its focus on IT Support may be less specialized in advanced programming or cloud computing compared to other options.\n\nKeystone Institute of Applied Sciences\nThis program directly relates to software engineering, which aligns with your interest in programming. It has a low tuition cost of $1450 and you meet the minimum grade requirement of 54%. The main trade-off is that despite being technically relevant, this option presents lower financial outcomes compared to others, featuring the lowest median starting salary ($6488) and placement rate (63%) on the shortlist.\n\nKeystone Institute of Technology\nThis program provides a strong balance of cost and career potential, with an annual tuition of $1200 and a high placement rate of 78%. You meet the minimum grade requirement of 61%, and it offers a respectable median starting salary of $9707. The main trade-off is that its focus on Business Information Systems means it emphasizes business processes more than deep technical skills like cloud computing or advanced programming.",
+ "wall_s": 166.8
+}

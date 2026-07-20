@@ -1,0 +1,71 @@
+{
+ "student_id": "ST0012",
+ "session": 1,
+ "mode": "single_objective",
+ "message": "Hi, I'm a student with a distro making certification background. My overall academic average is 82.9% in an IT/computer-science degree. I'm interested in Management and testing. I want to become a Information Technology Auditor. My family can afford at most about USD 11300 per year. I live in Chennai. I'm open to anywhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 82.9
+  },
+  "career_goal": "Information Technology Auditor",
+  "budget_max_usd_per_year": 11300,
+  "location_preference": "Chennai",
+  "mobility": "open_domestic",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in Management and testing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0157",
+  "PR0172",
+  "PR0198",
+  "PR0139",
+  "PR0164",
+  "PR0182",
+  "PR0060",
+  "PR0191",
+  "PR0119",
+  "PR0101",
+  "PR0176",
+  "PR0092",
+  "PR0053",
+  "PR0189",
+  "PR0072",
+  "PR0054",
+  "PR0076",
+  "PR0105",
+  "PR0065",
+  "PR0019"
+ ],
+ "retrieved_ids": [
+  "PR0191",
+  "PR0157",
+  "PR0172",
+  "PR0164",
+  "PR0182",
+  "PR0076",
+  "PR0176",
+  "PR0139"
+ ],
+ "proposed_shortlist": [
+  "PR0182",
+  "PR0157",
+  "PR0172",
+  "PR0076",
+  "PR0164"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0191",
+  "PR0076",
+  "PR0139"
+ ],
+ "reflection_note": "The original shortlist contained multiple location violations (Pune, Coimbatore, Delhi) against the student's strong preference for Chennai. I dropped all programs that failed this hard constraint. PR0182 and PR0157 were dropped due to location mismatch. PR0164 was also dropped for location and lack of testing focus. The remaining program, PR0076 (Hyderabad), is kept as the best compromise option. Two new candidates were swapped in: PR0191 (Chennai) is a perfect fit and takes rank 1. PR0139 (Delhi) is highly specialized in QA Testing, addressing a key interest area, and is included as a strong alternative despite the location mismatch, providing maximum choice to the student.",
+ "explanation": "Sarayu Technical University\nThis program was recommended because it is located in Chennai, matching your location preference, and its annual tuition of $3250 fits well within your budget. The MTech Data Engineering curriculum covers fields like Business Information Systems, which aligns with both IT auditing and management interests. It offers a strong placement rate of 84% and a median starting salary of $15951, addressing your high employability priority. The main trade-off here is that the focus is on data engineering rather than pure quality assurance or management.\n\nSarayu Institute of Technology\nThis MBA program was suggested because its focus on IT Management directly addresses your interest in management while utilizing your existing IT background. It has a very low annual tuition cost of $1250, making it highly budget-friendly. However, the main trade-off is that this option requires relocating to Hyderabad, which does not match your Chennai preference, and offers the lowest median starting salary at $13142.\n\nQuilon University\nThis MSc program was recommended because its focus on QA Testing perfectly aligns with both your stated interest in testing and the core functions of an IT Auditor. It boasts the highest placement rate (89%) and the best median starting salary ($20639) among the options, satisfying your high employability priority. The primary trade-off is that this program requires relocating to Delhi, which differs from your preferred location in Chennai.",
+ "wall_s": 114.3
+}

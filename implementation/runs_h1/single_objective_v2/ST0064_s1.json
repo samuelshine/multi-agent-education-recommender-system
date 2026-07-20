@@ -1,0 +1,68 @@
+{
+ "student_id": "ST0064",
+ "session": 1,
+ "mode": "single_objective",
+ "version": 2,
+ "message": "Hi, I'm a student with a full stack certification background. My overall academic average is 74.8% in an IT/computer-science degree. I'm interested in Management and system developer. I want to become a Information Technology Auditor. My family can afford at most about USD 6700 per year. I live in Delhi. I'm open to anywhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [
+  "reflect"
+ ],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 74.8
+  },
+  "career_goal": "Information Technology Auditor",
+  "budget_max_usd_per_year": 6700,
+  "location_preference": "Delhi",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in Management and system developer roles"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0157",
+  "PR0172",
+  "PR0164",
+  "PR0060",
+  "PR0191",
+  "PR0101",
+  "PR0176",
+  "PR0092",
+  "PR0189",
+  "PR0054",
+  "PR0076",
+  "PR0105",
+  "PR0130",
+  "PR0015",
+  "PR0020",
+  "PR0078",
+  "PR0033",
+  "PR0150",
+  "PR0047",
+  "PR0160"
+ ],
+ "retrieved_ids": [
+  "PR0164",
+  "PR0020",
+  "PR0160"
+ ],
+ "proposed_shortlist": [
+  "PR0164",
+  "PR0160",
+  "PR0020"
+ ],
+ "guard_dropped": [],
+ "backfilled": [],
+ "final_shortlist": [
+  "PR0164",
+  "PR0160",
+  "PR0020"
+ ],
+ "reflection_note": "reflect fallback: kept proposal",
+ "explanation": "Northgate School of Engineering\nThis MBA Technology Management program is recommended because it offers a high placement rate of 90% and a strong median starting salary of $17,361, aligning well with your goal of high employability. The annual tuition of $2,050 fits comfortably within your maximum budget of $6,700, and the location is in Delhi as preferred. However, you should note that your current grade percentage (74.8%) falls below the minimum required grade of 79%, representing a significant admission constraint.\n\nKeystone Technical University\nThis MBA Technology Management program provides a strong option with an annual tuition of $2,050, which is well within your budget and located in Delhi. Admission requirements are favorable, as your academic background meets the minimum grade percentage of 60%. The main trade-off here is that while the placement rate is solid at 71%, the median starting salary ($8,900) is lower compared to other options on this list.\n\nStanmore Institute of Applied Sciences\nThis MBA Business Analytics program is recommended because it offers the lowest tuition cost at $1,450 and provides a relevant field (Business Information Systems) that aligns with both IT auditing and system development interests. Your academic background easily meets the minimum grade requirement of 60%, and the location is in Delhi. The primary trade-off is that its placement rate (76%) and median starting salary ($10,648) are moderate compared to Northgate School of Engineering.",
+ "wall_s": 81.0
+}

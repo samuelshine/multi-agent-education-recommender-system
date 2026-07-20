@@ -1,0 +1,74 @@
+{
+ "student_id": "ST0016",
+ "session": 2,
+ "mode": "full",
+ "version": 1,
+ "message": "Hi, I'm a student with a full stack certification background. My overall academic average is 76.2% in an IT/computer-science degree. I'm interested in programming and system developer. I want to become a Technical Engineer. My family can afford at most about USD 4000 per year. I live in Mumbai. I'm open to going abroad. About the earlier suggestions: I liked PR0186, PR0058 but please drop PR0139.",
+ "memory_used": true,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 76.2
+  },
+  "career_goal": "Technical Engineer (programming and system developer)",
+  "budget_max_usd_per_year": 4000,
+  "location_preference": "Mumbai",
+  "mobility": "open_international",
+  "employability_priority": null,
+  "other_constraints": [
+   "full stack certification background"
+  ],
+  "uncertainty_notes": [
+   "Employability priority is unknown."
+  ]
+ },
+ "prefilter_ids": [
+  "PR0000",
+  "PR0195",
+  "PR0021",
+  "PR0153",
+  "PR0051",
+  "PR0037",
+  "PR0161",
+  "PR0198",
+  "PR0104",
+  "PR0144",
+  "PR0139",
+  "PR0194",
+  "PR0164",
+  "PR0029",
+  "PR0022",
+  "PR0137",
+  "PR0182",
+  "PR0060",
+  "PR0191",
+  "PR0119"
+ ],
+ "retrieved_ids": [
+  "PR0060",
+  "PR0195",
+  "PR0153",
+  "PR0194",
+  "PR0161",
+  "PR0137",
+  "PR0029",
+  "PR0119"
+ ],
+ "proposed_shortlist": [
+  "PR0195",
+  "PR0153",
+  "PR0194"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0060",
+  "PR0029",
+  "PR0161",
+  "PR0137",
+  "PR0119"
+ ],
+ "reflection_note": "The original shortlist was heavily biased towards Germany, ignoring the student's strong location preference for Mumbai. I have dropped all three German options due to suboptimal location fit relative to the local alternatives. The new strategy prioritizes programs in or near Mumbai (PR0060, PR0029) while maintaining a diverse set of high-quality international/local options that meet technical requirements and budget constraints. Specifically, PR0161 (Software Engineering in Berlin) is added as a strong, relevant German option since the student's core goal is 'Technical Engineer,' making it more direct than HCI or general IS programs.",
+ "explanation": "Quilon Technical University\nThis program was recommended because it meets your location preference in Mumbai and stays within your maximum budget of $4000 USD per year. Your 76.2% grade exceeds the minimum requirement of 69%, making admission possible. The main trade-off here is that while the placement rate is high at 88%, the focus on \"IT Management\" may be less aligned with your goal of becoming a technical system developer, and there is no post-study work visa provided.\n\nVantage Technical University\nThis option was recommended because it perfectly matches your location preference in Mumbai and keeps tuition within budget at $3800 USD. Furthermore, the MSc Information Security program is highly technical and requires a CS background, which you possess. The main trade-off to consider is that while the placement rate is excellent at 92%, there are no post-study work visa options available after graduation.\n\nTejas University\nThis program was recommended because its focus on \"Software Engineering\" aligns perfectly with your goal of becoming a technical developer, and it meets your academic background requirements. While this location in Berlin, Germany, deviates from your Mumbai preference, the trade-off is accepting an international move for significantly higher career potential, evidenced by the median starting salary of $33731 USD and 18 months of post-study work visa access.\n\nMeridian Institute of Technology\nThis program was recommended due to its low tuition cost ($2950) and desirable location in Munich, Germany. However, this MBA track focuses on \"Business Analytics,\" which is a significant departure from your technical goal as a system developer. The main trade-off here is that you would be prioritizing business skills over deep programming knowledge, despite the benefit of 18 months post-study work visa access.\n\nMeridian Institute of Applied Sciences\nThis program was recommended because it offers an extremely low annual tuition fee of $1200 and a high placement rate of 86%, all while remaining in India near your preferred location of Mumbai. The main trade-off is that the specialization in \"QA Testing\" might be narrower than your full-stack goal, but it provides excellent technical exposure at a minimal cost.",
+ "wall_s": 224.4
+}

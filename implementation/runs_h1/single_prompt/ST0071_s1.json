@@ -1,0 +1,54 @@
+{
+ "student_id": "ST0071",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a full stack certification background. My overall academic average is 77.7% in an IT/computer-science degree. I'm interested in Computer Architecture and developer. I want to become a Data Architect. My family can afford at most about USD 15600 per year. I live in Hyderabad. I'm open to going abroad. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 77.7
+  },
+  "career_goal": "Data Architect",
+  "budget_max_usd_per_year": 15600,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in Computer Architecture and developer roles"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0132",
+  "PR0051",
+  "PR0097",
+  "PR0103",
+  "PR0061",
+  "PR0191",
+  "PR0143",
+  "PR0058",
+  "PR0007",
+  "PR0140",
+  "PR0128",
+  "PR0126",
+  "PR0099",
+  "PR0026",
+  "PR0009",
+  "PR0062",
+  "PR0090",
+  "PR0120",
+  "PR0170",
+  "PR0145"
+ ],
+ "final_shortlist": [
+  "PR0132",
+  "PR0051",
+  "PR0062",
+  "PR0140",
+  "PR0128"
+ ],
+ "explanation": "This Canadian program offers a strong career path with excellent post-study work options (36 months) and a high placement rate (81%), making it ideal for maximizing job prospects abroad while fitting within your budget.\n\nLocated in Germany with low tuition ($3950), this MBA program is a strong choice if you want to pivot into Data Architecture while benefiting from the German job market and post-study work visa (18 months).\n\nThis German MSc program offers very low tuition ($1950) and a good balance of job prospects with post-study work options (18 months), making it an attractive option for career growth without straining the budget.\n\nAnother Canadian option with a lower tuition fee ($9650) than PR0132. It maintains the benefit of post-study work options (36 months), which is crucial for your goal of securing a good job abroad.\n\nThis German MBA program provides a solid entry point into data analytics with low tuition ($3800) and offers post-study work opportunities (18 months), aligning well with your interest in business applications of data architecture.",
+ "wall_s": 65.4
+}

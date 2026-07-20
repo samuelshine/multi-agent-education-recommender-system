@@ -1,0 +1,75 @@
+{
+ "student_id": "ST0027",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 79.2% in an IT/computer-science degree. I'm interested in IOT and security. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 9700 per year. I live in Hyderabad. I'm open to going abroad. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 79.2
+  },
+  "career_goal": null,
+  "budget_max_usd_per_year": 9700,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "r programming certification background",
+   "interested in IOT and security"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0000",
+  "PR0195",
+  "PR0021",
+  "PR0153",
+  "PR0051",
+  "PR0151",
+  "PR0037",
+  "PR0161",
+  "PR0117",
+  "PR0198",
+  "PR0097",
+  "PR0104",
+  "PR0001",
+  "PR0144",
+  "PR0139",
+  "PR0194",
+  "PR0042",
+  "PR0164",
+  "PR0029",
+  "PR0057"
+ ],
+ "retrieved_ids": [
+  "PR0195",
+  "PR0153",
+  "PR0021",
+  "PR0194",
+  "PR0042",
+  "PR0057",
+  "PR0164",
+  "PR0029"
+ ],
+ "proposed_shortlist": [
+  "PR0195",
+  "PR0153",
+  "PR0021",
+  "PR0194",
+  "PR0029"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0195",
+  "PR0194",
+  "PR0021",
+  "PR0153",
+  "PR0042"
+ ],
+ "reflection_note": "The original list was strong but contained one program (PR0029) that violated the implicit constraint of preferring international locations outside India, despite its perfect specialization fit. I dropped PR0029 and swapped in PR0042 (MSc Software Engineering in Canada). This new list maintains a balance: PR0195 remains the top choice due to low cost/high relevance; PR0194 offers strong technical depth; PR0021 provides financial safety; PR0153 is kept as an acceptable German option; and PR0042 adds a high-quality, highly relevant international (Canadian) software engineering option, ensuring the student has diverse options across different continents and focus areas.",
+ "explanation": "Keystone School of Engineering\nThis program is recommended because it offers an excellent balance of low cost and high employability metrics, with a minimal annual tuition of $300. It meets your budget constraint while providing strong career prospects, evidenced by the 82% placement rate and median starting salary of $51,059. While this degree focuses on business information systems rather than deep technical security or IoT development, it provides a solid foundation in applied IT that is highly marketable. The main trade-off here is prioritizing business application over specialized engineering depth.\n\nAravalli School of Engineering\nThis MSc Cloud Computing program aligns well with your interest in networking and technology, as cloud infrastructure is foundational to both IoT and security systems. It is budget-friendly, requiring only $1,950 annually, and accepts candidates with a CS background like yours. However, the median starting salary ($30,651) and placement rate (67%) are lower compared to other options on this list. The main trade-off is accepting slightly lower employability metrics in exchange for direct exposure to cloud networking technologies.\n\nAshford Institute of Technology\nThis program is highly recommended due to its extremely low tuition cost ($450), which keeps you well within your budget, while maintaining a high placement rate of 82%. Furthermore, the curriculum focuses on IT operations, which directly supports the maintenance and security aspects relevant to IoT systems. Since it does not require a CS background, it offers flexibility while still providing strong career outcomes with an 18-month post-study work visa. The main trade-off is that its focus is general system operation rather than specialized software development or business strategy.\n\nKeystone University\nThis program provides a very affordable entry point ($550 annual tuition) and aligns with your IT background by focusing on how technology interacts with users, which is critical for secure IoT deployments. It does not require a CS background, offering flexibility while maintaining an 18-month post-study work visa. However, the median starting salary of $39,426 and placement rate (78%) are lower than other options listed. The main trade-off here is that the focus on Human-Computer Interaction shifts the emphasis away from core technical security or networking concepts.",
+ "wall_s": 125.6
+}

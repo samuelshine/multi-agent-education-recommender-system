@@ -1,0 +1,31 @@
+{
+ "student_id": "ST0004",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 73.9
+    },
+    "career_goal": "tech (interested in hacking and testing)",
+    "budget_max_usd_per_year": 6000,
+    "location_preference": "Pune",
+    "mobility": "fixed_city",
+    "employability_priority": "high",
+    "other_constraints": [
+     "information security certification background"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0045",
+    "PR0023",
+    "PR0072",
+    "PR0190",
+    "PR0158"
+   ],
+   "feedback": null
+  }
+ ]
+}

@@ -1,0 +1,55 @@
+{
+ "student_id": "ST0082",
+ "session": 1,
+ "mode": "single_objective",
+ "message": "Hi, I'm a student with a shell programming certification background. My overall academic average is 73.7% in an IT/computer-science degree. I'm interested in Computer Architecture and testing. I want to become a Technical Engineer. My family can afford at most about USD 6100 per year. I live in Bengaluru. I cannot leave my city. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 73.7
+  },
+  "career_goal": "Technical Engineer (interested in Computer Architecture and testing)",
+  "budget_max_usd_per_year": 6100,
+  "location_preference": "Bengaluru",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Shell programming certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0085",
+  "PR0015",
+  "PR0073",
+  "PR0002",
+  "PR0013",
+  "PR0173",
+  "PR0087"
+ ],
+ "retrieved_ids": [
+  "PR0085",
+  "PR0173",
+  "PR0087",
+  "PR0073",
+  "PR0015",
+  "PR0013"
+ ],
+ "proposed_shortlist": [
+  "PR0173",
+  "PR0085",
+  "PR0073",
+  "PR0015"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0173",
+  "PR0085",
+  "PR0013"
+ ],
+ "reflection_note": "The initial shortlist was heavily weighted towards direct technical relevance (PR0173, PR0085) but included a highly tangential field (Cyber Security - PR0073) and an overly business-focused option (PR0015). I dropped both of those. I swapped in PR0013 (MSc HCI) as the third choice because it offers a more technical, user-facing perspective than pure BIS programs, making it a better fit for a technically inclined student aiming for high employability.",
+ "explanation": "Longford Technical University\nThis MTech in Computer Science is recommended because its focus on Software Engineering aligns well with your technical background and career goals. With an annual tuition of only $500, it fits comfortably within your maximum budget of $6100 per year. While the median starting salary is $6851, you should note that this program has a low placement rate of 62% and offers no post-study work visa support. The main trade-off here is accepting a lower employment guarantee for extremely low tuition costs.\n\nKeystone Institute of Applied Sciences\nThis MSc in Software Quality Engineering was selected because its core focus on QA Testing directly addresses your stated interest in testing within the technical engineering field. The annual tuition of $1450 remains well under your budget, and it offers a decent placement rate of 63%. Although the median starting salary is $6488, this program provides highly relevant skills for your career goal. The trade-off you face is that while the curriculum is perfect for testing, its salary and placement metrics are slightly lower than other options on the list.\n\nMeridian Institute of Technology\nThis MSc in Human-Computer Interaction was recommended primarily because it offers the highest employability metrics among all listed programs, boasting a 77% placement rate and a median starting salary of $9186. Furthermore, its low annual tuition of $900 keeps it well within your budget constraints. However, since your goal is technical engineering (Computer Architecture/Testing), you must be aware that the program's focus on design HCI may not align with your core technical interests. The main trade-off here is prioritizing maximum job placement potential over direct alignment with a deep computer architecture curriculum.",
+ "wall_s": 100.9
+}

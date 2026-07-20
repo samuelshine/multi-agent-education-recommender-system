@@ -1,0 +1,54 @@
+{
+ "student_id": "ST0069",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a shell programming certification background. My overall academic average is 71.9% in an IT/computer-science degree. I'm interested in data engineering and cloud computing. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 1700 per year. I live in Pune. I'm open to anywhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 71.9
+  },
+  "career_goal": null,
+  "budget_max_usd_per_year": 1700,
+  "location_preference": "Pune",
+  "mobility": "open_domestic",
+  "employability_priority": "high",
+  "other_constraints": [
+   "shell programming certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0182",
+  "PR0119",
+  "PR0186",
+  "PR0176",
+  "PR0058",
+  "PR0187",
+  "PR0174",
+  "PR0053",
+  "PR0158",
+  "PR0109",
+  "PR0076",
+  "PR0012",
+  "PR0019",
+  "PR0114",
+  "PR0185",
+  "PR0130",
+  "PR0084",
+  "PR0120",
+  "PR0170",
+  "PR0015"
+ ],
+ "final_shortlist": [
+  "PR0120",
+  "PR0170",
+  "PR0058",
+  "PR0186",
+  "PR0076"
+ ],
+ "explanation": "This program in Delhi focuses on Big Data Analytics, directly matching your interest in data engineering. It has a low tuition cost ($800) and is accessible with your current academic average (71.9% > 63%), making it a strong fit for job prospects.\n\nLocated in Coimbatore, this MSc Big Data Analytics program is another excellent match for your data engineering interest. The tuition ($1300) is well within budget, and the minimum grade requirement (62%) is easily met by your current average.\n\nThe MCA program in Coimbatore offers data science analytics and software engineering fields. While it requires a CS background, its low tuition ($1350) and relevant curriculum make it a solid option for improving job prospects.\n\nThis MTech in Pune covers networking and cloud computing, aligning perfectly with your interests. Although the tuition ($2050) slightly exceeds your budget, its high median starting salary ($15192) makes it a worthwhile consideration for maximizing job outcomes.\n\nThis MBA in Hyderabad combines IT management and software engineering. It is highly affordable ($1250) and has a low minimum grade requirement (74%), offering a good balance of cost and career relevance for someone unsure of their exact tech path.",
+ "wall_s": 46.7
+}

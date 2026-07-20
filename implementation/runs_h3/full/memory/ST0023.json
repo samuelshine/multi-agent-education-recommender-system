@@ -1,0 +1,105 @@
+{
+ "student_id": "ST0023",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 75.8
+    },
+    "career_goal": "Data Architect",
+    "budget_max_usd_per_year": 9800,
+    "location_preference": null,
+    "mobility": "open_domestic",
+    "employability_priority": null,
+    "other_constraints": [
+     "r programming certification background",
+     "interested in Software Engineering and cloud computing"
+    ],
+    "uncertainty_notes": [
+     "location preference not stated",
+     "mobility not explicitly stated (assuming open_domestic)",
+     "employability priority not stated"
+    ]
+   },
+   "final_shortlist": [
+    "PR0186",
+    "PR0043",
+    "PR0058",
+    "PR0197",
+    "PR0143"
+   ],
+   "feedback": null
+  },
+  {
+   "session": 2,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 75.8
+    },
+    "career_goal": "Data Architect",
+    "budget_max_usd_per_year": 9800,
+    "location_preference": null,
+    "mobility": "open_international",
+    "employability_priority": null,
+    "other_constraints": [
+     "r programming certification background",
+     "interested in Software Engineering and cloud computing"
+    ],
+    "uncertainty_notes": [
+     "location preference not stated",
+     "employability priority not stated"
+    ]
+   },
+   "final_shortlist": [
+    "PR0194",
+    "PR0037",
+    "PR0151",
+    "PR0126",
+    "PR0042"
+   ],
+   "feedback": {
+    "liked": [
+     "PR0186",
+     "PR0043"
+    ],
+    "disliked": []
+   }
+  },
+  {
+   "session": 3,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 75.8
+    },
+    "career_goal": "Data Architect",
+    "budget_max_usd_per_year": 9800,
+    "location_preference": null,
+    "mobility": "open_international",
+    "employability_priority": "high",
+    "other_constraints": [
+     "r programming certification background",
+     "interested in Software Engineering and cloud computing"
+    ],
+    "uncertainty_notes": [
+     "location preference not stated"
+    ]
+   },
+   "final_shortlist": [
+    "PR0037",
+    "PR0151",
+    "PR0042"
+   ],
+   "feedback": {
+    "liked": [
+     "PR0194",
+     "PR0037"
+    ],
+    "disliked": []
+   }
+  }
+ ]
+}

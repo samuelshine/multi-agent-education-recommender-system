@@ -1,0 +1,71 @@
+{
+ "student_id": "ST0075",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a shell programming certification background. My overall academic average is 76.8% in an IT/computer-science degree. I'm interested in Software Engineering and cloud computing. I want to become a E-Commerce Analyst. My family can afford at most about USD 37100 per year. I live in Chennai. I'm open to going abroad. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 76.8
+  },
+  "career_goal": "E-Commerce Analyst",
+  "budget_max_usd_per_year": 37100,
+  "location_preference": "Chennai",
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "shell programming certification"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0116",
+  "PR0000",
+  "PR0154",
+  "PR0069",
+  "PR0079",
+  "PR0055",
+  "PR0195",
+  "PR0030",
+  "PR0124",
+  "PR0146",
+  "PR0094",
+  "PR0021",
+  "PR0135",
+  "PR0168",
+  "PR0017",
+  "PR0110",
+  "PR0034",
+  "PR0027",
+  "PR0122",
+  "PR0005"
+ ],
+ "retrieved_ids": [
+  "PR0195",
+  "PR0122",
+  "PR0030",
+  "PR0168",
+  "PR0079",
+  "PR0154",
+  "PR0021",
+  "PR0135"
+ ],
+ "proposed_shortlist": [
+  "PR0021",
+  "PR0195",
+  "PR0122"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0021",
+  "PR0195",
+  "PR0079",
+  "PR0168",
+  "PR0135"
+ ],
+ "reflection_note": "The initial shortlist was good but missed high-value, low-cost options. I dropped PR0122 because the Netherlands location is less appealing than Germany and its overall package isn't as strong as the top German choices. I swapped in PR0079 (Netherlands) for better employability/IT focus and PR0168 (Canada) due to its exceptional placement rate, providing a robust international backup plan. The final list prioritizes low-cost European options (Germany first), followed by other high-employability global options, while maintaining the strong German core.",
+ "explanation": "Ashford Institute of Technology\nThis program is recommended because it offers an excellent pathway into IT operations with very low annual tuition ($450), making it highly budget-friendly. It meets your academic requirements, as your 76.8% grade exceeds the minimum 73%, and it does not require a CS background. The high placement rate of 82% and the generous 18-month post-study work visa are major benefits for employability. The main trade-off here is that while the program is highly affordable, its focus on IT support may be less directly aligned with the business analysis aspects needed for an E-Commerce Analyst role compared to Information Systems programs.\n\nKeystone School of Engineering\nThis MSc in Information Systems is strongly recommended because its curriculum focuses on Business Information Systems, which aligns perfectly with your goal of becoming an E-Commerce Analyst. It boasts one of the lowest tuition costs ($300) while maintaining a strong median starting salary of $51,059 and an 82% placement rate. Furthermore, you meet the minimum grade requirement (76.8% vs. 72%) and benefit from an 18-month post-study work visa. The primary trade-off is that while this program is highly affordable and relevant, it is located in Aachen, Germany, rather than your preferred location of Chennai.\n\nBraxton University\nThis MBA Technology Management was shortlisted due to its exceptional employability metrics, including the highest placement rate (88%) and a strong median starting salary of $65,157. The program also offers a 12-month post-study work visa and is within your maximum budget at $20,150. However, please note that you do not meet the minimum grade requirement for this institution (your 76.8% is below the required 81%). The main trade-off is that while it offers top career prospects, your current academic standing prevents immediate admission.\n\nHalcyon Institute of Applied Sciences\nThis MSc in Information Systems is a strong fit because its focus on Business Information Systems directly supports your goal as an E-Commerce Analyst. You easily meet the minimum grade requirement (76.8% vs. 71%), and the program offers a very beneficial 36-month post-study work visa, maximizing your time in Canada. The main trade-off is that while it provides excellent career opportunities with an 84% placement rate, its tuition cost ($27,750) is significantly higher than other options and located outside your preferred Chennai area.\n\nNalanda Ridge University\nThis MSc in Information Systems is recommended because its curriculum focuses on Business Information Systems, making it highly relevant to your career goal of E-Commerce Analyst. You meet the minimum grade requirement (76.8% vs. 61%), and the tuition cost ($25,150) remains within your annual budget limit. The main trade-off is that while this program offers a solid median starting salary of $49,466, it is located in Seattle, USA, which deviates from your preferred location of Chennai.",
+ "wall_s": 205.2
+}

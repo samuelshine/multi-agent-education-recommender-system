@@ -1,0 +1,54 @@
+{
+ "student_id": "ST0064",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a full stack certification background. My overall academic average is 74.8% in an IT/computer-science degree. I'm interested in Management and system developer. I want to become a Information Technology Auditor. My family can afford at most about USD 6700 per year. I live in Delhi. I'm open to anywhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 74.8
+  },
+  "career_goal": "Information Technology Auditor",
+  "budget_max_usd_per_year": 6700,
+  "location_preference": "Delhi",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in Management and system developer roles"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0157",
+  "PR0172",
+  "PR0164",
+  "PR0060",
+  "PR0191",
+  "PR0101",
+  "PR0176",
+  "PR0092",
+  "PR0189",
+  "PR0054",
+  "PR0076",
+  "PR0105",
+  "PR0130",
+  "PR0015",
+  "PR0020",
+  "PR0078",
+  "PR0033",
+  "PR0150",
+  "PR0047",
+  "PR0160"
+ ],
+ "final_shortlist": [
+  "PR0164",
+  "PR0060",
+  "PR0101",
+  "PR0176",
+  "PR0076"
+ ],
+ "explanation": "This MBA Technology Management program in Delhi is highly recommended because it offers the highest placement rate (90%) and a strong median starting salary ($17361), directly addressing your priority of securing a good job after graduation. The minimum required grade (79%) is slightly higher than your 74.8%, but its superior career outcomes make it worth considering.\n\nLocated in Mumbai, this MSc IT Management program offers a strong placement rate (88%) and a solid median starting salary ($13973). The tuition fee is manageable within your budget, making it an excellent balance of career prospects and affordability.\n\nThis MSc Information Systems program in Coimbatore provides a good blend of business information systems knowledge and strong placement metrics (85% rate, $15394 salary). The tuition is also very low ($2400), making it an attractive option that meets your interest in IT Management.\n\nThe MBA Technology Management at Crestwood University in Hyderabad is a strong contender due to its favorable tuition cost ($1900) and high median starting salary ($15400). It aligns perfectly with your interest in IT Management while remaining well within your family's budget.\n\nThis MBA Technology Management program in Hyderabad is cost-effective ($1250 tuition) and covers both IT Management and Software Engineering fields. It offers a decent median starting salary ($13142), making it a reliable choice that balances affordability with career focus.",
+ "wall_s": 47.0
+}

@@ -1,0 +1,73 @@
+{
+ "student_id": "ST0001",
+ "session": 1,
+ "mode": "single_objective",
+ "message": "Hi, I'm a student with a app development certification background. My overall academic average is 75.3% in an IT/computer-science degree. I'm interested in data engineering and testing. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 3200 per year. I live in Kolkata. I'm open to going abroad. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 75.3
+  },
+  "career_goal": null,
+  "budget_max_usd_per_year": 3200,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in data engineering and testing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0198",
+  "PR0058",
+  "PR0053",
+  "PR0126",
+  "PR0026",
+  "PR0065",
+  "PR0019",
+  "PR0090",
+  "PR0145",
+  "PR0107",
+  "PR0008",
+  "PR0063",
+  "PR0142",
+  "PR0082",
+  "PR0052",
+  "PR0085",
+  "PR0173",
+  "PR0071",
+  "PR0051",
+  "PR0037"
+ ],
+ "retrieved_ids": [
+  "PR0058",
+  "PR0126",
+  "PR0026",
+  "PR0145",
+  "PR0173",
+  "PR0071",
+  "PR0037",
+  "PR0053"
+ ],
+ "proposed_shortlist": [
+  "PR0053",
+  "PR0126",
+  "PR0026",
+  "PR0071",
+  "PR0145"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0126",
+  "PR0053",
+  "PR0071",
+  "PR0058",
+  "PR0173"
+ ],
+ "reflection_note": "The original shortlist was strong but contained one critical budget violation (PR0026). I dropped PR0026 immediately. I swapped in two highly viable, affordable alternatives: PR0058 and PR0173. PR0126 remains the top choice due to its international location (Germany) and excellent post-study work visa opportunity, despite a slightly lower placement rate than some Indian options. PR0053 is kept high because it perfectly matches the QA/testing interest while being budget-friendly. The final list balances strong career focus (Data Engineering/QA), affordability, and international mobility.",
+ "explanation": "Ashford Technical University\nThis program is recommended because it directly aligns with your interests in data science analytics and software engineering while offering a strong international pathway. The annual tuition of $2050 is within your budget, and the 18-month post-study work visa significantly supports your goal of open international mobility. The main trade-off here is that while the potential salary ($23468) is high, you must meet the English requirement and have a CS background to qualify for this opportunity.\n\nCavendish University\nThis option is highly recommended because its focus on Software Quality Engineering directly addresses your interest in testing (QA). It boasts an excellent placement rate of 86% and requires no prior CS background, making it accessible. The main trade-off is that despite the high employability metrics, the median starting salary ($12855) is relatively low compared to other options on this list.\n\nLongford Institute of Applied Sciences\nThis MTech Data Engineering program is a strong fit for your data engineering interest and keeps tuition costs low at $1300. It does not require a CS background, which simplifies the admission process. The main trade-off you should be aware of is that it has the lowest placement rate (58%) and median starting salary ($7837) among all listed programs.\n\nStanmore School of Engineering\nThis MCA program aligns well with your interests in data science analytics and software engineering, offering a high placement rate of 83% and a solid median starting salary of $14869. It requires a CS background, which matches your academic record. The main trade-off is that while the tuition ($1350) is affordable, it does not offer any post-study work visa months for international mobility.\n\nLongford Technical University\nThis MTech Computer Science program provides excellent value with the lowest annual tuition of $500 and covers your interests in data science analytics and software engineering. It also does not require a CS background, making admission straightforward. The main trade-off is that while it has low costs, its median starting salary ($6851) is the lowest among all recommended options.",
+ "wall_s": 110.9
+}

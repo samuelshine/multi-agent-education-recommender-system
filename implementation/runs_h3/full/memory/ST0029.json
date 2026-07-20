@@ -1,0 +1,107 @@
+{
+ "student_id": "ST0029",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 81.2
+    },
+    "career_goal": "IOT and Business process analyst",
+    "budget_max_usd_per_year": null,
+    "location_preference": null,
+    "mobility": "open_domestic",
+    "employability_priority": null,
+    "other_constraints": [
+     "python certification background"
+    ],
+    "uncertainty_notes": [
+     "Budget maximum per year not specified.",
+     "Location preference not specified.",
+     "Mobility preference not specified (defaulting to open_domestic).",
+     "Employability priority not specified."
+    ]
+   },
+   "final_shortlist": [
+    "PR0164",
+    "PR0047",
+    "PR0191",
+    "PR0033",
+    "PR0157"
+   ],
+   "feedback": null
+  },
+  {
+   "session": 2,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 81.2
+    },
+    "career_goal": "Database Developer",
+    "budget_max_usd_per_year": 4100,
+    "location_preference": null,
+    "mobility": "open_international",
+    "employability_priority": null,
+    "other_constraints": [
+     "python certification background"
+    ],
+    "uncertainty_notes": [
+     "Location preference not specified.",
+     "Employability priority not specified."
+    ]
+   },
+   "final_shortlist": [
+    "PR0126",
+    "PR0062",
+    "PR0145",
+    "PR0143"
+   ],
+   "feedback": {
+    "liked": [
+     "PR0164",
+     "PR0047"
+    ],
+    "disliked": []
+   }
+  },
+  {
+   "session": 3,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 81.2
+    },
+    "career_goal": "Database Developer",
+    "budget_max_usd_per_year": 4100,
+    "location_preference": null,
+    "mobility": "open_international",
+    "employability_priority": null,
+    "other_constraints": [
+     "python certification background",
+     "interest in IOT",
+     "interest in Business process analyst"
+    ],
+    "uncertainty_notes": [
+     "Location preference not specified.",
+     "Employability priority not specified."
+    ]
+   },
+   "final_shortlist": [
+    "PR0195",
+    "PR0000",
+    "PR0137",
+    "PR0051",
+    "PR0044"
+   ],
+   "feedback": {
+    "liked": [
+     "PR0126",
+     "PR0062"
+    ],
+    "disliked": []
+   }
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "student_id": "ST0083",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 71
+    },
+    "career_goal": "Design & UX",
+    "budget_max_usd_per_year": 5000,
+    "location_preference": null,
+    "mobility": "prefers_region",
+    "employability_priority": null,
+    "other_constraints": [
+     "Interested in data engineering and Business process analyst"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0174",
+    "PR0158",
+    "PR0039",
+    "PR0149",
+    "PR0101"
+   ],
+   "feedback": null
+  }
+ ]
+}

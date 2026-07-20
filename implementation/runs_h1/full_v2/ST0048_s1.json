@@ -1,0 +1,71 @@
+{
+ "student_id": "ST0048",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 74.1% in an IT/computer-science degree. I'm interested in Management and Business process analyst. I want to become a Information Technology Manager. My family can afford at most about USD 3400 per year. I live in Hyderabad. I cannot leave my city.",
+ "memory_used": false,
+ "fallbacks": [
+  "reflect"
+ ],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 74.1
+  },
+  "career_goal": "Information Technology Manager",
+  "budget_max_usd_per_year": 3400,
+  "location_preference": "Hyderabad",
+  "mobility": "fixed_city",
+  "employability_priority": null,
+  "other_constraints": [
+   "r programming certification background",
+   "interested in Management and Business process analyst"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0176",
+  "PR0076",
+  "PR0130",
+  "PR0074",
+  "PR0119",
+  "PR0026",
+  "PR0096",
+  "PR0167",
+  "PR0113",
+  "PR0196",
+  "PR0111",
+  "PR0050",
+  "PR0159",
+  "PR0142"
+ ],
+ "retrieved_ids": [
+  "PR0176",
+  "PR0076",
+  "PR0130",
+  "PR0167",
+  "PR0196",
+  "PR0113",
+  "PR0050",
+  "PR0159"
+ ],
+ "proposed_shortlist": [
+  "PR0076",
+  "PR0176",
+  "PR0130",
+  "PR0167",
+  "PR0196"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0076",
+  "PR0176",
+  "PR0130",
+  "PR0167",
+  "PR0196"
+ ],
+ "reflection_note": "reflect fallback: kept proposal",
+ "explanation": "Sarayu Institute of Technology\nThis MBA program is highly recommended because its focus on \"MBA Technology Management\" directly aligns with your goal of becoming an Information Technology Manager. It meets your academic requirement since the minimum grade percentage is 74%, matching your background, and it fits comfortably within your budget at $1250 annual tuition. The main trade-off here is that while the tuition is very low, the median starting salary ($13,142) is lower than some other options.\n\nCrestwood University\nThis MBA program is an excellent fit for your career goal as it specializes in \"MBA Technology Management\" and requires no prior CS background. It also meets your academic standing with a minimum grade requirement of 72%. The trade-off here is that the tuition ($1900) is higher than Sarayu Institute's option, but this investment corresponds to a higher median starting salary of $15,400.\n\nElmhurst School of Engineering\nThis MSc IT Management program is recommended because it focuses on both \"IT management\" and business processes, which aligns with your interests in management and business analysis. It has the lowest tuition cost at $1000 per year and requires no CS background. The main trade-off to consider is that while it offers the most budget flexibility, its median starting salary ($11,249) is lower than the other MBA options.\n\nCharnock Institute of Technology\nWhile this MTech program focuses on Cybersecurity rather than pure management, it was included because it remains within your budget and requires no CS background. It provides a strong technical specialization that could complement your IT/CS degree. The main trade-off here is that the curriculum is highly technical (Cybersecurity), which deviates from your stated interest in Management or Business Process Analyst roles.\n\nElmhurst Institute of Applied Sciences\nThis MTech Computer Science program was included because it aligns with your existing CS background and remains within budget. However, since your goal is management, this option represents a significant trade-off: while the curriculum is highly technical (Software Engineering), it does not directly address your interest in Management or Business Process Analyst roles.",
+ "wall_s": 147.1
+}

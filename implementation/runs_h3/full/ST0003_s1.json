@@ -1,0 +1,77 @@
+{
+ "student_id": "ST0003",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 81.6% in an IT/computer-science degree. I'm interested in data engineering and system developer. I want to become a Software Developer.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 81.6
+  },
+  "career_goal": "Software Developer",
+  "budget_max_usd_per_year": null,
+  "location_preference": null,
+  "mobility": "open_domestic",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in data engineering and system developer roles."
+  ],
+  "uncertainty_notes": [
+   "Budget maximum per year not specified.",
+   "Location preference not specified.",
+   "Mobility preference not specified (defaulting to open_domestic).",
+   "Employability priority not specified."
+  ]
+ },
+ "prefilter_ids": [
+  "PR0058",
+  "PR0026",
+  "PR0090",
+  "PR0145",
+  "PR0107",
+  "PR0063",
+  "PR0173",
+  "PR0071",
+  "PR0198",
+  "PR0097",
+  "PR0144",
+  "PR0191",
+  "PR0143",
+  "PR0186",
+  "PR0039",
+  "PR0053",
+  "PR0007",
+  "PR0158",
+  "PR0043",
+  "PR0109"
+ ],
+ "retrieved_ids": [
+  "PR0026",
+  "PR0191",
+  "PR0097",
+  "PR0143",
+  "PR0071",
+  "PR0145",
+  "PR0109",
+  "PR0186"
+ ],
+ "proposed_shortlist": [
+  "PR0097",
+  "PR0143",
+  "PR0186",
+  "PR0109"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0097",
+  "PR0026",
+  "PR0143",
+  "PR0186",
+  "PR0145"
+ ],
+ "reflection_note": "The original shortlist was good but missed a highly relevant, lower-barrier option (PR0026) and included an option (PR0109) that was too narrowly focused. I dropped PR0109 because it didn't capture the desired breadth of Data Engineering/Data Science. I swapped in PR0026 as a top contender due to its excellent combination of relevant fields, strong placement metrics, and low minimum grade requirement (73% vs 82% for PR0097), making it highly accessible while still being academically appropriate. I also added PR0145 as a fifth option because it is another robust MTech program covering both Data Science and Software Engineering at a reasonable cost, providing good diversity in the final list.",
+ "explanation": "Northgate Institute of Technology\nThis program is recommended because it offers a highly relevant MTech in Data Engineering and boasts an excellent 95% placement rate with a high median starting salary of $19,658. The main trade-off here is the admission requirement: your current grade (81.6%) is slightly below the minimum required percentage of 82%. Additionally, it has the highest annual tuition at $3800 among the listed options.\n\nNorthgate Technical University\nThis program was recommended because it directly aligns with both data engineering and software engineering interests while having an admission threshold (73%) that you easily meet. The trade-off is that its median starting salary ($13,385) and placement rate (81%) are lower compared to other options on the list. However, it provides a strong curriculum fit for your goals at a manageable tuition cost of $3900.\n\nFairfax Technical University\nThis option was recommended as a solid entry point into Data Science with an annual tuition of only $2750 and a respectable 87% placement rate. Since you have a CS background, the admission requirements are met easily (minimum grade 72%). The main trade-off is that its median starting salary ($13,436) is modest compared to other programs offering higher earning potential.\n\nHalcyon Institute of Technology\nThis program was recommended because it provides an affordable path into system development with a low tuition cost of $2050 and meets your CS background requirement. While the curriculum focuses on networking and cloud alongside software engineering, which aligns well with \"system developer roles,\" the trade-off is that its specialization shifts slightly away from pure data engineering toward infrastructure.\n\nSilverline Technical University\nThis program was recommended because it offers a low barrier to entry (minimum grade 60%) while covering both Data Science Analytics and Software Engineering fields you are interested in. The primary trade-off for this ease of admission is the lowest expected career outcome, featuring a median starting salary of $10,057 and only a 75% placement rate.",
+ "wall_s": 192.9
+}

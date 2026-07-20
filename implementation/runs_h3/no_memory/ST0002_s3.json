@@ -1,0 +1,72 @@
+{
+ "student_id": "ST0002",
+ "session": 3,
+ "mode": "no_memory",
+ "version": 1,
+ "message": "Hi, I'm a student with a hadoop certification background. My overall academic average is 80% in an IT/computer-science degree. I'm interested in Computer Architecture and developer. I want to become a Business Intelligence Analyst. Also, my situation changed: family circumstances changed, so my budget is now lower. My family can afford at most about USD 1000 per year. I live in Kolkata. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else. About the earlier suggestions: I liked PR0053, PR0076.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 80
+  },
+  "career_goal": "Business Intelligence Analyst",
+  "budget_max_usd_per_year": 1000,
+  "location_preference": "Kolkata",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "hadoop certification"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0015",
+  "PR0157",
+  "PR0087",
+  "PR0119",
+  "PR0053",
+  "PR0076",
+  "PR0114",
+  "PR0185",
+  "PR0130",
+  "PR0084",
+  "PR0120",
+  "PR0073",
+  "PR0013",
+  "PR0193",
+  "PR0181",
+  "PR0180",
+  "PR0166",
+  "PR0111",
+  "PR0098",
+  "PR0023"
+ ],
+ "retrieved_ids": [
+  "PR0157",
+  "PR0185",
+  "PR0053",
+  "PR0130",
+  "PR0120",
+  "PR0111",
+  "PR0098",
+  "PR0023"
+ ],
+ "proposed_shortlist": [
+  "PR0185",
+  "PR0053",
+  "PR0120",
+  "PR0130"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0120",
+  "PR0130",
+  "PR0157",
+  "PR0111"
+ ],
+ "reflection_note": "The original shortlist contained two programs (PR0185, PR0053) that violated the hard budget constraint ($1000 max). These have been dropped. I retained PR0120 and PR0130 as they are strong fits and within budget. To improve diversity and maintain high relevance, I swapped in PR0157 (IT Management, low cost, good fit) and PR0111 (Data Science, excellent BI focus, within budget). This new shortlist prioritizes financial feasibility while maintaining a strong focus on Data/BI skills and acceptable regional locations.",
+ "explanation": "Ashford Institute of Applied Sciences\nThis program is recommended because its MSc Big Data Analytics specialization directly aligns with your goal of becoming a Business Intelligence Analyst. It fits within your maximum budget at $800 USD annually and easily meets your academic standing, as the minimum required grade is 63% while you achieved 80%. The main trade-off here is that while it offers strong employability (78% placement rate), its location in Delhi does not match your preference for Kolkata.\n\nElmhurst School of Engineering\nThis MSc IT Management program is a strong fit given its focus on IT management, which complements your background and career goal. It adheres to your budget constraint with an annual tuition of $1000 USD, and the placement rate of 77% suggests good employability. The primary trade-off you must consider is that while it offers one of the highest median starting salaries ($11,249), its location in Hyderabad deviates from your preferred region of Kolkata.\n\nLongford University\nThis MSc IT Management program provides a relevant curriculum for an aspiring Business Intelligence Analyst and maintains a low tuition cost of $800 USD, keeping you well within budget. Your 80% grade exceeds the minimum requirement of 64%, ensuring admission eligibility. The main trade-off is that while it offers a solid salary ($10,444), its location in Coimbatore does not align with your preference for Kolkata.\n\nLongford School of Engineering\nThis MSc Data Science program is highly relevant to your career goal and fits comfortably within your budget at $900 USD annually. Your academic background (80%) significantly exceeds the minimum grade requirement of 60%. The main trade-off here is that while it offers a strong specialization in data science, its location in Hyderabad does not match your preference for Kolkata, and it has the lowest median starting salary among the shortlisted options ($9,179).",
+ "wall_s": 209.9
+}

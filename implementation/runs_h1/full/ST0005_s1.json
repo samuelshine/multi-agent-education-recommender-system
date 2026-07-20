@@ -1,0 +1,72 @@
+{
+ "student_id": "ST0005",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 76.2% in an IT/computer-science degree. I'm interested in IOT and testing. I want to become a Software Systems Engineer. My family can afford at most about USD 10500 per year. I live in Mumbai. I'd strongly prefer to stay near home, though I might consider elsewhere in India.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 76.2
+  },
+  "career_goal": "Software Systems Engineer",
+  "budget_max_usd_per_year": 10500,
+  "location_preference": null,
+  "mobility": "prefers_region",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in IOT and testing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0198",
+  "PR0053",
+  "PR0065",
+  "PR0019",
+  "PR0008",
+  "PR0142",
+  "PR0082",
+  "PR0052",
+  "PR0085",
+  "PR0144",
+  "PR0139",
+  "PR0182",
+  "PR0191",
+  "PR0119",
+  "PR0101",
+  "PR0186",
+  "PR0058",
+  "PR0039",
+  "PR0158",
+  "PR0072"
+ ],
+ "retrieved_ids": [
+  "PR0053",
+  "PR0065",
+  "PR0182",
+  "PR0119",
+  "PR0085",
+  "PR0198",
+  "PR0139",
+  "PR0072"
+ ],
+ "proposed_shortlist": [
+  "PR0198",
+  "PR0139",
+  "PR0053",
+  "PR0119",
+  "PR0065"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0053",
+  "PR0182",
+  "PR0119",
+  "PR0065"
+ ],
+ "reflection_note": "The initial shortlist contained two programs (PR0198, PR0139) with median starting salaries significantly exceeding the student's stated annual budget maximum of $10500. These have been dropped for financial plausibility reasons. I swapped in PR0182 (Pune) as it offers a strong balance of low tuition ($1950), high placement rate (91%), and is located in Pune, which aligns well with the 'prefers_region' mobility constraint while maintaining affordability.",
+ "explanation": "Cavendish University\nThis program is recommended because its focus on both QA Testing and Software Engineering aligns well with your goal of becoming a Software Systems Engineer. With an annual tuition of $1200, it fits comfortably within your budget while offering a strong placement rate of 86%. The main trade-off to consider is that the program does not offer any post-study work visa months.\n\nKeystone Technical University\nThis option was selected because it provides excellent career security, boasting the highest placement rate at 91% among the short-listed programs. It directly addresses your interest in testing through its QA Testing focus and requires a minimum grade of 75%, which you meet with your 76.2%. The trade-off here is that the tuition ($1950) is slightly higher than some other options, but this investment is balanced by the high placement rate.\n\nMeridian Institute of Applied Sciences\nThis program is highly recommended due to its low annual tuition cost of $1200 and its strong potential for a median starting salary of $14917. The curriculum focuses on QA Testing, which directly matches your interest in testing, and it meets your minimum grade requirement of 71%. The primary trade-off is that while the salary potential is high, the placement rate (86%) is not the highest available option.\n\nTejas Institute of Technology\nThis program is a strong fit for your career goal as it covers both QA Testing and Software Engineering fields. While its median starting salary ($12291) is competitive, you should note that this institution has the highest tuition cost at $2450 and the lowest placement rate (80%) on this list. The trade-off here is accepting a higher annual tuition fee for the inclusion of both key engineering fields.",
+ "wall_s": 202.4
+}

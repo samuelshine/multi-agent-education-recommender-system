@@ -1,0 +1,68 @@
+{
+ "student_id": "ST0003",
+ "session": 2,
+ "mode": "no_memory",
+ "version": 1,
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 81.6% in an IT/computer-science degree. I'm interested in data engineering and system developer. I want to become a Software Developer. My family can afford at most about USD 13200 per year. I live in Mumbai. I'm open to anywhere in India. About the earlier suggestions: I liked PR0097, PR0026.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 81.6
+  },
+  "career_goal": "Software Developer",
+  "budget_max_usd_per_year": 13200,
+  "location_preference": "Mumbai",
+  "mobility": "prefers_region",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in data engineering and system developer"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0058",
+  "PR0026",
+  "PR0090",
+  "PR0145",
+  "PR0107",
+  "PR0063",
+  "PR0173",
+  "PR0071",
+  "PR0198",
+  "PR0097",
+  "PR0144",
+  "PR0191",
+  "PR0143",
+  "PR0186",
+  "PR0039",
+  "PR0053",
+  "PR0007",
+  "PR0158",
+  "PR0043",
+  "PR0109"
+ ],
+ "retrieved_ids": [
+  "PR0071",
+  "PR0143",
+  "PR0145",
+  "PR0186",
+  "PR0158",
+  "PR0109"
+ ],
+ "proposed_shortlist": [
+  "PR0071",
+  "PR0143",
+  "PR0186"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0071",
+  "PR0158",
+  "PR0109"
+ ],
+ "reflection_note": "The original shortlist was heavily weighted on location (Mumbai), which led to PR0143. However, since the student is flexible regarding region and has strong technical interests (Data Engineering/System Dev), I have prioritized programs that meet the budget constraint while offering broader skill sets or acceptable alternative locations. PR0071 remains the top choice due to its perfect location match and relevant curriculum. PR0158 and PR0109 are added as viable alternatives, providing strong employability and good technical focus in nearby/acceptable cities (Pune/Chennai).",
+ "explanation": "Longford Institute of Applied Sciences\nThis program was highly recommended because it directly aligns with your interest in Data Engineering and is located in Mumbai, matching your location preference. The annual tuition of $1300 is well within your budget, and your 81.6% grade exceeds the minimum requirement of 58%. The main trade-off here is that while the program fits your desired field and location perfectly, the median starting salary ($7837) and placement rate (58%) are lower compared to other options.\n\nAshford School of Engineering\nThis option was suggested because it offers a high placement rate (84%) and a strong median starting salary of $13259, which is excellent for your career goals. The tuition ($1900) remains affordable, and the program does not require a specific CS background, offering flexibility. The primary trade-off to consider is that this MDes focuses on Interaction Design rather than core software or data engineering systems development.\n\nCrestwood Technical University\nThis university was recommended because its MTech Computer Science degree strongly aligns with your existing IT/CS academic background and offers a high median starting salary of $13300. Admission is straightforward as it requires a CS background, which you possess, and the tuition ($1550) is very budget-friendly. The main trade-off is that while the program has excellent placement metrics (82%), its location in Chennai does not match your stated preference for Mumbai.",
+ "wall_s": 203.2
+}

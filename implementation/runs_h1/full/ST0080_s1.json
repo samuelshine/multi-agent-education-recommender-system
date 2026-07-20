@@ -1,0 +1,74 @@
+{
+ "student_id": "ST0080",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a distro making certification background. My overall academic average is 78.2% in an IT/computer-science degree. I'm interested in IOT and cloud computing. I want to become a Project Manager. My family can afford at most about USD 1300 per year. I live in Mumbai. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 78.2
+  },
+  "career_goal": "Project Manager (in IOT and cloud computing)",
+  "budget_max_usd_per_year": 1300,
+  "location_preference": "Mumbai",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Strong preference to stay near home (Mumbai)",
+   "Open to other locations within India"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0118",
+  "PR0180",
+  "PR0162",
+  "PR0112",
+  "PR0159",
+  "PR0032",
+  "PR0184",
+  "PR0165",
+  "PR0119",
+  "PR0058",
+  "PR0187",
+  "PR0053",
+  "PR0109",
+  "PR0076",
+  "PR0012",
+  "PR0019",
+  "PR0114",
+  "PR0185",
+  "PR0130",
+  "PR0084"
+ ],
+ "retrieved_ids": [
+  "PR0114",
+  "PR0112",
+  "PR0185",
+  "PR0180",
+  "PR0130",
+  "PR0076",
+  "PR0162",
+  "PR0184"
+ ],
+ "proposed_shortlist": [
+  "PR0112",
+  "PR0130",
+  "PR0114",
+  "PR0185",
+  "PR0180"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0114",
+  "PR0112",
+  "PR0130",
+  "PR0184",
+  "PR0185"
+ ],
+ "reflection_note": "The original shortlist was strong but contained two programs (PR0185, PR0180) that were either too far from the preferred location or offered diminishing returns compared to better options. I dropped PR0185 and PR0180. I swapped in PR0184 (MSc Cloud Computing) because its focus on 'Cloud' is a direct match for the student's career goal, and it has an excellent tuition fee ($950). The final ranking prioritizes location/cost (PR0114), followed by strong relevance/location (PR0112), then acceptable alternatives (PR0130, PR0184). I kept PR0185 in the final list because it is a solid backup option with high employability and good program relevance, even if the location is secondary.",
+ "explanation": "Crestwood School of Engineering\nThis program is recommended because it is located in Mumbai, matching your strong preference to stay near home. The annual tuition of $850 USD is well within your budget, and the admission requirements are flexible as it does not require a CS background. While the focus on QA testing might be narrower than desired for a Project Manager role, this program offers high employability metrics with an 81% placement rate and a median starting salary of $10903 USD. The main trade-off here is that the specialization in quality assurance may not perfectly align with your goal in IOT/Cloud computing management.\n\nCharnock University\nThis option was selected because it is located in Mumbai, fulfilling your location preference, and its curriculum directly addresses networking and cloud technologies relevant to your career goals. The annual tuition of $1150 USD fits within your budget, and the program requires a CS background, which aligns with your academic history. However, you should note that while the subject matter is excellent for your goal, the placement rate (65%) and median starting salary ($7933 USD) are lower compared to other options on this list.\n\nElmhurst School of Engineering\nThis program was recommended because its focus on IT Management directly supports your career goal of becoming a Project Manager. It offers strong employability metrics with a 77% placement rate and the highest median starting salary ($11249 USD) among all listed programs. While the tuition of $1000 USD is affordable, the main trade-off is that it is located in Hyderabad, which deviates from your primary preference for Mumbai.\n\nAravalli School of Engineering\nThis program offers a relevant focus on cloud computing and has a low annual tuition cost of $950 USD, making it highly budget-friendly. It also does not require a CS background, providing flexibility for admission. The main trade-off is that despite the relevant subject matter (networking/cloud), this option has the lowest placement rate (59%) on the list, which conflicts with your high priority for employability.\n\nLongford Institute of Technology\nThis program was recommended due to its strong combination of a good median starting salary ($10850 USD) and a solid 78% placement rate, indicating high employability. The tuition cost of $1150 USD is within budget, and the curriculum covers software engineering, which supports your career path. The primary trade-off is that its location in Kolkata moves you further away from your preferred Mumbai area.",
+ "wall_s": 216.9
+}

@@ -1,0 +1,103 @@
+{
+ "student_id": "ST0005",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 76.2
+    },
+    "career_goal": "Software Systems Engineer",
+    "budget_max_usd_per_year": null,
+    "location_preference": null,
+    "mobility": "open_domestic",
+    "employability_priority": null,
+    "other_constraints": [
+     "interested in IOT and testing"
+    ],
+    "uncertainty_notes": [
+     "budget maximum per year is unknown.",
+     "location preference is unknown.",
+     "mobility preference is unknown (defaulting to open_domestic).",
+     "employability priority is unknown."
+    ]
+   },
+   "final_shortlist": [
+    "PR0053",
+    "PR0186",
+    "PR0182",
+    "PR0119"
+   ],
+   "feedback": null
+  },
+  {
+   "session": 2,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 76.2
+    },
+    "career_goal": "Software Systems Engineer",
+    "budget_max_usd_per_year": 10500,
+    "location_preference": "Mumbai",
+    "mobility": "prefers_region",
+    "employability_priority": null,
+    "other_constraints": [
+     "interested in IOT and testing"
+    ],
+    "uncertainty_notes": [
+     "Employability priority is unknown."
+    ]
+   },
+   "final_shortlist": [
+    "PR0198",
+    "PR0065",
+    "PR0182",
+    "PR0186",
+    "PR0072"
+   ],
+   "feedback": {
+    "liked": [
+     "PR0053",
+     "PR0186"
+    ],
+    "disliked": []
+   }
+  },
+  {
+   "session": 3,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 76.2
+    },
+    "career_goal": "Software Systems Engineer",
+    "budget_max_usd_per_year": 6300,
+    "location_preference": "Mumbai",
+    "mobility": "prefers_region",
+    "employability_priority": null,
+    "other_constraints": [
+     "interested in IOT and testing"
+    ],
+    "uncertainty_notes": [
+     "Employability priority is unknown."
+    ]
+   },
+   "final_shortlist": [
+    "PR0065",
+    "PR0082",
+    "PR0198",
+    "PR0119",
+    "PR0182"
+   ],
+   "feedback": {
+    "liked": [
+     "PR0198",
+     "PR0065"
+    ],
+    "disliked": []
+   }
+  }
+ ]
+}

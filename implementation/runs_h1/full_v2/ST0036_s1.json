@@ -1,0 +1,74 @@
+{
+ "student_id": "ST0036",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a python certification background. My overall academic average is 70.8% in an IT/computer-science degree. I'm interested in Management and developer. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 3400 per year. I live in Delhi. I'd strongly prefer to stay near home, though I might consider elsewhere in India.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 70.8
+  },
+  "career_goal": "Management and developer (in tech)",
+  "budget_max_usd_per_year": 3400,
+  "location_preference": "Delhi",
+  "mobility": "prefers_region",
+  "employability_priority": null,
+  "other_constraints": [
+   "Python certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0060",
+  "PR0176",
+  "PR0092",
+  "PR0189",
+  "PR0076",
+  "PR0130",
+  "PR0078",
+  "PR0150",
+  "PR0157",
+  "PR0160",
+  "PR0048",
+  "PR0172",
+  "PR0156",
+  "PR0029",
+  "PR0022",
+  "PR0182",
+  "PR0191",
+  "PR0119",
+  "PR0101",
+  "PR0143"
+ ],
+ "retrieved_ids": [
+  "PR0160",
+  "PR0189",
+  "PR0076",
+  "PR0130",
+  "PR0156",
+  "PR0048",
+  "PR0157",
+  "PR0172"
+ ],
+ "proposed_shortlist": [
+  "PR0160",
+  "PR0157",
+  "PR0130",
+  "PR0156",
+  "PR0076"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0160",
+  "PR0157",
+  "PR0076",
+  "PR0130",
+  "PR0156"
+ ],
+ "reflection_note": "The original ranking was generally sound, prioritizing location and cost. I re-ranked PR0076 above PR0130 because it offers stronger employability metrics (81% vs 77%) while maintaining a very low tuition fee ($1250 vs $1000). PR0157 remains highly ranked due to its exceptional financial feasibility, making it a strong backup option even if the location is not preferred. All five programs meet the hard constraints (tuition < $3400; minimum grade requirement met by 70.8% for all listed candidates).",
+ "explanation": "**Keystone Technical University**\nThis program was highly recommended because it perfectly aligns with your location preference in Delhi and offers an MBA Technology Management degree suitable for a career goal combining management and development. The annual tuition of $2050 remains well within your maximum budget, and the minimum required grade percentage (60%) is met by your 70.8% academic background. While this program has no post-study work visa options, it provides strong placement metrics with a 71% placement rate and an average starting salary of $8900 USD. The main trade-off here is that while the location is ideal, the median starting salary is lower compared to some other options on your list.\n\n**Longford University**\nThis MSc IT Management program offers excellent value with a low annual tuition fee of only $800, keeping it far under your budget constraints. The curriculum fields in business information systems and IT management are relevant to your goal of combining technical knowledge with management skills. Although the location is Coimbatore rather than your preferred Delhi, this option provides strong placement metrics (72% rate) and a median starting salary of $10444 USD. The primary trade-off for this school is the geographical mismatch between its location in Coimbatore and your stated preference for Delhi.\n\n**Sarayu Institute of Technology**\nThis MBA Technology Management program offers one of the highest placement rates (81%) and the highest median starting salary ($13142 USD) among all options, making it highly attractive for career growth. The tuition cost of $1250 is also well within your budget, and the curriculum covers both IT management and software engineering, fitting your dual interest in development and management. Be aware that while this school offers strong outcomes, its location in Hyderabad deviates from your Delhi preference, and you should note that your current grade percentage (70.8%) is slightly below the required minimum of 74%.\n\n**Elmhurst School of Engineering**\nThis MSc IT Management program provides a solid blend of technical depth and management focus through its curriculum fields, while maintaining an affordable annual tuition of $1000 USD. It meets your academic requirements (minimum grade percentage of 62%) and offers good placement metrics with a 77% rate and a median starting salary of $11249 USD. The main trade-off for this school is that its location in Hyderabad does not match your stated preference for Delhi, though it remains within the preferred region.\n\n**Meridian Technical University**\nThis MBA Technology Management program provides an affordable option with an annual tuition fee of $1350 USD and a minimum grade requirement (57%) that you easily exceed. The curriculum is directly relevant to your career goal in tech management. However, this school presents the trade-off of having the lowest median starting salary ($7397 USD) among all listed options, despite its location in Pune being acceptable within your preferred region.",
+ "wall_s": 129.6
+}

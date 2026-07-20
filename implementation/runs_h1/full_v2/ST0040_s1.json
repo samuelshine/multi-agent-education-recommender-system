@@ -1,0 +1,58 @@
+{
+ "student_id": "ST0040",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a hadoop certification background. My overall academic average is 80.3% in an IT/computer-science degree. I'm interested in IOT and testing. I want to become a Web Developer. My family can afford at most about USD 1200 per year. I live in Delhi. I cannot leave my city. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [
+  "reflect"
+ ],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 80.3
+  },
+  "career_goal": "Web Developer",
+  "budget_max_usd_per_year": 1200,
+  "location_preference": "Delhi",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in IOT and testing",
+   "Hadoop certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0064",
+  "PR0120",
+  "PR0020",
+  "PR0175",
+  "PR0063",
+  "PR0184"
+ ],
+ "retrieved_ids": [
+  "PR0064",
+  "PR0120",
+  "PR0184",
+  "PR0063"
+ ],
+ "proposed_shortlist": [
+  "PR0184",
+  "PR0064",
+  "PR0120",
+  "PR0063"
+ ],
+ "guard_dropped": [],
+ "backfilled": [],
+ "final_shortlist": [
+  "PR0184",
+  "PR0064",
+  "PR0120",
+  "PR0063"
+ ],
+ "reflection_note": "reflect fallback: kept proposal",
+ "explanation": "Aravalli School of Engineering\nThis program offers an MSc in Cloud Computing, which aligns well with modern web development infrastructure, while keeping tuition within your budget at $950. The location is Delhi, matching your preference, but you should note that the placement rate is 59% and there is no post-study work visa support. The main trade-off here is accepting a moderate placement rate and zero visa options in exchange for staying under your annual tuition maximum.\n\nKestrel Institute of Applied Sciences\nThis MSc Software Quality Engineering program was recommended because it directly addresses your interest in testing, and its low tuition of $650 keeps you well within your budget. While the salary ($7369) is among the lowest on this list, the strong alignment with QA testing makes it a specialized fit for your interests. The trade-off here is prioritizing specific skill development (testing) over maximizing potential starting salary.\n\nAshford Institute of Applied Sciences\nThis program offers an MSc in Big Data Analytics and stands out due to its high employability metrics, boasting a 78% placement rate and the highest median starting salary at $10021. The annual tuition of $800 is comfortably within your budget, making it highly cost-effective for maximizing career potential. The main trade-off is that while data science is related to web development, the focus is heavily on analytics rather than pure software engineering.\n\nLongford Technical University\nAlthough this MCA program covers relevant fields like software engineering and data science, its annual tuition of $1350 exceeds your stated maximum budget of $1200. Therefore, despite offering a decent placement rate (64%) and being located in Delhi, the cost constraint makes it unsuitable unless you can increase your available funds.",
+ "wall_s": 127.2
+}

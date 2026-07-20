@@ -1,0 +1,74 @@
+{
+ "student_id": "ST0021",
+ "session": 3,
+ "mode": "no_memory",
+ "version": 1,
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 73.3% in an IT/computer-science degree. I'm interested in parallel computing and Business process analyst. I want to become a Technical Engineer. My family can afford at most about USD 1400 per year. I live in Kolkata. I'm open to anywhere in India. Getting a good job after graduation matters more to me than anything else. About the earlier suggestions: I liked PR0185, PR0053.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 73.3
+  },
+  "career_goal": "Technical Engineer",
+  "budget_max_usd_per_year": 1400,
+  "location_preference": "Kolkata",
+  "mobility": "open_domestic",
+  "employability_priority": "high",
+  "other_constraints": [
+   "r programming certification",
+   "interested in parallel computing",
+   "interested in Business process analyst"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0015",
+  "PR0020",
+  "PR0157",
+  "PR0074",
+  "PR0087",
+  "PR0119",
+  "PR0058",
+  "PR0187",
+  "PR0053",
+  "PR0109",
+  "PR0076",
+  "PR0012",
+  "PR0019",
+  "PR0114",
+  "PR0185",
+  "PR0130",
+  "PR0084",
+  "PR0120",
+  "PR0170",
+  "PR0073"
+ ],
+ "retrieved_ids": [
+  "PR0053",
+  "PR0185",
+  "PR0012",
+  "PR0130",
+  "PR0157",
+  "PR0076",
+  "PR0187",
+  "PR0120"
+ ],
+ "proposed_shortlist": [
+  "PR0053",
+  "PR0185",
+  "PR0120"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0053",
+  "PR0185",
+  "PR0012",
+  "PR0130",
+  "PR0157"
+ ],
+ "reflection_note": "The original shortlist was good but included a program (PR0120) that violated the location constraint. I dropped PR0120 and swapped in two better options: PR0012 (strong SE focus, Kolkata) and PR0130 (IT Management, acceptable deviation). I also added PR0157 as it is highly budget-friendly ($800/year), offers IT Management, and is located in a different city (Coimbatore) which might be an acceptable compromise if the student prioritizes cost over location.",
+ "explanation": "Cavendish University\nThis program is highly recommended because it meets your primary criteria: it is located in Kolkata and the annual tuition of $1200 falls comfortably within your budget. With a high placement rate of 86% and a median starting salary of $12,855, this option strongly supports your goal as a Technical Engineer with high employability priority. The main trade-off here is that there are no post-study work visa months listed, which limits immediate career mobility after graduation.\n\nLongford Institute of Technology\nThis program remains relevant because it is located in Kolkata and the tuition ($1150) fits your budget while requiring a CS background, matching your academic history. It provides strong technical skills through cybersecurity and software engineering, aligning with your goal to be a Technical Engineer. The trade-off compared to other options is that its median starting salary of $10,850 is lower than some alternatives.\n\nElmhurst University\nWhile this program offers excellent relevance in software engineering and a high median starting salary of $13,468, it cannot be recommended due to the tuition cost. The annual fee of $1500 exceeds your stated maximum budget of $1400 per year. Therefore, the main trade-off is that this program violates your financial constraint.\n\nElmhurst School of Engineering\nThis option was considered because its low tuition ($1000) fits your budget and it covers IT Management, which relates to your interest in Business Process Analyst roles. However, the primary drawback is the location; while you prefer Kolkata, this school is located in Hyderabad. The main trade-off is sacrificing your preferred location for a lower cost.\n\nLongford University\nThis program offers the lowest tuition ($800) and does not require a CS background, providing flexibility within your budget constraints. It touches upon IT Management and Business Information Systems, which aligns with your interest in business process analysis. The main trade-off is that this option fails on two counts: it is located in Coimbatore (not Kolkata), and it has the lowest placement rate of 72% among all listed options.",
+ "wall_s": 190.7
+}

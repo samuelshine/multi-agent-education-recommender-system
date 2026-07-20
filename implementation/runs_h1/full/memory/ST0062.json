@@ -1,0 +1,31 @@
+{
+ "student_id": "ST0062",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 80
+    },
+    "career_goal": "CRM Business Analyst",
+    "budget_max_usd_per_year": 18900,
+    "location_preference": null,
+    "mobility": "open_international",
+    "employability_priority": "high",
+    "other_constraints": [
+     "Interested in Management and cloud computing"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0000",
+    "PR0195",
+    "PR0122",
+    "PR0153",
+    "PR0001"
+   ],
+   "feedback": null
+  }
+ ]
+}

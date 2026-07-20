@@ -1,0 +1,63 @@
+{
+ "student_id": "ST0008",
+ "session": 2,
+ "mode": "full",
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 77.6% in an IT/computer-science degree. I'm interested in programming and Business process analyst. I want to become a UX Designer. My family can afford at most about USD 2100 per year. I live in Bengaluru. I'd strongly prefer to stay near home, though I might consider elsewhere in India. About the earlier suggestions: I liked PR0174, PR0158.",
+ "memory_used": true,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 77.6
+  },
+  "career_goal": "UX Designer",
+  "budget_max_usd_per_year": 2100,
+  "location_preference": "Bengaluru",
+  "mobility": "prefers_region",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in programming and Business process analyst"
+  ],
+  "uncertainty_notes": [
+   "Employability priority not stated."
+  ]
+ },
+ "prefilter_ids": [
+  "PR0101",
+  "PR0039",
+  "PR0174",
+  "PR0158",
+  "PR0054",
+  "PR0084",
+  "PR0015",
+  "PR0020",
+  "PR0141",
+  "PR0013",
+  "PR0033",
+  "PR0014",
+  "PR0157",
+  "PR0181",
+  "PR0046",
+  "PR0047",
+  "PR0166",
+  "PR0074",
+  "PR0172",
+  "PR0059"
+ ],
+ "retrieved_ids": [
+  "PR0015",
+  "PR0013"
+ ],
+ "proposed_shortlist": [
+  "PR0013",
+  "PR0015"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0013",
+  "PR0015"
+ ],
+ "reflection_note": "The current shortlist is highly optimized. Both programs meet the critical constraints (Bengaluru location, low budget) and address different facets of the student's profile: PR0013 targets the primary UX goal directly, while PR0015 addresses the secondary interest in Business Process Analysis. Since both are strong contenders for distinct reasons, they should both be presented to the student.",
+ "explanation": "Meridian Institute of Technology\nThis program was recommended because its focus on Human-Computer Interaction directly aligns with your goal of becoming a UX Designer. It is located in Bengaluru, matching your location preference, and the annual tuition of $900 is well within your maximum budget of $2100. Furthermore, your 77.6% grade exceeds the minimum requirement of 59%. The main trade-off to consider is that this program does not offer a post-study work visa option (0 months).\n\nKeystone Institute of Technology\nThis MSc Information Systems program was recommended because its focus on business information systems complements your interest in becoming a Business Process Analyst. It remains located in Bengaluru and has an annual tuition cost of $1200, keeping it within your budget constraints. Your academic background is sufficient for admission (min 61% required). The primary trade-off here is that while the program aligns with your business interests, like Meridian, it does not offer a post-study work visa option (0 months).",
+ "wall_s": 145.4
+}

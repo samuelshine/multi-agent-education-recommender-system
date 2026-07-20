@@ -1,0 +1,71 @@
+{
+ "student_id": "ST0016",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a full stack certification background. My overall academic average is 76.2% in an IT/computer-science degree. I'm interested in programming and system developer. I want to become a Technical Engineer. My family can afford at most about USD 4000 per year. I live in Mumbai. I'm open to going abroad. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 76.2
+  },
+  "career_goal": "Technical Engineer (Programming and System Developer)",
+  "budget_max_usd_per_year": 4000,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Full stack certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0000",
+  "PR0195",
+  "PR0021",
+  "PR0153",
+  "PR0051",
+  "PR0037",
+  "PR0161",
+  "PR0198",
+  "PR0104",
+  "PR0144",
+  "PR0139",
+  "PR0194",
+  "PR0164",
+  "PR0029",
+  "PR0022",
+  "PR0137",
+  "PR0182",
+  "PR0060",
+  "PR0191",
+  "PR0119"
+ ],
+ "retrieved_ids": [
+  "PR0195",
+  "PR0153",
+  "PR0194",
+  "PR0137",
+  "PR0021",
+  "PR0161",
+  "PR0104",
+  "PR0182"
+ ],
+ "proposed_shortlist": [
+  "PR0195",
+  "PR0021",
+  "PR0153",
+  "PR0194"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0195",
+  "PR0021",
+  "PR0153",
+  "PR0161"
+ ],
+ "reflection_note": "The original shortlist was strong but included PR0194, which is outperformed by the newly added PR0161. I dropped PR0194 because its placement metrics are weak relative to its cost and technical focus. PR0161 (MSc Software Engineering) is a much better fit for the student's core goal ('Technical Engineer/Programming') than PR0194, while still respecting the CS background requirement. The final list prioritizes low-cost, high-employability options that align with either pure development (PR0161) or general IT skills (PR0195, PR0021).",
+ "explanation": "Keystone School of Engineering\nThis program was recommended because it offers a very low annual tuition of $300, fitting well within your maximum budget. It has an excellent placement rate of 82% and provides an 18-month post-study work visa, supporting your high employability priority. The main trade-off here is that the focus on \"business_information_systems\" may be less purely technical than desired for a core programming role, despite its strong career outcomes.\n\nAshford Institute of Technology\nThis option aligns strongly with your budget constraints, featuring an annual tuition cost of only $450. It boasts a high placement rate of 82% and offers the valuable 18-month post-study work visa, making it excellent for immediate employment prospects. The trade-off is that its focus on \"it_support\" suggests a more operational role rather than deep system development, which might deviate slightly from your technical engineering goal.\n\nKeystone University\nThis program maintains a low cost with an annual tuition of $550 and provides the desired 18-month post-study work visa. It is suitable for students interested in how technology interacts with users, as its focus is on \"design_hci.\" The main trade-off to consider is that this specialization leans heavily into design rather than core programming, and it has a slightly lower placement rate of 78% compared to other options.\n\nTejas University\nThis program is the most technically aligned option for your goal, as it is an MSc in Software Engineering and requires a CS background matching your academic profile. While its annual tuition of $3850 is higher than the others, it remains within your $4000 budget limit. The primary trade-off is that while highly relevant to development, this program has the lowest median starting salary ($33,731) and placement rate (72%) among the shortlisted options.",
+ "wall_s": 224.7
+}

@@ -1,0 +1,72 @@
+{
+ "student_id": "ST0019",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a machine learning certification background. My overall academic average is 72.8% in an IT/computer-science degree. I'm interested in Computer Architecture and developer. I want to become a Database Manager. My family can afford at most about USD 10700 per year. I live in Pune. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 72.8
+  },
+  "career_goal": "Database Manager",
+  "budget_max_usd_per_year": 10700,
+  "location_preference": "Pune",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in Computer Architecture and developer roles"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0191",
+  "PR0143",
+  "PR0058",
+  "PR0007",
+  "PR0099",
+  "PR0026",
+  "PR0090",
+  "PR0120",
+  "PR0170",
+  "PR0145",
+  "PR0033",
+  "PR0107",
+  "PR0111",
+  "PR0134",
+  "PR0074",
+  "PR0129",
+  "PR0133",
+  "PR0063",
+  "PR0173",
+  "PR0071"
+ ],
+ "retrieved_ids": [
+  "PR0007",
+  "PR0143",
+  "PR0173",
+  "PR0145",
+  "PR0134",
+  "PR0129",
+  "PR0071",
+  "PR0191"
+ ],
+ "proposed_shortlist": [
+  "PR0007",
+  "PR0143",
+  "PR0173",
+  "PR0145"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0007",
+  "PR0129",
+  "PR0071",
+  "PR0134",
+  "PR0191"
+ ],
+ "reflection_note": "The initial shortlist was heavily weighted towards the existing programs, but failed to adequately balance the hard location constraint (Pune) with high employability. PR0007 is perfect and must be kept as Rank 1. I have dropped all non-Pune options unless they are significantly better alternatives. Since only one Pune option exists (PR0007), I need to broaden the search slightly while maintaining a focus on proximity/relevance. I swapped in PR0129 (Kolkata) and PR0071 (Mumbai) as acceptable regional compromises, followed by other strong candidates that are geographically diverse but academically relevant.",
+ "explanation": "Ashford Institute of Technology\nThis program is highly recommended because it perfectly matches your location preference in Pune and requires a Computer Science background, aligning with your academic history. With an annual tuition of $2350, it stays well within your budget while offering a high placement rate of 86%. The median starting salary of $12,541 is strong for your career goal as a Database Manager. There are no significant trade-offs here; this option provides the best combination of location, background fit, and employability.\n\nWestbrook Technical University\nThis program offers the lowest tuition cost at $1200, making it excellent for budget adherence. It also requires a CS background, which matches your academic profile. However, you must weigh the trade-off between low cost and lower career outcomes; its placement rate is 67%, and the median starting salary of $6936 is among the lowest on this list.\n\nLongford Institute of Applied Sciences\nThis MTech program provides a good balance with an annual tuition of $1300, keeping costs down while offering a relevant Data Engineering specialization. The trade-off here involves balancing the degree focus against employability; although it covers software engineering, its placement rate is only 58%, which may conflict with your high priority for job placement.\n\nKeystone Institute of Technology\nThis option provides a solid balance and meets several key criteria: it requires a CS background, fits within budget ($1850), and is located in the desired region. The main trade-off is that while its placement rate (69%) and salary ($8,885) are respectable, they are moderate compared to other options on this list.\n\nSarayu Technical University\nThis program offers the highest median starting salary of $15,951 and a strong placement rate of 84%, making it excellent for your employability priority. The primary trade-off is that its annual tuition ($3250) is the highest among the shortlisted options, although it remains within your maximum budget.",
+ "wall_s": 206.5
+}

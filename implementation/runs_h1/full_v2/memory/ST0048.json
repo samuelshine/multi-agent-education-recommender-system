@@ -1,0 +1,32 @@
+{
+ "student_id": "ST0048",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 74.1
+    },
+    "career_goal": "Information Technology Manager",
+    "budget_max_usd_per_year": 3400,
+    "location_preference": "Hyderabad",
+    "mobility": "fixed_city",
+    "employability_priority": null,
+    "other_constraints": [
+     "r programming certification background",
+     "interested in Management and Business process analyst"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0076",
+    "PR0176",
+    "PR0130",
+    "PR0167",
+    "PR0196"
+   ],
+   "feedback": null
+  }
+ ]
+}

@@ -1,0 +1,74 @@
+{
+ "student_id": "ST0080",
+ "session": 1,
+ "mode": "single_objective",
+ "message": "Hi, I'm a student with a distro making certification background. My overall academic average is 78.2% in an IT/computer-science degree. I'm interested in IOT and cloud computing. I want to become a Project Manager. My family can afford at most about USD 1300 per year. I live in Mumbai. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 78.2
+  },
+  "career_goal": "Project Manager (in IOT and cloud computing)",
+  "budget_max_usd_per_year": 1300,
+  "location_preference": "Mumbai",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Strong preference to stay near home (Mumbai)",
+   "Open to other locations within India"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0118",
+  "PR0180",
+  "PR0162",
+  "PR0112",
+  "PR0159",
+  "PR0032",
+  "PR0184",
+  "PR0165",
+  "PR0119",
+  "PR0058",
+  "PR0187",
+  "PR0053",
+  "PR0109",
+  "PR0076",
+  "PR0012",
+  "PR0019",
+  "PR0114",
+  "PR0185",
+  "PR0130",
+  "PR0084"
+ ],
+ "retrieved_ids": [
+  "PR0114",
+  "PR0112",
+  "PR0185",
+  "PR0180",
+  "PR0130",
+  "PR0076",
+  "PR0162",
+  "PR0184"
+ ],
+ "proposed_shortlist": [
+  "PR0130",
+  "PR0112",
+  "PR0180",
+  "PR0076",
+  "PR0185"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0112",
+  "PR0114",
+  "PR0130",
+  "PR0180",
+  "PR0184"
+ ],
+ "reflection_note": "The original shortlist was good but lacked a strong Mumbai-based, non-CS background option. I dropped PR0076 and PR0185 as they were either too risky or off-topic. I swapped in PR0114 (Mumbai, low barrier) and PR0184 (Cloud focus, low barrier) to strengthen the list's balance across location preference, core technical skills, and academic feasibility. The final list prioritizes Mumbai/Pune options first, followed by strong alternatives.",
+ "explanation": "Charnock University\nThis program is recommended because it is located in Mumbai and requires a CS background, matching your academic profile. The curriculum covers networking and cloud engineering, which aligns with your goal of working in IOT and cloud computing. While the tuition of $1150 remains within your budget, the main trade-off is that its placement rate (65%) and median starting salary ($7933) are lower compared to other options on this list.\n\nCrestwood School of Engineering\nThis option is highly recommended due to its strong employability metrics and low cost, fitting both your high priority for job placement and your budget maximum of $1300 per year. Located in Mumbai, it keeps you close to home while offering a high placement rate (81%) and a solid median salary ($10903). The primary trade-off is that the specialization focuses on QA Testing rather than direct cloud or management skills.\n\nElmhurst School of Engineering\nThis program is excellent for your career goal, as its focus on IT Management directly supports transitioning into a Project Manager role. It has a strong median starting salary ($11249) and remains well within your budget at $1000 per year. The main trade-off here is the location; while it offers high relevance, you would need to relocate to Hyderabad instead of staying in Mumbai.\n\nBraxton Institute of Technology\nThis program is technically strong because its focus on Computer Networks directly relates to IOT and cloud infrastructure. It requires a CS background, which matches your degree, and keeps you within budget at $1250 per year. The trade-off for this highly relevant technical specialization is that it requires moving to Pune, and the placement rate (71%) is moderate compared to other options.\n\nAravalli School of Engineering\nThis program offers the most direct subject matter fit with its focus on Cloud Computing, which aligns perfectly with your career goals. It also has a low tuition cost ($950) and does not require a CS background, making it flexible for admission. The main trade-off is that while the curriculum is ideal, this option has the lowest placement rate (59%) among all programs listed.",
+ "wall_s": 137.3
+}

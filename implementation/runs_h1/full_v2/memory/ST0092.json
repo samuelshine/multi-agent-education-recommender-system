@@ -1,0 +1,31 @@
+{
+ "student_id": "ST0092",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 72.2
+    },
+    "career_goal": "Computer Architecture and system developer (Tech)",
+    "budget_max_usd_per_year": 2400,
+    "location_preference": "Bengaluru",
+    "mobility": "prefers_region",
+    "employability_priority": "high",
+    "other_constraints": [],
+    "uncertainty_notes": [
+     "None"
+    ]
+   },
+   "final_shortlist": [
+    "PR0186",
+    "PR0109",
+    "PR0158",
+    "PR0187",
+    "PR0058"
+   ],
+   "feedback": null
+  }
+ ]
+}

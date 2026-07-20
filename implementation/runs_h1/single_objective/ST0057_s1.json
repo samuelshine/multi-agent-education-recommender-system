@@ -1,0 +1,71 @@
+{
+ "student_id": "ST0057",
+ "session": 1,
+ "mode": "single_objective",
+ "message": "Hi, I'm a student with a app development certification background. My overall academic average is 72.1% in an IT/computer-science degree. I'm interested in programming and cloud computing. I want to become a CRM Technical Developer. My family can afford at most about USD 2800 per year. I live in Chennai. I'm open to anywhere in India.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 72.1
+  },
+  "career_goal": "CRM Technical Developer",
+  "budget_max_usd_per_year": 2800,
+  "location_preference": null,
+  "mobility": "open_domestic",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in programming and cloud computing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0186",
+  "PR0197",
+  "PR0147",
+  "PR0096",
+  "PR0199",
+  "PR0118",
+  "PR0121",
+  "PR0148",
+  "PR0016",
+  "PR0102",
+  "PR0180",
+  "PR0162",
+  "PR0112",
+  "PR0159",
+  "PR0032",
+  "PR0184",
+  "PR0165",
+  "PR0022",
+  "PR0182",
+  "PR0191"
+ ],
+ "retrieved_ids": [
+  "PR0186",
+  "PR0197",
+  "PR0147",
+  "PR0096",
+  "PR0199",
+  "PR0165",
+  "PR0102",
+  "PR0180"
+ ],
+ "proposed_shortlist": [
+  "PR0186",
+  "PR0197",
+  "PR0096",
+  "PR0147",
+  "PR0102"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0186",
+  "PR0102",
+  "PR0180"
+ ],
+ "reflection_note": "The original shortlist contained two programs (PR0197, PR0096) that violated the budget constraint ($3350 > $2800), and one program (PR0147) that violated the academic grade constraint (74% > 72.1%). I dropped these immediately. The remaining viable options are PR0186, PR0102, and PR0180. Since all three are highly relevant and meet constraints, they should be kept in rank order based on overall fit/cost efficiency. I swapped in PR0180 as it is the most affordable option that still meets requirements, making it a strong addition to the backup list.",
+ "explanation": "Halcyon Institute of Technology\nThis program was recommended because it aligns strongly with your interests in cloud computing and programming through its focus on networking and software engineering. With an annual tuition of $2050, it remains within your maximum budget of $2800. It offers a high placement rate of 83% and the highest median starting salary ($15192) among the options. The main trade-off here is that while the program has excellent outcomes, there are no post-study work visa benefits listed for this location.\n\nWestbrook Technical University\nThis option was selected because its curriculum focuses on cloud computing, matching your stated interests in programming and cloud technologies. At $1700 annually, it fits comfortably within your budget constraints. While the placement rate is 75% and the median starting salary is $8729, you must weigh this against the higher earning potential offered by Halcyon Institute of Technology. The trade-off is accepting a lower expected salary for a slightly more affordable tuition fee compared to the top option.\n\nBraxton Institute of Technology\nThis program is recommended as the most budget-friendly choice, with an annual tuition cost of only $1250, keeping you well under your maximum budget. It covers cloud computing topics and requires a CS background, which matches your academic profile. However, the main trade-off for this low cost is that it has the lowest placement rate (71%) and median starting salary ($10359) of all three options.",
+ "wall_s": 106.8
+}

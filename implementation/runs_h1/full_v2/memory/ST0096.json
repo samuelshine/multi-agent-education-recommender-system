@@ -1,0 +1,31 @@
+{
+ "student_id": "ST0096",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 77.9
+    },
+    "career_goal": "Database Developer",
+    "budget_max_usd_per_year": 10200,
+    "location_preference": null,
+    "mobility": "open_international",
+    "employability_priority": null,
+    "other_constraints": [
+     "Interested in Computer Architecture and testing"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0151",
+    "PR0126",
+    "PR0104",
+    "PR0140",
+    "PR0128"
+   ],
+   "feedback": null
+  }
+ ]
+}

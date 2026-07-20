@@ -1,0 +1,67 @@
+{
+ "student_id": "ST0095",
+ "session": 1,
+ "mode": "single_objective",
+ "version": 2,
+ "message": "Hi, I'm a student with a full stack certification background. My overall academic average is 72.6% in an IT/computer-science degree. I'm interested in Software Engineering and developer. I want to become a Applications Developer. My family can afford at most about USD 3300 per year. I live in Hyderabad. I cannot leave my city. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 72.6
+  },
+  "career_goal": "Applications Developer (Software Engineering and developer)",
+  "budget_max_usd_per_year": 3300,
+  "location_preference": "Hyderabad",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Full stack certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0026",
+  "PR0076",
+  "PR0167",
+  "PR0196",
+  "PR0142",
+  "PR0119",
+  "PR0176",
+  "PR0096",
+  "PR0130",
+  "PR0113",
+  "PR0111",
+  "PR0074",
+  "PR0050",
+  "PR0159"
+ ],
+ "retrieved_ids": [
+  "PR0196",
+  "PR0167",
+  "PR0142",
+  "PR0119",
+  "PR0096",
+  "PR0130",
+  "PR0176",
+  "PR0074"
+ ],
+ "proposed_shortlist": [
+  "PR0196",
+  "PR0167",
+  "PR0142",
+  "PR0130"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0196",
+  "PR0167",
+  "PR0119",
+  "PR0142",
+  "PR0130"
+ ],
+ "reflection_note": "The initial shortlist was strong, but PR0096 was dropped due to exceeding the budget constraint ($3350 > $3300). I replaced it with PR0119. PR0119 is a superior alternative to PR0142 because of its significantly higher placement rate and median salary, improving the overall quality of the list without violating constraints. The final list maintains a good balance: PR0196 (Best Fit/Core Dev), PR0167 (Strong Alternative/SE focus), PR0119 (High Employability QA), PR0142 (Feasible QA backup), and PR0130 (Broadest Feasibility). All selected programs are located in Hyderabad, meet the budget constraint, and are academically plausible given the student's background.",
+ "explanation": "Elmhurst Institute of Applied Sciences\nThis MTech Computer Science is a strong recommendation because it directly aligns with your goal as an Applications Developer and requires a CS background, which you possess. The annual tuition of $1650 USD fits well within your budget maximum of $3300, and the program is located in Hyderabad. While the median starting salary ($10817) and placement rate (70%) are solid, the main trade-off here is that its placement rate is lower compared to some other options on this list.\n\nCharnock Institute of Technology\nThis MTech Cyber Security option was recommended because it maintains a focus on software engineering while offering a higher median starting salary ($12765) and a strong placement rate (79%). At $2450 USD, the tuition remains within your budget constraints for Hyderabad. The trade-off you should consider is that the primary specialization is cybersecurity, which may shift your career focus away from pure applications development.\n\nMeridian Institute of Applied Sciences\nThis MSc Software Quality Engineering program offers excellent employability metrics with an 86% placement rate and a high median starting salary ($14917). The tuition cost of $1200 USD is very budget-friendly, keeping you well under your maximum limit in Hyderabad. The main trade-off is that the specialization is QA Testing, which represents a slight pivot from pure development roles toward quality assurance.\n\nNalanda Ridge School of Engineering\nThis program has the lowest tuition cost ($700 USD) and meets all location requirements for Hyderabad while remaining far under your budget. It also includes software engineering in its fields, aligning with your career goal. However, the primary trade-off is that it offers the lowest median starting salary ($6488) and a lower placement rate (64%) compared to other options on this list.\n\nElmhurst School of Engineering\nThis MSc IT Management program has an extremely low tuition fee ($1000 USD), making it highly budget-friendly for your Hyderabad location preference. It also meets the admission requirements with a minimum grade percentage of 62%. The main trade-off is that its focus on \"IT Management\" deviates significantly from your stated goal of becoming an Applications Developer, despite having strong placement metrics.",
+ "wall_s": 86.1
+}

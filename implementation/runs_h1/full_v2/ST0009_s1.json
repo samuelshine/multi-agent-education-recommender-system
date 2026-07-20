@@ -1,0 +1,75 @@
+{
+ "student_id": "ST0009",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a app development certification background. My overall academic average is 72.6% in an IT/computer-science degree. I'm interested in hacking and Business process analyst. I want to become a Network Security Engineer. My family can afford at most about USD 4000 per year. I live in Delhi. I'd strongly prefer to stay near home, though I might consider elsewhere in India.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 72.6
+  },
+  "career_goal": "Network Security Engineer",
+  "budget_max_usd_per_year": 4000,
+  "location_preference": null,
+  "mobility": "prefers_region",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in hacking",
+   "Interested in Business process analyst"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0191",
+  "PR0101",
+  "PR0054",
+  "PR0105",
+  "PR0015",
+  "PR0020",
+  "PR0033",
+  "PR0157",
+  "PR0047",
+  "PR0074",
+  "PR0172",
+  "PR0087",
+  "PR0029",
+  "PR0022",
+  "PR0182",
+  "PR0060",
+  "PR0119",
+  "PR0143",
+  "PR0186",
+  "PR0176"
+ ],
+ "retrieved_ids": [
+  "PR0029",
+  "PR0186",
+  "PR0172",
+  "PR0157",
+  "PR0176",
+  "PR0060",
+  "PR0119",
+  "PR0182"
+ ],
+ "proposed_shortlist": [
+  "PR0186",
+  "PR0029",
+  "PR0176",
+  "PR0119",
+  "PR0182"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0186",
+  "PR0029",
+  "PR0176",
+  "PR0119",
+  "PR0182"
+ ],
+ "reflection_note": "The current shortlist is strong and adheres to all hard constraints (budget max $4000/year). The only noted concern is the academic fit for PR0029, which should be flagged as a potential risk. No entries were dropped because they are all valid candidates; however, I have maintained the ranking order as it reflects the best balance of technical relevance and financial feasibility.",
+ "explanation": "Halcyon Institute of Technology\nThis program is recommended because its focus on Computer Networks aligns well with your goal of becoming a Network Security Engineer, and it accepts students with an IT/CS background. The annual tuition of $2050 remains comfortably within your maximum budget of $4000, and your 72.6% grade meets the minimum admission requirement of 70%. The main trade-off here is that while the curriculum covers networking and cloud technologies, it does not specialize as directly in cybersecurity or hacking interests compared to other options.\n\nVantage Technical University\nThis program is highly relevant because its core focus on Information Security directly supports your career goal of Network Security Engineer. It boasts a high placement rate of 92% and offers a median starting salary of $14753, all while keeping the tuition at $3800, which fits within your budget. The main trade-off is that your current grade percentage (72.6%) falls below the program's minimum requirement of 75%, making admission challenging despite the excellent fit.\n\nCrestwood University\nThis option was recommended because its MBA Technology Management degree addresses your interest in Business Process Analyst roles and requires no specific CS background, offering flexibility. With a low tuition cost of $1900, it is well within your budget constraints, and your 72.6% grade meets the minimum admission requirement of 72%. The main trade-off is that this program shifts your focus away from deep technical skills like hacking or network engineering toward IT management and business strategy.\n\nMeridian Institute of Applied Sciences\nThis program is recommended primarily because it has a very low annual tuition cost of $1200, making it highly budget-friendly, and accepts students without a required CS background. Your 72.6% grade meets the minimum admission requirement of 71%, ensuring accessibility while keeping costs minimal. The main trade-off is that its focus on QA testing is significantly removed from your stated goal of Network Security Engineering or interests in hacking/business analysis.\n\nKeystone Technical University\nThis program offers a high placement rate of 91% and has a tuition cost of $1950, keeping it within budget. However, like the Vantage option, this program requires a minimum grade percentage of 75%, which is above your current academic standing (72.6%). The main trade-off is that while affordable and having strong placement metrics, its focus on QA testing does not align with your core interest in network security or hacking.",
+ "wall_s": 124.4
+}

@@ -1,0 +1,55 @@
+{
+ "student_id": "ST0041",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a hadoop certification background. My overall academic average is 81.8% in an IT/computer-science degree. I'm interested in parallel computing and testing. I want to become a Solutions Architect. My family can afford at most about USD 1500 per year. I live in Pune. I'm open to anywhere in India.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 81.8
+  },
+  "career_goal": "Solutions Architect",
+  "budget_max_usd_per_year": 1500,
+  "location_preference": "Pune",
+  "mobility": "prefers_region",
+  "employability_priority": null,
+  "other_constraints": [
+   "interested in parallel computing and testing",
+   "hadoop certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0119",
+  "PR0053",
+  "PR0019",
+  "PR0114",
+  "PR0179",
+  "PR0193",
+  "PR0050",
+  "PR0125",
+  "PR0190",
+  "PR0080",
+  "PR0008",
+  "PR0142",
+  "PR0082",
+  "PR0052",
+  "PR0085",
+  "PR0066",
+  "PR0064",
+  "PR0058",
+  "PR0187",
+  "PR0109"
+ ],
+ "final_shortlist": [
+  "PR0085",
+  "PR0190",
+  "PR0080",
+  "PR0119",
+  "PR0053"
+ ],
+ "explanation": "This program is located in Bengaluru and offers a strong blend of Software Quality Engineering and Software Engineering, which aligns well with your goal of becoming a Solutions Architect. The tuition fee ($1450) is within your budget, and the minimum required grade (54%) is easily met by your 81.8% average.\n\nSince you are based in Pune, this program at Kestrel School of Engineering offers convenience and relevant QA testing skills. The tuition ($1250) is affordable, and the minimum grade requirement (58%) is well below your current academic average.\n\nThis option is also in Pune and provides MSc Software Quality Engineering training. With a tuition fee of $1450, it fits your budget constraint. The program focuses on QA testing, which complements your interest in parallel computing and solutions architecture.\n\nThis MSc Software Quality Engineering program in Hyderabad is a good fit because it offers high placement rates (86%) and a manageable tuition fee ($1200). While not in Pune, the location is within India and meets all your financial and academic criteria.\n\nThis program offers MSc Software Quality Engineering in Kolkata with a low tuition fee ($1200), keeping you within budget. It covers both QA testing and software engineering, providing a broad foundation useful for aspiring Solutions Architects.",
+ "wall_s": 50.8
+}

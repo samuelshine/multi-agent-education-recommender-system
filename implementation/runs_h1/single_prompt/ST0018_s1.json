@@ -1,0 +1,54 @@
+{
+ "student_id": "ST0018",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a app development certification background. My overall academic average is 73.7% in an IT/computer-science degree. I'm interested in hacking and developer. I want to become a Design & UX. My family can afford at most about USD 33200 per year. I live in Bengaluru. I'm open to going abroad. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 73.7
+  },
+  "career_goal": "Design & UX",
+  "budget_max_usd_per_year": 33200,
+  "location_preference": "Bengaluru",
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in hacking and developer roles"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0153",
+  "PR0091",
+  "PR0149",
+  "PR0039",
+  "PR0174",
+  "PR0158",
+  "PR0041",
+  "PR0084",
+  "PR0141",
+  "PR0013",
+  "PR0014",
+  "PR0181",
+  "PR0046",
+  "PR0166",
+  "PR0059",
+  "PR0049",
+  "PR0035",
+  "PR0069",
+  "PR0055",
+  "PR0195"
+ ],
+ "final_shortlist": [
+  "PR0153",
+  "PR0195",
+  "PR0041",
+  "PR0055",
+  "PR0158"
+ ],
+ "explanation": "This German program in HCI is an excellent fit because it aligns with your interest in Design & UX while offering a very low tuition fee ($550) and strong job prospects (78% placement rate, $39k salary). The low cost makes it highly feasible within your budget, and the post-study work visa provides good career security.\n\nLocated in Germany, this program offers a very low tuition cost ($300) and is relevant to your goal of becoming a UX/Design professional through Information Systems. It meets the budget constraint easily and provides an extended post-study work visa (18 months), which strongly supports your priority of getting a good job after graduation.\n\nThe Netherlands option offers a strong international profile and relevant HCI specialization. While the tuition is higher ($11850), it remains within your budget and provides a good post-study work visa (12 months). This choice balances career advancement with manageable costs.\n\nThis US program focuses on Software Quality Engineering, which is highly technical and aligns well with your app development background and interest in 'hacking' (security/QA). Although the tuition ($33000) uses up most of your budget, the high median starting salary ($78k) and post-study work visa make it a strong career investment.\n\nThis Indian program offers an MDes in Interaction Design, directly matching your UX goal. It is highly affordable (low tuition) and has a strong placement rate (84%) within India, making it the most practical choice if you prefer to stay local while gaining relevant design experience.",
+ "wall_s": 51.8
+}

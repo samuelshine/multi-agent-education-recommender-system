@@ -1,0 +1,73 @@
+{
+ "student_id": "ST0013",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a python certification background. My overall academic average is 75.6% in an IT/computer-science degree. I'm interested in Management and security. I want to become a Systems Analyst. My family can afford at most about USD 4400 per year. I live in Pune. I'd strongly prefer to stay near home, though I might consider elsewhere in India.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 75.6
+  },
+  "career_goal": "Systems Analyst",
+  "budget_max_usd_per_year": 4400,
+  "location_preference": null,
+  "mobility": "prefers_region",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in Management and security"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0157",
+  "PR0172",
+  "PR0164",
+  "PR0060",
+  "PR0191",
+  "PR0101",
+  "PR0176",
+  "PR0092",
+  "PR0189",
+  "PR0054",
+  "PR0076",
+  "PR0105",
+  "PR0130",
+  "PR0015",
+  "PR0020",
+  "PR0078",
+  "PR0033",
+  "PR0150",
+  "PR0047",
+  "PR0160"
+ ],
+ "retrieved_ids": [
+  "PR0157",
+  "PR0172",
+  "PR0164",
+  "PR0060",
+  "PR0176",
+  "PR0130",
+  "PR0150",
+  "PR0160"
+ ],
+ "proposed_shortlist": [
+  "PR0176",
+  "PR0164",
+  "PR0130",
+  "PR0060",
+  "PR0157"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0176",
+  "PR0130",
+  "PR0060",
+  "PR0157",
+  "PR0172"
+ ],
+ "reflection_note": "The original shortlist was strong but contained one program (PR0164) that violated the hard constraint regarding minimum required grades. I dropped PR0164 and swapped in PR0172, which is a viable alternative location option with an acceptable grade requirement. The remaining programs are kept as they meet all constraints and offer good strategic choices based on cost, location (tech hubs), and career goals (IT Management/Security).",
+ "explanation": "Crestwood University\nThis program is recommended because its MBA Technology Management focus aligns well with your career goal of becoming a Systems Analyst and your interest in management. With an annual tuition of $1900, it fits comfortably within your maximum budget of $4400 USD per year. You meet the minimum admission requirement (72%) with your 75.6% grade, and the program does not require a CS background. The main trade-off here is that while the median starting salary ($15400) is high, there are no post-study work visa benefits listed.\n\nElmhurst School of Engineering\nThis option is recommended due to its extremely low annual tuition of $1000, making it highly budget-friendly and well under your maximum limit. The MSc IT Management program directly supports your interest in management while remaining relevant to a Systems Analyst role. You meet the minimum grade requirement (62%) with your 75.6% score, and no CS background is required for admission. The trade-off you should consider is that it offers one of the lower median starting salaries ($11249) compared to other options on this list.\n\nQuilon Technical University\nThis campus location in Mumbai provides a strong balance of affordability and high employability, making it a top recommendation. With an annual tuition of $3650, it stays within your budget, and the program's IT Management focus supports both management interests and your career goal. You meet the minimum grade requirement (69%) with your 75.6% score, and admission does not require a CS background. The main trade-off is that while its placement rate (88%) is excellent, it has a higher tuition cost than Longford University's option.\n\nLongford University\nThis program is recommended because of its exceptionally low annual tuition of $800, offering maximum budget safety for your studies. The MSc IT Management curriculum supports both management and technical interests relevant to a Systems Analyst role. You meet the minimum grade requirement (64%) with your 75.6% score, and admission does not require a CS background. The trade-off here is that while it is the most affordable option, its median starting salary ($10444) and placement rate are among the lowest on this list.\n\nQuilon Technical University\nThis campus location in Pune was recommended because it offers an IT Management degree relevant to your goals and interests, and its tuition of $2250 remains within budget. You meet the minimum grade requirement (62%) with your 75.6% score, and no CS background is required for admission. The main trade-off when comparing this campus to the Mumbai location is that Pune has a lower placement rate (66%) and median starting salary ($8654) compared to its counterpart in Mumbai.",
+ "wall_s": 202.8
+}

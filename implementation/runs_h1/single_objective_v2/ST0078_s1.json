@@ -1,0 +1,73 @@
+{
+ "student_id": "ST0078",
+ "session": 1,
+ "mode": "single_objective",
+ "version": 2,
+ "message": "Hi, I'm a student with a machine learning certification background. My overall academic average is 73.9% in an IT/computer-science degree. I'm interested in Computer Architecture and testing. I want to become a Business Intelligence Analyst. My family can afford at most about USD 1400 per year. I live in Coimbatore. I'm open to anywhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 73.9
+  },
+  "career_goal": "Business Intelligence Analyst",
+  "budget_max_usd_per_year": 1400,
+  "location_preference": null,
+  "mobility": "open_domestic",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in Computer Architecture and testing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0119",
+  "PR0053",
+  "PR0019",
+  "PR0114",
+  "PR0015",
+  "PR0020",
+  "PR0179",
+  "PR0193",
+  "PR0157",
+  "PR0074",
+  "PR0050",
+  "PR0125",
+  "PR0190",
+  "PR0080",
+  "PR0008",
+  "PR0142",
+  "PR0082",
+  "PR0052",
+  "PR0085",
+  "PR0066"
+ ],
+ "retrieved_ids": [
+  "PR0119",
+  "PR0053",
+  "PR0114",
+  "PR0157",
+  "PR0082",
+  "PR0193",
+  "PR0052",
+  "PR0066"
+ ],
+ "proposed_shortlist": [
+  "PR0157",
+  "PR0119",
+  "PR0053",
+  "PR0114"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0157",
+  "PR0119",
+  "PR0053",
+  "PR0066",
+  "PR0082"
+ ],
+ "reflection_note": "The original list was strong but lacked diversity in technical depth for the fifth slot. PR0114 was dropped as its narrow focus on QA did not justify its inclusion over other available, more robust options. I swapped in PR0066 (MSc Software Quality Engineering) and PR0082 (MSc Software Engineering). PR0066 is kept at rank 4 because it offers a slightly better balance of affordability and technical relevance than the original PR0114. PR0082 was selected as the final swap-in due to its extremely low cost, high feasibility, and strong core SE focus, providing maximum value for the student's budget constraints.",
+ "explanation": "Longford University\nThis program is recommended because its focus on IT Management and Business Information Systems aligns well with your goal of becoming a Business Intelligence Analyst. It is highly budget-friendly at $800 annual tuition, which fits within your maximum budget. While the placement rate is 72% and the median starting salary is $10,444, the main trade-off here is that it focuses more on management theory rather than the deep technical testing skills you expressed interest in.\n\nMeridian Institute of Applied Sciences\nThis program is an excellent fit because its focus on Software Quality Engineering directly addresses your interest in testing while also supporting a career in data analysis and business intelligence. It offers the highest placement rate (86%) and the best median starting salary ($14,917) among all options, satisfying your high employability priority. The tuition of $1200 is well within your budget, making it a strong recommendation with no major trade-offs noted in the data.\n\nCavendish University\nThis program provides specialized training in Software Quality Engineering and software development, directly catering to your interest in testing while maintaining relevance for BI roles. It boasts a high placement rate of 86% and is affordable at $1200 annual tuition. The main trade-off compared to Meridian Institute is that the median starting salary ($12,855) is slightly lower, but it remains an extremely strong option given its excellent employability metrics.\n\nCrestwood Institute of Applied Sciences\nThis program offers a low-cost entry point at $800 annual tuition and focuses on Software Quality Engineering, which aligns with your interest in testing. While the admission requirements are minimal (min grade 55%), you should note that this option has the lowest placement rate (60%) and median starting salary ($7,437) among the shortlisted programs, representing a significant trade-off regarding employability.\n\nElmhurst Technical University\nThis program is the most budget-friendly choice at $500 annual tuition, making it an excellent fit for your financial constraints while providing core Software Engineering skills relevant to testing. However, you must be aware that this option has the lowest placement rate (64%) and median starting salary ($6,458), meaning the main trade-off is accepting lower projected employability metrics in exchange for the lowest possible tuition cost.",
+ "wall_s": 76.6
+}

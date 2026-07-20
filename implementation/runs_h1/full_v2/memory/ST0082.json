@@ -1,0 +1,31 @@
+{
+ "student_id": "ST0082",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 73.7
+    },
+    "career_goal": "Technical Engineer (interested in Computer Architecture and testing)",
+    "budget_max_usd_per_year": 6100,
+    "location_preference": "Bengaluru",
+    "mobility": "fixed_city",
+    "employability_priority": "high",
+    "other_constraints": [
+     "Shell programming certification background"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0073",
+    "PR0015",
+    "PR0173",
+    "PR0085",
+    "PR0013"
+   ],
+   "feedback": null
+  }
+ ]
+}

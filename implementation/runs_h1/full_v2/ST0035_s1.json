@@ -1,0 +1,63 @@
+{
+ "student_id": "ST0035",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 82.2% in an IT/computer-science degree. I'm interested in Management and Business process analyst. I want to become a Database Administrator. My family can afford at most about USD 2800 per year. I live in Bengaluru. I cannot leave my city. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [
+  "reflect"
+ ],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 82.2
+  },
+  "career_goal": "Database Administrator",
+  "budget_max_usd_per_year": 2800,
+  "location_preference": "Bengaluru",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in Management and Business process analyst"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0087",
+  "PR0015",
+  "PR0173",
+  "PR0198",
+  "PR0073",
+  "PR0002",
+  "PR0013",
+  "PR0085"
+ ],
+ "retrieved_ids": [
+  "PR0015",
+  "PR0173",
+  "PR0087",
+  "PR0013",
+  "PR0085",
+  "PR0198",
+  "PR0073"
+ ],
+ "proposed_shortlist": [
+  "PR0173",
+  "PR0015",
+  "PR0087",
+  "PR0073",
+  "PR0013"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0173",
+  "PR0015",
+  "PR0087",
+  "PR0073",
+  "PR0013"
+ ],
+ "reflection_note": "reflect fallback: kept proposal",
+ "explanation": "Longford Technical University\nThis program is recommended because it offers a low annual tuition of $500 USD, fitting well within your budget while being located in Bengaluru. The curriculum includes data science analytics and software engineering, which are relevant to both database administration and IT backgrounds. Since the minimum required grade percentage is 53%, your academic standing makes you eligible without needing a specific CS background. The main trade-off here is that its placement rate of 62% is lower compared to other options on this list, despite the low cost.\n\nKeystone Institute of Technology\nThis program is highly recommended because it directly addresses your interest in management and business process analysis through its focus on Business Information Systems. It maintains a strong employability priority with a 78% placement rate and offers the highest median starting salary at $9707 USD, all while keeping tuition within budget at $1200 USD. You do not require a CS background, making it flexible for your current IT/computer-science degree. The trade-off is that its focus on pure business systems means less emphasis on deep technical database administration compared to data science options.\n\nAravalli Technical University\nThis option was selected because its curriculum combines both Business Information Systems and Data Science Analytics, aligning well with a career goal in Database Administration. It also meets your budget constraint with an annual tuition of $1200 USD. However, you should note that this program requires a CS background, which is something to confirm given your degree. The main trade-off is the lowest placement rate (58%) among all listed options, despite its high relevance to data and business processes.\n\nElmhurst Technical University\nThis MTech Cyber Security program offers an excellent median starting salary of $8637 USD and a strong 80% placement rate, fulfilling your high employability priority. The tuition of $1250 USD is manageable within your budget, and you do not need to meet the minimum grade percentage requirement of 65%. The trade-off is that while highly technical, its focus on cybersecurity deviates from your stated interests in business process analysis or core database administration.\n\nMeridian Institute of Technology\nThis program is recommended because it strongly aligns with your interest in Business Process Analysis through its Human-Computer Interaction (HCI) curriculum. It offers a high median starting salary of $9186 USD and a 77% placement rate, making it excellent for employability while keeping tuition low at $900 USD. Since you do not require a CS background, this option provides flexibility despite lacking a direct focus on pure data science or database administration.",
+ "wall_s": 169.8
+}

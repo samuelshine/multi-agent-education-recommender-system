@@ -1,0 +1,73 @@
+{
+ "student_id": "ST0020",
+ "session": 2,
+ "mode": "no_memory",
+ "version": 1,
+ "message": "Hi, I'm a student with a machine learning certification background. My overall academic average is 80.3% in an IT/computer-science degree. I'm interested in cloud computing and Business process analyst. I want to become a Systems Security Administrator. My family can afford at most about USD 17700 per year. I live in Pune. I'm open to going abroad. About the earlier suggestions: I liked PR0147, PR0043.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 80.3
+  },
+  "career_goal": "Systems Security Administrator",
+  "budget_max_usd_per_year": 17700,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in cloud computing",
+   "Interested in Business process analyst"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0000",
+  "PR0195",
+  "PR0122",
+  "PR0005",
+  "PR0010",
+  "PR0169",
+  "PR0153",
+  "PR0163",
+  "PR0127",
+  "PR0051",
+  "PR0103",
+  "PR0077",
+  "PR0001",
+  "PR0194",
+  "PR0081",
+  "PR0123",
+  "PR0042",
+  "PR0061",
+  "PR0004",
+  "PR0138"
+ ],
+ "retrieved_ids": [
+  "PR0000",
+  "PR0195",
+  "PR0153",
+  "PR0051",
+  "PR0061",
+  "PR0123",
+  "PR0138",
+  "PR0194"
+ ],
+ "proposed_shortlist": [
+  "PR0000",
+  "PR0194",
+  "PR0195",
+  "PR0153"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0000",
+  "PR0194",
+  "PR0195",
+  "PR0061"
+ ],
+ "reflection_note": "The original shortlist was strong but included PR0153, which is too niche (HCI) for a core technical goal like Systems Security Administrator. I dropped it and swapped in PR0061 (Netherlands). This new list maintains the best German options (PR0000, PR0194, PR0195) while adding a strong, technically relevant international alternative that keeps the focus on IT/Systems without sacrificing budget or academic fit. The ranking prioritizes management relevance (PR0000), direct security/cloud relevance (PR0194), and solid foundational systems knowledge (PR0195).",
+ "explanation": "Fairfax Institute of Technology\nThis program is highly recommended because its focus on IT Management and Business Information Systems directly aligns with your interest in becoming a Business Process Analyst. It offers an excellent combination of low cost ($950 annual tuition) and strong career outcomes, boasting a 91% placement rate and a median starting salary of $56,198. Admission is straightforward given your background (min grade required is 80%, which you exceed), and the post-study work visa provides 18 months of opportunity. The main trade-off here is that while it offers strong business integration, its curriculum might be slightly less focused on deep technical systems security compared to a dedicated CS track.\n\nAravalli School of Engineering\nThis program was selected because its title, MSc Cloud Computing, directly matches one of your stated interests and provides relevant networking and software engineering skills. It is very affordable at $1,950 per year and offers an 18-month post-study work visa. The primary trade-off is that while it meets your cloud interest, the placement rate (67%) and median starting salary ($30,651) are lower compared to other options on this list. However, since you have a CS background, meeting the program's requirement is feasible.\n\nKeystone School of Engineering\nThis option is ideal due to its extremely low cost ($300 annual tuition), making it highly budget-friendly while still providing relevant business information systems knowledge. It has a strong placement rate of 82% and offers a solid median starting salary of $51,059. The main trade-off is that the curriculum's focus on Business Information Systems might be less specialized in advanced cloud or security topics compared to other programs.\n\nBridgewater Technical University\nThis program was recommended because it covers business information systems, aligning with your interest in process analysis, and remains within your maximum budget of $17,700 at $12,850 tuition. It offers a good median starting salary of $25,862 and is located in the Netherlands, which you are open to exploring. The main trade-off is that it has a higher annual cost than the German options and provides only 12 months for post-study work compared to the 18 months offered by the other institutions.",
+ "wall_s": 200.9
+}

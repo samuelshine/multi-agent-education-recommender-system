@@ -1,0 +1,72 @@
+{
+ "student_id": "ST0089",
+ "session": 1,
+ "mode": "single_objective",
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 77.7% in an IT/computer-science degree. I'm interested in networks and testing. I want to become a Information Technology Manager. My family can afford at most about USD 1200 per year. I live in Mumbai. I'd strongly prefer to stay near home, though I might consider elsewhere in India.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 77.7
+  },
+  "career_goal": "Information Technology Manager",
+  "budget_max_usd_per_year": 1200,
+  "location_preference": null,
+  "mobility": "prefers_region",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in networks and testing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0119",
+  "PR0053",
+  "PR0019",
+  "PR0114",
+  "PR0015",
+  "PR0020",
+  "PR0193",
+  "PR0157",
+  "PR0050",
+  "PR0125",
+  "PR0190",
+  "PR0080",
+  "PR0008",
+  "PR0142",
+  "PR0082",
+  "PR0052",
+  "PR0085",
+  "PR0066",
+  "PR0064",
+  "PR0087"
+ ],
+ "retrieved_ids": [
+  "PR0119",
+  "PR0053",
+  "PR0193",
+  "PR0157",
+  "PR0050",
+  "PR0125",
+  "PR0190",
+  "PR0064"
+ ],
+ "proposed_shortlist": [
+  "PR0157",
+  "PR0119",
+  "PR0053",
+  "PR0193",
+  "PR0050"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0157",
+  "PR0119",
+  "PR0053",
+  "PR0125"
+ ],
+ "reflection_note": "The original shortlist was good but contained two programs (PR0193, PR0050) that were too technically focused or low-level for the 'Information Technology Manager' goal. I dropped these and swapped in PR0125 because it is significantly cheaper ($450 vs $1200) while maintaining a strong focus on QA Testing (the student's stated interest). The final list prioritizes managerial potential (PR0157), followed by the best technical options that are also affordable and relevant to testing/engineering (PR0119, PR0053, PR0125).",
+ "explanation": "Longford University\nThis program was recommended because its focus on IT Management aligns directly with your career goal of becoming an Information Technology Manager. It is highly budget-friendly at $800 USD annually, which is well within your maximum budget of $1200 per year. While the curriculum is less focused on networks and testing compared to other options, it provides a strong foundation in business information systems. The main trade-off here is that while the tuition is low, its placement rate (72%) and median starting salary ($10444) are lower than some of your alternatives.\n\nMeridian Institute of Applied Sciences\nThis program was recommended because its focus on Software Quality Engineering directly addresses your interest in testing, offering a strong technical foundation for an IT Manager role. It meets your budget constraint exactly at $1200 USD per year and has a high placement rate of 86%. Your academic background (77.7%) exceeds the minimum requirement of 71%, making you eligible to apply. The main trade-off is that while it offers excellent pay ($14917) and strong job prospects, it uses up your entire annual budget limit.\n\nCavendish University\nThis program was recommended because its curriculum in Software Quality Engineering aligns perfectly with your interest in testing, providing technical depth relevant to IT management. At $1200 USD annually, the tuition meets your maximum budget constraint while offering a high placement rate of 86%. Your grade percentage (77.7%) is well above the minimum requirement of 70%, confirming your eligibility. The main trade-off compared to Meridian Institute is that the median starting salary ($12855) is slightly lower, though still very competitive.\n\nAldermount Institute of Applied Sciences\nThis program was recommended because it offers the lowest tuition cost at $450 USD annually, providing maximum financial flexibility within your budget. Its focus on QA Testing directly addresses your interest in networks and testing. You meet the admission requirement with a 77.7% grade against their minimum of 57%. The main trade-off is that while it is extremely affordable, its placement rate (66%) and median starting salary ($8177) are significantly lower than the other options listed.",
+ "wall_s": 113.3
+}

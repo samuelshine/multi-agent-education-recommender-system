@@ -1,0 +1,31 @@
+{
+ "student_id": "ST0020",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 80.3
+    },
+    "career_goal": "Systems Security Administrator",
+    "budget_max_usd_per_year": 17700,
+    "location_preference": null,
+    "mobility": "open_international",
+    "employability_priority": "high",
+    "other_constraints": [
+     "Interested in cloud computing",
+     "Interested in Business process analyst"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0000",
+    "PR0195",
+    "PR0169",
+    "PR0061"
+   ],
+   "feedback": null
+  }
+ ]
+}

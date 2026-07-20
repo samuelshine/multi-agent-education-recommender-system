@@ -1,0 +1,66 @@
+{
+ "student_id": "ST0041",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a hadoop certification background. My overall academic average is 81.8% in an IT/computer-science degree. I'm interested in parallel computing and testing. I want to become a Solutions Architect. My family can afford at most about USD 1500 per year. I live in Pune. I'm open to anywhere in India.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 81.8
+  },
+  "career_goal": "Solutions Architect",
+  "budget_max_usd_per_year": 1500,
+  "location_preference": "Pune",
+  "mobility": "prefers_region",
+  "employability_priority": null,
+  "other_constraints": [
+   "interested in parallel computing and testing",
+   "hadoop certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0119",
+  "PR0053",
+  "PR0019",
+  "PR0114",
+  "PR0179",
+  "PR0193",
+  "PR0050",
+  "PR0125",
+  "PR0190",
+  "PR0080",
+  "PR0008",
+  "PR0142",
+  "PR0082",
+  "PR0052",
+  "PR0085",
+  "PR0066",
+  "PR0064",
+  "PR0058",
+  "PR0187",
+  "PR0109"
+ ],
+ "retrieved_ids": [
+  "PR0019",
+  "PR0080",
+  "PR0190",
+  "PR0187"
+ ],
+ "proposed_shortlist": [
+  "PR0019",
+  "PR0187",
+  "PR0080",
+  "PR0190"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0019",
+  "PR0187"
+ ],
+ "reflection_note": "The initial shortlist heavily favored QA testing (PR0080, PR0190), which is a significant mismatch for the student's goal of becoming a Solutions Architect. Both these programs should be dropped. The remaining options are PR0019 and PR0187. PR0019 remains the top choice due to its broader 'Software Engineering' focus, which aligns better with architectural roles than pure systems administration. I recommend keeping both PR0019 and PR0187 as they represent the best available options that meet all hard constraints while offering a degree of relevance or high employability.",
+ "explanation": "Ashford University\nThis program was recommended because it is located in Pune, matching your location preference, and the annual tuition of $1450 fits within your maximum budget. The curriculum includes \"qa\\_testing\" and \"software\\_engineering,\" which aligns well with your interest in testing and technical development. While the median starting salary of $10285 USD is solid, the main trade-off to consider is that there are zero months of post-study work visa available after graduation.\n\nCavendish University\nThis option was selected because it remains within your budget at an annual tuition cost of $1450 and is located in Pune. It offers a high placement rate of 87% and a median starting salary of $12687 USD, which are strong financial indicators. However, the primary trade-off here is that the focus on \"it\\_support\" may be less directly aligned with your long-term goal of becoming a Solutions Architect compared to software engineering. Like Ashford University, this program also offers zero months of post-study work visa.",
+ "wall_s": 164.6
+}

@@ -1,0 +1,71 @@
+{
+ "student_id": "ST0016",
+ "session": 1,
+ "mode": "single_objective",
+ "message": "Hi, I'm a student with a full stack certification background. My overall academic average is 76.2% in an IT/computer-science degree. I'm interested in programming and system developer. I want to become a Technical Engineer. My family can afford at most about USD 4000 per year. I live in Mumbai. I'm open to going abroad. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 76.2
+  },
+  "career_goal": "Technical Engineer (Programming and System Developer)",
+  "budget_max_usd_per_year": 4000,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Full stack certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0000",
+  "PR0195",
+  "PR0021",
+  "PR0153",
+  "PR0051",
+  "PR0037",
+  "PR0161",
+  "PR0198",
+  "PR0104",
+  "PR0144",
+  "PR0139",
+  "PR0194",
+  "PR0164",
+  "PR0029",
+  "PR0022",
+  "PR0137",
+  "PR0182",
+  "PR0060",
+  "PR0191",
+  "PR0119"
+ ],
+ "retrieved_ids": [
+  "PR0195",
+  "PR0153",
+  "PR0194",
+  "PR0137",
+  "PR0021",
+  "PR0161",
+  "PR0104",
+  "PR0182"
+ ],
+ "proposed_shortlist": [
+  "PR0194",
+  "PR0161",
+  "PR0195",
+  "PR0153"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0194",
+  "PR0161",
+  "PR0021",
+  "PR0137"
+ ],
+ "reflection_note": "The initial shortlist was heavily weighted towards 'business' or 'design' fields (PR0195, PR0153), which do not align with the student's core goal of becoming a Technical Engineer/System Developer. I have dropped these and swapped in two stronger technical options from the candidate set: PR0021 (MSc IT Operations) for strong employability and low cost, and PR0137 (MBA Business Analytics). Although PR0137 is an MBA, its focus on analytics provides a valuable bridge between technical skills and business application, which can enhance career prospects. The final list prioritizes pure engineering/tech roles (PR0194, PR0161) while ensuring strong financial feasibility and high employability potential (PR0021). All programs are within the $4000 budget limit.",
+ "explanation": "Aravalli School of Engineering\nThis program is recommended because it aligns well with your technical background, offering an MSc in Cloud Computing which covers networking and software engineering fields. It respects your budget constraint with a low annual tuition of $1950 USD, and you meet the admission requirement as it accepts candidates with a CS background. The strong post-study work visa of 18 months and median starting salary of $30651 USD support high employability; however, the main trade-off is that its placement rate (67%) is lower than some other options on this list.\n\nTejas University\nThis program is an excellent match for your goal as it offers a dedicated MSc in Software Engineering, directly building upon your IT/computer-science background. It maintains high employability metrics with a 72% placement rate and a median starting salary of $33731 USD, all while providing an 18-month post-study work visa. The primary trade-off here is that the annual tuition ($3850) uses up most of your maximum budget limit of $4000 per year.\n\nAshford Institute of Technology\nWhile this program offers exceptional employability metrics\u2014including a high placement rate (82%) and median starting salary of $46428 USD\u2014it is recommended with caution due to its focus on IT Support rather than core programming or system development. It meets your budget constraint with very low tuition ($450) and does not require a CS background, making it highly accessible. The main trade-off is that the curriculum's focus deviates significantly from your stated career goal of becoming a Technical Engineer.\n\nMeridian Institute of Technology\nThis program should be considered only if you are willing to pivot away from a technical engineering path into business analysis. While its tuition ($2950) fits within your budget, and it does not require a CS background, the curriculum focuses on Business Analytics rather than programming or system development. The main trade-off is that pursuing this MBA will shift your career focus away from your stated goal of becoming a Technical Engineer.",
+ "wall_s": 104.8
+}

@@ -1,0 +1,32 @@
+{
+ "student_id": "ST0063",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 78.9
+    },
+    "career_goal": null,
+    "budget_max_usd_per_year": 3600,
+    "location_preference": null,
+    "mobility": "open_domestic",
+    "employability_priority": "high",
+    "other_constraints": [
+     "r programming certification background",
+     "interested in parallel computing and cloud computing"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0186",
+    "PR0197",
+    "PR0147",
+    "PR0180",
+    "PR0032"
+   ],
+   "feedback": null
+  }
+ ]
+}

@@ -1,0 +1,74 @@
+{
+ "student_id": "ST0004",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 73.9% in an IT/computer-science degree. I'm interested in hacking and testing. My family can afford at most about USD 6000 per year.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 73.9
+  },
+  "career_goal": "hacking and testing",
+  "budget_max_usd_per_year": 6000,
+  "location_preference": null,
+  "mobility": "open_domestic",
+  "employability_priority": null,
+  "other_constraints": [
+   "information security certification background"
+  ],
+  "uncertainty_notes": [
+   "Location preference not stated.",
+   "Employability priority not stated."
+  ]
+ },
+ "prefilter_ids": [
+  "PR0182",
+  "PR0191",
+  "PR0119",
+  "PR0101",
+  "PR0053",
+  "PR0072",
+  "PR0054",
+  "PR0105",
+  "PR0065",
+  "PR0019",
+  "PR0114",
+  "PR0015",
+  "PR0020",
+  "PR0113",
+  "PR0179",
+  "PR0033",
+  "PR0193",
+  "PR0157",
+  "PR0047",
+  "PR0068"
+ ],
+ "retrieved_ids": [
+  "PR0053",
+  "PR0119",
+  "PR0065",
+  "PR0193",
+  "PR0114",
+  "PR0179",
+  "PR0068",
+  "PR0182"
+ ],
+ "proposed_shortlist": [
+  "PR0182",
+  "PR0053",
+  "PR0119",
+  "PR0193"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0053",
+  "PR0114",
+  "PR0179",
+  "PR0119"
+ ],
+ "reflection_note": "The initial shortlist was flawed because PR0182 violated the hard academic constraint (GPA 73.9% vs Min Grade 75%). I dropped it immediately. For replacements, I prioritized programs that are highly affordable and meet the minimum grade requirement while offering better career prospects than the original PR0193. The final list focuses on maximizing financial safety and employability within the given constraints. Students should be aware that all listed options are in India with no post-study work visa mentioned, which may limit long-term international mobility.",
+ "explanation": "Cavendish University\nThis program is recommended because it meets your academic background requirements with a minimum grade of 70%, which you exceed with 73.9%. It offers a strong placement rate of 86% and has an annual tuition cost of $1200, fitting well within your budget. The main trade-off here is that while the median starting salary ($12,855) is solid, it is not the highest available option on this list.\n\nCrestwood School of Engineering\nThis program is highly recommended due to its low annual tuition cost of $850, making it the most budget-friendly option for your studies. You meet the minimum admission requirement of 60%, and it maintains a respectable placement rate of 81%. The primary trade-off is that while the tuition is lowest, the median starting salary ($10,903) is also among the lower figures listed.\n\nMeridian Institute of Technology\nThis option was included because you meet the minimum grade requirement of 63%, and the annual tuition remains within your budget at $1700. However, the main trade-off to consider is that this program has the lowest median starting salary ($8,535) and a lower placement rate (78%) compared to other options on the shortlist.\n\nMeridian Institute of Applied Sciences\nThis institution was recommended because it offers the highest median starting salary at $14,917, which is excellent for your career goals in testing. Furthermore, its placement rate is strong at 86%, and the tuition ($1200) fits within your budget. The main trade-off to note is that its minimum grade requirement (71%) is slightly higher than some of the other listed programs.",
+ "wall_s": 205.3
+}

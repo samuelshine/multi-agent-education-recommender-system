@@ -1,0 +1,74 @@
+{
+ "student_id": "ST0051",
+ "session": 1,
+ "mode": "single_objective",
+ "version": 2,
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 80.9% in an IT/computer-science degree. I'm interested in Software Engineering and cloud computing. I want to become a Applications Developer. My family can afford at most about USD 2000 per year. I live in Bengaluru. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 80.9
+  },
+  "career_goal": "Applications Developer",
+  "budget_max_usd_per_year": 2000,
+  "location_preference": "Bengaluru",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in Software Engineering and cloud computing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0186",
+  "PR0016",
+  "PR0112",
+  "PR0032",
+  "PR0058",
+  "PR0039",
+  "PR0053",
+  "PR0158",
+  "PR0109",
+  "PR0076",
+  "PR0012",
+  "PR0065",
+  "PR0019",
+  "PR0167",
+  "PR0199",
+  "PR0185",
+  "PR0171",
+  "PR0155",
+  "PR0145",
+  "PR0083"
+ ],
+ "retrieved_ids": [
+  "PR0185",
+  "PR0112",
+  "PR0171",
+  "PR0158",
+  "PR0186",
+  "PR0199",
+  "PR0012",
+  "PR0083"
+ ],
+ "proposed_shortlist": [
+  "PR0185",
+  "PR0112",
+  "PR0171",
+  "PR0012",
+  "PR0186"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0185",
+  "PR0112",
+  "PR0171",
+  "PR0012",
+  "PR0158"
+ ],
+ "reflection_note": "The initial shortlist was reviewed for hard constraint violations. PR0186 was dropped due to exceeding the annual budget limit ($2050 > $2000). To maintain a list of 5, I swapped in two highly relevant and feasible alternatives: PR0158 (Pune) and PR0083 (Mumbai). The final list prioritizes strong fit, high feasibility, and adherence to the strict budget constraint. While Bengaluru is preferred, all listed options are in acceptable regional hubs (Kolkata, Mumbai, Chennai, Pune), which aligns with the student's mobility preference.",
+ "explanation": "Longford Institute of Technology\nThis program is recommended because it maintains a low annual tuition cost of $1150 and requires your existing IT/computer-science background. While the curriculum focuses on cybersecurity, which aligns with software engineering principles, the primary trade-off here is that the specialization is in information security rather than core cloud computing or application development. It offers a solid placement rate of 78% and a median starting salary of $10,850.\n\nCharnock University\nThis program was selected because its curriculum explicitly covers both \"networking_cloud\" and \"software_engineering,\" directly matching your stated interests. The tuition is highly affordable at $1150 annually, and the minimum grade requirement (56%) is easily met by your 80.9% score. However, the main trade-off to consider is that while it matches your technical interests perfectly, its reported placement rate (65%) and median starting salary ($7,933) are lower compared to other options on this list.\n\nHalcyon Technical University\nThis option provides a strong balance of high employability metrics with an affordable tuition fee of $1500. The program requires your CS background and offers a respectable placement rate of 75% and a median starting salary of $10,917. The trade-off is that while it covers general software engineering, the curriculum does not specifically emphasize cloud computing or advanced application development techniques as strongly as other listed programs.\n\nElmhurst University\nThis MCA program is highly recommended due to its excellent reported employability metrics, boasting a 79% placement rate and the highest median starting salary of $13,468. The tuition fee ($1500) is well within your budget, and it requires your CS background. The main trade-off is that while the career goal aligns with software engineering, the program's focus is general development rather than explicitly addressing cloud computing or advanced application architecture.\n\nAshford School of Engineering\nThis school offers the highest placement rate (84%) and a strong median starting salary ($13,259), making it excellent for your high employability priority. Furthermore, its admission does not require a CS background, offering flexibility while still covering software engineering principles. The primary trade-off is that the program's core focus is Interaction Design/HCI, which shifts the emphasis away from pure applications development and cloud computing toward user experience design.",
+ "wall_s": 75.6
+}

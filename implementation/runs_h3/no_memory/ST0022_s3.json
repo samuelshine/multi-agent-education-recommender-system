@@ -1,0 +1,74 @@
+{
+ "student_id": "ST0022",
+ "session": 3,
+ "mode": "no_memory",
+ "version": 1,
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 79.8% in an IT/computer-science degree. I'm interested in programming and Business process analyst. I want to become a Portal Administrator. My family can afford at most about USD 2400 per year. I live in Coimbatore. I'm open to anywhere in India. Getting a good job after graduation matters more to me than anything else. About the earlier suggestions: I liked PR0101, PR0054.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 79.8
+  },
+  "career_goal": "Portal Administrator",
+  "budget_max_usd_per_year": 2400,
+  "location_preference": "Coimbatore",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "information security certification background",
+   "interested in programming and Business process analyst"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0101",
+  "PR0054",
+  "PR0015",
+  "PR0020",
+  "PR0033",
+  "PR0157",
+  "PR0047",
+  "PR0074",
+  "PR0172",
+  "PR0087",
+  "PR0164",
+  "PR0182",
+  "PR0119",
+  "PR0143",
+  "PR0186",
+  "PR0176",
+  "PR0058",
+  "PR0187",
+  "PR0039",
+  "PR0174"
+ ],
+ "retrieved_ids": [
+  "PR0101",
+  "PR0054",
+  "PR0033",
+  "PR0157",
+  "PR0039",
+  "PR0187",
+  "PR0176",
+  "PR0119"
+ ],
+ "proposed_shortlist": [
+  "PR0101",
+  "PR0054",
+  "PR0033",
+  "PR0157"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0101",
+  "PR0039",
+  "PR0187",
+  "PR0176",
+  "PR0119"
+ ],
+ "reflection_note": "The original shortlist was heavily biased towards location and budget, neglecting the student's specific technical interests (Security/Programming) and career goal depth. PR0101 remains the top choice due to its perfect alignment. I dropped the overly general or technically misaligned programs (PR0054, PR0033, PR0157). I swapped in PR0039 because HCI is an excellent bridge between IT/CS and business process analysis (BPA), making it highly relevant for a Portal Administrator role. To diversify the list while maintaining high relevance and budget adherence, I added PR0187 (Systems Admin - strong technical fit) and PR0176 (IT Management in Hyderabad - good career alignment, slightly outside preference but excellent program). PR0119 was kept as a solid QA/Software Engineering option.",
+ "explanation": "Braxton Institute of Applied Sciences\nThis program is highly recommended because it perfectly matches your location preference in Coimbatore and stays within your maximum budget of $2400 per year. The MSc Information Systems curriculum aligns well with your interest in Business Process Analyst roles and provides a strong foundation for a Portal Administrator career, supported by its 85% placement rate. There are no major trade-offs here as it meets all your primary constraints while offering a median starting salary of $15394.\n\nLongford Institute of Applied Sciences\nThis option is ideal because it remains in Coimbatore and costs only $2250 annually, keeping you well under budget. The MSc Human-Computer Interaction program touches upon software engineering and design, which complements your interest in programming. The main trade-off here is that while the placement rate is strong (85%), its focus on HCI makes it slightly less direct for a pure Portal Administrator role compared to business systems.\n\nCavendish University\nThis diploma was recommended due to its high relevance to IT support and information security, which aligns perfectly with your background interest and career goal. It offers an excellent 87% placement rate at a low tuition cost of $1450. The primary trade-off is the location; while it provides strong employability, it is located in Pune rather than your preferred region of Coimbatore.\n\nCrestwood University\nThis MBA program was suggested because its focus on IT management and business processes directly addresses your interest in becoming a Business Process Analyst. It offers a high median starting salary of $15400 and fits within your budget at $1900 annually. The main trade-off is that while the curriculum is strong for management, it requires relocating to Hyderabad instead of staying in Coimbatore.\n\nMeridian Institute of Applied Sciences\nThis program was recommended because its focus on Software Quality Engineering provides highly technical skills relevant to programming and system maintenance. It offers a low tuition cost of $1200 and boasts an 86% placement rate, supporting your high employability priority. The trade-off is that while the curriculum is excellent for tech roles, it requires relocating to Hyderabad, which contradicts your stated preference for Coimbatore.",
+ "wall_s": 213.2
+}

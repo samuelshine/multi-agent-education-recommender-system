@@ -1,0 +1,57 @@
+{
+ "student_id": "ST0026",
+ "session": 1,
+ "mode": "single_objective",
+ "message": "Hi, I'm a student with a shell programming certification background. My overall academic average is 74.8% in an IT/computer-science degree. I'm interested in programming and testing. I want to become a Applications Developer. My family can afford at most about USD 7100 per year. I live in Bengaluru. I cannot leave my city. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 74.8
+  },
+  "career_goal": "Applications Developer",
+  "budget_max_usd_per_year": 7100,
+  "location_preference": "Bengaluru",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in programming and testing",
+   "Shell programming certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0085",
+  "PR0015",
+  "PR0073",
+  "PR0002",
+  "PR0013",
+  "PR0173",
+  "PR0087"
+ ],
+ "retrieved_ids": [
+  "PR0085",
+  "PR0173",
+  "PR0013",
+  "PR0015",
+  "PR0073",
+  "PR0087"
+ ],
+ "proposed_shortlist": [
+  "PR0173",
+  "PR0085",
+  "PR0073",
+  "PR0087"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0173",
+  "PR0085",
+  "PR0013",
+  "PR0015"
+ ],
+ "reflection_note": "The original shortlist was good but lacked diversity in career focus. I dropped PR0073 (Cybersecurity) and PR0087 (Data Science) because they represent significant pivots away from the core goal of 'Applications Developer' (Software Engineering). Instead, I swapped in PR0013 (HCI) and PR0015 (Information Systems). These two additions complement the existing strong options (PR0173 & PR0085) by addressing the user's need for understanding application context, design, and business requirements\u2014all critical skills for a successful developer. The final list maintains high feasibility, low cost, and maximum relevance to software development.",
+ "explanation": "Longford Technical University\nThis program is highly recommended because its low annual tuition of $500 USD fits well within your budget while being located in your preferred city of Bengaluru. The curriculum includes software engineering, which aligns with your goal as an Applications Developer, and the minimum grade requirement (53%) is easily met by your 74.8% academic background. The main trade-off here is that while the tuition is very low, the placement rate (62%) and median starting salary ($6851) are lower compared to other options on this list.\n\nKeystone Institute of Applied Sciences\nThis program was selected because its focus on QA testing and software engineering directly addresses your stated interest in programming and testing. The annual tuition of $1450 USD remains within your budget, and the location is Bengaluru. While it offers a solid placement rate (63%) and median starting salary ($6488), the main trade-off is that its specialized focus on quality engineering might be narrower than what you need for a general Applications Developer role.\n\nMeridian Institute of Technology\nThis program was recommended due to its excellent employability metrics, boasting a high placement rate of 77% and a median starting salary of $9186 USD. Furthermore, the annual tuition of $900 USD is very budget-friendly while remaining in Bengaluru. The primary trade-off is that its focus on Human-Computer Interaction (design_hci) may shift your concentration away from your stated interest in core programming and testing skills.\n\nKeystone Institute of Technology\nThis program is recommended because it offers the highest placement rate (78%) and median starting salary ($9707 USD), which strongly aligns with your high employability priority. The annual tuition of $1200 USD fits comfortably within your budget, and the location is Bengaluru. However, the main trade-off to consider is that its focus on business information systems might be less hands-on in programming or testing compared to other options.",
+ "wall_s": 108.6
+}

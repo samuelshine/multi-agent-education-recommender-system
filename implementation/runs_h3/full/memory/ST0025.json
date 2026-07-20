@@ -1,0 +1,101 @@
+{
+ "student_id": "ST0025",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 81
+    },
+    "career_goal": "Software Engineer",
+    "budget_max_usd_per_year": null,
+    "location_preference": null,
+    "mobility": "open_domestic",
+    "employability_priority": null,
+    "other_constraints": [
+     "Interested in networks and developer"
+    ],
+    "uncertainty_notes": [
+     "Budget maximum per year not specified.",
+     "Location preference not specified.",
+     "Mobility preference not specified.",
+     "Employability priority not specified."
+    ]
+   },
+   "final_shortlist": [
+    "PR0186",
+    "PR0043",
+    "PR0155",
+    "PR0144"
+   ],
+   "feedback": null
+  },
+  {
+   "session": 2,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 81
+    },
+    "career_goal": "Software Engineer",
+    "budget_max_usd_per_year": 4400,
+    "location_preference": null,
+    "mobility": "open_international",
+    "employability_priority": null,
+    "other_constraints": [
+     "Interested in networks and developer"
+    ],
+    "uncertainty_notes": [
+     "Employability priority not specified."
+    ]
+   },
+   "final_shortlist": [
+    "PR0194",
+    "PR0037",
+    "PR0126",
+    "PR0038",
+    "PR0186"
+   ],
+   "feedback": {
+    "liked": [
+     "PR0186",
+     "PR0043"
+    ],
+    "disliked": []
+   }
+  },
+  {
+   "session": 3,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 81
+    },
+    "career_goal": "Software Engineer",
+    "budget_max_usd_per_year": 4400,
+    "location_preference": "Kolkata",
+    "mobility": "open_international",
+    "employability_priority": "high",
+    "other_constraints": [
+     "Interested in networks and developer"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0053",
+    "PR0186",
+    "PR0038",
+    "PR0194",
+    "PR0109"
+   ],
+   "feedback": {
+    "liked": [
+     "PR0194",
+     "PR0037"
+    ],
+    "disliked": []
+   }
+  }
+ ]
+}

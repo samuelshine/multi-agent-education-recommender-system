@@ -1,0 +1,73 @@
+{
+ "student_id": "ST0016",
+ "session": 2,
+ "mode": "no_memory",
+ "version": 1,
+ "message": "Hi, I'm a student with a full stack certification background. My overall academic average is 76.2% in an IT/computer-science degree. I'm interested in programming and system developer. I want to become a Technical Engineer. My family can afford at most about USD 4000 per year. I live in Mumbai. I'm open to going abroad. About the earlier suggestions: I liked PR0186, PR0058 but please drop PR0139.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 76.2
+  },
+  "career_goal": "Technical Engineer",
+  "budget_max_usd_per_year": 4000,
+  "location_preference": "Mumbai",
+  "mobility": "open_international",
+  "employability_priority": null,
+  "other_constraints": [
+   "Liked PR0186",
+   "Liked PR0058",
+   "Dislike PR0139"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0000",
+  "PR0195",
+  "PR0021",
+  "PR0153",
+  "PR0051",
+  "PR0037",
+  "PR0161",
+  "PR0198",
+  "PR0104",
+  "PR0144",
+  "PR0139",
+  "PR0194",
+  "PR0164",
+  "PR0029",
+  "PR0022",
+  "PR0137",
+  "PR0182",
+  "PR0060",
+  "PR0191",
+  "PR0119"
+ ],
+ "retrieved_ids": [
+  "PR0060",
+  "PR0195",
+  "PR0153",
+  "PR0194",
+  "PR0137",
+  "PR0182"
+ ],
+ "proposed_shortlist": [
+  "PR0060",
+  "PR0195",
+  "PR0153",
+  "PR0194"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0060",
+  "PR0182",
+  "PR0153",
+  "PR0195",
+  "PR0194"
+ ],
+ "reflection_note": "The initial shortlist was strong but lacked a compelling, high-quality local alternative to PR0060. I swapped in PR0182 (Pune) because it maintains the crucial 'India/Mumbai' location preference while offering superior technical relevance and placement metrics compared to PR0060, creating a more balanced set of options. The final list prioritizes: 1. Best Local Fit (PR0060). 2. Stronger Technical Local Alternative (PR0182). 3. Best International Balance/Location (PR0153). 4. High Employability International Option (PR0195). 5. The remaining technically relevant option (PR0194) is kept as a backup, despite being slightly weaker than PR0153.",
+ "explanation": "Quilon Technical University\nThis program is highly recommended because it perfectly matches your location preference in Mumbai and keeps the annual tuition within your $4000 budget at $3650. With a minimum required grade of 69%, your academic background of 76.2% makes you an ideal candidate, and the high placement rate of 88% suggests strong career outcomes. The main trade-off here is that while it meets your location preference, there are no post-study work visa benefits mentioned for international mobility.\n\nKeystone Technical University\nThis option is a strong fit because its annual tuition of $1950 is well under budget, and the program focuses on QA Testing, which aligns perfectly with your goal of becoming a Technical Engineer. Furthermore, your 76.2% grade exceeds the minimum requirement of 75%. The primary trade-off for this program is that while it keeps you in India (Pune), there are no post-study work visa benefits to support international career mobility.\n\nKeystone University\nThis German option was recommended due to its extremely low tuition ($550) and excellent potential for international experience, offering 18 months of post-study work visa time. The program\u2019s focus on Human-Computer Interaction is relevant to technical roles, and your grade meets the minimum requirement of 71%. The main trade-off is that while it offers high salary potential ($39426), you must meet the English language requirement, and the field leans more toward design than pure engineering.\n\nKeystone School of Engineering\nThis program provides an excellent balance of low cost ($300 tuition) and high career opportunity, boasting a median starting salary of $51059 and 18 months of post-study work visa time in Germany. The minimum grade requirement (72%) is easily met by your academic background. The main trade-off is that while it offers superior international benefits, the location in Aachen is outside your preferred Mumbai area, and you must meet the English language requirement.\n\nAravalli School of Engineering\nThis program was recommended because its focus on Cloud Computing and Software Engineering directly aligns with your goal of becoming a Technical Engineer. It also provides strong international benefits, including 18 months of post-study work visa time in Germany. The main trade-off is that while the tuition ($1950) is within budget, it requires you to have a CS background (which you do), and its placement rate (67%) is lower than some other options.",
+ "wall_s": 198.3
+}

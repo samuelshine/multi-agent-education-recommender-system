@@ -1,0 +1,74 @@
+{
+ "student_id": "ST0002",
+ "session": 1,
+ "mode": "single_objective",
+ "version": 2,
+ "message": "Hi, I'm a student with a hadoop certification background. My overall academic average is 80% in an IT/computer-science degree. I'm interested in Computer Architecture and developer. I want to become a Business Intelligence Analyst. My family can afford at most about USD 1700 per year. I live in Kolkata. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 80
+  },
+  "career_goal": "Business Intelligence Analyst",
+  "budget_max_usd_per_year": 1700,
+  "location_preference": "Kolkata",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "hadoop certification background",
+   "interested in Computer Architecture and developer"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0015",
+  "PR0020",
+  "PR0033",
+  "PR0157",
+  "PR0047",
+  "PR0074",
+  "PR0087",
+  "PR0164",
+  "PR0182",
+  "PR0119",
+  "PR0186",
+  "PR0176",
+  "PR0058",
+  "PR0187",
+  "PR0174",
+  "PR0053",
+  "PR0158",
+  "PR0109",
+  "PR0076",
+  "PR0012"
+ ],
+ "retrieved_ids": [
+  "PR0053",
+  "PR0119",
+  "PR0176",
+  "PR0187",
+  "PR0012",
+  "PR0186",
+  "PR0058",
+  "PR0174"
+ ],
+ "proposed_shortlist": [
+  "PR0058",
+  "PR0012",
+  "PR0176",
+  "PR0186"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0058",
+  "PR0012",
+  "PR0176",
+  "PR0053",
+  "PR0187"
+ ],
+ "reflection_note": "The initial shortlist was reviewed and PR0186 was dropped due to exceeding the budget constraint ($2050 > $1700). To maintain a list of 5, PR0053 (MSc Software Quality Engineering in Kolkata) was swapped in as it is highly relevant, affordable, located in the preferred region (Kolkata), and provides strong technical skills suitable for an aspiring BI Analyst. I also added PR0187 (PG Diploma in Systems Administration in Pune) to fill the fifth slot, as it meets all constraints (budget $1450 < $1700, location nearby/acceptable) and offers a solid IT foundation.",
+ "explanation": "Stanmore School of Engineering\nThis program was recommended because its focus on data science analytics and software engineering aligns perfectly with your goal of becoming a Business Intelligence Analyst. The annual tuition of $1350 is well within your budget, and it offers a strong median starting salary of $14869 alongside an 83% placement rate. The main trade-off here is the location; while the program is highly technical, it is situated in Coimbatore rather than your preferred Kolkata region.\n\nElmhurst University\nThis MCA program was recommended because it meets your primary location preference by being located directly in Kolkata. With a tuition cost of $1500 and a minimum grade requirement of 73%, it remains within budget while offering relevant software engineering skills. The trade-off is that its placement rate (79%) and median starting salary ($13468) are slightly lower compared to other options, but the location match makes it highly appealing.\n\nCrestwood University\nWhile this MBA program offers a strong blend of IT management skills suitable for your career goal, it was flagged because the annual tuition of $1900 exceeds your maximum budget constraint of $1700. Although its placement rate is high at 82% and it has a good median starting salary ($15400), the significant cost increase makes it financially challenging given your stated budget limits.\n\nCavendish University\nThis MSc program was highly recommended because it perfectly matches both your location preference (Kolkata) and your strict budget, with an annual tuition of only $1200. It boasts the highest placement rate on this list at 86%, providing excellent employability for a developer role. The primary trade-off is that its median starting salary ($12855) is lower than some other options, but it offers superior cost efficiency and location alignment.\n\nCavendish University\nThis PG Diploma program has the highest placement rate (87%) of all listed programs, making it excellent for employability. It also fits within your budget at $1450 and is located in Pune, which is regionally close to Kolkata. However, the main trade-off is that its focus on IT support is less directly aligned with your core interest in Business Intelligence or developer roles compared to the MCA options.",
+ "wall_s": 66.8
+}

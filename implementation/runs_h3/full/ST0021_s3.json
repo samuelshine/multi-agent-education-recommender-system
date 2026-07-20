@@ -1,0 +1,80 @@
+{
+ "student_id": "ST0021",
+ "session": 3,
+ "mode": "full",
+ "version": 1,
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 73.3% in an IT/computer-science degree. I'm interested in parallel computing and Business process analyst. I want to become a Technical Engineer. My family can afford at most about USD 1400 per year. I live in Kolkata. I'm open to anywhere in India. Getting a good job after graduation matters more to me than anything else. About the earlier suggestions: I liked PR0032, PR0185.",
+ "memory_used": true,
+ "fallbacks": [
+  "recommend"
+ ],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 73.3
+  },
+  "career_goal": "Technical Engineer",
+  "budget_max_usd_per_year": 1400,
+  "location_preference": "Kolkata",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "r programming certification background",
+   "interested in parallel computing",
+   "interested in Business process analyst"
+  ],
+  "uncertainty_notes": [
+   "None"
+  ]
+ },
+ "prefilter_ids": [
+  "PR0015",
+  "PR0020",
+  "PR0157",
+  "PR0074",
+  "PR0087",
+  "PR0119",
+  "PR0058",
+  "PR0187",
+  "PR0053",
+  "PR0109",
+  "PR0076",
+  "PR0012",
+  "PR0019",
+  "PR0114",
+  "PR0185",
+  "PR0130",
+  "PR0084",
+  "PR0120",
+  "PR0170",
+  "PR0073"
+ ],
+ "retrieved_ids": [
+  "PR0053",
+  "PR0185",
+  "PR0012",
+  "PR0130",
+  "PR0076",
+  "PR0157",
+  "PR0120",
+  "PR0087"
+ ],
+ "proposed_shortlist": [
+  "PR0053",
+  "PR0185",
+  "PR0012",
+  "PR0130",
+  "PR0076"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0053",
+  "PR0185",
+  "PR0012",
+  "PR0120",
+  "PR0087"
+ ],
+ "reflection_note": "The original shortlist contained two location violations (PR0130, PR0076) and one budget violation (PR0012). I have dropped the violating programs. Since PR0012 violates the hard budget constraint ($1500 > $1400), it must be kept only if no better options exist, but for the final list, I will prioritize location/budget adherence first.\n\nI am swapping in three strong candidates (PR0120, PR0087, PR0157) that address the student's interest in Data Science and IT Management. While these violate the Kolkata preference, they are highly relevant technically and financially superior to the current shortlist options (especially PR0012).\n\nRevised Final Shortlist Strategy: Prioritize location/budget adherence first. Since PR0053 and PR0185 are perfect fits, they remain ranked 1 & 2. I must drop PR0012 due to budget violation. I will then fill the remaining slots with the best technical alternatives (PR0120, PR0087) even if location is suboptimal, as these represent the highest academic/employability value.\n\n*Self-Correction on Final Shortlist:* The prompt requires a final list of at most 5. I must ensure that any program kept or swapped in adheres to constraints where possible. Given the strong technical interest and high employability priority, PR0120 (Delhi) and PR0087 (Bengaluru) are excellent alternatives to Kolkata if necessary. I will keep PR0012 temporarily but flag it as a budget risk, while promoting the best non-Kolkata options that fit the profile.",
+ "explanation": "Cavendish University\nThis program is highly recommended because it perfectly aligns with your budget constraints at $1200 annual tuition while remaining in your preferred location of Kolkata. The curriculum focuses on Software Quality Engineering, which directly supports a Technical Engineer career goal, and boasts an excellent placement rate of 86%. There is no major trade-off here; the program meets your financial limits, academic background requirements (no CS degree needed), and geographical preferences simultaneously.\n\nLongford Institute of Technology\nThis option keeps you within your budget at $1150 annually and remains in Kolkata, making it highly convenient. The MSc Information Security field is technically relevant to your goals, and since you have an IT/CS background, the admission requirement is met. The main trade-off here is that while affordable and local, its placement rate (78%) and median starting salary ($10,850) are lower compared to some other options on this list.\n\nElmhurst University\nThis program offers a strong academic fit for your technical goals with an MCA degree in Software Engineering, and it requires the CS background you possess. However, the primary trade-off is that its annual tuition of $1500 exceeds your maximum budget of $1400. Despite this cost issue, its high median starting salary ($13,468) suggests excellent career potential if you can manage the increased cost.\n\nAshford Institute of Applied Sciences\nThis program is highly affordable at $800 annually and offers relevant data science analytics skills that align with your interest in R programming. It also does not require a CS background, offering flexibility for admission. The main trade-off to consider is the location: while it keeps costs low, it is located in Delhi rather than your preferred region of Kolkata.\n\nAravalli Technical University\nThis program adheres to your budget limit with $1200 annual tuition and offers data science analytics relevant to technical roles. While you meet the CS background requirement, the main trade-off here involves both location and employability metrics. It is located in Bengaluru (not Kolkata), and its placement rate of 58% and median starting salary of $6767 are significantly lower than other options on this list.",
+ "wall_s": 295.6
+}

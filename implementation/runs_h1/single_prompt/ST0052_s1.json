@@ -1,0 +1,55 @@
+{
+ "student_id": "ST0052",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 85% in an IT/computer-science degree. I'm interested in cloud computing and cloud computing. I want to become a Web Developer. My family can afford at most about USD 13100 per year. I live in Delhi. I'm open to going abroad. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 85
+  },
+  "career_goal": "Web Developer",
+  "budget_max_usd_per_year": 13100,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "r programming certification background",
+   "interested in cloud computing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0005",
+  "PR0169",
+  "PR0001",
+  "PR0194",
+  "PR0081",
+  "PR0042",
+  "PR0004",
+  "PR0186",
+  "PR0036",
+  "PR0197",
+  "PR0043",
+  "PR0147",
+  "PR0096",
+  "PR0199",
+  "PR0118",
+  "PR0121",
+  "PR0148",
+  "PR0016",
+  "PR0102",
+  "PR0180"
+ ],
+ "final_shortlist": [
+  "PR0001",
+  "PR0194",
+  "PR0042",
+  "PR0004",
+  "PR0147"
+ ],
+ "explanation": "This MSc Cloud Computing program in the Netherlands aligns perfectly with your interest in cloud computing and provides a strong foundation in software engineering. The tuition is within budget (USD 11850), and the post-study work visa of 12 months significantly boosts job prospects abroad.\n\nLocated in Germany, this MSc Cloud Computing program offers excellent value with very low tuition (USD 1950) and a substantial post-study work visa of 18 months. It directly addresses your interest in cloud computing while providing a strong career path for web development.\n\nThis MSc Software Engineering program in Canada is highly relevant to becoming a Web Developer and covers networking/cloud. The tuition (USD 10800) is affordable, and the generous 36-month post-study work visa maximizes your chances of securing a good job abroad.\n\nAnother strong Canadian option, this MSc Cloud Computing program provides the necessary cloud and software engineering skills. The tuition (USD 13250) is within your budget, and the 36-month post-study work visa offers maximum job security potential.\n\nIf you prefer to stay in India initially, this MSc Cloud Computing program is a solid choice. It focuses on cloud networking and has low tuition (USD 3200) while maintaining a high placement rate of 83%, offering a good balance between cost and career focus.",
+ "wall_s": 53.9
+}

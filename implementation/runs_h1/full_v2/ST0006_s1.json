@@ -1,0 +1,74 @@
+{
+ "student_id": "ST0006",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a machine learning certification background. My overall academic average is 70% in an IT/computer-science degree. I'm interested in parallel computing and system developer. I want to become a Information Security Analyst. My family can afford at most about USD 1300 per year. I live in Hyderabad. I'm open to anywhere in India.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 70
+  },
+  "career_goal": "Information Security Analyst",
+  "budget_max_usd_per_year": 1300,
+  "location_preference": null,
+  "mobility": "open_domestic",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in parallel computing and system developer roles"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0015",
+  "PR0020",
+  "PR0157",
+  "PR0074",
+  "PR0087",
+  "PR0119",
+  "PR0058",
+  "PR0187",
+  "PR0053",
+  "PR0109",
+  "PR0076",
+  "PR0012",
+  "PR0019",
+  "PR0114",
+  "PR0185",
+  "PR0130",
+  "PR0084",
+  "PR0120",
+  "PR0170",
+  "PR0073"
+ ],
+ "retrieved_ids": [
+  "PR0185",
+  "PR0073",
+  "PR0119",
+  "PR0053",
+  "PR0114",
+  "PR0130",
+  "PR0087",
+  "PR0120"
+ ],
+ "proposed_shortlist": [
+  "PR0185",
+  "PR0073",
+  "PR0130",
+  "PR0120",
+  "PR0087"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0185",
+  "PR0073",
+  "PR0119",
+  "PR0120",
+  "PR0053"
+ ],
+ "reflection_note": "The initial shortlist was strong in security programs (PR0185, PR0073) and included two data/analytics options (PR0120, PR0087). I dropped PR0087 due to its low placement rate. I also swapped out the general IT Management program (PR0130) for a more specialized 'Software Quality Engineering' option (PR0119), as this better aligns with the student's interest in systems development and provides a higher quality fallback recommendation. To maintain 5 slots, PR0053 was added as it is an excellent alternative to PR0119, offering similar specialization and strong placement metrics while remaining within budget.",
+ "explanation": "Longford Institute of Technology\nThis program is highly recommended because its focus on \"cybersecurity\" and \"software_engineering\" directly aligns with your goal of becoming an Information Security Analyst. The annual tuition of $1150 USD fits comfortably within your budget maximum of $1300, and your 70% grade exceeds the minimum requirement of 62%. While this program offers a strong foundation for your career goal, the main trade-off is that its median starting salary ($10850) and placement rate (78%) are moderate compared to other options.\n\nElmhurst Technical University\nThis MTech Cyber Security program is an excellent fit as it directly addresses your Information Security Analyst career goal through specialized coursework in \"cybersecurity.\" The annual tuition of $1250 USD remains within your budget, and since you have a CS background, the admission requirements are met. However, the primary trade-off here is that while the placement rate (80%) is strong, it offers the lowest median starting salary ($8637) among all recommended options.\n\nMeridian Institute of Applied Sciences\nThis program was selected because it boasts the highest median starting salary ($14917) and a high placement rate (86%), which are excellent indicators of job market success. The tuition is $1200 USD, keeping you within budget, and your grade meets the minimum requirement. The main trade-off to consider is that while it helps develop system developer skills through \"qa_testing,\" its focus on Software Quality Engineering is less direct than a dedicated InfoSec degree.\n\nAshford Institute of Applied Sciences\nThis program is recommended primarily because it offers the lowest tuition cost at $800 USD, providing maximum financial safety within your budget constraints. It also has a low minimum grade requirement (63%), making admission straightforward for you. The trade-off here is that while it aligns with data science interests and is affordable, its focus on \"data_science_analytics\" is the least relevant to your stated goal of becoming an Information Security Analyst.\n\nCavendish University\nThis program offers a strong balance between career relevance and high employability metrics, boasting both a placement rate of 86% and a median starting salary of $12855. The tuition ($1200 USD) is within budget, and your current grade (70%) perfectly meets the minimum admission requirement. The main trade-off is that while it develops valuable software engineering skills through \"qa_testing,\" its focus is on quality assurance rather than core cybersecurity principles.",
+ "wall_s": 142.6
+}

@@ -1,0 +1,73 @@
+{
+ "student_id": "ST0006",
+ "session": 2,
+ "mode": "no_memory",
+ "version": 1,
+ "message": "Hi, I'm a student with a machine learning certification background. My overall academic average is 70% in an IT/computer-science degree. I'm interested in parallel computing and system developer. I want to become a Information Security Analyst. My family can afford at most about USD 1300 per year. I live in Hyderabad. I'm open to anywhere in India. About the earlier suggestions: please drop PR0186, PR0143.",
+ "memory_used": false,
+ "fallbacks": [
+  "reflect"
+ ],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 70
+  },
+  "career_goal": "Information Security Analyst",
+  "budget_max_usd_per_year": 1300,
+  "location_preference": "Hyderabad",
+  "mobility": "prefers_region",
+  "employability_priority": null,
+  "other_constraints": [
+   "Drop PR0186",
+   "Drop PR0143"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0015",
+  "PR0020",
+  "PR0157",
+  "PR0074",
+  "PR0087",
+  "PR0119",
+  "PR0058",
+  "PR0187",
+  "PR0053",
+  "PR0109",
+  "PR0076",
+  "PR0012",
+  "PR0019",
+  "PR0114",
+  "PR0185",
+  "PR0130",
+  "PR0084",
+  "PR0120",
+  "PR0170",
+  "PR0073"
+ ],
+ "retrieved_ids": [
+  "PR0130",
+  "PR0076",
+  "PR0119",
+  "PR0074",
+  "PR0185",
+  "PR0073",
+  "PR0130",
+  "PR0119"
+ ],
+ "proposed_shortlist": [
+  "PR0130",
+  "PR0119",
+  "PR0076"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0130",
+  "PR0119",
+  "PR0076"
+ ],
+ "reflection_note": "reflect fallback: kept proposal",
+ "explanation": "Elmhurst School of Engineering\nThis program is recommended because it meets your location preference in Hyderabad and keeps tuition well within your $1300 annual budget at only $1000 USD. Furthermore, its minimum admission grade requirement of 62% is safely below your current 70% academic standing. The main trade-off here is that while the placement rate (77%) and starting salary ($11249) are solid, they are lower compared to the other options on this list.\n\nMeridian Institute of Applied Sciences\nThis program offers the highest median starting salary ($14917) and a strong placement rate of 86%, making it highly attractive for career growth. It is located in Hyderabad and costs $1200 annually, staying within your budget. The primary trade-off to consider is that its minimum required grade percentage (71%) is slightly higher than your current academic standing of 70%.\n\nSarayu Institute of Technology\nThis option provides a good balance between cost ($1250 annual tuition) and career outcomes, boasting a placement rate of 81% and a median starting salary of $13142. It also satisfies your location preference in Hyderabad while remaining under budget. The main trade-off is that its minimum admission grade requirement (74%) is the highest on this list and may require you to demonstrate strong academic performance to qualify.",
+ "wall_s": 242.5
+}

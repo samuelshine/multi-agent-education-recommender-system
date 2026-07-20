@@ -1,0 +1,31 @@
+{
+ "student_id": "ST0061",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 72.9
+    },
+    "career_goal": "E-Commerce Analyst",
+    "budget_max_usd_per_year": 1500,
+    "location_preference": "Pune",
+    "mobility": "fixed_city",
+    "employability_priority": "high",
+    "other_constraints": [
+     "Interested in data engineering and testing"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0084",
+    "PR0190",
+    "PR0023",
+    "PR0080",
+    "PR0181"
+   ],
+   "feedback": null
+  }
+ ]
+}

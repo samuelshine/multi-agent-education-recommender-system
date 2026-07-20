@@ -1,0 +1,54 @@
+{
+ "student_id": "ST0047",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a app development certification background. My overall academic average is 79.6% in an IT/computer-science degree. I'm interested in Software Engineering and testing. I want to become a Database Manager. My family can afford at most about USD 5700 per year. I live in Bengaluru. I'm open to anywhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 79.6
+  },
+  "career_goal": "Database Manager",
+  "budget_max_usd_per_year": 5700,
+  "location_preference": "Bengaluru",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in Software Engineering and testing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0198",
+  "PR0058",
+  "PR0053",
+  "PR0026",
+  "PR0065",
+  "PR0019",
+  "PR0090",
+  "PR0145",
+  "PR0107",
+  "PR0008",
+  "PR0063",
+  "PR0142",
+  "PR0082",
+  "PR0052",
+  "PR0085",
+  "PR0173",
+  "PR0071",
+  "PR0097",
+  "PR0144",
+  "PR0139"
+ ],
+ "final_shortlist": [
+  "PR0144",
+  "PR0139",
+  "PR0198",
+  "PR0085",
+  "PR0058"
+ ],
+ "explanation": "This program offers a strong focus on software engineering in Pune and boasts the highest placement rate (93%) and median starting salary among all options. Since job prospects are your top priority, this is an excellent choice.\n\nThis MSc in Software Quality Engineering focuses specifically on QA testing and has a high placement rate (89%) and strong median salary. It is located in Delhi, which is an excellent hub for job opportunities.\n\nLocated in Bengaluru, this program offers a high placement rate (95%) and strong median salary. The curriculum covers software engineering and QA testing, aligning well with your interests.\n\nThis program is located in Bengaluru, matching your current location preference. It focuses on Software Quality Engineering (QA testing) and has a manageable tuition fee of $1450, keeping within your budget.\n\nThis MCA program in Coimbatore provides core software engineering skills. It is affordable ($1350 tuition) and has a decent placement rate (83%), making it a solid backup option that respects your budget constraints.",
+ "wall_s": 39.3
+}

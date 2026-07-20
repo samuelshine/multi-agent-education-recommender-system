@@ -1,0 +1,100 @@
+{
+ "student_id": "ST0028",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 72.9
+    },
+    "career_goal": "Software Engineer",
+    "budget_max_usd_per_year": 33700,
+    "location_preference": null,
+    "mobility": "open_domestic",
+    "employability_priority": null,
+    "other_constraints": [
+     "Interested in data engineering and security"
+    ],
+    "uncertainty_notes": [
+     "Location preference not stated.",
+     "Employability priority not stated."
+    ]
+   },
+   "final_shortlist": [
+    "PR0186",
+    "PR0143",
+    "PR0026",
+    "PR0109"
+   ],
+   "feedback": null
+  },
+  {
+   "session": 2,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 72.9
+    },
+    "career_goal": "Software Engineer",
+    "budget_max_usd_per_year": 33700,
+    "location_preference": null,
+    "mobility": "open_international",
+    "employability_priority": null,
+    "other_constraints": [
+     "Interested in data engineering and security"
+    ],
+    "uncertainty_notes": [
+     "Employability priority not stated."
+    ]
+   },
+   "final_shortlist": [
+    "PR0126",
+    "PR0086",
+    "PR0034",
+    "PR0136",
+    "PR0027"
+   ],
+   "feedback": {
+    "liked": [
+     "PR0186",
+     "PR0143"
+    ],
+    "disliked": []
+   }
+  },
+  {
+   "session": 3,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 72.9
+    },
+    "career_goal": "Software Engineer",
+    "budget_max_usd_per_year": 33700,
+    "location_preference": null,
+    "mobility": "open_international",
+    "employability_priority": "high",
+    "other_constraints": [
+     "Interested in data engineering and security"
+    ],
+    "uncertainty_notes": [
+     "No new constraints added."
+    ]
+   },
+   "final_shortlist": [
+    "PR0086",
+    "PR0027",
+    "PR0132",
+    "PR0136"
+   ],
+   "feedback": {
+    "liked": [
+     "PR0126",
+     "PR0086"
+    ],
+    "disliked": []
+   }
+  }
+ ]
+}

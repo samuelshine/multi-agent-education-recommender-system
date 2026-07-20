@@ -1,0 +1,30 @@
+{
+ "student_id": "ST0000",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 79.4
+    },
+    "career_goal": "Solutions Architect",
+    "budget_max_usd_per_year": 8500,
+    "location_preference": null,
+    "mobility": "open_international",
+    "employability_priority": null,
+    "other_constraints": [
+     "Interested in hacking and system developer roles"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0037",
+    "PR0161",
+    "PR0194",
+    "PR0029"
+   ],
+   "feedback": null
+  }
+ ]
+}

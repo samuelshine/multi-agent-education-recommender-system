@@ -1,0 +1,59 @@
+{
+ "student_id": "ST0010",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a full stack certification background. My overall academic average is 79.2% in an IT/computer-science degree. I'm interested in programming and cloud computing. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 2700 per year. I live in Bengaluru. I cannot leave my city. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [
+  "reflect"
+ ],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 79.2
+  },
+  "career_goal": null,
+  "budget_max_usd_per_year": 2700,
+  "location_preference": "Bengaluru",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in programming and cloud computing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0015",
+  "PR0073",
+  "PR0002",
+  "PR0013",
+  "PR0085",
+  "PR0173",
+  "PR0087"
+ ],
+ "retrieved_ids": [
+  "PR0073",
+  "PR0173",
+  "PR0085",
+  "PR0015",
+  "PR0087",
+  "PR0002",
+  "PR0013"
+ ],
+ "proposed_shortlist": [
+  "PR0073",
+  "PR0087",
+  "PR0173",
+  "PR0085"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0073",
+  "PR0087",
+  "PR0173",
+  "PR0085"
+ ],
+ "reflection_note": "reflect fallback: kept proposal",
+ "explanation": "Elmhurst Technical University\nThis program is highly recommended because it aligns well with your strong IT/computer-science background and offers excellent employability, boasting an 80% placement rate and a median starting salary of $8637 USD. The annual tuition of $1250 USD fits comfortably within your maximum budget of $2700 USD, and your grade percentage (79.2%) exceeds the minimum requirement of 65%. The main trade-off here is that while it focuses on cybersecurity, which is related to programming, it does not explicitly emphasize cloud computing as much as some other options.\n\nAravalli Technical University\nThis program meets your location preference in Bengaluru and keeps tuition low at $1200 USD, staying within budget. Since you have a computer science background, the admission requirements are met, and the curriculum covers data analytics, which is relevant to programming interests. The primary trade-off for this option is its lower placement rate of 58% compared to other options on your shortlist, despite offering a solid starting salary of $6767 USD.\n\nLongford Technical University\nThis program is an excellent fit because it offers the lowest tuition ($500 USD) while still providing strong exposure to software engineering and data science analytics, aligning with your interest in programming. Furthermore, you meet the academic requirements as no specific CS background is mandatory, making it flexible for your profile. The main trade-off is that its placement rate (62%) and median starting salary ($6851 USD) are moderate compared to Elmhurst Technical University.\n\nKeystone Institute of Applied Sciences\nThis option is recommended because it provides a strong focus on software engineering principles while keeping the annual tuition at $1450 USD, which respects your budget constraints. You also meet the minimum grade requirement (54%) and benefit from its relevance to programming skills through QA testing. The main trade-off is that this program focuses specifically on quality assurance, meaning it might be a more niche specialization than general software engineering or cloud computing.",
+ "wall_s": 224.1
+}

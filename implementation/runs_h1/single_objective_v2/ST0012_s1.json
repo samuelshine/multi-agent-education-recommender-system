@@ -1,0 +1,76 @@
+{
+ "student_id": "ST0012",
+ "session": 1,
+ "mode": "single_objective",
+ "version": 2,
+ "message": "Hi, I'm a student with a distro making certification background. My overall academic average is 82.9% in an IT/computer-science degree. I'm interested in Management and testing. I want to become a Information Technology Auditor. My family can afford at most about USD 11300 per year. I live in Chennai. I'm open to anywhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [
+  "reflect"
+ ],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 82.9
+  },
+  "career_goal": "Information Technology Auditor",
+  "budget_max_usd_per_year": 11300,
+  "location_preference": "Chennai",
+  "mobility": "open_domestic",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in Management and testing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0157",
+  "PR0172",
+  "PR0198",
+  "PR0139",
+  "PR0164",
+  "PR0182",
+  "PR0060",
+  "PR0191",
+  "PR0119",
+  "PR0101",
+  "PR0176",
+  "PR0092",
+  "PR0053",
+  "PR0189",
+  "PR0072",
+  "PR0054",
+  "PR0076",
+  "PR0105",
+  "PR0065",
+  "PR0019"
+ ],
+ "retrieved_ids": [
+  "PR0191",
+  "PR0157",
+  "PR0172",
+  "PR0164",
+  "PR0182",
+  "PR0076",
+  "PR0176",
+  "PR0139"
+ ],
+ "proposed_shortlist": [
+  "PR0182",
+  "PR0157",
+  "PR0172",
+  "PR0076",
+  "PR0164"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0182",
+  "PR0157",
+  "PR0172",
+  "PR0076",
+  "PR0164"
+ ],
+ "reflection_note": "reflect fallback: kept proposal",
+ "explanation": "Keystone Technical University\nThis program was recommended because its focus on Software Quality Engineering directly aligns with your interest in testing and supports a career goal like IT Auditor. It offers a high placement rate of 91% and a median starting salary of $12,865, addressing your priority for employability. The annual tuition of $1,950 is well within your budget constraints. The main trade-off here is the location; while you prefer Chennai, this program is located in Pune.\n\nLongford University\nThis MSc IT Management program is highly recommended due to its extremely low annual tuition cost of only $800, making it excellent for managing your budget. It covers core areas like IT management and business information systems, fitting your interest in management. While the placement rate (72%) and salary ($10,444) are lower than other options, this program provides a strong entry point into the field. The primary trade-off is that it is located in Coimbatore rather than your preferred Chennai location.\n\nQuilon Technical University\nThis MSc IT Management option aligns with your interest in management and business information systems. It has an annual tuition of $2,250, which remains affordable within your budget. However, you should note the trade-off regarding employability; its placement rate (66%) and median salary ($8,654) are lower compared to other options on this list. Like others, it is located in Pune instead of Chennai.\n\nSarayu Institute of Technology\nThis MBA Technology Management program was recommended because it provides a strong blend of IT management and software engineering, supporting your career goals. It offers excellent employability metrics with an 81% placement rate and a median starting salary of $13,142, all while keeping the tuition low at $1,250. The main trade-off is that this program is located in Hyderabad, deviating from your Chennai preference.\n\nNorthgate School of Engineering\nThis MBA Technology Management program stands out due to its high employability and strong salary potential, boasting a 90% placement rate and the highest median starting salary ($17,361). The annual tuition of $2,050 is also very manageable within your budget. The main trade-off for this highly recommended option is that it is located in Delhi, which differs from your preferred location of Chennai.",
+ "wall_s": 109.0
+}

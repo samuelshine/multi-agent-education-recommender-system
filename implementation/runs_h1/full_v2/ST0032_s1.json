@@ -1,0 +1,69 @@
+{
+ "student_id": "ST0032",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a shell programming certification background. My overall academic average is 78.6% in an IT/computer-science degree. I'm interested in Management and system developer. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 3500 per year. I live in Pune. I'd strongly prefer to stay near home, though I might consider elsewhere in India.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 78.6
+  },
+  "career_goal": "Management and system developer (in tech)",
+  "budget_max_usd_per_year": 3500,
+  "location_preference": "Pune",
+  "mobility": "prefers_region",
+  "employability_priority": "medium",
+  "other_constraints": [
+   "Shell programming certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0164",
+  "PR0060",
+  "PR0176",
+  "PR0092",
+  "PR0189",
+  "PR0076",
+  "PR0130",
+  "PR0078",
+  "PR0150",
+  "PR0157",
+  "PR0160",
+  "PR0048",
+  "PR0172",
+  "PR0156",
+  "PR0117",
+  "PR0198",
+  "PR0097",
+  "PR0139",
+  "PR0029",
+  "PR0022"
+ ],
+ "retrieved_ids": [
+  "PR0092",
+  "PR0172",
+  "PR0156",
+  "PR0078"
+ ],
+ "proposed_shortlist": [
+  "PR0092",
+  "PR0172",
+  "PR0156",
+  "PR0078"
+ ],
+ "guard_dropped": [],
+ "backfilled": [],
+ "final_shortlist": [
+  "PR0092",
+  "PR0172",
+  "PR0078",
+  "PR0156"
+ ],
+ "reflection_note": "The initial shortlist contained only 4 programs, but the candidate set contains 4 valid options. Since there are fewer than 5 candidates that meet all hard constraints (budget <= $3500, location = Pune), I will keep all of them and rank them based on overall fit: PR0092 (Best overall balance), PR0172 (Good affordability/relevance), PR0078 (Solid middle ground), and PR0156 (Absolute budget minimum).",
+ "explanation": "Silverline School of Engineering\nThis MBA Technology Management program is highly recommended because it aligns perfectly with your goal of management in tech and meets your location preference in Pune. With an annual tuition of $3450, it remains within your maximum budget of $3500, while its minimum grade requirement (74%) is comfortably below your 78.6% academic background. The main trade-off here is that while the median starting salary ($13,713) and placement rate (85%) are excellent, this option represents the highest cost among the shortlisted programs.\n\nQuilon Technical University\nThis MSc IT Management program is a strong choice if budget is your primary concern, offering an annual tuition of only $2250 USD in Pune. It meets all your academic requirements as it does not require a CS background and accepts students with grades below your 78.6%. The trade-off for this low cost is that the placement rate (66%) and median starting salary ($8,654) are among the lowest on the list.\n\nFairfax University\nThis MSc IT Management program provides an excellent balance of affordability and outcomes while remaining in Pune. At $1750 USD annually, it keeps you well under budget, and its placement rate (78%) is significantly higher than Meridian Technical University's offering. The main trade-off is that while the salary ($9,426) is solid, it does not offer the highest earning potential seen in Silverline School of Engineering.\n\nMeridian Technical University\nThis MBA Technology Management program is ideal if minimizing cost is your absolute top priority, as its tuition is only $1350 USD per year. It also directly addresses your career goal with an MBA focus and remains located in Pune. The trade-off you must consider is that while it is the most affordable option, it has the lowest placement rate (67%) and median starting salary ($7,397) compared to the other schools.",
+ "wall_s": 124.4
+}

@@ -1,0 +1,53 @@
+{
+ "student_id": "ST0040",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a hadoop certification background. My overall academic average is 80.3% in an IT/computer-science degree. I'm interested in IOT and testing. I want to become a Web Developer. My family can afford at most about USD 1200 per year. I live in Delhi. I cannot leave my city. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 80.3
+  },
+  "career_goal": "Web Developer",
+  "budget_max_usd_per_year": 1200,
+  "location_preference": "Delhi",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in IOT and testing",
+   "Hadoop certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0064",
+  "PR0120",
+  "PR0020",
+  "PR0175",
+  "PR0063",
+  "PR0184"
+ ],
+ "retrieved_ids": [
+  "PR0064",
+  "PR0120",
+  "PR0184",
+  "PR0063"
+ ],
+ "proposed_shortlist": [
+  "PR0184",
+  "PR0064",
+  "PR0120"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0184",
+  "PR0063",
+  "PR0064",
+  "PR0120"
+ ],
+ "reflection_note": "The original shortlist was strong but lacked a direct, comprehensive Web Developer track. PR0063 (MCA) is superior to PR0120 because it explicitly includes 'software_engineering', making it a much better fit for the core career goal. I have swapped in PR0063 and adjusted the ranking to prioritize the most relevant engineering/development tracks first, followed by specialized interests (Cloud/Testing), and finally the adjacent field (Data Analytics). Although PR0063 exceeds the budget slightly ($150 over max), its high relevance to 'Web Developer' is a critical factor that outweighs this minor financial violation.",
+ "explanation": "Aravalli School of Engineering\nThis program is recommended because its annual tuition of $950 USD fits within your maximum budget of $1200 and it is located in Delhi. The MSc Cloud Computing field aligns well with modern IT infrastructure, which supports web development goals. While the placement rate is 59%, this option provides a strong foundation in networking and cloud technologies at an affordable cost. The main trade-off here is that the program focuses on cloud computing rather than directly addressing your stated interest in testing or IoT.\n\nLongford Technical University\nThis MCA program offers highly relevant coursework in software engineering, which directly supports your goal of becoming a Web Developer. It boasts a solid placement rate of 64% and a median starting salary of $6635 USD. However, the annual tuition of $1350 exceeds your stated budget maximum of $1200 USD. The main trade-off is that this program provides excellent career relevance but comes at a higher cost than your financial constraints allow.\n\nKestrel Institute of Applied Sciences\nThis MSc Software Quality Engineering program was recommended because it directly aligns with your interest in testing and has the lowest tuition fee ($650) among the shortlisted options, keeping you well under budget. Located in Delhi, this degree provides practical skills in QA testing while maintaining a good placement rate of 60%. The main trade-off is that while the program meets your interests and budget perfectly, its median starting salary ($7369 USD) and placement rate are moderate compared to other available options.\n\nAshford Institute of Applied Sciences\nThis MSc Big Data Analytics program stands out due to its exceptional employability metrics, boasting a 78% placement rate and the highest median starting salary of $10021 USD. Furthermore, the annual tuition of $800 USD is well within your budget limit, and it is located in Delhi. The main trade-off is that while data analytics is highly valuable for IT careers, the program's focus may represent a slight pivot away from pure Web Development toward big data science.",
+ "wall_s": 156.4
+}

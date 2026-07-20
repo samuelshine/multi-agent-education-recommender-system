@@ -1,0 +1,73 @@
+{
+ "student_id": "ST0025",
+ "session": 3,
+ "mode": "full",
+ "version": 1,
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 81% in an IT/computer-science degree. I'm interested in networks and developer. I want to become a Software Engineer. My family can afford at most about USD 4400 per year. I live in Kolkata. I'm open to going abroad. Getting a good job after graduation matters more to me than anything else. About the earlier suggestions: I liked PR0194, PR0037.",
+ "memory_used": true,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 81
+  },
+  "career_goal": "Software Engineer",
+  "budget_max_usd_per_year": 4400,
+  "location_preference": "Kolkata",
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in networks and developer"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0037",
+  "PR0161",
+  "PR0198",
+  "PR0144",
+  "PR0194",
+  "PR0186",
+  "PR0058",
+  "PR0039",
+  "PR0053",
+  "PR0038",
+  "PR0158",
+  "PR0043",
+  "PR0126",
+  "PR0109",
+  "PR0026",
+  "PR0076",
+  "PR0012",
+  "PR0065",
+  "PR0019",
+  "PR0167"
+ ],
+ "retrieved_ids": [
+  "PR0053",
+  "PR0012",
+  "PR0186",
+  "PR0194",
+  "PR0126",
+  "PR0038",
+  "PR0167",
+  "PR0109"
+ ],
+ "proposed_shortlist": [
+  "PR0053",
+  "PR0126",
+  "PR0038",
+  "PR0186"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0053",
+  "PR0186",
+  "PR0038",
+  "PR0194",
+  "PR0109"
+ ],
+ "reflection_note": "The original shortlist was strong but contained redundancy (PR0126 vs PR0038). I dropped PR0126 because PR0038 is superior. I swapped in PR0194 as a high-quality international option, and added PR0109 (Chennai) to provide a diverse, highly ranked Indian alternative that meets the 'Kolkata proximity' preference better than just relying on Kolkata options.",
+ "explanation": "Cavendish University\nThis program is recommended because it aligns perfectly with your location preference in Kolkata and keeps the annual tuition well within your budget at $1200. With a high placement rate of 86% and no requirement for a specific CS background, admission should be straightforward given your academic standing. The main trade-off here is that while the program offers strong local employability metrics, it does not provide any post-study work visa period to support international mobility goals.\n\nHalcyon Institute of Technology\nThis MTech in Computer Networks is an excellent fit because its curriculum directly addresses your stated interest in networks and developer roles. The tuition cost of $2050 remains within budget, and the program maintains a strong placement rate of 83%. The primary trade-off is that while the subject matter is ideal, the location (Pune) deviates from your preferred Kolkata area.\n\nHalcyon Technical University\nThis German option provides significant international value with low tuition ($1200) and an excellent post-study work visa period of 18 months. Furthermore, it offers a high median starting salary of $22356, which is highly attractive for career growth. The main trade-off to consider is that the placement rate (66%) is lower than some other options, despite the strong international benefits and salary potential.\n\nAravalli School of Engineering\nThis MSc in Cloud Computing is a top recommendation due to its excellent blend of networking and software engineering fields, which matches your interests. It offers significant career advantages with an 18-month post-study work visa and a high median starting salary of $30651. The main trade-off compared to other options is that the placement rate (67%) is moderate, though this is offset by the strong international financial package.\n\nCrestwood Technical University\nThis program is highly recommended because it maintains proximity to your preferred location in Chennai and offers a high placement rate of 82%. The tuition cost of $1550 is also well within your budget constraints. The main trade-off, compared to the German options, is that this Indian institution does not provide any post-study work visa period for international career development.",
+ "wall_s": 273.9
+}

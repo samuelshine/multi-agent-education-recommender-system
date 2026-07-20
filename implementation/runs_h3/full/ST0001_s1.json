@@ -1,0 +1,77 @@
+{
+ "student_id": "ST0001",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a app development certification background. My overall academic average is 75.3% in an IT/computer-science degree. I'm interested in data engineering and testing. My family can afford at most about USD 3200 per year.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 75.3
+  },
+  "career_goal": "data engineering and testing",
+  "budget_max_usd_per_year": 3200,
+  "location_preference": null,
+  "mobility": "open_domestic",
+  "employability_priority": null,
+  "other_constraints": [
+   "app development certification background"
+  ],
+  "uncertainty_notes": [
+   "Location preference not stated.",
+   "Mobility preference not stated (defaulting to open_domestic).",
+   "Employability priority not stated."
+  ]
+ },
+ "prefilter_ids": [
+  "PR0198",
+  "PR0058",
+  "PR0053",
+  "PR0026",
+  "PR0065",
+  "PR0019",
+  "PR0090",
+  "PR0145",
+  "PR0107",
+  "PR0008",
+  "PR0063",
+  "PR0142",
+  "PR0082",
+  "PR0052",
+  "PR0085",
+  "PR0173",
+  "PR0071",
+  "PR0182",
+  "PR0191",
+  "PR0119"
+ ],
+ "retrieved_ids": [
+  "PR0058",
+  "PR0145",
+  "PR0191",
+  "PR0065",
+  "PR0182",
+  "PR0119",
+  "PR0085",
+  "PR0053"
+ ],
+ "proposed_shortlist": [
+  "PR0191",
+  "PR0058",
+  "PR0145",
+  "PR0065",
+  "PR0182"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0058",
+  "PR0145",
+  "PR0119",
+  "PR0085",
+  "PR0053"
+ ],
+ "reflection_note": "The original shortlist was critically reviewed. PR0191 was dropped due to violating the hard budget constraint ($3250 > $3200). The remaining programs were evaluated for alignment with Data Engineering/Testing goals and overall value. We kept PR0058 and PR0145 as they best meet the core academic fit and financial constraints. To improve the depth of options, three new candidates (PR0119, PR0085, PR0053) were swapped in. These programs offer excellent affordability and strong employability in Software Quality Engineering/Testing, providing a robust backup track that aligns with the student's secondary interest while staying well under budget.",
+ "explanation": "Stanmore School of Engineering\nThis program is highly recommended because its curriculum covers both data science analytics and software engineering, aligning well with your goal in data engineering. It meets your academic background requirement since it requires a CS background, and the annual tuition of $1350 fits comfortably within your budget maximum of $3200. The high placement rate of 83% and median starting salary of $14869 make this an attractive option; however, the main trade-off is that there are no post-study work visa options available.\n\nSilverline Technical University\nThis MTech program is a solid fit as it covers data science analytics and software engineering, matching your career goals. The tuition cost of $2300 remains within your budget, and the minimum grade requirement (60%) is easily met by your 75.3% academic background. While it offers relevant fields, the main trade-off compared to other options is that its median starting salary ($10057) and placement rate (75%) are lower than some of the alternatives listed.\n\nMeridian Institute of Applied Sciences\nThis program is strongly recommended because its focus on QA testing directly addresses the \"testing\" aspect of your career goals, while the low tuition of $1200 keeps you well under budget. Furthermore, it boasts an excellent placement rate of 86% and a high median starting salary of $14917. The main trade-off is that this program does not require a CS background, which might be less ideal given your strong academic history in the field.\n\nKeystone Institute of Applied Sciences\nWhile this institution offers relevant fields like QA testing and software engineering, it presents significant drawbacks regarding career outcomes. Although the tuition ($1450) fits your budget, the low placement rate (63%) and median starting salary ($6488) are considerably lower than other options on this list. Therefore, the main trade-off is sacrificing potential earning power and job security for a slightly lower cost of attendance.\n\nCavendish University\nThis program is an excellent choice because it focuses heavily on QA testing and software engineering while maintaining a very low annual tuition fee of $1200. It offers a high placement rate of 86% and a strong median starting salary of $12855, making it highly competitive for your goals. The main trade-off is that like Meridian Institute, this program does not require a CS background, which you possess.",
+ "wall_s": 0.0
+}

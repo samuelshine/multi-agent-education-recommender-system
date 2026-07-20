@@ -1,0 +1,71 @@
+{
+ "student_id": "ST0000",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a full stack certification background. My overall academic average is 79.4% in an IT/computer-science degree. I'm interested in hacking and system developer. I want to become a Solutions Architect. My family can afford at most about USD 8500 per year. I live in Chennai. I'm open to going abroad.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 79.4
+  },
+  "career_goal": "Solutions Architect",
+  "budget_max_usd_per_year": 8500,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in hacking and system developer roles"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0000",
+  "PR0195",
+  "PR0021",
+  "PR0153",
+  "PR0051",
+  "PR0151",
+  "PR0037",
+  "PR0161",
+  "PR0117",
+  "PR0198",
+  "PR0097",
+  "PR0104",
+  "PR0144",
+  "PR0139",
+  "PR0194",
+  "PR0164",
+  "PR0029",
+  "PR0022",
+  "PR0137",
+  "PR0182"
+ ],
+ "retrieved_ids": [
+  "PR0194",
+  "PR0161",
+  "PR0151",
+  "PR0195",
+  "PR0137",
+  "PR0037",
+  "PR0144",
+  "PR0029"
+ ],
+ "proposed_shortlist": [
+  "PR0161",
+  "PR0037",
+  "PR0194",
+  "PR0151"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0037",
+  "PR0161",
+  "PR0194",
+  "PR0029"
+ ],
+ "reflection_note": "The original shortlist was strong but included PR0151, which is too focused on QA testing and deviates from the core goal of Solutions Architecture/System Development. I dropped PR0151 and swapped in PR0029 (MSc Information Security). This new set maintains the top-tier German options (PR0037, PR0161) for maximum career alignment while adding a highly relevant cybersecurity option (PR0029) that directly addresses the student's interest in hacking and system development roles. All programs meet the budget constraint ($8500 max).",
+ "explanation": "**Tejas School of Engineering**\nThis program is highly recommended because it offers an affordable path to a technical career in Germany, with an annual tuition cost of only $2650, which fits well within your budget. Since you have an IT/CS background and are interested in system development, the MCA curriculum provides a strong foundation for a Solutions Architect role. The program also offers 18 months of post-study work visa time, supporting your international mobility goals. The main trade-off here is that while the placement rate (72%) is solid, it is not the highest among the options provided.\n\n**Tejas University**\nThis MSc Software Engineering program provides an excellent balance between cost and career relevance for aspiring Solutions Architects in Germany. With a tuition of $3850, it remains well under your maximum budget while providing deep knowledge in software engineering fields. The curriculum is ideal for developing system design skills, and the 18 months of post-study work visa further support international employment goals. The trade-off to note is that this program has a slightly higher tuition cost than the MCA option at Tejas School of Engineering.\n\n**Aravalli School of Engineering**\nThis MSc Cloud Computing specialization is an excellent choice because cloud technology is fundamental to modern system development and Solutions Architect roles, while offering the lowest annual tuition fee ($1950). This low cost makes it extremely budget-friendly compared to other international options. Furthermore, it provides 18 months of post-study work visa time in Germany. The primary trade-off is that this program has the lowest placement rate (67%) among all listed German institutions.\n\n**Vantage Technical University**\nThis MSc Information Security program is a perfect match for your stated interest in hacking and system developer roles, as it focuses specifically on cybersecurity. It boasts the highest placement rate at 92% and requires a minimum grade of 75%, which you meet with your current academic standing. However, the main trade-off is that while the tuition ($3800) fits your budget, the program does not offer any post-study work visa months (0), conflicting with your international mobility preference.",
+ "wall_s": 196.2
+}

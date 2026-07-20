@@ -1,0 +1,55 @@
+{
+ "student_id": "ST0055",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a hadoop certification background. My overall academic average is 81.3% in an IT/computer-science degree. I'm interested in programming and testing. I want to become a Business Systems Analyst. My family can afford at most about USD 2100 per year. I live in Delhi. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 81.3
+  },
+  "career_goal": "Business Systems Analyst",
+  "budget_max_usd_per_year": 2100,
+  "location_preference": "Delhi",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in programming and testing",
+   "Strongly prefer to stay near home, though might consider elsewhere in India"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0182",
+  "PR0119",
+  "PR0101",
+  "PR0053",
+  "PR0072",
+  "PR0054",
+  "PR0065",
+  "PR0019",
+  "PR0114",
+  "PR0015",
+  "PR0020",
+  "PR0113",
+  "PR0179",
+  "PR0033",
+  "PR0193",
+  "PR0157",
+  "PR0047",
+  "PR0068",
+  "PR0074",
+  "PR0050"
+ ],
+ "final_shortlist": [
+  "PR0157",
+  "PR0101",
+  "PR0033",
+  "PR0020",
+  "PR0015"
+ ],
+ "explanation": "This MSc IT Management program in Coimbatore aligns perfectly with your goal of becoming a Business Systems Analyst, as it focuses on business information systems. It also has one of the lowest tuition fees ($800), respecting your strict budget constraint while offering decent placement potential.\n\nThe MSc Information Systems at Braxton Institute in Coimbatore is a strong match for your career goal (Business Systems Analyst) and utilizes business information systems. While the tuition ($2400) slightly exceeds your budget, its high median starting salary makes it a worthwhile consideration given your priority on job placement.\n\nThis MBA Business Analytics program in Coimbatore is highly relevant to business analysis and data. The tuition ($2100) fits within your budget limit, and the focus on business information systems makes it a solid choice for transitioning into a BSA role.\n\nSince you strongly prefer staying near home (Delhi), this MBA Business Analytics program is the best option. It directly addresses your career interest in business systems and has a manageable tuition fee ($1450) that fits well within your budget.\n\nThis MSc Information Systems program in Bengaluru offers strong exposure to business information systems. Although the tuition ($1200) is affordable, be aware that it is located further away from Delhi and has a lower placement rate compared to other options.",
+ "wall_s": 49.8
+}

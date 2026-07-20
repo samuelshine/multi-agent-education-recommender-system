@@ -1,0 +1,62 @@
+{
+ "student_id": "ST0099",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a full stack certification background. My overall academic average is 76.8% in an IT/computer-science degree. I'm interested in cloud computing and developer. I want to become a Software Systems Engineer. My family can afford at most about USD 1200 per year. I live in Pune. I cannot leave my city. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 76.8
+  },
+  "career_goal": "Software Systems Engineer (interested in cloud computing and developer roles)",
+  "budget_max_usd_per_year": 1200,
+  "location_preference": "Pune",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Full stack certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0019",
+  "PR0180",
+  "PR0187",
+  "PR0084",
+  "PR0181",
+  "PR0045",
+  "PR0023",
+  "PR0156",
+  "PR0190",
+  "PR0080"
+ ],
+ "retrieved_ids": [
+  "PR0180",
+  "PR0019",
+  "PR0045",
+  "PR0190",
+  "PR0023",
+  "PR0187"
+ ],
+ "proposed_shortlist": [
+  "PR0180",
+  "PR0019",
+  "PR0023",
+  "PR0190",
+  "PR0187"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0180",
+  "PR0023",
+  "PR0190",
+  "PR0187",
+  "PR0045"
+ ],
+ "reflection_note": "The initial shortlist was reviewed for hard constraint violations. PR0019 was dropped because its tuition ($1450) exceeds the maximum budget of $1200 USD. Since 5 valid candidates were required, I swapped in PR0045 (MSc Information Security). Although cybersecurity is not the primary focus, it maintains strong location fit and a reasonable academic profile, making it a better replacement than simply dropping to 4 items.",
+ "explanation": "Braxton Institute of Technology\nThis program is recommended because its focus on Computer Networks aligns strongly with your interest in cloud computing and systems engineering roles. You meet the admission requirements, as it requires a CS background and your grade percentage (76.8%) exceeds the minimum 61%. The main trade-off here is that the annual tuition of $1250 slightly exceeds your stated budget maximum. However, the strong placement rate of 71% and median starting salary of $10359 make it a highly relevant choice for improving employability in systems roles.\n\nSilverline Technical University\nThis option is excellent if adhering strictly to your low budget is the highest priority, as the annual tuition is only $650. While its focus on Cyber Security is related to system integrity, the program does not require a CS background and offers a lower median starting salary of $8376 compared to other options. The trade-off you must consider is that while it is very affordable, the resulting career path may be less directly aligned with core developer or cloud computing roles than some alternatives.\n\nKestrel School of Engineering\nThis program provides a solid foundation in software quality engineering, which complements your full stack background and interest in robust systems. It has an annual tuition of $1250, keeping it close to your budget limit. The primary trade-off is that this option presents the lowest employability metrics on the list, with only a 64% placement rate and the lowest median starting salary of $7265.\n\nCavendish University\nThis program was recommended because its focus on Systems Administration directly supports your goal of becoming a Software Systems Engineer interested in cloud infrastructure. Although the annual tuition of $1450 is above your budget, it offers the best return on investment with an outstanding 87% placement rate and the highest median starting salary of $12687. The main trade-off is that you must weigh this higher cost against its superior employability outcomes in systems roles.\n\nBraxton Technical University\nThis program provides a strong focus on Information Security, which is highly valuable for any modern developer or cloud engineer. It offers a good median starting salary of $10236 and maintains a 71% placement rate, making it attractive for high employability. The main trade-off here is the annual tuition cost of $1450, which exceeds your stated budget maximum, though its field remains relevant to systems engineering.",
+ "wall_s": 111.7
+}

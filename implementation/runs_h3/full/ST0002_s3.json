@@ -1,0 +1,75 @@
+{
+ "student_id": "ST0002",
+ "session": 3,
+ "mode": "full",
+ "message": "Hi, I'm a student with a hadoop certification background. My overall academic average is 80% in an IT/computer-science degree. I'm interested in Computer Architecture and developer. I want to become a Business Intelligence Analyst. Also, my situation changed: family circumstances changed, so my budget is now lower. My family can afford at most about USD 1000 per year. I live in Kolkata. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else. About the earlier suggestions: I liked PR0133, PR0129.",
+ "memory_used": true,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 80
+  },
+  "career_goal": "Business Intelligence Analyst",
+  "budget_max_usd_per_year": 1000,
+  "location_preference": "Kolkata",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "hadoop certification background",
+   "interested in Computer Architecture and developer"
+  ],
+  "uncertainty_notes": [
+   "The student previously stated 'fixed_city' but now indicates a preference to stay near home, allowing for consideration of other places in India. The mobility has been updated to 'prefers_region'.",
+   "The student explicitly states that getting a good job after graduation matters more than anything else, updating the employability priority from null."
+  ]
+ },
+ "prefilter_ids": [
+  "PR0015",
+  "PR0157",
+  "PR0087",
+  "PR0119",
+  "PR0053",
+  "PR0076",
+  "PR0114",
+  "PR0185",
+  "PR0130",
+  "PR0084",
+  "PR0120",
+  "PR0073",
+  "PR0013",
+  "PR0193",
+  "PR0181",
+  "PR0180",
+  "PR0166",
+  "PR0111",
+  "PR0098",
+  "PR0023"
+ ],
+ "retrieved_ids": [
+  "PR0157",
+  "PR0130",
+  "PR0185",
+  "PR0053",
+  "PR0166",
+  "PR0181",
+  "PR0120",
+  "PR0111"
+ ],
+ "proposed_shortlist": [
+  "PR0157",
+  "PR0130",
+  "PR0120",
+  "PR0111"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0130",
+  "PR0111",
+  "PR0185",
+  "PR0053"
+ ],
+ "reflection_note": "The original shortlist was good but lacked diversity in location and missed two excellent, highly relevant options in Kolkata. I dropped PR0120 due to the significant geographical mismatch (Delhi). I swapped in PR0185 and PR0053 because they are located in Kolkata (the student's primary preference) and offer strong technical depth (Cybersecurity/Software Engineering), which is crucial for a developer-minded BI Analyst. The final list prioritizes location fit (Kolkata) and regional comfort (Hyderabad) while maintaining high employability scores and respecting the budget.",
+ "explanation": "Elmhurst School of Engineering\nThis program is recommended because its focus on IT Management aligns well with your goal of becoming a Business Intelligence Analyst. It meets your strict budget constraint with an annual tuition of $1000 and accepts students without requiring a CS background, which matches your academic profile. While the placement rate (77%) and median starting salary ($11249) are solid, the main trade-off here is that it requires you to relocate to Hyderabad, moving away from your preferred Kolkata region.\n\nLongford School of Engineering\nThis MSc Data Science program is highly recommended as its focus on data analytics directly supports your career goal of becoming a Business Intelligence Analyst. It offers the best budget fit at $900 per year and accepts students without requiring a CS background. The primary trade-off, however, is that while it keeps you within budget and in an acceptable region (Hyderabad), it has the lowest median starting salary ($9179) among all options listed.\n\nLongford Institute of Technology\nThis program was recommended because it is located in Kolkata, matching your location preference, and requires a CS background, which aligns with your academic history. The placement rate (78%) and median starting salary ($10850) are strong indicators of high employability. The main trade-off to consider is that the annual tuition of $1150 slightly exceeds your stated maximum budget of $1000.\n\nCavendish University\nThis program was recommended due to its exceptional employability metrics, boasting the highest placement rate (86%) and median starting salary ($12855). Furthermore, it is located in Kolkata, matching your location preference, and accepts students without requiring a CS background. The significant trade-off here is that the annual tuition of $1200 exceeds your maximum budget constraint of $1000.",
+ "wall_s": 218.6
+}

@@ -1,0 +1,31 @@
+{
+ "student_id": "ST0017",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 74.4
+    },
+    "career_goal": "CRM Technical Developer",
+    "budget_max_usd_per_year": 2400,
+    "location_preference": "Kolkata",
+    "mobility": "prefers_region",
+    "employability_priority": "high",
+    "other_constraints": [
+     "Interested in hacking and Business process analyst roles"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0176",
+    "PR0157",
+    "PR0119",
+    "PR0033",
+    "PR0174"
+   ],
+   "feedback": null
+  }
+ ]
+}

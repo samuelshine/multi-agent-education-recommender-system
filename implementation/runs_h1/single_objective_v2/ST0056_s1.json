@@ -1,0 +1,71 @@
+{
+ "student_id": "ST0056",
+ "session": 1,
+ "mode": "single_objective",
+ "version": 2,
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 83.7% in an IT/computer-science degree. I'm interested in programming and system developer. I want to become a Web Developer. My family can afford at most about USD 4300 per year. I live in Chennai. I'm open to going abroad. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [
+  "reflect"
+ ],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 83.7
+  },
+  "career_goal": "Web Developer",
+  "budget_max_usd_per_year": 4300,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "information security certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0000",
+  "PR0195",
+  "PR0153",
+  "PR0051",
+  "PR0137",
+  "PR0191",
+  "PR0101",
+  "PR0054",
+  "PR0128",
+  "PR0044",
+  "PR0105",
+  "PR0015",
+  "PR0020",
+  "PR0033",
+  "PR0157",
+  "PR0047",
+  "PR0074",
+  "PR0172",
+  "PR0087",
+  "PR0021"
+ ],
+ "retrieved_ids": [
+  "PR0000",
+  "PR0195",
+  "PR0153",
+  "PR0021"
+ ],
+ "proposed_shortlist": [
+  "PR0195",
+  "PR0153",
+  "PR0000",
+  "PR0021"
+ ],
+ "guard_dropped": [],
+ "backfilled": [],
+ "final_shortlist": [
+  "PR0195",
+  "PR0153",
+  "PR0000",
+  "PR0021"
+ ],
+ "reflection_note": "reflect fallback: kept proposal",
+ "explanation": "Keystone School of Engineering\nThis program is recommended because it offers a strong balance between low cost and high employability metrics, while also aligning with your information security background. With an annual tuition of only $300, it fits comfortably within your budget maximum of $4300 per year. The 82% placement rate and median starting salary of $51,059 make it highly attractive given your priority for employability. The main trade-off is that the focus on general Information Systems may be less specialized in pure web development compared to other options.\n\nKeystone University\nThis program was suggested because its Human-Computer Interaction (HCI) focus directly supports a Web Developer career goal by emphasizing design and user experience. It maintains a low annual tuition of $550, keeping you well within your budget constraints. However, the main trade-off is that it has the lowest placement rate (78%) and median starting salary ($39,426) among the shortlisted options, which conflicts with your high employability priority.\n\nFairfax Institute of Technology\nThis program is highly recommended because its strong track record in employment directly addresses your stated priority for employability. With a 91% placement rate and the highest median starting salary ($56,198), it offers excellent career security while maintaining an affordable tuition cost of $950. The main trade-off is that \"IT Management\" suggests a focus on organizational strategy rather than deep technical skills required for hands-on web development.\n\nAshford Institute of Technology\nThis option was selected because it provides one of the lowest costs ($450 annual tuition) while still offering solid career outcomes, including an 82% placement rate and an 18-month post-study work visa. It is a practical choice that aligns with your IT background and keeps you well within your budget maximum. The main trade-off is that the focus on \"IT Operations\" might be too specialized in infrastructure support, potentially diverging from your core goal of becoming a Web Developer.",
+ "wall_s": 88.9
+}

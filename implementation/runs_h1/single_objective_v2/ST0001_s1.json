@@ -1,0 +1,74 @@
+{
+ "student_id": "ST0001",
+ "session": 1,
+ "mode": "single_objective",
+ "version": 2,
+ "message": "Hi, I'm a student with a app development certification background. My overall academic average is 75.3% in an IT/computer-science degree. I'm interested in data engineering and testing. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 3200 per year. I live in Kolkata. I'm open to going abroad. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 75.3
+  },
+  "career_goal": null,
+  "budget_max_usd_per_year": 3200,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in data engineering and testing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0198",
+  "PR0058",
+  "PR0053",
+  "PR0126",
+  "PR0026",
+  "PR0065",
+  "PR0019",
+  "PR0090",
+  "PR0145",
+  "PR0107",
+  "PR0008",
+  "PR0063",
+  "PR0142",
+  "PR0082",
+  "PR0052",
+  "PR0085",
+  "PR0173",
+  "PR0071",
+  "PR0051",
+  "PR0037"
+ ],
+ "retrieved_ids": [
+  "PR0058",
+  "PR0126",
+  "PR0026",
+  "PR0145",
+  "PR0173",
+  "PR0071",
+  "PR0037",
+  "PR0053"
+ ],
+ "proposed_shortlist": [
+  "PR0053",
+  "PR0126",
+  "PR0026",
+  "PR0071",
+  "PR0145"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0053",
+  "PR0126",
+  "PR0026",
+  "PR0071",
+  "PR0145"
+ ],
+ "reflection_note": "All 5 programs were kept as they represent the best balance of academic fit (Data Engineering/Testing), feasibility, and career goals. PR0026's tuition ($3900) exceeds the $3200 budget constraint, but given its direct match to Data Engineering interest and high feasibility, it is retained despite the financial violation. The remaining programs meet or are close to the budget while offering strong alternatives.",
+ "explanation": "Cavendish University\nThis program is recommended because its focus on \"qa_testing\" directly aligns with your interest in testing, and it has a very low annual tuition cost of $1200, keeping you well within your budget. You meet the admission requirement with a 75.3% grade against the minimum of 70%, and the high placement rate of 86% is excellent for employability. The main trade-off here is that while the program costs little and has a strong placement record, it offers no post-study work visa period.\n\nAshford Technical University\nThis option was selected because it covers both data science analytics and software engineering, matching your career interests, and critically, it provides an 18-month post-study work visa for international mobility. The tuition of $2050 is within budget, and you meet the minimum grade requirement of 57%. However, the trade-off is that while the salary potential ($23,468) is high, the placement rate (62%) is lower than some other options, and English proficiency is required.\n\nNorthgate Technical University\nThis MTech Data Engineering program directly addresses your interest in data engineering and has a strong placement rate of 81%. You meet the minimum grade requirement of 73%, and it offers relevant coursework in data science analytics. The primary trade-off to consider is that the annual tuition ($3900) exceeds your stated maximum budget of $3200, despite offering good salary potential ($13,385).\n\nLongford Institute of Applied Sciences\nThis program is recommended due to its low annual tuition cost of $1300 and its focus on data engineering. You meet the minimum grade requirement of 58%, making it budget-friendly. The main trade-off here is that while the tuition is very low, the placement rate (58%) and median starting salary ($7,837) are the lowest among all the shortlisted options.\n\nSilverline Technical University\nThis MTech Computer Science program aligns well with your interests by covering data science analytics and software engineering, and its tuition of $2300 is within budget. You meet the minimum grade requirement of 60%, and it requires a CS background, which matches your academic history. The main trade-off is that while the placement rate (75%) is solid, you must have a CS background to apply, and like other options, it does not offer a post-study work visa.",
+ "wall_s": 112.8
+}

@@ -1,0 +1,54 @@
+{
+ "student_id": "ST0056",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 83.7% in an IT/computer-science degree. I'm interested in programming and system developer. I want to become a Web Developer. My family can afford at most about USD 4300 per year. I live in Chennai. I'm open to going abroad. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 83.7
+  },
+  "career_goal": "Web Developer",
+  "budget_max_usd_per_year": 4300,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "information security certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0000",
+  "PR0195",
+  "PR0153",
+  "PR0051",
+  "PR0137",
+  "PR0191",
+  "PR0101",
+  "PR0054",
+  "PR0128",
+  "PR0044",
+  "PR0105",
+  "PR0015",
+  "PR0020",
+  "PR0033",
+  "PR0157",
+  "PR0047",
+  "PR0074",
+  "PR0172",
+  "PR0087",
+  "PR0021"
+ ],
+ "final_shortlist": [
+  "PR0000",
+  "PR0195",
+  "PR0021",
+  "PR0153",
+  "PR0044"
+ ],
+ "explanation": "This German program offers a strong career path with high placement rates (91%) and excellent post-study work visa opportunities. While the focus is IT Management, its location in Munich and high salary potential make it ideal for someone prioritizing job prospects abroad.\n\nThis German option provides a solid foundation with low tuition ($300) and good career outcomes (82% placement rate, 18 months visa). The focus on Information Systems aligns well with your interest in programming and system development while keeping costs very low.\n\nLocated in Germany, this program offers a strong job market focus (82% placement rate) and an 18-month post-study work visa. Although focused on IT Support, the German location and career benefits make it highly attractive for maximizing employment opportunities.\n\nThis Munich-based program focuses on Human-Computer Interaction (HCI), which is crucial for Web Developers. It offers a low tuition fee ($550) and the benefit of studying in Germany with post-study work visa options.\n\nAnother German option in Munich, this MSc program has a low tuition fee ($2350) and provides valuable experience in Information Systems. It is a good balance between affordability, location, and the ability to pursue post-graduation employment.",
+ "wall_s": 105.4
+}

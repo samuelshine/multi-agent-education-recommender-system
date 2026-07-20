@@ -1,0 +1,54 @@
+{
+ "student_id": "ST0036",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a python certification background. My overall academic average is 70.8% in an IT/computer-science degree. I'm interested in Management and developer. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 3400 per year. I live in Delhi. I'd strongly prefer to stay near home, though I might consider elsewhere in India.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 70.8
+  },
+  "career_goal": "Management and developer (in tech)",
+  "budget_max_usd_per_year": 3400,
+  "location_preference": "Delhi",
+  "mobility": "prefers_region",
+  "employability_priority": null,
+  "other_constraints": [
+   "Python certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0060",
+  "PR0176",
+  "PR0092",
+  "PR0189",
+  "PR0076",
+  "PR0130",
+  "PR0078",
+  "PR0150",
+  "PR0157",
+  "PR0160",
+  "PR0048",
+  "PR0172",
+  "PR0156",
+  "PR0029",
+  "PR0022",
+  "PR0182",
+  "PR0191",
+  "PR0119",
+  "PR0101",
+  "PR0143"
+ ],
+ "final_shortlist": [
+  "PR0160",
+  "PR0156",
+  "PR0189",
+  "PR0060",
+  "PR0172"
+ ],
+ "explanation": "This program is ideal because it is located in Delhi, meeting your strong preference to stay near home. The tuition fee of $2050 is well within your family's budget constraint of $3400/year, and the minimum required grade (60%) is easily met by your 70.8% average.\n\nThis option in Pune offers a very low tuition fee ($1350), making it highly budget-friendly and keeping you within your financial limits. While the minimum grade (57%) is lower than yours, this program's focus on IT Management aligns with your stated interest in both tech and management.\n\nLocated in Mumbai, this MBA Technology Management program is a strong fit for your dual interest in 'Management and developer.' The tuition ($3350) is close to your budget limit but still manageable, and the minimum grade requirement (71%) is achievable with your current academic average.\n\nThis MSc IT Management program in Mumbai offers a good balance of career focus and affordability. Although the tuition ($3650) slightly exceeds your stated budget, it is still close enough to consider given its strong placement rate (88%) and relevance to your interests.\n\nThis program in Pune offers a relevant MSc IT Management degree. It is highly affordable ($2250) and the minimum grade requirement (62%) is easily met by your academic average, making it a safe and practical option within your constraints.",
+ "wall_s": 49.6
+}

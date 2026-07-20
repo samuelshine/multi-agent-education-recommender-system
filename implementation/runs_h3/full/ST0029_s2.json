@@ -1,0 +1,74 @@
+{
+ "student_id": "ST0029",
+ "session": 2,
+ "mode": "full",
+ "version": 1,
+ "message": "Hi, I'm a student with a python certification background. My overall academic average is 81.2% in an IT/computer-science degree. I'm interested in IOT and Business process analyst. I want to become a Database Developer. My family can afford at most about USD 4100 per year. I live in Mumbai. I'm open to going abroad. About the earlier suggestions: I liked PR0164, PR0047.",
+ "memory_used": true,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 81.2
+  },
+  "career_goal": "Database Developer",
+  "budget_max_usd_per_year": 4100,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": null,
+  "other_constraints": [
+   "python certification background"
+  ],
+  "uncertainty_notes": [
+   "Location preference not specified.",
+   "Employability priority not specified."
+  ]
+ },
+ "prefilter_ids": [
+  "PR0051",
+  "PR0097",
+  "PR0191",
+  "PR0143",
+  "PR0058",
+  "PR0007",
+  "PR0128",
+  "PR0126",
+  "PR0099",
+  "PR0026",
+  "PR0062",
+  "PR0090",
+  "PR0120",
+  "PR0170",
+  "PR0145",
+  "PR0033",
+  "PR0107",
+  "PR0111",
+  "PR0134",
+  "PR0074"
+ ],
+ "retrieved_ids": [
+  "PR0051",
+  "PR0128",
+  "PR0126",
+  "PR0062",
+  "PR0143",
+  "PR0097",
+  "PR0170",
+  "PR0145"
+ ],
+ "proposed_shortlist": [
+  "PR0126",
+  "PR0062",
+  "PR0128"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0126",
+  "PR0062",
+  "PR0145",
+  "PR0143"
+ ],
+ "reflection_note": "The original shortlist was good but included a less relevant MBA option (PR0128). I dropped PR0128 due to poor career alignment for 'Database Developer'. I swapped in two stronger, more technically focused programs: PR0145 (MTech CS) and PR0143 (MSc Data Science in India). These additions maintain the strong technical focus while broadening options geographically. The final list prioritizes high academic relevance and financial feasibility over location preference.",
+ "explanation": "Ashford Technical University\nThis program is recommended because it aligns well with your IT/computer science background and career goal in database development, offering relevant fields like software engineering. The annual tuition of $2050 remains within your maximum budget of $4100, and the university offers an 18-month post-study work visa, which supports international mobility. The main trade-off here is that while the placement rate is solid at 62%, it is not the highest available option on this list.\n\nStanmore School of Engineering\nThis program is highly recommended due to its low cost ($1950 annual tuition) and strong support for your career goals in data science analytics. It also provides an excellent 18-month post-study work visa, which supports international mobility while staying under your budget. The main trade-off compared to Ashford Technical University is that the placement rate (59%) is slightly lower, though it does not require a specific CS background.\n\nSilverline Technical University\nThis option was recommended because its tuition ($2300) and curriculum fields are relevant to database development, and it accepts students with your CS background. However, you must be aware of the major trade-off: while it boasts a high placement rate (75%), it offers zero post-study work visa months, which severely limits international career progression.\n\nFairfax Technical University\nThis program is recommended because it has the highest placement rate on the list at 87%, and its curriculum focuses on data science analytics relevant to your goals. Like Silverline, the primary trade-off is that while it meets your academic requirements (requiring a CS background), it offers zero post-study work visa months, limiting international mobility despite its high success metrics.",
+ "wall_s": 230.6
+}

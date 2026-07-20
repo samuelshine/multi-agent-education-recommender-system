@@ -1,0 +1,71 @@
+{
+ "student_id": "ST0014",
+ "session": 3,
+ "mode": "no_memory",
+ "version": 1,
+ "message": "Hi, I'm a student with a full stack certification background. My overall academic average is 78.6% in an IT/computer-science degree. I'm interested in hacking and cloud computing. I want to become a Programmer Analyst. Also, my situation changed: family circumstances changed, so my budget is now lower. My family can afford at most about USD 4300 per year. I live in Bengaluru. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else. About the earlier suggestions: I liked PR0186, PR0096.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 78.6
+  },
+  "career_goal": "Programmer Analyst",
+  "budget_max_usd_per_year": 4300,
+  "location_preference": "Bengaluru",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in hacking and cloud computing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0186",
+  "PR0197",
+  "PR0043",
+  "PR0147",
+  "PR0096",
+  "PR0199",
+  "PR0118",
+  "PR0121",
+  "PR0148",
+  "PR0016",
+  "PR0102",
+  "PR0180",
+  "PR0162",
+  "PR0112",
+  "PR0159",
+  "PR0032",
+  "PR0184",
+  "PR0165",
+  "PR0117",
+  "PR0198"
+ ],
+ "retrieved_ids": [
+  "PR0198",
+  "PR0186",
+  "PR0197",
+  "PR0147",
+  "PR0096",
+  "PR0162",
+  "PR0148",
+  "PR0184"
+ ],
+ "proposed_shortlist": [
+  "PR0198",
+  "PR0186",
+  "PR0197"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0186",
+  "PR0148",
+  "PR0197",
+  "PR0184"
+ ],
+ "reflection_note": "Dropped PR0198 due to a hard academic constraint violation (Grade 78.6 < Min 80%). Dropped PR0197 as the location deviation is less favorable than other candidates. Swapped in PR0148 and PR0184 for better overall fit or lower risk profile. The final shortlist prioritizes maintaining a strong academic/budget balance while keeping PR0186 (Pune) as the best current option, followed by PR0148 (Coimbatore), which is highly relevant to interests. PR0197 remains only because it was previously ranked and has decent relevance, but its location makes it weak.",
+ "explanation": "Halcyon Institute of Technology\nThis program is recommended because it aligns well with your interests in cloud computing and software engineering while keeping the tuition within your budget at $2050. Your 78.6% grade meets the minimum requirement of 70%, and since you have a CS background, this fit is strong. The high placement rate of 83% addresses your priority for employability, though the main trade-off is that the location is Pune rather than your preferred Bengaluru.\n\nKestrel Institute of Technology\nThis option was selected because its focus on cybersecurity and networking_cloud directly matches your interest in hacking and cloud computing. Furthermore, it does not require a CS background, offering flexibility while keeping tuition low at $2250. The primary trade-off here is that the median starting salary ($10571) and placement rate (73%) are lower compared to other options on this list.\n\nAshford Institute of Technology\nThis program was recommended due to its excellent employability metrics, boasting an 85% placement rate which strongly addresses your high priority for job prospects. The curriculum focuses specifically on networking_cloud, aligning with your interests, and the tuition ($3350) remains under budget. Be aware that this is the most expensive option listed, representing a trade-off between cost and achieving the highest reported placement success.\n\nAravalli School of Engineering\nThis program offers the lowest annual tuition at $950, making it highly budget-friendly for your constraints. It focuses on networking_cloud, which aligns with your interests in cloud computing. However, the main trade-off is that while the cost is minimal, the placement rate (59%) and median starting salary ($8153) are significantly lower than other programs, potentially impacting your employability priority.",
+ "wall_s": 249.8
+}

@@ -1,0 +1,74 @@
+{
+ "student_id": "ST0034",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 74.6% in an IT/computer-science degree. I'm interested in hacking and Business process analyst. I want to become a Database Manager. My family can afford at most about USD 2400 per year. I live in Pune. I'm open to anywhere in India.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 74.6
+  },
+  "career_goal": "Database Manager",
+  "budget_max_usd_per_year": 2400,
+  "location_preference": "Pune",
+  "mobility": "prefers_region",
+  "employability_priority": null,
+  "other_constraints": [
+   "interested in hacking",
+   "interested in Business process analyst"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0033",
+  "PR0074",
+  "PR0087",
+  "PR0101",
+  "PR0143",
+  "PR0058",
+  "PR0007",
+  "PR0054",
+  "PR0120",
+  "PR0170",
+  "PR0015",
+  "PR0020",
+  "PR0145",
+  "PR0157",
+  "PR0107",
+  "PR0047",
+  "PR0111",
+  "PR0134",
+  "PR0172",
+  "PR0129"
+ ],
+ "retrieved_ids": [
+  "PR0172",
+  "PR0007",
+  "PR0134",
+  "PR0157",
+  "PR0101",
+  "PR0058",
+  "PR0145"
+ ],
+ "proposed_shortlist": [
+  "PR0172",
+  "PR0007",
+  "PR0134",
+  "PR0157",
+  "PR0101"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0007",
+  "PR0172",
+  "PR0134",
+  "PR0157",
+  "PR0101"
+ ],
+ "reflection_note": "The original ranking was slightly misleading. PR0007 remains the top choice due to its perfect combination of location (Pune), high relevance to Database Management, and strong salary potential. PR0172 is a solid runner-up because it maintains the Pune location preference while addressing Business Process Analyst interests. The remaining three programs (PR0134, PR0157, PR0101) are kept in descending order of overall fit/value proposition: PR0134 offers high relevance and affordability; PR0157 provides maximum cost savings for BPI interest; and PR0101 is a solid, well-regarded option despite the location compromise. All candidates pass hard constraints (Budget Max $2400, Min Grade < 74.6%).",
+ "explanation": "Ashford Institute of Technology\nThis program is recommended because it perfectly matches your location preference in Pune, while also aligning with your technical background and interest in data management. The annual tuition of $2350 fits within your maximum budget, and your 74.6% grade exceeds the minimum requirement of 70%. This option offers a strong placement rate of 86% and a median starting salary of $12541, making it highly valuable for a career in database management. The main trade-off here is that while the tuition is manageable, it represents one of the higher costs on your list.\n\nQuilon Technical University\nThis program is ideal because its focus on IT Management and Business Information Systems directly supports your interest in being a Business Process Analyst, and it is located in your preferred city of Pune. With an annual tuition of $2250, it remains within budget, and the admission requirement of 62% is easily met by your academic background. While this option provides excellent location convenience, the main trade-off is that its placement rate (66%) and median starting salary ($8654) are among the lower figures on the shortlist.\n\nKeystone Institute of Technology\nThis MSc Big Data Analytics program is a strong technical fit for your career goals in database management, offering a low annual tuition cost of $1850 that maximizes your budget savings. Although located in Coimbatore rather than Pune, this option requires a CS background\u2014which you possess\u2014and has an admission minimum of 65%. The main trade-off is balancing the excellent affordability and technical focus against a moderate placement rate (69%) and starting salary ($8885).\n\nLongford University\nThis program is highly recommended for its exceptional value, offering the lowest tuition cost at $800 while still providing a solid foundation in IT Management. This low budget commitment allows you to save significantly compared to other options, and it meets your interest in business process analysis through its curriculum. The main trade-off is that this option requires relocating to Coimbatore, but it compensates for this by offering a decent placement rate (72%) and a median starting salary of $10444$.\n\nBraxton Institute of Applied Sciences\nThis program provides the highest earning potential on the list with a median starting salary of $15394, making it an excellent investment for your career goals. The curriculum's focus on Business Information Systems is highly relevant to both Database Manager and Business Process Analyst roles, and you meet the minimum grade requirement (71%). The main trade-off is that its tuition ($2400) uses up your entire maximum annual budget, but this high cost is offset by the superior salary potential.",
+ "wall_s": 130.9
+}

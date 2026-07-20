@@ -1,0 +1,74 @@
+{
+ "student_id": "ST0025",
+ "session": 2,
+ "mode": "full",
+ "version": 1,
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 81% in an IT/computer-science degree. I'm interested in networks and developer. I want to become a Software Engineer. My family can afford at most about USD 4400 per year. I live in Kolkata. I'm open to going abroad. About the earlier suggestions: I liked PR0186, PR0043.",
+ "memory_used": true,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 81
+  },
+  "career_goal": "Software Engineer",
+  "budget_max_usd_per_year": 4400,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in networks and developer"
+  ],
+  "uncertainty_notes": [
+   "Employability priority not specified."
+  ]
+ },
+ "prefilter_ids": [
+  "PR0037",
+  "PR0161",
+  "PR0198",
+  "PR0144",
+  "PR0194",
+  "PR0186",
+  "PR0058",
+  "PR0039",
+  "PR0053",
+  "PR0038",
+  "PR0158",
+  "PR0043",
+  "PR0126",
+  "PR0109",
+  "PR0026",
+  "PR0076",
+  "PR0012",
+  "PR0065",
+  "PR0019",
+  "PR0167"
+ ],
+ "retrieved_ids": [
+  "PR0037",
+  "PR0194",
+  "PR0126",
+  "PR0038",
+  "PR0161",
+  "PR0186"
+ ],
+ "proposed_shortlist": [
+  "PR0194",
+  "PR0037",
+  "PR0126",
+  "PR0038",
+  "PR0161"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0194",
+  "PR0037",
+  "PR0126",
+  "PR0038",
+  "PR0186"
+ ],
+ "reflection_note": "The original shortlist was strong but included PR0161, which is borderline expensive. I dropped it to maintain focus on the most budget-friendly and highly relevant options (PR0194/networking & cloud; PR0037/software engineering in Berlin). I swapped in PR0186 as a geographically diverse option because its strong networking focus and low tuition make it an excellent backup, despite the location mismatch. The final list prioritizes German locations with high employability (PR0194, PR0037) while maintaining financial feasibility across all five slots.",
+ "explanation": "Aravalli School of Engineering\nThis MSc Cloud Computing program was recommended because it directly aligns with your interest in networks and developer roles, combining networking and software engineering fields. The annual tuition of $1950 is well within your budget, and your 81% grade exceeds the minimum requirement of 65%. You benefit from an 18-month post-study work visa option, but the trade-off is that its placement rate (67%) and median starting salary ($30,651) are not the highest among the listed options.\n\nTejas School of Engineering\nThis MCA program was recommended as a strong fit for your software engineering goal while remaining within budget with an annual tuition of $2650. It offers one of the best outcomes in Germany, boasting a 72% placement rate and the highest median starting salary ($34,339) among all German options listed. The main trade-off is that its tuition cost is slightly higher than some other programs on this list.\n\nAshford Technical University\nThis MCA program was recommended because it provides a solid foundation in software engineering while also introducing data science analytics. With an annual tuition of $2050, it remains budget-friendly and meets your academic background requirements. The primary trade-off is that its median starting salary ($23,468) and placement rate (62%) are the lowest among all the German options provided.\n\nHalcyon Technical University\nThis MTech Computer Science program was recommended due to its extremely low annual tuition of $1200, making it highly budget-friendly while still providing a strong software engineering focus. Your 81% grade easily surpasses the minimum requirement of 54%. The trade-off for this low cost is that it offers the lowest median starting salary ($22,356) among all the German programs listed.\n\nHalcyon Institute of Technology\nThis MTech Computer Networks program was recommended because its curriculum perfectly matches your stated interest in networking and developer fields. It boasts an excellent 83% placement rate, but you should note the trade-off: while it is highly specialized, its median starting salary ($15,192) is significantly lower than the German options, and there is no post-study work visa mentioned.",
+ "wall_s": 201.6
+}

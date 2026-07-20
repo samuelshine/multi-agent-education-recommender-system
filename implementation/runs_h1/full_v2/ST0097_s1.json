@@ -1,0 +1,74 @@
+{
+ "student_id": "ST0097",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 75.8% in an IT/computer-science degree. I'm interested in Management and system developer. I want to become a Mobile Applications Developer. My family can afford at most about USD 5700 per year. I live in Coimbatore. I cannot leave my city.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 75.8
+  },
+  "career_goal": "Mobile Applications Developer",
+  "budget_max_usd_per_year": 5700,
+  "location_preference": "Coimbatore",
+  "mobility": "fixed_city",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in Management and system developer roles"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0157",
+  "PR0048",
+  "PR0101",
+  "PR0058",
+  "PR0039",
+  "PR0054",
+  "PR0043",
+  "PR0147",
+  "PR0105",
+  "PR0170",
+  "PR0145",
+  "PR0148",
+  "PR0033",
+  "PR0016",
+  "PR0014",
+  "PR0068",
+  "PR0166",
+  "PR0098",
+  "PR0134",
+  "PR0106"
+ ],
+ "retrieved_ids": [
+  "PR0157",
+  "PR0048",
+  "PR0101",
+  "PR0058",
+  "PR0039",
+  "PR0033",
+  "PR0016",
+  "PR0145"
+ ],
+ "proposed_shortlist": [
+  "PR0058",
+  "PR0145",
+  "PR0101",
+  "PR0039",
+  "PR0016"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0058",
+  "PR0145",
+  "PR0101",
+  "PR0039",
+  "PR0157"
+ ],
+ "reflection_note": "The original shortlist was strong but lacked a diverse option that strongly catered to the 'Management' interest while maintaining excellent financial and location fit. I swapped in PR0157 (MSc IT Management) because it is the most budget-friendly, perfectly located, and directly addresses the management/system developer crossover interest without compromising feasibility. The ranking was adjusted: PR0058 remains #1 for its perfect blend of technical relevance, low cost, and location fit. PR0145 (MTech CS) is ranked second as a highly direct technical path. PR0101 and PR0039 are kept next due to their specific alignment with MIS/HCI interests. PR0157 is placed last but remains valuable for its management focus, providing the student with a clear choice if they want to pivot slightly towards business systems.",
+ "explanation": "Stanmore School of Engineering\nThis program is highly recommended because it aligns perfectly with your technical background and location preference in Coimbatore. With a low annual tuition of $1350 USD, it fits well within your budget while offering relevant fields like Software Engineering and Data Science. Your academic grade (75.8%) exceeds the minimum requirement of 74%, making admission feasible. The main trade-off here is that while the program offers strong technical skills for a developer role, its focus might be less on the management side compared to other options.\n\nSilverline Technical University\nThis MTech Computer Science program provides a robust and technically focused curriculum in Coimbatore, which suits your IT/CS background. At $2300 USD annually, it remains within your budget while offering core fields like Software Engineering. While this option is excellent for deep technical development knowledge, the main trade-off is that its median starting salary ($10,057) and placement rate (75%) are lower compared to some of the other management or design-focused programs listed.\n\nBraxton Institute of Applied Sciences\nThis MSc Information Systems program is ideal because it directly addresses your interest in Management while still providing a strong IT foundation through Business Information Systems. The tuition ($2400 USD) and high placement rate (85%) are excellent, and importantly, it does not require a CS background, making it flexible for your career goals. The main trade-off is that its focus is more on business processes and management theory rather than deep mobile application coding skills.\n\nLongford Institute of Applied Sciences\nThis MSc Human-Computer Interaction program is highly recommended as it directly supports your goal of becoming a Mobile Applications Developer by focusing heavily on design (HCI) and user experience. With an annual tuition of $2250 USD, it fits your budget, and its high placement rate of 85% suggests strong industry relevance. The main trade-off is that the curriculum emphasizes design and usability, which may require supplementing with dedicated backend coding skills if you aim for pure system development roles.\n\nLongford University\nThis MSc IT Management program offers the lowest tuition cost ($800 USD) in Coimbatore, making it extremely budget-friendly while catering to your interest in management roles. It is highly accessible as it does not require a CS background and has a high placement rate of 72%. The main trade-off for this low cost and strong management focus is that its median starting salary ($10,444) is the lowest among all options provided, suggesting a potential ceiling on immediate earning potential.",
+ "wall_s": 123.7
+}

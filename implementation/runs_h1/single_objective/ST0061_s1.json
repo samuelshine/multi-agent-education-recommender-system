@@ -1,0 +1,65 @@
+{
+ "student_id": "ST0061",
+ "session": 1,
+ "mode": "single_objective",
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 72.9% in an IT/computer-science degree. I'm interested in data engineering and testing. I want to become a E-Commerce Analyst. My family can afford at most about USD 1500 per year. I live in Pune. I cannot leave my city. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 72.9
+  },
+  "career_goal": "E-Commerce Analyst",
+  "budget_max_usd_per_year": 1500,
+  "location_preference": "Pune",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in data engineering and testing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0019",
+  "PR0025",
+  "PR0190",
+  "PR0080",
+  "PR0187",
+  "PR0084",
+  "PR0078",
+  "PR0181",
+  "PR0180",
+  "PR0045",
+  "PR0023",
+  "PR0156"
+ ],
+ "retrieved_ids": [
+  "PR0019",
+  "PR0190",
+  "PR0080",
+  "PR0187",
+  "PR0084",
+  "PR0181",
+  "PR0045",
+  "PR0023"
+ ],
+ "proposed_shortlist": [
+  "PR0190",
+  "PR0080",
+  "PR0019",
+  "PR0084",
+  "PR0181"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0190",
+  "PR0080",
+  "PR0045",
+  "PR0023",
+  "PR0019"
+ ],
+ "reflection_note": "The original shortlist was heavily biased towards HCI/UX (PR0084, PR0181) which are less critical than core technical skills for an E-Commerce Analyst who is also interested in Data Engineering and Testing. I dropped these to focus on the most relevant technical tracks: QA/Testing (PR0190, PR0080), Cybersecurity (PR0045, PR0023), and keeping PR0019 as a broad safety net option. The final list prioritizes direct skill alignment with testing and data integrity while respecting the budget and location constraints.",
+ "explanation": "Kestrel School of Engineering\nThis program was recommended because its focus on Software Quality Engineering directly aligns with your interest in testing and provides foundational skills useful for an E-Commerce Analyst role. It is highly budget-friendly at $1250 annual tuition, which keeps you well within your maximum budget of $1500. The main trade-off here is that while the cost is low, the placement rate (64%) and median starting salary ($7265) are among the lowest on this list.\n\nCrestwood Technical University\nThis option provides a strong focus on Software Quality Engineering, matching your interest in testing, while maintaining an annual tuition of $1450 within your budget constraints. It offers a slightly higher median starting salary ($8071) compared to Kestrel School of Engineering. The trade-off is that the placement rate (62%) and salary are modest when weighed against other options available on this list.\n\nBraxton Technical University\nThis program introduces you to Information Security, which builds valuable skills in system reliability and testing\u2014key areas for an E-Commerce Analyst. It maintains a strong placement rate of 71% and offers a solid median starting salary of $10236, all while keeping tuition at $1450. The main trade-off is that the curriculum focuses on cybersecurity rather than your stated interest in data engineering or general testing methodologies.\n\nSilverline Technical University\nThis program is an excellent choice if minimizing cost is a primary concern, as it has the lowest annual tuition of only $650. It provides strong employability metrics with a 70% placement rate and a median starting salary of $8376. The main trade-off is that while the cost savings are significant, the resulting career outcomes (salary/placement) are not the highest available on this shortlist.\n\nAshford University\nThis program was recommended because it offers the best overall combination of high employability metrics\u2014specifically an 84% placement rate and a $10285 median starting salary\u2014while still fitting your budget at $1450 tuition. The curriculum covers both QA testing and general software engineering, which is highly relevant to analyzing e-commerce systems. The main trade-off is that the minimum required grade percentage (64%) is slightly higher than some of the other options listed.",
+ "wall_s": 118.4
+}

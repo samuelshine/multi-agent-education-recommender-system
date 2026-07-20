@@ -1,0 +1,61 @@
+{
+ "student_id": "ST0045",
+ "session": 1,
+ "mode": "single_objective",
+ "version": 2,
+ "message": "Hi, I'm a student with a distro making certification background. My overall academic average is 78.1% in an IT/computer-science degree. I'm interested in programming and cloud computing. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 3400 per year. I live in Chennai. I cannot leave my city. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 78.1
+  },
+  "career_goal": null,
+  "budget_max_usd_per_year": 3400,
+  "location_preference": "Chennai",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in programming and cloud computing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0197",
+  "PR0199",
+  "PR0162",
+  "PR0165",
+  "PR0191",
+  "PR0109",
+  "PR0171",
+  "PR0059"
+ ],
+ "retrieved_ids": [
+  "PR0197",
+  "PR0199",
+  "PR0162",
+  "PR0165",
+  "PR0109",
+  "PR0171",
+  "PR0191"
+ ],
+ "proposed_shortlist": [
+  "PR0197",
+  "PR0162",
+  "PR0165",
+  "PR0199",
+  "PR0109"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0197",
+  "PR0162",
+  "PR0165",
+  "PR0199",
+  "PR0109"
+ ],
+ "reflection_note": "The initial shortlist is excellent. All five programs adhere to the hard constraints (Location: Chennai, Budget: Max $3400/year). The ranking reflects a good balance of academic rigor (PR0197) and direct interest match (PR0165), while maintaining feasibility for the student's background. No changes were necessary.",
+ "explanation": "Ashford Institute of Technology\nThis program is recommended because it aligns perfectly with your interests in networking and cloud computing while staying within your maximum budget of $3400 USD. Your academic background meets the minimum requirement of 71%, and the high placement rate of 85% suggests strong employability, offering a median starting salary of $13,362 USD. The main trade-off here is that despite the excellent career prospects, there are no post-study work visa options available.\n\nAravalli Institute of Applied Sciences\nThis option is highly budget-friendly at an annual tuition of only $1,150 USD and covers your interest in cloud computing and networking. You meet the minimum grade requirement of 57%, ensuring admission eligibility while keeping costs low. The trade-off for this affordability is that it has the lowest placement rate (68%) among the highly recommended options, resulting in a lower median starting salary of $7,369 USD.\n\nWestbrook Institute of Technology\nThis program offers the most affordable tuition at just $550 USD and directly matches your interest in cloud computing. Since you have an IT/computer-science background (78.1%), you meet the minimum grade requirement of 54%. The primary trade-off is that while it is very cheap, it has the lowest placement rate (59%) and a lower median starting salary ($7,845 USD) compared to other options.\n\nHalcyon School of Engineering\nThis program provides strong employability with a 79% placement rate and a solid median starting salary of $12,682 USD, while also covering your interest in networking and cloud computing. It is well within your budget at $2,300 USD, and importantly, it does not require a specific CS background. The main trade-off to consider is that like all options, there are no post-study work visa opportunities listed.\n\nCrestwood Technical University\nThis university offers excellent employability with an 82% placement rate and a high median starting salary of $13,300 USD, making it a strong career choice. The tuition cost of $1,550 USD is very budget-friendly for your maximum limit, and you meet the minimum grade requirement of 73%. The main trade-off here is that while the financial outcomes are excellent, there are no post-study work visa options available.",
+ "wall_s": 91.5
+}

@@ -1,0 +1,74 @@
+{
+ "student_id": "ST0005",
+ "session": 3,
+ "mode": "full",
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 76.2% in an IT/computer-science degree. I'm interested in IOT and testing. I want to become a Software Systems Engineer. Also, my situation changed: family circumstances changed, so my budget is now lower. My family can afford at most about USD 6300 per year. I live in Mumbai. I'd strongly prefer to stay near home, though I might consider elsewhere in India. About the earlier suggestions: I liked PR0198, PR0065.",
+ "memory_used": true,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 76.2
+  },
+  "career_goal": "Software Systems Engineer",
+  "budget_max_usd_per_year": 6300,
+  "location_preference": "Mumbai",
+  "mobility": "prefers_region",
+  "employability_priority": null,
+  "other_constraints": [
+   "interested in IOT and testing"
+  ],
+  "uncertainty_notes": [
+   "Employability priority is unknown."
+  ]
+ },
+ "prefilter_ids": [
+  "PR0198",
+  "PR0053",
+  "PR0065",
+  "PR0019",
+  "PR0008",
+  "PR0142",
+  "PR0082",
+  "PR0052",
+  "PR0085",
+  "PR0144",
+  "PR0139",
+  "PR0182",
+  "PR0191",
+  "PR0119",
+  "PR0101",
+  "PR0186",
+  "PR0058",
+  "PR0039",
+  "PR0158",
+  "PR0072"
+ ],
+ "retrieved_ids": [
+  "PR0065",
+  "PR0082",
+  "PR0186",
+  "PR0198",
+  "PR0119",
+  "PR0142",
+  "PR0085",
+  "PR0182"
+ ],
+ "proposed_shortlist": [
+  "PR0065",
+  "PR0186",
+  "PR0119",
+  "PR0142"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0065",
+  "PR0082",
+  "PR0198",
+  "PR0119",
+  "PR0182"
+ ],
+ "reflection_note": "The original shortlist was strong but lacked diversity in options. I dropped PR0142 due to low employability despite its affordability, and PR0186 because the location (Pune) is a secondary concern compared to Mumbai's primary preference. I swapped in PR0198 (Bengaluru) for its superior salary potential, and PR0082 (Mumbai) as an excellent budget-friendly alternative. Finally, PR0182 (Pune) was added as a strong backup option. The revised shortlist maintains the best Mumbai options while maximizing career potential across different regional/budget scenarios.",
+ "explanation": "Tejas Institute of Technology\nThis program was highly recommended because it perfectly aligns with your stated preferences: it is located in Mumbai, fits well within your maximum budget of $6300 per year ($2450 tuition), and requires a minimum grade percentage (75%) that you meet with your 76.2%. The curriculum covers both QA Testing and Software Engineering, directly supporting your interest in testing while preparing you for a career as a Software Systems Engineer. There are no major trade-offs here, making it an excellent match for your academic profile and location preference.\n\nElmhurst Technical University\nThis option is recommended primarily because of its extremely low annual tuition ($500), which keeps it far below your budget maximum while remaining in Mumbai. The program covers both QA Testing and Software Engineering, aligning with your career goals and interests. The main trade-off here is that the placement rate (64%) is lower compared to other options, although the cost savings are significant.\n\nNorthgate Institute of Technology\nWhile this institution offers an excellent median starting salary ($21062) and a high placement rate (95%), it was flagged because your current grade percentage (76.2%) falls below its minimum requirement of 80%. Furthermore, while the program is in India, it is located in Bengaluru rather than your preferred Mumbai region.\n\nMeridian Institute of Applied Sciences\nThis school is recommended due to its low cost ($1200 tuition) and its location in Hyderabad, which keeps it within a reasonable regional preference. You meet the minimum grade requirement (71%), and the program focuses on QA Testing, aligning with your interests. The main trade-off is that while affordable and well-rated for placement (86%), the curriculum only lists \"qa_testing\" and does not explicitly cover Software Engineering, which might limit preparation for a Systems Engineer role.\n\nKeystone Technical University\nThis university was recommended because it offers a high placement rate (91%) and its minimum grade requirement (75%) is met by your academic background. The tuition ($1950) also fits comfortably within your budget while being located in Pune, which is regionally acceptable. The primary trade-off is that like Meridian Institute, the program focuses only on \"qa_testing,\" potentially offering less comprehensive preparation for a full Software Systems Engineer role compared to other options.",
+ "wall_s": 320.7
+}

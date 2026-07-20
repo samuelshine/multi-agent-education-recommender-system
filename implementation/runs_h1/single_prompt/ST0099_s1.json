@@ -1,0 +1,44 @@
+{
+ "student_id": "ST0099",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a full stack certification background. My overall academic average is 76.8% in an IT/computer-science degree. I'm interested in cloud computing and developer. I want to become a Software Systems Engineer. My family can afford at most about USD 1200 per year. I live in Pune. I cannot leave my city. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 76.8
+  },
+  "career_goal": "Software Systems Engineer (interested in cloud computing and developer roles)",
+  "budget_max_usd_per_year": 1200,
+  "location_preference": "Pune",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Full stack certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0019",
+  "PR0180",
+  "PR0187",
+  "PR0084",
+  "PR0181",
+  "PR0045",
+  "PR0023",
+  "PR0156",
+  "PR0190",
+  "PR0080"
+ ],
+ "final_shortlist": [
+  "PR0180",
+  "PR0019",
+  "PR0045",
+  "PR0190",
+  "PR0084"
+ ],
+ "explanation": "This MTech in Computer Networks aligns perfectly with your interest in cloud computing and developer roles. It is located in Pune, requires a CS background (which you have), and offers a strong median starting salary of $10359.\n\nThe MSc Software Engineering program is highly relevant to your goal of becoming a Software Systems Engineer. It is in Pune, has a good placement rate (84%), and the tuition ($1450) is within your budget.\n\nWhile focused on cybersecurity, this MSc program offers strong technical skills that complement cloud computing knowledge. It meets all your constraints (Pune location, affordable tuition) and provides a solid median starting salary of $10236.\n\nThis MSc in Software Quality Engineering is a good fit for developer roles, focusing on system reliability. It is located in Pune and has an affordable tuition fee ($1250), making it budget-friendly while still offering relevant skills.\n\nAlthough focused on design/HCI, this program is the most affordable option ($900) and remains in Pune. It provides a strong foundation for understanding user-facing systems, which can be valuable when aiming to become a well-rounded Software Systems Engineer.",
+ "wall_s": 41.3
+}

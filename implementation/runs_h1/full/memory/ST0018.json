@@ -1,0 +1,31 @@
+{
+ "student_id": "ST0018",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 73.7
+    },
+    "career_goal": "Design & UX",
+    "budget_max_usd_per_year": 33200,
+    "location_preference": "Bengaluru",
+    "mobility": "open_international",
+    "employability_priority": "high",
+    "other_constraints": [
+     "Interested in hacking and developer roles"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0013",
+    "PR0158",
+    "PR0046",
+    "PR0149",
+    "PR0166"
+   ],
+   "feedback": null
+  }
+ ]
+}

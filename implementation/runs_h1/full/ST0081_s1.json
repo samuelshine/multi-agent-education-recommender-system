@@ -1,0 +1,72 @@
+{
+ "student_id": "ST0081",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a app development certification background. My overall academic average is 78.7% in an IT/computer-science degree. I'm interested in hacking and cloud computing. I want to become a Network Security Administrator. My family can afford at most about USD 10800 per year. I live in Pune. I'm open to anywhere in India.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 78.7
+  },
+  "career_goal": "Network Security Administrator",
+  "budget_max_usd_per_year": 10800,
+  "location_preference": null,
+  "mobility": "open_domestic",
+  "employability_priority": null,
+  "other_constraints": [
+   "interested in hacking and cloud computing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0186",
+  "PR0197",
+  "PR0043",
+  "PR0147",
+  "PR0096",
+  "PR0199",
+  "PR0118",
+  "PR0121",
+  "PR0148",
+  "PR0016",
+  "PR0102",
+  "PR0180",
+  "PR0162",
+  "PR0112",
+  "PR0159",
+  "PR0032",
+  "PR0184",
+  "PR0165",
+  "PR0117",
+  "PR0198"
+ ],
+ "retrieved_ids": [
+  "PR0096",
+  "PR0148",
+  "PR0186",
+  "PR0197",
+  "PR0162",
+  "PR0016",
+  "PR0102",
+  "PR0180"
+ ],
+ "proposed_shortlist": [
+  "PR0186",
+  "PR0197",
+  "PR0096",
+  "PR0162",
+  "PR0180"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0186",
+  "PR0197",
+  "PR0148",
+  "PR0180"
+ ],
+ "reflection_note": "The original shortlist was strong but included PR0162, which is significantly downgraded by its low starting salary. I have dropped it and swapped in PR0148 (Coimbatore) as a superior alternative to PR0096 (Hyderabad), maintaining the focus on high-potential programs in Pune/Chennai while ensuring all options remain well within the strict annual budget of $10,800.",
+ "explanation": "Halcyon Institute of Technology\nThis program is recommended because its curriculum covers both networking and cloud computing, aligning well with your goal of becoming a Network Security Administrator. With an annual tuition of $2050, it fits comfortably within your budget while requiring only a minimum grade percentage of 70%, which you exceed. The median starting salary of $15,192 is the highest among the options, suggesting strong career potential. The main trade-off here is that while the placement rate (83%) and salary are high, there is no post-study work visa option provided.\n\nAshford Institute of Technology\nThis program was selected because it offers a focused curriculum in networking and cloud computing, directly supporting your career goal. It has the highest placement rate at 85% and requires a minimum grade percentage of 71%, which meets your academic standing. The tuition cost is $3350, keeping you within budget while offering strong job prospects with a median starting salary of $13,362. The trade-off for this high placement rate is that it has the highest annual tuition among the recommended options.\n\nKestrel Institute of Technology\nThis program is highly recommended because its inclusion of \"cybersecurity\" directly addresses your interest in hacking and aligns perfectly with a Network Security Administrator role. Admission requirements are flexible, as it does not require a CS background, and the $2250 tuition fits well within your budget. While this option offers the best subject matter fit for your interests, the main trade-off is that its median starting salary ($10,571) and placement rate (73%) are lower than some of the other options.\n\nBraxton Institute of Technology\nThis program is recommended primarily because it offers the lowest tuition cost at $1250, making it the most budget-friendly option while still covering networking and cloud computing topics. It accepts students with a minimum grade percentage of 61%, which you easily meet. The trade-off for this low tuition fee is that it has the lowest placement rate (71%) and median starting salary ($10,359) among all the listed programs.",
+ "wall_s": 336.0
+}

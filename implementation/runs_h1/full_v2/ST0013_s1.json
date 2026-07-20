@@ -1,0 +1,74 @@
+{
+ "student_id": "ST0013",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a python certification background. My overall academic average is 75.6% in an IT/computer-science degree. I'm interested in Management and security. I want to become a Systems Analyst. My family can afford at most about USD 4400 per year. I live in Pune. I'd strongly prefer to stay near home, though I might consider elsewhere in India.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 75.6
+  },
+  "career_goal": "Systems Analyst",
+  "budget_max_usd_per_year": 4400,
+  "location_preference": null,
+  "mobility": "prefers_region",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in Management and security"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0157",
+  "PR0172",
+  "PR0164",
+  "PR0060",
+  "PR0191",
+  "PR0101",
+  "PR0176",
+  "PR0092",
+  "PR0189",
+  "PR0054",
+  "PR0076",
+  "PR0105",
+  "PR0130",
+  "PR0015",
+  "PR0020",
+  "PR0078",
+  "PR0033",
+  "PR0150",
+  "PR0047",
+  "PR0160"
+ ],
+ "retrieved_ids": [
+  "PR0157",
+  "PR0172",
+  "PR0164",
+  "PR0060",
+  "PR0176",
+  "PR0130",
+  "PR0150",
+  "PR0160"
+ ],
+ "proposed_shortlist": [
+  "PR0157",
+  "PR0176",
+  "PR0130",
+  "PR0150",
+  "PR0172"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0157",
+  "PR0176",
+  "PR0130",
+  "PR0150",
+  "PR0172"
+ ],
+ "reflection_note": "The current shortlist is strong and adheres to all hard constraints. PR0157 offers the best combination of low cost, high academic fit, and good placement potential in a major tech-adjacent city (Coimbatore). PR0176 provides excellent employability in Hyderabad. PR0130 is highly budget-friendly while remaining in a strong location. PR0150 maintains relevance despite Kolkata being less ideal than the top choices. PR0172 offers a solid, manageable option in Pune. No changes are needed.",
+ "explanation": "Longford University\nThis program is recommended because its MSc IT Management curriculum directly aligns with your interest in management and systems analysis. It is highly budget-friendly at an annual tuition of $800 USD, which fits well within your maximum budget of $4400. Furthermore, the minimum required grade percentage (64%) is comfortably below your 75.6% academic standing, making admission straightforward. The main trade-off here is that while the cost and entry requirements are excellent, there is no post-study work visa provided.\n\nCrestwood University\nThis MBA Technology Management program is an excellent fit for your career goal as a Systems Analyst, combining technology with management principles. It offers one of the highest median starting salaries ($15400 USD) among the options and boasts a strong placement rate of 82%. While the tuition at $1900 USD is higher than some other choices, it remains well within your annual budget constraint. The primary trade-off to consider is that achieving this high salary potential comes with no post-study work visa support.\n\nElmhurst School of Engineering\nThis MSc IT Management program provides a strong blend of IT and management skills suitable for a Systems Analyst role while maintaining an extremely low cost at $1000 USD annually. Your academic background (75.6%) exceeds the minimum requirement (62%), making this a highly accessible option that respects your budget constraints. The main trade-off is that although it offers a solid placement rate of 77%, the median starting salary ($11249 USD) is moderate compared to other options.\n\nKestrel University\nThe MBA Technology Management program at Kestrel University aligns well with your interest in management and systems analysis, offering relevant coursework for your career goal. At $1950 USD per year, it fits comfortably within your budget while providing a good placement rate of 71%. Since the minimum grade requirement (61%) is low compared to your academic standing, this program is highly accessible. The main trade-off here is that like all programs on this list, there is no post-study work visa provided.\n\nQuilon Technical University\nThis MSc IT Management option provides a curriculum relevant to both management and systems analysis while remaining within your budget at $2250 USD per year. Your academic background (75.6%) exceeds the minimum requirement of 62%, making it an accessible choice for you. The main trade-off is that this program has the lowest median starting salary ($8654 USD) and a lower placement rate (66%) compared to Crestwood University, despite being affordable.",
+ "wall_s": 155.2
+}

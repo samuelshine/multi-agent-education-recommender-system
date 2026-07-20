@@ -1,0 +1,54 @@
+{
+ "student_id": "ST0093",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a machine learning certification background. My overall academic average is 81.1% in an IT/computer-science degree. I'm interested in parallel computing and testing. I want to become a Software Systems Engineer. My family can afford at most about USD 13400 per year. I live in Chennai. I'm open to anywhere in India.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 81.1
+  },
+  "career_goal": "Software Systems Engineer",
+  "budget_max_usd_per_year": 13400,
+  "location_preference": null,
+  "mobility": "open_domestic",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in parallel computing and testing."
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0198",
+  "PR0053",
+  "PR0065",
+  "PR0019",
+  "PR0008",
+  "PR0142",
+  "PR0082",
+  "PR0052",
+  "PR0085",
+  "PR0144",
+  "PR0139",
+  "PR0182",
+  "PR0191",
+  "PR0119",
+  "PR0101",
+  "PR0186",
+  "PR0058",
+  "PR0039",
+  "PR0158",
+  "PR0072"
+ ],
+ "final_shortlist": [
+  "PR0186",
+  "PR0198",
+  "PR0072",
+  "PR0119",
+  "PR0053"
+ ],
+ "explanation": "This MTech in Computer Networks is highly relevant to your interest in parallel computing and software systems engineering. It requires a CS background (which you have) and has a strong placement rate and median salary, making it an excellent fit for your career goals.\n\nThe MSc Software Quality Engineering at Northgate Institute of Technology directly addresses your interest in testing and software systems. It has a high placement rate (95%) and the tuition is well within your budget, making it a very strong contender.\n\nThis MSc Software Quality Engineering program focuses specifically on QA testing, aligning with one of your stated interests. It is located in Pune and has a solid placement record while keeping the tuition costs low enough to meet your family's budget.\n\nThis MSc Software Quality Engineering program is located in Hyderabad and focuses on QA testing. It has a good placement rate and low tuition cost, making it an affordable option that still aligns with your interest in software quality assurance.\n\nThe MSc Software Quality Engineering at Cavendish University offers a good balance of affordability and relevance to testing and software engineering. It is located in Kolkata, which is open to you, and the tuition fee is very low compared to your budget.",
+ "wall_s": 69.5
+}

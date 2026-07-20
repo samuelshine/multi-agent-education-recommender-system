@@ -1,0 +1,40 @@
+{
+ "student_id": "ST0082",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a shell programming certification background. My overall academic average is 73.7% in an IT/computer-science degree. I'm interested in Computer Architecture and testing. I want to become a Technical Engineer. My family can afford at most about USD 6100 per year. I live in Bengaluru. I cannot leave my city. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 73.7
+  },
+  "career_goal": "Technical Engineer (interested in Computer Architecture and testing)",
+  "budget_max_usd_per_year": 6100,
+  "location_preference": "Bengaluru",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Shell programming certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0085",
+  "PR0015",
+  "PR0073",
+  "PR0002",
+  "PR0013",
+  "PR0173",
+  "PR0087"
+ ],
+ "final_shortlist": [
+  "PR0085",
+  "PR0073",
+  "PR0173",
+  "PR0013"
+ ],
+ "explanation": "This program aligns perfectly with your interest in testing (Software Quality Engineering) and is located in Bengaluru. The low tuition cost ($1450) and moderate starting salary make it a strong choice given your financial constraints and job priority.\n\nWhile focused on Cybersecurity, this MTech program is highly relevant to technical engineering roles. It requires a CS background (which you have) and offers a high placement rate (80%) and good starting salary ($8637), prioritizing your goal of getting a good job.\n\nThis MTech Computer Science program is the most direct fit for your interest in technical engineering and architecture. It has very low tuition ($500) and accepts students without a mandatory CS background, making it financially safe while keeping you close to core computer science topics.\n\nIf your interest in 'testing' can be broadened to user experience and interaction design, this HCI program is excellent. It has the lowest tuition ($900) and a solid placement rate (77%), making it financially viable while still offering technical depth.",
+ "wall_s": 39.7
+}

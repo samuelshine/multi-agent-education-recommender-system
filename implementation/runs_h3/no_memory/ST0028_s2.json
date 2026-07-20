@@ -1,0 +1,75 @@
+{
+ "student_id": "ST0028",
+ "session": 2,
+ "mode": "no_memory",
+ "version": 1,
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 72.9% in an IT/computer-science degree. I'm interested in data engineering and security. I want to become a Software Engineer. My family can afford at most about USD 33700 per year. I live in Coimbatore. I'm open to going abroad. About the earlier suggestions: I liked PR0186, PR0143.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 72.9
+  },
+  "career_goal": "Software Engineer",
+  "budget_max_usd_per_year": 33700,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": null,
+  "other_constraints": [
+   "r programming certification background",
+   "interested in data engineering and security"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0086",
+  "PR0058",
+  "PR0126",
+  "PR0026",
+  "PR0090",
+  "PR0145",
+  "PR0107",
+  "PR0063",
+  "PR0173",
+  "PR0071",
+  "PR0069",
+  "PR0055",
+  "PR0030",
+  "PR0034",
+  "PR0027",
+  "PR0067",
+  "PR0018",
+  "PR0136",
+  "PR0132",
+  "PR0051"
+ ],
+ "retrieved_ids": [
+  "PR0086",
+  "PR0126",
+  "PR0136",
+  "PR0034",
+  "PR0027",
+  "PR0067",
+  "PR0132",
+  "PR0173"
+ ],
+ "proposed_shortlist": [
+  "PR0126",
+  "PR0132",
+  "PR0027",
+  "PR0067",
+  "PR0136"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0126",
+  "PR0027",
+  "PR0067",
+  "PR0132",
+  "PR0173"
+ ],
+ "reflection_note": "The original shortlist was strong but included PR0136 (USA) which is less ideal than the cost-effective options in Canada or Germany. I dropped PR0136 and swapped in PR0173, an extremely low-cost option from India, to provide maximum financial flexibility without sacrificing academic relevance. The remaining programs are highly ranked based on strong fit (Data/SE), good financial feasibility (especially the German and Canadian options), and excellent international mobility potential.",
+ "explanation": "Ashford Technical University\nThis program is recommended because it offers a highly affordable path to advancing your career in software engineering and data science with an annual tuition of only $2050. Given your IT/computer-science background and 72.9% grade, you meet the minimum requirements (min 57%) and can benefit from the 18 months of post-study work visa. The main trade-off here is that while the cost is excellent, the median starting salary ($23,468) is lower compared to other options on this list.\n\nBraxton School of Engineering\nThis MTech Data Engineering program was selected because it offers strong career outcomes and a long post-study work visa period of 36 months in Canada. Your academic background (72.9%) exceeds the minimum requirement of 71%, and the tuition ($27,600) remains within your budget maximum. The trade-off is that this option has the highest cost among the recommended programs, though it compensates with a high placement rate of 78% and a median starting salary of $44,286.\n\nVantage School of Engineering\nThis MTech Data Engineering program provides an excellent balance between affordability and career potential in Canada. With an annual tuition of $20,200, it stays well under your budget limit while offering the benefit of a 36-month post-study work visa. Your grade (72.9%) exceeds the minimum requirement of 63%, making you eligible for this program which aligns with your interest in data engineering. The main trade-off is that its median starting salary ($39,559) is slightly lower than Braxton's option, but it provides strong job prospects and a favorable visa pathway.\n\nNalanda Ridge University\nThis MSc Data Science program was recommended because it offers the best placement rate (81%) while maintaining one of the lowest tuition costs at $15,600. Since you have an IT/computer-science background and your grade is 72.9% (above the minimum 62%), this option meets all academic criteria and provides a valuable 36-month post-study work visa in Canada. The primary trade-off to consider is that its median starting salary ($32,235) is lower than some other options on your list.\n\nLongford Technical University\nThis MTech Computer Science program was recommended due to its extremely low tuition cost of $500, making it highly budget-friendly for your goal in software engineering. You meet the minimum grade requirement (min 53%) and the curriculum aligns with your interests in data science and software engineering. However, the main trade-off is that while the cost is minimal, this program offers zero months of post-study work visa, which severely limits your ability to pursue international employment after graduation.",
+ "wall_s": 230.8
+}

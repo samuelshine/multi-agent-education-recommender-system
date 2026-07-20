@@ -1,0 +1,73 @@
+{
+ "student_id": "ST0033",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a python certification background. My overall academic average is 77.7% in an IT/computer-science degree. I'm interested in IOT and cloud computing. I want to become a Portal Administrator. My family can afford at most about USD 2400 per year. I live in Pune. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 77.7
+  },
+  "career_goal": "Portal Administrator",
+  "budget_max_usd_per_year": 2400,
+  "location_preference": "Pune",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in IOT and cloud computing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0186",
+  "PR0199",
+  "PR0118",
+  "PR0121",
+  "PR0148",
+  "PR0016",
+  "PR0102",
+  "PR0180",
+  "PR0162",
+  "PR0112",
+  "PR0159",
+  "PR0032",
+  "PR0184",
+  "PR0165",
+  "PR0164",
+  "PR0182",
+  "PR0119",
+  "PR0101",
+  "PR0143",
+  "PR0176"
+ ],
+ "retrieved_ids": [
+  "PR0186",
+  "PR0180",
+  "PR0162",
+  "PR0121",
+  "PR0159",
+  "PR0182",
+  "PR0165"
+ ],
+ "proposed_shortlist": [
+  "PR0186",
+  "PR0180",
+  "PR0121",
+  "PR0159",
+  "PR0165"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0186",
+  "PR0180",
+  "PR0159",
+  "PR0165",
+  "PR0182"
+ ],
+ "reflection_note": "The original list was strong but suffered from a weak location diversity (Pune, Delhi, Hyderabad, Chennai). I dropped PR0121 because the deviation to Delhi is too significant given the explicit Pune preference. To maintain 5 slots and improve overall quality/diversity, I swapped in PR0182. This program maintains the critical 'Pune' connection while offering a high placement rate (91%) and strong academic fit, balancing the list better than the original selection.",
+ "explanation": "Halcyon Institute of Technology\nThis program is highly recommended because it perfectly aligns with your location preference in Pune and addresses your interest in cloud computing through its MTech Computer Networks curriculum. The annual tuition of $2050 remains within your maximum budget of $2400, and the high placement rate of 83% supports your priority for employability. The main trade-off here is that while it offers strong career prospects with a median starting salary of $15192, there is no post-study work visa provided.\n\nBraxton Institute of Technology\nThis option is ideal because it meets your location preference in Pune and keeps costs very low at an annual tuition of only $1250. The curriculum focuses on networking and cloud technologies, which directly supports your interest in IoT and Portal Administration goals. The trade-off you must consider is that while the cost is excellent, its placement rate (71%) and median starting salary ($10359) are lower compared to other Pune options.\n\nVantage Technical University\nWhile this program offers a very low tuition fee of $700, it should be considered with caution because it is located in Hyderabad, which deviates from your stated preference for Pune. The curriculum includes networking and cloud technologies suitable for your goals, but the main trade-off is that its placement rate (66%) and median starting salary ($6514) are among the lowest on this list.\n\nWestbrook Institute of Technology\nThis program provides a very low annual tuition fee of $550, making it highly budget-friendly for your constraints. The curriculum includes networking and cloud computing fields relevant to your interests. However, the main trade-off is that its location in Chennai does not match your Pune preference, and it also has the lowest placement rate (59%) among all listed options.\n\nKeystone Technical University\nThis program was recommended due to its outstanding 91% placement rate, which strongly addresses your high employability priority, and it is located in Pune. The tuition of $1950 fits within your budget, and you meet the admission requirement for a CS background. The main trade-off is that the specialization focuses on QA testing rather than the networking or cloud computing fields you expressed interest in.",
+ "wall_s": 141.6
+}

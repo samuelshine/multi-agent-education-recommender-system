@@ -1,0 +1,73 @@
+{
+ "student_id": "ST0033",
+ "session": 1,
+ "mode": "single_objective",
+ "version": 2,
+ "message": "Hi, I'm a student with a python certification background. My overall academic average is 77.7% in an IT/computer-science degree. I'm interested in IOT and cloud computing. I want to become a Portal Administrator. My family can afford at most about USD 2400 per year. I live in Pune. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 77.7
+  },
+  "career_goal": "Portal Administrator",
+  "budget_max_usd_per_year": 2400,
+  "location_preference": "Pune",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in IOT and cloud computing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0186",
+  "PR0199",
+  "PR0118",
+  "PR0121",
+  "PR0148",
+  "PR0016",
+  "PR0102",
+  "PR0180",
+  "PR0162",
+  "PR0112",
+  "PR0159",
+  "PR0032",
+  "PR0184",
+  "PR0165",
+  "PR0164",
+  "PR0182",
+  "PR0119",
+  "PR0101",
+  "PR0143",
+  "PR0176"
+ ],
+ "retrieved_ids": [
+  "PR0186",
+  "PR0180",
+  "PR0162",
+  "PR0121",
+  "PR0159",
+  "PR0182",
+  "PR0165"
+ ],
+ "proposed_shortlist": [
+  "PR0186",
+  "PR0180",
+  "PR0121",
+  "PR0159",
+  "PR0162"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0186",
+  "PR0180",
+  "PR0121",
+  "PR0159",
+  "PR0162"
+ ],
+ "reflection_note": "The initial shortlist is robust and adheres to all hard constraints (budget, academic background). No entries were dropped. The ranking reflects the balance between core interests (Networking/Cloud), career goal alignment (Admin/IT Support), and location preference (Pune). PR0186 remains the top choice due to its high fit across multiple criteria and perfect location match.",
+ "explanation": "Halcyon Institute of Technology\nThis program was recommended because it aligns perfectly with your location preference in Pune and covers relevant fields like networking and cloud computing. It also offers a high placement rate of 83% and a strong median starting salary of $15,192 USD, which addresses your priority for employability. The annual tuition of $2050 USD is well within your maximum budget of $2400 USD per year. There are no major trade-offs; this option provides the best balance between location, cost, and career outcome.\n\nBraxton Institute of Technology\nThis program remains a strong contender because it meets both your Pune location preference and your interest in networking/cloud computing while keeping tuition low at $1250 USD. It requires a CS background, which you possess, making admission straightforward. The main trade-off here is that its placement rate (71%) and median starting salary ($10,359 USD) are lower compared to the Halcyon Institute option in Pune.\n\nAldermount Institute of Technology\nThis program was considered because it covers IT support and networking/cloud computing, which aligns with your goal of becoming a Portal Administrator. However, the main trade-off is that its location is Delhi, conflicting with your preference for Pune. While the tuition ($2100 USD) is within budget, you would need to weigh the benefit of the program's fields against the geographical mismatch.\n\nVantage Technical University\nThis option was recommended due to its extremely low annual tuition of $700 USD, making it highly budget-friendly. The curriculum covers IT support and networking/cloud computing, which are relevant to your career goals. The primary trade-off is that this program has the lowest placement rate (66%) and median starting salary ($6,514 USD) among all options, potentially conflicting with your high employability priority.\n\nAravalli Institute of Applied Sciences\nThis MTech Cyber Security program was suggested because it covers networking/cloud computing while remaining within budget at $1150 USD. You meet the prerequisite of having a CS background for admission. The main trade-off is that its location is Chennai, which conflicts with your Pune preference, and it also offers one of the lowest median starting salaries ($7,369 USD) on this list.",
+ "wall_s": 97.7
+}

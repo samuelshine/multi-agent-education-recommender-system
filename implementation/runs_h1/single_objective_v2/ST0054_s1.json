@@ -1,0 +1,75 @@
+{
+ "student_id": "ST0054",
+ "session": 1,
+ "mode": "single_objective",
+ "version": 2,
+ "message": "Hi, I'm a student with a hadoop certification background. My overall academic average is 80.4% in an IT/computer-science degree. I'm interested in hacking and security. I want to become a Programmer Analyst. My family can afford at most about USD 1600 per year. I live in Mumbai. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 80.4
+  },
+  "career_goal": "Programmer Analyst",
+  "budget_max_usd_per_year": 1600,
+  "location_preference": "Mumbai",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in hacking and security",
+   "Hadoop certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0182",
+  "PR0119",
+  "PR0176",
+  "PR0058",
+  "PR0187",
+  "PR0174",
+  "PR0053",
+  "PR0158",
+  "PR0109",
+  "PR0076",
+  "PR0012",
+  "PR0019",
+  "PR0114",
+  "PR0185",
+  "PR0130",
+  "PR0084",
+  "PR0120",
+  "PR0170",
+  "PR0015",
+  "PR0020"
+ ],
+ "retrieved_ids": [
+  "PR0114",
+  "PR0187",
+  "PR0053",
+  "PR0185",
+  "PR0170",
+  "PR0109",
+  "PR0012",
+  "PR0130"
+ ],
+ "proposed_shortlist": [
+  "PR0185",
+  "PR0109",
+  "PR0012",
+  "PR0053",
+  "PR0114"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0185",
+  "PR0109",
+  "PR0012",
+  "PR0053",
+  "PR0114"
+ ],
+ "reflection_note": "All programs on the shortlist are valid based on hard constraints (Budget: Max $1600/year; Location: Mumbai preferred, but region acceptable). The ranking reflects a balance between specialized interest (Cybersecurity in PR0185), core career alignment (PR0109, PR0012), and location preference/feasibility (PR0114). No entries were dropped as all 5 are viable. The final list maintains the original order.",
+ "explanation": "Longford Institute of Technology\nThis program was recommended because its focus on Information Security directly aligns with your interest in hacking and security. The annual tuition of $1150 remains well within your maximum budget, and the minimum required grade percentage of 62% is easily met by your academic background. While this program offers a strong foundation for cybersecurity roles, the main trade-off is that it is located in Kolkata, which deviates from your preference for Mumbai.\n\nCrestwood Technical University\nThis MTech Computer Science program was selected due to its high employability priority, boasting an 82% placement rate and a median starting salary of $13300. The annual tuition of $1550 is within budget, and the minimum grade requirement of 73% is easily met. The primary trade-off here is that while it offers strong core CS skills for your Programmer Analyst goal, its location in Chennai does not match your Mumbai preference.\n\nElmhurst University\nThis MCA program provides a solid foundation in software engineering, which supports your career goal as a Programmer Analyst. With an annual tuition of $1500 and a placement rate of 79%, it offers strong job prospects while staying within budget. The main trade-off is the location; although the curriculum is relevant, this institution is located in Kolkata rather than Mumbai.\n\nCavendish University\nThis MSc Software Quality Engineering program was recommended because it features an excellent placement rate of 86% and a low annual tuition cost of $1200. Furthermore, since it does not require a CS background, it offers flexibility despite your strong academic history. The trade-off is that while the employability metrics are very high, the institution's location in Kolkata deviates from your stated preference for Mumbai.\n\nCrestwood School of Engineering\nThis program is highly recommended because it perfectly matches your location preference by being situated in Mumbai, and its tuition ($850) is significantly below your budget maximum. While this MSc focuses on QA testing rather than pure security, it provides a strong pathway to high employability with an 81% placement rate. The main trade-off is that while the program meets all logistical constraints (location, cost), the specialization is in quality assurance rather than cybersecurity.",
+ "wall_s": 104.9
+}

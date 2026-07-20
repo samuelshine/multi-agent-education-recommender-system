@@ -1,0 +1,73 @@
+{
+ "student_id": "ST0012",
+ "session": 3,
+ "mode": "no_memory",
+ "version": 1,
+ "message": "Hi, I'm a student with a distro making certification background. My overall academic average is 82.9% in an IT/computer-science degree. I'm interested in Management and testing. I want to become a Information Technology Auditor. My family can afford at most about USD 11300 per year. I live in Chennai. I'm open to anywhere in India. Getting a good job after graduation matters more to me than anything else. About the earlier suggestions: I liked PR0191, PR0054.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 82.9
+  },
+  "career_goal": "Information Technology Auditor",
+  "budget_max_usd_per_year": 11300,
+  "location_preference": "Chennai",
+  "mobility": "open_domestic",
+  "employability_priority": "high",
+  "other_constraints": [
+   "distro making certification background",
+   "interested in Management and testing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0157",
+  "PR0172",
+  "PR0198",
+  "PR0139",
+  "PR0164",
+  "PR0182",
+  "PR0060",
+  "PR0191",
+  "PR0119",
+  "PR0101",
+  "PR0176",
+  "PR0092",
+  "PR0053",
+  "PR0189",
+  "PR0072",
+  "PR0054",
+  "PR0076",
+  "PR0105",
+  "PR0065",
+  "PR0019"
+ ],
+ "retrieved_ids": [
+  "PR0191",
+  "PR0182",
+  "PR0119",
+  "PR0053",
+  "PR0172",
+  "PR0164",
+  "PR0139",
+  "PR0101"
+ ],
+ "proposed_shortlist": [
+  "PR0182",
+  "PR0119",
+  "PR0053",
+  "PR0191"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0191",
+  "PR0182",
+  "PR0172",
+  "PR0119"
+ ],
+ "reflection_note": "The original shortlist was strong but included PR0053, which significantly violates the location preference (Chennai). I dropped PR0053 and swapped in PR0172. PR0172 provides a better balance: it hits the 'Management' interest, is located in Pune (a more acceptable compromise than Kolkata), and maintains good financial feasibility. The final list prioritizes Chennai (PR0191) first, followed by strong QA/Testing options in other cities (Pune/Hyderabad), ensuring high employability while respecting budget constraints.",
+ "explanation": "Sarayu Technical University\nThis program is recommended because its location in Chennai matches your stated preference, and the annual tuition of $3250 fits well within your budget. The MTech Data Engineering curriculum covers business information systems and data science analytics, which are highly relevant to an IT Auditor role. While this option provides a strong median starting salary of $15951 and an 84% placement rate, the main trade-off is that its focus on data engineering is less aligned with your specific interest in management or testing compared to other options.\n\nKeystone Technical University\nThis program was recommended because it directly addresses your high employability priority by offering a strong 91% placement rate and focusing specifically on QA Testing, which aligns perfectly with your stated interests. The annual tuition of $1950 is well within your budget constraints. However, the main trade-off here is that while the curriculum is highly relevant to testing, its location in Pune does not match your preference for Chennai.\n\nQuilon Technical University\nThis program was recommended because its focus on IT Management and business information systems directly addresses your interest in management, which is crucial for an IT Auditor role. The tuition of $2250 keeps it within budget, and the curriculum fields are a strong fit for your career goal. The main trade-off to consider is that while the program aligns well with your interests, its placement rate (66%) and median starting salary ($8654) are lower compared to other options on this list.\n\nMeridian Institute of Applied Sciences\nThis option was recommended because it provides an excellent balance of low cost ($1200 tuition), high employability (86% placement rate), and strong relevance, as its QA Testing focus matches your stated interests in testing. Although the location is Hyderabad rather than Chennai, this program offers a very competitive median starting salary of $14917 while remaining significantly under budget. The main trade-off is that you must prioritize high employability and low cost over matching your preferred city location.",
+ "wall_s": 204.4
+}

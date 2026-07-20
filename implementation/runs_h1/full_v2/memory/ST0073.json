@@ -1,0 +1,32 @@
+{
+ "student_id": "ST0073",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 75.4
+    },
+    "career_goal": "Business Intelligence Analyst",
+    "budget_max_usd_per_year": 7100,
+    "location_preference": "Coimbatore",
+    "mobility": "prefers_region",
+    "employability_priority": "high",
+    "other_constraints": [
+     "Shell programming certification background",
+     "Interested in Software Engineering and cloud computing"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0058",
+    "PR0043",
+    "PR0101",
+    "PR0039",
+    "PR0105"
+   ],
+   "feedback": null
+  }
+ ]
+}

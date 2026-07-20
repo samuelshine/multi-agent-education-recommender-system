@@ -1,0 +1,54 @@
+{
+ "student_id": "ST0098",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a app development certification background. My overall academic average is 78.6% in an IT/computer-science degree. I'm interested in cloud computing and testing. I want to become a Technical Engineer. My family can afford at most about USD 4400 per year. I live in Mumbai. I'm open to going abroad.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 78.6
+  },
+  "career_goal": "Technical Engineer",
+  "budget_max_usd_per_year": 4400,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in cloud computing and testing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0198",
+  "PR0104",
+  "PR0139",
+  "PR0194",
+  "PR0182",
+  "PR0119",
+  "PR0186",
+  "PR0197",
+  "PR0053",
+  "PR0072",
+  "PR0043",
+  "PR0147",
+  "PR0096",
+  "PR0065",
+  "PR0019",
+  "PR0199",
+  "PR0114",
+  "PR0113",
+  "PR0179",
+  "PR0118"
+ ],
+ "final_shortlist": [
+  "PR0104",
+  "PR0194",
+  "PR0043",
+  "PR0182",
+  "PR0065"
+ ],
+ "explanation": "This German program in Software Quality Engineering aligns perfectly with your interest in testing and offers a low tuition fee ($3450) while providing an excellent post-study work visa of 18 months, making it ideal for career growth abroad.\n\nThis MSc Cloud Computing program in Germany directly addresses your interest in cloud computing. With a low tuition fee ($1950) and an 18-month post-study work visa, it is the best option for pursuing technical engineering goals abroad.\n\nThis MSc Cloud Computing program in India meets your interest in cloud computing and has a tuition fee ($3950) that is within your budget. Since you are open to going abroad, this provides a strong domestic option if international options are too complex.\n\nThis Indian program in Software Quality Engineering is highly relevant to your testing interest and has an excellent placement rate (91%) with a low tuition fee ($1950), making it a strong domestic choice.\n\nLocated in Mumbai, this program is highly relevant to your interests (testing/software engineering) and has a low tuition fee ($2450), making it an excellent local option that fits within your budget.",
+ "wall_s": 55.4
+}

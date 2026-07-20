@@ -1,0 +1,54 @@
+{
+ "student_id": "ST0065",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a python certification background. My overall academic average is 79.2% in an IT/computer-science degree. I'm interested in programming and cloud computing. I want to become a Technical Engineer. My family can afford at most about USD 9600 per year. I live in Delhi. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 79.2
+  },
+  "career_goal": "Technical Engineer (programming and cloud computing)",
+  "budget_max_usd_per_year": 9600,
+  "location_preference": "Delhi",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Python certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0186",
+  "PR0197",
+  "PR0043",
+  "PR0147",
+  "PR0096",
+  "PR0199",
+  "PR0118",
+  "PR0121",
+  "PR0148",
+  "PR0016",
+  "PR0102",
+  "PR0180",
+  "PR0162",
+  "PR0112",
+  "PR0159",
+  "PR0032",
+  "PR0184",
+  "PR0165",
+  "PR0117",
+  "PR0198"
+ ],
+ "final_shortlist": [
+  "PR0121",
+  "PR0102",
+  "PR0184",
+  "PR0016",
+  "PR0197"
+ ],
+ "explanation": "This program is located in Delhi, meeting your strong preference to stay near home. The tuition cost ($2100) is well within your family's budget of $9600, and while the median salary is modest, the location advantage makes it a top consideration.\n\nLocated in Delhi, this MSc Cloud Computing program aligns perfectly with your interest in cloud computing. The tuition ($1700) is highly affordable and the requirement for a CS background matches your profile, making it an excellent local option.\n\nThis MSc Cloud Computing program is also in Delhi, satisfying your location preference. The low tuition cost ($950) makes it very budget-friendly, and the focus on cloud computing directly matches one of your primary interests.\n\nAlthough located in Coimbatore, this MSc Cloud Computing program is highly relevant to your interests (Cloud/Software Engineering) and has a low tuition cost ($2400). It offers strong job prospects with a decent placement rate and salary.\n\nThis MTech program focuses on Cloud/Networking, aligning with your technical goals. While located in Chennai, it has a solid placement rate (85%) and is affordable enough to consider if you are willing to move within India.",
+ "wall_s": 59.2
+}

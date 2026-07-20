@@ -1,0 +1,74 @@
+{
+ "student_id": "ST0083",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a full stack certification background. My overall academic average is 71% in an IT/computer-science degree. I'm interested in data engineering and Business process analyst. I want to become a Design & UX. My family can afford at most about USD 5000 per year. I live in Coimbatore. I'd strongly prefer to stay near home, though I might consider elsewhere in India.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 71
+  },
+  "career_goal": "Design & UX",
+  "budget_max_usd_per_year": 5000,
+  "location_preference": null,
+  "mobility": "prefers_region",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in data engineering and Business process analyst"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0191",
+  "PR0058",
+  "PR0039",
+  "PR0158",
+  "PR0026",
+  "PR0090",
+  "PR0145",
+  "PR0033",
+  "PR0046",
+  "PR0107",
+  "PR0074",
+  "PR0063",
+  "PR0173",
+  "PR0071",
+  "PR0087",
+  "PR0101",
+  "PR0143",
+  "PR0186",
+  "PR0149",
+  "PR0174"
+ ],
+ "retrieved_ids": [
+  "PR0039",
+  "PR0158",
+  "PR0046",
+  "PR0149",
+  "PR0174",
+  "PR0101",
+  "PR0033",
+  "PR0074"
+ ],
+ "proposed_shortlist": [
+  "PR0174",
+  "PR0158",
+  "PR0039",
+  "PR0149",
+  "PR0101"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0174",
+  "PR0158",
+  "PR0039",
+  "PR0149",
+  "PR0101"
+ ],
+ "reflection_note": "The initial shortlist is strong. All five programs meet the hard constraints (budget: max $5000/year, academic background: IT/CS focus). The ranking reflects a good balance between primary interest (Design/UX) and secondary interests (Data Engineering/Business Process Analyst), while prioritizing affordability and high potential salary outcomes.",
+ "explanation": "Halcyon Institute of Applied Sciences\nThis program is highly recommended because it directly aligns with your primary goal of Design & UX through its MSc Human-Computer Interaction focus. It is budget-friendly at $1900 annual tuition and requires a minimum grade percentage of 71%, matching your academic background. The main trade-off here is that while the salary ($14,141) is competitive, there are no post-study work visa options provided.\n\nAshford School of Engineering\nThis program offers an excellent blend for your career goals by combining Interaction Design with Software Engineering, providing a robust skillset for UX roles. At $1900 annual tuition, it fits well within your budget, and the minimum grade requirement (70%) is easily met. The trade-off to consider is that its median starting salary ($13,259) is slightly lower than some other options on this list.\n\nLongford Institute of Applied Sciences\nThis option provides a strong foundation for Design & UX by covering both Interaction Design and Software Engineering fields. With an annual tuition of $2250, it remains well within your budget constraints. The main trade-off is that while the placement rate (85%) is high, the median starting salary ($13,646) is not the highest among the shortlisted programs.\n\nBridgewater School of Engineering\nThis MSc Human-Computer Interaction program is a direct match for your Design & UX career goal and has an excellent placement rate of 86%. While its tuition ($3750) is higher than some other options, it still remains under your maximum budget of $5000. The trade-off here is the increased cost compared to similar programs that offer a more specialized focus.\n\nBraxton Institute of Applied Sciences\nThis program is recommended because it addresses your secondary interests in Business Process Analysis and Data Engineering through its MSc Information Systems curriculum. It offers the highest median starting salary ($15,394) among all options listed and requires a minimum grade percentage (71%) that matches your academic standing. The main trade-off is that while it excels in business/data fields, the program does not have a dedicated UX design focus like others on this list.",
+ "wall_s": 147.7
+}

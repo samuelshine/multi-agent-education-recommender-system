@@ -1,0 +1,78 @@
+{
+ "student_id": "ST0000",
+ "session": 1,
+ "mode": "no_memory",
+ "version": 1,
+ "message": "Hi, I'm a student with a full stack certification background. My overall academic average is 79.4% in an IT/computer-science degree. I'm interested in hacking and system developer. I want to become a Solutions Architect.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 79.4
+  },
+  "career_goal": "Solutions Architect",
+  "budget_max_usd_per_year": null,
+  "location_preference": null,
+  "mobility": "open_domestic",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in hacking and system developer fields",
+   "Has a full stack certification background"
+  ],
+  "uncertainty_notes": [
+   "Budget maximum per year is unknown.",
+   "Location preference is unknown.",
+   "Mobility preference is unknown (defaulting to open_domestic).",
+   "Employability priority is unknown."
+  ]
+ },
+ "prefilter_ids": [
+  "PR0117",
+  "PR0198",
+  "PR0097",
+  "PR0144",
+  "PR0139",
+  "PR0164",
+  "PR0029",
+  "PR0022",
+  "PR0182",
+  "PR0060",
+  "PR0191",
+  "PR0119",
+  "PR0101",
+  "PR0143",
+  "PR0186",
+  "PR0176",
+  "PR0058",
+  "PR0149",
+  "PR0092",
+  "PR0187"
+ ],
+ "retrieved_ids": [
+  "PR0029",
+  "PR0186",
+  "PR0144",
+  "PR0117",
+  "PR0058",
+  "PR0139",
+  "PR0182",
+  "PR0187"
+ ],
+ "proposed_shortlist": [
+  "PR0029",
+  "PR0186",
+  "PR0144",
+  "PR0139"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0186",
+  "PR0029",
+  "PR0058",
+  "PR0182"
+ ],
+ "reflection_note": "The original shortlist included PR0144, which violates the student's minimum grade requirement (79.4% < 81%). This program must be dropped. The revised list prioritizes programs that meet the academic threshold and align strongly with 'hacking/InfoSec' (PR0029) or 'system developer/Networking' (PR0186). PR0058 was added as a strong, safe alternative for general software development interest, while PR0182 replaces the poorly focused PR0139 in the QA space. The final list is ranked based on the highest combination of academic fit and career goal alignment.",
+ "explanation": "**Halcyon Institute of Technology**\nThis program was recommended because its focus on networking/cloud and software engineering aligns well with the technical breadth required for a Solutions Architect role. Admission is suitable as it requires a CS background, which matches your academic profile, and the minimum grade requirement (70%) is below your 79.4% score. The main trade-off here is that while the tuition ($2050) is moderate, its placement rate of 83% and median salary of $15192 are not the highest among the options.\n\n**Vantage Technical University**\nGiven your interest in hacking and system developer fields, this MSc Information Security program provides highly relevant specialized knowledge. You meet the admission criteria as it requires a CS background and accepts students with grades above 75%. This option offers the best employability potential with a high placement rate of 92%; however, you should note that its annual tuition ($3800) is the highest cost among all recommended programs.\n\n**Stanmore School of Engineering**\nThis MCA program was suggested because its combination of data science/analytics and software engineering directly supports your goal as a Solutions Architect who needs full-stack capabilities. Admission is appropriate since it requires a CS background, and the minimum grade (74%) is easily met by your academic standing. The primary trade-off here is that while the tuition ($1350) is the most budget-friendly option, its placement rate of 83% is not the highest available.\n\n**Keystone Technical University**\nThis program was recommended because it offers a high placement rate (91%) and focuses on quality engineering, which is critical for robust system development. It also has flexible admission requirements as it does not mandate a CS background. The main trade-off to consider is that while the tuition ($1950) is reasonable, its median starting salary of $12865 is the lowest among all listed options.",
+ "wall_s": 0.0
+}

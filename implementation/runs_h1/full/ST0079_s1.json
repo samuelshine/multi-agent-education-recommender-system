@@ -1,0 +1,68 @@
+{
+ "student_id": "ST0079",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a distro making certification background. My overall academic average is 77.7% in an IT/computer-science degree. I'm interested in Management and security. I want to become a Data Architect. My family can afford at most about USD 7000 per year. I live in Mumbai. I'm open to anywhere in India.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 77.7
+  },
+  "career_goal": "Data Architect",
+  "budget_max_usd_per_year": 7000,
+  "location_preference": null,
+  "mobility": "open_domestic",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in Management and security"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0097",
+  "PR0164",
+  "PR0060",
+  "PR0191",
+  "PR0143",
+  "PR0176",
+  "PR0058",
+  "PR0092",
+  "PR0189",
+  "PR0007",
+  "PR0099",
+  "PR0026",
+  "PR0076",
+  "PR0090",
+  "PR0130",
+  "PR0120",
+  "PR0170",
+  "PR0078",
+  "PR0145",
+  "PR0033"
+ ],
+ "retrieved_ids": [
+  "PR0164",
+  "PR0176",
+  "PR0189",
+  "PR0092",
+  "PR0033"
+ ],
+ "proposed_shortlist": [
+  "PR0176",
+  "PR0164",
+  "PR0033",
+  "PR0189",
+  "PR0092"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0164",
+  "PR0176",
+  "PR0033"
+ ],
+ "reflection_note": "The initial shortlist was strong but included two programs (PR0189, PR0092) that were significantly outperformed by the top choices in terms of placement and overall career trajectory for a Data Architect goal. I have dropped these less competitive options. The final list prioritizes PR0164 due to its superior employability metrics, followed closely by PR0176 as the cost-effective alternative. PR0033 remains valuable as a specialized option focusing purely on data analytics.",
+ "explanation": "**Northgate School of Engineering**\nThis program is recommended because its MBA Technology Management focus aligns well with your interest in management while building upon your IT background. The annual tuition of $2050 remains comfortably within your budget, and it boasts a high 90% placement rate alongside a median starting salary of $17361. The main trade-off to consider is the minimum grade requirement of 79%, which is slightly higher than your current 77.7%.\n\n**Crestwood University**\nThis option provides an excellent balance of affordability and relevance, with the lowest tuition at $1900 per year. Its MBA Technology Management curriculum directly addresses your interest in management while being suitable for your CS background. Admission is straightforward as the minimum grade (72%) is lower than your current score. The primary trade-off compared to Northgate School of Engineering is a slightly lower placement rate of 82%.\n\n**Quilon School of Engineering**\nThis program was recommended because its focus on Business Analytics and Data Science Analytics makes it the most direct fit for your goal of becoming a Data Architect. Although the tuition ($2100) is the highest among the three, the main trade-off is that it offers the lowest median starting salary at $10526 and has a 73% placement rate.",
+ "wall_s": 170.3
+}

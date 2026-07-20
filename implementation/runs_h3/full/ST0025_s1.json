@@ -1,0 +1,79 @@
+{
+ "student_id": "ST0025",
+ "session": 1,
+ "mode": "full",
+ "version": 1,
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 81% in an IT/computer-science degree. I'm interested in networks and developer. I want to become a Software Engineer.",
+ "memory_used": false,
+ "fallbacks": [
+  "reflect"
+ ],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 81
+  },
+  "career_goal": "Software Engineer",
+  "budget_max_usd_per_year": null,
+  "location_preference": null,
+  "mobility": "open_domestic",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in networks and developer"
+  ],
+  "uncertainty_notes": [
+   "Budget maximum per year not specified.",
+   "Location preference not specified.",
+   "Mobility preference not specified.",
+   "Employability priority not specified."
+  ]
+ },
+ "prefilter_ids": [
+  "PR0198",
+  "PR0144",
+  "PR0186",
+  "PR0058",
+  "PR0039",
+  "PR0053",
+  "PR0158",
+  "PR0043",
+  "PR0109",
+  "PR0026",
+  "PR0076",
+  "PR0012",
+  "PR0065",
+  "PR0019",
+  "PR0167",
+  "PR0090",
+  "PR0185",
+  "PR0171",
+  "PR0155",
+  "PR0145"
+ ],
+ "retrieved_ids": [
+  "PR0186",
+  "PR0043",
+  "PR0167",
+  "PR0198",
+  "PR0155",
+  "PR0144",
+  "PR0109",
+  "PR0019"
+ ],
+ "proposed_shortlist": [
+  "PR0186",
+  "PR0043",
+  "PR0155",
+  "PR0144"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0186",
+  "PR0043",
+  "PR0155",
+  "PR0144"
+ ],
+ "reflection_note": "reflect fallback: kept proposal",
+ "explanation": "Halcyon Institute of Technology\nThis program was recommended because its MTech Computer Networks curriculum directly aligns with your stated interest in networks while also covering software engineering fundamentals. With an annual tuition of $2050, it offers a strong balance between cost and career potential, boasting an 83% placement rate and a median starting salary of $15192. The main trade-off here is that while the program is highly relevant and affordable, there are no post-study work visa benefits listed.\n\nVantage Institute of Technology\nThis MSc Cloud Computing option was selected because it strongly combines both networking and software engineering skills in a specialized field. It has an excellent 86% placement rate, which is competitive for its annual tuition cost of $3950. The primary trade-off to consider is that the tuition fee is higher than some other options on this list, although it offers strong career outcomes with a median salary of $11981.\n\nNorthgate University\nThis MSc Software Engineering program was recommended as a direct and affordable path toward your core goal of becoming a Software Engineer. The low annual tuition of $2450 makes it budget-friendly for your studies, and the minimum grade requirement (60%) is easily met by your 81% academic background. However, the main trade-off to note is that this option has the lowest placement rate (74%) and median salary ($11146) among all the programs listed.\n\nTejas Technical University\nThis MTech Computer Science program was recommended due to its exceptional career outcomes, featuring the highest placement rate at 93% and a strong median starting salary of $19239. Furthermore, your academic grade of 81% perfectly meets the minimum requirement for admission. The main trade-off is that this option carries the highest annual tuition fee ($4800) compared to the other programs on your shortlist.",
+ "wall_s": 251.4
+}

@@ -1,0 +1,72 @@
+{
+ "student_id": "ST0014",
+ "session": 3,
+ "mode": "full",
+ "version": 1,
+ "message": "Hi, I'm a student with a full stack certification background. My overall academic average is 78.6% in an IT/computer-science degree. I'm interested in hacking and cloud computing. I want to become a Programmer Analyst. Also, my situation changed: family circumstances changed, so my budget is now lower. My family can afford at most about USD 4300 per year. I live in Bengaluru. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else. About the earlier suggestions: I liked PR0198, PR0096.",
+ "memory_used": true,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 78.6
+  },
+  "career_goal": "Programmer Analyst",
+  "budget_max_usd_per_year": 4300,
+  "location_preference": "Bengaluru",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in hacking and cloud computing"
+  ],
+  "uncertainty_notes": [
+   "None."
+  ]
+ },
+ "prefilter_ids": [
+  "PR0186",
+  "PR0197",
+  "PR0043",
+  "PR0147",
+  "PR0096",
+  "PR0199",
+  "PR0118",
+  "PR0121",
+  "PR0148",
+  "PR0016",
+  "PR0102",
+  "PR0180",
+  "PR0162",
+  "PR0112",
+  "PR0159",
+  "PR0032",
+  "PR0184",
+  "PR0165",
+  "PR0117",
+  "PR0198"
+ ],
+ "retrieved_ids": [
+  "PR0198",
+  "PR0186",
+  "PR0096",
+  "PR0148",
+  "PR0162",
+  "PR0180",
+  "PR0159"
+ ],
+ "proposed_shortlist": [
+  "PR0186",
+  "PR0198",
+  "PR0096"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0186",
+  "PR0096",
+  "PR0148",
+  "PR0180"
+ ],
+ "reflection_note": "The original shortlist was good but contained one program (PR0198) that violated the hard constraint regarding minimum required grades. I dropped PR0198 and replaced it with two stronger, more relevant options: PR0148 (better location/cost balance than PR0096) and PR0180 (highly focused networking option). The final list prioritizes strong technical alignment (cybersecurity/cloud/networking), affordability, and academic plausibility while maintaining a geographical spread to give the student choices.",
+ "explanation": "Halcyon Institute of Technology\nThis program is recommended because its focus on networking and cloud computing aligns well with your interests in hacking and cloud technology. With a tuition cost of $2050 USD, it fits comfortably within your budget while offering a high placement rate of 83% and a strong median starting salary of $15192 USD. You meet the minimum grade requirement (70%) and have the necessary computer science background for admission. The main trade-off here is that the location is Pune, which deviates from your stated preference for Bengaluru.\n\nAshford Institute of Applied Sciences\nThis option was selected because its curriculum directly addresses your interests by focusing on cybersecurity and networking/cloud technologies. It requires a CS background, matching your academic profile, and has an 80% placement rate with a median starting salary of $12561 USD. While the tuition ($3350 USD) is higher than some other options, it provides excellent subject matter relevance for a Programmer Analyst role. The trade-off to consider is that its location is Hyderabad, rather than your preferred Bengaluru.\n\nKestrel Institute of Technology\nThis program was recommended due to its strong alignment with your interests in cybersecurity and cloud computing, and it has a low minimum grade requirement (62%). Although the placement rate is 73% and the median starting salary is $10571 USD, the tuition cost of $2250 USD keeps it within budget. The main trade-off here is that while the admission requirements are flexible, both its location (Coimbatore) and its lower reported employability metrics make it less ideal than other options.\n\nBraxton Institute of Technology\nThis program is recommended primarily because it offers the lowest tuition cost at $1250 USD, making it highly budget-friendly while still covering networking/cloud topics relevant to your goals. You meet the required CS background and grade minimums for admission. However, the main trade-off is that despite its low cost, this program has the lowest placement rate (71%) and median starting salary ($10359 USD) among all listed options, which conflicts with your high employability priority.",
+ "wall_s": 222.4
+}

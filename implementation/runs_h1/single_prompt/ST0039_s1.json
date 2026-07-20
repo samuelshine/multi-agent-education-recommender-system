@@ -1,0 +1,40 @@
+{
+ "student_id": "ST0039",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 79.7% in an IT/computer-science degree. I'm interested in data engineering and security. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 1100 per year. I live in Bengaluru. I cannot leave my city. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 79.7
+  },
+  "career_goal": null,
+  "budget_max_usd_per_year": 1100,
+  "location_preference": "Bengaluru",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "r programming certification background",
+   "interested in data engineering and security"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0173",
+  "PR0087",
+  "PR0015",
+  "PR0073",
+  "PR0013"
+ ],
+ "final_shortlist": [
+  "PR0073",
+  "PR0015",
+  "PR0173",
+  "PR0087",
+  "PR0013"
+ ],
+ "explanation": "This program directly addresses your interest in security and is located in Bengaluru. It has a high placement rate (80%) and offers a strong median starting salary ($8637), which aligns with your priority of securing a good job after graduation.\n\nWith excellent placement metrics (78% rate and $9707 median salary), this program is highly recommended for career focus. While focused on business information systems, it provides strong tech job prospects in Bengaluru within your budget.\n\nThis MTech offers flexibility across data science and software engineering while remaining within your strict budget ($500/year). It is located in Bengaluru and has a solid placement rate (62%) suitable for someone exploring tech options.\n\nThis MSc Data Science program aligns with your interest in data engineering. It is located in Bengaluru and the tuition ($1200) is within your family's budget limit. The placement rate (58%) suggests good job opportunities.\n\nAlthough focused on design, this HCI program offers a high median starting salary ($9186) and is located in Bengaluru. It has low tuition ($900) and is suitable if you want to explore tech roles that blend user experience with technology.",
+ "wall_s": 32.4
+}

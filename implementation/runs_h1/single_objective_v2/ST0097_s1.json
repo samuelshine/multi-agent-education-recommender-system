@@ -1,0 +1,74 @@
+{
+ "student_id": "ST0097",
+ "session": 1,
+ "mode": "single_objective",
+ "version": 2,
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 75.8% in an IT/computer-science degree. I'm interested in Management and system developer. I want to become a Mobile Applications Developer. My family can afford at most about USD 5700 per year. I live in Coimbatore. I cannot leave my city.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 75.8
+  },
+  "career_goal": "Mobile Applications Developer",
+  "budget_max_usd_per_year": 5700,
+  "location_preference": "Coimbatore",
+  "mobility": "fixed_city",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in Management and system developer roles"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0157",
+  "PR0048",
+  "PR0101",
+  "PR0058",
+  "PR0039",
+  "PR0054",
+  "PR0043",
+  "PR0147",
+  "PR0105",
+  "PR0170",
+  "PR0145",
+  "PR0148",
+  "PR0033",
+  "PR0016",
+  "PR0014",
+  "PR0068",
+  "PR0166",
+  "PR0098",
+  "PR0134",
+  "PR0106"
+ ],
+ "retrieved_ids": [
+  "PR0157",
+  "PR0048",
+  "PR0101",
+  "PR0058",
+  "PR0039",
+  "PR0033",
+  "PR0016",
+  "PR0145"
+ ],
+ "proposed_shortlist": [
+  "PR0058",
+  "PR0145",
+  "PR0039",
+  "PR0157",
+  "PR0048"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0058",
+  "PR0145",
+  "PR0039",
+  "PR0157",
+  "PR0048"
+ ],
+ "reflection_note": "All five programs on the shortlist are valid based on hard constraints (Budget: All tuition fees are well below $5700/year; Location: All are in Coimbatore). No entries were dropped. The ranking reflects a balance of technical depth (PR0058, PR0145) and addressing secondary interests (PR0039 for System Dev, PR0157/PR0048 for Management).",
+ "explanation": "**Stanmore School of Engineering**\nThis program was recommended because it offers a strong blend of core development skills through its focus on Software Engineering and Data Science, directly supporting your goal as a Mobile Applications Developer. It is highly accessible given your background; you meet the minimum grade requirement (74%) and possess the required CS background. Furthermore, the annual tuition of $1350 fits well within your budget, and it boasts a high placement rate of 83% with a median starting salary of $14,869. The main trade-off here is that while highly technical, its curriculum might be slightly less focused on pure management roles compared to the other options.\n\n**Silverline Technical University**\nThis MTech Computer Science program provides deep technical training in Software Engineering and Data Science, making it a solid choice for advancing your skills as a developer. It remains well within your budget at $2300 annually, and you meet its minimum grade requirement of 60%. Since you have an IT/computer-science background, this is a strong fit for technical growth. The trade-off compared to Stanmore is the slightly lower placement rate (75%) and median starting salary ($10,057).\n\n**Longford Institute of Applied Sciences**\nThis program was recommended because it uniquely combines Software Engineering with Design HCI, which is crucial for developing successful mobile applications that require strong user experience skills. It meets your academic standing, as your 75.8% grade exceeds the minimum requirement of 70%. The annual tuition of $2250 keeps you within budget, and its high placement rate (85%) makes it a very attractive option. The main trade-off is that while excellent for development, its focus on design might pull slightly away from pure system developer roles if management skills are your primary interest.\n\n**Longford University**\nThis MSc IT Management program directly addresses your stated interest in management and business systems through its Business Information Systems field. With a low annual tuition of $800, it is the most budget-friendly option listed. You meet the minimum grade requirement (64%), and since it does not require a CS background, it offers flexibility. The trade-off for this strong focus on management is that it has the lowest median starting salary ($10,444) among all shortlisted programs, making it less immediately focused on core development skills.\n\n**Tejas School of Engineering**\nThis MSc IT Management program aligns with your interest in system developer and management roles while keeping tuition costs low at $2200 per year. You meet the minimum grade requirement (65%), and its curriculum focuses purely on IT Management, which is beneficial for a systems perspective. However, this option presents the largest trade-off: it has the lowest placement rate (68%) and median starting salary ($9,305) among all listed programs, making other options more financially appealing despite their management focus.",
+ "wall_s": 130.8
+}

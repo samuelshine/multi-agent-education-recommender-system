@@ -1,0 +1,74 @@
+{
+ "student_id": "ST0089",
+ "session": 1,
+ "mode": "single_objective",
+ "version": 2,
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 77.7% in an IT/computer-science degree. I'm interested in networks and testing. I want to become a Information Technology Manager. My family can afford at most about USD 1200 per year. I live in Mumbai. I'd strongly prefer to stay near home, though I might consider elsewhere in India.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 77.7
+  },
+  "career_goal": "Information Technology Manager",
+  "budget_max_usd_per_year": 1200,
+  "location_preference": null,
+  "mobility": "prefers_region",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in networks and testing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0119",
+  "PR0053",
+  "PR0019",
+  "PR0114",
+  "PR0015",
+  "PR0020",
+  "PR0193",
+  "PR0157",
+  "PR0050",
+  "PR0125",
+  "PR0190",
+  "PR0080",
+  "PR0008",
+  "PR0142",
+  "PR0082",
+  "PR0052",
+  "PR0085",
+  "PR0066",
+  "PR0064",
+  "PR0087"
+ ],
+ "retrieved_ids": [
+  "PR0119",
+  "PR0053",
+  "PR0193",
+  "PR0157",
+  "PR0050",
+  "PR0125",
+  "PR0190",
+  "PR0064"
+ ],
+ "proposed_shortlist": [
+  "PR0157",
+  "PR0119",
+  "PR0053",
+  "PR0193",
+  "PR0050"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0157",
+  "PR0053",
+  "PR0119",
+  "PR0193",
+  "PR0050"
+ ],
+ "reflection_note": "The initial shortlist is strong and adheres to all hard constraints (Budget: Max $1200/year; Academic Grade: Min 60% required, student has 77.7%). No entries needed dropping or swapping in. The ranking order was slightly adjusted to prioritize the managerial track (PR0157) first, followed by the best blend of management support and technical skills (PR0053), then other strong QA options (PR0119, PR0193), and finally the IT Support backup (PR0050). This structure guides the student from their ultimate goal to more specialized alternatives.",
+ "explanation": "Longford University\nThis program is recommended because its focus on IT Management and Business Information Systems aligns perfectly with your career goal of becoming an Information Technology Manager. It also respects your budget constraint, with an annual tuition of $800 USD. The main trade-off here is that while it strongly supports your management goals, the curriculum does not emphasize networks or testing as much as some other options.\n\nCavendish University\nThis program was selected because its focus on Software Quality Engineering and QA Testing directly addresses your interest in testing, while also providing a strong foundation for an IT career. The tuition of $1200 USD meets your maximum budget, and the high placement rate of 86% suggests good employability. The trade-off is that this program focuses heavily on technical quality assurance rather than the managerial aspects needed for an IT Manager role.\n\nMeridian Institute of Applied Sciences\nThis option is highly recommended because it specializes in QA Testing, matching your specific interest while offering a very high median starting salary of $14,917 USD and a strong 86% placement rate. The tuition ($1200 USD) fits within your budget, and you meet the minimum grade requirement (71%). The main trade-off is that its pure focus on testing means it offers less direct training in IT management compared to Longford University.\n\nElmhurst Institute of Technology\nThis program provides a solid foundation in QA Testing, directly addressing your technical interest while keeping tuition at $1200 USD and remaining within budget. You meet the minimum grade requirement (60%), making admission straightforward. The main trade-off is that while it covers testing well, its median starting salary ($10,518 USD) is lower than other QA options on this list.\n\nTejas Institute of Technology\nThis program was considered because it offers a blend of IT Support and QA Testing, covering both your technical interest in testing and the broader operational skills needed for an IT career. The tuition of $1150 USD keeps you under budget. However, the main trade-off is that this option reports the lowest median starting salary ($7,474 USD) and placement rate (69%) among all the listed programs.",
+ "wall_s": 74.3
+}

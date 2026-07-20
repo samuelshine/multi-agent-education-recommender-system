@@ -1,0 +1,74 @@
+{
+ "student_id": "ST0028",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 72.9% in an IT/computer-science degree. I'm interested in data engineering and security. I want to become a Software Engineer. My family can afford at most about USD 33700 per year. I live in Coimbatore. I'm open to going abroad. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 72.9
+  },
+  "career_goal": "Software Engineer (interested in data engineering and security)",
+  "budget_max_usd_per_year": 33700,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "r programming certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0086",
+  "PR0058",
+  "PR0126",
+  "PR0026",
+  "PR0090",
+  "PR0145",
+  "PR0107",
+  "PR0063",
+  "PR0173",
+  "PR0071",
+  "PR0069",
+  "PR0055",
+  "PR0030",
+  "PR0034",
+  "PR0027",
+  "PR0067",
+  "PR0018",
+  "PR0136",
+  "PR0132",
+  "PR0051"
+ ],
+ "retrieved_ids": [
+  "PR0086",
+  "PR0126",
+  "PR0136",
+  "PR0034",
+  "PR0027",
+  "PR0067",
+  "PR0132",
+  "PR0126"
+ ],
+ "proposed_shortlist": [
+  "PR0086",
+  "PR0027",
+  "PR0136",
+  "PR0034",
+  "PR0126"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0086",
+  "PR0027",
+  "PR0136",
+  "PR0034",
+  "PR0126"
+ ],
+ "reflection_note": "The current shortlist is strong and adheres to all hard constraints (budget, academic background). The programs offer excellent alignment with the student's goals (Software Engineering, Data Engineering, Security) while managing financial feasibility. No changes are necessary.",
+ "explanation": "Halcyon Technical University\nThis program is recommended because it aligns well with your interest in both software engineering and data science analytics, while keeping tuition within your maximum budget of $33,700. Your current grade of 72.9% exceeds the minimum requirement of 70%, making admission highly likely. The main trade-off here is that while the placement rate (85%) and post-study work visa (24 months) are excellent indicators of employability, the median starting salary ($33,967) is slightly lower than your budget maximum.\n\nBraxton School of Engineering\nThis MTech Data Engineering program is an ideal match for your career goal in data engineering. It fits within your budget with $27,600 tuition and offers a very strong post-study work visa of 36 months, maximizing your time to find employment. The main trade-off is that the annual tuition cost is relatively high compared to other options on this list.\n\nSilverline Technical University\nThis MTech Cyber Security program directly addresses your interest in security while keeping the tuition low at $21,200. Your academic background easily meets the minimum grade requirement of 53%. The main trade-off you must consider is that despite a high median starting salary ($46,714), it offers the shortest post-study work visa (12 months) and has the lowest placement rate on this list (61%).\n\nAshford University\nThis MSc Information Security program provides strong training in cybersecurity while remaining under your budget at $29,150. Your grade of 72.9% comfortably exceeds the minimum requirement of 60%. The main trade-off is that although it offers a high median starting salary ($47,153), like other programs, it provides only a 12-month post-study work visa.\n\nAshford Technical University\nThis MCA program is recommended because its extremely low tuition cost ($2,050) makes it the most budget-friendly option available. Furthermore, since you hold an IT/CS degree, you meet the required CS background for this course. The main trade-off is that while the 18-month post-study work visa is beneficial, the median starting salary ($23,468) and placement rate (62%) are among the lowest on the list.",
+ "wall_s": 128.4
+}

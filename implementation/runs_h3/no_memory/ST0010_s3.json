@@ -1,0 +1,56 @@
+{
+ "student_id": "ST0010",
+ "session": 3,
+ "mode": "no_memory",
+ "version": 1,
+ "message": "Hi, I'm a student with a full stack certification background. My overall academic average is 79.2% in an IT/computer-science degree. I'm interested in programming and cloud computing. I want to become a Database Manager. Also, my situation changed: family circumstances changed, so my budget is now lower. My family can afford at most about USD 1600 per year. I live in Bengaluru. I cannot leave my city. Getting a good job after graduation matters more to me than anything else. About the earlier suggestions: I liked PR0015, PR0002.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 79.2
+  },
+  "career_goal": "Database Manager",
+  "budget_max_usd_per_year": 1600,
+  "location_preference": "Bengaluru",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in programming and cloud computing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0173",
+  "PR0087",
+  "PR0015",
+  "PR0073",
+  "PR0002",
+  "PR0013",
+  "PR0085"
+ ],
+ "retrieved_ids": [
+  "PR0173",
+  "PR0087",
+  "PR0015",
+  "PR0013",
+  "PR0085"
+ ],
+ "proposed_shortlist": [
+  "PR0015",
+  "PR0087",
+  "PR0173",
+  "PR0085"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0015",
+  "PR0087",
+  "PR0173",
+  "PR0013"
+ ],
+ "reflection_note": "The original shortlist was strong but included PR0085, which is too specialized (QA) and less aligned with the Database Manager goal. I dropped it. I kept PR0015 as the top choice due to its superior placement rate and direct IS relevance. I swapped in PR0013 because it offers a high salary potential and strong general tech skills, improving the overall quality of options without violating hard constraints (budget/location). The final list prioritizes programs with excellent employability scores while maintaining affordability and Bengaluru location.",
+ "explanation": "Keystone Institute of Technology\nThis program was recommended because its focus on Information Systems aligns well with your goal of becoming a Database Manager and your interest in programming. It maintains a high placement rate of 78% and offers a strong median starting salary of $9,707 USD, all while staying within your budget at $1,200 annual tuition. The main trade-off here is that the curriculum focuses on general business information systems rather than deep technical specialization in cloud computing or core programming.\n\nAravalli Technical University\nThis MSc Data Science program directly addresses your interest in data and is highly relevant to a Database Manager career path. It requires a CS background, which matches your academic profile, and costs $1,200 annually, fitting your budget. However, the main trade-off is that while the field is excellent, its placement rate (58%) and median starting salary ($6,767 USD) are lower compared to other options on this list.\n\nLongford Technical University\nThis MTech Computer Science program is an excellent choice if minimizing cost is your top priority, as it has the lowest tuition at $500 USD per year. The curriculum covers data science analytics and software engineering, which aligns with your programming interests. The trade-off is that while the low tuition is appealing, its median starting salary ($6,851 USD) and placement rate (62%) are among the most modest on this shortlist.\n\nMeridian Institute of Technology\nThis program offers a high placement rate of 77% and a strong median starting salary of $9,186 USD, making it highly attractive for employability. The tuition is also low at $900 USD annually. The main trade-off is that the specialization in Human-Computer Interaction (HCI) focuses more on design rather than core database management or advanced programming techniques.",
+ "wall_s": 212.9
+}

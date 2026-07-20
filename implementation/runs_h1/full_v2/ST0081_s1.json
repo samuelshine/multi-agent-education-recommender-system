@@ -1,0 +1,74 @@
+{
+ "student_id": "ST0081",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a app development certification background. My overall academic average is 78.7% in an IT/computer-science degree. I'm interested in hacking and cloud computing. I want to become a Network Security Administrator. My family can afford at most about USD 10800 per year. I live in Pune. I'm open to anywhere in India.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 78.7
+  },
+  "career_goal": "Network Security Administrator",
+  "budget_max_usd_per_year": 10800,
+  "location_preference": null,
+  "mobility": "open_domestic",
+  "employability_priority": null,
+  "other_constraints": [
+   "interested in hacking and cloud computing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0186",
+  "PR0197",
+  "PR0043",
+  "PR0147",
+  "PR0096",
+  "PR0199",
+  "PR0118",
+  "PR0121",
+  "PR0148",
+  "PR0016",
+  "PR0102",
+  "PR0180",
+  "PR0162",
+  "PR0112",
+  "PR0159",
+  "PR0032",
+  "PR0184",
+  "PR0165",
+  "PR0117",
+  "PR0198"
+ ],
+ "retrieved_ids": [
+  "PR0096",
+  "PR0148",
+  "PR0186",
+  "PR0197",
+  "PR0162",
+  "PR0016",
+  "PR0102",
+  "PR0180"
+ ],
+ "proposed_shortlist": [
+  "PR0186",
+  "PR0197",
+  "PR0096",
+  "PR0162",
+  "PR0180"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0186",
+  "PR0197",
+  "PR0096",
+  "PR0180",
+  "PR0102"
+ ],
+ "reflection_note": "The initial shortlist was strong, but PR0162 was dropped because its low median starting salary ($7369) poses a significant risk relative to the student's career goal (Network Security Administrator). To maintain 5 options, I swapped in PR0102 (Westbrook Technical University), which offers a solid focus on Cloud Computing and meets all academic requirements while remaining well within budget. This replacement maintains the balance of high-quality, affordable, and relevant programs.",
+ "explanation": "Halcyon Institute of Technology\nThis program is highly recommended because it aligns perfectly with your interests in cloud computing and networking while offering a strong placement rate of 83%. With an annual tuition of only $2,050, it fits comfortably within your budget constraint. The median starting salary of $15,192 is the highest among all options, making it financially attractive. There is no significant trade-off here; it offers a strong combination of low cost and high earning potential for your career goal.\n\nAshford Institute of Applied Sciences\nThis program is recommended because its curriculum explicitly includes \"cybersecurity,\" which directly addresses your goal of becoming a Network Security Administrator. It covers both networking and cloud computing, matching your stated interests in hacking and cloud technology. The main trade-off here is that the tuition ($3,350) is higher than other options like Halcyon or Braxton, though it offers the most targeted field for security roles.\n\nAshford Institute of Technology\nThis option is a strong contender because its focus on \"networking_cloud\" directly supports your career goal and interests. It boasts an excellent placement rate of 85%, suggesting high employability upon graduation. The trade-off compared to Halcyon is that the tuition ($3,350) is higher, and the median starting salary ($13,362) is lower, but it remains a highly reputable choice.\n\nBraxton Institute of Technology\nThis program is ideal if your primary constraint is minimizing cost, as its annual tuition is only $1,250. It covers networking and cloud computing, which are relevant to your career goal. The main trade-off you must consider is that this option has the lowest placement rate (71%) and the lowest median starting salary ($10,359) among all listed programs.\n\nWestbrook Technical University\nThis program was recommended because it provides a dedicated focus on \"Cloud Computing,\" which aligns with your stated interests. The tuition of $1,700 is well within your budget constraint. However, the trade-off to consider is that this option has the lowest median starting salary ($8,729) and a lower placement rate (75%) compared to other available programs.",
+ "wall_s": 124.9
+}

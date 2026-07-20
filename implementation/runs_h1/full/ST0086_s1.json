@@ -1,0 +1,70 @@
+{
+ "student_id": "ST0086",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 75.6% in an IT/computer-science degree. I'm interested in Software Engineering and cloud computing. I want to become a Technical Services/Help Desk/Tech Support. My family can afford at most about USD 13300 per year. I live in Chennai. I'm open to going abroad. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 75.6
+  },
+  "career_goal": "Technical Services/Help Desk/Tech Support",
+  "budget_max_usd_per_year": 13300,
+  "location_preference": "Chennai",
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "r programming certification"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0021",
+  "PR0169",
+  "PR0088",
+  "PR0022",
+  "PR0187",
+  "PR0002",
+  "PR0121",
+  "PR0188",
+  "PR0098",
+  "PR0050",
+  "PR0159",
+  "PR0000",
+  "PR0195",
+  "PR0122",
+  "PR0005",
+  "PR0010",
+  "PR0153",
+  "PR0024",
+  "PR0132",
+  "PR0051"
+ ],
+ "retrieved_ids": [
+  "PR0021",
+  "PR0187",
+  "PR0002",
+  "PR0121",
+  "PR0188",
+  "PR0098",
+  "PR0050",
+  "PR0159"
+ ],
+ "proposed_shortlist": [
+  "PR0021",
+  "PR0098",
+  "PR0187"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0098",
+  "PR0187",
+  "PR0002",
+  "PR0121"
+ ],
+ "reflection_note": "The original shortlist was heavily skewed towards the best-known international option (Germany) and two local options. I dropped PR0021 because while strong, its location deviation is too great compared to the excellent Indian alternatives available. I swapped in PR0002 (Bengaluru) and PR0121 (Delhi). Bengaluru is a superior tech hub choice over Coimbatore for career growth, and Delhi offers better skills breadth than Mumbai/Hyderabad options currently on the list. The final shortlist prioritizes strong local placement potential and geographical relevance to South India while maintaining budget adherence.",
+ "explanation": "Crestwood Institute of Applied Sciences\nThis program was recommended because it offers a very low annual tuition of $800, which is highly budget-friendly. Your academic background (75.6%) exceeds the minimum required grade percentage of 63%, making admission straightforward. While the median starting salary is $9161 and the placement rate is 70%, the main trade-off here is accepting a lower potential earning outcome in exchange for minimal tuition costs.\n\nCavendish University\nThis option was highlighted due to its strong employability metrics, boasting an 87% placement rate and a high median starting salary of $12687. The annual tuition of $1450 remains well within your maximum budget of $13,300. The trade-off is that this program has slightly higher tuition than the lowest-cost options, but it provides excellent job prospects for technical support roles.\n\nCharnock Technical University\nWe recommend this university because its location in Bengaluru is a major tech hub, which increases your chances of finding relevant employment. With an annual tuition of $1700 and a median starting salary of $11419, the program offers solid earning potential while remaining within budget. The main trade-off is that the tuition cost is higher than Crestwood's option, but it provides better location value and strong career prospects.\n\nAldermount Institute of Technology\nThis program was recommended because its curriculum includes both \"it_support\" and \"networking_cloud,\" broadening your skill set for high employability. While this institution has the highest annual tuition at $2100, it still fits within your budget constraints. The trade-off is that you pay a higher tuition fee compared to other options, but in return, you gain exposure to valuable networking and cloud skills alongside IT support.",
+ "wall_s": 207.8
+}

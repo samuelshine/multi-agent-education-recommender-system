@@ -1,0 +1,56 @@
+{
+ "student_id": "ST0026",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a shell programming certification background. My overall academic average is 74.8% in an IT/computer-science degree. I'm interested in programming and testing. I want to become a Applications Developer. My family can afford at most about USD 7100 per year. I live in Bengaluru. I cannot leave my city. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 74.8
+  },
+  "career_goal": "Applications Developer",
+  "budget_max_usd_per_year": 7100,
+  "location_preference": "Bengaluru",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in programming and testing",
+   "Shell programming certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0085",
+  "PR0015",
+  "PR0073",
+  "PR0002",
+  "PR0013",
+  "PR0173",
+  "PR0087"
+ ],
+ "retrieved_ids": [
+  "PR0085",
+  "PR0173",
+  "PR0013",
+  "PR0015",
+  "PR0073",
+  "PR0087"
+ ],
+ "proposed_shortlist": [
+  "PR0085",
+  "PR0073",
+  "PR0173",
+  "PR0013"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0173",
+  "PR0015",
+  "PR0087"
+ ],
+ "reflection_note": "The initial shortlist was heavily weighted towards location and affordability, but lacked sufficient focus on the student's core goal (Applications Developer) or strong technical fit. PR0085 and PR0073 were dropped due to poor salary/misaligned focus. PR0173 remains a solid choice for its balance of cost and relevance. I swapped in PR0015 because it provides the best combination of software engineering exposure, good placement rates, and remaining within budget. Finally, I added PR0087 (MSc Data Science) as a third option; while data science is a pivot, it often requires strong programming skills and offers high employability potential in Bengaluru, making it a valuable alternative for an IT/CS graduate aiming for development roles.",
+ "explanation": "Longford Technical University\nThis program is recommended because its focus on \"software_engineering\" directly aligns with your goal of becoming an Applications Developer and your interest in programming. It also offers a very low annual tuition of $500, which fits well within your budget constraints. The main trade-off here is that while the curriculum is highly relevant, the placement rate (62%) is moderate compared to other options on this list.\n\nKeystone Institute of Technology\nThis option was recommended due to its high employability metrics, boasting a 78% placement rate and a median starting salary of $9707. The program's focus on \"business_information_systems\" provides valuable context for development roles while keeping the annual tuition low at $1200. The trade-off is that the curriculum emphasizes business information systems rather than core software engineering, which might be slightly less aligned with your programming interests.\n\nAravalli Technical University\nThis program was selected because it requires a CS background, matching your academic profile, and maintains a manageable tuition of $1200. While its fields touch upon development through \"business_information_systems,\" the main trade-off is that this option has the lowest placement rate (58%) among the three choices, which conflicts with your stated high priority for employability.",
+ "wall_s": 179.3
+}

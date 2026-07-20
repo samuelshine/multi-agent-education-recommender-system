@@ -1,0 +1,73 @@
+{
+ "student_id": "ST0012",
+ "session": 2,
+ "mode": "no_memory",
+ "version": 1,
+ "message": "Hi, I'm a student with a distro making certification background. My overall academic average is 82.9% in an IT/computer-science degree. I'm interested in Management and testing. I want to become a Information Technology Auditor. My family can afford at most about USD 11300 per year. I live in Chennai. I'm open to anywhere in India. About the earlier suggestions: I liked PR0198, PR0139.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 82.9
+  },
+  "career_goal": "Information Technology Auditor",
+  "budget_max_usd_per_year": 11300,
+  "location_preference": "Chennai",
+  "mobility": "open_domestic",
+  "employability_priority": "medium",
+  "other_constraints": [
+   "Management interest",
+   "Testing interest"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0157",
+  "PR0172",
+  "PR0198",
+  "PR0139",
+  "PR0164",
+  "PR0182",
+  "PR0060",
+  "PR0191",
+  "PR0119",
+  "PR0101",
+  "PR0176",
+  "PR0092",
+  "PR0053",
+  "PR0189",
+  "PR0072",
+  "PR0054",
+  "PR0076",
+  "PR0105",
+  "PR0065",
+  "PR0019"
+ ],
+ "retrieved_ids": [
+  "PR0191",
+  "PR0157",
+  "PR0101",
+  "PR0054",
+  "PR0164",
+  "PR0182",
+  "PR0076",
+  "PR0176"
+ ],
+ "proposed_shortlist": [
+  "PR0191",
+  "PR0157",
+  "PR0101"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0191",
+  "PR0054",
+  "PR0076",
+  "PR0176",
+  "PR0164"
+ ],
+ "reflection_note": "The original shortlist was heavily weighted towards Coimbatore, which is not the student's preferred location (Chennai). I dropped PR0157 and PR0101 for better alternatives. I swapped in four new options: PR0054 (Analytics/Management), PR0076 (Cost-effective IT Management near Chennai), PR0176 (Backup IT Management near Chennai), and PR0164 (High employability option despite location). The final list prioritizes the preferred location (Chennai) while ensuring a mix of specialized skills (Data Analytics, Testing/QA focus via PR0191's relevance) and strong management components. I kept PR0191 as the top choice due to its perfect location fit and high academic alignment.",
+ "explanation": "Sarayu Technical University\nThis MTech Data Engineering program is recommended because it aligns with your IT background and interests in data analytics, while also meeting your location preference of Chennai. The annual tuition of $3250 is well within your budget, and the minimum required grade percentage (71%) is easily met by your 82.9%. This option provides a strong median starting salary of $15,951 and an 84% placement rate, making it highly relevant for advancing in IT. The main trade-off here is that this is a technical MTech degree, which may be more specialized than the general management focus often associated with an Auditor role.\n\nElmhurst University\nThis MBA Business Analytics program was selected because its curriculum focuses on business information systems, complementing your interest in management and auditing. At $2150 annually, it fits comfortably within your budget, and you meet the minimum grade requirement of 72%. The program offers a solid median starting salary of $13,094 with an 84% placement rate. The main trade-off is that while the tuition is low, the location (Coimbatore) deviates from your preferred Chennai area.\n\nSarayu Institute of Technology\nThis MBA Technology Management option directly addresses your interest in management and IT governance, which are crucial for an Information Technology Auditor. With a very affordable annual tuition of $1250, it keeps you well under budget while maintaining a strong 81% placement rate. You meet the minimum grade requirement of 74%, and the median starting salary is $13,142. The main trade-off for this program is that its location in Hyderabad deviates from your preferred Chennai area.\n\nCrestwood University\nThis MBA Technology Management degree is an excellent fit because it focuses on IT management, directly supporting your career goal as an Auditor and satisfying your interest in management. At $1900 annually, the tuition remains affordable and within budget, while you meet the minimum grade percentage of 72%. The program boasts a median starting salary of $15,400 and an 82% placement rate. The main trade-off is that its location in Hyderabad deviates from your preferred Chennai area.\n\nNorthgate School of Engineering\nThis MBA Technology Management program is highly recommended due to its strong focus on IT management and its exceptional employment outcomes. With the highest placement rate (90%) and a median starting salary of $17,361, it offers excellent career potential for an Auditor role. The annual tuition of $2050 keeps it within your budget, and you meet the minimum grade requirement of 79%. The main trade-off is that its location in Delhi deviates from your preferred Chennai area.",
+ "wall_s": 203.4
+}

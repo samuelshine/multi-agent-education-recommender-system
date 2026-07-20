@@ -1,0 +1,74 @@
+{
+ "student_id": "ST0098",
+ "session": 1,
+ "mode": "full",
+ "version": 2,
+ "message": "Hi, I'm a student with a app development certification background. My overall academic average is 78.6% in an IT/computer-science degree. I'm interested in cloud computing and testing. I want to become a Technical Engineer. My family can afford at most about USD 4400 per year. I live in Mumbai. I'm open to going abroad.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 78.6
+  },
+  "career_goal": "Technical Engineer",
+  "budget_max_usd_per_year": 4400,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in cloud computing and testing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0198",
+  "PR0104",
+  "PR0139",
+  "PR0194",
+  "PR0182",
+  "PR0119",
+  "PR0186",
+  "PR0197",
+  "PR0053",
+  "PR0072",
+  "PR0043",
+  "PR0147",
+  "PR0096",
+  "PR0065",
+  "PR0019",
+  "PR0199",
+  "PR0114",
+  "PR0113",
+  "PR0179",
+  "PR0118"
+ ],
+ "retrieved_ids": [
+  "PR0104",
+  "PR0194",
+  "PR0186",
+  "PR0197",
+  "PR0043",
+  "PR0147",
+  "PR0096",
+  "PR0118"
+ ],
+ "proposed_shortlist": [
+  "PR0194",
+  "PR0104",
+  "PR0147",
+  "PR0096",
+  "PR0043"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0194",
+  "PR0104",
+  "PR0186",
+  "PR0197",
+  "PR0043"
+ ],
+ "reflection_note": "The initial shortlist heavily favored Indian institutions (PR0096, PR0043, PR0147) despite the student's 'open_international' mobility preference and technical career goals. I dropped all three India-based options because they severely limit international career prospects compared to the German options (PR0194, PR0104). The final list prioritizes the two strong German programs first. To fill the remaining slots, I swapped in the best remaining candidates from India that still align with Cloud/Networking interests and meet the CS background requirement (PR0186, PR0197, PR0043), ensuring a mix of international options while maintaining focus on high-quality technical fields.",
+ "explanation": "Aravalli School of Engineering\nThis program is highly recommended because its focus on MSc Cloud Computing directly aligns with your stated interest in cloud technology and technical engineering goals. The annual tuition of $1950 is well within your budget limit of $4400, and your academic background meets the requirement for a CS degree. Furthermore, this opportunity offers strong international career prospects, boasting an 18-month post-study work visa and a median starting salary of $30651. The main trade-off here is that you must meet the English language requirement to be eligible for admission.\n\nAravalli Institute of Applied Sciences\nThis program was selected because its focus on MSc Software Quality Engineering directly addresses your interest in testing, while also being highly accessible given that it does not require a CS background. At $3450 per year, the tuition remains under budget, and you have a strong chance of placement with a 77% rate. Like the Aravalli School option, this program provides an excellent international opportunity with an 18-month post-study work visa and a competitive median starting salary of $28649. The trade-off is that while it covers testing, it does not focus on cloud computing.\n\nHalcyon Institute of Technology\nThis program was recommended because its MTech Computer Networks curriculum aligns well with your interest in networking and cloud technologies, and the tuition ($2050) is very budget-friendly. You meet the minimum grade requirement (78.6% vs 70%) and have a high placement rate of 83%. The main trade-off here is that while it offers excellent local job prospects, there are no post-study work visa options or higher salary potential compared to international programs.\n\nAshford Institute of Technology\nThis program was recommended due to its MTech Computer Networks focus, which matches your interest in cloud and networking fields, and its tuition ($3350) is within budget. You meet the minimum grade requirement (78.6% vs 71%) and benefit from a high placement rate of 85%. The trade-off for considering this option is that while it offers strong local job prospects, both the median starting salary and post-study work visa options are limited compared to international choices.\n\nVantage Institute of Technology\nThis program was selected because its MSc Cloud Computing curriculum directly matches your primary area of interest in cloud technology, and the tuition ($3950) is still within your annual budget limit. You meet the minimum grade requirement (78.6% vs 73%) and benefit from a high placement rate of 86%. The trade-off for this program is that while it offers strong local job prospects, its median starting salary and post-study work visa options are not as advantageous as those offered by international programs.",
+ "wall_s": 158.1
+}

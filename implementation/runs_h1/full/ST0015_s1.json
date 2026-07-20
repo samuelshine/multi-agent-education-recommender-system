@@ -1,0 +1,73 @@
+{
+ "student_id": "ST0015",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 80% in an IT/computer-science degree. I'm interested in Management and testing. I want to become a Database Developer. My family can afford at most about USD 5600 per year. I live in Chennai. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 80
+  },
+  "career_goal": "Database Developer",
+  "budget_max_usd_per_year": 5600,
+  "location_preference": "Chennai",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "r programming certification background",
+   "interested in Management and testing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0198",
+  "PR0097",
+  "PR0139",
+  "PR0164",
+  "PR0182",
+  "PR0060",
+  "PR0191",
+  "PR0119",
+  "PR0143",
+  "PR0176",
+  "PR0058",
+  "PR0092",
+  "PR0053",
+  "PR0189",
+  "PR0007",
+  "PR0072",
+  "PR0099",
+  "PR0026",
+  "PR0076",
+  "PR0065"
+ ],
+ "retrieved_ids": [
+  "PR0191",
+  "PR0176",
+  "PR0182",
+  "PR0072",
+  "PR0053",
+  "PR0198",
+  "PR0026",
+  "PR0139"
+ ],
+ "proposed_shortlist": [
+  "PR0191",
+  "PR0182",
+  "PR0053",
+  "PR0198"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0191",
+  "PR0053",
+  "PR0176",
+  "PR0026",
+  "PR0182"
+ ],
+ "reflection_note": "The original shortlist was heavily weighted towards the top-ranked option (PR0191) but missed strong, viable alternatives that balance cost and interest. PR0198 was dropped due to high cost/location mismatch. I swapped in two highly relevant programs: PR0176 (Hyderabad MBA Tech Mgmt) for a good financial alternative, and PR0026 (Hyderabad Data Engineering) for a direct academic fit. The final list prioritizes the perfect match (PR0191), followed by the best cost/interest balance (PR0053). I re-included PR0182 at the bottom as a last resort QA option, but it is less preferred than the Hyderabad options.",
+ "explanation": "Sarayu Technical University\nThis program is recommended because it perfectly matches your location preference in Chennai and aligns well with your goal of becoming a Database Developer through its Data Engineering and Data Science Analytics fields. The annual tuition of $3250 remains comfortably within your maximum budget, and the 84% placement rate suggests high employability. The main trade-off here is that while the median starting salary ($15951) is strong, there is no post-study work visa provided.\n\nCavendish University\nThis option was selected due to its very low annual tuition of $1200 and its focus on QA Testing, which directly addresses your interest in testing. The 86% placement rate also supports your high employability priority. However, the main trade-off is that while it meets your budget and interests, the location (Kolkata) deviates from your preferred region, and the median starting salary ($12855) is among the lower options presented.\n\nCrestwood University\nThis program was recommended because its MBA Technology Management curriculum directly addresses your interest in management, complementing your technical background. With a tuition cost of $1900, it fits well within your budget constraints, and the median starting salary ($15400) is competitive. The main trade-off to consider is that this program focuses on IT Management rather than core data development or testing, which might be less aligned with your primary career goal.\n\nNorthgate Technical University\nThis MTech Data Engineering program is highly relevant to your Database Developer goal, covering both Data Science Analytics and Software Engineering fields. The tuition of $3900 keeps it within budget, and the curriculum strongly supports a technical career path. The main trade-off is that while the field relevance is high, the location (Hyderabad) is not your preferred choice, and the median starting salary ($13385) is lower than some other options.\n\nKeystone Technical University\nThis program was recommended because it offers the highest placement rate at 91%, directly addressing your priority for employability, while also focusing on QA Testing to match your interests. The tuition of $1950 is very budget-friendly, and you meet the minimum admission requirement with your 80% grade. The main trade-off here is that although it offers excellent placement chances, its location (Pune) deviates from your preferred region in Chennai.",
+ "wall_s": 225.9
+}

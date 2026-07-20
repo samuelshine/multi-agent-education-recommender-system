@@ -84,12 +84,15 @@ def slim(p: dict) -> dict:
 # ------------------------------------------------------------------ orchestration
 
 class Pipeline:
-    def __init__(self, llm, programs: list, mode: str = "full", memory_dir=None):
+    def __init__(self, llm, programs: list, mode: str = "full", memory_dir=None,
+                 version: int = 1):
         assert mode in ("full", "no_memory", "single_objective", "single_prompt")
+        assert version in (1, 2)
         self.llm = llm
         self.programs = programs
         self.by_id = {p["program_id"]: p for p in programs}
         self.mode = mode
+        self.version = version   # v2 = post-registration pruning-policy revision
         self.memory = (MemoryStore(memory_dir)
                        if mode not in ("no_memory",) and memory_dir else None)
 
@@ -111,7 +114,7 @@ class Pipeline:
         message = render_message(student, session)
         mem_block = self.memory.render_block(sid) if self.memory else None
         record = {"student_id": sid, "session": session["session"],
-                  "mode": self.mode, "message": message,
+                  "mode": self.mode, "version": self.version, "message": message,
                   "memory_used": mem_block is not None, "fallbacks": []}
 
         # ---- profiling
@@ -173,7 +176,9 @@ class Pipeline:
 
         # ---- recommend (single_objective swaps the prompt: the H2 ablation)
         rec_prompt = (prompts.RECOMMEND_SINGLE_OBJECTIVE
-                      if self.mode == "single_objective" else prompts.RECOMMEND)
+                      if self.mode == "single_objective" else
+                      (prompts.RECOMMEND_V2 if self.version == 2
+                       else prompts.RECOMMEND))
         rec_user = f"Student-constraint object:\n{cons_json}\n\nCandidate programs:\n{sel_json}"
         if mem_block and self.mode == "full":
             rec_user = f"{mem_block}\n\n{rec_user}"
@@ -198,7 +203,8 @@ class Pipeline:
 
         # ---- reflect
         refl, _, failed = self._step(
-            "reflect", prompts.REFLECT.format(k=K),
+            "reflect",
+            (prompts.REFLECT_V2 if self.version == 2 else prompts.REFLECT).format(k=K),
             f"Student-constraint object:\n{cons_json}"
             f"\n\nProposed shortlist:\n{json.dumps(rec['shortlist'], indent=1)}"
             f"\n\nFull candidate set:\n{sel_json}",
@@ -215,6 +221,16 @@ class Pipeline:
                    if not hard_violates(constraints, self.by_id[i])]
         record["guard_dropped"] = sorted(set(final_ids) - set(guarded))
         final_ids = guarded or final_ids[:1]
+
+        # ---- v2 deterministic backfill: restore list to K with valid candidates
+        # (retrieval order), so abstention below K happens only when the candidate
+        # pool is genuinely exhausted. v1 never backfills (pre-registered behavior).
+        if self.version == 2 and len(final_ids) < K:
+            pool = [i for i in sel_ids
+                    if i not in final_ids
+                    and not hard_violates(constraints, self.by_id[i])]
+            record["backfilled"] = pool[: K - len(final_ids)]
+            final_ids = final_ids + record["backfilled"]
         record["final_shortlist"] = final_ids
         record["reflection_note"] = refl["reflection_note"]
 

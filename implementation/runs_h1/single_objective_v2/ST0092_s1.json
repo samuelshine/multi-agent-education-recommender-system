@@ -1,0 +1,73 @@
+{
+ "student_id": "ST0092",
+ "session": 1,
+ "mode": "single_objective",
+ "version": 2,
+ "message": "Hi, I'm a student with a full stack certification background. My overall academic average is 72.2% in an IT/computer-science degree. I'm interested in Computer Architecture and system developer. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 2400 per year. I live in Bengaluru. I'm open to anywhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 72.2
+  },
+  "career_goal": "Computer Architecture and system developer (Tech)",
+  "budget_max_usd_per_year": 2400,
+  "location_preference": "Bengaluru",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [],
+  "uncertainty_notes": [
+   "None"
+  ]
+ },
+ "prefilter_ids": [
+  "PR0182",
+  "PR0119",
+  "PR0101",
+  "PR0143",
+  "PR0186",
+  "PR0176",
+  "PR0058",
+  "PR0187",
+  "PR0039",
+  "PR0174",
+  "PR0053",
+  "PR0007",
+  "PR0158",
+  "PR0072",
+  "PR0054",
+  "PR0109",
+  "PR0076",
+  "PR0012",
+  "PR0065",
+  "PR0019"
+ ],
+ "retrieved_ids": [
+  "PR0186",
+  "PR0058",
+  "PR0109",
+  "PR0158",
+  "PR0012",
+  "PR0187",
+  "PR0182",
+  "PR0176"
+ ],
+ "proposed_shortlist": [
+  "PR0109",
+  "PR0012",
+  "PR0186",
+  "PR0187"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0109",
+  "PR0186",
+  "PR0012",
+  "PR0187",
+  "PR0158"
+ ],
+ "reflection_note": "The original shortlist was strong, covering core CS tracks (MTech CS, MCA) and a highly relevant systems track (Systems Administration). I kept all four entries as they represent distinct but valuable paths. To fill the fifth slot, I swapped in PR0158 (MDes Interaction Design). While this is a design-focused program, modern system development heavily relies on understanding user experience (HCI/Interaction Design), making it highly complementary to the core CS tracks and improving the overall breadth of options for the student.",
+ "explanation": "Crestwood Technical University\nThis program is recommended because its MTech in Computer Science aligns well with your technical background and career goals. The annual tuition of $1550 remains comfortably within your budget maximum of $2400. While the placement rate is strong at 82% and the median starting salary is $13,300, note that the minimum required grade percentage (73%) is slightly higher than your current academic standing (72.2%). The main trade-off here is accepting a program in Chennai when you prefer Bengaluru, despite meeting most of your financial and technical requirements.\n\nHalcyon Institute of Technology\nThis MTech Computer Networks option is highly recommended as it directly supports system development goals while maintaining strong employability metrics. With an annual tuition of $2050, it fits within your budget, and the minimum grade requirement (70%) is met by your 72.2% score. The program boasts a high placement rate of 83% and offers the highest median starting salary ($15,192) among the options. The trade-off to consider is that this option has the highest tuition cost, utilizing more of your annual budget allowance compared to other choices.\n\nElmhurst University\nThis MCA program provides a low-cost entry point into software engineering with an annual tuition of $1500, which is excellent for budgeting. It requires a CS background and accepts students with grades near your current standing. While the placement rate is solid at 79% and the salary is $13,468, this option presents a trade-off because it has the lowest placement rate among all recommended programs, potentially impacting your high employability priority.\n\nCavendish University\nThis PG Diploma in Systems Administration is strongly suggested due to its excellent focus on system development and highly favorable admission criteria. It requires no CS background and accepts students with grades of 72% or higher, which you meet. The program boasts the highest placement rate (87%) and a very low tuition cost ($1450). However, the main trade-off is that while its median starting salary ($12,687) is lower than other options, it provides superior job security metrics.\n\nAshford School of Engineering\nThis MDes Interaction Design program offers an appealing combination of good placement (84%) and low admission barriers, as it does not require a CS background. The tuition cost of $1900 fits your budget, and the minimum grade requirement is 70%. The primary trade-off here is that while the curriculum includes software engineering, its core focus on Interaction Design/HCI may deviate from your specific career goal in Computer Architecture and system development.",
+ "wall_s": 77.7
+}

@@ -1,0 +1,73 @@
+{
+ "student_id": "ST0085",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a app development certification background. My overall academic average is 73% in an IT/computer-science degree. I'm interested in IOT and Business process analyst. I want to become a Design & UX. My family can afford at most about USD 1300 per year. I live in Coimbatore. I'm open to anywhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 73
+  },
+  "career_goal": "Design & UX",
+  "budget_max_usd_per_year": 1300,
+  "location_preference": null,
+  "mobility": "open_domestic",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in IOT and Business process analyst"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0084",
+  "PR0015",
+  "PR0020",
+  "PR0013",
+  "PR0157",
+  "PR0181",
+  "PR0166",
+  "PR0074",
+  "PR0059",
+  "PR0049",
+  "PR0035",
+  "PR0087",
+  "PR0119",
+  "PR0058",
+  "PR0187",
+  "PR0053",
+  "PR0109",
+  "PR0076",
+  "PR0012",
+  "PR0019"
+ ],
+ "retrieved_ids": [
+  "PR0084",
+  "PR0013",
+  "PR0181",
+  "PR0166",
+  "PR0059",
+  "PR0049",
+  "PR0157",
+  "PR0015"
+ ],
+ "proposed_shortlist": [
+  "PR0084",
+  "PR0181",
+  "PR0166",
+  "PR0157",
+  "PR0013"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0181",
+  "PR0084",
+  "PR0059",
+  "PR0049",
+  "PR0013"
+ ],
+ "reflection_note": "The original shortlist was heavily weighted towards the top two HCI options (PR0084, PR0181). I dropped the other programs (PR0166, PR0157, PR0013) because they either diluted the focus away from Design & UX or were redundant compared to the best-fit choices. I swapped in two new options (PR0059, PR0049) that maintain the core HCI/Design focus while offering significantly lower tuition costs, thus maximizing financial feasibility and relevance for the student's primary goal.",
+ "explanation": "Keystone Institute of Technology\nThis program is recommended because its annual tuition of $850 fits well within your budget constraint. It offers the MSc Human-Computer Interaction degree, which directly aligns with your career goal in Design & UX. While it has a solid placement rate of 73% and a median starting salary of $9,715, the main trade-off is that its placement rate is slightly lower compared to other options on this list.\n\nHalcyon Technical University\nThis program is highly recommended due to its strong employability metrics, boasting both a 77% placement rate and the highest median starting salary ($11,205) among the shortlisting programs. The annual tuition of $900 remains within your budget, and the minimum grade requirement (64%) is easily met by your academic background. The main trade-off here is that its tuition is slightly higher than Tejas University's option.\n\nTejas University\nThis option is ideal if minimizing cost is your highest priority, as it has the lowest annual tuition at $450. It provides the MDes Interaction Design degree, which aligns perfectly with your UX goals and meets your budget constraint easily. However, the main trade-off is that its placement rate (66%) and median starting salary ($8,418) are lower compared to other institutions on this list.\n\nAravalli Institute of Applied Sciences\nThis program offers a low annual tuition fee of $600, making it very budget-friendly while still providing the MSc Human-Computer Interaction degree for your UX goals. The minimum grade requirement (55%) is easily met by your academic background. Be aware that the main trade-off here is its median starting salary ($7,131), which is the lowest among all recommended programs.\n\nMeridian Institute of Technology\nThis program is a strong contender because it matches Halcyon Technical University with an excellent 77% placement rate and provides the MSc Human-Computer Interaction degree for your UX goals. The annual tuition of $900 fits within your budget, and its minimum grade requirement (59%) is easily met by your academic background. The main trade-off to note is that while the placement rate is high, the median starting salary ($9,186) is lower than Halcyon Technical University's offering.",
+ "wall_s": 245.6
+}

@@ -1,0 +1,54 @@
+{
+ "student_id": "ST0037",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 75.9% in an IT/computer-science degree. I'm interested in networks and developer. I want to become a CRM Technical Developer. My family can afford at most about USD 1600 per year. I live in Chennai. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 75.9
+  },
+  "career_goal": "CRM Technical Developer",
+  "budget_max_usd_per_year": 1600,
+  "location_preference": "Chennai",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "r programming certification"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0182",
+  "PR0119",
+  "PR0176",
+  "PR0058",
+  "PR0187",
+  "PR0174",
+  "PR0053",
+  "PR0158",
+  "PR0109",
+  "PR0076",
+  "PR0012",
+  "PR0019",
+  "PR0114",
+  "PR0185",
+  "PR0130",
+  "PR0084",
+  "PR0120",
+  "PR0170",
+  "PR0015",
+  "PR0020"
+ ],
+ "final_shortlist": [
+  "PR0119",
+  "PR0053",
+  "PR0109",
+  "PR0076",
+  "PR0187"
+ ],
+ "explanation": "This program is located in Hyderabad, which is a reasonable alternative to Chennai. It has a low tuition fee ($1200) that meets your budget constraint and offers strong placement potential with a median starting salary of $14917.\n\nLocated in Kolkata, this MSc program has a very low tuition fee ($1200) and is highly relevant to software development. It also boasts a solid placement rate (86%) and an acceptable median starting salary of $12855.\n\nThis is the best option for staying near home in Chennai. It requires a CS background (which you have) and has a moderate tuition fee ($1550). The program focuses on software engineering, aligning well with your developer interest.\n\nAlso located in Hyderabad, this MBA program combines IT management and software engineering. Its tuition ($1250) is within budget, and the curriculum aligns with your interest in both development and networks/management.\n\nThis PG Diploma in Systems Administration focuses on IT support and networking, which directly addresses your interest in 'networks.' The tuition ($1450) is manageable, and the placement rate (87%) is strong for a technical role.",
+ "wall_s": 52.0
+}

@@ -1,0 +1,32 @@
+{
+ "student_id": "ST0023",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 75.8
+    },
+    "career_goal": "Data Architect",
+    "budget_max_usd_per_year": 9800,
+    "location_preference": null,
+    "mobility": "open_international",
+    "employability_priority": "high",
+    "other_constraints": [
+     "r programming certification background",
+     "interested in Software Engineering and cloud computing"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0194",
+    "PR0037",
+    "PR0126",
+    "PR0042",
+    "PR0043"
+   ],
+   "feedback": null
+  }
+ ]
+}

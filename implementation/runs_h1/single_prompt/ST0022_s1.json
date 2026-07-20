@@ -1,0 +1,55 @@
+{
+ "student_id": "ST0022",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 79.8% in an IT/computer-science degree. I'm interested in programming and Business process analyst. I want to become a Portal Administrator. My family can afford at most about USD 2400 per year. I live in Coimbatore. I'm open to anywhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 79.8
+  },
+  "career_goal": "Portal Administrator",
+  "budget_max_usd_per_year": 2400,
+  "location_preference": null,
+  "mobility": "open_domestic",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in programming",
+   "Interested in Business process analyst"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0101",
+  "PR0054",
+  "PR0015",
+  "PR0020",
+  "PR0033",
+  "PR0157",
+  "PR0047",
+  "PR0074",
+  "PR0172",
+  "PR0087",
+  "PR0164",
+  "PR0182",
+  "PR0119",
+  "PR0143",
+  "PR0186",
+  "PR0176",
+  "PR0058",
+  "PR0187",
+  "PR0039",
+  "PR0174"
+ ],
+ "final_shortlist": [
+  "PR0164",
+  "PR0186",
+  "PR0176",
+  "PR0039",
+  "PR0187"
+ ],
+ "explanation": "This MBA Technology Management program in Delhi has the highest median starting salary ($17361) and a strong placement rate (90%), directly addressing your priority of securing a good job. The minimum required grade (79%) is slightly higher than your current average (79.8%), but its focus on IT management aligns well with your interest in becoming a Portal Administrator.\n\nLocated in Pune, this MTech Computer Networks program offers strong technical skills (networking/cloud) and boasts a high median starting salary ($15192). Since you have an information security background and are interested in programming, the networking focus is highly relevant for roles like Portal Administrator.\n\nThis MBA Technology Management program in Hyderabad provides a good balance of career focus and cost. It has a high median starting salary ($15400) and is less demanding academically than some options, making it an excellent choice for someone prioritizing job outcomes while keeping costs low.\n\nThe MSc Human-Computer Interaction program in Coimbatore is geographically convenient and aligns with your interest in business process analysis. It offers a solid placement rate (85%) and a manageable tuition fee ($2250), making it a strong local option focused on user experience for portals.\n\nThis PG Diploma in Systems Administration in Pune is highly specialized and directly relates to the role of a Portal Administrator. While its median salary ($12687) is lower than top picks, it offers excellent placement (87%) and low tuition costs, making it a practical choice for job readiness.",
+ "wall_s": 43.9
+}

@@ -1,0 +1,56 @@
+{
+ "student_id": "ST0099",
+ "session": 1,
+ "mode": "single_objective",
+ "message": "Hi, I'm a student with a full stack certification background. My overall academic average is 76.8% in an IT/computer-science degree. I'm interested in cloud computing and developer. I want to become a Software Systems Engineer. My family can afford at most about USD 1200 per year. I live in Pune. I cannot leave my city. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 76.8
+  },
+  "career_goal": "Software Systems Engineer (interested in cloud computing and developer roles)",
+  "budget_max_usd_per_year": 1200,
+  "location_preference": "Pune",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Full stack certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0019",
+  "PR0180",
+  "PR0187",
+  "PR0084",
+  "PR0181",
+  "PR0045",
+  "PR0023",
+  "PR0156",
+  "PR0190",
+  "PR0080"
+ ],
+ "retrieved_ids": [
+  "PR0180",
+  "PR0019",
+  "PR0045",
+  "PR0190",
+  "PR0023",
+  "PR0187"
+ ],
+ "proposed_shortlist": [
+  "PR0019",
+  "PR0180",
+  "PR0045",
+  "PR0190"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0023"
+ ],
+ "reflection_note": "All programs on the initial shortlist (PR0019, PR0180, PR0045, PR0190) violate the hard budget constraint ($1200 max). This is a critical issue. I dropped all of them. Among the remaining candidates, only PR0023 meets the budget requirement ($650). Although its focus (Cybersecurity) is slightly off from 'Software Systems Engineer' and 'Cloud Computing', it is the *only* viable option that respects the student's financial limitations while matching the location preference (Pune). I have added PR0023 as the sole recommendation. The budget constraint is extremely restrictive for high-quality technical programs in this set.",
+ "explanation": "Silverline Technical University\nThis program was recommended because it perfectly aligns with your fixed preference for Pune and remains significantly under your maximum budget, costing only $650 USD annually. Furthermore, its 70% placement rate addresses your high priority on employability, and your academic background (76.8%) easily surpasses the minimum required grade of 57%. The main trade-off here is that while you are aiming for Software Systems Engineering, this MTech specializes in Cyber Security, requiring a shift in focus from pure development roles.",
+ "wall_s": 94.9
+}

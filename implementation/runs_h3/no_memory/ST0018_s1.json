@@ -1,0 +1,77 @@
+{
+ "student_id": "ST0018",
+ "session": 1,
+ "mode": "no_memory",
+ "version": 1,
+ "message": "Hi, I'm a student with a app development certification background. My overall academic average is 73.7% in an IT/computer-science degree. I'm interested in hacking and developer. I want to become a Design & UX. My family can afford at most about USD 33200 per year.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 73.7
+  },
+  "career_goal": "Design & UX",
+  "budget_max_usd_per_year": 33200,
+  "location_preference": null,
+  "mobility": "open_domestic",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in hacking and developer fields"
+  ],
+  "uncertainty_notes": [
+   "Location preference not stated.",
+   "Employability priority not stated."
+  ]
+ },
+ "prefilter_ids": [
+  "PR0149",
+  "PR0039",
+  "PR0174",
+  "PR0158",
+  "PR0084",
+  "PR0141",
+  "PR0013",
+  "PR0014",
+  "PR0181",
+  "PR0046",
+  "PR0166",
+  "PR0059",
+  "PR0049",
+  "PR0035",
+  "PR0029",
+  "PR0022",
+  "PR0182",
+  "PR0060",
+  "PR0191",
+  "PR0119"
+ ],
+ "retrieved_ids": [
+  "PR0158",
+  "PR0046",
+  "PR0166",
+  "PR0149",
+  "PR0039",
+  "PR0182",
+  "PR0119",
+  "PR0029"
+ ],
+ "proposed_shortlist": [
+  "PR0039",
+  "PR0158",
+  "PR0149",
+  "PR0166",
+  "PR0119"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0158",
+  "PR0149",
+  "PR0046",
+  "PR0039",
+  "PR0029"
+ ],
+ "reflection_note": "The original shortlist was strong but suffered from two location-based drops (PR0166, PR0119) that were not necessary. I have refined the list by dropping PR0166 and PR0119 due to suboptimal locations/focus areas. I swapped in PR0046 because it is a strong HCI option located in Pune, providing better diversity and choice compared to the original set. Finally, I added PR0029 (MSc Information Security) as a high-employability backup option that directly addresses the 'hacking/developer fields' interest while being located in Mumbai, making it highly appealing for career safety.",
+ "explanation": "Ashford School of Engineering\nThis program is highly recommended because it directly aligns with your career goal in Design & UX through its MDes Interaction Design curriculum. It offers a low annual tuition of $1900 and requires only a minimum grade percentage of 70%, which you meet with your 73.7%. The main trade-off here is that while the placement rate is strong at 84%, the median starting salary ($13259) is not the highest among the options, but it provides excellent foundational design skills.\n\nBridgewater School of Engineering\nThis MSc Human-Computer Interaction program is a strong fit for your Design & UX goals and requires no prior CS background. With an annual tuition of $3750, it offers a high placement rate of 86% in Mumbai. The trade-off compared to other options is the higher tuition cost ($3750) required to access this specific HCI specialization.\n\nBridgewater Institute of Applied Sciences\nThis option provides the lowest barrier to entry with an annual tuition of $1900 and a minimum grade requirement of 63%. While it covers both design_hci and software_engineering, the main trade-off is that its reported placement rate (75%) and median starting salary ($8623) are lower than most other programs on this list.\n\nLongford Institute of Applied Sciences\nThis program offers a balanced mix of your interests by covering both design_hci and software_engineering fields while keeping the tuition low at $2250. It maintains a high placement rate of 85% and provides a competitive median starting salary of $13646. The main trade-off is that its tuition ($2250) is slightly higher than Ashford's, but it offers superior reported earning potential.\n\nVantage Technical University\nThis program was recommended because it directly addresses your interest in hacking and developer fields through its MSc Information Security specialization. It boasts the highest placement rate (92%) and median starting salary ($14753). The main trade-off is that this shifts focus away from Design & UX into cybersecurity, and it also has the highest tuition cost at $3800.",
+ "wall_s": 0.0
+}

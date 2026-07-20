@@ -1,0 +1,62 @@
+{
+ "student_id": "ST0066",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a full stack certification background. My overall academic average is 79.1% in an IT/computer-science degree. I'm interested in Software Engineering and system developer. I want to become a Database Developer. My family can afford at most about USD 10100 per year. I live in Kolkata. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 79.1
+  },
+  "career_goal": "Database Developer",
+  "budget_max_usd_per_year": 10100,
+  "location_preference": "Kolkata",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "full stack certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0097",
+  "PR0191",
+  "PR0143",
+  "PR0058",
+  "PR0007",
+  "PR0099",
+  "PR0026",
+  "PR0090",
+  "PR0120",
+  "PR0170",
+  "PR0145",
+  "PR0033",
+  "PR0107",
+  "PR0111",
+  "PR0134",
+  "PR0074",
+  "PR0129",
+  "PR0133",
+  "PR0063",
+  "PR0173"
+ ],
+ "retrieved_ids": [
+  "PR0090",
+  "PR0129",
+  "PR0133"
+ ],
+ "proposed_shortlist": [
+  "PR0090",
+  "PR0129",
+  "PR0133"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0090"
+ ],
+ "reflection_note": "The initial shortlist contained three options, but PR0129 and PR0133 suffer from low median starting salaries and placement rates compared to PR0090. Since the student has a high priority on employability (Database Developer goal), PR0090 is overwhelmingly superior. Given that all programs are in Kolkata and within budget, only PR0090 should be kept as it offers the best combination of academic fit (Software Engineering/Data Science for DB Dev), strong salary potential ($12316), and high placement rate.",
+ "explanation": "Westbrook Institute of Applied Sciences\nThis program was recommended because it perfectly aligns with your location preference in Kolkata and remains well within your maximum budget, requiring only $3,550 USD annually against a $10,100 limit. Furthermore, your 79.1% grade meets the minimum admission requirement of 74%, and the high placement rate of 78% addresses your priority for employability. While the curriculum is titled Data Science, its inclusion of \"software engineering\" fields makes it relevant to your goal as a Database Developer. The main trade-off here is that the program offers no post-study work visa support (0 months).",
+ "wall_s": 139.8
+}

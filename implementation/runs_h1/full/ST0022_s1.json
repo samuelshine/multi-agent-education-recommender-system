@@ -1,0 +1,72 @@
+{
+ "student_id": "ST0022",
+ "session": 1,
+ "mode": "full",
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 79.8% in an IT/computer-science degree. I'm interested in programming and Business process analyst. I want to become a Portal Administrator. My family can afford at most about USD 2400 per year. I live in Coimbatore. I'm open to anywhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 79.8
+  },
+  "career_goal": "Portal Administrator",
+  "budget_max_usd_per_year": 2400,
+  "location_preference": null,
+  "mobility": "open_domestic",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in programming",
+   "Interested in Business process analyst"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0101",
+  "PR0054",
+  "PR0015",
+  "PR0020",
+  "PR0033",
+  "PR0157",
+  "PR0047",
+  "PR0074",
+  "PR0172",
+  "PR0087",
+  "PR0164",
+  "PR0182",
+  "PR0119",
+  "PR0143",
+  "PR0186",
+  "PR0176",
+  "PR0058",
+  "PR0187",
+  "PR0039",
+  "PR0174"
+ ],
+ "retrieved_ids": [
+  "PR0157",
+  "PR0176",
+  "PR0187",
+  "PR0039",
+  "PR0174",
+  "PR0164",
+  "PR0054",
+  "PR0186"
+ ],
+ "proposed_shortlist": [
+  "PR0187",
+  "PR0164",
+  "PR0186",
+  "PR0157"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0187",
+  "PR0164",
+  "PR0186",
+  "PR0039"
+ ],
+ "reflection_note": "The original shortlist was strong but lacked a dedicated program that explicitly bridges the technical depth (programming/CS) with user-facing business needs, which is critical for a 'Portal Administrator'. I have swapped in PR0039 (HCI) as it provides this crucial blend. The final list prioritizes direct IT support (PR0187), general tech management (PR0164), deep technical knowledge (PR0186), and user-centric design/business application (PR0039). All selected programs meet the budget constraint ($2400 max) and leverage the student's CS background while addressing their interest in business process analysis.",
+ "explanation": "Cavendish University\nThis program is recommended because it offers a highly affordable entry point with an annual tuition of $1450 and requires minimal academic prerequisites. With a placement rate of 87%, it strongly supports your priority for high employability in systems administration. The main trade-off here is that while the focus on IT support aligns well with system maintenance, it may be less specialized in deep programming or business process analysis compared to other options.\n\nNorthgate School of Engineering\nThis MBA program is an excellent fit given its strong alignment with your career goal as a Portal Administrator and interest in Business Process Analysis. It requires a minimum grade percentage of 79%, which matches your academic standing, and boasts a high placement rate of 90% with a median starting salary of $17361. The trade-off is that the focus on Technology Management means you will gain strong business acumen but may sacrifice deep technical programming skills.\n\nHalcyon Institute of Technology\nThis MTech program was recommended because it directly leverages your existing IT/CS background, which is required for admission and aligns with your interest in programming. It offers a solid median starting salary of $15192 while keeping the tuition within budget at $2050. The main trade-off is that its deep focus on networking and cloud technologies might be too specialized, potentially overlooking the broader business process analysis aspects of your career goals.\n\nLongford Institute of Applied Sciences\nThis MSc program is ideal because it bridges your interests in programming and business processes through Human-Computer Interaction (HCI). It has a high placement rate of 85% and an annual tuition cost of $2250, keeping you well within budget constraints. The trade-off to consider is that the primary focus on design and user experience may be less technically intensive than what you might expect from a pure programming degree.",
+ "wall_s": 200.4
+}

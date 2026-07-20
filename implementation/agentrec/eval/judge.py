@@ -71,7 +71,7 @@ def main():
     programs = json.loads((Path(args.data) / "programs.json").read_text())
     by_id = {p["program_id"]: p for p in programs}
     llm = LLMClient(model=args.judge,
-                    cache_dir=Path(__file__).parents[2].parent / "cache")
+                    cache_dir=Path(__file__).parents[2] / "cache")
 
     results = []
     for f in sorted(Path(args.runs).glob("*_s*.json")):

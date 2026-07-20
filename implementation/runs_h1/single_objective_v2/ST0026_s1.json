@@ -1,0 +1,59 @@
+{
+ "student_id": "ST0026",
+ "session": 1,
+ "mode": "single_objective",
+ "version": 2,
+ "message": "Hi, I'm a student with a shell programming certification background. My overall academic average is 74.8% in an IT/computer-science degree. I'm interested in programming and testing. I want to become a Applications Developer. My family can afford at most about USD 7100 per year. I live in Bengaluru. I cannot leave my city. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 74.8
+  },
+  "career_goal": "Applications Developer",
+  "budget_max_usd_per_year": 7100,
+  "location_preference": "Bengaluru",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in programming and testing",
+   "Shell programming certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0085",
+  "PR0015",
+  "PR0073",
+  "PR0002",
+  "PR0013",
+  "PR0173",
+  "PR0087"
+ ],
+ "retrieved_ids": [
+  "PR0085",
+  "PR0173",
+  "PR0013",
+  "PR0015",
+  "PR0073",
+  "PR0087"
+ ],
+ "proposed_shortlist": [
+  "PR0173",
+  "PR0085",
+  "PR0073",
+  "PR0087"
+ ],
+ "guard_dropped": [],
+ "final_shortlist": [
+  "PR0173",
+  "PR0085",
+  "PR0087",
+  "PR0013",
+  "PR0015"
+ ],
+ "reflection_note": "The original list was missing a strong, general-purpose option. PR0015 (MSc Information Systems) is added as the fifth slot because it offers broad business/IT knowledge, which complements both core development and data analysis tracks, while maintaining high feasibility and low cost. PR0073 was dropped due to its strict grade requirement. The final list prioritizes direct SE experience (PR0173), QA focus (PR0085), Data skills (PR0087), User Experience/Design (PR0013), and general IT knowledge (PR0015).",
+ "explanation": "Longford Technical University\nThis MTech in Computer Science was recommended because it aligns strongly with your interest in programming and offers a highly affordable tuition of only $500 per year, fitting well within your budget constraint. The program focuses on Software Engineering, which is directly relevant to your goal as an Applications Developer, and the institution is located in your preferred city of Bengaluru. The main trade-off here is that while the cost is excellent, its placement rate (62%) and median starting salary ($6851) are lower compared to other options on this list.\n\nKeystone Institute of Applied Sciences\nThis MSc in Software Quality Engineering directly addresses your stated interest in testing and programming by focusing on QA Testing and Software Engineering fields. It maintains a low annual tuition of $1450, keeping it well within your budget while being located in Bengaluru. The trade-off is that the specialization is heavily weighted toward quality assurance, which may be slightly less focused on core application development compared to other programs.\n\nAravalli Technical University\nThis MSc Data Science program was considered because its curriculum includes data science analytics and business information systems, fields related to modern applications development. It meets your location preference in Bengaluru and has a low tuition cost of $1200 per year. The main trade-off is that the program's focus on data science deviates from your core interest in programming and testing, and it also presents the lowest placement rate (58%) among the shortlisted options.\n\nMeridian Institute of Technology\nThis MSc Human-Computer Interaction offers excellent employability metrics with a high placement rate of 77% and a median starting salary of $9186. The tuition is very affordable at $900 per year, making it budget-friendly while being located in Bengaluru. However, the primary trade-off is that its focus on design (HCI) shifts away from your stated interest in programming and testing toward user experience and design principles.\n\nKeystone Institute of Technology\nThis MSc Information Systems was recommended due to its superior employability metrics, boasting a 78% placement rate and the highest median starting salary ($9707). Furthermore, it is highly affordable at $1200 per year and located in Bengaluru. The main trade-off is that the program's focus on \"business information systems\" suggests a strong business component, which may not satisfy your desire for deep technical work in programming or testing.",
+ "wall_s": 73.1
+}

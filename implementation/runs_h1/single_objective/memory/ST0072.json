@@ -1,0 +1,31 @@
+{
+ "student_id": "ST0072",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 80.3
+    },
+    "career_goal": "CRM Technical Developer",
+    "budget_max_usd_per_year": 3600,
+    "location_preference": "Bengaluru",
+    "mobility": "prefers_region",
+    "employability_priority": null,
+    "other_constraints": [
+     "r programming certification background",
+     "interested in IOT and system developer"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0198",
+    "PR0176",
+    "PR0119",
+    "PR0143"
+   ],
+   "feedback": null
+  }
+ ]
+}

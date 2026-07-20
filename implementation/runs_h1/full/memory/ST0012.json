@@ -1,0 +1,31 @@
+{
+ "student_id": "ST0012",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 82.9
+    },
+    "career_goal": "Information Technology Auditor",
+    "budget_max_usd_per_year": 11300,
+    "location_preference": "Chennai",
+    "mobility": "open_domestic",
+    "employability_priority": "high",
+    "other_constraints": [
+     "Interested in Management and testing"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0191",
+    "PR0157",
+    "PR0182",
+    "PR0076",
+    "PR0172"
+   ],
+   "feedback": null
+  }
+ ]
+}

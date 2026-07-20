@@ -1,0 +1,55 @@
+{
+ "student_id": "ST0087",
+ "session": 1,
+ "mode": "single_prompt",
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 74.4% in an IT/computer-science degree. I'm interested in IOT and cloud computing. I want to become a Quality Assurance Associate. My family can afford at most about USD 5600 per year. I live in Kolkata. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 74.4
+  },
+  "career_goal": "Quality Assurance Associate",
+  "budget_max_usd_per_year": 5600,
+  "location_preference": "Kolkata",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "r programming certification background",
+   "interested in IOT and cloud computing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0186",
+  "PR0197",
+  "PR0043",
+  "PR0147",
+  "PR0096",
+  "PR0199",
+  "PR0118",
+  "PR0121",
+  "PR0148",
+  "PR0016",
+  "PR0102",
+  "PR0180",
+  "PR0162",
+  "PR0112",
+  "PR0159",
+  "PR0032",
+  "PR0184",
+  "PR0165",
+  "PR0164",
+  "PR0029"
+ ],
+ "final_shortlist": [
+  "PR0032",
+  "PR0186",
+  "PR0147",
+  "PR0197",
+  "PR0162"
+ ],
+ "explanation": "This program is located in Kolkata, meeting your strong preference to stay near home. It focuses on Computer Science and Cloud/Networking, aligning well with your background and interests while offering a manageable tuition fee.\n\nLocated in Pune, this MTech program covers networking and cloud computing, which matches your stated interests. It has a high placement rate (83%) and a strong median starting salary ($15192), prioritizing job outcomes.\n\nThis MSc Cloud Computing program is in Coimbatore, offering relevant coursework (networking/cloud) and a good median starting salary ($13015). Its tuition fee is also within your family's budget.\n\nThis MTech program in Chennai focuses on networking and cloud computing. It has a high placement rate (85%) and is located in India, making it a strong contender for career growth.\n\nWhile focused on Cyber Security, this program is highly affordable ($1150 tuition) and located in Chennai. It meets the criteria of being near home (if you consider South India) and has a low entry grade requirement.",
+ "wall_s": 39.8
+}

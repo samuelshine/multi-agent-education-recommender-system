@@ -1,0 +1,101 @@
+{
+ "student_id": "ST0019",
+ "sessions": [
+  {
+   "session": 1,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 72.8
+    },
+    "career_goal": "Database Manager",
+    "budget_max_usd_per_year": null,
+    "location_preference": null,
+    "mobility": "open_domestic",
+    "employability_priority": null,
+    "other_constraints": [
+     "Interested in Computer Architecture and developer roles"
+    ],
+    "uncertainty_notes": [
+     "Budget maximum per year not specified.",
+     "Location preference not specified.",
+     "Mobility preference not specified (defaulting to open_domestic).",
+     "Employability priority not specified."
+    ]
+   },
+   "final_shortlist": [
+    "PR0026",
+    "PR0107",
+    "PR0074",
+    "PR0173",
+    "PR0145"
+   ],
+   "feedback": null
+  },
+  {
+   "session": 2,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 72.8
+    },
+    "career_goal": "Database Manager",
+    "budget_max_usd_per_year": 10700,
+    "location_preference": "Pune",
+    "mobility": "prefers_region",
+    "employability_priority": null,
+    "other_constraints": [
+     "Interested in Computer Architecture and developer roles"
+    ],
+    "uncertainty_notes": [
+     "Employability priority not specified."
+    ]
+   },
+   "final_shortlist": [
+    "PR0007",
+    "PR0173",
+    "PR0145",
+    "PR0107",
+    "PR0143"
+   ],
+   "feedback": {
+    "liked": [
+     "PR0026",
+     "PR0107"
+    ],
+    "disliked": []
+   }
+  },
+  {
+   "session": 3,
+   "constraints": {
+    "academic_background": {
+     "degree": "IT/computer-science",
+     "grade_pct": 72.8
+    },
+    "career_goal": "Database Manager",
+    "budget_max_usd_per_year": 10700,
+    "location_preference": "Pune",
+    "mobility": "prefers_region",
+    "employability_priority": "high",
+    "other_constraints": [
+     "Interested in Computer Architecture and developer roles"
+    ],
+    "uncertainty_notes": []
+   },
+   "final_shortlist": [
+    "PR0007",
+    "PR0191",
+    "PR0071",
+    "PR0145"
+   ],
+   "feedback": {
+    "liked": [
+     "PR0007",
+     "PR0173"
+    ],
+    "disliked": []
+   }
+  }
+ ]
+}
