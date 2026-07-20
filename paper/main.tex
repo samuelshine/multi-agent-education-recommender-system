@@ -1,6 +1,7 @@
 \documentclass[conference]{IEEEtran}
 \IEEEoverridecommandlockouts
 \usepackage{cite}
+\usepackage{url}
 \usepackage{amsmath,amssymb,amsfonts}
 \usepackage{algorithmic}
 \usepackage{graphicx}
@@ -120,10 +121,9 @@ classical educational-RS baselines on both standard information-retrieval metric
 agentic-specific metrics (explanation quality, adaptivity, cold-start robustness),
 answering the "lack of educational evaluation frameworks" gap named explicitly in
 \cite{llmagentrecsyssurvey}.
-\item \todo{A working prototype and evaluation protocol, released as an open-source
-artifact that third parties can run (repository URL to be added) -- finalize this claim
-once Sections~\ref{sec:methodology}--\ref{sec:evaluation} are executed and the repository
-is public.}
+\item A working prototype, evaluation harness, and evaluation results
+(Section~\ref{sec:results}), released as an open-source artifact that third parties can
+run and independently verify: \url{https://github.com/samuelshine/multi-agent-education-recommender-system}.
 \end{enumerate}
 
 \section{Related Work}
@@ -657,10 +657,16 @@ University), Bengaluru, India.
 The synthetic evaluation dataset (students, program catalog, graded relevance,
 session structure), its generator, and its dataset card documenting provenance, the
 ground-truth oracle, and known limitations are released with the paper's open-source
-artifact. The public seed corpus of \cite{careerrecfeatureselection} is fetched from
-its original GPL-3.0 repository at generation time and is not redistributed.
-\todo{Add the artifact repository URL; if the \cite{universityrecsyselahi} dataset is
-obtained and used for H1, state its on-request availability and usage conditions here.}
+artifact at \url{https://github.com/samuelshine/multi-agent-education-recommender-system}
+(directory \texttt{implementation/datagen/}), under a CC~BY~4.0 license. The public seed
+corpus of \cite{careerrecfeatureselection} is fetched from its original GPL-3.0
+repository at generation time and is not redistributed. The real-preference dataset of
+\cite{universityrecsyselahi}, requested from its authors for use as an H1 benchmark, had
+not been received at the time of writing; the results reported in
+Section~\ref{sec:results} use the synthetic dataset only. All run records and
+LLM-as-judge outputs underlying the reported results are included in the artifact
+(\texttt{implementation/runs\_h1/}, \texttt{implementation/runs\_h3/}) under the MIT
+license covering the code.
 
 \section*{Author Contributions}
 Single-author work; CRediT taxonomy roles apply in full to the sole author.

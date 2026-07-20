@@ -344,12 +344,27 @@ reconstruction table ported in full (13 rows, both baselines). Funding statement
 resolved: no external funding, MCA curriculum work at CHRIST (Deemed to be
 University), Bengaluru — author-confirmed. Paper builds clean, 8 pages.
 
-**Remaining `\todo`s (3, all release/venue-gated, not writing):**
-1. Contribution 3 — needs artifact repo public + URL.
-2. Data Availability — needs artifact URL; Elahi on-request status once resolved.
-3. AI-Assisted Writing Disclosure — venue-specific wording; author said keep
-   general for now (no target venue chosen yet), so this stays open by choice,
-   not blockage.
+### ARTIFACT PUBLIC (2026-07-21) — repo prep closed out
+
+Repo confirmed public at `github.com/samuelshine/multi-agent-education-recommender-system`.
+Caught and fixed: GitHub's default branch was still `main` (near-empty — 1 file, the
+original commit), so a visitor would have seen nothing; changed default branch to
+`dev` (`gh repo edit --default-branch dev`) so the real content (paper, prototype,
+license, run-record evidence) is what people actually land on.
+
+Contribution 3 and the Data Availability Statement `\todo`s resolved with the real
+URL; Data Availability also states plainly that the Elahi dataset was never obtained
+and results use synthetic data only (matches memory: no reply as of 2026-07-21).
+`\usepackage{url}` added to the preamble (was missing, broke the build once `\url{}`
+was used).
+
+**Remaining `\todo`s (2, both intentionally open, not blocked):**
+1. Contribution 3's older wording is fully resolved — no longer a todo.
+2. AI-Assisted Writing Disclosure — venue-specific wording; author said keep
+   general for now (no target venue chosen yet), open by choice.
+3. (line 15 is the `\todo{}` macro's own comment, not a real task.)
+
+Paper is functionally submission-ready pending only a target-venue choice.
 
 ### Standing risks (accepted or mitigated)
 
