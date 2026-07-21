@@ -483,3 +483,53 @@ unless the author wants those scrubbed too.)
 Not touched: `paper/sources/` (correctly gitignored, never public), the 2 remaining
 `\todo`s (AI-disclosure wording — open by author's explicit choice pending a venue
 decision), `research_design.md`/this file's own historical "one-month" mentions.
+
+## Mentor-feedback revision pass (2026-07-21)
+
+Six items from the author's mentor, all applied to `main.tex`, rebuilt clean (9 pages,
+0 errors, 0 undefined refs — grew from 8 pages due to added content, expected):
+
+1. **Metrics justification.** Evaluation Plan's "Metrics" paragraph expanded: NDCG@5
+   chosen over precision/recall because it is rank-sensitive and consumes the oracle's
+   0--3 graded relevance directly (precision/recall collapse this to a binary cutoff);
+   $k=5$ justified as matching both the classical baselines' own output length and a
+   plausible student-facing shortlist size; precision/recall kept as secondary because
+   they're what prior classical-RS papers report and readers will look for first.
+2. **Fig. 1 caption shortened.** Was a full explanatory paragraph (arrow meanings,
+   memory persistence, deterministic filter mention) — cut to one sentence. Safe to
+   cut because every fact it stated is already in the body paragraphs immediately
+   below the figure (checked line-by-line before cutting, nothing lost).
+3. **"D. Positioning" heading removed** from Related Work. Interpreted narrowly: only
+   the subsection heading was removed; the gap-summary paragraph and Table I stayed as
+   trailing unlabeled content of Section II (the user said remove the heading, not the
+   table — flagged this interpretation in case it needs revisiting).
+4. **& 6. Float placement fixed.** Added `\usepackage{placeins}` +
+   `\FloatBarrier` after Related Work, after Architecture, after H1's accuracy
+   subsection, and after the Explanation-quality subsection. This is what separated
+   Table I from Fig. 1 (previously crowded together) and pins Table II/III to their
+   own subsections instead of drifting. Table I and Fig. 1 now land in different
+   columns of the same page (Related Work ends / Architecture begins on the same
+   physical page) rather than genuinely different pages — flagged as the interpretation
+   taken; a hard page break is available if the mentor wants literal page separation,
+   but isn't standard IEEE practice and would waste column space.
+5. **Table unification (the biggest item).** Table II (accuracy) went from 4 rows to
+   5: added the "Five-agent v2 (revised)" row (previously v2 only existed in prose,
+   never in the table). Table III (explanation quality) went from 3 rows to 5: added
+   HRSPCA/StudieMe rows marked "---" with a footnote explaining they're non-generative
+   ranking pipelines with no natural-language output to score (confirmed via
+   `grep -n explanation baselines/*.py` → zero hits, so "N/A" is accurate, not a
+   dodge). Terminology unified across both tables: "HRSPCA (re-impl.)", "StudieMe
+   (re-impl.)", "Single-prompt baseline" (was inconsistently "Single-prompt LLM
+   baseline" in one table), "Five-agent v1 (pre-registered)", "Five-agent v2
+   (revised)" — identical labels in both tables now. Bolding convention also made
+   consistent: true column maximum bolded in every performance-metric column in both
+   tables (previously R@5 was never bolded even when single-prompt had the max, and
+   Table III's Clarity column was never bolded even though v1 had the max) — both
+   tables now state this rule in their caption. Version-change footnote added directly
+   under Table II (v1 vs. v2 definition) and cross-referenced from Table III's
+   footnote, satisfying "explain the changes done between versions" without bloating
+   either caption (kept in line with item 2's short-caption preference).
+
+Two intentional interpretation calls flagged above (item 3 scope, item 6 same-page-
+different-column vs. literal different pages) — surface these to the author before
+next commit in case either needs adjusting.

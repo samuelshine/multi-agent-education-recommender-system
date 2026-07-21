@@ -9,6 +9,7 @@
 \usepackage{xcolor}
 \usepackage{tikz}
 \usepackage{booktabs}
+\usepackage{placeins}
 \usetikzlibrary{arrows.meta, positioning, fit, backgrounds}
 
 % ---------------------------------------------------------------
@@ -197,8 +198,6 @@ Section~\ref{sec:architecture}, but scoped to course-level choice for enrolled s
 rather than institution/program-level choice for prospective students, and without
 multi-objective reasoning over career, financial, location, and employability constraints.
 
-\subsection{Positioning}
-
 Table~\ref{tab:gap} summarizes the resulting gap: no system in the surveyed literature
 combines an agentic multi-agent architecture with the pre-admission, cross-institution
 decision scope while reasoning jointly over the constraint set a prospective student
@@ -220,6 +219,7 @@ actually faces.
 \bottomrule
 \end{tabular}
 \end{table}
+\FloatBarrier
 
 \section{Proposed Architecture}
 \label{sec:architecture}
@@ -259,15 +259,7 @@ goal-planning's constraint logic into profiling and recommendation.
 \draw[arr] (explain) -- (output);
 \draw[arr, dashed] (memory.west) to[out=170,in=190,looseness=1.15] (profile.west);
 \end{tikzpicture}
-\caption{Proposed five-agent architecture, in actual pipeline order. Solid arrows are
-the within-session flow: Profiling \& Constraint $\to$ Retrieval $\to$ Recommendation
-\& Planning $\to$ Memory \& Reflection $\to$ Explanation. The Memory \& Reflection
-Agent reviews the Recommendation \& Planning Agent's shortlist before it reaches the
-Explanation Agent, and persists the student's constraint object and shortlist so a
-later session's Profiling \& Constraint Agent (dashed arrow) and Recommendation \&
-Planning Agent start from prior state rather than from scratch. A deterministic
-hard-constraint filter (not shown, not an agent) runs before Retrieval and again after
-Memory \& Reflection; see Section~\ref{sec:architecture}.}
+\caption{Proposed five-agent architecture and pipeline flow.}
 \label{fig:architecture}
 \end{figure}
 
@@ -321,6 +313,7 @@ splitting the two responsibilities back apart: the merge did not visibly cost ei
 the memory or the reflection function room to operate. A finer-grained ablation that
 disables memory persistence and shortlist self-critique independently would be needed
 to state this more strongly, and is left to future work.
+\FloatBarrier
 
 \section{Research Design}
 \label{sec:methodology}
@@ -412,12 +405,21 @@ local model or bring-your-own API key).
 \section{Evaluation Plan}
 \label{sec:evaluation}
 
-\textbf{Metrics.} The headline metric is NDCG@5 with graded relevance, under the
-pre-registered 5\% relative non-inferiority margin against the strongest classical
-baseline (H1); precision@5 and recall@5 are reported as secondary metrics, following
-\cite{recommendationsys}. All systems are evaluated on the same held-out split of 100
-students; the remaining 200 students serve as the historical pool for the HRSPCA
-predictor stage.
+\textbf{Metrics.} The headline metric is NDCG@5 with graded relevance (0--3, the
+oracle's four-level grade; Section~\ref{sec:planned-methodology}), chosen over
+precision/recall alone for two reasons: it is rank-sensitive, rewarding a system that
+places the best-fitting program first rather than fifth, which flat precision/recall
+cannot distinguish; and it consumes the oracle's graded relevance directly, rather than
+collapsing it to a binary relevant/not-relevant cutoff and discarding information
+about \emph{how well} a program fits. $k=5$ matches both the classical baselines' own
+reconstructed output length (Section~\ref{sec:planned-methodology}, appendix) and a
+plausible shortlist size for a student to actually review. Precision@5 and recall@5 are
+still reported as secondary metrics, since they are the metrics most classical
+recommender-system evaluations report \cite{recommendationsys} and so are what a reader
+comparing against prior work will look for first, under the pre-registered 5\% relative
+non-inferiority margin against the strongest classical baseline (H1). All systems are
+evaluated on the same held-out split of 100 students; the remaining 200 students serve
+as the historical pool for the HRSPCA predictor stage.
 
 \textbf{Explanation quality} is scored by LLM-as-judge on a three-dimension rubric
 (clarity, groundedness in the provided program evidence, usefulness; 1--5 each),
@@ -447,7 +449,9 @@ reaction to any system's actual output.
 \subsection{Top-$k$ accuracy (H1)}
 
 Table~\ref{tab:results-h1} reports accuracy on the held-out 100-student evaluation
-split at the full-information state. The re-implemented classical baselines
+split at the full-information state, for both classical baselines, the single-prompt
+ablation, and both agentic pruning policies (v1 pre-registered, v2 revised) as separate
+rows. The re-implemented classical baselines
 (Section~\ref{sec:planned-methodology}, reconstruction table in the appendix) set the
 non-inferiority bar: the strongest baseline, HRSPCA, reaches NDCG@5 $= 0.793$, so under
 the pre-registered 5\% relative margin the proposed system must reach NDCG@5 $\geq
@@ -456,7 +460,7 @@ the pre-registered 5\% relative margin the proposed system must reach NDCG@5 $\g
 \begin{table}[t]
 \caption{Accuracy on the held-out evaluation split ($n=100$, full information,
 completed runs; zero pipeline crashes, 4 validated-fallback events across 500 agent
-calls).}
+calls). Bold marks the column maximum among performance metrics.}
 \label{tab:results-h1}
 \centering
 \begin{tabular}{@{}lcccc@{}}
@@ -465,8 +469,14 @@ calls).}
 \midrule
 HRSPCA (re-impl.\ \cite{hrspca}) & 0.793 & 0.796 & 0.061 & 5.0 \\
 StudieMe (re-impl.\ \cite{studieme}) & 0.673 & 0.760 & 0.113 & 5.0 \\
-Single-prompt LLM baseline & \textbf{0.830} & \textbf{0.912} & 0.166 & 4.9 \\
-Five-agent (proposed) & 0.706 & 0.904 & 0.129 & 3.9 \\
+Single-prompt baseline & \textbf{0.830} & \textbf{0.912} & \textbf{0.166} & 4.9 \\
+Five-agent v1 (pre-registered) & 0.706 & 0.904 & 0.129 & 3.9 \\
+Five-agent v2 (revised) & 0.806 & 0.898 & 0.156 & 4.8 \\
+\midrule
+\multicolumn{5}{@{}p{0.92\linewidth}@{}}{\footnotesize v1: pre-registered pruning
+policy, abstains rather than pads a shortlist below $k$. v2: post-hoc revision
+backfilling to $k$ with valid candidates and dropping only for hard-constraint
+violations -- tests, not replaces, v1 (Section~\ref{sec:results}).} \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -508,6 +518,7 @@ change the architectural verdict on accuracy: v2 remains 2.9\% relative below th
 single-prompt baseline (0.830) on NDCG@5, so the five-agent decomposition shows no
 top-$k$ accuracy advantage over a single LLM call on this benchmark under either
 pruning policy.
+\FloatBarrier
 
 \subsection{Multi-objective conflict (H2)}
 
@@ -549,8 +560,10 @@ caveat that the pre-registered phrase ``cold-start mitigation'' is more precisel
 
 \subsection{Explanation quality (H1)}
 
-Table~\ref{tab:results-explanation} reports cross-judge mean rubric scores (1--5) for
-the three explanation-bearing conditions on the full 100-student evaluation split.
+Table~\ref{tab:results-explanation} reports cross-judge mean rubric scores (1--5) on
+the full 100-student evaluation split for the three conditions that generate
+natural-language output, alongside the two classical baselines (which do not) for a
+complete comparison against Table~\ref{tab:results-h1}.
 \textbf{H1's explanation-quality claim is supported}, and by a wide margin on the two
 dimensions that most directly bear on trustworthy decision support: groundedness (4.92
 v1 / 4.92 v2 vs.\ 3.96 single-prompt) and usefulness (3.65 / 3.60 vs.\ 2.80). Clarity
@@ -561,16 +574,23 @@ this architecture.
 
 \begin{table}[t]
 \caption{Explanation-quality rubric scores (1--5), cross-judge mean of
-\texttt{qwen2.5:14b} and \texttt{mistral-nemo:12b}, blind absolute scoring, $n=100$.}
+\texttt{qwen2.5:14b} and \texttt{mistral-nemo:12b}, blind absolute scoring, $n=100$.
+Bold marks the column maximum.}
 \label{tab:results-explanation}
 \centering
 \begin{tabular}{@{}lccc@{}}
 \toprule
 \textbf{System} & \textbf{Clarity} & \textbf{Groundedness} & \textbf{Usefulness} \\
 \midrule
-Five-agent v1 & 4.11 & \textbf{4.92} & \textbf{3.65} \\
-Five-agent v2 & 4.06 & \textbf{4.92} & 3.60 \\
+HRSPCA (re-impl.\ \cite{hrspca}) & --- & --- & --- \\
+StudieMe (re-impl.\ \cite{studieme}) & --- & --- & --- \\
 Single-prompt baseline & 3.69 & 3.96 & 2.80 \\
+Five-agent v1 (pre-registered) & \textbf{4.11} & \textbf{4.92} & \textbf{3.65} \\
+Five-agent v2 (revised) & 4.06 & \textbf{4.92} & 3.60 \\
+\midrule
+\multicolumn{4}{@{}p{0.92\linewidth}@{}}{\footnotesize HRSPCA/StudieMe are
+non-generative ranking pipelines (Section~\ref{sec:architecture}) with no
+natural-language output to score. v1/v2 defined in Table~\ref{tab:results-h1}.} \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -598,6 +618,7 @@ usefulness 3.65 / 3.57 vs.\ 2.80) -- so while multi-objective reasoning does not
 oracle-graded ranking, it does produce more reliably grounded and useful explanations
 for exactly the students facing a real trade-off, which is the qualitative form in
 which H2's contribution survives.
+\FloatBarrier
 
 \section{Discussion and Limitations}
 \label{sec:discussion}
