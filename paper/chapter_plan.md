@@ -533,3 +533,32 @@ Six items from the author's mentor, all applied to `main.tex`, rebuilt clean (9 
 Two intentional interpretation calls flagged above (item 3 scope, item 6 same-page-
 different-column vs. literal different pages) — surface these to the author before
 next commit in case either needs adjusting.
+
+## FloatBarrier reverted (2026-07-21) — author caught a real regression
+
+The item-4/6 `\FloatBarrier` fix from the mentor-feedback pass caused exactly the
+trade-off flagged at the time: on page 2, Table I couldn't fit at the top of either
+column (both already held running text), and because `\FloatBarrier` refuses to let
+*any* later content pass until the float resolves, the entire remainder of the page 2
+right column went blank and Table I got pushed to page 3 — a large, non-continuous
+gap. Author caught this and asked for strictly continuous text, strict IEEEtran
+template adherence.
+
+**Fix: removed all 4 `\FloatBarrier`s and the `placeins` package entirely.**
+`\FloatBarrier`/`placeins` were never part of the standard IEEEtran conference
+template to begin with, so removing them is itself a move toward stricter template
+compliance, not away from it. Reverted to default LaTeX float placement (bare `[t]`
+positioning, already in place). Rebuilt at 8 pages (down from 9 — confirms the barrier
+was the direct cause of the extra page). Every one of the 8 pages re-rendered and
+visually inspected end to end: zero blank gaps anywhere, including the last page
+(both columns run close to the bottom, satisfying IEEE's own last-page-balance
+guidance for free). Table I and Fig. 1 land sequentially in the same column on page 3
+under default placement — not the separate-column layout the barrier produced, but
+also not literally crowded/overlapping (that was the pre-existing diagram-overflow
+bug, already fixed independently in an earlier pass) — clean and standard-looking.
+
+**Lesson for future edits:** default LaTeX float placement is the safer choice for
+IEEE two-column camera-ready output. Forcing placement (via `\FloatBarrier`, `[H]`,
+etc.) trades gap-free flow for placement precision, and IEEE conference papers
+generally prize the former. Prefer default behavior unless a float is visibly
+drifting to a clearly wrong section.

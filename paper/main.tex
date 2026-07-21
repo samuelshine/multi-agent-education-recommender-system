@@ -9,7 +9,6 @@
 \usepackage{xcolor}
 \usepackage{tikz}
 \usepackage{booktabs}
-\usepackage{placeins}
 \usetikzlibrary{arrows.meta, positioning, fit, backgrounds}
 
 % ---------------------------------------------------------------
@@ -219,7 +218,6 @@ actually faces.
 \bottomrule
 \end{tabular}
 \end{table}
-\FloatBarrier
 
 \section{Proposed Architecture}
 \label{sec:architecture}
@@ -313,7 +311,6 @@ splitting the two responsibilities back apart: the merge did not visibly cost ei
 the memory or the reflection function room to operate. A finer-grained ablation that
 disables memory persistence and shortlist self-critique independently would be needed
 to state this more strongly, and is left to future work.
-\FloatBarrier
 
 \section{Research Design}
 \label{sec:methodology}
@@ -518,7 +515,6 @@ change the architectural verdict on accuracy: v2 remains 2.9\% relative below th
 single-prompt baseline (0.830) on NDCG@5, so the five-agent decomposition shows no
 top-$k$ accuracy advantage over a single LLM call on this benchmark under either
 pruning policy.
-\FloatBarrier
 
 \subsection{Multi-objective conflict (H2)}
 
@@ -618,7 +614,6 @@ usefulness 3.65 / 3.57 vs.\ 2.80) -- so while multi-objective reasoning does not
 oracle-graded ranking, it does produce more reliably grounded and useful explanations
 for exactly the students facing a real trade-off, which is the qualitative form in
 which H2's contribution survives.
-\FloatBarrier
 
 \section{Discussion and Limitations}
 \label{sec:discussion}
