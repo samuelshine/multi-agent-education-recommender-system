@@ -51,9 +51,9 @@ faithfully re-implemented classical baselines (HRSPCA, StudieMe) and a single-pr
 ablation, on a released synthetic constraint-preference benchmark. The architecture does
 not win on oracle-graded top-$k$ accuracy: it falls outside a pre-registered 5\%
 non-inferiority margin under its initial design, and a diagnosed-and-corrected variant
-matches classical baselines but not the single-prompt ablation. It wins decisively,
+exceeds both classical baselines but not the single-prompt ablation. It wins decisively,
 however, on explanation quality as scored by two independent LLM judges -- grounded in
-retrieved evidence in 91--95\% of explanations against 36--67\% for the single-prompt
+retrieved evidence in 91--100\% of explanations against 36--67\% for the single-prompt
 baseline -- and on multi-objective conflict cases, where the same groundedness advantage
 holds even though multi-objective ranking does not outperform a single-objective ranker on
 oracle-graded relevance. A memory-and-reflection mechanism modestly improves
@@ -108,7 +108,8 @@ substantiates this claim against the closest prior work in both the classical ed
 recommender literature and the agentic recommender literature. Section~\ref{sec:architecture}
 proposes a five-agent architecture for this gap. Section~\ref{sec:methodology} and
 Section~\ref{sec:evaluation} lay out the research questions, hypotheses, and evaluation
-protocol guiding the prototype and experiments currently under development.
+protocol; Section~\ref{sec:results} reports the resulting experiments on a working
+prototype.
 
 This paper's contributions are:
 \begin{enumerate}
@@ -237,57 +238,81 @@ goal-planning's constraint logic into profiling and recommendation.
 \begin{figure}[t]
 \centering
 \begin{tikzpicture}[
-  node distance=6mm and 8mm,
-  box/.style={draw, rounded corners, align=center, minimum height=9mm, minimum width=28mm, font=\small},
+  node distance=3.2mm,
+  box/.style={draw, rounded corners, align=center, minimum height=8mm,
+              text width=50mm, font=\small, inner sep=1.5mm},
   arr/.style={-Stealth, thick}
 ]
 \node[box] (student) {Prospective Student};
 \node[box, below=of student] (profile) {Profiling \& Constraint Agent};
-\node[box, below=of profile] (retrieval) {Retrieval Agent\\[1pt]\footnotesize (institution/program RAG)};
+\node[box, below=of profile] (retrieval) {Retrieval Agent\\[1pt]\footnotesize (selects from prefiltered candidates)};
 \node[box, below=of retrieval] (recplan) {Recommendation \& Planning Agent\\[1pt]\footnotesize (multi-objective ranking)};
-\node[box, below=of recplan] (explain) {Explanation Agent};
-\node[box, right=16mm of recplan] (memory) {Memory \& Reflection Agent};
+\node[box, below=of recplan] (memory) {Memory \& Reflection Agent\\[1pt]\footnotesize (shortlist review + cross-session state)};
+\node[box, below=of memory] (explain) {Explanation Agent};
 \node[box, below=of explain] (output) {Ranked Shortlist + Rationale};
 
 \draw[arr] (student) -- (profile);
 \draw[arr] (profile) -- (retrieval);
 \draw[arr] (retrieval) -- (recplan);
-\draw[arr] (recplan) -- (explain);
-\draw[arr] (explain) -- (output);
-\draw[arr] (memory) -- (profile);
 \draw[arr] (recplan) -- (memory);
-\draw[arr] (memory) -- (recplan);
+\draw[arr] (memory) -- (explain);
+\draw[arr] (explain) -- (output);
+\draw[arr, dashed] (memory.west) to[out=170,in=190,looseness=1.15] (profile.west);
 \end{tikzpicture}
-\caption{Proposed five-agent architecture. The Memory \& Reflection Agent persists the
-student's constraint object across sessions and reviews the Recommendation \& Planning
-Agent's shortlist before it reaches the Explanation Agent.}
+\caption{Proposed five-agent architecture, in actual pipeline order. Solid arrows are
+the within-session flow: Profiling \& Constraint $\to$ Retrieval $\to$ Recommendation
+\& Planning $\to$ Memory \& Reflection $\to$ Explanation. The Memory \& Reflection
+Agent reviews the Recommendation \& Planning Agent's shortlist before it reaches the
+Explanation Agent, and persists the student's constraint object and shortlist so a
+later session's Profiling \& Constraint Agent (dashed arrow) and Recommendation \&
+Planning Agent start from prior state rather than from scratch. A deterministic
+hard-constraint filter (not shown, not an agent) runs before Retrieval and again after
+Memory \& Reflection; see Section~\ref{sec:architecture}.}
 \label{fig:architecture}
 \end{figure}
 
-\textbf{Profiling \& Constraint Agent.} Elicits academic background, career goals, and
-financial, location, and employability-outcome constraints through structured dialogue;
-outputs a structured student-constraint object consumed by downstream agents.
+\textbf{Profiling \& Constraint Agent.} Extracts a structured student-constraint object
+(academic background, career goal, and financial, location, and employability-outcome
+constraints) from the student's message for the current session. Extraction is
+single-turn per session, not an interactive clarifying-question loop within a session;
+continuity across sessions comes from the Memory \& Reflection Agent's persisted state,
+which this agent consumes as prior context and updates rather than re-deriving from
+scratch (Fig.~\ref{fig:architecture}, dashed arrow).
 
-\textbf{Retrieval Agent.} Performs retrieval-augmented generation over institution and
-program data (admissions criteria, cost, location, outcome statistics), following the
-retrieval-plus-generation pattern established in \cite{ragpersonalisedrecommendations} but
-against an education-specific knowledge base.
+\textbf{Retrieval Agent.} Selects the programs worth presenting to this student from a
+deterministic hard-constraint prefilter's output (admission, budget, and location
+feasibility checked against the constraint object; programs failing a hard constraint
+are dropped before any agent sees them). This is LLM-based relevance selection over an
+in-context candidate list narrowed by the prefilter, not vector or embedding retrieval
+against an external knowledge base; the broader retrieval-plus-generation pattern this
+stage follows is established in \cite{ragpersonalisedrecommendations}.
 
 \textbf{Recommendation \& Planning Agent.} Ranks retrieved candidates against the
 student-constraint object under multiple, potentially conflicting objectives (academic fit,
 financial feasibility, location, employability outcome) -- the mechanism RQ2
 (Section~\ref{sec:methodology}) evaluates directly.
 
+\textbf{Memory \& Reflection Agent.} Reviews the proposed shortlist for constraint
+violations and weaker-than-available candidates before it reaches the Explanation
+Agent, and persists the student-constraint object and shortlist across sessions so
+later sessions start from prior state -- the mechanism RQ3 evaluates for
+session-over-session adaptivity. A second, deterministic hard-constraint check runs
+after this agent as a final guarantee independent of its judgment.
+
 \textbf{Explanation Agent.} Generates a per-recommendation natural-language rationale
 grounded in the evidence the Retrieval Agent surfaced, addressing the explainability
 limitation \cite{recommendersyshighered} documents in classical systems.
 
-\textbf{Memory \& Reflection Agent.} Persists the student-constraint object and prior
-shortlists across sessions, and reflects on the current shortlist before it reaches the
-Explanation Agent -- the mechanism RQ3 evaluates for cold-start robustness.
+Two deterministic, non-agentic components wrap this five-agent pipeline and are the
+mechanism that actually guarantees hard-constraint satisfaction, rather than relying on
+agent judgment alone: a prefilter before the Retrieval Agent removes programs violating
+the student's admission, budget, or location constraints, and a post-reflection guard
+repeats the same check after the Memory \& Reflection Agent, in case a revision
+reintroduced a violation. Both are described further alongside the evaluation results
+they support (Section~\ref{sec:results}).
 
 This merge (7$\to$5 agents) was a judgment call, argued from buildability within a
-one-month timeline rather than derived from an ablation; the H3 results
+single-author prototype's scope rather than derived from an ablation; the H3 results
 (Section~\ref{sec:results}) provide the retrospective check. Memory and reflection were
 evaluated as a single fused mechanism (the no-memory ablation removes both together),
 and that fused mechanism measurably improved session-over-session accuracy and
@@ -410,8 +435,11 @@ replacing the five-agent decomposition, following the ablation logic in
 \cite{onlinecoursemaskg}; and (v) the two re-implemented classical baselines. H1
 comparisons use the full-information state (complete profile, mirroring the filled
 application form classical systems assume); H3 uses the three-session
-progressive-disclosure structure with simulated-user feedback reacting to what each
-system actually recommended in the prior session.
+progressive-disclosure structure, with simulated-user feedback (which programs the
+student liked or disliked) derived from the oracle's per-student utility ranking,
+fixed at dataset-generation time and identical across every compared system --
+Section~\ref{sec:discussion} discusses this as a limitation rather than an observed
+reaction to any system's actual output.
 
 \section{Results}
 \label{sec:results}
@@ -435,7 +463,7 @@ calls).}
 \toprule
 \textbf{System} & \textbf{NDCG@5} & \textbf{P@5} & \textbf{R@5} & \textbf{$|$list$|$} \\
 \midrule
-HRSPCA (re-impl.\ \cite{hrspca}) & \textbf{0.793} & 0.796 & 0.061 & 5.0 \\
+HRSPCA (re-impl.\ \cite{hrspca}) & 0.793 & 0.796 & 0.061 & 5.0 \\
 StudieMe (re-impl.\ \cite{studieme}) & 0.673 & 0.760 & 0.113 & 5.0 \\
 Single-prompt LLM baseline & \textbf{0.830} & \textbf{0.912} & 0.166 & 4.9 \\
 Five-agent (proposed) & 0.706 & 0.904 & 0.129 & 3.9 \\
@@ -613,9 +641,8 @@ baselines, not the proposed system.
 
 \textbf{LLM-as-judge validity.} Explanation-quality scores come from LLM judges, not
 human raters. Cross-family judging, blinding, absolute scoring, and two-judge agreement
-reduce -- but do not eliminate -- known judge biases; no human-subject validation is
-performed within this paper's timeline, and the judge scores should be read
-accordingly.
+reduce -- but do not eliminate -- known judge biases; this study performs no
+human-subject validation of the judge scores, which should be read accordingly.
 
 \textbf{Single experiment model and scale.} All agentic conditions run on one local
 open-weights model (\texttt{gemma4:e4b}); conclusions about the architecture are
@@ -648,39 +675,8 @@ mechanism. The prototype, evaluation harness, and synthetic dataset are released
 open-source artifact so these directions -- and independent scrutiny of the results
 reported here -- do not depend on access to the original author's environment.
 
-\section*{Acknowledgment}
-This work received no external or institutional funding. It was carried out as part
-of the author's Master of Computer Applications curriculum at CHRIST (Deemed to be
-University), Bengaluru, India.
-
-\section*{Data Availability Statement}
-The synthetic evaluation dataset (students, program catalog, graded relevance,
-session structure), its generator, and its dataset card documenting provenance, the
-ground-truth oracle, and known limitations are released with the paper's open-source
-artifact at \url{https://github.com/samuelshine/multi-agent-education-recommender-system}
-(directory \texttt{implementation/datagen/}), under a CC~BY~4.0 license. The public seed
-corpus of \cite{careerrecfeatureselection} is fetched from its original GPL-3.0
-repository at generation time and is not redistributed. The real-preference dataset of
-\cite{universityrecsyselahi}, requested from its authors for use as an H1 benchmark, had
-not been received at the time of writing; the results reported in
-Section~\ref{sec:results} use the synthetic dataset only. All run records and
-LLM-as-judge outputs underlying the reported results are included in the artifact
-(\texttt{implementation/runs\_h1/}, \texttt{implementation/runs\_h3/}) under the MIT
-license covering the code.
-
-\section*{Author Contributions}
-Single-author work; CRediT taxonomy roles apply in full to the sole author.
-
-\section*{Conflict of Interest Statement}
-The author declares no conflict of interest.
-
-\section*{AI-Assisted Writing Disclosure}
-\todo{This draft was produced with AI assistance (literature search, drafting, LaTeX
-formatting) under author supervision. Replace with the venue-specific disclosure statement
-required by the target IEEE conference before submission -- wording differs by venue.}
-
 \appendix
-\section*{Appendix: Baseline Reconstruction Table}
+\section*{Baseline Reconstruction Table}
 
 Both classical baselines were re-implemented from their original papers' full texts
 (Section~\ref{sec:planned-methodology}). Table~\ref{tab:reconstruction} logs every
@@ -720,6 +716,37 @@ S-5 & Top-20 then top-15 output & Top-$k$ ($k{=}5$), matching this paper's evalu
 \bottomrule
 \end{tabular}
 \end{table}
+
+\section*{Acknowledgment}
+This work received no external or institutional funding. It was carried out as part
+of the author's Master of Computer Applications curriculum at CHRIST (Deemed to be
+University), Bengaluru, India.
+
+\section*{Data Availability Statement}
+The synthetic evaluation dataset (students, program catalog, graded relevance,
+session structure), its generator, and its dataset card documenting provenance, the
+ground-truth oracle, and known limitations are released with the paper's open-source
+artifact at \url{https://github.com/samuelshine/multi-agent-education-recommender-system}
+(directory \texttt{implementation/datagen/}), under a CC~BY~4.0 license. The public seed
+corpus of \cite{careerrecfeatureselection} is fetched from its original GPL-3.0
+repository at generation time and is not redistributed. The real-preference dataset of
+\cite{universityrecsyselahi}, requested from its authors for use as an H1 benchmark, had
+not been received at the time of writing; the results reported in
+Section~\ref{sec:results} use the synthetic dataset only. All run records and
+LLM-as-judge outputs underlying the reported results are included in the artifact
+(\texttt{implementation/runs\_h1/}, \texttt{implementation/runs\_h3/}) under the MIT
+license covering the code.
+
+\section*{Author Contributions}
+Single-author work; CRediT taxonomy roles apply in full to the sole author.
+
+\section*{Conflict of Interest Statement}
+The author declares no conflict of interest.
+
+\section*{AI-Assisted Writing Disclosure}
+\todo{This draft was produced with AI assistance (literature search, drafting, LaTeX
+formatting) under author supervision. Replace with the venue-specific disclosure statement
+required by the target IEEE conference before submission -- wording differs by venue.}
 
 \bibliographystyle{IEEEtran}
 \bibliography{references}

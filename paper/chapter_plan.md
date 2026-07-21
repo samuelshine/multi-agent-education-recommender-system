@@ -390,3 +390,96 @@ Paper is functionally submission-ready pending only a target-venue choice.
 ## INSIGHT Collection
 
 *(populated as dialogue produces user-articulated answers — quotes user's own words only)*
+
+## Post-draft editorial pass (2026-07-21) — diagram, paragraph, and structure audit
+
+User request: verify the architecture diagram against the implementation, verify every
+paragraph, remove all "one-month timeline" references, and check IEEE structural
+conventions. Findings and fixes, all applied to `main.tex` and rebuilt clean (8 pages,
+0 errors, 0 undefined refs):
+
+**Diagram bug (the reported page-3 layout issue).** The old `tikzpicture` let node
+widths auto-expand to fit unwrapped text; the Recommendation \& Planning Agent box grew
+wide enough that `right=16mm of recplan` pushed the Memory \& Reflection Agent box past
+`\columnwidth`, overlapping "IV. RESEARCH DESIGN" in the right column — this is almost
+certainly what read as "some agents aren't mentioned" (the box wasn't missing, it was
+visually clipped/overlapped). Fixed by redesigning as a single vertical chain with an
+explicit `text width` on every node (fixed width can't silently overflow again) and a
+dashed cross-session feedback arrow from Memory \& Reflection back to Profiling,
+looping left within the column. Re-rendered and visually confirmed: no overlap, all 5
+agents clearly labeled.
+
+**Diagram/text did not match implementation (verified by reading `agentrec/*.py`
+directly):**
+- The diagram and prose showed Recommend feeding Explain directly, with Memory \&
+  Reflection off to the side. `pipeline.py` actually runs Recommend $\to$ Reflect
+  $\to$ Explain in sequence — reflection happens *before* explanation, not beside it.
+  Fixed: diagram and paragraph order now match `pipeline.py`'s real sequence.
+- "Retrieval Agent... retrieval-augmented generation... against an education-specific
+  knowledge base" — no embeddings, vector store, or external-corpus query exist
+  anywhere in the code (`grep` for embed/vector/faiss/chroma/RAG returned nothing
+  outside prose). The real mechanism: a deterministic keyword-scored prefilter (code,
+  200$\to$20 programs) then an LLM selects from that in-context list. Fixed: paragraph
+  now describes this accurately; dropped "RAG" from the diagram label.
+- "Profiling \& Constraint Agent... elicits... through structured dialogue" — `pipeline.py`
+  calls profiling once per session on a single rendered message (`simulate.py`); no
+  multi-turn clarifying-question loop exists. Continuity is cross-session memory
+  injection, a different mechanism. Fixed: paragraph now says single-turn extraction
+  per session, continuity via persisted memory.
+- The deterministic hard-constraint prefilter and post-reflection guard
+  (`agentrec/README.md` "Safety guards" — confirmed real, already documented there)
+  were never mentioned in the Architecture section at all, even though they are what
+  actually guarantees budget/location/admission constraints are never violated, not
+  agent judgment. Added a paragraph naming both explicitly.
+
+**Numeric/internal-consistency errors, caught by re-running `analyze_results.py` /
+`analyze_judge.py` fresh against the committed run records and cross-checking every
+sentence against the output:**
+- Abstract said explanations were "grounded... in 91–95%" for the five-agent system,
+  but that quietly dropped the agreement judge's 0/100-invented-claims score (100%
+  grounded) for both v1 and v2 — an inconsistent range next to the single-prompt
+  figure (36–67%), which *did* span both judges. Fixed to "91–100%".
+- Abstract said v2 "matches classical baselines" — v2's NDCG@5 (0.806) actually
+  *exceeds* both HRSPCA (0.793) and StudieMe (0.673), and the Results section itself
+  already says "exceeding." Fixed abstract wording to match.
+- Evaluation Plan's Conditions paragraph claimed H3 feedback "react[s] to what each
+  system actually recommended in the prior session" — false. Read
+  `datagen/generate.py::gen_sessions`: liked/disliked programs come from the oracle's
+  fixed per-student utility ranking, computed once at dataset-generation time,
+  identical across every condition. This directly contradicted the Discussion
+  section's own (correct) "simulated-user feedback derived from the oracle." Fixed the
+  Evaluation Plan sentence to match reality and the Discussion section.
+- Table II bolded *two different* NDCG@5 values in the same column (HRSPCA 0.793 and
+  single-prompt 0.830) — a confusing double-max signal. Removed the bold from
+  HRSPCA's cell; only the true column maximum (single-prompt) is now bold.
+- Introduction still said Sections IV/V guide "experiments currently under
+  development" — stale now that Results (Section VI) is fully populated. Fixed.
+- Verified (not just trusted) against the artifact: the "4 validated-fallback events
+  across 500 agent calls" table caption, the `gemma4:e4b` tag, and the 100-eval/200-
+  historical HRSPCA split all matched the actual run records and code exactly — no
+  drift found there.
+
+**"One-month timeline" removal.** Two occurrences in `main.tex`: the 7$\to$5 merge
+justification (Architecture section) reworded to "buildability within a single-author
+prototype's scope"; the LLM-as-judge limitation (Discussion) reworded to drop "within
+this paper's timeline" entirely. (Historical mentions in this file and
+`research_design.md` are process/planning records, not the manuscript — left as-is
+unless the author wants those scrubbed too.)
+
+**IEEE structural fixes.**
+- `\appendix` block was living at the very end, after Acknowledgment / Data
+  Availability / Author Contributions / COI / AI-Disclosure. Canonical IEEEtran order
+  (per the class's own `bare_conf.tex` template) is Conclusion $\to$ Appendix $\to$
+  Acknowledgment $\to$ References. Moved the appendix block to directly follow the
+  Conclusion.
+- The move exposed a redundant heading: `\appendix` auto-prints "APPENDIX" as a label,
+  and the section was titled `\section*{Appendix: Baseline Reconstruction Table}`,
+  rendering as a doubled "APPENDIX / APPENDIX: BASELINE RECONSTRUCTION TABLE." Retitled
+  to just "Baseline Reconstruction Table" so the auto-generated label isn't duplicated.
+- Confirmed section numbering (I–VIII), keyword placement, figure/table caption
+  conventions (IEEEtran auto-formats these correctly, no manual issue), and citation
+  order are all IEEE-conformant; no further structural issues found.
+
+Not touched: `paper/sources/` (correctly gitignored, never public), the 2 remaining
+`\todo`s (AI-disclosure wording — open by author's explicit choice pending a venue
+decision), `research_design.md`/this file's own historical "one-month" mentions.
