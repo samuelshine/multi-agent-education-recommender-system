@@ -1,0 +1,56 @@
+{
+ "student_id": "ST0060",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a hadoop certification background. My overall academic average is 78.6% in an IT/computer-science degree. I'm interested in IOT and developer. I want to become a Database Administrator. My family can afford at most about USD 2900 per year. I live in Delhi. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 78.6
+  },
+  "career_goal": "Database Administrator",
+  "budget_max_usd_per_year": 2900,
+  "location_preference": "Delhi",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interest in IOT and developer roles",
+   "Hadoop certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0191",
+  "PR0143",
+  "PR0058",
+  "PR0007",
+  "PR0099",
+  "PR0090",
+  "PR0120",
+  "PR0170",
+  "PR0145",
+  "PR0033",
+  "PR0107",
+  "PR0111",
+  "PR0134",
+  "PR0074",
+  "PR0129",
+  "PR0133",
+  "PR0063",
+  "PR0173",
+  "PR0071",
+  "PR0087"
+ ],
+ "final_shortlist": [
+  "PR0143",
+  "PR0120",
+  "PR0058",
+  "PR0107",
+  "PR0074"
+ ],
+ "explanation": "This program offers a strong balance between job prospects and affordability while being highly relevant to data roles. With an excellent placement rate of 87% and a median starting salary of $13,436, it strongly aligns with your priority of securing good employment after graduation. The annual tuition of $2,750 is well within your family's budget constraint. The main trade-off here is that the location is Mumbai, which deviates from your strong preference for Delhi.\n\nThis program is ideal because it meets both your primary location constraint (Delhi) and your strict financial budget ($800 annual tuition). The focus on Big Data Analytics aligns well with your background in Hadoop and interest in data roles. While the placement rate of 78% and median salary of $10,021 are lower than some other options, the significant cost savings and local convenience make this an excellent choice if location is paramount.\n\nThis MCA program provides exceptional value, boasting a high placement rate of 83% and the highest median starting salary ($14,869) among the affordable options. The low annual tuition of $1,350 makes it highly budget-friendly while offering strong technical fields like software engineering and data science analytics. The trade-off is that the location is Coimbatore, which is not your preferred area.\n\nThis MTech Computer Science program is a strong contender because it is located in Delhi, satisfying your primary location preference while keeping tuition affordable at $1,850. The curriculum covers data science analytics and software engineering, which supports both developer roles and DBA aspirations. You should note the trade-off that its placement rate (69%) and median salary ($11,447) are moderate compared to other listed options.\n\nThis MTech Data Engineering program is highly relevant to your background and career goal of becoming a DBA. It offers a good balance of cost ($1,550) and technical focus on data engineering and business information systems. While the placement rate (68%) and median salary ($9,196) are modest, its direct relevance to data infrastructure makes it a strong academic fit for your goals.",
+ "wall_s": 60.2
+}

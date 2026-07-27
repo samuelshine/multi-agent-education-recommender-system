@@ -1,0 +1,50 @@
+{
+ "student_id": "ST0048",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 74.1% in an IT/computer-science degree. I'm interested in Management and Business process analyst. I want to become a Information Technology Manager. My family can afford at most about USD 3400 per year. I live in Hyderabad. I cannot leave my city.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 74.1
+  },
+  "career_goal": "Information Technology Manager",
+  "budget_max_usd_per_year": 3400,
+  "location_preference": "Hyderabad",
+  "mobility": "fixed_city",
+  "employability_priority": null,
+  "other_constraints": [
+   "r programming certification background",
+   "interested in Management and Business process analyst"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0176",
+  "PR0076",
+  "PR0130",
+  "PR0074",
+  "PR0119",
+  "PR0026",
+  "PR0096",
+  "PR0167",
+  "PR0113",
+  "PR0196",
+  "PR0111",
+  "PR0050",
+  "PR0159",
+  "PR0142"
+ ],
+ "final_shortlist": [
+  "PR0076",
+  "PR0130",
+  "PR0176",
+  "PR0096",
+  "PR0167"
+ ],
+ "explanation": "This MBA Technology Management program is an excellent fit for your goal of becoming an IT Manager and aligns perfectly with your interest in management. It is highly affordable at $1250 annually, well within your family's budget constraint. Furthermore, the minimum required grade percentage (74%) matches your academic average closely, making admission straightforward. The main trade-off here is that it focuses on general technology management rather than deep business process analysis.\n\nThe MSc IT Management program directly addresses your career goal and interest in the field. With a very low annual tuition of $1000, it is highly budget-friendly while remaining within your financial constraints. The minimum grade requirement (62%) is easily met by your 74.1% average. This option provides strong management focus but has a lower placement rate (77%) compared to some MBA alternatives.\n\nThis MBA Technology Management program is another top choice for achieving an IT Manager role. It offers a high placement rate of 82% and remains affordable at $1900 per year. Since the minimum grade requirement (72%) is met by your average, it provides strong career alignment. The trade-off compared to PR0076 is that its tuition cost is slightly higher.\n\nIf you prefer a more technical path while staying within budget, the MTech Computer Networks program is suitable. At $3350 annually, it utilizes almost your entire allowed tuition budget but remains affordable and located in Hyderabad. This program focuses on cybersecurity and networking, which are critical skills for IT Managers. The main trade-off is that this option is highly specialized (networking/cybersecurity) rather than focusing purely on business process management.\n\nThis MTech Cyber Security program offers a strong technical foundation while staying well within your budget at $2450 per year. It is located in Hyderabad and requires no specific CS background, making it accessible with your current qualifications. This option provides excellent job skills but represents a shift away from the core management/business process analyst interest you stated.",
+ "wall_s": 39.8
+}

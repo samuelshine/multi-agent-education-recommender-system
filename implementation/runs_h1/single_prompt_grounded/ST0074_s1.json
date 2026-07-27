@@ -1,0 +1,55 @@
+{
+ "student_id": "ST0074",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a app development certification background. My overall academic average is 78% in an IT/computer-science degree. I'm interested in parallel computing and system developer. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 16200 per year. I live in Coimbatore. I'm open to going abroad. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 78
+  },
+  "career_goal": "parallel computing and system developer (tech)",
+  "budget_max_usd_per_year": 16200,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "app development certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0000",
+  "PR0079",
+  "PR0195",
+  "PR0124",
+  "PR0021",
+  "PR0122",
+  "PR0005",
+  "PR0010",
+  "PR0169",
+  "PR0153",
+  "PR0028",
+  "PR0067",
+  "PR0075",
+  "PR0024",
+  "PR0163",
+  "PR0132",
+  "PR0051",
+  "PR0151",
+  "PR0037",
+  "PR0161"
+ ],
+ "final_shortlist": [
+  "PR0000",
+  "PR0021",
+  "PR0161",
+  "PR0195",
+  "PR0132"
+ ],
+ "explanation": "This program offers the best combination of affordability and job prospects for your career goals. With an annual tuition of only $950 USD, it is well within your family's budget constraint. The high placement rate of 91% and a median starting salary of $56,198 USD suggest excellent post-graduation job opportunities. While the focus is on IT Management rather than pure coding, this field aligns perfectly with general tech career goals.\n\nGiven your interest in system development, this MSc IT Operations program is highly relevant and extremely budget-friendly. At only $450 USD annually, it minimizes financial risk while providing specialized knowledge in IT support. The placement rate of 82% and the availability of an 18-month post-study work visa make securing a job abroad very feasible. The main trade-off is that its focus is on operations rather than advanced parallel computing.\n\nThis MSc Software Engineering program directly addresses your interest in system development and requires a CS background, matching your academic profile. The tuition of $3850 USD is highly affordable compared to other specialized programs. Graduates benefit from an 18-month post-study work visa and the curriculum provides deep knowledge in software engineering principles. This option offers strong technical depth while remaining budget-conscious.\n\nIf you are unsure of your exact career path, this MSc Information Systems program provides a broad and highly affordable foundation in technology. At only $300 USD per year, it is the most budget-friendly option available while maintaining a solid placement rate of 82%. The curriculum covers business information systems, making it versatile for various tech roles. The trade-off here is that its general nature may lack the deep specialization you might seek in parallel computing.\n\nThis MSc Data Science program is an excellent pivot if you are interested in data-driven systems development. It requires a CS background and has a strong placement rate of 81%, indicating good job prospects. While the tuition ($15600 USD) is higher than some German options, it remains within your budget constraint. This path offers high career potential in analytics, which complements system development skills.",
+ "wall_s": 50.4
+}

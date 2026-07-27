@@ -1,0 +1,55 @@
+{
+ "student_id": "ST0098",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a app development certification background. My overall academic average is 78.6% in an IT/computer-science degree. I'm interested in cloud computing and testing. I want to become a Technical Engineer. My family can afford at most about USD 4400 per year. I live in Mumbai. I'm open to going abroad.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 78.6
+  },
+  "career_goal": "Technical Engineer",
+  "budget_max_usd_per_year": 4400,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in cloud computing and testing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0198",
+  "PR0104",
+  "PR0139",
+  "PR0194",
+  "PR0182",
+  "PR0119",
+  "PR0186",
+  "PR0197",
+  "PR0053",
+  "PR0072",
+  "PR0043",
+  "PR0147",
+  "PR0096",
+  "PR0065",
+  "PR0019",
+  "PR0199",
+  "PR0114",
+  "PR0113",
+  "PR0179",
+  "PR0118"
+ ],
+ "final_shortlist": [
+  "PR0194",
+  "PR0104",
+  "PR0147",
+  "PR0182",
+  "PR0096"
+ ],
+ "explanation": "This program is an excellent fit as it directly addresses your interest in cloud computing and requires a CS background, which aligns with your degree. Located in Germany, the low annual tuition of $1950 keeps you well within your family's budget. Furthermore, the opportunity for 18 months of post-study work visa greatly enhances your career prospects abroad. The main trade-off is that while it meets your academic requirements (min grade 65%), you must ensure your application emphasizes your app development experience to satisfy the 'requires_cs_background' criterion.\n\nThis German program in Software Quality Engineering offers a strong international pathway and meets your interest in testing. With an annual tuition of $3450, it remains within your financial limits while providing the highly valuable benefit of an 18-month post-study work visa. Although you are open to going abroad, note that this program requires English proficiency, which is a necessary step for admission. The trade-off here is balancing the high value of the international experience against the requirement to prove English language skills.\n\nIf you prefer staying in India while focusing on cloud computing, this program is a strong choice. It has an annual tuition of $3200 and requires a CS background, matching your academic profile. The minimum grade requirement (74%) is comfortably met by your 78.6% average. This option provides excellent industry exposure without the need for international travel or visa complexities.\n\nThis program is ideal if you want to focus purely on testing while remaining in India. It has a high placement rate of 91% and an annual tuition cost of $1950, making it highly budget-friendly. The minimum grade requirement (75%) is met by your academic average, providing a solid path toward becoming a Technical Engineer locally. The main trade-off is that while the placement rate is high, the median starting salary ($12865) is relatively modest compared to international options.\n\nThis program combines networking and cybersecurity, offering a robust technical skillset that complements your interest in cloud computing. With an annual tuition of $3350, it is affordable while providing advanced knowledge. Since it requires a CS background, this aligns well with your IT/computer-science degree and app development experience. The trade-off is that the curriculum focuses on cybersecurity rather than pure cloud architecture, but it provides valuable adjacent skills for a Technical Engineer role.",
+ "wall_s": 49.2
+}

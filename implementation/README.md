@@ -24,11 +24,11 @@ license — see `datagen/README.md`.
 | Dir | What |
 |---|---|
 | `agentrec/` | The prototype package: five agents, memory, validation, metrics — see `agentrec/README.md` (this is the open-source artifact core) |
-| `run_pipeline.py` | CLI: single students or batches, all four modes (`full` / `no_memory` / `single_objective` / `single_prompt`) |
+| `run_pipeline.py` | CLI: single students or batches, all five modes (`full` / `no_memory` / `single_objective` / `single_prompt` / `single_prompt_grounded`) |
 | `datagen/` | Synthetic dataset generator + dataset card |
 | `baselines/` | Faithful HRSPCA + StudieMe re-implementations, reconstruction table (paper appendix source), `run_baselines.py` — deterministic, no LLM. Eval split ST0000–ST0099; HRSPCA NDCG@5 0.793, StudieMe 0.673 |
 | `spike/` | Week-1 disposable model-capability spike (kept for provenance) |
-| `runs_h1/`, `runs_h3/` | Run records + judge scores backing every number in the paper's Results section (H1/H2 in `runs_h1/`, H3 in `runs_h3/`) — included in the release, not regenerated-only, so claims are checkable without re-running the LLM |
+| `runs_h1/`, `runs_h3/` | Run records + judge scores backing every number in the paper's Results section (H1/H2 in `runs_h1/`, H3 in `runs_h3/`) — included in the release, not regenerated-only, so claims are checkable without re-running the LLM. `runs_h1/single_prompt_grounded/` is the review-requested ablation isolating grounding-instruction wording from architecture (`chain_single_prompt_grounded.sh`) |
 | `analyze_results.py`, `analyze_judge.py` | Recompute every accuracy and explanation-quality table in the paper directly from the committed run records (deterministic, no LLM) |
 | `runs/`, `cache/` | Scratch run output and LLM response cache (gitignored — regenerate locally; not part of the release) |
 

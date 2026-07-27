@@ -1,0 +1,41 @@
+{
+ "student_id": "ST0082",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a shell programming certification background. My overall academic average is 73.7% in an IT/computer-science degree. I'm interested in Computer Architecture and testing. I want to become a Technical Engineer. My family can afford at most about USD 6100 per year. I live in Bengaluru. I cannot leave my city. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 73.7
+  },
+  "career_goal": "Technical Engineer (interested in Computer Architecture and testing)",
+  "budget_max_usd_per_year": 6100,
+  "location_preference": "Bengaluru",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Shell programming certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0085",
+  "PR0015",
+  "PR0073",
+  "PR0002",
+  "PR0013",
+  "PR0173",
+  "PR0087"
+ ],
+ "final_shortlist": [
+  "PR0073",
+  "PR0002",
+  "PR0085",
+  "PR0173"
+ ],
+ "explanation": "This MTech in Cyber Security is highly recommended because it aligns with the technical nature of a Technical Engineer role and offers an excellent placement rate of 80%. The program requires a CS background, which suits your degree, and its median starting salary of $8637 USD provides strong job security. The main trade-off here is that the focus is on cybersecurity rather than pure computer architecture or general testing.\n\nIf securing a high starting salary is your top priority, this MSc IT Operations program stands out with the highest median starting salary of $11419 USD. It maintains a solid placement rate of 73% and is located in Bengaluru, meeting all your location constraints. The trade-off is that its focus on 'it_support' may be less aligned with advanced computer architecture or specialized testing compared to other options.\n\nThis MSc Software Quality Engineering program is the most direct match for your stated interest in 'testing' and is ideal for aspiring Technical Engineers. It offers a low annual tuition of $1450 USD while providing specialized knowledge in QA testing. The primary trade-off is that its median starting salary ($6488 USD) is lower than some other options, though the specialization is highly valuable.\n\nThis MTech Computer Science program provides a strong foundational technical degree that supports your goal of becoming a Technical Engineer. With an extremely low annual tuition of $500 USD and being located in Bengaluru, it is financially accessible. The trade-off is that its placement rate (62%) and median starting salary ($6851 USD) are among the lowest on this list, making job outcomes less certain than PR0073.",
+ "wall_s": 41.4
+}

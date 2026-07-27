@@ -1,0 +1,55 @@
+{
+ "student_id": "ST0062",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 80% in an IT/computer-science degree. I'm interested in Management and cloud computing. I want to become a CRM Business Analyst. My family can afford at most about USD 18900 per year. I live in Mumbai. I'm open to going abroad. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 80
+  },
+  "career_goal": "CRM Business Analyst",
+  "budget_max_usd_per_year": 18900,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in Management and cloud computing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0000",
+  "PR0123",
+  "PR0157",
+  "PR0172",
+  "PR0079",
+  "PR0195",
+  "PR0122",
+  "PR0005",
+  "PR0010",
+  "PR0169",
+  "PR0153",
+  "PR0075",
+  "PR0024",
+  "PR0163",
+  "PR0127",
+  "PR0183",
+  "PR0051",
+  "PR0103",
+  "PR0077",
+  "PR0001"
+ ],
+ "final_shortlist": [
+  "PR0000",
+  "PR0195",
+  "PR0153",
+  "PR0122",
+  "PR0163"
+ ],
+ "explanation": "This MSc IT Management program in Germany is an excellent fit given your background and interest in management. It requires a minimum grade of 80%, matching your academic average, and offers a high placement rate of 91%. The annual tuition is very low at $950 USD, making it highly budget-friendly while providing strong career prospects with a median starting salary of $56,198 USD. The main trade-off here is that the program focuses broadly on IT Management rather than specifically on CRM or data analytics.\n\nThis MSc Information Systems degree in Germany offers an extremely low tuition cost of only $300 USD annually, making it highly affordable for your family budget. The program's focus on business information systems aligns well with a Business Analyst role, and the placement rate is strong at 82%. Graduates can benefit from an 18-month post-study work visa and a median starting salary of $51,059 USD. The trade-off is that while the cost is minimal, the program's curriculum might be less specialized in cloud computing compared to other options.\n\nThis MSc Human-Computer Interaction program provides a strong foundation for a Business Analyst role by focusing on the intersection of business and design. With minimal tuition at $550 USD in Germany, it is exceptionally budget-friendly while still meeting your minimum grade requirement (71%). It offers an 18-month post-study work visa and a solid median starting salary of $39,426 USD. The main trade-off is that the program focuses on design/UX rather than core cloud computing or pure management theory.\n\nLocated in the Netherlands, this MSc Information Systems degree offers a good balance of cost and opportunity. The annual tuition is $13,300 USD, which remains within your family's budget constraint. It provides relevant business information systems knowledge and includes a 12-month post-study work visa. While the median starting salary ($43,659 USD) is lower than some German options, it offers a solid pathway to working abroad in a desirable tech hub. The trade-off is that the job market focus is slightly less specialized for pure CRM compared to dedicated BA programs.\n\nIf maximizing post-graduation employment opportunity is your highest priority, this MBA Business Analytics program in Canada is a strong contender. Although the tuition ($18,700 USD) uses up most of your budget, it offers an impressive 36-month post-study work visa and a high placement rate of 80%. This long visa period significantly boosts job prospects after graduation. The main trade-off is that the program's median starting salary ($35,671 USD) is lower than some European alternatives, despite the excellent career runway.",
+ "wall_s": 57.6
+}

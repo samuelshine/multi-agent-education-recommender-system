@@ -1,0 +1,45 @@
+{
+ "student_id": "ST0099",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a full stack certification background. My overall academic average is 76.8% in an IT/computer-science degree. I'm interested in cloud computing and developer. I want to become a Software Systems Engineer. My family can afford at most about USD 1200 per year. I live in Pune. I cannot leave my city. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 76.8
+  },
+  "career_goal": "Software Systems Engineer (interested in cloud computing and developer roles)",
+  "budget_max_usd_per_year": 1200,
+  "location_preference": "Pune",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Full stack certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0019",
+  "PR0180",
+  "PR0187",
+  "PR0084",
+  "PR0181",
+  "PR0045",
+  "PR0023",
+  "PR0156",
+  "PR0190",
+  "PR0080"
+ ],
+ "final_shortlist": [
+  "PR0180",
+  "PR0190",
+  "PR0084",
+  "PR0181",
+  "PR0023"
+ ],
+ "explanation": "This MTech Computer Networks program is highly recommended as it directly aligns with your interest in cloud computing and developer roles. Since you have a CS background, this program meets the prerequisite requirement, and its tuition of $1250 fits within your budget constraint. The main trade-off here is that while the placement rate is 71%, which is moderate, the curriculum focus on networking and cloud makes it an excellent path toward becoming a Software Systems Engineer.\n\nThe MSc Software Quality Engineering program offers strong relevance to your goal of becoming a developer by focusing on software quality assurance. With an annual tuition of $1250 and a placement rate of 64%, it remains budget-friendly while providing industry-relevant skills. The trade-off is that the field focuses specifically on QA testing, which might be narrower than general cloud computing but still highly valuable for systems engineering roles.\n\nThis MSc Human-Computer Interaction program is an excellent choice if you want to prioritize budget while remaining in a technical field. At only $900 annually, it respects your financial constraints and offers skills relevant to modern software development. The trade-off is that the focus on design_hci means it deviates from core cloud computing or pure developer roles, but it provides valuable user experience knowledge.\n\nThis option offers the lowest tuition fee ($850) while still providing a technical degree in Human-Computer Interaction. This minimizes financial risk and keeps you within your strict budget limit. The trade-off is that like PR0084, its focus on design_hci means it moves away from pure cloud computing or core backend developer roles, but it remains highly relevant to the software development lifecycle.\n\nThis MTech Cyber Security program is a strong alternative that provides deep knowledge of system vulnerabilities, which is crucial for any Software Systems Engineer. At $650 per year, it is the most budget-friendly option available and keeps you focused on technical systems. The main trade-off is that its specialization in cybersecurity means it does not directly address your stated interest in cloud computing or general developer roles as strongly as PR0180.",
+ "wall_s": 37.6
+}

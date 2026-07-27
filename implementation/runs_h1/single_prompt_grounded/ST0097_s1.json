@@ -1,0 +1,55 @@
+{
+ "student_id": "ST0097",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 75.8% in an IT/computer-science degree. I'm interested in Management and system developer. I want to become a Mobile Applications Developer. My family can afford at most about USD 5700 per year. I live in Coimbatore. I cannot leave my city.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 75.8
+  },
+  "career_goal": "Mobile Applications Developer",
+  "budget_max_usd_per_year": 5700,
+  "location_preference": "Coimbatore",
+  "mobility": "fixed_city",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in Management and system developer roles"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0157",
+  "PR0048",
+  "PR0101",
+  "PR0058",
+  "PR0039",
+  "PR0054",
+  "PR0043",
+  "PR0147",
+  "PR0105",
+  "PR0170",
+  "PR0145",
+  "PR0148",
+  "PR0033",
+  "PR0016",
+  "PR0014",
+  "PR0068",
+  "PR0166",
+  "PR0098",
+  "PR0134",
+  "PR0106"
+ ],
+ "final_shortlist": [
+  "PR0166",
+  "PR0058",
+  "PR0101",
+  "PR0033",
+  "PR0145"
+ ],
+ "explanation": "This program is highly recommended as it focuses on Interaction Design (HCI), which is crucial for developing successful mobile applications. The low annual tuition of $1200 falls well within your family's budget constraint. While the focus is design rather than coding, mastering HCI principles will significantly enhance your ability to become a Mobile Applications Developer by improving user experience. The main trade-off here is that it emphasizes design skills over core software engineering development.\n\nThis MCA program offers a strong foundation in Software Engineering and Data Science Analytics, making it an excellent fit for your goal of becoming a system developer. It requires a CS background, which aligns with your academic profile, and the tuition ($1350) is very affordable. The high placement rate (83%) suggests good career outcomes in the field you are interested in. This program provides a solid technical track but may be less focused on the 'Management' aspect of your interests.\n\nThe MSc Information Systems degree is ideal for bridging your interest in Management and System Development. With a minimum grade requirement of 71%, it matches well with your academic average of 75.8%. The program offers Business Information Systems fields, providing the necessary blend of technical knowledge and business understanding needed for system roles. The main trade-off compared to pure development tracks is that its focus is broader, covering both management theory and IT systems.\n\nThis MBA Business Analytics program provides a strong blend of business acumen (Management) and technical skills (Data Science Analytics), making it highly versatile. The tuition ($2100) is manageable within your budget, and the curriculum covers both Business Information Systems and Data Science. This option is excellent if you wish to pivot towards management roles that utilize data insights rather than pure coding development. The trade-off is that its focus on business analytics may be less directly applicable to mobile application development compared to HCI or Software Engineering.\n\nThe MTech Computer Science program offers a robust and highly technical path that is excellent for aspiring system developers. Since you have an IT/CS background, this degree leverages your existing knowledge base while providing advanced skills in Data Science Analytics and Software Engineering. The tuition ($2300) remains within budget, offering strong career potential with a median starting salary of $10057. The main trade-off is that it is the most technically demanding option and has less explicit focus on 'Management' compared to the MBA options.",
+ "wall_s": 53.9
+}

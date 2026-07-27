@@ -1,0 +1,49 @@
+{
+ "student_id": "ST0095",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a full stack certification background. My overall academic average is 72.6% in an IT/computer-science degree. I'm interested in Software Engineering and developer. I want to become a Applications Developer. My family can afford at most about USD 3300 per year. I live in Hyderabad. I cannot leave my city. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 72.6
+  },
+  "career_goal": "Applications Developer (Software Engineering and developer)",
+  "budget_max_usd_per_year": 3300,
+  "location_preference": "Hyderabad",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Full stack certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0026",
+  "PR0076",
+  "PR0167",
+  "PR0196",
+  "PR0142",
+  "PR0119",
+  "PR0176",
+  "PR0096",
+  "PR0130",
+  "PR0113",
+  "PR0111",
+  "PR0074",
+  "PR0050",
+  "PR0159"
+ ],
+ "final_shortlist": [
+  "PR0196",
+  "PR0167",
+  "PR0119",
+  "PR0176",
+  "PR0130"
+ ],
+ "explanation": "This MTech Computer Science program is highly recommended as it directly aligns with your goal of becoming a developer and requires a CS background, which matches your degree. The tuition of $1650 falls well within your family's budget, and the minimum required grade (63%) is comfortably below your 72.6% average. The main trade-off here is that its placement rate (70%) is lower compared to some other options, but it provides the most direct technical path.\n\nThe MTech Cyber Security program offers a strong blend of software engineering and cybersecurity skills, making you highly marketable in today's job market. It respects your budget with an annual tuition of $2450, and the minimum grade requirement (69%) is manageable given your 72.6% average. The trade-off is that while it enhances your technical profile, its median starting salary ($12765) is slightly lower than some management options.\n\nIf job security and high earning potential are your top priorities, this MSc Software Quality Engineering program is excellent. It boasts a very high placement rate of 86% and a strong median starting salary of $14917. The tuition ($1200) is affordable, and the minimum grade (71%) is achievable with your current average. The main trade-off is that the focus is on QA testing rather than core applications development.\n\nThis MBA Technology Management program provides a valuable blend of IT knowledge and management skills, which can lead to high salaries. With a median starting salary of $15400 and an 82% placement rate, it strongly addresses your priority of getting a good job. The tuition ($1900) is within budget, and the minimum grade (72%) matches your academic standing. The trade-off is that its focus is on management rather than hands-on developer skills.\n\nThis MSc IT Management program is a highly budget-friendly option ($1000 tuition) that still provides relevant industry knowledge. It meets all your constraints regarding location and affordability while offering a decent placement rate of 77%. The main trade-off compared to the other options is that its median starting salary ($11249) is among the lowest, making it less impactful for maximizing immediate job earnings.",
+ "wall_s": 42.5
+}

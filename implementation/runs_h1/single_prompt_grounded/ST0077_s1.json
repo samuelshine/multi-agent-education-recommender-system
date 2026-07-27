@@ -1,0 +1,51 @@
+{
+ "student_id": "ST0077",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a machine learning certification background. My overall academic average is 82.3% in an IT/computer-science degree. I'm interested in IOT and testing. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 1700 per year. I live in Pune. I cannot leave my city. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 82.3
+  },
+  "career_goal": null,
+  "budget_max_usd_per_year": 1700,
+  "location_preference": "Pune",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "interest in IOT and testing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0182",
+  "PR0019",
+  "PR0190",
+  "PR0080",
+  "PR0186",
+  "PR0187",
+  "PR0158",
+  "PR0084",
+  "PR0078",
+  "PR0181",
+  "PR0046",
+  "PR0180",
+  "PR0045",
+  "PR0023",
+  "PR0025",
+  "PR0156"
+ ],
+ "final_shortlist": [
+  "PR0084",
+  "PR0019",
+  "PR0180",
+  "PR0045",
+  "PR0080"
+ ],
+ "explanation": "This program is highly recommended due to its exceptional cost-effectiveness and strong job prospects. With a very low annual tuition of only $900 USD, it fits well within your family's budget constraint. Furthermore, the placement rate stands at 77%, which helps address your primary concern regarding post-graduation employment. The main trade-off here is that the median starting salary ($11205 USD) is not the highest available option.\n\nThis MSc Software Engineering program offers a solid balance of job security and affordability. It has an annual tuition of $1450 USD, keeping it within your budget while providing exposure to software engineering and QA testing, aligning with your interests. The placement rate is strong at 84%, which directly addresses your priority of securing good employment after graduation. The trade-off compared to other options is that the median starting salary ($10285 USD) is moderate.\n\nThis MTech in Computer Networks is excellent for someone interested in IOT and general tech infrastructure. It has a low tuition cost of $1250 USD and offers the highest median starting salary ($10359 USD) among the recommended programs. While it requires a CS background, its focus on networking aligns well with modern IoT applications. The main trade-off is that the placement rate (71%) is slightly lower than some other options.\n\nIf you are interested in a specialized tech field like cybersecurity, this MSc program is a strong choice. At $1450 USD annually, it meets your budget constraint while providing valuable skills in the high-demand area of cybersecurity. The median starting salary ($10236 USD) is competitive, supporting your goal of good post-graduation employment. The trade-off is that its placement rate (71%) is average compared to some general software options.\n\nThis MSc Software Quality Engineering program directly matches your stated interest in testing and QA. The tuition of $1450 USD is affordable and the placement rate (62%) helps secure employment. This option provides a focused path into software quality assurance, which is critical for tech roles. The primary trade-off is that its median starting salary ($8071 USD) is among the lower end of this shortlist.",
+ "wall_s": 51.0
+}

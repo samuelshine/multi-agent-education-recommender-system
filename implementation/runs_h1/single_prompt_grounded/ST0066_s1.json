@@ -1,0 +1,55 @@
+{
+ "student_id": "ST0066",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a full stack certification background. My overall academic average is 79.1% in an IT/computer-science degree. I'm interested in Software Engineering and system developer. I want to become a Database Developer. My family can afford at most about USD 10100 per year. I live in Kolkata. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 79.1
+  },
+  "career_goal": "Database Developer",
+  "budget_max_usd_per_year": 10100,
+  "location_preference": "Kolkata",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "full stack certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0097",
+  "PR0191",
+  "PR0143",
+  "PR0058",
+  "PR0007",
+  "PR0099",
+  "PR0026",
+  "PR0090",
+  "PR0120",
+  "PR0170",
+  "PR0145",
+  "PR0033",
+  "PR0107",
+  "PR0111",
+  "PR0134",
+  "PR0074",
+  "PR0129",
+  "PR0133",
+  "PR0063",
+  "PR0173"
+ ],
+ "final_shortlist": [
+  "PR0097",
+  "PR0143",
+  "PR0191",
+  "PR0058",
+  "PR0090"
+ ],
+ "explanation": "This program is highly recommended as it perfectly matches your preferred location in Kolkata while offering the best job prospects. With a placement rate of 95% and a median starting salary of $19658 USD, this option strongly aligns with your priority of securing a good job after graduation. The annual tuition of $3800 USD is well within your family's budget. The main trade-off here is that the minimum required grade percentage (82%) is slightly higher than your current 79.1% average, requiring careful preparation for admission.\n\nIf you are willing to consider Mumbai, this MSc Data Science program offers a strong balance of good placement and affordability. It has an excellent placement rate of 87% and requires a CS background, matching your academic profile. The annual tuition is only $2750 USD, keeping it comfortably within budget. The trade-off compared to the top recommendation is that the median starting salary ($13436 USD) is lower.\n\nThis MTech Data Engineering program in Chennai provides a solid alternative with good job potential and manageable tuition costs. It has an 84% placement rate and the annual tuition of $3250 USD is affordable for your budget. Since it does not require a CS background, it offers flexibility while still providing relevant data science analytics training. The main trade-off is that you would be relocating to Chennai rather than staying in Kolkata.\n\nThis MCA program is an excellent choice if affordability and a strong focus on software engineering are key. The annual tuition of $1350 USD is extremely budget-friendly, and the curriculum includes 'software_engineering,' matching your interests. While it requires a CS background, its location in Coimbatore means you would be relocating away from Kolkata. The trade-off is that this program has one of the lower median starting salaries among the top recommendations.\n\nThis option is recommended because it keeps you in Kolkata, fulfilling your strong location preference. The program covers 'software_engineering' and has a tuition cost of $3550 USD, which fits within budget. However, the main trade-off here is that while the location is ideal, its placement rate (78%) and median starting salary ($12316 USD) are lower compared to other options listed.",
+ "wall_s": 63.7
+}

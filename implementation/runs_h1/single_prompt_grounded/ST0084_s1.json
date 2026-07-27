@@ -1,0 +1,55 @@
+{
+ "student_id": "ST0084",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a distro making certification background. My overall academic average is 78.9% in an IT/computer-science degree. I'm interested in data engineering and developer. I want to become a Network Security Engineer. My family can afford at most about USD 1300 per year. I live in Pune. I'd strongly prefer to stay near home, though I might consider elsewhere in India.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 78.9
+  },
+  "career_goal": "Network Security Engineer",
+  "budget_max_usd_per_year": 1300,
+  "location_preference": "Pune",
+  "mobility": "prefers_region",
+  "employability_priority": null,
+  "other_constraints": [
+   "distro making certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0119",
+  "PR0058",
+  "PR0187",
+  "PR0053",
+  "PR0109",
+  "PR0076",
+  "PR0012",
+  "PR0019",
+  "PR0114",
+  "PR0185",
+  "PR0130",
+  "PR0084",
+  "PR0120",
+  "PR0170",
+  "PR0015",
+  "PR0020",
+  "PR0073",
+  "PR0171",
+  "PR0013",
+  "PR0118"
+ ],
+ "final_shortlist": [
+  "PR0185",
+  "PR0073",
+  "PR0170",
+  "PR0119",
+  "PR0130"
+ ],
+ "explanation": "This program directly aligns with your goal of becoming a Network Security Engineer by offering an MSc in Information Security. The tuition fee of $1150 is well within your family's budget constraint of USD 1300 per year. While the location is Kolkata, it provides specialized cybersecurity knowledge and requires a CS background, which matches your academic profile. The main trade-off here is that the program is located in Kolkata rather than your preferred Pune area.\n\nThis MTech Cyber Security program is an excellent fit for your career goal and maintains a manageable tuition cost of $1250. Located in Bengaluru, it offers strong technical training relevant to network security engineering. Since you are interested in developer roles, this specialized cybersecurity track will enhance your existing IT/CS background. The trade-off compared to PR0185 is the slightly higher annual tuition fee.\n\nIf you wish to focus on data engineering and analytics, this MSc Big Data Analytics program is highly recommended. It perfectly meets your budget constraint with an annual tuition of $1300. Although the location is Coimbatore, it directly addresses your interest in data science, which complements a developer track. The main trade-off is that while it fulfills your data interest, it does not specifically target network security.\n\nThis MSc Software Quality Engineering program provides strong developer skills and fits comfortably within your budget at $1200 per year. Located in Hyderabad, it is a viable alternative to Pune that offers high placement potential with an 86% placement rate. The main trade-off is that the focus is on quality assurance (QA), which might be slightly narrower than general developer or security roles.\n\nFor a low-cost option with broad applicability, the MSc IT Management program is suitable. At only $1000 annually, it respects your strict financial constraint while providing general knowledge in IT management. Located in Hyderabad, this offers a good alternative location and helps build foundational skills for both developer and security roles. The main trade-off is that its focus on 'IT Management' is less technical than the cybersecurity or data programs listed above.",
+ "wall_s": 50.3
+}

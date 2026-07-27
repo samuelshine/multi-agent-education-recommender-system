@@ -1,0 +1,55 @@
+{
+ "student_id": "ST0021",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 73.3% in an IT/computer-science degree. I'm interested in parallel computing and Business process analyst. I want to become a Technical Engineer. My family can afford at most about USD 1400 per year. I live in Kolkata. I'm open to anywhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 73.3
+  },
+  "career_goal": "Technical Engineer (interested in parallel computing and Business process analyst)",
+  "budget_max_usd_per_year": 1400,
+  "location_preference": null,
+  "mobility": "open_domestic",
+  "employability_priority": "high",
+  "other_constraints": [
+   "r programming certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0015",
+  "PR0020",
+  "PR0157",
+  "PR0074",
+  "PR0087",
+  "PR0119",
+  "PR0058",
+  "PR0187",
+  "PR0053",
+  "PR0109",
+  "PR0076",
+  "PR0012",
+  "PR0019",
+  "PR0114",
+  "PR0185",
+  "PR0130",
+  "PR0084",
+  "PR0120",
+  "PR0170",
+  "PR0073"
+ ],
+ "final_shortlist": [
+  "PR0053",
+  "PR0130",
+  "PR0076",
+  "PR0185",
+  "PR0120"
+ ],
+ "explanation": "This program is highly recommended as it directly supports your goal of becoming a Technical Engineer while offering excellent job prospects. The MSc Software Quality Engineering focuses on QA testing and software engineering, leading to a high median starting salary of $12855 and an impressive placement rate of 86%. Furthermore, the annual tuition of $1200 is well within your family's budget constraint of $1400.\n\nThis program is an excellent fit for your interest in Business Process Analyst roles. The MSc IT Management curriculum focuses on core IT management principles and has a low annual tuition of $1000, respecting your budget constraint. It offers a solid median starting salary of $11249 and a placement rate of 77%, providing a strong balance between business understanding and career stability.\n\nThis MBA Technology Management program perfectly bridges your interest in Business Process Analysis with technical skills like software engineering. With a median starting salary of $13142 and an 81% placement rate, it strongly aligns with your priority of securing good employment after graduation. The annual tuition of $1250 is also comfortably within your stated budget.\n\nIf you wish to lean heavily into the 'Technical Engineer' aspect, this MSc Information Security program provides specialized knowledge in cybersecurity and software engineering. It has a strong placement rate of 78% and is highly relevant for modern technical roles. The tuition cost of $1150 keeps it within your financial constraints while offering robust career preparation.\n\nThis MSc Big Data Analytics program is ideal if you want to focus on the data side of technical engineering and business analysis. It has a low tuition fee of $800, making it highly budget-friendly while still offering a decent median starting salary of $10021. This option provides strong foundational skills in data science analytics without exceeding your financial limits.",
+ "wall_s": 56.6
+}

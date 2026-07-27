@@ -1,0 +1,50 @@
+{
+ "student_id": "ST0038",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a machine learning certification background. My overall academic average is 77.9% in an IT/computer-science degree. I'm interested in IOT and Business process analyst. I want to become a Network Security Engineer. My family can afford at most about USD 4500 per year. I live in Hyderabad. I cannot leave my city. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 77.9
+  },
+  "career_goal": "Network Security Engineer",
+  "budget_max_usd_per_year": 4500,
+  "location_preference": "Hyderabad",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in IOT",
+   "Interested in Business process analyst"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0074",
+  "PR0119",
+  "PR0176",
+  "PR0026",
+  "PR0076",
+  "PR0096",
+  "PR0167",
+  "PR0130",
+  "PR0113",
+  "PR0196",
+  "PR0111",
+  "PR0050",
+  "PR0159",
+  "PR0142"
+ ],
+ "final_shortlist": [
+  "PR0096",
+  "PR0167",
+  "PR0130",
+  "PR0076",
+  "PR0074"
+ ],
+ "explanation": "This program is highly recommended as it directly aligns with your goal of becoming a Network Security Engineer, focusing on 'cybersecurity' and 'networking_cloud.' The tuition of $3350 falls within your family's budget constraint of $4500 per year. Since you have an IT/computer-science background, the requirement for a CS background is met, making this a strong technical fit. The trade-off here is that it requires a minimum grade percentage of 71%, which is slightly higher than your stated average of 77.9%.\n\nThis MTech Cyber Security program offers specialized training in 'cybersecurity,' making it an excellent alternative path toward a Network Security Engineer role. The annual tuition of $2450 is well within your budget and the minimum grade requirement (69%) is easily met by your academic average. This option provides strong technical grounding while keeping costs low, though its focus on software engineering might be less specialized than PR0096's networking emphasis.\n\nIf your interest in Business Process Analyst is the primary driver, this MSc IT Management program is ideal. It focuses purely on 'it_management' and has a very low tuition cost of $1000, which helps maximize job security within budget constraints. The minimum grade requirement (62%) is easily met by your 77.9% average. The main trade-off is that it does not provide the deep technical specialization needed for Network Security Engineering.\n\nThis MBA Technology Management program supports your interest in business analysis while keeping costs low ($1250 tuition). It covers 'it_management' and 'software_engineering,' providing a blend of technical knowledge and managerial skills valuable for process roles. Given its low cost and strong placement rate (81%), it is an excellent choice if you prioritize the Business Process Analyst track over pure network engineering.\n\nThis MTech Data Engineering program leverages your existing machine learning certification while incorporating 'business_information_systems,' which aligns with both data science and business analysis interests. The tuition of $1550 is affordable, and the placement rate (68%) offers a solid job outlook in Hyderabad. The trade-off compared to pure security programs is that its focus on data engineering may pull you away from your core goal of becoming a Network Security Engineer.",
+ "wall_s": 43.9
+}

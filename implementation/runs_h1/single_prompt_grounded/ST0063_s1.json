@@ -1,0 +1,56 @@
+{
+ "student_id": "ST0063",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 78.9% in an IT/computer-science degree. I'm interested in parallel computing and cloud computing. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 3600 per year. I live in Chennai. I'm open to anywhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 78.9
+  },
+  "career_goal": null,
+  "budget_max_usd_per_year": 3600,
+  "location_preference": null,
+  "mobility": "open_domestic",
+  "employability_priority": "high",
+  "other_constraints": [
+   "r programming certification background",
+   "interested in parallel computing and cloud computing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0186",
+  "PR0197",
+  "PR0043",
+  "PR0147",
+  "PR0096",
+  "PR0199",
+  "PR0118",
+  "PR0121",
+  "PR0148",
+  "PR0016",
+  "PR0102",
+  "PR0180",
+  "PR0162",
+  "PR0112",
+  "PR0159",
+  "PR0032",
+  "PR0184",
+  "PR0165",
+  "PR0117",
+  "PR0198"
+ ],
+ "final_shortlist": [
+  "PR0186",
+  "PR0147",
+  "PR0096",
+  "PR0198",
+  "PR0199"
+ ],
+ "explanation": "This program offers a strong combination of your interests by covering both networking and cloud computing, alongside software engineering. With an annual tuition of $2050, it fits well within your family's budget constraint. Crucially for your priority, the median starting salary is $15192, supported by a high placement rate of 83%. The main trade-off here is that while the curriculum aligns perfectly with your interests, the minimum required grade percentage (70%) is slightly higher than some other options.\n\nThis MSc Cloud Computing program directly addresses your interest in cloud technologies and has a manageable tuition fee of $3200. It boasts an excellent placement rate of 83% and a median starting salary of $13015, making it highly attractive given your focus on job security. Since you are open to any location in India, the Coimbatore campus is suitable. The trade-off compared to PR0186 is that this program does not include software engineering coursework.\n\nThis MTech program combines networking and cloud computing with cybersecurity, providing a robust skill set for the tech industry. The tuition of $3350 is within your budget, and it offers a solid placement rate of 80% with a median starting salary of $12561. This option provides excellent job relevance while keeping costs contained. The main trade-off is that its focus on cybersecurity means the curriculum might be slightly less focused purely on cloud computing compared to PR0147.\n\nIf job placement and salary are your absolute highest priorities, this program is a top contender due to its exceptional metrics. It boasts the highest placement rate (95%) and a median starting salary of $21062. While its focus is on QA testing rather than cloud computing, it provides high career value. The main trade-off is that the field does not directly match your stated interest in parallel or cloud computing.\n\nThis MTech program focuses specifically on networking and cloud technologies while maintaining a very low tuition cost of $2300. It is highly relevant to your stated interests in cloud computing. Although its placement rate (79%) and salary ($12682) are slightly lower than the top recommendations, it offers a strong balance of affordability and direct technical relevance for career building.",
+ "wall_s": 52.0
+}

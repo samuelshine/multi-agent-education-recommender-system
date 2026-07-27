@@ -1,0 +1,55 @@
+{
+ "student_id": "ST0053",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a hadoop certification background. My overall academic average is 72.1% in an IT/computer-science degree. I'm interested in Management and system developer. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 10700 per year. I live in Hyderabad. I'm open to going abroad.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 72.1
+  },
+  "career_goal": "Management and system developer (in tech)",
+  "budget_max_usd_per_year": 10700,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": null,
+  "other_constraints": [
+   "hadoop certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0057",
+  "PR0060",
+  "PR0176",
+  "PR0092",
+  "PR0189",
+  "PR0076",
+  "PR0130",
+  "PR0078",
+  "PR0150",
+  "PR0157",
+  "PR0160",
+  "PR0048",
+  "PR0172",
+  "PR0156",
+  "PR0195",
+  "PR0021",
+  "PR0122",
+  "PR0153",
+  "PR0051",
+  "PR0151"
+ ],
+ "final_shortlist": [
+  "PR0176",
+  "PR0195",
+  "PR0130",
+  "PR0057",
+  "PR0060"
+ ],
+ "explanation": "This program is an excellent fit as it is located in Hyderabad, matching your preferred location, and focuses on Technology Management, aligning with your interests. The minimum required grade percentage (72%) closely matches your academic average of 72.1%. Furthermore, the annual tuition fee of $1900 is well within your family's budget constraint. This option provides a strong local pathway into management while keeping costs low.\n\nFor an international opportunity with minimal cost, this MSc Information Systems program in Germany is highly recommended. It has a very low annual tuition of only $300, making it extremely budget-friendly. The curriculum focuses on business information systems, which complements your tech background and interest in management. While you must meet the English requirement, the high median starting salary ($51059) and 18 months of post-study work visa provide excellent career prospects abroad.\n\nThis MSc IT Management program is a highly affordable option located directly in Hyderabad. With an annual tuition of just $1000, it respects your financial constraints while providing relevant training for system development and management roles. The minimum grade requirement (62%) is easily met by your 72.1% average. This serves as a reliable, low-cost local alternative if you prefer to remain in Hyderabad.\n\nIf prioritizing international career mobility is key, this MSc IT Management program in Canada offers a significant advantage with a 36-month post-study work visa. While the tuition of $10850 slightly exceeds your stated budget constraint, the long-term career benefits and high median starting salary ($29774) make it valuable. The main trade-off here is balancing the slight increase in tuition against the substantial opportunity for permanent residency pathways.\n\nThis MSc IT Management program in Mumbai offers a strong blend of affordability and career outcomes within India. With an annual tuition of $3650, it is budget-friendly, and the high placement rate (88%) suggests good job prospects immediately after graduation. It also does not require English proficiency, which simplifies the application process. The trade-off compared to Hyderabad options is the location in Mumbai rather than your preferred city.",
+ "wall_s": 46.4
+}

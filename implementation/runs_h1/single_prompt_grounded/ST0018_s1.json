@@ -1,0 +1,55 @@
+{
+ "student_id": "ST0018",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a app development certification background. My overall academic average is 73.7% in an IT/computer-science degree. I'm interested in hacking and developer. I want to become a Design & UX. My family can afford at most about USD 33200 per year. I live in Bengaluru. I'm open to going abroad. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 73.7
+  },
+  "career_goal": "Design & UX",
+  "budget_max_usd_per_year": 33200,
+  "location_preference": "Bengaluru",
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in hacking and developer roles"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0153",
+  "PR0091",
+  "PR0149",
+  "PR0039",
+  "PR0174",
+  "PR0158",
+  "PR0041",
+  "PR0084",
+  "PR0141",
+  "PR0013",
+  "PR0014",
+  "PR0181",
+  "PR0046",
+  "PR0166",
+  "PR0059",
+  "PR0049",
+  "PR0035",
+  "PR0069",
+  "PR0055",
+  "PR0195"
+ ],
+ "final_shortlist": [
+  "PR0153",
+  "PR0195",
+  "PR0041",
+  "PR0149",
+  "PR0039"
+ ],
+ "explanation": "This program is highly recommended as it offers a strong international opportunity in Germany while respecting your budget with an annual tuition of only $550. The curriculum focuses on Human-Computer Interaction and design, aligning perfectly with your UX goals. Furthermore, the high placement rate (78%) and 18 months of post-study work visa provide excellent job security, making it a top choice for career growth.\n\nThis German option is ideal if budget is the primary constraint, boasting an extremely low tuition fee of just $300. While it focuses on Information Systems rather than pure design, its strong placement rate (82%) and generous 18-month post-study work visa make it a financially secure path abroad. The main trade-off here is sacrificing specialized UX focus for superior cost savings and job mobility.\n\nIf gaining international experience in Europe is paramount, this program in the Netherlands provides a clear path with a 12-month post-study work visa. Although the tuition ($11,850) and salary potential are higher than the German options, it offers exposure to an advanced European market. The trade-off you must consider is balancing the moderate cost against the slightly lower median starting salary compared to other global options.\n\nFor a high placement rate within India while staying focused on design, this program is excellent. With an annual tuition of $3750 and an impressive 86% placement rate, it directly addresses your goal of securing a good job after graduation. The trade-off here is that the median starting salary ($13217) is lower than some international options, but the local focus keeps costs manageable.\n\nThis program offers a strong combination of low cost ($2250 tuition) and high job placement (85%) while covering both design HCI and software engineering. This dual focus is beneficial given your background in app development and interest in developer roles. The primary trade-off compared to the top picks is that it does not offer international mobility or a post-study work visa.",
+ "wall_s": 46.5
+}

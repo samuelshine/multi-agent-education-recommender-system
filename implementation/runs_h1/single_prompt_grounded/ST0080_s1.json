@@ -1,0 +1,56 @@
+{
+ "student_id": "ST0080",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a distro making certification background. My overall academic average is 78.2% in an IT/computer-science degree. I'm interested in IOT and cloud computing. I want to become a Project Manager. My family can afford at most about USD 1300 per year. I live in Mumbai. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 78.2
+  },
+  "career_goal": "Project Manager (in IOT and cloud computing)",
+  "budget_max_usd_per_year": 1300,
+  "location_preference": "Mumbai",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Strong preference to stay near home (Mumbai)",
+   "Open to other locations within India"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0118",
+  "PR0180",
+  "PR0162",
+  "PR0112",
+  "PR0159",
+  "PR0032",
+  "PR0184",
+  "PR0165",
+  "PR0119",
+  "PR0058",
+  "PR0187",
+  "PR0053",
+  "PR0109",
+  "PR0076",
+  "PR0012",
+  "PR0019",
+  "PR0114",
+  "PR0185",
+  "PR0130",
+  "PR0084"
+ ],
+ "final_shortlist": [
+  "PR0076",
+  "PR0130",
+  "PR0114",
+  "PR0112",
+  "PR0180"
+ ],
+ "explanation": "This MBA Technology Management program is highly recommended as it directly aligns with your goal of becoming a Project Manager and covers IT management fields. Located in Hyderabad, it meets your budget constraint with an annual tuition of $1250 USD. It offers strong job prospects, boasting an 81% placement rate and a median starting salary of $13142 USD. The main trade-off here is that the program focuses on management (MBA) rather than deep technical specialization in IoT or cloud computing.\n\nThe MSc IT Management program provides a strong foundation for project management while keeping your tuition cost low at $1000 USD. Located in Hyderabad, it is an excellent option if you want to focus on the business side of technology without sacrificing job prospects. The program boasts a solid 77% placement rate and a median starting salary of $11249 USD. The trade-off compared to PR0076 is that this degree may be slightly less focused on core 'Technology Management' principles.\n\nThis program is ideal because it is located in Mumbai, matching your strong location preference, and has a very low tuition cost of $850 USD. It offers excellent job security with an 81% placement rate and a median starting salary of $10903 USD. While the focus is on QA testing, its high placement rate makes it a top choice for prioritizing career outcomes in your preferred city. The main trade-off is that the curriculum does not directly cover IoT or cloud computing.\n\nThis MSc Software Engineering program is located right in Mumbai, satisfying your primary location preference. It covers networking and cloud fields while keeping tuition within budget at $1150 USD. The curriculum aligns well with your interest in cloud computing and provides a solid technical background for future project roles. The main trade-off is that its placement rate (65%) is lower compared to other options, making job security less certain.\n\nThis MTech Computer Networks program offers a strong technical focus on networking and cloud computing, directly addressing your field interests. Although located in Pune (a secondary option), it remains within budget at $1250 USD. It provides good job prospects with a 71% placement rate and a median starting salary of $10359 USD. The trade-off is that the program does not offer management or project management coursework, focusing purely on networking infrastructure.",
+ "wall_s": 58.4
+}

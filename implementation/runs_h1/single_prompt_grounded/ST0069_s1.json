@@ -1,0 +1,55 @@
+{
+ "student_id": "ST0069",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a shell programming certification background. My overall academic average is 71.9% in an IT/computer-science degree. I'm interested in data engineering and cloud computing. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 1700 per year. I live in Pune. I'm open to anywhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 71.9
+  },
+  "career_goal": null,
+  "budget_max_usd_per_year": 1700,
+  "location_preference": "Pune",
+  "mobility": "open_domestic",
+  "employability_priority": "high",
+  "other_constraints": [
+   "shell programming certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0182",
+  "PR0119",
+  "PR0186",
+  "PR0176",
+  "PR0058",
+  "PR0187",
+  "PR0174",
+  "PR0053",
+  "PR0158",
+  "PR0109",
+  "PR0076",
+  "PR0012",
+  "PR0019",
+  "PR0114",
+  "PR0185",
+  "PR0130",
+  "PR0084",
+  "PR0120",
+  "PR0170",
+  "PR0015"
+ ],
+ "final_shortlist": [
+  "PR0120",
+  "PR0170",
+  "PR0053",
+  "PR0109",
+  "PR0019"
+ ],
+ "explanation": "This program is highly recommended as it directly aligns with your interest in data engineering through its focus on Big Data Analytics. With a low annual tuition of $800 USD and a minimum grade requirement of 63%, it respects both your budget and academic standing. While located in Delhi, the strong focus on data science analytics should significantly boost your job prospects, which is your top priority. The main trade-off here is that this program does not match your preferred location of Pune.\n\nThis option also specializes in Big Data Analytics, making it an excellent fit for your career interests. The tuition cost is $1300 USD, keeping you well within your family's budget of $1700 USD per year. Furthermore, the minimum grade requirement (62%) is easily met by your 71.9% average. This program provides a strong foundation in data science analytics to maximize job opportunities, though it requires relocating to Coimbatore.\n\nThis MSc Software Quality Engineering program is a solid choice that balances your interest in software development with affordability. Located in Kolkata, the tuition is only $1200 USD, and the minimum grade requirement of 70% is manageable given your academic average. The curriculum covers both QA testing and software engineering, providing diverse skills to improve job prospects. The main trade-off compared to data programs is that its focus is on quality assurance rather than pure data engineering.\n\nThis MTech Computer Science program offers a strong pathway into software engineering with a median starting salary of $13,300 USD, which is excellent for your job priority. The tuition ($1550 USD) remains within budget, and the curriculum directly relates to tech roles. While located in Chennai, this option provides high career value through its focus on core software engineering principles. You must ensure your 71.9% average meets the required minimum of 73%, which is a slight academic trade-off.\n\nThis program is recommended because it keeps you in Pune while meeting your budget and grade requirements. The MSc Software Engineering curriculum covers both QA testing and software engineering fields, providing relevant skills for the tech industry. With a tuition of $1450 USD and a low minimum grade requirement (64%), this option minimizes relocation risk. The main trade-off is that its median starting salary ($10,285 USD) is lower compared to some other options listed.",
+ "wall_s": 57.9
+}

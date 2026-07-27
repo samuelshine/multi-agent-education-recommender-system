@@ -16,7 +16,8 @@ HERE = Path(__file__).parent
 DIMS = ["clarity", "groundedness", "usefulness"]
 SYSTEMS = [("five-agent v1", "runs_h1/full"),
            ("five-agent v2", "runs_h1/full_v2"),
-           ("single-prompt", "runs_h1/single_prompt")]
+           ("single-prompt", "runs_h1/single_prompt"),
+           ("single-prompt (grounded)", "runs_h1/single_prompt_grounded")]
 JUDGES = ["qwen2.5_14b", "mistral-nemo_12b"]
 
 

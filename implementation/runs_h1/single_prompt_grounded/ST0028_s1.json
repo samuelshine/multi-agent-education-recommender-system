@@ -1,0 +1,55 @@
+{
+ "student_id": "ST0028",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 72.9% in an IT/computer-science degree. I'm interested in data engineering and security. I want to become a Software Engineer. My family can afford at most about USD 33700 per year. I live in Coimbatore. I'm open to going abroad. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 72.9
+  },
+  "career_goal": "Software Engineer (interested in data engineering and security)",
+  "budget_max_usd_per_year": 33700,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "r programming certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0086",
+  "PR0058",
+  "PR0126",
+  "PR0026",
+  "PR0090",
+  "PR0145",
+  "PR0107",
+  "PR0063",
+  "PR0173",
+  "PR0071",
+  "PR0069",
+  "PR0055",
+  "PR0030",
+  "PR0034",
+  "PR0027",
+  "PR0067",
+  "PR0018",
+  "PR0136",
+  "PR0132",
+  "PR0051"
+ ],
+ "final_shortlist": [
+  "PR0086",
+  "PR0034",
+  "PR0027",
+  "PR0136",
+  "PR0067"
+ ],
+ "explanation": "This MSc Software Engineering program in the UK is highly recommended as it directly aligns with your goal of becoming a Software Engineer and meets your academic standing (min grade 70%). The median starting salary of $33,967 USD is excellent for job prospects, and the generous 24-month post-study work visa significantly boosts your career opportunities. The tuition fee of $23,400 USD is well within your family's budget constraint. The main trade-off here is that while the salary is high, the program requires an English requirement.\n\nThis MSc Information Security program in Seattle, USA, perfectly matches your stated interest in security and software engineering. With a tuition of $29,150 USD, it remains within your financial limit while offering a strong median starting salary of $47,153 USD. Furthermore, the 12-month post-study work visa provides a solid runway for job searching after graduation. The main trade-off is that this program focuses specifically on cybersecurity and may be less broad than general software engineering roles.\n\nThe MTech Data Engineering in Canada offers an ideal combination of your interest (Data Engineering) and excellent job prospects. The tuition is $27,600 USD, keeping you within budget, and the median starting salary of $44,286 USD is strong. Crucially, it provides a 36-month post-study work visa, maximizing your time to secure employment abroad. The main trade-off is that the program focuses solely on data science analytics, which might limit exposure to general security topics.\n\nThis MTech Cyber Security program in Boston, USA, is an excellent fit for your interest in security and software engineering. The tuition of $21,200 USD respects your budget while providing a strong median starting salary of $46,714 USD. It also offers a 12-month post-study work visa, which supports your goal of securing good employment abroad. The main trade-off is that the program's placement rate (61%) is lower compared to some other options listed.\n\nThis MTech Data Engineering in Canada provides a strong specialization that aligns with your career goals and budget. With $20,200 USD tuition, it is affordable, and the median starting salary of $39,559 USD supports your priority of job placement. The program also offers an outstanding 36-month post-study work visa, giving you ample time to find a role in Canada. The main trade-off is that this specific program requires a Computer Science background, which may be a prerequisite hurdle.",
+ "wall_s": 61.8
+}

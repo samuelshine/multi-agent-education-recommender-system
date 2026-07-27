@@ -1,0 +1,55 @@
+{
+ "student_id": "ST0017",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a python certification background. My overall academic average is 74.4% in an IT/computer-science degree. I'm interested in hacking and Business process analyst. I want to become a CRM Technical Developer. My family can afford at most about USD 2400 per year. I live in Kolkata. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 74.4
+  },
+  "career_goal": "CRM Technical Developer",
+  "budget_max_usd_per_year": 2400,
+  "location_preference": "Kolkata",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in hacking and Business process analyst roles"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0101",
+  "PR0054",
+  "PR0015",
+  "PR0020",
+  "PR0033",
+  "PR0157",
+  "PR0047",
+  "PR0074",
+  "PR0172",
+  "PR0087",
+  "PR0164",
+  "PR0182",
+  "PR0119",
+  "PR0143",
+  "PR0186",
+  "PR0176",
+  "PR0058",
+  "PR0187",
+  "PR0039",
+  "PR0174"
+ ],
+ "final_shortlist": [
+  "PR0119",
+  "PR0176",
+  "PR0039",
+  "PR0015",
+  "PR0187"
+ ],
+ "explanation": "This program is highly recommended as it offers a strong balance of low cost and excellent job prospects. Located in Hyderabad, the tuition fee of $1200 is well within your family's budget constraint. The high placement rate of 86% and median starting salary of $14917 align with your priority of securing good employment after graduation. Furthermore, its minimum grade requirement (71%) is comfortably met by your 74.4% average.\n\nThis MBA Technology Management program in Hyderabad directly aligns with your interest in becoming a CRM Technical Developer and Business Process Analyst. It boasts a strong median starting salary of $15400 and a good placement rate of 82%. The annual tuition fee is $1900, which respects your financial limit of $2400. This option provides excellent career potential while remaining financially feasible.\n\nThe MSc Human-Computer Interaction program is a strong fit for someone interested in technical development and process analysis. Located in Coimbatore, it has a placement rate of 85% and a median starting salary of $13646. The tuition cost ($2250) remains within your budget, and the minimum grade requirement (70%) is easily met by your academic average. This program focuses on design aspects crucial for technical roles.\n\nThis MSc Information Systems program in Bengaluru offers a highly affordable tuition fee of only $1200, making it excellent for budget adherence. While the placement rate (78%) and salary ($9707) are lower than some options, its location in Bengaluru is a major advantage for job seeking. This option prioritizes minimizing cost while keeping you within India's primary tech hub.\n\nThis PG Diploma in Systems Administration provides a very low-cost entry point to the IT field with an annual tuition of $1450. It boasts a high placement rate of 87% and is located in Pune, another major Indian tech center. The main trade-off here is that the specialization in 'IT Support' might be less aligned with your goal of becoming a CRM Technical Developer compared to other options.",
+ "wall_s": 46.3
+}

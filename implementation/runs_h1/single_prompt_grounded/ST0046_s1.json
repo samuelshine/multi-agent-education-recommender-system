@@ -1,0 +1,55 @@
+{
+ "student_id": "ST0046",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a full stack certification background. My overall academic average is 78% in an IT/computer-science degree. I'm interested in hacking and cloud computing. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 6900 per year. I live in Hyderabad. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 78
+  },
+  "career_goal": null,
+  "budget_max_usd_per_year": 6900,
+  "location_preference": "Hyderabad",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in hacking and cloud computing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0186",
+  "PR0197",
+  "PR0043",
+  "PR0147",
+  "PR0096",
+  "PR0199",
+  "PR0118",
+  "PR0121",
+  "PR0148",
+  "PR0016",
+  "PR0102",
+  "PR0180",
+  "PR0162",
+  "PR0112",
+  "PR0159",
+  "PR0032",
+  "PR0184",
+  "PR0165",
+  "PR0117",
+  "PR0198"
+ ],
+ "final_shortlist": [
+  "PR0096",
+  "PR0186",
+  "PR0147",
+  "PR0198",
+  "PR0117"
+ ],
+ "explanation": "This program is highly recommended because it perfectly aligns with your stated interests in cybersecurity and cloud computing, while also being located in Hyderabad, which meets your strong preference to stay near home. The tuition of $3350 remains well within your family's budget constraint of $6900 per year. While the median starting salary is $12561, its local location and direct focus on cybersecurity make it an ideal starting point for your career goals.\n\nThis MTech program offers a strong combination of networking/cloud skills and software engineering, directly supporting your tech interests. With a high placement rate of 83% and a median starting salary of $15192, it strongly addresses your priority of securing a good job after graduation. The tuition is affordable at $2050, and while Pune is not Hyderabad, it remains a major Indian tech hub.\n\nThis MSc Cloud Computing program provides excellent exposure to networking and cloud technologies at an affordable tuition cost of $3200. It boasts a solid placement rate of 83% and offers a median starting salary of $13015, making it a strong contender for job security. The main trade-off here is that the curriculum focuses purely on cloud computing without explicitly incorporating cybersecurity or software engineering depth.\n\nIf securing a high job outcome is your absolute top priority, this program stands out with an impressive placement rate of 95% and a median starting salary of $21062. Although the focus is on QA testing rather than hacking or cloud computing, its exceptional career prospects make it valuable to consider. The tuition cost of $3500 is manageable within your budget.\n\nThis program offers the highest median starting salary ($22504) among all options, directly addressing your primary goal of job security. While its focus is on IT Support and not core cloud/hacking interests, its outstanding placement rate of 93% makes it a top choice for career outcomes. The tuition cost of $4250 remains within your financial constraints.",
+ "wall_s": 60.9
+}

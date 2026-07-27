@@ -6,6 +6,9 @@ Modes (paper Section: Evaluation Plan ablations):
 - single_objective: recommend ranks by academic fit only (H2 ablation)
 - single_prompt:    one LLM call does everything after the deterministic prefilter
                     (architecture ablation, cf. onlinecoursemaskg)
+- single_prompt_grounded: same one-call task, but the explanation instruction is
+                    upgraded to match EXPLAIN's grounding directive word-for-word
+                    (isolates architecture from instruction wording; review-requested)
 
 Spike requirements carried in (spike/SPIKE_REPORT.md):
 #1 hard admission filter — deterministic, applied in the prefilter AND as a
@@ -86,7 +89,8 @@ def slim(p: dict) -> dict:
 class Pipeline:
     def __init__(self, llm, programs: list, mode: str = "full", memory_dir=None,
                  version: int = 1):
-        assert mode in ("full", "no_memory", "single_objective", "single_prompt")
+        assert mode in ("full", "no_memory", "single_objective", "single_prompt",
+                        "single_prompt_grounded")
         assert version in (1, 2)
         self.llm = llm
         self.programs = programs
@@ -138,10 +142,13 @@ class Pipeline:
         cand_json = json.dumps([slim(p) for p in candidates], indent=1)
         cons_json = json.dumps(constraints, indent=1)
 
-        if self.mode == "single_prompt":
+        if self.mode in ("single_prompt", "single_prompt_grounded"):
+            prompt = (prompts.SINGLE_PROMPT_GROUNDED
+                      if self.mode == "single_prompt_grounded"
+                      else prompts.SINGLE_PROMPT_BASELINE)
             obj, _, failed = self._step(
-                "single_prompt",
-                prompts.SINGLE_PROMPT_BASELINE.format(k=K),
+                self.mode,
+                prompt.format(k=K),
                 f"Student message:\n{message}\n\nCandidate programs:\n{cand_json}",
                 lambda o: schemas.check_shortlist(
                     {"shortlist": [{**s, "scores": s.get("scores", {
@@ -152,7 +159,7 @@ class Pipeline:
                     {"program_id": p["program_id"], "rank": i + 1, "explanation": ""}
                     for i, p in enumerate(candidates[:K])]})
             if failed:
-                record["fallbacks"].append("single_prompt")
+                record["fallbacks"].append(self.mode)
             final_ids = [s["program_id"] for s in obj["shortlist"]]
             record["final_shortlist"] = final_ids
             record["explanation"] = "\n\n".join(

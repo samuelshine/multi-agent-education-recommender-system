@@ -44,7 +44,8 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--data", default=str(HERE / "datagen" / "out"))
     ap.add_argument("--mode", default="full",
-                    choices=["full", "no_memory", "single_objective", "single_prompt"])
+                    choices=["full", "no_memory", "single_objective", "single_prompt",
+                             "single_prompt_grounded"])
     ap.add_argument("--students", help="comma-separated ids (default: first --n)")
     ap.add_argument("--n", type=int, default=2)
     ap.add_argument("--sessions", default="1")

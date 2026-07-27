@@ -1,0 +1,43 @@
+{
+ "student_id": "ST0026",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a shell programming certification background. My overall academic average is 74.8% in an IT/computer-science degree. I'm interested in programming and testing. I want to become a Applications Developer. My family can afford at most about USD 7100 per year. I live in Bengaluru. I cannot leave my city. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 74.8
+  },
+  "career_goal": "Applications Developer",
+  "budget_max_usd_per_year": 7100,
+  "location_preference": "Bengaluru",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in programming and testing",
+   "Shell programming certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0085",
+  "PR0015",
+  "PR0073",
+  "PR0002",
+  "PR0013",
+  "PR0173",
+  "PR0087"
+ ],
+ "final_shortlist": [
+  "PR0073",
+  "PR0015",
+  "PR0002",
+  "PR0013",
+  "PR0173"
+ ],
+ "explanation": "This program offers the highest placement rate at 80% and a strong median starting salary of $8637. While its focus is on Cybersecurity rather than core application development or testing, the exceptional job prospects align perfectly with your stated priority. The trade-off here is that you would specialize in security, moving away from pure software engineering.\n\nThis program boasts a high placement rate of 78% and the highest median starting salary at $9707. Although its focus is on Business Information Systems rather than pure coding or testing, the strong career outcomes make it highly valuable for your job priority. The main trade-off is that the curriculum leans heavily into business processes rather than deep technical development.\n\nIf maximizing immediate salary potential is the absolute top priority, this program offers the highest median starting salary at $11419. While its field is IT Support and not directly related to programming or testing, it provides unmatched financial security upon graduation. The trade-off is that you would be moving into an operations role rather than a developer role.\n\nThis program offers a strong balance of job security and cost efficiency, featuring a placement rate of 77% and a solid salary of $9186. Although the specialization is in Human-Computer Interaction (design) rather than pure coding, it provides valuable skills for an Applications Developer role. The trade-off is that your focus would be on user experience design rather than backend programming.\n\nThis MTech Computer Science program provides the most direct academic fit for your goal of becoming an Applications Developer, covering Software Engineering. It also has a very low tuition cost ($500). The trade-off is that while it aligns perfectly with your technical interests, its placement rate (62%) and salary are lower compared to other options prioritizing job outcomes.",
+ "wall_s": 40.3
+}

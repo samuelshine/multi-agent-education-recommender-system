@@ -1,0 +1,55 @@
+{
+ "student_id": "ST0011",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a python certification background. My overall academic average is 81.4% in an IT/computer-science degree. I'm interested in Computer Architecture and security. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 5400 per year. I live in Pune. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 81.4
+  },
+  "career_goal": null,
+  "budget_max_usd_per_year": 5400,
+  "location_preference": "Pune",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in Computer Architecture and security"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0117",
+  "PR0198",
+  "PR0097",
+  "PR0144",
+  "PR0139",
+  "PR0164",
+  "PR0029",
+  "PR0022",
+  "PR0182",
+  "PR0060",
+  "PR0191",
+  "PR0119",
+  "PR0101",
+  "PR0143",
+  "PR0186",
+  "PR0176",
+  "PR0058",
+  "PR0149",
+  "PR0092",
+  "PR0187"
+ ],
+ "final_shortlist": [
+  "PR0029",
+  "PR0186",
+  "PR0144",
+  "PR0198",
+  "PR0182"
+ ],
+ "explanation": "This program is highly recommended because it directly aligns with your stated interest in security by focusing on 'cybersecurity.' The tuition of $3800 falls well within your family's budget constraint. While the location is Mumbai, which is a reasonable alternative to Pune, this specialization offers a strong career path in cybersecurity, fulfilling your primary goal of securing a good job after graduation.\n\nThis MTech program is an excellent fit because it focuses on 'networking_cloud' and 'software_engineering,' which relates closely to Computer Architecture. Crucially, the institution is located in Pune, satisfying your strong preference to stay near home. Furthermore, the annual tuition of $2050 is very budget-friendly, making this a low-risk option that matches both location and interest.\n\nThis MTech Computer Science program provides a strong foundation in 'software_engineering' while being located right in Pune. Your academic average of 81.4% meets the minimum grade requirement of 81%, and the placement rate is high at 93%. The main trade-off here is that it is a general CS degree, rather than specializing immediately in security or architecture.\n\nIf you are open to Bengaluru, this MSc program offers high job security with a placement rate of 95%. The curriculum focuses on 'qa_testing' and 'software_engineering,' which provides valuable industry skills. This option is budget-friendly at $3500 annually, making it a strong alternative if the Pune options do not work out.\n\nThis program serves as an excellent local backup option since it is located in Pune and has very low tuition at $1950. While its focus on 'qa_testing' is less aligned with your core interests of security or architecture, the combination of low cost, high placement rate (91%), and local convenience makes it a safe and affordable choice.",
+ "wall_s": 41.6
+}

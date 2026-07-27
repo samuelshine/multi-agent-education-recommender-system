@@ -1,0 +1,56 @@
+{
+ "student_id": "ST0024",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a hadoop certification background. My overall academic average is 76.1% in an IT/computer-science degree. I'm interested in hacking and developer. I want to become a Applications Developer. My family can afford at most about USD 4800 per year. I live in Bengaluru. I'd strongly prefer to stay near home, though I might consider elsewhere in India.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 76.1
+  },
+  "career_goal": "Applications Developer",
+  "budget_max_usd_per_year": 4800,
+  "location_preference": "Bengaluru",
+  "mobility": "prefers_region",
+  "employability_priority": null,
+  "other_constraints": [
+   "Hadoop certification background",
+   "Interested in hacking and developer"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0198",
+  "PR0144",
+  "PR0139",
+  "PR0164",
+  "PR0029",
+  "PR0022",
+  "PR0182",
+  "PR0060",
+  "PR0191",
+  "PR0119",
+  "PR0101",
+  "PR0143",
+  "PR0186",
+  "PR0176",
+  "PR0058",
+  "PR0149",
+  "PR0092",
+  "PR0187",
+  "PR0039",
+  "PR0174"
+ ],
+ "final_shortlist": [
+  "PR0029",
+  "PR0186",
+  "PR0058",
+  "PR0182",
+  "PR0191"
+ ],
+ "explanation": "This program is highly recommended because it directly aligns with your stated interest in 'hacking' through its focus on cybersecurity. The tuition of $3800 USD remains within your family's budget constraint. While the location (Mumbai) is not Bengaluru, this specialization offers a strong technical path that complements your existing IT/CS background. The main trade-off here is prioritizing specialized security knowledge over general application development.\n\nThis MTech program offers a strong blend of 'software_engineering' and networking skills, making it excellent for an Applications Developer goal. Located in Pune, it is a viable alternative to Bengaluru while still being highly technical. Since you have a CS background, this program is well-suited for your academic profile. The main trade-off is that the curriculum focuses heavily on networks/infrastructure rather than pure application development.\n\nThis MCA program provides a direct and strong path toward becoming an Applications Developer by covering 'software_engineering' and data analytics. With the lowest tuition cost ($1350 USD) among top-tier options, it is highly budget-friendly for your family. Located in Coimbatore, this option sacrifices location preference for excellent value and core development skills. The main trade-off is that the program is a Master of Computer Applications (MCA), which may differ slightly from an MTech/MSc degree.\n\nThis MSc in Software Quality Engineering offers a solid foundation in software development and is located in Pune, making it a good alternative to Bengaluru. The tuition ($1950 USD) is very affordable and the program has a high placement rate of 91%. This path emphasizes quality assurance within development, which is crucial for an Applications Developer role. The main trade-off is that the focus is on testing/quality engineering rather than pure coding or architecture.\n\nThis MTech Data Engineering program provides advanced technical skills in data science and business information systems, which are highly valuable for modern developers. Located in Chennai, it meets your budget constraints with a tuition of $3250 USD. This option leverages your existing IT background while providing exposure to high-demand data fields. The main trade-off is that the focus shifts toward data pipelines and analytics rather than general application development.",
+ "wall_s": 45.0
+}

@@ -1,0 +1,56 @@
+{
+ "student_id": "ST0020",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a machine learning certification background. My overall academic average is 80.3% in an IT/computer-science degree. I'm interested in cloud computing and Business process analyst. I want to become a Systems Security Administrator. My family can afford at most about USD 17700 per year. I live in Pune. I'm open to going abroad. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 80.3
+  },
+  "career_goal": "Systems Security Administrator",
+  "budget_max_usd_per_year": 17700,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in cloud computing",
+   "Interested in Business process analyst"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0000",
+  "PR0195",
+  "PR0122",
+  "PR0005",
+  "PR0010",
+  "PR0169",
+  "PR0153",
+  "PR0163",
+  "PR0127",
+  "PR0051",
+  "PR0103",
+  "PR0077",
+  "PR0001",
+  "PR0194",
+  "PR0081",
+  "PR0123",
+  "PR0042",
+  "PR0061",
+  "PR0004",
+  "PR0138"
+ ],
+ "final_shortlist": [
+  "PR0000",
+  "PR0195",
+  "PR0005",
+  "PR0001",
+  "PR0169"
+ ],
+ "explanation": "This program offers an excellent combination of low cost and high career potential, making it ideal for your job-first priority. The annual tuition is extremely affordable at $950 USD, and the minimum required grade (80%) matches your academic standing perfectly. With a placement rate of 91% and a median starting salary of $56,198 USD, this program provides strong career security in IT Management. The main trade-off here is that it focuses on general IT management rather than deep cybersecurity or cloud specialization.\n\nThis option provides a highly affordable pathway to a strong career in Germany while maintaining high job prospects. At only $300 USD annually, the tuition is minimal, and your academic average exceeds the minimum requirement of 72%. The program boasts an 82% placement rate and offers a competitive median starting salary of $51,059 USD. The trade-off compared to PR0000 is that its focus on general Information Systems might be less specialized than dedicated cybersecurity or cloud tracks.\n\nThis program directly aligns with your interest in Systems Security Administrator roles through its MTech Computer Networks specialization. It has a high placement rate of 87% and requires a CS background, which matches your certification experience. The tuition of $15,000 USD is well within your budget, offering strong job outcomes despite the relatively modest median starting salary of $38,586 USD. You trade off maximum earning potential for direct specialization in cybersecurity.\n\nThis program is a strong choice if you want to focus specifically on Cloud Computing and networking within your budget. With an annual tuition of $11,850 USD, it remains affordable while providing relevant technical skills in the field. The curriculum's focus on 'networking_cloud' directly addresses one of your core interests, and graduates benefit from 12 months of post-study work visa options. The trade-off is that its median starting salary ($29,303 USD) is lower than some other highly rated programs.\n\nThis program offers a solid foundation in IT Operations and networking, making it relevant to both cloud computing and systems administration. The tuition of $15,750 USD is manageable within your budget, and the curriculum directly covers 'networking_cloud' skills. It provides a decent placement rate of 77% and an attractive median starting salary of $40,910 USD. The main trade-off compared to PR0005 is that its focus on general IT Operations might be slightly less specialized in pure cybersecurity.",
+ "wall_s": 53.8
+}

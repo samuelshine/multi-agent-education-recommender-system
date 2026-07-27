@@ -1,0 +1,55 @@
+{
+ "student_id": "ST0075",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a shell programming certification background. My overall academic average is 76.8% in an IT/computer-science degree. I'm interested in Software Engineering and cloud computing. I want to become a E-Commerce Analyst. My family can afford at most about USD 37100 per year. I live in Chennai. I'm open to going abroad. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 76.8
+  },
+  "career_goal": "E-Commerce Analyst",
+  "budget_max_usd_per_year": 37100,
+  "location_preference": "Chennai",
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "shell programming certification"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0116",
+  "PR0000",
+  "PR0154",
+  "PR0069",
+  "PR0079",
+  "PR0055",
+  "PR0195",
+  "PR0030",
+  "PR0124",
+  "PR0146",
+  "PR0094",
+  "PR0021",
+  "PR0135",
+  "PR0168",
+  "PR0017",
+  "PR0110",
+  "PR0034",
+  "PR0027",
+  "PR0122",
+  "PR0005"
+ ],
+ "final_shortlist": [
+  "PR0027",
+  "PR0030",
+  "PR0110",
+  "PR0195",
+  "PR0069"
+ ],
+ "explanation": "This program is highly recommended as it directly aligns with your goal of becoming an E-Commerce Analyst by focusing on Data Science Analytics. The curriculum provides strong skills in data management and analytics, which are crucial for e-commerce roles. With a median starting salary of $44,286 USD and a post-study work visa of 36 months in Canada, this option offers excellent job security potential. The main trade-off is that the initial salary is moderate compared to other high-paying options.\n\nThis MSc IT Management program provides a strong blend of software engineering and IT management skills, making it ideal for transitioning into an analyst role. The tuition fee of $35,050 USD is within your stated budget, and the median starting salary of $74,348 USD offers excellent job prospects. Furthermore, the 12-month post-study work visa in the USA helps maximize your time on campus to secure employment. The trade-off here is that it is a general IT management degree rather than a specialized e-commerce focus.\n\nSince Cloud Computing is one of your primary interests, this MSc program offers direct specialization in networking and cloud technologies. The tuition fee of $29,650 USD fits comfortably within your budget, and the curriculum builds upon technical skills relevant to modern e-commerce infrastructure. While the placement rate is 71%, the focus on a high-demand field like cybersecurity ensures strong job market relevance. The main trade-off is that the median starting salary ($48,858 USD) is average compared to other options.\n\nFor a low-cost option with a strong business focus, this MSc Information Systems program in Germany is excellent. The minimal tuition of only $300 USD respects your financial constraints while providing core knowledge in business information systems relevant to analysis. It boasts an 82% placement rate and offers a generous 18-month post-study work visa. The trade-off is that the median starting salary ($51,059 USD) is not as high as some other programs.\n\nThis MTech program offers a highly technical path in networking and software engineering, leading to the highest median starting salary of $81,740 USD. While the tuition ($37,700 USD) slightly exceeds your stated budget limit, its superior job prospects make it worth considering given that securing a good job is your top priority. The program also offers an 88% placement rate and a 12-month post-study work visa in the USA. The main trade-off is the slight overshoot on the annual tuition budget.",
+ "wall_s": 61.4
+}

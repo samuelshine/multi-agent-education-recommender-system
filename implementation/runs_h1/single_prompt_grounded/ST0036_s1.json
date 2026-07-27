@@ -1,0 +1,55 @@
+{
+ "student_id": "ST0036",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a python certification background. My overall academic average is 70.8% in an IT/computer-science degree. I'm interested in Management and developer. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 3400 per year. I live in Delhi. I'd strongly prefer to stay near home, though I might consider elsewhere in India.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 70.8
+  },
+  "career_goal": "Management and developer (in tech)",
+  "budget_max_usd_per_year": 3400,
+  "location_preference": "Delhi",
+  "mobility": "prefers_region",
+  "employability_priority": null,
+  "other_constraints": [
+   "Python certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0060",
+  "PR0176",
+  "PR0092",
+  "PR0189",
+  "PR0076",
+  "PR0130",
+  "PR0078",
+  "PR0150",
+  "PR0157",
+  "PR0160",
+  "PR0048",
+  "PR0172",
+  "PR0156",
+  "PR0029",
+  "PR0022",
+  "PR0182",
+  "PR0191",
+  "PR0119",
+  "PR0101",
+  "PR0143"
+ ],
+ "final_shortlist": [
+  "PR0160",
+  "PR0157",
+  "PR0130",
+  "PR0156",
+  "PR0150"
+ ],
+ "explanation": "This program is highly recommended because it is located in Delhi, fulfilling your strong preference to stay near home. The MBA Technology Management degree aligns perfectly with your interest in management and tech roles. Furthermore, the annual tuition of $2050 remains well within your family's budget constraint of $3400, and the minimum required grade (60%) is comfortably below your 70.8% average.\n\nIf budget is the absolute highest priority, this MSc IT Management program in Coimbatore offers the lowest tuition at only $800 per year. It meets both your financial constraint and academic standing (min grade 64%). While it involves moving to Coimbatore, its extremely low cost makes it an excellent value option for someone who is unsure of their final career path.\n\nThis MSc IT Management program in Hyderabad provides a very affordable entry point into tech management with an annual tuition of just $1000. It is academically suitable as the minimum grade requirement (62%) is lower than your current average. This option balances low cost and strong technical relevance while offering a move to a major Indian tech hub.\n\nThis MBA Technology Management program in Pune is an excellent choice for balancing affordability with location flexibility. At $1350 annually, it respects your budget constraint while offering a strong focus on IT management. The minimum grade requirement (57%) is easily met by your academic average, making it a low-risk option if you are considering moving outside Delhi.\n\nThis MBA Technology Management program in Kolkata provides a solid alternative for those interested in management roles while staying within budget. The tuition of $1950 is affordable and the minimum grade requirement (61%) is easily met by your academic record. The main trade-off here is that it requires moving to Kolkata, which may be further from your preferred home region.",
+ "wall_s": 49.4
+}

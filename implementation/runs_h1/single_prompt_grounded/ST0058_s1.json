@@ -1,0 +1,55 @@
+{
+ "student_id": "ST0058",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a app development certification background. My overall academic average is 79.6% in an IT/computer-science degree. I'm interested in Software Engineering and developer. I want to become a UX Designer. My family can afford at most about USD 1200 per year. I live in Bengaluru. I'm open to anywhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 79.6
+  },
+  "career_goal": "UX Designer",
+  "budget_max_usd_per_year": 1200,
+  "location_preference": "Bengaluru",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in Software Engineering and developer roles"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0058",
+  "PR0053",
+  "PR0076",
+  "PR0012",
+  "PR0019",
+  "PR0185",
+  "PR0084",
+  "PR0171",
+  "PR0013",
+  "PR0181",
+  "PR0166",
+  "PR0059",
+  "PR0112",
+  "PR0049",
+  "PR0035",
+  "PR0008",
+  "PR0063",
+  "PR0142",
+  "PR0082",
+  "PR0032"
+ ],
+ "final_shortlist": [
+  "PR0053",
+  "PR0049",
+  "PR0013",
+  "PR0181",
+  "PR0082"
+ ],
+ "explanation": "This program is highly recommended as it focuses on Software Quality Engineering, directly supporting your goal of becoming a developer. It maintains an excellent placement rate of 86% and offers a median starting salary of $12,855 USD, which aligns with your priority for good job prospects. Crucially, the annual tuition of $1200 USD meets your strict budget constraint. The main trade-off here is that it focuses on QA testing rather than pure UX design.\n\nThis program is ideal for transitioning into a UX Designer role while remaining within budget. Located in Mumbai, it offers an MSc in Human-Computer Interaction (HCI) with only $600 USD annual tuition, making it highly affordable. While the placement rate is moderate at 66%, its low cost and direct relevance to design make it a strong fit for your career goals. The trade-off is that the median starting salary ($7131 USD) is among the lowest in this shortlist.\n\nThis program is an excellent match because it focuses on HCI/Design and is located in Bengaluru, matching your current location preference. The annual tuition of $900 USD respects your family's budget while providing direct training for UX roles. Although the placement rate (77%) and median salary ($9186 USD) are average compared to other options, its geographical convenience makes it a top consideration. There is no significant trade-off here, as it meets multiple criteria.\n\nThis option provides the lowest tuition cost ($850 USD) while maintaining a strong focus on HCI/Design, which is key to your UX goal. Located in Pune, it offers excellent value and directly addresses your career interest in design. The main trade-off is that its placement rate (73%) and median salary ($9715 USD) are slightly lower than the top recommendations, but the cost savings are substantial.\n\nIf budget is the absolute highest priority, this program offers an MSc in Software Engineering for only $500 USD annually. This low cost allows maximum financial flexibility while still providing core developer skills (SWE/QA). The trade-off is that its median starting salary ($6458 USD) and placement rate (64%) are the lowest among the recommended options, meaning you sacrifice potential income for significant tuition savings.",
+ "wall_s": 47.8
+}

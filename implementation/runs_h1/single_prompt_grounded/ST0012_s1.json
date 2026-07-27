@@ -1,0 +1,55 @@
+{
+ "student_id": "ST0012",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a distro making certification background. My overall academic average is 82.9% in an IT/computer-science degree. I'm interested in Management and testing. I want to become a Information Technology Auditor. My family can afford at most about USD 11300 per year. I live in Chennai. I'm open to anywhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 82.9
+  },
+  "career_goal": "Information Technology Auditor",
+  "budget_max_usd_per_year": 11300,
+  "location_preference": "Chennai",
+  "mobility": "open_domestic",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in Management and testing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0157",
+  "PR0172",
+  "PR0198",
+  "PR0139",
+  "PR0164",
+  "PR0182",
+  "PR0060",
+  "PR0191",
+  "PR0119",
+  "PR0101",
+  "PR0176",
+  "PR0092",
+  "PR0053",
+  "PR0189",
+  "PR0072",
+  "PR0054",
+  "PR0076",
+  "PR0105",
+  "PR0065",
+  "PR0019"
+ ],
+ "final_shortlist": [
+  "PR0198",
+  "PR0164",
+  "PR0119",
+  "PR0072",
+  "PR0076"
+ ],
+ "explanation": "This program is highly recommended because it directly aligns with your interest in testing (QA) and offers the best job prospects among all options. With a placement rate of 95% and a median starting salary of $21,062 USD, this maximizes your primary goal of securing good employment. The trade-off here is that the annual tuition ($3500 USD) is higher than some other budget-friendly options.\n\nThis MBA program in Technology Management provides a strong blend of business acumen and IT knowledge, which is ideal for an aspiring IT Auditor. It boasts a high placement rate of 90% and a solid median starting salary of $17,361 USD. The trade-off is that the curriculum focuses on management (MBA) rather than deep technical testing skills.\n\nThis MSc Software Quality Engineering program offers excellent value and direct relevance to your interest in testing. With a very low annual tuition of only $1200 USD, it is highly budget-friendly while maintaining a respectable placement rate of 86%. The main trade-off is that the median starting salary ($14,917 USD) is moderate compared to PR0198.\n\nThis alternative MSc Software Quality Engineering program in Pune keeps your focus on testing while offering a good balance of cost and job prospects. It has an annual tuition of $2400 USD and a placement rate of 84%. The trade-off is that the median starting salary ($13,106 USD) is lower than some other high-placement options.\n\nThis MBA Technology Management program provides a low-cost entry point into the IT management field, which supports your goal of becoming an auditor. At only $1250 USD annually, it is extremely budget-friendly and offers relevant coursework in both IT management and software engineering. The trade-off is that its placement rate (81%) and median salary ($13,142 USD) are among the lowest recommended options.",
+ "wall_s": 56.5
+}

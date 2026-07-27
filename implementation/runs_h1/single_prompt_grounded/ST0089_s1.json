@@ -1,0 +1,55 @@
+{
+ "student_id": "ST0089",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 77.7% in an IT/computer-science degree. I'm interested in networks and testing. I want to become a Information Technology Manager. My family can afford at most about USD 1200 per year. I live in Mumbai. I'd strongly prefer to stay near home, though I might consider elsewhere in India.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 77.7
+  },
+  "career_goal": "Information Technology Manager",
+  "budget_max_usd_per_year": 1200,
+  "location_preference": null,
+  "mobility": "prefers_region",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in networks and testing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0119",
+  "PR0053",
+  "PR0019",
+  "PR0114",
+  "PR0015",
+  "PR0020",
+  "PR0193",
+  "PR0157",
+  "PR0050",
+  "PR0125",
+  "PR0190",
+  "PR0080",
+  "PR0008",
+  "PR0142",
+  "PR0082",
+  "PR0052",
+  "PR0085",
+  "PR0066",
+  "PR0064",
+  "PR0087"
+ ],
+ "final_shortlist": [
+  "PR0114",
+  "PR0082",
+  "PR0157",
+  "PR0193",
+  "PR0066"
+ ],
+ "explanation": "This program is highly recommended because it meets your strong preference for staying in Mumbai while focusing on QA Testing. The annual tuition of $850 USD fits well within your family's budget constraint of $1200. While the curriculum focuses specifically on 'qa_testing,' which aligns with your interest, the main trade-off is that this program does not explicitly cover networking or IT management skills needed for a manager role.\n\nThis option remains in Mumbai and provides a blend of 'qa_testing' and 'software_engineering,' which is beneficial for both your interests and career goal. At an annual tuition cost of $500 USD, it is the most budget-friendly choice among the Mumbai options. The trade-off here is that its median starting salary ($6458 USD) is among the lower figures in this shortlist.\n\nThis program directly addresses your goal of becoming an Information Technology Manager by offering 'it_management' alongside business information systems. With a low tuition cost of $800 USD, it is highly budget-friendly. The main trade-off is the location; while excellent for career goals, it requires you to consider Coimbatore instead of staying near Mumbai.\n\nThis program offers a strong focus on 'qa_testing' and is conveniently located in Mumbai, satisfying your location preference. The tuition fee of $1200 USD perfectly matches the upper limit of your budget. The trade-off compared to other options is that its placement rate (72%) is slightly lower than some alternatives.\n\nThis program provides a solid foundation in 'qa_testing' and maintains an affordable tuition of $800 USD. While it is located in Kolkata, which deviates from your primary location preference, it offers excellent value for money. The trade-off is the geographical move to Kolkata, but it keeps you within budget while focusing on your core interest.",
+ "wall_s": 43.9
+}

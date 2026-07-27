@@ -1,0 +1,55 @@
+{
+ "student_id": "ST0079",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a distro making certification background. My overall academic average is 77.7% in an IT/computer-science degree. I'm interested in Management and security. I want to become a Data Architect. My family can afford at most about USD 7000 per year. I live in Mumbai. I'm open to anywhere in India.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 77.7
+  },
+  "career_goal": "Data Architect",
+  "budget_max_usd_per_year": 7000,
+  "location_preference": null,
+  "mobility": "open_domestic",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in Management and security"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0097",
+  "PR0164",
+  "PR0060",
+  "PR0191",
+  "PR0143",
+  "PR0176",
+  "PR0058",
+  "PR0092",
+  "PR0189",
+  "PR0007",
+  "PR0099",
+  "PR0026",
+  "PR0076",
+  "PR0090",
+  "PR0130",
+  "PR0120",
+  "PR0170",
+  "PR0078",
+  "PR0145",
+  "PR0033"
+ ],
+ "final_shortlist": [
+  "PR0099",
+  "PR0143",
+  "PR0189",
+  "PR0176",
+  "PR0120"
+ ],
+ "explanation": "This program is highly recommended as it directly aligns with your goal of becoming a Data Architect and is located in Mumbai. The MSc Big Data Analytics curriculum provides strong data science analytics training, complementing your technical background. With an annual tuition of $3150, it fits well within your family's budget constraint. You meet the minimum grade requirement of 72%, making this a strong local option.\n\nThis MSc Data Science program in Mumbai is an excellent fit for your career goal and location preference. The curriculum focuses on data science analytics, which is crucial for a Data Architect role. Furthermore, the minimum grade requirement of 72% is manageable given your 77.7% average. While it requires a CS background (which you have), its tuition of $2750 keeps it well within budget.\n\nIf you wish to emphasize the 'Management' aspect of your interests while staying in Mumbai, this MBA Technology Management program is ideal. It requires no CS background and has a minimum grade requirement of 71%, which suits your academic profile. The tuition cost of $3350 remains within budget, offering a strong blend of IT management skills.\n\nThis MBA Technology Management program in Hyderabad is recommended for its low cost and alignment with your interest in management. With an annual tuition of only $1900, it offers significant budget savings compared to the Mumbai options. The minimum grade requirement of 72% is achievable, providing a solid path into IT management roles.\n\nFor the lowest possible tuition while still focusing on your data goal, this MSc Big Data Analytics program in Delhi is an excellent choice. At only $800 annually, it maximizes budget adherence and provides relevant data science analytics training. The minimum grade requirement of 63% makes admission highly feasible. The main trade-off here is the location (Delhi) compared to your preference for Mumbai.",
+ "wall_s": 52.0
+}

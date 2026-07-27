@@ -1,0 +1,55 @@
+{
+ "student_id": "ST0013",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a python certification background. My overall academic average is 75.6% in an IT/computer-science degree. I'm interested in Management and security. I want to become a Systems Analyst. My family can afford at most about USD 4400 per year. I live in Pune. I'd strongly prefer to stay near home, though I might consider elsewhere in India.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 75.6
+  },
+  "career_goal": "Systems Analyst",
+  "budget_max_usd_per_year": 4400,
+  "location_preference": null,
+  "mobility": "prefers_region",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in Management and security"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0157",
+  "PR0172",
+  "PR0164",
+  "PR0060",
+  "PR0191",
+  "PR0101",
+  "PR0176",
+  "PR0092",
+  "PR0189",
+  "PR0054",
+  "PR0076",
+  "PR0105",
+  "PR0130",
+  "PR0015",
+  "PR0020",
+  "PR0078",
+  "PR0033",
+  "PR0150",
+  "PR0047",
+  "PR0160"
+ ],
+ "final_shortlist": [
+  "PR0078",
+  "PR0130",
+  "PR0172",
+  "PR0076",
+  "PR0092"
+ ],
+ "explanation": "This program is highly recommended because it meets your strong preference for staying near home in Pune while focusing on IT Management. The annual tuition of $1750 fits comfortably within your family's budget constraint. With a minimum grade requirement of 62%, your academic average of 75.6% makes you a strong candidate. The main trade-off here is that the median starting salary ($9426) is lower compared to some other options, but the location fit is excellent.\n\nThis option provides an outstanding combination of low cost and a viable alternative city (Hyderabad). The annual tuition at $1000 is exceptionally budget-friendly, leaving significant room in your $4400 limit. The MSc IT Management program aligns perfectly with your interest in management and systems analysis. While Hyderabad is not Pune, the extremely low tuition makes this an attractive financial trade-off.\n\nThis program keeps you within your preferred city of Pune and focuses on IT Management. The annual tuition of $2250 is well within budget, making it financially manageable for your family. Since the minimum grade requirement (62%) is low relative to your academic average, admission should be straightforward. The main trade-off compared to PR0078 is that this program has a higher tuition cost and slightly lower placement rate.\n\nLocated in Hyderabad, this MBA Technology Management program offers excellent relevance to your career goal of becoming a Systems Analyst. The annual tuition is very low at $1250, making it highly budget-friendly and appealing for an alternative location. Furthermore, the curriculum includes both IT Management and Software Engineering fields, broadening your skill set. The trade-off is that you are moving away from Pune to Hyderabad.\n\nThis program remains in Pune, satisfying your location preference while offering an IT Management specialization. The annual tuition of $3450 is acceptable within your budget limit. Your academic average (75.6%) exceeds the minimum grade requirement of 74%, making you a strong applicant. The main trade-off here is that this program has the highest tuition cost among the top Pune options, requiring careful budgeting.",
+ "wall_s": 46.8
+}

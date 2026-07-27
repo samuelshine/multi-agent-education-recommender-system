@@ -1,0 +1,55 @@
+{
+ "student_id": "ST0031",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a app development certification background. My overall academic average is 75.9% in an IT/computer-science degree. I'm interested in programming and Business process analyst. I want to become a Database Manager. My family can afford at most about USD 4500 per year. I live in Delhi. I'd strongly prefer to stay near home, though I might consider elsewhere in India.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 75.9
+  },
+  "career_goal": "Database Manager",
+  "budget_max_usd_per_year": 4500,
+  "location_preference": null,
+  "mobility": "prefers_region",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in programming and Business process analyst"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0191",
+  "PR0033",
+  "PR0074",
+  "PR0087",
+  "PR0101",
+  "PR0143",
+  "PR0058",
+  "PR0007",
+  "PR0054",
+  "PR0099",
+  "PR0026",
+  "PR0105",
+  "PR0090",
+  "PR0120",
+  "PR0170",
+  "PR0015",
+  "PR0020",
+  "PR0145",
+  "PR0157",
+  "PR0107"
+ ],
+ "final_shortlist": [
+  "PR0120",
+  "PR0020",
+  "PR0107",
+  "PR0099",
+  "PR0026"
+ ],
+ "explanation": "This program is highly recommended as it meets your strong preference to stay near home in Delhi while offering a specialized focus on data analytics. With an annual tuition of only $800 USD, it is exceptionally budget-friendly and well within your family's financial limit. The MSc Big Data Analytics curriculum aligns perfectly with your interest in database management and programming. The main trade-off here is that the program focuses purely on big data analytics without explicitly covering core business process analysis.\n\nThis MBA Business Analytics program is ideal because it combines your interest in business process analysis with a low tuition cost of $1450 USD. Since the institution is located in Delhi, it satisfies your primary location preference while providing strong business information systems knowledge. This option provides excellent career relevance for transitioning into roles like Business Process Analyst. The trade-off is that this program is less focused on deep programming skills compared to a dedicated MTech or MSc.\n\nIf you wish to emphasize your technical background and programming interests, the MTech Computer Science program in Delhi is an excellent choice. It requires a CS background, which matches your academic degree, and has a reasonable tuition of $1850 USD. This curriculum will deepen your skills in data science analytics and software engineering, directly supporting your goal of becoming a Database Manager. The trade-off for choosing this technical path over the MBA is that it offers less explicit training in business process analysis.\n\nThis MSc Big Data Analytics program in Mumbai provides a strong, technically focused alternative if you are willing to consider another major Indian city. The curriculum is highly relevant for data management and utilizes your existing technical background. At $3150 USD annually, the tuition remains well within your budget constraints. The main trade-off compared to the Delhi options is that it requires relocating to Mumbai.\n\nThe MTech Data Engineering program in Hyderabad offers a robust blend of data science analytics and software engineering, making it highly suitable for your career goals. With an annual tuition of $3900 USD, it is still within your financial capacity and provides excellent technical depth. This option serves as a strong alternative location that maintains high relevance to both programming and database management. The trade-off is that the program requires moving to Hyderabad.",
+ "wall_s": 55.3
+}

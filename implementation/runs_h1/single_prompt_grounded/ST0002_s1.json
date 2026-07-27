@@ -1,0 +1,56 @@
+{
+ "student_id": "ST0002",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a hadoop certification background. My overall academic average is 80% in an IT/computer-science degree. I'm interested in Computer Architecture and developer. I want to become a Business Intelligence Analyst. My family can afford at most about USD 1700 per year. I live in Kolkata. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 80
+  },
+  "career_goal": "Business Intelligence Analyst",
+  "budget_max_usd_per_year": 1700,
+  "location_preference": "Kolkata",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "hadoop certification background",
+   "interested in Computer Architecture and developer"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0015",
+  "PR0020",
+  "PR0033",
+  "PR0157",
+  "PR0047",
+  "PR0074",
+  "PR0087",
+  "PR0164",
+  "PR0182",
+  "PR0119",
+  "PR0186",
+  "PR0176",
+  "PR0058",
+  "PR0187",
+  "PR0174",
+  "PR0053",
+  "PR0158",
+  "PR0109",
+  "PR0076",
+  "PR0012"
+ ],
+ "final_shortlist": [
+  "PR0053",
+  "PR0012",
+  "PR0015",
+  "PR0058",
+  "PR0076"
+ ],
+ "explanation": "This program is highly recommended as it is located in Kolkata, matching your strong preference to stay near home. The focus on QA Testing and Software Engineering aligns well with your developer interests and background. With a low annual tuition of $1200 and an excellent placement rate of 86%, this option prioritizes job security while keeping you local. The main trade-off is that the program focuses specifically on quality assurance rather than broad business intelligence.\n\nThis MCA program is an excellent fit for your developer aspirations and is located in Kolkata, satisfying your primary location constraint. The curriculum focuses on Software Engineering, which directly utilizes your technical background. At $1500 annual tuition, it remains within budget while offering a solid placement rate of 79%. This option provides a strong core developer track right near home.\n\nIf becoming a Business Intelligence Analyst is your top priority, this MSc Information Systems program in Bengaluru is ideal. It has a low tuition cost of $1200 and offers a strong placement rate of 78%, helping you achieve your goal of securing good employment. While the location is not Kolkata, it places you in a major tech hub known for BI roles. The trade-off here is that this program focuses heavily on business systems rather than pure computer architecture.\n\nThis MCA program in Coimbatore provides a robust blend of Data Science Analytics and Software Engineering, making it highly relevant to both your developer interests and BI goals. The tuition is affordable at $1350, and the placement rate stands at 83%. This option offers strong technical depth while remaining well within your family's budget. The trade-off is that this program requires a CS background, which you possess.\n\nThis MBA Technology Management program in Hyderabad offers a balanced mix of IT Management and Software Engineering, catering to both your developer skills and business interests. With an annual tuition of only $1250, it is highly budget-friendly while maintaining a good placement rate of 81%. This option provides strong career prospects outside Kolkata without exceeding your financial limits. The trade-off is that the degree title (MBA) might be less purely technical than the MCA options.",
+ "wall_s": 45.4
+}

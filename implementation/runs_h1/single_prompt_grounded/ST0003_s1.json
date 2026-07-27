@@ -1,0 +1,56 @@
+{
+ "student_id": "ST0003",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 81.6% in an IT/computer-science degree. I'm interested in data engineering and system developer. I want to become a Software Developer. My family can afford at most about USD 13200 per year. I live in Mumbai. I'm open to anywhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 81.6
+  },
+  "career_goal": "Software Developer",
+  "budget_max_usd_per_year": 13200,
+  "location_preference": null,
+  "mobility": "open_domestic",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in data engineering and system developer roles",
+   "Has an information security certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0191",
+  "PR0058",
+  "PR0026",
+  "PR0090",
+  "PR0145",
+  "PR0033",
+  "PR0107",
+  "PR0074",
+  "PR0063",
+  "PR0173",
+  "PR0071",
+  "PR0087",
+  "PR0198",
+  "PR0097",
+  "PR0144",
+  "PR0101",
+  "PR0143",
+  "PR0186",
+  "PR0039",
+  "PR0053"
+ ],
+ "final_shortlist": [
+  "PR0144",
+  "PR0198",
+  "PR0097",
+  "PR0143",
+  "PR0186"
+ ],
+ "explanation": "This MTech Computer Science program in Pune is highly recommended due to its excellent job prospects. With a placement rate of 93% and a median starting salary of $19239, it strongly aligns with your goal of becoming a Software Developer. The curriculum focuses on software engineering, directly matching your career interests. You must ensure you meet the requirement for a CS background, but given your IT/CS degree, this is likely achievable.\n\nThis MSc Software Quality Engineering program offers the best job security and highest salary among the options provided. It boasts a remarkable placement rate of 95% and a median starting salary of $21062. While focused on QA testing, this role is integral to software development quality and systems, making it highly relevant to your career goals. The tuition fee is also manageable at $3500.\n\nThis MTech Data Engineering program in Kolkata provides exceptional job outcomes with a placement rate of 95% and a strong median starting salary of $19658. It directly addresses your interest in data engineering while maintaining high employability. Since the minimum grade required is 82%, your current academic average of 81.6% is very close, making this a top-tier option if you can meet the minor requirement gap.\n\nThis MSc Data Science program in Mumbai perfectly matches your location preference while offering strong job prospects. It has a placement rate of 87% and a median starting salary of $13436, providing a good balance between career goals and geographical convenience. Since you have an IT/CS background, meeting the CS requirement is straightforward, making this a reliable choice.\n\nThis MTech Computer Networks program in Pune offers robust training in systems and networking, which complements your interest in system development. It maintains a solid placement rate of 83% and a median starting salary of $15192. The tuition is relatively low at $2050, making it an affordable option that still promises strong career outcomes.",
+ "wall_s": 45.0
+}

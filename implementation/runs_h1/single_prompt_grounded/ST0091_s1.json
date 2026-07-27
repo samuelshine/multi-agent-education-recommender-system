@@ -1,0 +1,55 @@
+{
+ "student_id": "ST0091",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a machine learning certification background. My overall academic average is 80.4% in an IT/computer-science degree. I'm interested in cloud computing and security. I want to become a Web Developer. My family can afford at most about USD 29600 per year. I live in Coimbatore. I'm open to going abroad.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 80.4
+  },
+  "career_goal": "Web Developer",
+  "budget_max_usd_per_year": 29600,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in cloud computing and security"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0146",
+  "PR0094",
+  "PR0110",
+  "PR0005",
+  "PR0169",
+  "PR0127",
+  "PR0001",
+  "PR0194",
+  "PR0081",
+  "PR0042",
+  "PR0004",
+  "PR0186",
+  "PR0036",
+  "PR0197",
+  "PR0043",
+  "PR0147",
+  "PR0096",
+  "PR0199",
+  "PR0118",
+  "PR0121"
+ ],
+ "final_shortlist": [
+  "PR0042",
+  "PR0001",
+  "PR0194",
+  "PR0005",
+  "PR0127"
+ ],
+ "explanation": "This program is highly recommended because it directly aligns with your goal of becoming a Web Developer by including 'software_engineering' alongside 'networking_cloud'. Located in Toronto, Canada, the annual tuition of $10,800 falls well within your family's budget. The main trade-off here is that while the program covers software engineering, its placement rate (67%) and median starting salary ($29,138) are modest compared to other options.\n\nThis program offers an excellent combination of low cost and high relevance, covering both 'networking_cloud' and 'software_engineering'. With a tuition fee of $11,850 in the Netherlands, it is extremely budget-friendly. You meet the prerequisite for this course, and while its median starting salary ($29,303) is moderate, the low cost makes it an outstanding value proposition.\n\nIf budget is your absolute highest constraint, this German program is unmatched with its minimal annual tuition of only $1,950. It successfully combines 'networking_cloud' and 'software_engineering', directly supporting your Web Developer goal while staying far below your financial limit. The trade-off you must consider is that the placement rate (67%) is lower than some other options.\n\nThis program focuses strongly on your interest in security and cloud computing, covering both 'cybersecurity' and 'networking_cloud'. Located in the Netherlands with a very affordable tuition of $15,000, it is an excellent choice for deepening your specialized knowledge. The main trade-off is that while it meets your core interests, its curriculum does not explicitly focus on software development or web design.\n\nThis Canadian option provides a dedicated path in 'cybersecurity' and 'networking_cloud', directly addressing your security interest. The tuition of $21,500 is manageable within your budget, and the program boasts a strong placement rate of 79%. The trade-off here is that while it offers excellent career prospects, its curriculum does not provide the direct software engineering focus needed for a Web Developer role.",
+ "wall_s": 46.9
+}

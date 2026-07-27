@@ -1,0 +1,56 @@
+{
+ "student_id": "ST0023",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 75.8% in an IT/computer-science degree. I'm interested in Software Engineering and cloud computing. I want to become a Data Architect. My family can afford at most about USD 9800 per year. I live in Hyderabad. I'm open to going abroad. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 75.8
+  },
+  "career_goal": "Data Architect",
+  "budget_max_usd_per_year": 9800,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "r programming certification background",
+   "interested in Software Engineering and cloud computing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0001",
+  "PR0194",
+  "PR0042",
+  "PR0186",
+  "PR0058",
+  "PR0043",
+  "PR0126",
+  "PR0026",
+  "PR0090",
+  "PR0145",
+  "PR0016",
+  "PR0107",
+  "PR0112",
+  "PR0063",
+  "PR0032",
+  "PR0173",
+  "PR0071",
+  "PR0051",
+  "PR0151",
+  "PR0037"
+ ],
+ "final_shortlist": [
+  "PR0194",
+  "PR0026",
+  "PR0043",
+  "PR0126",
+  "PR0090"
+ ],
+ "explanation": "This program is highly recommended as it offers a strong combination of low tuition ($1950) and excellent international career prospects. Focusing on Cloud Computing and Software Engineering aligns perfectly with your stated interests and goal to become a Data Architect. The opportunity for an 18-month post-study work visa in Germany significantly boosts job potential, which is your top priority. The main trade-off here is that the program requires you to have a Computer Science background.\n\nThis local option in Hyderabad directly addresses your goal of becoming a Data Architect by focusing on Data Engineering and Software Engineering. The tuition is affordable at $3900, and the placement rate stands strong at 81%. Since you are located in Hyderabad, this minimizes relocation stress while providing relevant skills. The trade-off compared to international options is that there is no post-study work visa benefit.\n\nThis program in Coimbatore offers strong relevance by focusing on Cloud Computing and Software Engineering, matching your core interests. It boasts a high placement rate of 86% and is very affordable at $3950 annually. Given its focus areas, it provides excellent foundational knowledge for a Data Architect role. The trade-off compared to the German options is that this program does not offer post-study work visa benefits.\n\nThis MCA in Germany provides a solid pathway for Software Engineering with an affordable tuition of $2050. It is attractive because it offers both the required Computer Science background and an 18-month post-study work visa, maximizing your job opportunities abroad. While its placement rate (62%) is lower than some local options, the international career benefit outweighs this risk. The main trade-off is that you must meet the minimum grade requirement of 57%.\n\nIf you wish to focus more purely on data science while keeping costs low, this MSc Data Science program is a good fit. It has an affordable tuition of $3550 and focuses heavily on data analytics alongside software engineering principles. This option keeps the cost down compared to cloud programs but may require additional effort to build out specific cloud computing skills needed for a Data Architect role. The trade-off is that it is less focused on 'Cloud Computing' than your primary interest.",
+ "wall_s": 48.4
+}

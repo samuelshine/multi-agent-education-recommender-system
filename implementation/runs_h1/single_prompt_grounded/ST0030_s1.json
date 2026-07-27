@@ -1,0 +1,43 @@
+{
+ "student_id": "ST0030",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 77.1% in an IT/computer-science degree. I'm interested in parallel computing and security. I want to become a Design & UX. My family can afford at most about USD 4900 per year. I live in Chennai. I cannot leave my city. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 77.1
+  },
+  "career_goal": "Design & UX",
+  "budget_max_usd_per_year": 4900,
+  "location_preference": "Chennai",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in parallel computing and security"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0059",
+  "PR0191",
+  "PR0197",
+  "PR0109",
+  "PR0199",
+  "PR0171",
+  "PR0162",
+  "PR0165"
+ ],
+ "final_shortlist": [
+  "PR0197",
+  "PR0191",
+  "PR0059",
+  "PR0162",
+  "PR0109"
+ ],
+ "explanation": "This program is highly recommended as it aligns well with your interest in security and parallel computing infrastructure through networking. It boasts an excellent placement rate of 85% and a median starting salary of $13,362 USD, directly addressing your priority for job security. While the curriculum focuses on networking/cloud rather than pure cybersecurity, this foundation is crucial for advanced security roles. The main trade-off here is that it does not directly address your stated goal of becoming a Design & UX professional.\n\nIf maximizing job prospects and salary is the highest priority, this MTech Data Engineering program is ideal. It offers a high median starting salary of $15,951 USD and an impressive placement rate of 84%. Although your interests lie in security, data engineering provides highly marketable skills that are valuable across many technical sectors. The trade-off you should consider is that the field (data analytics) is distinct from both pure cybersecurity and UX design.\n\nThis program is the best fit if your career goal of becoming a Design & UX professional takes precedence over your technical background. It offers low tuition ($450 USD) and requires no prior CS background, making it accessible despite your strong IT degree. However, you must be aware that pursuing this path represents a significant trade-off: shifting focus entirely away from your core technical strengths in r programming and security.\n\nThis program is the perfect match for your stated interest in 'Security,' offering specialized MTech Cyber Security training. It requires a CS background, which you possess, and has very low tuition ($1,150 USD). The primary trade-off here is that while it matches your interests perfectly, its placement rate (68%) and median starting salary ($7,369 USD) are lower compared to the other technical options listed.\n\nThis MTech Computer Science program provides a solid and reliable foundation in software engineering, utilizing your existing CS background. It maintains strong job metrics with an 82% placement rate and a $13,300 USD median starting salary. This option serves as a robust technical fallback that balances good career outcomes while keeping tuition low ($1,550 USD). The main trade-off is that it is generalist in nature and does not specialize specifically in either security or UX design.",
+ "wall_s": 47.7
+}

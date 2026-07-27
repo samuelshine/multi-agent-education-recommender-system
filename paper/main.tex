@@ -54,9 +54,11 @@ non-inferiority margin under its initial design, and a diagnosed-and-corrected v
 exceeds both classical baselines but not the single-prompt ablation. It wins decisively,
 however, on explanation quality as scored by two independent LLM judges -- grounded in
 retrieved evidence in 91--100\% of explanations against 36--67\% for the single-prompt
-baseline -- and on multi-objective conflict cases, where the same groundedness advantage
-holds even though multi-objective ranking does not outperform a single-objective ranker on
-oracle-graded relevance. A memory-and-reflection mechanism modestly improves
+baseline, an advantage only half attributable to prompt wording (an ablation adding the
+same grounding instruction to the single-prompt baseline closes roughly half the gap,
+isolating a residual architectural effect) -- and on multi-objective conflict cases,
+where the same groundedness advantage holds even though multi-objective ranking does not
+outperform a single-objective ranker on oracle-graded relevance. A memory-and-reflection mechanism modestly improves
 session-over-session recommendation quality relative to a stateless pipeline. These
 results support explainability, not accuracy, as the architecture's demonstrated
 contribution over both classical and single-prompt alternatives, and the full prototype,
@@ -117,11 +119,11 @@ This paper's contributions are:
 higher-education decision support -- a decision scope distinct from the in-program
 advising/pathway/course systems in recent agentic-education work (Section~\ref{sec:related}).
 \item An explicit multi-objective reasoning mechanism integrating career goals, financial
-constraints, location, and employability into agent planning, to be evaluated against
+constraints, location, and employability into agent planning, evaluated against
 classical educational-RS baselines on both standard information-retrieval metrics and
-agentic-specific metrics (explanation quality, adaptivity, cold-start robustness),
-answering the "lack of educational evaluation frameworks" gap named explicitly in
-\cite{llmagentrecsyssurvey}.
+agentic-specific metrics (explanation quality, adaptivity, cold-start robustness) --
+metrics that recent agentic-recommendation surveys call for more generally
+\cite{llmagentrecsyssurvey} but that no education-specific evaluation yet supplies.
 \item A working prototype, evaluation harness, and evaluation results
 (Section~\ref{sec:results}), released as an open-source artifact that third parties can
 run and independently verify: \url{https://github.com/samuelshine/multi-agent-education-recommender-system}.
@@ -168,9 +170,12 @@ recommendation, and Narasimhan and Narasimhan \cite{taurecbenchmark} introduce a
 benchmark for agentic recommenders, evaluated on general-domain conversational tasks across
 five model families -- no education-specific agentic-recommendation benchmark yet exists.
 Peng et al.'s survey \cite{llmagentrecsyssurvey} categorizes agentic recommendation into
-recommender-oriented, interaction-oriented, and simulation-oriented paradigms and explicitly
-identifies limited higher-education application as an open direction, which this paper
-addresses directly.
+recommender-oriented, interaction-oriented, and simulation-oriented paradigms across
+e-commerce, media, and conversational domains; higher education appears in neither its
+surveyed applications nor its three named future directions (architecture optimization,
+evaluation-framework standardization, adversarial security), underscoring how unexplored
+the domain remains even in a survey dedicated to this exact method family -- the gap this
+paper addresses directly.
 
 \subsection{Agentic multi-agent systems in education}
 
@@ -239,21 +244,27 @@ goal-planning's constraint logic into profiling and recommendation.
   node distance=3.2mm,
   box/.style={draw, rounded corners, align=center, minimum height=8mm,
               text width=50mm, font=\small, inner sep=1.5mm},
+  gate/.style={draw, dashed, rounded corners, align=center, minimum height=5mm,
+              text width=50mm, font=\scriptsize, inner sep=1mm, fill=black!4},
   arr/.style={-Stealth, thick}
 ]
 \node[box] (student) {Prospective Student};
 \node[box, below=of student] (profile) {Profiling \& Constraint Agent};
-\node[box, below=of profile] (retrieval) {Retrieval Agent\\[1pt]\footnotesize (selects from prefiltered candidates)};
+\node[gate, below=of profile] (prefilter) {Deterministic prefilter (admission / budget / location)};
+\node[box, below=of prefilter] (retrieval) {Retrieval Agent\\[1pt]\footnotesize (selects from prefiltered candidates)};
 \node[box, below=of retrieval] (recplan) {Recommendation \& Planning Agent\\[1pt]\footnotesize (multi-objective ranking)};
 \node[box, below=of recplan] (memory) {Memory \& Reflection Agent\\[1pt]\footnotesize (shortlist review + cross-session state)};
-\node[box, below=of memory] (explain) {Explanation Agent};
+\node[gate, below=of memory] (guard) {Deterministic post-reflection guard (repeats hard-constraint check)};
+\node[box, below=of guard] (explain) {Explanation Agent};
 \node[box, below=of explain] (output) {Ranked Shortlist + Rationale};
 
 \draw[arr] (student) -- (profile);
-\draw[arr] (profile) -- (retrieval);
+\draw[arr] (profile) -- (prefilter);
+\draw[arr] (prefilter) -- (retrieval);
 \draw[arr] (retrieval) -- (recplan);
 \draw[arr] (recplan) -- (memory);
-\draw[arr] (memory) -- (explain);
+\draw[arr] (memory) -- (guard);
+\draw[arr] (guard) -- (explain);
 \draw[arr] (explain) -- (output);
 \draw[arr, dashed] (memory.west) to[out=170,in=190,looseness=1.15] (profile.west);
 \end{tikzpicture}
@@ -336,9 +347,13 @@ stateless agent pipeline?
 
 \textbf{H1.} The proposed architecture achieves higher user-perceived explanation quality
 than a classical hybrid baseline re-implemented from \cite{hrspca,studieme}, while
-remaining within a pre-registered 5\% \emph{relative} non-inferiority margin on
-NDCG@$k$ (headline metric; precision@$k$ and recall@$k$ reported as secondary), on a
-held-out admissions/preference dataset.
+remaining within a pre-registered\footnote{The evaluation design in this section --
+metric choice, $k=5$, and the 5\% margin -- was committed to the paper's public
+repository (commit \texttt{9b47ce4}, 2026-07-17) before any agentic-condition result
+was computed; those results were run and written up in a later commit (\texttt{ba7757e},
+2026-07-20). Both commits are visible in the released artifact's git history.} 5\%
+\emph{relative} non-inferiority margin on NDCG@$k$ (headline metric; precision@$k$ and
+recall@$k$ reported as secondary), on a held-out admissions/preference dataset.
 
 \textbf{H2.} Explicit multi-objective agent reasoning improves recommendation relevance
 for students with conflicting constraints (e.g., financial limits vs.\ top academic fit)
@@ -378,7 +393,10 @@ employability, fixed before any system was evaluated and documented in full in t
 released dataset card. Each student carries a three-session progressive-disclosure
 script; dataset-wide, 162 of 300 students have an academically best-fitting program
 that is financially infeasible (the H2 conflict condition), 61 have deliberately vague
-session-1 career goals, and 67 have a session-3 budget-revision event (H3 conditions).
+session-1 career goals, and 67 carry a scripted session-3 budget-revision event -- a
+stress-test subset released with the dataset for future finer-grained analysis, distinct
+from the H3 evaluation cohort described next, which tests general three-session
+adaptivity rather than isolating this specific event.
 
 \subsection{Baselines and experimental setup}
 
@@ -466,14 +484,17 @@ calls). Bold marks the column maximum among performance metrics.}
 \midrule
 HRSPCA (re-impl.\ \cite{hrspca}) & 0.793 & 0.796 & 0.061 & 5.0 \\
 StudieMe (re-impl.\ \cite{studieme}) & 0.673 & 0.760 & 0.113 & 5.0 \\
-Single-prompt baseline & \textbf{0.830} & \textbf{0.912} & \textbf{0.166} & 4.9 \\
+Single-prompt baseline & 0.830 & 0.912 & \textbf{0.166} & 4.9 \\
+Single-prompt (grounded) & \textbf{0.831} & \textbf{0.926} & 0.159 & 4.8 \\
 Five-agent v1 (pre-registered) & 0.706 & 0.904 & 0.129 & 3.9 \\
 Five-agent v2 (revised) & 0.806 & 0.898 & 0.156 & 4.8 \\
 \midrule
 \multicolumn{5}{@{}p{0.92\linewidth}@{}}{\footnotesize v1: pre-registered pruning
 policy, abstains rather than pads a shortlist below $k$. v2: post-hoc revision
 backfilling to $k$ with valid candidates and dropping only for hard-constraint
-violations -- tests, not replaces, v1 (Section~\ref{sec:results}).} \\
+violations -- tests, not replaces, v1. Grounded: single-prompt baseline with
+\textsc{Explain}'s grounding instruction added, isolating instruction wording from
+architecture (Section~\ref{sec:results}).} \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -490,9 +511,11 @@ inadequate and is instructed never to pad with constraint-violating programs: 70
 its shortlists contain fewer than five items (mean length 3.9). NDCG@5 penalizes every
 unfilled position against a five-item ideal. On the 30 students where the system did
 emit five items, it scores $0.859$; measured at emitted length (rank quality of what
-was actually shown), it scores $0.827$ -- statistically indistinguishable from the
-single-prompt baseline's $0.830$, and its precision@5 ($0.904$) matches the
-single-prompt's $0.912$, both well above the classical baselines. The accuracy gap is
+was actually shown), it scores $0.827$ against the single-prompt baseline's $0.830$
+(paired bootstrap, $n=100$, 10{,}000 resamples: mean difference $-0.005$, 95\% CI
+$[-0.024, +0.014]$, crossing zero -- not a statistically significant difference), and
+its precision@5 ($0.904$) matches the single-prompt's $0.912$, both well above the
+classical baselines. The accuracy gap is
 therefore a list-length effect: the pre-registered metric rewards padding to $k$, and
 the agentic design's abstention behavior -- arguably desirable in a high-stakes
 decision-support setting -- is penalized by construction. We report this as a finding
@@ -527,9 +550,11 @@ abstention most often, so the multi-objective condition emits the shortest short
 of any condition on precisely this subset (mean 3.70 items vs.\ 4.02 single-objective),
 paying the same NDCG@5 penalty documented above. Under the v2 policy the
 multi-objective pipeline reaches 0.792 on the conflict subset (mean 4.77 items); a
-matched single-objective run under the same v2 policy scores 0.793 -- statistically
-indistinguishable (precision@5: 0.855 multi vs.\ 0.837 single; recall@5: 0.194 vs.\
-0.189). \textbf{H2 is therefore not supported on oracle-graded accuracy}: explicit
+matched single-objective run under the same v2 policy scores 0.793 (paired bootstrap,
+$n=56$, 10{,}000 resamples: mean difference $-0.001$, 95\% CI $[-0.017, +0.014]$,
+crossing zero -- not a statistically significant difference; precision@5: 0.855 multi
+vs.\ 0.837 single; recall@5: 0.194 vs.\ 0.189). \textbf{H2 is therefore not supported
+on oracle-graded accuracy}: explicit
 multi-objective reasoning loses to the single-objective ablation under the v1 policy
 and ties under the matched v2 policy. The oracle's utility function already encodes
 all four objectives, so a single-objective ranker over a constraint-prefiltered
@@ -540,7 +565,11 @@ explanation quality below.
 
 \subsection{Cold start and memory (H3)}
 
-On the 30-student progressive-disclosure cohort, the full and no-memory conditions are
+On a fixed 30-student progressive-disclosure cohort (the first 30 students in
+evaluation order, spanning all three sessions; only 5 of the 30 carry the session-3
+budget-revision event reported dataset-wide in
+Section~\ref{sec:planned-methodology} -- the cohort tests general three-session
+adaptivity rather than isolating that event), the full and no-memory conditions are
 identical at session 1 by construction -- memory is empty on first contact (both NDCG@5
 $= 0.583$) -- so the memory mechanism cannot and does not affect the very first
 session. Its effect appears across sessions: with memory, session-2 accuracy reaches
@@ -557,7 +586,7 @@ caveat that the pre-registered phrase ``cold-start mitigation'' is more precisel
 \subsection{Explanation quality (H1)}
 
 Table~\ref{tab:results-explanation} reports cross-judge mean rubric scores (1--5) on
-the full 100-student evaluation split for the three conditions that generate
+the full 100-student evaluation split for the four conditions that generate
 natural-language output, alongside the two classical baselines (which do not) for a
 complete comparison against Table~\ref{tab:results-h1}.
 \textbf{H1's explanation-quality claim is supported}, and by a wide margin on the two
@@ -567,6 +596,25 @@ shows a smaller but consistent gap (4.11 / 4.06 vs.\ 3.69). The v1/v2 pruning-po
 change that materially affected accuracy (Section~\ref{sec:results}) leaves explanation
 quality essentially unchanged, indicating the two properties are largely independent in
 this architecture.
+
+\textbf{Isolating architecture from instruction.} The single-prompt baseline's
+explanation task is a weaker instruction than \textsc{Explain}'s: it asks for one
+``grounded paragraph'' rather than \textsc{Explain}'s explicit directive to trace every
+claim to the provided evidence and name the trade-off. This confounds architecture with
+instruction wording -- the gap above could be caused by either. A fourth condition,
+single-prompt (grounded), holds the single-call architecture fixed and upgrades only its
+explanation instruction to \textsc{Explain}'s directive word-for-word (Table~\ref{tab:results-h1}). It scores clarity $3.81$, groundedness
+$4.47$, usefulness $3.23$ -- between the ungrounded baseline and the five-agent
+conditions on every dimension, closing roughly half of the groundedness and usefulness
+gap (53\% and 51\% of the v1 margin, respectively) but only 29\% of the clarity gap,
+while its NDCG@5 ($0.831$) and precision@5 ($0.926$) match or slightly exceed the
+ungrounded baseline (Table~\ref{tab:results-h1}), so this instruction change costs
+nothing on ranking accuracy. Grounding instructions and architectural decomposition
+therefore both contribute to the explanation-quality advantage, with neither alone
+accounting for it: an explicit grounding instruction closes about half the gap on its
+own, and the remaining half -- plus most of the clarity gap -- is attributable to the
+architecture (curated, agent-selected evidence and a dedicated explanation step,
+isolated from ranking and profiling).
 
 \begin{table}[t]
 \caption{Explanation-quality rubric scores (1--5), cross-judge mean of
@@ -581,12 +629,13 @@ Bold marks the column maximum.}
 HRSPCA (re-impl.\ \cite{hrspca}) & --- & --- & --- \\
 StudieMe (re-impl.\ \cite{studieme}) & --- & --- & --- \\
 Single-prompt baseline & 3.69 & 3.96 & 2.80 \\
+Single-prompt (grounded) & 3.81 & 4.47 & 3.23 \\
 Five-agent v1 (pre-registered) & \textbf{4.11} & \textbf{4.92} & \textbf{3.65} \\
 Five-agent v2 (revised) & 4.06 & \textbf{4.92} & 3.60 \\
 \midrule
 \multicolumn{4}{@{}p{0.92\linewidth}@{}}{\footnotesize HRSPCA/StudieMe are
 non-generative ranking pipelines (Section~\ref{sec:architecture}) with no
-natural-language output to score. v1/v2 defined in Table~\ref{tab:results-h1}.} \\
+natural-language output to score. v1/v2/grounded defined in Table~\ref{tab:results-h1}.} \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -597,17 +646,19 @@ the student's constraints or the retrieved program data -- per explanation. The
 single-prompt baseline was flagged for at least one invented claim in 64/100
 explanations by the primary judge and 33/100 by the agreement judge (e.g., asserting a
 program's tuition or location without that field appearing in the evidence the model
-was given); the five-agent conditions were flagged in 5/100 (v1) and 9/100 (v2) cases
-by the primary judge and 0/100 by the agreement judge. This is consistent with the
-architecture's design: the Explanation Agent is instructed to ground every claim in
-the Retrieval Agent's evidence, while the single-prompt baseline generates evidence and
-explanation in the same undifferentiated call.
+was given); adding the grounding instruction alone roughly halves this, to 42/100 and
+6/100 respectively; the five-agent conditions were flagged in 5/100 (v1) and 9/100 (v2)
+cases by the primary judge and 0/100 by the agreement judge. The instruction change
+closes most of the gap on this specific failure signal but not all of it, mirroring the
+partial (53\%) closure on mean groundedness score above -- consistent with an
+architecture whose remaining edge comes from a dedicated explanation step reading
+agent-curated evidence, not from prompt wording alone.
 
 Inter-judge agreement (mean absolute score difference) is tight for the five-agent
 conditions (0.09--0.15 on groundedness, 0.11 on clarity) and markedly looser for the
-single-prompt baseline (1.26 on groundedness) -- the two independent judges disagree
-most exactly where the single-prompt explanations are hardest to verify, itself weak
-evidence for lower groundedness. Returning to H2 (Section~\ref{sec:results}, conflict subset): restricting the same
+single-prompt baseline (1.26 on groundedness; 0.89 for the grounded variant) -- the two
+independent judges disagree most exactly where the single-prompt-family explanations
+are hardest to verify, itself weak evidence for lower groundedness. Returning to H2 (Section~\ref{sec:results}, conflict subset): restricting the same
 cross-judge analysis to the 56 financially-constrained students reproduces the gap
 essentially unchanged (groundedness 4.96 v1 / 4.91 v2 vs.\ 3.94 single-prompt;
 usefulness 3.65 / 3.57 vs.\ 2.80) -- so while multi-objective reasoning does not win on
@@ -677,11 +728,18 @@ a dissociation: the architecture does not demonstrate a top-$k$ accuracy advanta
 either classical baselines or a single-prompt LLM ablation, but it demonstrates a
 consistent, judge-corroborated advantage in explanation groundedness and usefulness, and
 this advantage persists specifically on the multi-objective conflict cases that motivated
-RQ2. A memory-and-reflection mechanism modestly improves adaptivity across sessions
-relative to a stateless pipeline (RQ3). Together these results reframe the paper's
-contribution: the value of agentic multi-agent decomposition in this decision scope lies
-in explainable, trustworthy decision support rather than in ranking accuracy, at least at
-the model scale and dataset size evaluated here. Future work should prioritize three
+RQ2. An ablation isolating instruction wording from architecture (single-prompt with
+\textsc{Explain}'s grounding directive added) shows the explanation-quality advantage is
+not purely architectural: an explicit grounding instruction alone closes roughly half of
+it, and the remainder is attributable to the architecture's dedicated explanation step
+over agent-curated evidence. A memory-and-reflection mechanism modestly improves
+adaptivity across sessions relative to a stateless pipeline (RQ3). Together these results
+reframe the paper's contribution: the value of agentic multi-agent decomposition in this
+decision scope lies in explainable, trustworthy decision support rather than in ranking
+accuracy, at least at the model scale and dataset size evaluated here -- and about half of
+even that explainability advantage could be recovered from a single prompt with a
+better-written instruction, underscoring that the architecture's remaining, narrower edge
+comes specifically from separating evidence retrieval from explanation generation. Future work should prioritize three
 directions raised directly by the results: human-subject validation of the LLM-as-judge
 explanation scores; evaluation against the real preference dataset of
 \cite{universityrecsyselahi} should it become available, to remove the self-constructed-

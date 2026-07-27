@@ -1,0 +1,56 @@
+{
+ "student_id": "ST0072",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 80.3% in an IT/computer-science degree. I'm interested in IOT and system developer. I want to become a CRM Technical Developer. My family can afford at most about USD 3600 per year. I live in Bengaluru. I'm open to anywhere in India.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 80.3
+  },
+  "career_goal": "CRM Technical Developer",
+  "budget_max_usd_per_year": 3600,
+  "location_preference": "Bengaluru",
+  "mobility": "prefers_region",
+  "employability_priority": null,
+  "other_constraints": [
+   "r programming certification background",
+   "interested in IOT and system developer"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0117",
+  "PR0198",
+  "PR0097",
+  "PR0139",
+  "PR0164",
+  "PR0029",
+  "PR0022",
+  "PR0182",
+  "PR0060",
+  "PR0191",
+  "PR0119",
+  "PR0101",
+  "PR0143",
+  "PR0186",
+  "PR0176",
+  "PR0058",
+  "PR0149",
+  "PR0092",
+  "PR0187",
+  "PR0039"
+ ],
+ "final_shortlist": [
+  "PR0058",
+  "PR0198",
+  "PR0176",
+  "PR0022",
+  "PR0186"
+ ],
+ "explanation": "This MCA program is an excellent fit given your background and budget constraints. It covers both Data Science Analytics and Software Engineering, directly supporting your goal of becoming a technical developer. The annual tuition of $1350 USD is well within your family's maximum budget of $3600. The main trade-off here is that the program focuses heavily on core development skills rather than specific IOT or CRM applications.\n\nThis MSc in Software Quality Engineering is highly relevant to a developer career path, focusing on software engineering and QA testing. Located in Bengaluru, it matches your current location preference while keeping tuition at $3500 USD, which adheres closely to your budget limit. The trade-off is that the curriculum focuses specifically on quality assurance rather than broad system development or IOT.\n\nThis MBA Technology Management program offers a strong blend of business knowledge and IT management skills, which is crucial for a CRM Technical Developer role. At only $1900 USD annually, it provides significant financial flexibility while being highly relevant to your career goals. The main trade-off is that this degree is more focused on strategic management than deep technical coding or system development.\n\nThe MSc IT Operations program directly aligns with your interest in System Development and IOT by focusing on core IT support functions. With a tuition of $3050 USD, it remains comfortably within your budget while offering practical system knowledge. The trade-off is that the curriculum focuses primarily on operational support rather than advanced software architecture or data science.\n\nThis MTech in Computer Networks provides a robust technical foundation covering networking and software engineering, making it ideal for system development roles. The low tuition of $2050 USD is excellent for your budget, and the program requires a CS background, matching your degree type. The main trade-off is that its focus on traditional computer networks might be less specialized in modern IOT or CRM platforms compared to other options.",
+ "wall_s": 54.3
+}

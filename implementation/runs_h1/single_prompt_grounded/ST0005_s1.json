@@ -1,0 +1,55 @@
+{
+ "student_id": "ST0005",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 76.2% in an IT/computer-science degree. I'm interested in IOT and testing. I want to become a Software Systems Engineer. My family can afford at most about USD 10500 per year. I live in Mumbai. I'd strongly prefer to stay near home, though I might consider elsewhere in India.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 76.2
+  },
+  "career_goal": "Software Systems Engineer",
+  "budget_max_usd_per_year": 10500,
+  "location_preference": null,
+  "mobility": "prefers_region",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in IOT and testing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0198",
+  "PR0053",
+  "PR0065",
+  "PR0019",
+  "PR0008",
+  "PR0142",
+  "PR0082",
+  "PR0052",
+  "PR0085",
+  "PR0144",
+  "PR0139",
+  "PR0182",
+  "PR0191",
+  "PR0119",
+  "PR0101",
+  "PR0186",
+  "PR0058",
+  "PR0039",
+  "PR0158",
+  "PR0072"
+ ],
+ "final_shortlist": [
+  "PR0065",
+  "PR0082",
+  "PR0072",
+  "PR0186",
+  "PR0019"
+ ],
+ "explanation": "This program is highly recommended as it meets your strong preference for staying near home in Mumbai while aligning perfectly with your interest in testing and software engineering. The MSc Software Quality Engineering curriculum directly addresses both QA testing and software engineering principles. With an annual tuition of $2450, it remains well within your family's budget constraint. Your 76.2% average exceeds the minimum required grade of 75%, making you a strong candidate.\n\nThis program is an excellent choice because it is located in Mumbai, fulfilling your primary location preference. The MSc Software Engineering curriculum provides core knowledge relevant to becoming a Software Systems Engineer and includes QA testing fields. Furthermore, the annual tuition of $500 is exceptionally low, providing maximum financial comfort while still offering a strong academic foundation.\n\nThis program focuses specifically on QA testing, which aligns directly with your stated interest in testing and is housed in Pune, an acceptable alternative location. The MSc Software Quality Engineering degree provides specialized knowledge crucial for software systems roles. With a low tuition cost of $2400 and a minimum grade requirement of 70%, it offers a strong balance between specialization and affordability.\n\nGiven your interest in IoT, this MTech Computer Networks program is valuable as networking knowledge forms the backbone of most connected systems. It requires a CS background, which suits your IT/computer-science degree, and is located in Pune. The annual tuition of $2050 keeps it affordable while providing specialized skills in networking and software engineering.\n\nThis MSc Software Engineering program is a solid alternative located in Pune, maintaining the focus on both software systems and QA testing. The tuition cost of $1450 is very budget-friendly, and your academic average exceeds the minimum required grade of 64%. This option provides strong career relevance while offering flexibility regarding location.",
+ "wall_s": 46.3
+}

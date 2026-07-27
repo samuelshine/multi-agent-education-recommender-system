@@ -1,0 +1,56 @@
+{
+ "student_id": "ST0070",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a python certification background. My overall academic average is 71.2% in an IT/computer-science degree. I'm interested in Software Engineering and security. I want to become a Business Intelligence Analyst. My family can afford at most about USD 3400 per year. I live in Pune. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 71.2
+  },
+  "career_goal": "Business Intelligence Analyst",
+  "budget_max_usd_per_year": 3400,
+  "location_preference": "Pune",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Python certification background",
+   "Interested in Software Engineering and security"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0191",
+  "PR0101",
+  "PR0186",
+  "PR0058",
+  "PR0039",
+  "PR0053",
+  "PR0158",
+  "PR0054",
+  "PR0043",
+  "PR0109",
+  "PR0026",
+  "PR0076",
+  "PR0105",
+  "PR0012",
+  "PR0065",
+  "PR0019",
+  "PR0167",
+  "PR0090",
+  "PR0185",
+  "PR0015"
+ ],
+ "final_shortlist": [
+  "PR0186",
+  "PR0101",
+  "PR0191",
+  "PR0076",
+  "PR0167"
+ ],
+ "explanation": "This program is highly recommended because it is located in Pune, aligning perfectly with your strong preference to stay near home. It focuses on Software Engineering and networking, directly matching your stated interests. With a minimum grade requirement of only 70% and an annual tuition of $2050, it remains very affordable. The median starting salary of $15192 makes this a top choice for job prospects, making the trade-off between location preference and slightly lower salary potential worth it.\n\nThis program is an excellent fit for your goal of becoming a Business Intelligence Analyst, as its core field is 'business_information_systems.' It maintains a high placement rate of 85% and offers a strong median starting salary of $15394. The annual tuition of $2400 is well within your family's budget. The main trade-off here is that the program is located in Coimbatore, requiring you to consider moving outside Pune.\n\nThis MTech Data Engineering program directly addresses your interest in Business Intelligence and data analytics. It boasts the highest median starting salary among the options at $15951 and a strong placement rate of 84%. While its location in Chennai is a trade-off from your preference for Pune, the superior job prospects and high earning potential make it an extremely valuable consideration.\n\nThis MBA Technology Management program is ideal as a flexible option located in Hyderabad, which serves as a good alternative to Pune. It covers Software Engineering and IT management fields while keeping the tuition very low at $1250 per year. This blend of business acumen and technical skills helps you transition toward your BI Analyst goal. The trade-off here is that it is an MBA program rather than a purely technical degree, but it offers strong job prospects with a median salary of $13142.\n\nThis MTech Cyber Security program is the best match for your specific interest in security. It has an affordable tuition fee of $2450 and provides specialized knowledge in cybersecurity alongside software engineering. Although located in Hyderabad, it offers a clear career path that aligns with modern job market demands. The trade-off is that its placement rate (79%) and median salary ($12765) are slightly lower compared to the top recommendations.",
+ "wall_s": 57.0
+}

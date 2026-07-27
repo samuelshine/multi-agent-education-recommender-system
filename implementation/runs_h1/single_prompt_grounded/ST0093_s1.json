@@ -1,0 +1,55 @@
+{
+ "student_id": "ST0093",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a machine learning certification background. My overall academic average is 81.1% in an IT/computer-science degree. I'm interested in parallel computing and testing. I want to become a Software Systems Engineer. My family can afford at most about USD 13400 per year. I live in Chennai. I'm open to anywhere in India.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 81.1
+  },
+  "career_goal": "Software Systems Engineer",
+  "budget_max_usd_per_year": 13400,
+  "location_preference": null,
+  "mobility": "open_domestic",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in parallel computing and testing."
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0198",
+  "PR0053",
+  "PR0065",
+  "PR0019",
+  "PR0008",
+  "PR0142",
+  "PR0082",
+  "PR0052",
+  "PR0085",
+  "PR0144",
+  "PR0139",
+  "PR0182",
+  "PR0191",
+  "PR0119",
+  "PR0101",
+  "PR0186",
+  "PR0058",
+  "PR0039",
+  "PR0158",
+  "PR0072"
+ ],
+ "final_shortlist": [
+  "PR0139",
+  "PR0144",
+  "PR0198",
+  "PR0186",
+  "PR0058"
+ ],
+ "explanation": "This program is highly recommended because its minimum grade requirement of 81% perfectly matches your academic average. The curriculum focuses on Software Quality Engineering and testing, directly aligning with your interests. Furthermore, it offers a strong median starting salary of USD 20639 and has an excellent placement rate of 89%. The main trade-off here is the location in Delhi, which might be less familiar than Bengaluru or Pune.\n\nThis MTech Computer Science program provides a strong foundation for your goal of becoming a Software Systems Engineer. Crucially, the minimum grade requirement is 81%, matching your academic profile exactly. It boasts a high placement rate of 93% and a median starting salary of USD 19239. While its fields list only 'software_engineering' (not explicitly testing), it offers deep technical knowledge that can support advanced topics like parallel computing.\n\nLocated in Bengaluru, this MSc program is an excellent fit as it covers both 'qa_testing' and 'software_engineering,' matching your stated interests. The institution has a very high placement rate of 95%, suggesting strong industry connections for career growth. You meet the minimum grade requirement (80%), and the tuition fee of USD 3500 is well within your family's budget.\n\nThis MTech Computer Networks program is technically rigorous and relevant to modern software systems engineering, covering 'networking_cloud.' Since you have a CS background, you meet the prerequisite for this course. It offers a solid median starting salary of USD 15192 and is located in Pune. The trade-off is that its focus is on networking/cloud rather than pure testing, but it provides valuable infrastructure knowledge needed for complex systems.\n\nThis MCA program is a strong and budget-friendly option that covers both 'data_science_analytics' and 'software_engineering.' Since you have an IT/CS background, you meet the required prerequisite. With a low annual tuition of USD 1350, it respects your financial constraints while providing relevant skills for system development in Coimbatore.",
+ "wall_s": 56.3
+}

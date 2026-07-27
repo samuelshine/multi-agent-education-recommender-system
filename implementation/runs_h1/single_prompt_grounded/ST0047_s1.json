@@ -1,0 +1,55 @@
+{
+ "student_id": "ST0047",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a app development certification background. My overall academic average is 79.6% in an IT/computer-science degree. I'm interested in Software Engineering and testing. I want to become a Database Manager. My family can afford at most about USD 5700 per year. I live in Bengaluru. I'm open to anywhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 79.6
+  },
+  "career_goal": "Database Manager",
+  "budget_max_usd_per_year": 5700,
+  "location_preference": "Bengaluru",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in Software Engineering and testing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0198",
+  "PR0058",
+  "PR0053",
+  "PR0026",
+  "PR0065",
+  "PR0019",
+  "PR0090",
+  "PR0145",
+  "PR0107",
+  "PR0008",
+  "PR0063",
+  "PR0142",
+  "PR0082",
+  "PR0052",
+  "PR0085",
+  "PR0173",
+  "PR0071",
+  "PR0097",
+  "PR0144",
+  "PR0139"
+ ],
+ "final_shortlist": [
+  "PR0198",
+  "PR0097",
+  "PR0026",
+  "PR0085",
+  "PR0144"
+ ],
+ "explanation": "This program is highly recommended because it aligns perfectly with your interest in Software Engineering and testing, while being located in Bengaluru. It boasts an excellent placement rate of 95% and a strong median starting salary of $21,062 USD, directly addressing your priority for job outcomes. The annual tuition of $3,500 is well within your family's budget. Note that the minimum required grade percentage (80%) is slightly higher than your current average, which may be a trade-off to consider.\n\nIf focusing on Data Management and maximizing job prospects is paramount, this MTech Data Engineering program in Kolkata is ideal. It offers the highest placement rate (95%) and a high median starting salary of $19,658 USD. While its minimum grade requirement (82%) is demanding, the superior career outcomes make it a top choice. The tuition cost of $3,800 remains within your financial constraints.\n\nThis MTech Data Engineering program in Hyderabad provides a strong balance between data analytics and software engineering. It offers a respectable placement rate of 81% and a median starting salary of $13,385 USD, making it a solid option for career growth. The annual tuition is $3,900, keeping you within budget. The trade-off here is that the job prospects are good but not as high as PR0198 or PR0097.\n\nThis program keeps you local in Bengaluru and focuses specifically on Software Quality Engineering (testing). It has a moderate tuition cost of $1,450 and is highly relevant to your stated interests. While the placement rate (63%) and salary ($6,488 USD) are lower than other options, its low cost and location convenience make it a safe, targeted choice.\n\nThis MTech Computer Science program in Pune offers excellent job prospects with a placement rate of 93% and a strong salary of $19,239 USD. It is highly relevant to Software Engineering and provides great career security. The trade-off is that the minimum grade requirement (81%) is quite high, similar to PR0198, but the job outcomes are exceptional.",
+ "wall_s": 58.4
+}

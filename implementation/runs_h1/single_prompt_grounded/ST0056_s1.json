@@ -1,0 +1,53 @@
+{
+ "student_id": "ST0056",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 83.7% in an IT/computer-science degree. I'm interested in programming and system developer. I want to become a Web Developer. My family can afford at most about USD 4300 per year. I live in Chennai. I'm open to going abroad. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 83.7
+  },
+  "career_goal": "Web Developer",
+  "budget_max_usd_per_year": 4300,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "information security certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0000",
+  "PR0195",
+  "PR0153",
+  "PR0051",
+  "PR0137",
+  "PR0191",
+  "PR0101",
+  "PR0054",
+  "PR0128",
+  "PR0044",
+  "PR0105",
+  "PR0015",
+  "PR0020",
+  "PR0033",
+  "PR0157",
+  "PR0047",
+  "PR0074",
+  "PR0172",
+  "PR0087",
+  "PR0021"
+ ],
+ "final_shortlist": [
+  "PR0195",
+  "PR0021",
+  "PR0000"
+ ],
+ "explanation": "This program is highly recommended as it offers an excellent balance of low cost and strong career prospects in Germany. With a minimal annual tuition of only $300 USD, the financial constraint is easily met while providing access to a robust job market. The high placement rate of 82% and a median starting salary of $51,059 USD significantly address your priority of securing good employment after graduation. Furthermore, the 18-month post-study work visa provides crucial time to gain professional experience in Germany.\n\nThis option is ideal for students prioritizing low tuition costs while still aiming for a strong career abroad. At only $450 USD annually, it fits well within your budget and offers an 82% placement rate in Germany. The median starting salary of $46,428 USD and the availability of an 18-month post-study work visa make this program highly attractive for job seekers. The main trade-off here is that the focus is on IT Support rather than core programming/web development.\n\nThis MSc program offers one of the highest placement rates (91%) among all candidates and provides a strong median starting salary of $56,198 USD. The low tuition fee of $950 USD is very budget-friendly for an international degree. While this option has a minimum grade requirement of 80%, which might be slightly higher than your current average, the superior job outcomes and 18-month work visa make it a top contender.",
+ "wall_s": 51.6
+}

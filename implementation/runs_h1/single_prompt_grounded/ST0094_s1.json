@@ -1,0 +1,49 @@
+{
+ "student_id": "ST0094",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a python certification background. My overall academic average is 75.7% in an IT/computer-science degree. I'm interested in programming and developer. I want to become a Network Engineer. My family can afford at most about USD 3400 per year. I live in Hyderabad. I cannot leave my city.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 75.7
+  },
+  "career_goal": "Network Engineer",
+  "budget_max_usd_per_year": 3400,
+  "location_preference": "Hyderabad",
+  "mobility": "fixed_city",
+  "employability_priority": null,
+  "other_constraints": [
+   "programming and developer interest"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0119",
+  "PR0176",
+  "PR0026",
+  "PR0076",
+  "PR0096",
+  "PR0167",
+  "PR0130",
+  "PR0113",
+  "PR0196",
+  "PR0111",
+  "PR0074",
+  "PR0050",
+  "PR0159",
+  "PR0142"
+ ],
+ "final_shortlist": [
+  "PR0096",
+  "PR0167",
+  "PR0076",
+  "PR0196",
+  "PR0159"
+ ],
+ "explanation": "This program is highly recommended as it directly aligns with your goal of becoming a Network Engineer through its MTech Computer Networks specialization. The tuition fee of USD 3350 fits within your family's budget constraint. Since you have an IT/CS background, the requirement for a CS background is met. The main trade-off here is that this program requires a specific computer science background, which must be confirmed by your academic records.\n\nThis MTech Cyber Security program offers strong relevance to both networking and development through its focus on 'cybersecurity' and 'software_engineering'. At USD 2450 annually, it remains well within your budget. The main trade-off is that while the curriculum is highly technical, the placement rate (79%) is slightly lower than some other options.\n\nThis MBA Technology Management program provides a solid blend of 'it_management' and 'software_engineering', making it suitable for someone interested in both development and overall IT strategy. With an annual tuition of USD 1250, it is very budget-friendly and meets your academic average requirement (min grade 74% vs student 75.7%). The main trade-off is that this program focuses on management aspects rather than deep technical networking skills.\n\nThe MTech Computer Science program offers a strong core developer track through its 'software_engineering' focus. The tuition of USD 1650 is affordable and the minimum grade requirement (63%) is easily met by your 75.7% average. Since you have an IT/CS background, this program is a natural fit for advancing your programming skills. The main trade-off is that its placement rate (70%) is one of the lower figures among the recommended options.\n\nThis PG Diploma in Systems Administration is excellent for building foundational knowledge in networking and IT support ('networking_cloud' and 'it_support'). With a very low tuition fee of USD 700, it maximizes your budget while providing highly relevant skills. The main trade-off is that this program is a diploma rather than a full Master's degree, which might limit advanced career growth options.",
+ "wall_s": 44.7
+}

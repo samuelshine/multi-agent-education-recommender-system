@@ -1,0 +1,56 @@
+{
+ "student_id": "ST0052",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 85% in an IT/computer-science degree. I'm interested in cloud computing and cloud computing. I want to become a Web Developer. My family can afford at most about USD 13100 per year. I live in Delhi. I'm open to going abroad. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 85
+  },
+  "career_goal": "Web Developer",
+  "budget_max_usd_per_year": 13100,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "r programming certification background",
+   "interested in cloud computing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0005",
+  "PR0169",
+  "PR0001",
+  "PR0194",
+  "PR0081",
+  "PR0042",
+  "PR0004",
+  "PR0186",
+  "PR0036",
+  "PR0197",
+  "PR0043",
+  "PR0147",
+  "PR0096",
+  "PR0199",
+  "PR0118",
+  "PR0121",
+  "PR0148",
+  "PR0016",
+  "PR0102",
+  "PR0180"
+ ],
+ "final_shortlist": [
+  "PR0042",
+  "PR0001",
+  "PR0043",
+  "PR0147",
+  "PR0180"
+ ],
+ "explanation": "This program in Canada is an excellent choice given your strong academic background and desire for international job opportunities. The tuition of $10,800 fits well within your family's budget constraint. Furthermore, the generous 36-month post-study work visa significantly boosts your chances of securing a good job after graduation, which is your top priority. The main trade-off here is that while it offers great career prospects, the median starting salary ($29,138) is lower than some other international options.\n\nThis MSc Cloud Computing program in the Netherlands aligns perfectly with your interests and remains within your maximum budget at $11,850 annually. The curriculum covers both networking cloud and software engineering, directly supporting your goal of becoming a Web Developer. While the placement rate is solid (73%), you must weigh this against the slightly lower median starting salary ($29,303) compared to other global options.\n\nFor a high-job-security option in India, this MSc Cloud Computing program is highly recommended. With an annual tuition of $3,950, it respects your budget while offering a very strong placement rate of 86%. The curriculum focuses on networking cloud and software engineering, directly supporting your career goals. The trade-off here is that the median starting salary ($11,981) is relatively low compared to international opportunities.\n\nThis program offers a highly affordable entry into Cloud Computing in India, costing only $3,200 annually. It maintains an excellent placement rate of 83%, making it a strong choice for job security within your budget. The focus on networking cloud directly supports your career path, though the main trade-off is that its median starting salary ($13,015) is modest.\n\nIf cost and immediate relevance are paramount, this MTech Computer Networks program in India is ideal. At just $1,250 per year, it is extremely budget-friendly while still providing training in networking cloud. Although the median starting salary ($10,359) is among the lowest listed, its minimal tuition cost makes it a safe and practical option for job entry.",
+ "wall_s": 39.7
+}

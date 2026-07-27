@@ -1,0 +1,55 @@
+{
+ "student_id": "ST0006",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a machine learning certification background. My overall academic average is 70% in an IT/computer-science degree. I'm interested in parallel computing and system developer. I want to become a Information Security Analyst. My family can afford at most about USD 1300 per year. I live in Hyderabad. I'm open to anywhere in India.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 70
+  },
+  "career_goal": "Information Security Analyst",
+  "budget_max_usd_per_year": 1300,
+  "location_preference": null,
+  "mobility": "open_domestic",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in parallel computing and system developer roles"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0015",
+  "PR0020",
+  "PR0157",
+  "PR0074",
+  "PR0087",
+  "PR0119",
+  "PR0058",
+  "PR0187",
+  "PR0053",
+  "PR0109",
+  "PR0076",
+  "PR0012",
+  "PR0019",
+  "PR0114",
+  "PR0185",
+  "PR0130",
+  "PR0084",
+  "PR0120",
+  "PR0170",
+  "PR0073"
+ ],
+ "final_shortlist": [
+  "PR0073",
+  "PR0185",
+  "PR0130",
+  "PR0053",
+  "PR0120"
+ ],
+ "explanation": "This MTech Cyber Security program is the most direct match for your goal of becoming an Information Security Analyst. It requires a CS background, which aligns with your certification and degree. The tuition of $1250 USD fits within your budget, but you must ensure your current academic standing meets the minimum 65% requirement. The trade-off here is that it is located in Bengaluru, potentially requiring relocation.\n\nThis MSc Information Security program directly addresses your career interest and has a manageable tuition of $1150 USD. It covers 'cybersecurity' and 'software_engineering', which complements both system development and security roles. Since it requires a CS background, this is ideal for leveraging your existing knowledge base. The trade-off is that the location in Kolkata might be less convenient than staying near Hyderabad.\n\nThis MSc IT Management program is highly recommended because it is located in Hyderabad, minimizing relocation stress. With a low tuition of $1000 USD and fields focused on 'it_management', it provides a broad foundation suitable for system developer roles. The main trade-off is that the curriculum focuses more on management aspects rather than deep technical specialization like parallel computing.\n\nThis MSc Software Quality Engineering program aligns well with your interest in system development by focusing on 'qa_testing' and 'software_engineering'. Crucially, the minimum grade requirement (70%) exactly matches your academic average. The trade-off is that while technically strong, it does not specifically emphasize information security or parallel computing.\n\nGiven your machine learning background, this MSc Big Data Analytics program offers a low-cost entry point ($800 USD) into advanced technical fields. It is an excellent way to build upon your existing data skills while staying within budget and meeting the minimum grade requirement of 63%. The trade-off is that it focuses purely on data analytics, moving away from your core interest in system development or security.",
+ "wall_s": 50.7
+}

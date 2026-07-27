@@ -1,0 +1,55 @@
+{
+ "student_id": "ST0071",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a full stack certification background. My overall academic average is 77.7% in an IT/computer-science degree. I'm interested in Computer Architecture and developer. I want to become a Data Architect. My family can afford at most about USD 15600 per year. I live in Hyderabad. I'm open to going abroad. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 77.7
+  },
+  "career_goal": "Data Architect",
+  "budget_max_usd_per_year": 15600,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in Computer Architecture and developer roles"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0132",
+  "PR0051",
+  "PR0097",
+  "PR0103",
+  "PR0061",
+  "PR0191",
+  "PR0143",
+  "PR0058",
+  "PR0007",
+  "PR0140",
+  "PR0128",
+  "PR0126",
+  "PR0099",
+  "PR0026",
+  "PR0009",
+  "PR0062",
+  "PR0090",
+  "PR0120",
+  "PR0170",
+  "PR0145"
+ ],
+ "final_shortlist": [
+  "PR0132",
+  "PR0097",
+  "PR0103",
+  "PR0051",
+  "PR0026"
+ ],
+ "explanation": "This Canadian program is highly recommended due to its strong job prospects and excellent post-study work visa option of 36 months. While the annual tuition of $15600 USD meets your maximum budget, it represents a significant investment for high returns. The median starting salary of $32235 USD is among the highest listed, directly addressing your priority of securing a good job after graduation. The main trade-off here is that this program uses up your entire stated tuition budget.\n\nFor the best local job security, this MTech Data Engineering program in Kolkata offers an outstanding placement rate of 95%. The low annual tuition of $3800 USD is highly budget-friendly. Although the median starting salary ($19658 USD) is lower than international options, the near-perfect placement record makes it a top choice for maximizing job outcomes locally. The main trade-off is that this program does not offer any post-study work visa.\n\nThis MSc Big Data Analytics in the UK provides a solid international pathway with a manageable tuition fee of $13500 USD and a good post-study work visa of 24 months. The placement rate is strong at 80%, and the median starting salary ($26798 USD) offers excellent job potential abroad. You should note that this program does not require a specific CS background, which might be a slight trade-off if you wish to focus purely on advanced developer topics.\n\nThis MBA Business Analytics in Germany is an excellent cost-effective international option with a low tuition of $3950 USD. It offers a competitive median starting salary of $33574 USD and provides 18 months of post-study work visa time. The main trade-off is that the program focuses on business analytics rather than deep computer architecture or developer roles, though it still aligns with data architect goals.\n\nThis MTech Data Engineering in Hyderabad is ideal because it matches your current location and focuses on both data science and software engineering. With a placement rate of 81% and a median starting salary of $13385 USD, it provides strong local job prospects while keeping the tuition manageable at $3900 USD. The main trade-off is that this program does not offer any post-study work visa.",
+ "wall_s": 58.9
+}

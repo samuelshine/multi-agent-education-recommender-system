@@ -1,0 +1,55 @@
+{
+ "student_id": "ST0064",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a full stack certification background. My overall academic average is 74.8% in an IT/computer-science degree. I'm interested in Management and system developer. I want to become a Information Technology Auditor. My family can afford at most about USD 6700 per year. I live in Delhi. I'm open to anywhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 74.8
+  },
+  "career_goal": "Information Technology Auditor",
+  "budget_max_usd_per_year": 6700,
+  "location_preference": "Delhi",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in Management and system developer roles"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0157",
+  "PR0172",
+  "PR0164",
+  "PR0060",
+  "PR0191",
+  "PR0101",
+  "PR0176",
+  "PR0092",
+  "PR0189",
+  "PR0054",
+  "PR0076",
+  "PR0105",
+  "PR0130",
+  "PR0015",
+  "PR0020",
+  "PR0078",
+  "PR0033",
+  "PR0150",
+  "PR0047",
+  "PR0160"
+ ],
+ "final_shortlist": [
+  "PR0164",
+  "PR0101",
+  "PR0076",
+  "PR0130",
+  "PR0020"
+ ],
+ "explanation": "This program is highly recommended because it offers the best job prospects among all options, boasting a 90% placement rate and a high median starting salary of $17361. Since getting a good job is your top priority, this MBA Technology Management in Delhi provides excellent career potential. The main trade-off here is that its minimum required grade (79%) is significantly higher than your current average of 74.8%, requiring you to demonstrate strong academic performance.\n\nThis MSc Information Systems program offers a strong balance between career potential and affordability, with a median starting salary of $15394. The curriculum focuses on business information systems, which aligns well with your interest in IT Management and auditing roles. While the tuition ($2400) is moderate compared to some options, it provides excellent job outcomes and is located in Coimbatore.\n\nThis MBA Technology Management program is an ideal fit because its minimum grade requirement (74%) perfectly matches your academic average. Furthermore, it has a very low annual tuition of $1250, making it highly budget-friendly while still offering solid job prospects with an 81% placement rate and a median salary of $13142. The trade-off is that its starting salary is not the highest available.\n\nIf budget is a major concern, this MSc IT Management program in Hyderabad is unmatched due to its extremely low annual tuition of only $1000. It also has a very accessible minimum grade requirement (62%). While the median starting salary ($11249) is lower than other options, it provides a reliable entry point into IT management without straining your family's budget.\n\nThis MBA Business Analytics program is recommended because it meets your location preference by being situated in Delhi and has a manageable tuition fee of $1450. The focus on business information systems aligns with management goals, and the minimum grade requirement (60%) is very low. The main trade-off is that its salary potential ($10648) is among the lower end of this shortlist.",
+ "wall_s": 48.0
+}

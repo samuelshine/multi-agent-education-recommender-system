@@ -1,0 +1,54 @@
+{
+ "student_id": "ST0019",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a machine learning certification background. My overall academic average is 72.8% in an IT/computer-science degree. I'm interested in Computer Architecture and developer. I want to become a Database Manager. My family can afford at most about USD 10700 per year. I live in Pune. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 72.8
+  },
+  "career_goal": "Database Manager",
+  "budget_max_usd_per_year": 10700,
+  "location_preference": "Pune",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in Computer Architecture and developer roles"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0191",
+  "PR0143",
+  "PR0058",
+  "PR0007",
+  "PR0099",
+  "PR0026",
+  "PR0090",
+  "PR0120",
+  "PR0170",
+  "PR0145",
+  "PR0033",
+  "PR0107",
+  "PR0111",
+  "PR0134",
+  "PR0074",
+  "PR0129",
+  "PR0133",
+  "PR0063",
+  "PR0173",
+  "PR0071"
+ ],
+ "final_shortlist": [
+  "PR0191",
+  "PR0143",
+  "PR0007",
+  "PR0099"
+ ],
+ "explanation": "This program offers the highest median starting salary at $15,951 USD, which aligns with your priority of securing a good job after graduation. It requires a minimum grade of 71%, which meets your current academic average of 72.8%, and accepts students without a mandatory CS background. The main trade-off is the location in Chennai, moving you away from your preferred Pune area.\n\nThis program boasts an excellent placement rate of 87% and a strong median starting salary of $13,436 USD. It requires a minimum grade of 72%, which you meet with your 72.8% average, and accepts students with a CS background. While located in Mumbai, its high job prospects make it a top recommendation for career focus.\n\nThis is the best option if staying near Pune is your highest priority, as the program is located right in Pune. It has a solid placement rate of 86% and requires a minimum grade of 70%, which you exceed. The main trade-off here is that its median starting salary ($12,541 USD) is lower compared to some other options.\n\nLocated in Mumbai, this program offers a good balance of job prospects with a placement rate of 83% and a median starting salary of $12,637 USD. It requires a CS background, which you possess, and its tuition is manageable at $3,150 USD annually. This makes it a strong alternative if Mumbai is acceptable and you are prioritizing job stability.",
+ "wall_s": 48.0
+}

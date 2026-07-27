@@ -1,0 +1,43 @@
+{
+ "student_id": "ST0045",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a distro making certification background. My overall academic average is 78.1% in an IT/computer-science degree. I'm interested in programming and cloud computing. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 3400 per year. I live in Chennai. I cannot leave my city. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 78.1
+  },
+  "career_goal": null,
+  "budget_max_usd_per_year": 3400,
+  "location_preference": "Chennai",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in programming and cloud computing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0197",
+  "PR0199",
+  "PR0162",
+  "PR0165",
+  "PR0191",
+  "PR0109",
+  "PR0171",
+  "PR0059"
+ ],
+ "final_shortlist": [
+  "PR0197",
+  "PR0191",
+  "PR0109",
+  "PR0199",
+  "PR0165"
+ ],
+ "explanation": "This program is highly recommended as it directly aligns with your interests in cloud and networking while maintaining a strong job focus. With an annual tuition of $3350, it fits within your family's budget, and your 78.1% average exceeds the minimum requirement of 71%. The high placement rate of 85% and median starting salary of $13362 make this a strong option for securing good employment in Chennai.\n\nIf maximizing job prospects is your top priority, MTech Data Engineering offers the highest median starting salary at $15951 among all listed programs. The tuition of $3250 remains within budget, and its placement rate of 84% suggests excellent career outcomes. The main trade-off here is that the specialization focuses on data science/analytics rather than core cloud computing or programming.\n\nThis MTech Computer Science program provides a strong foundation in software engineering, directly addressing your interest in programming. It has a solid placement rate of 82% and a median starting salary of $13300, making it excellent for career stability. Since you have an IT/CS background, the minimum grade requirement of 73% is easily met by your 78.1% average.\n\nThis program serves as an excellent, budget-friendly alternative to PR0197 while maintaining a focus on networking and cloud computing. At $2300 annually, it significantly reduces your tuition cost compared to other top options. While its placement rate (79%) is slightly lower than the first recommendation, it remains highly relevant to your stated interests.\n\nIf cloud computing specialization is more important than immediate salary potential, this MSc program is ideal due to its extremely low tuition of only $550. It directly matches your interest in 'cloud computing' and requires a CS background. The trade-off for this deep specialization is that it has the lowest placement rate (59%) among the recommended programs.",
+ "wall_s": 45.2
+}

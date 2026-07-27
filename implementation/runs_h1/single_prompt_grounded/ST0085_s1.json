@@ -1,0 +1,55 @@
+{
+ "student_id": "ST0085",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a app development certification background. My overall academic average is 73% in an IT/computer-science degree. I'm interested in IOT and Business process analyst. I want to become a Design & UX. My family can afford at most about USD 1300 per year. I live in Coimbatore. I'm open to anywhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 73
+  },
+  "career_goal": "Design & UX",
+  "budget_max_usd_per_year": 1300,
+  "location_preference": null,
+  "mobility": "open_domestic",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in IOT and Business process analyst"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0084",
+  "PR0015",
+  "PR0020",
+  "PR0013",
+  "PR0157",
+  "PR0181",
+  "PR0166",
+  "PR0074",
+  "PR0059",
+  "PR0049",
+  "PR0035",
+  "PR0087",
+  "PR0119",
+  "PR0058",
+  "PR0187",
+  "PR0053",
+  "PR0109",
+  "PR0076",
+  "PR0012",
+  "PR0019"
+ ],
+ "final_shortlist": [
+  "PR0181",
+  "PR0013",
+  "PR0157",
+  "PR0166",
+  "PR0053"
+ ],
+ "explanation": "This program is highly recommended as it directly aligns with your goal of becoming a Design & UX professional through its focus on Human-Computer Interaction (design_hci). At an annual tuition of $850 USD, it respects your strict budget constraint. Furthermore, the placement rate stands at 73%, offering a solid job outlook for someone prioritizing career outcomes. The main trade-off here is that while the salary potential ($9715) is decent, it may not maximize your earning potential compared to purely technical roles.\n\nThis program offers a strong alternative for pursuing Design & UX via its MSc Human-Computer Interaction specialization. With an annual tuition of $900 USD, it remains well within your family's budget. Located in Bengaluru, this city is a major tech hub, which supports your priority of securing good post-graduation employment. The placement rate of 77% suggests strong industry connections, though the main trade-off compared to PR0181 is that it is located further from your current home base.\n\nThis option directly addresses both your interest in Business Process Analysis and the need for cost efficiency. Located right in Coimbatore, it minimizes relocation stress while offering a low tuition fee of $800 USD. The program covers 'business_information_systems' and 'it_management,' making it ideal for bridging your app development background with business analysis goals. The trade-off is that its placement rate (72%) and median starting salary ($10444) are moderate compared to other high-tech options.\n\nThis program is the best fit if you wish to remain close to your current location in Coimbatore while pursuing UX design. The MDes Interaction Design specialization directly matches your career goal (design_hci) and has a manageable tuition of $1200 USD. It offers a respectable median starting salary of $10095, which is good for local job prospects. The main trade-off is that the program title suggests an intensive design focus, potentially requiring more portfolio work than traditional academic programs.\n\nIf maximizing job security and salary potential is your absolute top priority, this program offers a high placement rate of 86% with an attractive median starting salary of $12855. While the field is QA Testing (not UX/Design), it provides highly marketable skills in software engineering. The tuition ($1200 USD) respects your budget constraint. The main trade-off is that this path deviates significantly from your stated interest in Design & UX, focusing instead on quality assurance.",
+ "wall_s": 52.0
+}

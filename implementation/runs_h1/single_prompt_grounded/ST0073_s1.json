@@ -1,0 +1,56 @@
+{
+ "student_id": "ST0073",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a shell programming certification background. My overall academic average is 75.4% in an IT/computer-science degree. I'm interested in Software Engineering and cloud computing. I want to become a Business Intelligence Analyst. My family can afford at most about USD 7100 per year. I live in Coimbatore. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 75.4
+  },
+  "career_goal": "Business Intelligence Analyst",
+  "budget_max_usd_per_year": 7100,
+  "location_preference": "Coimbatore",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Shell programming certification background",
+   "Interested in Software Engineering and cloud computing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0186",
+  "PR0043",
+  "PR0016",
+  "PR0112",
+  "PR0032",
+  "PR0198",
+  "PR0191",
+  "PR0101",
+  "PR0058",
+  "PR0039",
+  "PR0197",
+  "PR0053",
+  "PR0158",
+  "PR0054",
+  "PR0147",
+  "PR0109",
+  "PR0026",
+  "PR0076",
+  "PR0105",
+  "PR0012"
+ ],
+ "final_shortlist": [
+  "PR0101",
+  "PR0054",
+  "PR0058",
+  "PR0198",
+  "PR0191"
+ ],
+ "explanation": "This program is highly recommended because it directly aligns with your goal of becoming a Business Intelligence Analyst and keeps you in Coimbatore, fulfilling your strong location preference. The MSc Information Systems curriculum focuses on 'business_information_systems' fields, making it ideal for your career path. Furthermore, the placement rate stands at 85%, and the median starting salary is $15394 USD, offering excellent job security right near home.\n\nThis MBA program in Coimbatore provides a strong business focus through 'business_information_systems,' making it an excellent fit for your BI Analyst goal. It maintains the local convenience you prefer while offering solid job prospects with an 84% placement rate and a median starting salary of $13094 USD. The main trade-off here is that, as an MBA, it may emphasize business strategy over deep technical coding skills compared to pure engineering degrees.\n\nThis MCA program in Coimbatore is a strong local option that covers both 'software_engineering' and 'data_science_analytics,' blending your interests while keeping you near home. It requires a CS background (which you have) and has a low annual tuition of $1350 USD, making it very budget-friendly. While the median starting salary ($14869 USD) is solid, the trade-off is that its focus might be slightly broader than pure BI analysis.\n\nIf securing a good job after graduation is your absolute top priority, this program in Bengaluru offers the highest placement rate (95%) and the highest median starting salary ($21062 USD). While it focuses on 'software_engineering,' its exceptional career outcomes make it worth considering despite requiring you to move away from Coimbatore. The main trade-off is that accepting this recommendation means sacrificing your strong preference for staying near home.\n\nThis MTech Data Engineering program in Chennai provides a highly technical and relevant path toward Business Intelligence through its focus on 'business_information_systems' and 'data_science_analytics.' It offers an impressive median starting salary of $15951 USD and maintains a good placement rate of 84%. The trade-off is that while the field aligns perfectly, the program itself is highly technical (MTech), which might be more rigorous than the business focus you desire.",
+ "wall_s": 55.8
+}

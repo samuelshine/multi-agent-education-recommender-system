@@ -1,0 +1,56 @@
+{
+ "student_id": "ST0009",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a app development certification background. My overall academic average is 72.6% in an IT/computer-science degree. I'm interested in hacking and Business process analyst. I want to become a Network Security Engineer. My family can afford at most about USD 4000 per year. I live in Delhi. I'd strongly prefer to stay near home, though I might consider elsewhere in India.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 72.6
+  },
+  "career_goal": "Network Security Engineer",
+  "budget_max_usd_per_year": 4000,
+  "location_preference": null,
+  "mobility": "prefers_region",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in hacking",
+   "Interested in Business process analyst"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0191",
+  "PR0101",
+  "PR0054",
+  "PR0105",
+  "PR0015",
+  "PR0020",
+  "PR0033",
+  "PR0157",
+  "PR0047",
+  "PR0074",
+  "PR0172",
+  "PR0087",
+  "PR0029",
+  "PR0022",
+  "PR0182",
+  "PR0060",
+  "PR0119",
+  "PR0143",
+  "PR0186",
+  "PR0176"
+ ],
+ "final_shortlist": [
+  "PR0186",
+  "PR0020",
+  "PR0176",
+  "PR0191",
+  "PR0101"
+ ],
+ "explanation": "This MTech Computer Networks program is highly relevant to your goal of becoming a Network Security Engineer, focusing on networking and software engineering. The tuition of $2050 falls well within your family's budget of $4000 per year, and the minimum required grade (70%) is met by your 72.6% average. The main trade-off here is location; while it offers excellent technical alignment, it requires moving to Pune instead of staying near Delhi.\n\nThis MBA Business Analytics program is the best option for meeting your strong preference to stay near home in Delhi. The annual tuition of $1450 is very affordable and easily within budget, and the minimum grade requirement (60%) is met by your academic average. However, the main trade-off is that this program focuses on business analytics rather than the specialized technical skills needed for Network Security Engineering.\n\nThe MBA Technology Management program provides a strong blend of IT and management principles, which aligns well with both your interest in Business Process Analysis and your career goal. The tuition is low at $1900, keeping it within budget, and the minimum grade requirement (72%) is met by your average. The trade-off for this recommendation is that while the focus is broad IT management, it does not specialize specifically in cybersecurity or networking.\n\nThis MTech Data Engineering program offers a high placement rate of 84% and is technically robust, making it a strong academic choice. The tuition cost of $3250 remains within your budget, and the minimum grade requirement (71%) is met by your current average. The primary trade-off for this option is that while highly technical, its focus on data engineering is less directly aligned with network security compared to dedicated cybersecurity programs.\n\nThis MSc Information Systems program provides a solid foundation in business information systems, which supports your interest in Business Process Analysis. The tuition is affordable at $2400, and the minimum grade requirement (71%) is met by your academic standing. The main trade-off here is that while it builds strong foundational knowledge, its general scope means you would need to supplement specialized security training outside of the curriculum.",
+ "wall_s": 50.8
+}

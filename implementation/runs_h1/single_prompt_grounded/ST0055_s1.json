@@ -1,0 +1,56 @@
+{
+ "student_id": "ST0055",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a hadoop certification background. My overall academic average is 81.3% in an IT/computer-science degree. I'm interested in programming and testing. I want to become a Business Systems Analyst. My family can afford at most about USD 2100 per year. I live in Delhi. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 81.3
+  },
+  "career_goal": "Business Systems Analyst",
+  "budget_max_usd_per_year": 2100,
+  "location_preference": "Delhi",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in programming and testing",
+   "Strongly prefer to stay near home, though might consider elsewhere in India"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0182",
+  "PR0119",
+  "PR0101",
+  "PR0053",
+  "PR0072",
+  "PR0054",
+  "PR0065",
+  "PR0019",
+  "PR0114",
+  "PR0015",
+  "PR0020",
+  "PR0113",
+  "PR0179",
+  "PR0033",
+  "PR0193",
+  "PR0157",
+  "PR0047",
+  "PR0068",
+  "PR0074",
+  "PR0050"
+ ],
+ "final_shortlist": [
+  "PR0020",
+  "PR0119",
+  "PR0033",
+  "PR0019",
+  "PR0157"
+ ],
+ "explanation": "This program is highly recommended as it meets your strong preference for staying near home in Delhi and directly aligns with your goal of becoming a Business Systems Analyst through the MBA Business Analytics specialization. The annual tuition of $1450 USD is well within your family's budget constraint. While the median starting salary ($10648) is moderate, the perfect location match and relevant curriculum make this an excellent primary choice.\n\nThis MSc Software Quality Engineering program in Hyderabad offers a strong combination of low cost ($1200 annual tuition) and high job prospects. The median starting salary of $14917 USD is one of the highest among affordable options, which addresses your primary concern about post-graduation employment. The main trade-off here is that while it focuses on testing (qa_testing), it does not specifically target the Business Systems Analyst role.\n\nThis MBA program in Coimbatore directly targets your interest in becoming a Business Systems Analyst by focusing on 'business_information_systems' and data analytics. At $2100 annual tuition, it maximizes your budget while providing highly relevant coursework for your career goal. The trade-off is that the tuition limit is reached exactly, leaving no financial buffer.\n\nIf you wish to emphasize your interest in programming and technical depth, this MSc Software Engineering program in Pune is a solid choice. With an annual tuition of $1450 USD, it remains affordable while providing core software engineering skills. The trade-off compared to the BA programs is that its focus is purely technical rather than business analysis.\n\nThis MSc IT Management program in Coimbatore offers the lowest tuition cost ($800 USD), providing maximum financial safety. The curriculum covers 'business_information_systems', which is highly relevant to a BSA career path. The trade-off for this low cost and location convenience is that its placement rate (72%) and median starting salary ($10444) are among the lowest in this shortlist.",
+ "wall_s": 48.3
+}

@@ -1,0 +1,55 @@
+{
+ "student_id": "ST0088",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a distro making certification background. My overall academic average is 79% in an IT/computer-science degree. I'm interested in cloud computing and cloud computing. I want to become a Web Developer. My family can afford at most about USD 3500 per year. I live in Bengaluru. I'm open to anywhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 79
+  },
+  "career_goal": "Web Developer",
+  "budget_max_usd_per_year": 3500,
+  "location_preference": "Bengaluru",
+  "mobility": "open_domestic",
+  "employability_priority": "high",
+  "other_constraints": [
+   "distro making certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0117",
+  "PR0198",
+  "PR0097",
+  "PR0139",
+  "PR0164",
+  "PR0029",
+  "PR0022",
+  "PR0182",
+  "PR0060",
+  "PR0191",
+  "PR0119",
+  "PR0101",
+  "PR0143",
+  "PR0186",
+  "PR0176",
+  "PR0058",
+  "PR0149",
+  "PR0092",
+  "PR0187",
+  "PR0039"
+ ],
+ "final_shortlist": [
+  "PR0186",
+  "PR0058",
+  "PR0039",
+  "PR0191",
+  "PR0101"
+ ],
+ "explanation": "This MTech in Computer Networks is highly relevant to your interest in cloud computing and web development, as it covers 'networking_cloud' and 'software_engineering.' The tuition of $2050 fits well within your family's budget, and the program requires a CS background, matching your qualifications. This option offers excellent technical depth while maintaining a low cost, making job placement a strong possibility.\n\nThe MCA program is an ideal choice for aspiring Web Developers due to its focus on 'software_engineering.' With a very low annual tuition of $1350 and a minimum grade requirement of 74%, it respects your financial constraints while building core development skills. This option provides strong technical training, making job placement highly probable.\n\nThis MSc in Human-Computer Interaction offers a blend of design and development through its focus on 'software_engineering' and 'design_hci.' The tuition ($2250) is affordable, and the program\u2019s curriculum aligns with modern web development roles. The main trade-off here is that it emphasizes user experience (HCI) more than pure backend cloud infrastructure.\n\nIf you are open to data roles, this MTech in Data Engineering is a strong contender. It has an affordable tuition of $3250 and accepts students with your background (no CS requirement). While the focus is on 'data_science_analytics,' it provides excellent job prospects in high-demand tech sectors like Bengaluru.\n\nThis MSc in Information Systems offers a broad foundation in 'business_information_systems,' making it a safe and affordable option ($2400). It is suitable if you want to combine your technical skills with business understanding. The trade-off is that the focus is more on general IT management rather than deep specialization in cloud or web development.",
+ "wall_s": 52.9
+}

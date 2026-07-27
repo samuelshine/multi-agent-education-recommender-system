@@ -1,0 +1,55 @@
+{
+ "student_id": "ST0025",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 81% in an IT/computer-science degree. I'm interested in networks and developer. I want to become a Software Engineer. My family can afford at most about USD 4400 per year. I live in Kolkata. I'm open to going abroad. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 81
+  },
+  "career_goal": "Software Engineer",
+  "budget_max_usd_per_year": 4400,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in networks and developer fields"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0037",
+  "PR0161",
+  "PR0198",
+  "PR0144",
+  "PR0194",
+  "PR0186",
+  "PR0058",
+  "PR0039",
+  "PR0053",
+  "PR0038",
+  "PR0158",
+  "PR0043",
+  "PR0126",
+  "PR0109",
+  "PR0026",
+  "PR0076",
+  "PR0012",
+  "PR0065",
+  "PR0019",
+  "PR0167"
+ ],
+ "final_shortlist": [
+  "PR0037",
+  "PR0161",
+  "PR0194",
+  "PR0167",
+  "PR0198"
+ ],
+ "explanation": "This MCA program in Germany is highly recommended due to its strong focus on software engineering and excellent job prospects. The median starting salary of $34,339 USD significantly exceeds local options, addressing your priority for good post-graduation employment. Furthermore, the 18 months of post-study work visa provide a clear path to securing a job abroad. The main trade-off here is that while the tuition ($2650) is within budget, the competition for admission requires meeting the minimum grade percentage of 62% and having a CS background.\n\nAs an alternative to PR0037, this MSc Software Engineering program in Germany offers similar career advantages with a median starting salary of $33,731 USD and the benefit of an 18-month post-study work visa. The tuition ($3850) remains within your family's budget constraint. This option is ideal for maximizing international job opportunities while maintaining a strong focus on software engineering principles. The trade-off compared to PR0037 is that the annual tuition fee is slightly higher.\n\nThis MSc Cloud Computing program directly aligns with your interest in networks and software development while providing an international education in Germany. The low annual tuition of $1950 keeps costs down, and the 18-month post-study work visa supports your goal of securing a good job abroad. While the placement rate is 67%, this program offers valuable networking skills that complement your existing information security background. The trade-off is accepting a slightly lower placement rate compared to some local options.\n\nThis MTech Cyber Security program is an excellent fit because it leverages your existing information security background while keeping you focused on software engineering. It offers a strong local option with manageable tuition ($2450) and a relevant curriculum. The main trade-off here is that the median starting salary ($12,765 USD) is lower than the international options, but it provides immediate career relevance in India.\n\nIf maximizing local job placement is your absolute top priority, this MSc Software Quality Engineering program stands out with a remarkable 95% placement rate. The tuition ($3500) and the focus on software engineering are highly relevant to your goals. This option minimizes financial risk by keeping you in India while providing an excellent career outcome. The trade-off is that the median starting salary of $21,062 USD is significantly lower than the salaries offered by international programs.",
+ "wall_s": 58.5
+}

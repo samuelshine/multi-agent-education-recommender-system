@@ -1,0 +1,56 @@
+{
+ "student_id": "ST0087",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 74.4% in an IT/computer-science degree. I'm interested in IOT and cloud computing. I want to become a Quality Assurance Associate. My family can afford at most about USD 5600 per year. I live in Kolkata. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 74.4
+  },
+  "career_goal": "Quality Assurance Associate",
+  "budget_max_usd_per_year": 5600,
+  "location_preference": "Kolkata",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "r programming certification background",
+   "interested in IOT and cloud computing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0186",
+  "PR0197",
+  "PR0043",
+  "PR0147",
+  "PR0096",
+  "PR0199",
+  "PR0118",
+  "PR0121",
+  "PR0148",
+  "PR0016",
+  "PR0102",
+  "PR0180",
+  "PR0162",
+  "PR0112",
+  "PR0159",
+  "PR0032",
+  "PR0184",
+  "PR0165",
+  "PR0164",
+  "PR0029"
+ ],
+ "final_shortlist": [
+  "PR0186",
+  "PR0197",
+  "PR0147",
+  "PR0032",
+  "PR0096"
+ ],
+ "explanation": "This program is recommended because it offers the highest median starting salary ($15192) and a strong placement rate (83%), directly addressing your priority of securing a good job. The curriculum covers 'networking_cloud' and 'software_engineering,' aligning well with your interests in cloud computing. While Pune is not Kolkata, this program provides excellent career prospects for the relatively low tuition cost of $2050.\n\nThis option boasts a high placement rate (85%) and a strong median starting salary ($13362), making it an excellent choice for job security. The focus on 'networking_cloud' directly matches your stated interests. Although the tuition is slightly higher than PR0186, its robust placement statistics make it highly valuable despite being located in Chennai.\n\nThis program is ideal because the minimum required grade (74%) perfectly matches your academic average of 74.4%. It focuses on 'networking_cloud' and has a high placement rate of 83%, providing strong career assurance. The main trade-off here is that while it meets all your academic criteria, its location in Coimbatore might be less preferred than Kolkata.\n\nThis program is the best fit for your strong preference to stay near home, as it is located in Kolkata. The curriculum covers 'networking_cloud' and 'software_engineering,' which aligns with your interests and background. However, you must accept a trade-off: while the tuition ($1200) is very affordable, its placement rate (61%) and median salary are lower compared to other options.\n\nThis program offers a good balance of relevant fields ('cybersecurity' and 'networking_cloud') while providing a decent placement rate (80%) in Hyderabad. The tuition ($3350) is manageable within your budget, and the curriculum builds upon networking skills crucial for cloud roles. The trade-off here is that its focus includes cybersecurity, which may slightly deviate from your primary interest in IOT/cloud computing.",
+ "wall_s": 42.3
+}

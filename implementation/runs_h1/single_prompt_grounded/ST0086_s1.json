@@ -1,0 +1,55 @@
+{
+ "student_id": "ST0086",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 75.6% in an IT/computer-science degree. I'm interested in Software Engineering and cloud computing. I want to become a Technical Services/Help Desk/Tech Support. My family can afford at most about USD 13300 per year. I live in Chennai. I'm open to going abroad. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 75.6
+  },
+  "career_goal": "Technical Services/Help Desk/Tech Support",
+  "budget_max_usd_per_year": 13300,
+  "location_preference": "Chennai",
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "r programming certification"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0021",
+  "PR0169",
+  "PR0088",
+  "PR0022",
+  "PR0187",
+  "PR0002",
+  "PR0121",
+  "PR0188",
+  "PR0098",
+  "PR0050",
+  "PR0159",
+  "PR0000",
+  "PR0195",
+  "PR0122",
+  "PR0005",
+  "PR0010",
+  "PR0153",
+  "PR0024",
+  "PR0132",
+  "PR0051"
+ ],
+ "final_shortlist": [
+  "PR0021",
+  "PR0088",
+  "PR0121",
+  "PR0022",
+  "PR0187"
+ ],
+ "explanation": "This program is highly recommended as it perfectly balances your budget constraint with strong career prospects abroad. The annual tuition of only $450 USD is extremely affordable, and the curriculum directly aligns with your goal of Technical Services/Help Desk via its 'it_support' field. Furthermore, graduates benefit from an 18-month post-study work visa and a median starting salary of $46,428 USD, making job placement a top priority. The main trade-off here is that the program does not explicitly cover cloud computing, focusing primarily on IT Operations.\n\nThis option provides an excellent international opportunity in the Netherlands while staying within your maximum tuition budget of $13,300 USD. The PG Diploma focuses on 'it_support,' directly matching your desired career path, and offers a decent placement rate of 74%. While the median starting salary is $32,045 USD, you gain access to a 12-month post-study work visa. The trade-off compared to other options is that the starting salary is lower than some German alternatives.\n\nThis program is ideal because it addresses both your core interest in 'it_support' and your secondary interest in 'networking_cloud.' With an annual tuition of $2100 USD, it remains well within your family's budget. The curriculum provides relevant skills for modern tech roles, and the placement rate stands at 76%. The main trade-off is that while it covers cloud computing, its median starting salary ($9,223 USD) is significantly lower than the international options.\n\nIf maximizing job placement rate is your absolute highest priority, this Indian program offers an impressive 88% placement rate and a median starting salary of $14,854 USD. The curriculum focuses on 'it_support' and the tuition ($3050 USD) fits comfortably within your budget. However, the main trade-off is that since it is located in India, you lose the opportunity to gain international work experience or access a post-study visa.\n\nThis option serves as a highly affordable and reliable backup plan that still meets your core job requirements. With only $1450 USD in annual tuition, it is extremely budget-friendly while offering 'it_support' training. It boasts a high placement rate of 87% among the Indian options. The main trade-off is that this program does not offer any post-study work visa and its median starting salary ($12,687 USD) is modest.",
+ "wall_s": 54.1
+}

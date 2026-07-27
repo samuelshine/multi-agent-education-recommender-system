@@ -1,0 +1,55 @@
+{
+ "student_id": "ST0059",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a app development certification background. My overall academic average is 79.7% in an IT/computer-science degree. I'm interested in data engineering and testing. I want to become a Data Architect. My family can afford at most about USD 1300 per year. I live in Chennai. I'm open to anywhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 79.7
+  },
+  "career_goal": "Data Architect",
+  "budget_max_usd_per_year": 1300,
+  "location_preference": "Chennai",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in data engineering and testing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0058",
+  "PR0053",
+  "PR0019",
+  "PR0008",
+  "PR0063",
+  "PR0142",
+  "PR0082",
+  "PR0052",
+  "PR0085",
+  "PR0173",
+  "PR0071",
+  "PR0119",
+  "PR0109",
+  "PR0076",
+  "PR0012",
+  "PR0114",
+  "PR0185",
+  "PR0120",
+  "PR0170",
+  "PR0171"
+ ],
+ "final_shortlist": [
+  "PR0119",
+  "PR0071",
+  "PR0120",
+  "PR0053",
+  "PR0170"
+ ],
+ "explanation": "This program is highly recommended because it offers the highest median starting salary ($14917) and a strong placement rate (86%) among all options. While focused purely on QA testing, this specialization provides excellent job prospects, which aligns with your primary concern. The trade-off here is that the curriculum focuses solely on quality assurance rather than data engineering.\n\nThis MTech Data Engineering program directly addresses your interest in data engineering and aligns with your goal of becoming a Data Architect. It uses the maximum allowed tuition budget ($1300) while providing relevant skills in data science analytics and software engineering. The trade-off is that its placement rate (58%) is lower than some other options, but the specialization makes it highly targeted.\n\nThis MSc Big Data Analytics program is an excellent fit for your career goal and budget, costing only $800 annually. It provides core skills in data science analytics, which are crucial for a Data Architect role. The trade-off is that while the placement rate (78%) is decent, it does not offer the highest salary potential compared to other specialized programs.\n\nThis MSc Software Quality Engineering program offers a high placement rate (86%) and is highly relevant to your interest in testing. The tuition ($1200) fits within your budget while providing strong job security. The main trade-off is that the median starting salary ($12855) is lower than some other options, but its proven track record of placement makes it a safe choice.\n\nThis MSc Big Data Analytics option provides another strong pathway into data architecture and utilizes the full tuition budget ($1300). It is ideal for students prioritizing a deep dive into data science analytics. The trade-off compared to PR0120 is that its location (Coimbatore) might be less preferred, but it maintains high relevance to your career goals.",
+ "wall_s": 51.4
+}

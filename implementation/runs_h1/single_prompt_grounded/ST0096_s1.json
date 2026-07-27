@@ -1,0 +1,55 @@
+{
+ "student_id": "ST0096",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a distro making certification background. My overall academic average is 77.9% in an IT/computer-science degree. I'm interested in Computer Architecture and testing. I want to become a Database Developer. My family can afford at most about USD 10200 per year. I live in Pune. I'm open to going abroad.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 77.9
+  },
+  "career_goal": "Database Developer",
+  "budget_max_usd_per_year": 10200,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in Computer Architecture and testing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0051",
+  "PR0151",
+  "PR0198",
+  "PR0097",
+  "PR0104",
+  "PR0139",
+  "PR0182",
+  "PR0191",
+  "PR0119",
+  "PR0143",
+  "PR0058",
+  "PR0053",
+  "PR0007",
+  "PR0140",
+  "PR0072",
+  "PR0128",
+  "PR0126",
+  "PR0099",
+  "PR0026",
+  "PR0070"
+ ],
+ "final_shortlist": [
+  "PR0151",
+  "PR0072",
+  "PR0126",
+  "PR0007",
+  "PR0070"
+ ],
+ "explanation": "This program is an excellent international option focusing on your interest in testing (QA Testing) while remaining within your family's budget with a tuition of $5750. Located in Germany, it offers a substantial post-study work visa of 18 months, which is highly beneficial for career growth abroad. The main trade-off here is that the minimum required grade percentage (62%) is lower than your current average, but this makes the program more accessible internationally.\n\nThis option perfectly aligns with your location preference in Pune and your interest in testing (QA Testing). With a low annual tuition of $2400, it is highly budget-friendly. The program requires no CS background knowledge, making it accessible despite the minimum grade requirement being 70%. Since this is an Indian institution, there is no post-study work visa benefit to consider.\n\nThis MCA program in Germany provides a strong blend of data science analytics and software engineering, fitting your goal of becoming a Database Developer. The tuition is very low at $2050, making it highly cost-effective for an international move. You must meet the requirement of having a CS background, but this option offers 18 months of post-study work visa time.\n\nThis program is ideal for focusing on data analytics while keeping you local in Pune. With a tuition cost of $2350, it respects your budget and directly addresses the data aspect of your career goal. The main trade-off is that this specialized Big Data Analytics course requires a CS background, which aligns well with your certification history.\n\nIf you are prioritizing international experience and testing skills, this UK program is a strong contender. At $10050, it utilizes almost your entire budget while offering the maximum post-study work visa of 24 months. The trade-off compared to other options is that its tuition cost is very high, though it still remains within your stated financial limit.",
+ "wall_s": 53.0
+}

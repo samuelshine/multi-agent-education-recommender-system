@@ -1,0 +1,55 @@
+{
+ "student_id": "ST0033",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a python certification background. My overall academic average is 77.7% in an IT/computer-science degree. I'm interested in IOT and cloud computing. I want to become a Portal Administrator. My family can afford at most about USD 2400 per year. I live in Pune. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 77.7
+  },
+  "career_goal": "Portal Administrator",
+  "budget_max_usd_per_year": 2400,
+  "location_preference": "Pune",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in IOT and cloud computing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0186",
+  "PR0199",
+  "PR0118",
+  "PR0121",
+  "PR0148",
+  "PR0016",
+  "PR0102",
+  "PR0180",
+  "PR0162",
+  "PR0112",
+  "PR0159",
+  "PR0032",
+  "PR0184",
+  "PR0165",
+  "PR0164",
+  "PR0182",
+  "PR0119",
+  "PR0101",
+  "PR0143",
+  "PR0176"
+ ],
+ "final_shortlist": [
+  "PR0186",
+  "PR0121",
+  "PR0180",
+  "PR0102",
+  "PR0119"
+ ],
+ "explanation": "This program is highly recommended as it perfectly matches your location preference in Pune and aligns with your interests in networking and cloud computing. It requires a CS background, which suits your academic profile, and offers a strong placement rate of 83% with a median starting salary of $15,192 USD. The annual tuition of $2050 is well within your family's budget constraint. The main trade-off here is that the program focuses on general networking/software engineering rather than pure IT administration.\n\nThis MSc in IT Operations directly relates to the skills needed for a Portal Administrator role by focusing on 'it_support' and networking/cloud. Located in Delhi, it is affordable at $2100 annually and boasts a solid placement rate of 76%. While its median starting salary ($9,223 USD) is lower than PR0186, the program structure provides excellent functional alignment with your career goal. The trade-off is that this program does not require a CS background, which might mean less depth in core computer science theory.\n\nThis option keeps you local in Pune while focusing on networking and cloud computing, matching your interests. At a very low annual tuition of $1250 USD, it is highly budget-friendly and requires the CS background you possess. However, its placement rate (71%) and median starting salary ($10,359 USD) are lower compared to other Pune options. The main trade-off is accepting a slightly lower job placement probability for maximum cost savings while staying local.\n\nThis MSc Cloud Computing program provides deep specialization in your area of interest and requires the CS background you have. Located in Delhi for a low tuition cost of $1700 USD, it is an excellent value choice that keeps you within budget. While its placement rate (75%) and salary ($8,729 USD) are modest, the specialized cloud focus makes it highly relevant to modern IT roles. The trade-off is that the program's median starting salary is relatively low compared to your stated priority of securing a good job.\n\nIf maximizing job prospects is your absolute top priority, this program offers the highest placement rate (86%) and strong salary ($14,917 USD) among affordable options. Although it focuses on QA Testing rather than Cloud/IOT, its excellent career outcomes make it a compelling choice. The main trade-off for these superior job metrics is that the curriculum shifts focus away from your stated interests in cloud computing.",
+ "wall_s": 48.7
+}

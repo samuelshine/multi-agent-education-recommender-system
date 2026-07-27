@@ -1,0 +1,55 @@
+{
+ "student_id": "ST0004",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 73.9% in an IT/computer-science degree. I'm interested in hacking and testing. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 6000 per year. I live in Pune. I cannot leave my city. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 73.9
+  },
+  "career_goal": "tech (interested in hacking and testing)",
+  "budget_max_usd_per_year": 6000,
+  "location_preference": "Pune",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "information security certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0182",
+  "PR0072",
+  "PR0019",
+  "PR0172",
+  "PR0190",
+  "PR0080",
+  "PR0186",
+  "PR0092",
+  "PR0187",
+  "PR0007",
+  "PR0158",
+  "PR0084",
+  "PR0078",
+  "PR0181",
+  "PR0046",
+  "PR0180",
+  "PR0045",
+  "PR0023",
+  "PR0025",
+  "PR0156"
+ ],
+ "final_shortlist": [
+  "PR0182",
+  "PR0045",
+  "PR0072",
+  "PR0187",
+  "PR0186"
+ ],
+ "explanation": "This program is highly recommended because it directly aligns with your interest in testing through 'qa_testing' and boasts the highest placement rate (91%) among all options. The median starting salary of $12,865 USD offers strong job security, which is your top priority. While your current average of 73.9% is slightly below the minimum required grade percentage of 75%, the exceptional career outcomes make this a worthwhile consideration. The main trade-off here is that you are applying near the edge of the academic requirement.\n\nThis program is the most direct match for your stated interest in 'hacking and testing' through its focus on Information Security. It has a low annual tuition of $1,450 USD, fitting well within your family's budget. Given your background in information security certification, this specialization will build directly upon your existing knowledge base. The main trade-off is that while the program fits your interest perfectly, its placement rate (71%) and salary ($10,236) are moderate compared to other options.\n\nThis option is an excellent alternative if you wish to focus on quality assurance ('qa_testing') while maintaining a strong job outlook. It requires a minimum grade of 70%, which your 73.9% average exceeds, and it offers a solid median starting salary of $13,106 USD. The main trade-off is that the annual tuition ($2,400) is slightly higher than some other highly rated programs.\n\nThis PG Diploma in Systems Administration offers a strong career path with an impressive placement rate of 87%, making it ideal for your goal of securing good employment. The minimum grade requirement (72%) is met by your academic average, and the tuition ($1,450) is very affordable. The main trade-off is that its focus on 'it_support' is less specialized in advanced hacking or testing compared to dedicated cybersecurity programs.\n\nThis MTech Computer Networks program offers the highest median starting salary ($15,192 USD) and a strong placement rate (83%), making it excellent for career growth. Since you have an IT/computer-science degree, you meet the 'requires_cs_background' criterion. The main trade-off is that its focus on networking and cloud may be slightly less aligned with your initial interest in pure hacking compared to dedicated cybersecurity degrees.",
+ "wall_s": 42.2
+}

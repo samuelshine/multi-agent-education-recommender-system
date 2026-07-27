@@ -1,0 +1,56 @@
+{
+ "student_id": "ST0027",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 79.2% in an IT/computer-science degree. I'm interested in IOT and security. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 9700 per year. I live in Hyderabad. I'm open to going abroad. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 79.2
+  },
+  "career_goal": null,
+  "budget_max_usd_per_year": 9700,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "r programming certification background",
+   "interested in IOT and security"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0000",
+  "PR0195",
+  "PR0021",
+  "PR0153",
+  "PR0051",
+  "PR0151",
+  "PR0037",
+  "PR0161",
+  "PR0117",
+  "PR0198",
+  "PR0097",
+  "PR0104",
+  "PR0001",
+  "PR0144",
+  "PR0139",
+  "PR0194",
+  "PR0042",
+  "PR0164",
+  "PR0029",
+  "PR0057"
+ ],
+ "final_shortlist": [
+  "PR0000",
+  "PR0195",
+  "PR0021",
+  "PR0194",
+  "PR0042"
+ ],
+ "explanation": "This program is highly recommended as it offers an excellent balance of affordability and career prospects in Germany. With a low annual tuition of $950 USD, the median starting salary is strong at $56,198 USD, and the placement rate is high at 91%. The curriculum covers IT Management, which aligns well with your general tech interest. The main trade-off here is that the minimum required grade percentage (80%) is slightly higher than your stated average of 79.2%.\n\nThis option provides a highly affordable entry into the German tech market with minimal tuition at only $300 USD annually. The program focuses on Information Systems and boasts a solid placement rate of 82% and a median starting salary of $51,059 USD. It meets your budget constraints while offering a clear path to employment through an 18-month post-study work visa. The trade-off is that the field focus (Business Information Systems) is less specialized than pure security or IOT.\n\nGiven your interest in IT operations, this program directly matches your career goal while remaining extremely budget-friendly with a tuition of only $450 USD. It provides an 18-month post-study work visa and has a respectable placement rate of 82%. The trade-off is that the median starting salary ($46,428 USD) is lower compared to some other high-placement German options.\n\nThis MSc Cloud Computing program aligns well with your interest in IOT and networking. It maintains a low tuition cost of $1,950 USD and offers an 18-month post-study work visa in Germany. While the placement rate (67%) is moderate, the field focus on 'networking_cloud' makes it highly relevant for modern tech roles. The main trade-off is that the required minimum grade percentage (65%) is slightly lower than your academic average.\n\nIf maximizing post-graduation job opportunities is your absolute top priority, this Canadian program offers the longest post-study work visa of 36 months. Although the tuition ($10,800 USD) is close to your maximum budget and the placement rate (67%) is moderate, the extended visa period significantly boosts career prospects. The trade-off for this excellent job path is that the median starting salary ($29,138 USD) is lower than the German options.",
+ "wall_s": 57.4
+}

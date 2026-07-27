@@ -1,0 +1,55 @@
+{
+ "student_id": "ST0016",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a full stack certification background. My overall academic average is 76.2% in an IT/computer-science degree. I'm interested in programming and system developer. I want to become a Technical Engineer. My family can afford at most about USD 4000 per year. I live in Mumbai. I'm open to going abroad. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 76.2
+  },
+  "career_goal": "Technical Engineer (Programming and System Developer)",
+  "budget_max_usd_per_year": 4000,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Full stack certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0000",
+  "PR0195",
+  "PR0021",
+  "PR0153",
+  "PR0051",
+  "PR0037",
+  "PR0161",
+  "PR0198",
+  "PR0104",
+  "PR0144",
+  "PR0139",
+  "PR0194",
+  "PR0164",
+  "PR0029",
+  "PR0022",
+  "PR0137",
+  "PR0182",
+  "PR0060",
+  "PR0191",
+  "PR0119"
+ ],
+ "final_shortlist": [
+  "PR0195",
+  "PR0021",
+  "PR0194",
+  "PR0161",
+  "PR0037"
+ ],
+ "explanation": "This program is highly recommended because it offers an excellent balance of low cost and high career potential in Germany. With a minimal annual tuition of only USD 300, it fits well within your family's budget while providing access to the German job market. The median starting salary of USD 51,059 and the 18-month post-study work visa significantly boost your chances of securing a good job after graduation. The main trade-off here is that its focus on Information Systems may be slightly less specialized in core programming compared to dedicated software engineering tracks.\n\nThis program provides another highly affordable and career-focused German option that aligns with system developer roles. At only USD 450 annually, it is extremely budget-friendly while still offering a strong median starting salary of USD 46,428. Furthermore, the 18-month post-study work visa greatly enhances your job prospects abroad, which is your top priority. The trade-off compared to PR0195 is that its placement rate (82%) and salary are slightly lower.\n\nMSc Cloud Computing is a highly relevant technical field for aspiring Technical Engineers, making this an excellent choice. The tuition of USD 1,950 is very manageable, and the program requires a CS background, matching your qualifications. Crucially, it offers an 18-month post-study work visa in Germany, maximizing your job opportunities after graduation. The main trade-off is that its placement rate (67%) is lower than some other options listed.\n\nThis program offers a direct and strong focus on Software Engineering in Germany, perfectly matching your career goals. While the tuition of USD 3,850 is higher than some other recommendations, it still remains within budget and provides access to an 18-month post-study work visa. The curriculum directly supports becoming a Technical Engineer, leveraging your full stack background. The trade-off is that its placement rate (72%) is moderate compared to the high potential offered by PR0195.\n\nThe MCA program provides a solid technical foundation in software engineering within Germany. It requires a CS background and offers an attractive median starting salary of USD 34,339, alongside the valuable 18-month post-study work visa. The tuition cost of USD 2,650 is also very reasonable for a German degree. The main trade-off is that its placement rate (72%) and salary are among the lower end of this shortlist.",
+ "wall_s": 56.5
+}

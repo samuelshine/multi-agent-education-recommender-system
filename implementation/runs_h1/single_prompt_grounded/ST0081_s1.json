@@ -1,0 +1,55 @@
+{
+ "student_id": "ST0081",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a app development certification background. My overall academic average is 78.7% in an IT/computer-science degree. I'm interested in hacking and cloud computing. I want to become a Network Security Administrator. My family can afford at most about USD 10800 per year. I live in Pune. I'm open to anywhere in India.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 78.7
+  },
+  "career_goal": "Network Security Administrator",
+  "budget_max_usd_per_year": 10800,
+  "location_preference": null,
+  "mobility": "open_domestic",
+  "employability_priority": null,
+  "other_constraints": [
+   "interested in hacking and cloud computing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0186",
+  "PR0197",
+  "PR0043",
+  "PR0147",
+  "PR0096",
+  "PR0199",
+  "PR0118",
+  "PR0121",
+  "PR0148",
+  "PR0016",
+  "PR0102",
+  "PR0180",
+  "PR0162",
+  "PR0112",
+  "PR0159",
+  "PR0032",
+  "PR0184",
+  "PR0165",
+  "PR0117",
+  "PR0198"
+ ],
+ "final_shortlist": [
+  "PR0096",
+  "PR0162",
+  "PR0148",
+  "PR0043",
+  "PR0186"
+ ],
+ "explanation": "This program is highly recommended as it directly aligns with your interest in hacking and network security by featuring 'cybersecurity' alongside networking and cloud fields. Located in Hyderabad, the tuition of $3350 is manageable, and the minimum grade requirement (71%) is comfortably below your 78.7% average. The program offers a strong foundation for becoming a Network Security Administrator.\n\nThis MTech Cyber Security program is the most specialized fit for your career goal of Network Security Administrator. With an annual tuition of only $1150, it is extremely budget-friendly while still requiring a CS background, matching your academic profile. Although its median starting salary ($7369) is among the lowest listed, the direct focus on cybersecurity makes it highly valuable for your career pivot.\n\nThis MTech program in Coimbatore offers a strong blend of 'cybersecurity' and networking/cloud skills, making it very relevant to your goals. The tuition ($2250) is moderate, and the minimum grade requirement (62%) is easily met by your academic average. This option provides excellent exposure to security concepts while keeping costs reasonable.\n\nIf you wish to focus more heavily on the Cloud Computing aspect of your interests, this MSc program is ideal. It covers both networking and cloud fields, and its minimum grade requirement (73%) respects your academic standing. While it does not explicitly mention cybersecurity, its strong placement rate (86%) suggests good industry readiness.\n\nThis MTech program is a solid choice because it is located in Pune, which may be convenient for you. It covers networking and cloud computing fields and requires a CS background, aligning with your degree. The tuition ($2050) is very affordable, though the median starting salary ($15192) is higher than some other options, suggesting a potential trade-off between immediate high salary and specialized security focus.",
+ "wall_s": 53.7
+}

@@ -1,0 +1,40 @@
+{
+ "student_id": "ST0007",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a shell programming certification background. My overall academic average is 75% in an IT/computer-science degree. I'm interested in data engineering and security. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 1100 per year. I live in Bengaluru. I cannot leave my city. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 75
+  },
+  "career_goal": null,
+  "budget_max_usd_per_year": 1100,
+  "location_preference": "Bengaluru",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "shell programming certification background",
+   "interested in data engineering and security"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0173",
+  "PR0087",
+  "PR0015",
+  "PR0073",
+  "PR0013"
+ ],
+ "final_shortlist": [
+  "PR0073",
+  "PR0087",
+  "PR0173",
+  "PR0013"
+ ],
+ "explanation": "This program is highly recommended because it directly aligns with your stated interest in security and offers a strong job outlook. With an impressive placement rate of 80% and a median starting salary of $8637, this degree maximizes your priority of securing good employment. The main trade-off here is the tuition cost ($1250), which exceeds your stated budget limit of $1100.\n\nAs a strong match for your interest in data engineering and analytics, this MSc Data Science program is an excellent career path choice. It provides relevant skills in 'data_science_analytics' and has a solid median starting salary of $6767. However, like the cybersecurity option, the annual tuition of $1200 exceeds your maximum affordable budget of $1100.\n\nThis MTech Computer Science program is a strong option because it respects your financial constraint with an annual tuition of only $500. Furthermore, its curriculum covers 'data_science_analytics' and 'software_engineering,' aligning well with your interests. The main trade-off to consider is that while affordable, the median starting salary ($6851) is lower compared to other available options.\n\nIf adhering strictly to your budget is paramount, this MSc Human-Computer Interaction program offers the best combination of affordability and job placement. With a tuition fee of $900, it remains within your financial limit while boasting a high placement rate of 77% and a strong median starting salary of $9186. The trade-off is that its focus on 'design_hci' does not directly match your stated interests in data or security.",
+ "wall_s": 39.3
+}

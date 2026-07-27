@@ -1,0 +1,55 @@
+{
+ "student_id": "ST0037",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a r programming certification background. My overall academic average is 75.9% in an IT/computer-science degree. I'm interested in networks and developer. I want to become a CRM Technical Developer. My family can afford at most about USD 1600 per year. I live in Chennai. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 75.9
+  },
+  "career_goal": "CRM Technical Developer",
+  "budget_max_usd_per_year": 1600,
+  "location_preference": "Chennai",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "r programming certification"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0182",
+  "PR0119",
+  "PR0176",
+  "PR0058",
+  "PR0187",
+  "PR0174",
+  "PR0053",
+  "PR0158",
+  "PR0109",
+  "PR0076",
+  "PR0012",
+  "PR0019",
+  "PR0114",
+  "PR0185",
+  "PR0130",
+  "PR0084",
+  "PR0120",
+  "PR0170",
+  "PR0015",
+  "PR0020"
+ ],
+ "final_shortlist": [
+  "PR0109",
+  "PR0119",
+  "PR0187",
+  "PR0053",
+  "PR0076"
+ ],
+ "explanation": "This program is highly recommended as it perfectly aligns with your location preference (Chennai) and technical goals. The MTech Computer Science curriculum focuses on software engineering, directly supporting your interest in becoming a Technical Developer. Furthermore, the tuition of USD 1550 remains within your family's budget, and the median starting salary of $13,300 offers strong job prospects right near home. There are no significant trade-offs here; it is an excellent match for all stated criteria.\n\nThis program in Hyderabad offers a strong salary potential ($14,917) and a solid placement rate (86%), prioritizing your goal of securing good employment. The curriculum focuses on Software Quality Engineering, which is closely related to developer roles. The main trade-off here is that the specialization is QA testing rather than general networking or development, but it provides excellent financial security in an alternative Indian city.\n\nThis PG Diploma in Systems Administration directly addresses your interest in networks and IT infrastructure. Located in Pune, it provides relevant skills for a developer role that touches on system maintenance. While the placement rate is high at 87%, the main trade-off is that the median starting salary ($12,687) is lower compared to other technical options, but it perfectly matches your networking interest.\n\nThis MSc Software Quality Engineering program in Kolkata offers a strong blend of software engineering and QA testing skills. It is affordable at USD 1200 annually and boasts an 86% placement rate, making it a reliable option for job security. The trade-off to consider is the location (Kolkata), which deviates from your preference for Chennai or Hyderabad, but it provides strong technical grounding.\n\nLocated in Hyderabad, this MBA Technology Management program is budget-friendly at USD 1250 and has a good placement rate of 81%. It combines IT management with software engineering fields, offering a blend of technical knowledge and business acumen. The primary trade-off is that the focus is on 'Management' rather than deep technical development or networking, which might be slightly less aligned with your core developer goal.",
+ "wall_s": 53.0
+}

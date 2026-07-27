@@ -1,0 +1,55 @@
+{
+ "student_id": "ST0078",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a machine learning certification background. My overall academic average is 73.9% in an IT/computer-science degree. I'm interested in Computer Architecture and testing. I want to become a Business Intelligence Analyst. My family can afford at most about USD 1400 per year. I live in Coimbatore. I'm open to anywhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 73.9
+  },
+  "career_goal": "Business Intelligence Analyst",
+  "budget_max_usd_per_year": 1400,
+  "location_preference": null,
+  "mobility": "open_domestic",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in Computer Architecture and testing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0119",
+  "PR0053",
+  "PR0019",
+  "PR0114",
+  "PR0015",
+  "PR0020",
+  "PR0179",
+  "PR0193",
+  "PR0157",
+  "PR0074",
+  "PR0050",
+  "PR0125",
+  "PR0190",
+  "PR0080",
+  "PR0008",
+  "PR0142",
+  "PR0082",
+  "PR0052",
+  "PR0085",
+  "PR0066"
+ ],
+ "final_shortlist": [
+  "PR0119",
+  "PR0053",
+  "PR0015",
+  "PR0157",
+  "PR0125"
+ ],
+ "explanation": "This program offers the highest placement rate (86%) among all options and boasts a high median starting salary of $14917 USD. While focused on Software Quality Engineering, its strong job outcomes align perfectly with your priority of securing good employment after graduation. The annual tuition of $1200 USD is well within your family's budget constraint.\n\nWith a placement rate of 86%, this program provides excellent job security and a strong median starting salary of $12855 USD. It covers both QA testing and software engineering, satisfying your interest in testing while offering high career potential. The annual tuition is also manageable at $1200 USD.\n\nThis program directly addresses your goal of becoming a Business Intelligence Analyst by focusing on 'business_information_systems.' Located in Bengaluru, it provides relevant domain knowledge for BI roles. The tuition cost is $1200 USD, adhering to your budget, though the trade-off here is that its median starting salary ($9707 USD) is lower than some pure engineering tracks.\n\nThis option is ideal because it is located in Coimbatore, minimizing relocation stress while still offering a curriculum (MSc IT Management) that covers business information systems relevant to BI roles. With an annual tuition of only $800 USD, it respects your strict financial constraint. The trade-off compared to other options is the slightly lower median starting salary ($10444 USD).\n\nIf budget is your absolute highest concern, this program offers QA testing training for only $450 USD annually. This extremely low tuition rate ensures it meets your financial constraint while still providing relevant skills in quality assurance. The trade-off is that its placement rate (66%) and median salary ($8177 USD) are among the lowest of the recommended options.",
+ "wall_s": 40.3
+}

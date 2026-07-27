@@ -1,0 +1,55 @@
+{
+ "student_id": "ST0065",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a python certification background. My overall academic average is 79.2% in an IT/computer-science degree. I'm interested in programming and cloud computing. I want to become a Technical Engineer. My family can afford at most about USD 9600 per year. I live in Delhi. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 79.2
+  },
+  "career_goal": "Technical Engineer (programming and cloud computing)",
+  "budget_max_usd_per_year": 9600,
+  "location_preference": "Delhi",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Python certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0186",
+  "PR0197",
+  "PR0043",
+  "PR0147",
+  "PR0096",
+  "PR0199",
+  "PR0118",
+  "PR0121",
+  "PR0148",
+  "PR0016",
+  "PR0102",
+  "PR0180",
+  "PR0162",
+  "PR0112",
+  "PR0159",
+  "PR0032",
+  "PR0184",
+  "PR0165",
+  "PR0117",
+  "PR0198"
+ ],
+ "final_shortlist": [
+  "PR0198",
+  "PR0102",
+  "PR0184",
+  "PR0186",
+  "PR0043"
+ ],
+ "explanation": "This program offers the highest placement rate (95%) and a strong median starting salary of $21062, directly addressing your priority for job security. While located in Bengaluru, this focus on Software Quality Engineering aligns well with developing technical engineering skills using your programming background. The main trade-off here is location preference; you would be moving to Bengaluru rather than staying near Delhi.\n\nThis program is ideal because it is located in Delhi, meeting your strong preference for staying near home. The curriculum focuses on Cloud Computing and requires a CS background, matching your interests and qualifications. While the median starting salary of $8729 is modest compared to other options, the low annual tuition of $1700 makes this an excellent budget-friendly choice in your preferred city.\n\nThis option provides a strong Cloud Computing focus and is located right in Delhi, satisfying both your location preference and academic interests. With an annual tuition of only $950, it is highly budget-friendly while still offering relevant networking_cloud skills. The trade-off compared to PR0102 is that the placement rate (59%) and median salary ($8153) are lower.\n\nThis MTech program in Pune offers a high placement rate of 83% and the highest median starting salary ($15192) among the Delhi/Pune options, maximizing your job prospects. The curriculum covers both networking_cloud and software_engineering, which aligns perfectly with your goals as a Technical Engineer. The trade-off is that you would be relocating to Pune.\n\nThis MSc Cloud Computing program provides excellent technical relevance by covering both networking_cloud and software_engineering fields. It boasts a high placement rate of 86%, making it a strong career option despite being located in Coimbatore. The main trade-off is the distance from Delhi; however, its combination of relevant coursework and solid job metrics makes it highly recommended.",
+ "wall_s": 51.8
+}

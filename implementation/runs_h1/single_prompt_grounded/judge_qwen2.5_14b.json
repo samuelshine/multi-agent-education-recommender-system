@@ -1,0 +1,1117 @@
+{
+ "judge": "qwen2.5:14b",
+ "summary": {
+  "clarity": 3.61,
+  "groundedness": 4.11,
+  "usefulness": 2.74
+ },
+ "n": 100,
+ "results": [
+  {
+   "file": "ST0000_s1.json",
+   "student_id": "ST0000",
+   "mode": "single_prompt_grounded",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation clearly outlines the relevance of each program to the student's background and goals but could be more useful by providing a clearer comparison between programs and highlighting specific trade-offs in terms of career alignment and financial constraints."
+  },
+  {
+   "file": "ST0001_s1.json",
+   "student_id": "ST0001",
+   "mode": "single_prompt_grounded",
+   "clarity": 3,
+   "groundedness": 3,
+   "usefulness": 3,
+   "invented_claims": [
+    "This German MCA program is highly recommended because it offers a strong career advantage with an 18-month post-study work visa and the highest median starting salary ($23468) among affordable options."
+   ],
+   "justification": "The explanation includes invented claims about comparative salaries and recommendations that are not supported by the provided data fields, while also being somewhat repetitive and lacking clear differentiation between programs."
+  },
+  {
+   "file": "ST0002_s1.json",
+   "student_id": "ST0002",
+   "mode": "single_prompt_grounded",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation clearly outlines each program's relevance to the student's background and goals but could be more useful by providing a clearer comparison between programs and highlighting trade-offs more explicitly."
+  },
+  {
+   "file": "ST0003_s1.json",
+   "student_id": "ST0003",
+   "mode": "single_prompt_grounded",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation clearly outlines each program's benefits and aligns them with the student's goals, but it could be more structured to enhance clarity."
+  },
+  {
+   "file": "ST0004_s1.json",
+   "student_id": "ST0004",
+   "mode": "single_prompt_grounded",
+   "clarity": 3,
+   "groundedness": 4,
+   "usefulness": 2,
+   "invented_claims": [
+    "This program is the most direct match for your stated interest in 'hacking and testing' through its focus on Information Security."
+   ],
+   "justification": "The explanation provides mixed clarity with some sentences being confusing. It generally stays grounded but makes an invented claim about a program's alignment with hacking and testing. The usefulness is low as it doesn't clearly differentiate between programs or highlight trade-offs effectively."
+  },
+  {
+   "file": "ST0005_s1.json",
+   "student_id": "ST0005",
+   "mode": "single_prompt_grounded",
+   "clarity": 3,
+   "groundedness": 2,
+   "usefulness": 2,
+   "invented_claims": [
+    "This program is an excellent choice because it is located in Mumbai, fulfilling your primary location preference.",
+    "Given your interest in IoT, this MTech Computer Networks program is valuable as networking knowledge forms the backbone of most connected systems."
+   ],
+   "justification": "The explanation includes invented claims not aligned with the student's constraints and provides inconsistent information across different programs."
+  },
+  {
+   "file": "ST0006_s1.json",
+   "student_id": "ST0006",
+   "mode": "single_prompt_grounded",
+   "clarity": 4,
+   "groundedness": 2,
+   "usefulness": 3,
+   "invented_claims": [
+    "Given your machine learning background",
+    "it focuses purely on data analytics, moving away from your core interest in system development or security"
+   ],
+   "justification": "The explanation includes invented claims about the student's background and interests that are not present in the provided constraints."
+  },
+  {
+   "file": "ST0007_s1.json",
+   "student_id": "ST0007",
+   "mode": "single_prompt_grounded",
+   "clarity": 4,
+   "groundedness": 3,
+   "usefulness": 3,
+   "invented_claims": [
+    "This program is highly recommended because it directly aligns with your stated interest in security and offers a strong job outlook"
+   ],
+   "justification": "The explanation provides clear information but includes an invented claim about the first program being 'highly recommended' despite exceeding budget constraints. It also lacks direct comparison of all programs for comprehensive decision-making."
+  },
+  {
+   "file": "ST0008_s1.json",
+   "student_id": "ST0008",
+   "mode": "single_prompt_grounded",
+   "clarity": 4,
+   "groundedness": 2,
+   "usefulness": 3,
+   "invented_claims": [
+    "This MSc Human-Computer Interaction program is an excellent match for your UX Designer goal and respects your budget with $1900 USD in annual tuition.",
+    "The main trade-off is that the median starting salary ($13259 USD) might not be significantly higher than other options"
+   ],
+   "justification": "Explanation contains invented facts about programs' details, lacks specificity on program IDs and institutions, and does not clearly articulate all constraints or trade-offs."
+  },
+  {
+   "file": "ST0009_s1.json",
+   "student_id": "ST0009",
+   "mode": "single_prompt_grounded",
+   "clarity": 5,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation is clear and well-structured, sticking closely to the provided data without introducing new facts. It effectively highlights trade-offs but could be more explicit about how each program aligns with or diverges from the student's career goal of becoming a Network Security Engineer."
+  },
+  {
+   "file": "ST0010_s1.json",
+   "student_id": "ST0010",
+   "mode": "single_prompt_grounded",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation provides clear and structured information about each program, but it does not fully address the student's interest in cloud computing or provide a balanced view of trade-offs."
+  },
+  {
+   "file": "ST0011_s1.json",
+   "student_id": "ST0011",
+   "mode": "single_prompt_grounded",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation is clear and well-structured but could be more useful by highlighting trade-offs between programs more explicitly."
+  },
+  {
+   "file": "ST0012_s1.json",
+   "student_id": "ST0012",
+   "mode": "single_prompt_grounded",
+   "clarity": 3,
+   "groundedness": 5,
+   "usefulness": 2,
+   "invented_claims": [],
+   "justification": "The explanation is somewhat clear but repetitive and lacks specificity in distinguishing between programs. It provides factual claims based on the data but does not effectively highlight unique benefits or trade-offs for each program."
+  },
+  {
+   "file": "ST0013_s1.json",
+   "student_id": "ST0013",
+   "mode": "single_prompt_grounded",
+   "clarity": 3,
+   "groundedness": 5,
+   "usefulness": 2,
+   "invented_claims": [],
+   "justification": "The explanation provides clear and specific information about each program but does not effectively highlight trade-offs or differences between programs to help the student make a decision."
+  },
+  {
+   "file": "ST0014_s1.json",
+   "student_id": "ST0014",
+   "mode": "single_prompt_grounded",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation is clear and structured but could be more concise. It is grounded in provided data without invented facts, offering useful insights into trade-offs between location, field relevance, and job outcomes."
+  },
+  {
+   "file": "ST0015_s1.json",
+   "student_id": "ST0015",
+   "mode": "single_prompt_grounded",
+   "clarity": 3,
+   "groundedness": 3,
+   "usefulness": 2,
+   "invented_claims": [
+    "This option provides the best balance between location preference and career focus",
+    "the main trade-off is that the minimum required grade percentage (82%) is slightly higher than your current academic average of 80%",
+    "it remains highly budget-friendly"
+   ],
+   "justification": "The explanation includes invented claims not supported by data, lacks specificity in addressing all constraints, and does not clearly differentiate between programs."
+  },
+  {
+   "file": "ST0016_s1.json",
+   "student_id": "ST0016",
+   "mode": "single_prompt_grounded",
+   "clarity": 3,
+   "groundedness": 4,
+   "usefulness": 2,
+   "invented_claims": [
+    "The program provides an excellent balance of low cost and high career potential in Germany",
+    "Its focus on Information Systems may be slightly less specialized in core programming compared to dedicated software engineering tracks"
+   ],
+   "justification": "Explanation is somewhat clear but repetitive; some claims are not directly supported by the data, such as comparative specialization levels."
+  },
+  {
+   "file": "ST0017_s1.json",
+   "student_id": "ST0017",
+   "mode": "single_prompt_grounded",
+   "clarity": 3,
+   "groundedness": 4,
+   "usefulness": 2,
+   "invented_claims": [
+    "This MBA Technology Management program in Hyderabad directly aligns with your interest in becoming a CRM Technical Developer and Business Process Analyst"
+   ],
+   "justification": "The explanation is somewhat clear but repetitive, and it includes an invented claim about the MBA program's alignment with career goals. It lacks specificity regarding trade-offs between programs."
+  },
+  {
+   "file": "ST0018_s1.json",
+   "student_id": "ST0018",
+   "mode": "single_prompt_grounded",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation clearly outlines each program's benefits and trade-offs but could be more useful by providing direct comparisons between programs and addressing the student's specific interest in hacking and developer roles."
+  },
+  {
+   "file": "ST0019_s1.json",
+   "student_id": "ST0019",
+   "mode": "single_prompt_grounded",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation clearly outlines the pros and cons of each program based on provided data but could be more structured to improve clarity."
+  },
+  {
+   "file": "ST0020_s1.json",
+   "student_id": "ST0020",
+   "mode": "single_prompt_grounded",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation clearly outlines the pros and cons of each program but could improve by providing more context on how these programs align with the student's career goals beyond just technical skills."
+  },
+  {
+   "file": "ST0021_s1.json",
+   "student_id": "ST0021",
+   "mode": "single_prompt_grounded",
+   "clarity": 3,
+   "groundedness": 2,
+   "usefulness": 2,
+   "invented_claims": [
+    "This program is an excellent fit for your interest in Business Process Analyst roles.",
+    "This MBA Technology Management program perfectly bridges your interest in Business Process Analysis with technical skills like software engineering."
+   ],
+   "justification": "The explanation incorrectly attributes benefits to multiple programs and makes claims about the student's interests that are not supported by the constraints provided, leading to low scores across all dimensions."
+  },
+  {
+   "file": "ST0022_s1.json",
+   "student_id": "ST0022",
+   "mode": "single_prompt_grounded",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation provides clear and specific information about each program but could be more useful by highlighting trade-offs between programs more explicitly."
+  },
+  {
+   "file": "ST0023_s1.json",
+   "student_id": "ST0023",
+   "mode": "single_prompt_grounded",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation clearly outlines each program's benefits and trade-offs but could be more useful by providing a clearer prioritization of the programs based on the student's constraints."
+  },
+  {
+   "file": "ST0024_s1.json",
+   "student_id": "ST0024",
+   "mode": "single_prompt_grounded",
+   "clarity": 4,
+   "groundedness": 4,
+   "usefulness": 3,
+   "invented_claims": [
+    "This MTech program offers a strong blend of 'software_engineering' and networking skills"
+   ],
+   "justification": "The explanation is generally clear but occasionally vague. It stays grounded to the data provided for the most part but introduces one claim not directly supported by the fields (networking skills). The explanations are somewhat useful, highlighting trade-offs but could be more specific about how each program aligns with career goals."
+  },
+  {
+   "file": "ST0025_s1.json",
+   "student_id": "ST0025",
+   "mode": "single_prompt_grounded",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation is clear and structured but could be more useful by providing a direct comparison between options and highlighting unique benefits of each program."
+  },
+  {
+   "file": "ST0026_s1.json",
+   "student_id": "ST0026",
+   "mode": "single_prompt_grounded",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation is clear but repetitive, providing similar structures for each program which can be confusing without differentiation. It is grounded in the data provided and useful by highlighting trade-offs related to career focus and salary potential."
+  },
+  {
+   "file": "ST0027_s1.json",
+   "student_id": "ST0027",
+   "mode": "single_prompt_grounded",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation clearly outlines each program's benefits and trade-offs but could be more structured to enhance clarity."
+  },
+  {
+   "file": "ST0028_s1.json",
+   "student_id": "ST0028",
+   "mode": "single_prompt_grounded",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation clearly outlines each program's alignment with the student's goals and constraints but could improve in highlighting nuanced trade-offs between programs."
+  },
+  {
+   "file": "ST0029_s1.json",
+   "student_id": "ST0029",
+   "mode": "single_prompt_grounded",
+   "clarity": 3,
+   "groundedness": 2,
+   "usefulness": 2,
+   "invented_claims": [
+    "This MSc IT Management program directly addresses your interest in 'IT management'",
+    "The high placement rate of 91% suggests excellent career outcomes upon graduation",
+    "If minimizing costs while studying abroad is the top priority"
+   ],
+   "justification": "The explanation makes claims not supported by the data, such as direct alignment with interests and prioritizing cost minimization without confirming it's a student constraint. Additionally, clarity suffers from repetition and lack of specificity."
+  },
+  {
+   "file": "ST0030_s1.json",
+   "student_id": "ST0030",
+   "mode": "single_prompt_grounded",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation clearly outlines the pros and cons of each program but could be more useful by providing a clearer recommendation based on the student's career goal and constraints."
+  },
+  {
+   "file": "ST0031_s1.json",
+   "student_id": "ST0031",
+   "mode": "single_prompt_grounded",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation clearly outlines each program's benefits and drawbacks but could be more concise and directly address the student's career goal of becoming a Database Manager."
+  },
+  {
+   "file": "ST0032_s1.json",
+   "student_id": "ST0032",
+   "mode": "single_prompt_grounded",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation is clear and well-structured but could be more useful by highlighting trade-offs between location and cost/benefit more explicitly."
+  },
+  {
+   "file": "ST0033_s1.json",
+   "student_id": "ST0033",
+   "mode": "single_prompt_grounded",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation clearly outlines each program's pros and cons but could be more useful by providing a clearer prioritization of the programs based on the student's constraints."
+  },
+  {
+   "file": "ST0034_s1.json",
+   "student_id": "ST0034",
+   "mode": "single_prompt_grounded",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation provides clear and structured information about each program but could improve in highlighting specific trade-offs between programs more effectively."
+  },
+  {
+   "file": "ST0035_s1.json",
+   "student_id": "ST0035",
+   "mode": "single_prompt_grounded",
+   "clarity": 4,
+   "groundedness": 3,
+   "usefulness": 2,
+   "invented_claims": [
+    "Given your background in information security certification"
+   ],
+   "justification": "The explanation is mostly clear and structured but includes an invented claim about the student's background. It provides some useful comparisons but lacks a direct link to the student's career goal of Database Administrator for most recommendations."
+  },
+  {
+   "file": "ST0036_s1.json",
+   "student_id": "ST0036",
+   "mode": "single_prompt_grounded",
+   "clarity": 4,
+   "groundedness": 3,
+   "usefulness": 2,
+   "invented_claims": [
+    "If budget is the absolute highest priority, this MSc IT Management program in Coimbatore offers the lowest tuition at only $800 per year"
+   ],
+   "justification": "The explanation introduces a claim about budget being the highest priority without evidence from student constraints and recommends programs not listed as top choices."
+  },
+  {
+   "file": "ST0037_s1.json",
+   "student_id": "ST0037",
+   "mode": "single_prompt_grounded",
+   "clarity": 3,
+   "groundedness": 4,
+   "usefulness": 2,
+   "invented_claims": [
+    "This program in Hyderabad offers a strong salary potential ($14,917) and a solid placement rate (86%), prioritizing your goal of securing good employment. The curriculum focuses on Software Quality Engineering, which is closely related to developer roles."
+   ],
+   "justification": "The explanation provides mixed clarity due to its repetitive nature and lack of specific differentiation between programs; it has minor invented claims about the relevance of QA testing to developer roles; usefulness is low as it does not clearly highlight trade-offs or match program specifics with student goals."
+  },
+  {
+   "file": "ST0038_s1.json",
+   "student_id": "ST0038",
+   "mode": "single_prompt_grounded",
+   "clarity": 3,
+   "groundedness": 2,
+   "usefulness": 2,
+   "invented_claims": [
+    "This MTech Data Engineering program leverages your existing machine learning certification"
+   ],
+   "justification": "The explanation introduces a claim about the student's machine learning certification which is not present in their constraints or provided data fields."
+  },
+  {
+   "file": "ST0039_s1.json",
+   "student_id": "ST0039",
+   "mode": "single_prompt_grounded",
+   "clarity": 3,
+   "groundedness": 2,
+   "usefulness": 2,
+   "invented_claims": [
+    "This program meets all of your strict requirements: it is located in Bengaluru, costs only $900 annually (well within budget), and requires no CS background."
+   ],
+   "justification": "The explanation contains invented claims about the second program's alignment with student constraints and makes contradictory statements about which program aligns better with interests while considering budget and location."
+  },
+  {
+   "file": "ST0040_s1.json",
+   "student_id": "ST0040",
+   "mode": "single_prompt_grounded",
+   "clarity": 2,
+   "groundedness": 1,
+   "usefulness": 1,
+   "invented_claims": [
+    "This program is recommended because it offers the highest placement rate (78%) and a strong median starting salary of $10021 USD, directly addressing your priority for job security.",
+    "This program is the most direct match for your stated interest in 'testing,' as it focuses on Software Quality Engineering."
+   ],
+   "justification": "The explanation contains invented claims about specific programs being recommended or matching interests, and lacks clarity by mixing up details across different programs."
+  },
+  {
+   "file": "ST0041_s1.json",
+   "student_id": "ST0041",
+   "mode": "single_prompt_grounded",
+   "clarity": 2,
+   "groundedness": 1,
+   "usefulness": 2,
+   "invented_claims": [
+    "This program is located in Pune",
+    "The main trade-off here is that while the program is highly relevant, the location (Kolkata) is not your current city of Pune.",
+    "As this program is located in Pune"
+   ],
+   "justification": "The explanation contains invented facts about program locations and makes claims not supported by the data."
+  },
+  {
+   "file": "ST0042_s1.json",
+   "student_id": "ST0042",
+   "mode": "single_prompt_grounded",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation is clear but could be more structured, and it provides useful information about trade-offs between the programs, though it slightly overemphasizes placement rate without considering other factors."
+  },
+  {
+   "file": "ST0043_s1.json",
+   "student_id": "ST0043",
+   "mode": "single_prompt_grounded",
+   "clarity": 3,
+   "groundedness": 2,
+   "usefulness": 2,
+   "invented_claims": [
+    "This program is highly recommended because it offers a strong balance between career goals and job security.",
+    "Given your background in information security",
+    "If maximizing immediate job outcome is the absolute top priority"
+   ],
+   "justification": "The explanation contains invented claims not supported by the student's constraints or provided data, lacks clarity due to mixing up different programs' details, and does not provide a clear comparison between options."
+  },
+  {
+   "file": "ST0044_s1.json",
+   "student_id": "ST0044",
+   "mode": "single_prompt_grounded",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation clearly outlines each program's benefits and trade-offs but could be more concise and focused on the student's specific career goals."
+  },
+  {
+   "file": "ST0045_s1.json",
+   "student_id": "ST0045",
+   "mode": "single_prompt_grounded",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation clearly outlines each program's relevance and trade-offs but could be more useful by providing a clear recommendation based on the student's priorities."
+  },
+  {
+   "file": "ST0046_s1.json",
+   "student_id": "ST0046",
+   "mode": "single_prompt_grounded",
+   "clarity": 3,
+   "groundedness": 3,
+   "usefulness": 2,
+   "invented_claims": [
+    "The MTech program offers a strong combination of networking/cloud skills and software engineering"
+   ],
+   "justification": "The explanation is somewhat clear but jumps between programs without proper transitions. It includes invented claims about the second program's focus areas which are not in the data fields. The usefulness is low as it does not clearly compare options or highlight trade-offs."
+  },
+  {
+   "file": "ST0047_s1.json",
+   "student_id": "ST0047",
+   "mode": "single_prompt_grounded",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation clearly outlines each program's relevance and trade-offs but could be more useful by providing a prioritized list of recommendations based on the student's constraints."
+  },
+  {
+   "file": "ST0048_s1.json",
+   "student_id": "ST0048",
+   "mode": "single_prompt_grounded",
+   "clarity": 3,
+   "groundedness": 4,
+   "usefulness": 2,
+   "invented_claims": [
+    "admission is straightforward"
+   ],
+   "justification": "The explanation provides some clear and relevant information but lacks specificity in trade-offs and includes an invented claim about admission being straightforward."
+  },
+  {
+   "file": "ST0049_s1.json",
+   "student_id": "ST0049",
+   "mode": "single_prompt_grounded",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation clearly outlines each program's benefits and drawbacks but could be clearer in distinguishing between the programs' specifics."
+  },
+  {
+   "file": "ST0050_s1.json",
+   "student_id": "ST0050",
+   "mode": "single_prompt_grounded",
+   "clarity": 3,
+   "groundedness": 4,
+   "usefulness": 2,
+   "invented_claims": [
+    "This MSc in Software Quality Engineering is ideal because it matches your interest in programming and system development while being located in Delhi"
+   ],
+   "justification": "The explanation mixes details from multiple programs into a single statement without clear differentiation, reducing clarity and groundedness. It also introduces invented claims not supported by the data fields or student constraints."
+  },
+  {
+   "file": "ST0051_s1.json",
+   "student_id": "ST0051",
+   "mode": "single_prompt_grounded",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation is clear and well-structured but could be more useful by explicitly comparing the programs against each other and highlighting specific trade-offs in a more balanced manner."
+  },
+  {
+   "file": "ST0052_s1.json",
+   "student_id": "ST0052",
+   "mode": "single_prompt_grounded",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation clearly outlines each program's benefits and trade-offs but could be more structured to enhance clarity."
+  },
+  {
+   "file": "ST0053_s1.json",
+   "student_id": "ST0053",
+   "mode": "single_prompt_grounded",
+   "clarity": 4,
+   "groundedness": 3,
+   "usefulness": 2,
+   "invented_claims": [
+    "This program is an excellent fit as it is located in Hyderabad, matching your preferred location"
+   ],
+   "justification": "The explanation includes invented claims and vague comparisons without clear trade-offs or constraints acknowledgment."
+  },
+  {
+   "file": "ST0054_s1.json",
+   "student_id": "ST0054",
+   "mode": "single_prompt_grounded",
+   "clarity": 3,
+   "groundedness": 2,
+   "usefulness": 2,
+   "invented_claims": [
+    "This program is a perfect match for your stated interest in hacking and security"
+   ],
+   "justification": "The explanation confuses two different programs, mixing details from MSc Software Quality Engineering (PR0114) with MSc Information Security (PR0185), leading to confusion and invented claims."
+  },
+  {
+   "file": "ST0055_s1.json",
+   "student_id": "ST0055",
+   "mode": "single_prompt_grounded",
+   "clarity": 5,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation is clear, well-structured, and directly references provided data without invention; however, it could be more explicit about trade-offs between programs."
+  },
+  {
+   "file": "ST0056_s1.json",
+   "student_id": "ST0056",
+   "mode": "single_prompt_grounded",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation is clear but repetitive, and while grounded in the data, it does not adequately highlight trade-offs or differences between programs to help the student make a decision."
+  },
+  {
+   "file": "ST0057_s1.json",
+   "student_id": "ST0057",
+   "mode": "single_prompt_grounded",
+   "clarity": 2,
+   "groundedness": 1,
+   "usefulness": 1,
+   "invented_claims": [
+    "Interested in Chennai",
+    "The main trade-off is relocation to Pune"
+   ],
+   "justification": "The explanation introduces preferences and constraints not present in the student's data (e.g., interest in Chennai), misrepresents program details, and includes invented claims about trade-offs."
+  },
+  {
+   "file": "ST0058_s1.json",
+   "student_id": "ST0058",
+   "mode": "single_prompt_grounded",
+   "clarity": 3,
+   "groundedness": 2,
+   "usefulness": 2,
+   "invented_claims": [
+    "This program is ideal for transitioning into a UX Designer role while remaining within budget.",
+    "This program is an excellent match because it focuses on HCI/Design and is located in Bengaluru, matching your current location preference."
+   ],
+   "justification": "The explanation includes invented claims not traceable to the provided data or student constraints, and mixes up details about different programs, reducing clarity and usefulness for decision-making."
+  },
+  {
+   "file": "ST0059_s1.json",
+   "student_id": "ST0059",
+   "mode": "single_prompt_grounded",
+   "clarity": 4,
+   "groundedness": 3,
+   "usefulness": 3,
+   "invented_claims": [
+    "This MTech Data Engineering program directly addresses your interest in data engineering and aligns with your goal of becoming a Data Architect."
+   ],
+   "justification": "The explanation is generally clear but contains invented claims and lacks specificity regarding the student's constraints. It also does not consistently highlight trade-offs or provide structured comparisons between programs, reducing its usefulness for decision-making."
+  },
+  {
+   "file": "ST0060_s1.json",
+   "student_id": "ST0060",
+   "mode": "single_prompt_grounded",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation is clear and well-structured but could be more useful by highlighting trade-offs more explicitly."
+  },
+  {
+   "file": "ST0061_s1.json",
+   "student_id": "ST0061",
+   "mode": "single_prompt_grounded",
+   "clarity": 2,
+   "groundedness": 3,
+   "usefulness": 2,
+   "invented_claims": [
+    "Given your background in information security certification"
+   ],
+   "justification": "The explanation is repetitive and unclear, with invented claims about the student's background not present in the constraints. It also lacks specificity regarding which program each paragraph refers to."
+  },
+  {
+   "file": "ST0062_s1.json",
+   "student_id": "ST0062",
+   "mode": "single_prompt_grounded",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation clearly outlines each program's benefits and trade-offs but could be more concise and structured for clarity."
+  },
+  {
+   "file": "ST0063_s1.json",
+   "student_id": "ST0063",
+   "mode": "single_prompt_grounded",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanations are clear and specific about each program's strengths and weaknesses relative to the student's interests and budget constraints. However, they could be more useful by providing a clearer comparison between programs and highlighting trade-offs more explicitly."
+  },
+  {
+   "file": "ST0064_s1.json",
+   "student_id": "ST0064",
+   "mode": "single_prompt_grounded",
+   "clarity": 3,
+   "groundedness": 5,
+   "usefulness": 2,
+   "invented_claims": [],
+   "justification": "The explanation provides clear and specific details about each program but does not effectively highlight trade-offs or prioritize the programs based on the student's constraints."
+  },
+  {
+   "file": "ST0065_s1.json",
+   "student_id": "ST0065",
+   "mode": "single_prompt_grounded",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanations are clear and specific for each program but could be more useful by providing a direct comparison between programs and highlighting the trade-offs in a single coherent explanation."
+  },
+  {
+   "file": "ST0066_s1.json",
+   "student_id": "ST0066",
+   "mode": "single_prompt_grounded",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation is clear and structured but could be more concise. It accurately reflects the data provided without introducing new facts, offering a balanced view of trade-offs."
+  },
+  {
+   "file": "ST0067_s1.json",
+   "student_id": "ST0067",
+   "mode": "single_prompt_grounded",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation clearly and accurately describes each program's benefits and trade-offs but does not sufficiently highlight how these programs align with the student's career goal of becoming a Database Developer."
+  },
+  {
+   "file": "ST0068_s1.json",
+   "student_id": "ST0068",
+   "mode": "single_prompt_grounded",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation provides clear and specific information about each program but could improve in highlighting the trade-offs between programs more effectively."
+  },
+  {
+   "file": "ST0069_s1.json",
+   "student_id": "ST0069",
+   "mode": "single_prompt_grounded",
+   "clarity": 3,
+   "groundedness": 4,
+   "usefulness": 3,
+   "invented_claims": [
+    "this program directly aligns with your interest in data engineering through its focus on Big Data Analytics"
+   ],
+   "justification": "The explanation is somewhat clear but repetitive and occasionally vague. It accurately reflects most of the provided data but makes an invented claim about data engineering alignment."
+  },
+  {
+   "file": "ST0070_s1.json",
+   "student_id": "ST0070",
+   "mode": "single_prompt_grounded",
+   "clarity": 3,
+   "groundedness": 4,
+   "usefulness": 2,
+   "invented_claims": [
+    "This program is an excellent fit for your goal of becoming a Business Intelligence Analyst"
+   ],
+   "justification": "The explanation mixes details from multiple programs into single descriptions and includes invented claims about career fit without evidence from the provided data."
+  },
+  {
+   "file": "ST0071_s1.json",
+   "student_id": "ST0071",
+   "mode": "single_prompt_grounded",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation clearly outlines the pros and cons of each program but could be more structured to enhance clarity."
+  },
+  {
+   "file": "ST0072_s1.json",
+   "student_id": "ST0072",
+   "mode": "single_prompt_grounded",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation is clear and well-structured but could improve usefulness by providing more specific trade-offs and budget comparisons between programs."
+  },
+  {
+   "file": "ST0073_s1.json",
+   "student_id": "ST0073",
+   "mode": "single_prompt_grounded",
+   "clarity": 3,
+   "groundedness": 5,
+   "usefulness": 2,
+   "invented_claims": [
+    "This MBA program in Coimbatore provides a strong business focus through 'business_information_systems,' making it an excellent fit for your BI Analyst goal. It maintains the local convenience you prefer while offering solid job prospects with an 84% placement rate and a median starting salary of $13094 USD. The main trade-off here is that, as an MBA, it may emphasize business strategy over deep technical coding skills compared to pure engineering degrees."
+   ],
+   "justification": "The explanation for the MBA program in Coimbatore includes invented claims about emphasizing business strategy over technical coding skills, which are not supported by the provided data fields. The clarity and usefulness of the explanations vary widely across different programs, with some being repetitive or unclear in distinguishing between options."
+  },
+  {
+   "file": "ST0074_s1.json",
+   "student_id": "ST0074",
+   "mode": "single_prompt_grounded",
+   "clarity": 3,
+   "groundedness": 4,
+   "usefulness": 2,
+   "invented_claims": [
+    "This program offers the best combination of affordability and job prospects for your career goals.",
+    "While the focus is on IT Management rather than pure coding, this field aligns perfectly with general tech career goals."
+   ],
+   "justification": "The explanation includes invented claims not traceable to provided data or student constraints, lacks specificity in connecting programs directly to student's career goal of parallel computing and system development, and does not clearly articulate trade-offs between options."
+  },
+  {
+   "file": "ST0075_s1.json",
+   "student_id": "ST0075",
+   "mode": "single_prompt_grounded",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation clearly outlines each program's strengths and weaknesses but could be more concise and directly address how each aligns with the student's goal of becoming an E-Commerce Analyst."
+  },
+  {
+   "file": "ST0076_s1.json",
+   "student_id": "ST0076",
+   "mode": "single_prompt_grounded",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation clearly outlines each program's strengths and weaknesses in relation to the student's constraints but could be more structured for clarity."
+  },
+  {
+   "file": "ST0077_s1.json",
+   "student_id": "ST0077",
+   "mode": "single_prompt_grounded",
+   "clarity": 3,
+   "groundedness": 4,
+   "usefulness": 2,
+   "invented_claims": [
+    "This program is highly recommended due to its exceptional cost-effectiveness and strong job prospects"
+   ],
+   "justification": "The explanation provides mixed clarity with some sentences being repetitive or unclear. It generally stays grounded but introduces a recommendation without clear criteria. The usefulness is limited as it does not provide a coherent comparison across programs."
+  },
+  {
+   "file": "ST0078_s1.json",
+   "student_id": "ST0078",
+   "mode": "single_prompt_grounded",
+   "clarity": 3,
+   "groundedness": 4,
+   "usefulness": 2,
+   "invented_claims": [
+    "While focused on Software Quality Engineering, its strong job outcomes align perfectly with your priority of securing good employment after graduation."
+   ],
+   "justification": "The explanation is somewhat clear but repetitive and includes an invented claim. It touches on the placement rate and salary but lacks detailed comparisons between programs and does not adequately address trade-offs or constraints beyond tuition cost."
+  },
+  {
+   "file": "ST0079_s1.json",
+   "student_id": "ST0079",
+   "mode": "single_prompt_grounded",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation clearly and accurately describes each program's relevance to the student's background and goals, but could be more concise and structured."
+  },
+  {
+   "file": "ST0080_s1.json",
+   "student_id": "ST0080",
+   "mode": "single_prompt_grounded",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation clearly outlines each program's benefits and trade-offs but could be more concise and structured for clarity."
+  },
+  {
+   "file": "ST0081_s1.json",
+   "student_id": "ST0081",
+   "mode": "single_prompt_grounded",
+   "clarity": 3,
+   "groundedness": 4,
+   "usefulness": 2,
+   "invented_claims": [
+    "This MTech program in Coimbatore offers a strong blend of 'cybersecurity' and networking/cloud skills"
+   ],
+   "justification": "The explanation is somewhat clear but repetitive and occasionally vague. It references data from the provided programs accurately for the most part, though it incorrectly attributes cybersecurity focus to one program that does not explicitly list it. The usefulness suffers because while it provides tuition details and grade requirements, it lacks comparative analysis of placement rates and median starting salaries which are crucial for decision-making."
+  },
+  {
+   "file": "ST0082_s1.json",
+   "student_id": "ST0082",
+   "mode": "single_prompt_grounded",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation is clear and structured but could be more specific about the alignment of each program with the student's career goal in technical engineering. It does not mention the student's Shell programming certification background or how it fits into their decision-making process."
+  },
+  {
+   "file": "ST0083_s1.json",
+   "student_id": "ST0083",
+   "mode": "single_prompt_grounded",
+   "clarity": 3,
+   "groundedness": 2,
+   "usefulness": 2,
+   "invented_claims": [
+    "This program directly addresses your goal of becoming in Design & UX by offering 'design_hci' (Human-Computer Interaction).",
+    "This MBA Business Analytics program is an excellent match for your interest in Business Process Analyst roles"
+   ],
+   "justification": "The explanation mixes details about different programs and introduces claims not aligned with the student's constraints, leading to low clarity, groundedness, and usefulness."
+  },
+  {
+   "file": "ST0084_s1.json",
+   "student_id": "ST0084",
+   "mode": "single_prompt_grounded",
+   "clarity": 3,
+   "groundedness": 2,
+   "usefulness": 2,
+   "invented_claims": [
+    "you are interested in developer roles",
+    "this specialized cybersecurity track will enhance your existing IT/CS background"
+   ],
+   "justification": "The explanation introduces new facts not aligned with the student's constraints and is inconsistent across different programs."
+  },
+  {
+   "file": "ST0085_s1.json",
+   "student_id": "ST0085",
+   "mode": "single_prompt_grounded",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation is clear and well-structured but could be more useful by providing a direct comparison between the programs and highlighting specific trade-offs in detail."
+  },
+  {
+   "file": "ST0086_s1.json",
+   "student_id": "ST0086",
+   "mode": "single_prompt_grounded",
+   "clarity": 3,
+   "groundedness": 5,
+   "usefulness": 2,
+   "invented_claims": [],
+   "justification": "The explanation provides clear information but mixes up the programs and their details, leading to a lack of usefulness for decision-making."
+  },
+  {
+   "file": "ST0087_s1.json",
+   "student_id": "ST0087",
+   "mode": "single_prompt_grounded",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation clearly and accurately reflects the provided data but could improve by explicitly discussing trade-offs between tuition cost, location, and career prospects more thoroughly."
+  },
+  {
+   "file": "ST0088_s1.json",
+   "student_id": "ST0088",
+   "mode": "single_prompt_grounded",
+   "clarity": 3,
+   "groundedness": 5,
+   "usefulness": 2,
+   "invented_claims": [],
+   "justification": "The explanation provides clear and specific information about each program's relevance to the student's background and career goals, but it lacks clarity in distinguishing between programs and does not adequately highlight trade-offs or provide comparative analysis."
+  },
+  {
+   "file": "ST0089_s1.json",
+   "student_id": "ST0089",
+   "mode": "single_prompt_grounded",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation clearly outlines each program's pros and cons related to the student\u2019s constraints but lacks depth in discussing how these programs align with career goals or other factors that could influence decision-making."
+  },
+  {
+   "file": "ST0090_s1.json",
+   "student_id": "ST0090",
+   "mode": "single_prompt_grounded",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation clearly outlines each program's relevance to the student's interests and budget constraints but could improve by providing more detailed trade-offs between programs."
+  },
+  {
+   "file": "ST0091_s1.json",
+   "student_id": "ST0091",
+   "mode": "single_prompt_grounded",
+   "clarity": 3,
+   "groundedness": 2,
+   "usefulness": 1,
+   "invented_claims": [
+    "This program offers an excellent combination of low cost and high relevance",
+    "it is extremely budget-friendly"
+   ],
+   "justification": "The explanation mixes up details from different programs, making it confusing and inaccurate. It also introduces invented claims not supported by the data."
+  },
+  {
+   "file": "ST0092_s1.json",
+   "student_id": "ST0092",
+   "mode": "single_prompt_grounded",
+   "clarity": 3,
+   "groundedness": 2,
+   "usefulness": 2,
+   "invented_claims": [
+    "The MBA Technology Management program covers 'networking_cloud' and 'software_engineering'",
+    "The MBA Technology Management program focuses on deep technical development or computer architecture"
+   ],
+   "justification": "The explanation contains factual errors about the MBA Technology Management program's focus and invented claims. It also lacks clear distinctions between programs, making it less useful for decision-making."
+  },
+  {
+   "file": "ST0093_s1.json",
+   "student_id": "ST0093",
+   "mode": "single_prompt_grounded",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation is clear and well-structured but could be more specific about location preferences and the trade-offs between different programs' focus areas."
+  },
+  {
+   "file": "ST0094_s1.json",
+   "student_id": "ST0094",
+   "mode": "single_prompt_grounded",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation clearly outlines each program's relevance and trade-offs but could be more useful by providing a clearer prioritization of programs based on the student's career goal."
+  },
+  {
+   "file": "ST0095_s1.json",
+   "student_id": "ST0095",
+   "mode": "single_prompt_grounded",
+   "clarity": 5,
+   "groundedness": 5,
+   "usefulness": 4,
+   "invented_claims": [],
+   "justification": "The explanation clearly outlines each program's alignment with the student's goals and constraints, providing a balanced view of pros and cons."
+  },
+  {
+   "file": "ST0096_s1.json",
+   "student_id": "ST0096",
+   "mode": "single_prompt_grounded",
+   "clarity": 3,
+   "groundedness": 3,
+   "usefulness": 2,
+   "invented_claims": [
+    "This option perfectly aligns with your location preference in Pune"
+   ],
+   "justification": "The explanation is somewhat clear but repetitive and occasionally vague. It includes a claim about the student's location preference which does not exist in their constraints."
+  },
+  {
+   "file": "ST0097_s1.json",
+   "student_id": "ST0097",
+   "mode": "single_prompt_grounded",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation provides clear and structured information about each program, but it could be more useful by explicitly comparing programs against each other and highlighting unique benefits or drawbacks of each option."
+  },
+  {
+   "file": "ST0098_s1.json",
+   "student_id": "ST0098",
+   "mode": "single_prompt_grounded",
+   "clarity": 4,
+   "groundedness": 5,
+   "usefulness": 3,
+   "invented_claims": [],
+   "justification": "The explanation is clear and well-structured, directly referencing the provided program data without introducing new facts. However, it could be more useful by explicitly comparing programs against each other and discussing salary differences in detail."
+  },
+  {
+   "file": "ST0099_s1.json",
+   "student_id": "ST0099",
+   "mode": "single_prompt_grounded",
+   "clarity": 4,
+   "groundedness": 3,
+   "usefulness": 2,
+   "invented_claims": [
+    "The MSc Human-Computer Interaction program is an excellent choice if you want to prioritize budget while remaining in a technical field.",
+    "This option offers the lowest tuition fee ($850) while still providing a technical degree in Human-Computer Interaction."
+   ],
+   "justification": "The explanation provides mixed clarity and usefulness, with some invented claims that reduce groundedness."
+  }
+ ]
+}

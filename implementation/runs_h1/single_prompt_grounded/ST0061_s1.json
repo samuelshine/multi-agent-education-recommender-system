@@ -1,0 +1,47 @@
+{
+ "student_id": "ST0061",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 72.9% in an IT/computer-science degree. I'm interested in data engineering and testing. I want to become a E-Commerce Analyst. My family can afford at most about USD 1500 per year. I live in Pune. I cannot leave my city. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 72.9
+  },
+  "career_goal": "E-Commerce Analyst",
+  "budget_max_usd_per_year": 1500,
+  "location_preference": "Pune",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in data engineering and testing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0019",
+  "PR0025",
+  "PR0190",
+  "PR0080",
+  "PR0187",
+  "PR0084",
+  "PR0078",
+  "PR0181",
+  "PR0180",
+  "PR0045",
+  "PR0023",
+  "PR0156"
+ ],
+ "final_shortlist": [
+  "PR0187",
+  "PR0019",
+  "PR0045",
+  "PR0084",
+  "PR0181"
+ ],
+ "explanation": "This program offers the best job prospects among all budget-friendly options, boasting a high placement rate of 87% and a median starting salary of $12687. While its focus is on IT support rather than data engineering or testing, it provides strong general technical skills that are highly valued in corporate roles. The main trade-off here is that the program's field (IT Support) is less directly aligned with your stated interest in E-Commerce analysis compared to security or QA.\n\nThis MSc Software Engineering program is highly recommended because it focuses on 'qa_testing,' directly matching one of your stated interests. It maintains a strong placement rate of 84% and offers a solid median starting salary of $10285, all while keeping the annual tuition within budget at $1450. This option provides excellent career outcomes by specializing in quality assurance testing.\n\nGiven your background in information security certification, this MSc Information Security program is the most relevant choice for building upon your existing expertise. It keeps tuition at $1450 and offers a respectable median starting salary of $10236. The main trade-off is that while it leverages your current skills, its placement rate (71%) is slightly lower than other top recommendations.\n\nThis MSc Human-Computer Interaction program offers a low tuition cost of only $900 per year while still providing strong job outcomes. It has a placement rate of 77% and a median starting salary of $11205, making it an excellent value for your budget. The trade-off is that its focus on design/UX (design_hci) moves away from the core technical interests in testing or security.\n\nIf minimizing cost while maintaining job potential is your top priority, this MSc Human-Computer Interaction program is ideal. With the lowest tuition at $850, it keeps you well under budget and still offers a decent median starting salary of $9715. The main trade-off compared to PR0084 is that its placement rate (73%) is slightly lower, but it remains highly affordable.",
+ "wall_s": 42.4
+}

@@ -54,7 +54,7 @@ submission — condensed into a table in `main.tex`. Citation keys refer to
 |---|---|---|---|---|
 | `agenticaiframeworkrecommendersystem` | 2024 | Agentic multi-agent framework | E-commerce | **Nearly identical title to this project's original framing** — but general-domain, not education; no educational features, datasets, or evaluation metrics |
 | `multiagentrecommendersys` | 2025 | Multi-agentic design patterns (industrial tutorial) | E-commerce | Tutorial/survey, not an education application |
-| `llmagentrecsyssurvey` | 2025 | Survey: recommender-oriented / interaction-oriented / simulation-oriented agentic paradigms | General | Confirms (with evidence) limited higher-education application — supports our stated Domain 2 limitation directly |
+| `llmagentrecsyssurvey` | 2025 | Survey: recommender-oriented / interaction-oriented / simulation-oriented agentic paradigms | General | **Full-text read 2026-07-27: does NOT mention education anywhere, including its 3 named Future Directions (architecture, evaluation standardization, security). Earlier draft wrongly attributed an explicit "lack of educational evaluation frameworks" gap-naming to this paper — corrected in main.tex to cite its silence on education as evidence of the gap, not a claim it makes itself.** |
 | `taurecbenchmark` | 2026 | Verifiable benchmark for agentic RS | General (5 model families tested) | No education-specific benchmark exists — opportunity for a secondary (evaluation) contribution |
 | `ragpersonalisedrecommendations` | 2025 | RAG + transformer personalization | E-commerce | Same architecture family (retrieval + generation), different domain |
 | `llmexplanationforrecommendersys` | 2024 | LLM-generated post-hoc explanations | General | Explainability layer only, not full agentic pipeline |
@@ -122,3 +122,21 @@ author's own prior reading. Full-text verification status:
   `paper/sources/`.
 - Remaining Cluster A entries are still abstract-verified only; they are supporting
   citations, not the gap's load-bearing edge.
+
+**Second verification pass (2026-07-27, reviewer-requested citation check):** re-verified
+the highest-risk citations (recently added, or load-bearing for a numbered claim) via
+live arXiv/Crossref/Semantic Scholar fetch, not just abstract skim:
+- `taurecbenchmark` (arXiv 2606.10156), `advisingwise` (arXiv 2511.05706),
+  `agenticedurec` (DOI via Crossref), `onlinecoursemaskg` (DOI via Crossref),
+  `bertopicprogramrec` (arXiv 2501.06581): all confirmed real, titles/authors/venues
+  match citations, abstracts match the claims made about each in main.tex.
+- `llmagentrecsyssurvey` (arXiv 2502.10050): confirmed real and the three-paradigm
+  taxonomy claim is accurate, but full-text read (all 7 pages incl. references) found
+  **no mention of education anywhere** -- the paper's Section 6 Future Directions names
+  only architecture optimization, evaluation-framework standardization, and adversarial
+  security, none education-specific. The earlier draft's claim that this survey
+  "explicitly identifies limited higher-education application as an open direction" /
+  names a "lack of educational evaluation frameworks" gap was **not supported by the
+  source** and has been corrected in `main.tex` (both the Introduction contribution #2
+  and Related Work Section II-B) to instead cite the survey's silence on education as
+  evidence of the gap, without claiming the survey says so itself.

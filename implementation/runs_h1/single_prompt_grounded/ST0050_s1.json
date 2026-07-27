@@ -1,0 +1,55 @@
+{
+ "student_id": "ST0050",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a machine learning certification background. My overall academic average is 79.9% in an IT/computer-science degree. I'm interested in programming and system developer. I want to become a Information Technology Auditor. My family can afford at most about USD 5600 per year. I live in Delhi. I'm open to anywhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 79.9
+  },
+  "career_goal": "Information Technology Auditor",
+  "budget_max_usd_per_year": 5600,
+  "location_preference": "Delhi",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in programming and system developer roles"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0191",
+  "PR0101",
+  "PR0054",
+  "PR0105",
+  "PR0015",
+  "PR0020",
+  "PR0033",
+  "PR0157",
+  "PR0047",
+  "PR0074",
+  "PR0172",
+  "PR0087",
+  "PR0117",
+  "PR0198",
+  "PR0097",
+  "PR0144",
+  "PR0139",
+  "PR0164",
+  "PR0029",
+  "PR0022"
+ ],
+ "final_shortlist": [
+  "PR0198",
+  "PR0139",
+  "PR0029",
+  "PR0144",
+  "PR0097"
+ ],
+ "explanation": "This program is highly recommended because it offers the best job prospects among all options, boasting a 95% placement rate and a median starting salary of $21,062. The focus on Software Quality Engineering aligns perfectly with your interest in programming and system development. Since you are prioritizing career outcomes, this high placement rate makes it an excellent choice. The main trade-off is that the program focuses specifically on quality assurance rather than general IT auditing.\n\nThis MSc in Software Quality Engineering is ideal because it matches your interest in programming and system development while being located in Delhi, which is convenient for you. It offers a strong median starting salary of $20,639 and a high placement rate of 89%. The tuition fee ($4200) remains well within your family's budget constraint. This program provides excellent job security and relevance to your technical background.\n\nThis MSc in Information Security is the most direct fit for your stated goal of becoming an Information Technology Auditor. It has a high placement rate of 92% and a solid median starting salary of $14,753. Since you have a CS background, this program is suitable for you to pursue specialized knowledge in cybersecurity. The main trade-off here is that the salary, while good, is lower than some other highly technical options.\n\nThe MTech Computer Science program offers exceptional job potential with a 93% placement rate and a strong median starting salary of $19,239. This degree directly supports your interest in becoming a system developer through its focus on software engineering. It is highly relevant to your technical background and remains within the budget constraint ($4800 tuition). The trade-off is that this program is located in Pune, requiring you to relocate.\n\nThis MTech Data Engineering program provides excellent career prospects with a high placement rate of 95% and a strong median starting salary of $19,658. It is highly relevant to both data science analytics and system development, building upon your machine learning background. Since you have a CS degree, this program meets the prerequisite requirement for admission. The main trade-off is that while the job prospects are excellent, the curriculum might be slightly more specialized in data than general IT auditing.",
+ "wall_s": 2634.0
+}

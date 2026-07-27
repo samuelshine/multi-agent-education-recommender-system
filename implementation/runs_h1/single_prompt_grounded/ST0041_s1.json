@@ -1,0 +1,56 @@
+{
+ "student_id": "ST0041",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a hadoop certification background. My overall academic average is 81.8% in an IT/computer-science degree. I'm interested in parallel computing and testing. I want to become a Solutions Architect. My family can afford at most about USD 1500 per year. I live in Pune. I'm open to anywhere in India.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 81.8
+  },
+  "career_goal": "Solutions Architect",
+  "budget_max_usd_per_year": 1500,
+  "location_preference": "Pune",
+  "mobility": "prefers_region",
+  "employability_priority": null,
+  "other_constraints": [
+   "interested in parallel computing and testing",
+   "hadoop certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0119",
+  "PR0053",
+  "PR0019",
+  "PR0114",
+  "PR0179",
+  "PR0193",
+  "PR0050",
+  "PR0125",
+  "PR0190",
+  "PR0080",
+  "PR0008",
+  "PR0142",
+  "PR0082",
+  "PR0052",
+  "PR0085",
+  "PR0066",
+  "PR0064",
+  "PR0058",
+  "PR0187",
+  "PR0109"
+ ],
+ "final_shortlist": [
+  "PR0053",
+  "PR0019",
+  "PR0085",
+  "PR0142",
+  "PR0058"
+ ],
+ "explanation": "This program is highly recommended because its curriculum covers both 'qa_testing' and 'software_engineering,' which aligns perfectly with your interest in testing and the goals of a Solutions Architect. Located in Kolkata, it offers a strong placement rate of 86% for an annual tuition of $1200, keeping you well within budget. The main trade-off here is that while the program is highly relevant, the location (Kolkata) is not your current city of Pune.\n\nAs this program is located in Pune, it offers maximum convenience while still providing highly relevant coursework in 'qa_testing' and 'software_engineering.' The tuition of $1450 meets your budget constraint, and the placement rate stands at a solid 84%. The trade-off compared to other options is that its median starting salary ($10285) is lower than some alternatives.\n\nThis program in Bengaluru provides excellent exposure by covering both 'qa_testing' and 'software_engineering,' making it ideal for your career goal of becoming a Solutions Architect. The tuition ($1450) fits within your budget, and Bengaluru is one of India\u2019s premier tech hubs, which benefits job prospects. The trade-off is that the program focuses specifically on Quality Engineering rather than general software architecture.\n\nThis option in Hyderabad provides a strong foundation by teaching both 'qa_testing' and 'software_engineering,' directly supporting your career path. With an annual tuition of only $700, it is one of the most budget-friendly options while maintaining high relevance to your interests. The main trade-off is that its placement rate (64%) is lower than some other highly relevant programs.\n\nThis MCA program in Coimbatore is excellent for a Solutions Architect track because it includes 'data_science_analytics' alongside 'software_engineering,' complementing your Hadoop background. The tuition ($1350) respects your budget, and the placement rate of 83% is strong. The trade-off is that while highly relevant to data/SA roles, Coimbatore may offer fewer immediate job opportunities compared to Bengaluru or Hyderabad.",
+ "wall_s": 47.6
+}

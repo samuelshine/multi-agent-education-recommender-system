@@ -1,0 +1,55 @@
+{
+ "student_id": "ST0032",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a shell programming certification background. My overall academic average is 78.6% in an IT/computer-science degree. I'm interested in Management and system developer. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 3500 per year. I live in Pune. I'd strongly prefer to stay near home, though I might consider elsewhere in India.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 78.6
+  },
+  "career_goal": "Management and system developer (in tech)",
+  "budget_max_usd_per_year": 3500,
+  "location_preference": "Pune",
+  "mobility": "prefers_region",
+  "employability_priority": "medium",
+  "other_constraints": [
+   "Shell programming certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0164",
+  "PR0060",
+  "PR0176",
+  "PR0092",
+  "PR0189",
+  "PR0076",
+  "PR0130",
+  "PR0078",
+  "PR0150",
+  "PR0157",
+  "PR0160",
+  "PR0048",
+  "PR0172",
+  "PR0156",
+  "PR0117",
+  "PR0198",
+  "PR0097",
+  "PR0139",
+  "PR0029",
+  "PR0022"
+ ],
+ "final_shortlist": [
+  "PR0092",
+  "PR0172",
+  "PR0076",
+  "PR0156",
+  "PR0176"
+ ],
+ "explanation": "This program is ideal as it is located in Pune, matching your strong preference to stay near home. The MBA Technology Management degree aligns perfectly with your interest in management and tech. Furthermore, the annual tuition of USD 3450 remains within your family's budget constraint, and your academic average (78.6%) exceeds the minimum required grade of 74%.\n\nThis MSc IT Management program is another excellent option located in Pune, fulfilling your location preference. It provides a strong technical foundation while still touching upon business information systems, which suits your interest in both development and management. At USD 2250 annually, it is highly affordable and well within your budget.\n\nLocated in Hyderabad, this program offers a strong blend of 'it_management' and 'software_engineering,' directly addressing both your management interest and developer background. The tuition is very low at USD 1250, making it highly budget-friendly. While the location is not Pune, it represents a great balance between cost, relevance, and academic fit.\n\nThis MBA Technology Management program in Pune offers maximum convenience regarding your location preference. With the lowest tuition among the top-ranked Pune options at USD 1350, it is extremely budget-friendly. This option provides a solid management focus and minimizes financial strain while keeping you close to home.\n\nIf you are willing to consider Hyderabad, this MBA Technology Management program is a strong contender. It has a low annual tuition of USD 1900 and meets your academic standing (min grade 72%). This option provides excellent career prospects with a median starting salary of USD 15400, making it a solid choice if you prioritize potential earnings over staying in Pune.",
+ "wall_s": 48.8
+}

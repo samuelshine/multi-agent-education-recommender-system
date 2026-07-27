@@ -1,0 +1,41 @@
+{
+ "student_id": "ST0010",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a full stack certification background. My overall academic average is 79.2% in an IT/computer-science degree. I'm interested in programming and cloud computing. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 2700 per year. I live in Bengaluru. I cannot leave my city. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 79.2
+  },
+  "career_goal": null,
+  "budget_max_usd_per_year": 2700,
+  "location_preference": "Bengaluru",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in programming and cloud computing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0015",
+  "PR0073",
+  "PR0002",
+  "PR0013",
+  "PR0085",
+  "PR0173",
+  "PR0087"
+ ],
+ "final_shortlist": [
+  "PR0002",
+  "PR0073",
+  "PR0015",
+  "PR0013"
+ ],
+ "explanation": "This program offers the highest median starting salary at $11419 USD, directly addressing your priority of securing a good job after graduation. While its focus is on IT support operations rather than pure cloud computing, it provides strong career prospects in tech infrastructure. The main trade-off here is that the curriculum focuses more on operational support rather than advanced software development or data science.\n\nWith an impressive placement rate of 80%, this program offers excellent job security and is highly relevant to the tech industry. Since you have a CS background, you meet the prerequisite for MTech Cyber Security, which is a specialized and in-demand field. The trade-off is that the curriculum is niche, focusing specifically on cybersecurity rather than general full-stack or cloud computing.\n\nThis program provides a solid blend of job security and technical relevance, boasting a 78% placement rate and a strong median starting salary of $9707 USD. It is located in Bengaluru and has low tuition ($1200), making it financially feasible. The trade-off is that its focus on business information systems means the curriculum may be less deeply rooted in advanced programming or cloud architecture compared to pure engineering tracks.\n\nThis option has the lowest tuition fee at $900 USD and is highly relevant to modern tech development through its focus on design_hci. Since you are interested in programming, understanding user experience (UX) is crucial for full-stack roles. The main trade-off is that while it is technically applicable, its primary focus is on human-computer interaction/design rather than core cloud or backend engineering.",
+ "wall_s": 39.2
+}

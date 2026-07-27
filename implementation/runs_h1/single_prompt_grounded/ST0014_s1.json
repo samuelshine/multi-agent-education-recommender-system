@@ -1,0 +1,55 @@
+{
+ "student_id": "ST0014",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a full stack certification background. My overall academic average is 78.6% in an IT/computer-science degree. I'm interested in hacking and cloud computing. I want to become a Programmer Analyst. My family can afford at most about USD 7200 per year. I live in Bengaluru. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 78.6
+  },
+  "career_goal": "Programmer Analyst",
+  "budget_max_usd_per_year": 7200,
+  "location_preference": "Bengaluru",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in hacking and cloud computing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0186",
+  "PR0197",
+  "PR0043",
+  "PR0147",
+  "PR0096",
+  "PR0199",
+  "PR0118",
+  "PR0121",
+  "PR0148",
+  "PR0016",
+  "PR0102",
+  "PR0180",
+  "PR0162",
+  "PR0112",
+  "PR0159",
+  "PR0032",
+  "PR0184",
+  "PR0165",
+  "PR0117",
+  "PR0198"
+ ],
+ "final_shortlist": [
+  "PR0198",
+  "PR0186",
+  "PR0096",
+  "PR0197",
+  "PR0117"
+ ],
+ "explanation": "This program is highly recommended as it is located in Bengaluru, matching your strong preference to stay near home. Furthermore, its placement rate of 95% and median starting salary of $21062 USD are the best among all options, directly addressing your priority for a good job after graduation. While the focus is on QA Testing rather than pure programming, it falls under software engineering, which aligns well with your Programmer Analyst goal.\n\nThis MTech program in Pune offers a strong combination of relevant fields (networking/cloud and software engineering) and excellent job prospects. With an 83% placement rate and a median starting salary of $15192 USD, it provides high career security while remaining within your budget. The main trade-off here is the location being in Pune rather than Bengaluru.\n\nThis program in Hyderabad aligns perfectly with your interest in hacking (cybersecurity) and cloud computing. It requires a CS background, which matches your academic profile, and offers a solid placement rate of 80%. The trade-off is that the median starting salary ($12561 USD) is lower than some other options, but it provides excellent specialization in cybersecurity.\n\nThis MTech program in Chennai focuses solely on networking and cloud computing, which are key areas of interest. It boasts a high placement rate of 85% and is affordable at $3350 USD annually. The trade-off compared to the top picks is that its median starting salary ($13362 USD) is moderate, but it offers strong job outcomes in a relevant field.\n\nIf maximizing job outcome metrics is your absolute top priority, this program in Kolkata stands out with the highest median starting salary ($22504 USD) and a very high placement rate of 93%. Although its field (IT Support) does not directly match your cloud/hacking interests, its superior career statistics make it a strong consideration despite the location being outside your preferred area.",
+ "wall_s": 56.8
+}

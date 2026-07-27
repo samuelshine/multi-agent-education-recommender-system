@@ -1,0 +1,55 @@
+{
+ "student_id": "ST0092",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a full stack certification background. My overall academic average is 72.2% in an IT/computer-science degree. I'm interested in Computer Architecture and system developer. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 2400 per year. I live in Bengaluru. I'm open to anywhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 72.2
+  },
+  "career_goal": "Computer Architecture and system developer (Tech)",
+  "budget_max_usd_per_year": 2400,
+  "location_preference": "Bengaluru",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [],
+  "uncertainty_notes": [
+   "None"
+  ]
+ },
+ "prefilter_ids": [
+  "PR0182",
+  "PR0119",
+  "PR0101",
+  "PR0143",
+  "PR0186",
+  "PR0176",
+  "PR0058",
+  "PR0187",
+  "PR0039",
+  "PR0174",
+  "PR0053",
+  "PR0007",
+  "PR0158",
+  "PR0072",
+  "PR0054",
+  "PR0109",
+  "PR0076",
+  "PR0012",
+  "PR0065",
+  "PR0019"
+ ],
+ "final_shortlist": [
+  "PR0176",
+  "PR0186",
+  "PR0007",
+  "PR0119",
+  "PR0101"
+ ],
+ "explanation": "This MBA Technology Management program is highly recommended because it offers one of the highest median starting salaries at $15400 USD, directly addressing your priority for a good job. The curriculum covers 'it_management' and 'software_engineering', aligning well with general tech roles while providing business context. The main trade-off here is that this program focuses on management rather than deep technical development or computer architecture.\n\nGiven your interest in System Developer roles, the MTech Computer Networks program is an excellent fit as it covers 'networking_cloud' and 'software_engineering'. It has a strong median starting salary of $15192 USD and a placement rate of 83%. Since you have a CS background, this technical path leverages your existing knowledge. The trade-off is that the program requires a Computer Science background, which you possess.\n\nThe MSc Big Data Analytics program provides strong technical training in 'data_science_analytics' and boasts an 86% placement rate. The tuition of $2350 USD is within your family's budget limit, making it financially viable while offering high career potential. This path is ideal if you wish to pivot into the rapidly growing field of data science. The trade-off is that its focus is purely on analytics rather than core system development.\n\nThis MSc Software Quality Engineering program offers a very low annual tuition of $1200 USD, making it highly budget-friendly while still providing a decent median starting salary of $14917 USD. It is relevant to software development and has an 86% placement rate. The main trade-off is that the specialization in QA testing might be narrower than your interest in core system architecture.\n\nThe MSc Information Systems program provides a solid blend of business and technology through 'business_information_systems', which is useful if you are unsure of your exact career path. It has an acceptable median starting salary of $15394 USD and meets the tuition constraint exactly at $2400 USD. The trade-off is that its focus on general information systems might be less specialized than a dedicated computer architecture or networking degree.",
+ "wall_s": 50.7
+}

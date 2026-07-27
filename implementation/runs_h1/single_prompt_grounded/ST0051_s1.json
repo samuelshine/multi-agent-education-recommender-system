@@ -1,0 +1,55 @@
+{
+ "student_id": "ST0051",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 80.9% in an IT/computer-science degree. I'm interested in Software Engineering and cloud computing. I want to become a Applications Developer. My family can afford at most about USD 2000 per year. I live in Bengaluru. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 80.9
+  },
+  "career_goal": "Applications Developer",
+  "budget_max_usd_per_year": 2000,
+  "location_preference": "Bengaluru",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in Software Engineering and cloud computing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0186",
+  "PR0016",
+  "PR0112",
+  "PR0032",
+  "PR0058",
+  "PR0039",
+  "PR0053",
+  "PR0158",
+  "PR0109",
+  "PR0076",
+  "PR0012",
+  "PR0065",
+  "PR0019",
+  "PR0167",
+  "PR0199",
+  "PR0185",
+  "PR0171",
+  "PR0155",
+  "PR0145",
+  "PR0083"
+ ],
+ "final_shortlist": [
+  "PR0058",
+  "PR0158",
+  "PR0083",
+  "PR0185",
+  "PR0076"
+ ],
+ "explanation": "This program offers a high placement rate of 83% and a strong median starting salary of USD 14869, directly addressing your priority for job outcomes. While the curriculum focuses on Data Science Analytics alongside Software Engineering, it provides excellent career prospects within the field you are interested in. The main trade-off is that this program is located in Coimbatore, which is further from your preferred location of Bengaluru.\n\nLocated in Pune, this option aligns well with your preference to stay near home. It has a high placement rate of 84% and offers strong exposure to Software Engineering alongside Interaction Design. The tuition fee of USD 1900 is within your budget constraint. The trade-off here is that the program focuses heavily on design (MDes), which may be less purely technical than some other options.\n\nThis MCA program in Mumbai provides a direct focus on Software Engineering and has a manageable tuition fee of USD 1800. It is located in Mumbai, which you stated as an acceptable alternative location. While the placement rate (74%) and salary are solid, the trade-off compared to other options is that its median starting salary is lower at USD 10464.\n\nThis program in Kolkata is highly recommended because it directly incorporates your interest in Information Security alongside Software Engineering. Furthermore, its annual tuition of USD 1150 is the lowest among the viable options, helping manage your budget constraint. The trade-off is that while it covers security, the median starting salary (USD 10850) is relatively modest compared to other high-placement programs.\n\nLocated in Hyderabad, this program offers a good balance of relevance and cost, with an annual tuition fee of USD 1250. It covers Software Engineering within the context of IT Management, which is useful for aspiring Applications Developers. The trade-off is that it is an MBA Technology Management degree rather than a pure Computer Science focus, though its placement rate (81%) remains strong.",
+ "wall_s": 257.6
+}

@@ -1,0 +1,55 @@
+{
+ "student_id": "ST0083",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a full stack certification background. My overall academic average is 71% in an IT/computer-science degree. I'm interested in data engineering and Business process analyst. I want to become a Design & UX. My family can afford at most about USD 5000 per year. I live in Coimbatore. I'd strongly prefer to stay near home, though I might consider elsewhere in India.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 71
+  },
+  "career_goal": "Design & UX",
+  "budget_max_usd_per_year": 5000,
+  "location_preference": null,
+  "mobility": "prefers_region",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in data engineering and Business process analyst"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0191",
+  "PR0058",
+  "PR0039",
+  "PR0158",
+  "PR0026",
+  "PR0090",
+  "PR0145",
+  "PR0033",
+  "PR0046",
+  "PR0107",
+  "PR0074",
+  "PR0063",
+  "PR0173",
+  "PR0071",
+  "PR0087",
+  "PR0101",
+  "PR0143",
+  "PR0186",
+  "PR0149",
+  "PR0174"
+ ],
+ "final_shortlist": [
+  "PR0101",
+  "PR0039",
+  "PR0033",
+  "PR0158",
+  "PR0191"
+ ],
+ "explanation": "This program is highly recommended as it perfectly aligns with your local preference (Coimbatore) and your interest in business analysis. The MSc Information Systems focuses on 'business_information_systems,' making it ideal for a Business Process Analyst role. Furthermore, the minimum grade requirement of 71% matches your academic average exactly, providing a strong fit without requiring an immediate location change.\n\nThis program directly addresses your goal of becoming in Design & UX by offering 'design_hci' (Human-Computer Interaction). It is also located in Coimbatore, respecting your strong preference to stay near home. While the curriculum focuses on design, it maintains a high placement rate of 85% and requires only a minimum grade of 70%, which you meet.\n\nThis MBA Business Analytics program is an excellent match for your interest in Business Process Analyst roles and keeps you local in Coimbatore. The curriculum covers 'business_information_systems' and 'data_science_analytics,' blending your business and technical interests. The main trade-off here is that the median starting salary (USD 10526) is lower compared to some other options, but it maximizes location convenience.\n\nIf you are willing to consider Pune, this MDes Interaction Design program is a strong choice for your UX goal. It has a high placement rate of 84% and focuses on 'design_hci,' providing specialized training in the field. The main trade-off is that it requires moving to Pune, though its low tuition (USD 1900) helps manage costs.\n\nThis MTech Data Engineering program directly targets your interest in data engineering and is a strong technical fit for your full stack background. While located in Chennai (a slight move from Coimbatore), it meets your minimum grade requirement of 71%. The trade-off is the location change; however, it offers a high placement rate of 84% with a median starting salary of USD 15951.",
+ "wall_s": 42.3
+}

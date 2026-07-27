@@ -562,3 +562,74 @@ IEEE two-column camera-ready output. Forcing placement (via `\FloatBarrier`, `[H
 etc.) trades gap-free flow for placement precision, and IEEE conference papers
 generally prize the former. Prefer default behavior unless a float is visibly
 drifting to a clearly wrong section.
+
+## Self-review pass + grounded single-prompt ablation (2026-07-27)
+
+Ran a full simulated peer-review panel (EIC + 3 reviewers + Devil's Advocate) against
+the paper as it stood after the FloatBarrier revert. Findings, ranked, and what was
+done about each:
+
+1. **No statistical test behind two "statistically indistinguishable" claims**
+   (H1 emitted-length NDCG vs. single-prompt; H2 conflict-subset v2 multi- vs.
+   single-objective). Fixed: added a paired-bootstrap-CI section to
+   `analyze_results.py` (10,000 resamples, `paired_bootstrap_ci()` +
+   `ndcg_at_own_length()`), part of the released, deterministic, reproducible
+   artifact. Both CIs cross zero, confirming the original claims — now with numbers
+   attached (main.tex: H1 diagnostics paragraph, H2 subsection).
+2. **Explanation-quality gap confounded architecture with instruction wording** —
+   the single-prompt baseline was never given the Explanation Agent's explicit
+   grounding directive, so the groundedness/usefulness advantage could have been
+   pure prompting, not architecture. This was the review's highest-value finding.
+   **Built a fourth condition, `single_prompt_grounded`** (`agentrec/prompts.py`:
+   `SINGLE_PROMPT_GROUNDED`; `agentrec/pipeline.py`: new mode sharing the
+   single-prompt code path), ran it on the full 100-student H1 eval split
+   (`runs_h1/chain_single_prompt_grounded.sh`, zero fallbacks), judged it with both
+   qwen2.5:14b and mistral-nemo:12b. Result: clarity 3.81, groundedness 4.47,
+   usefulness 3.23 — squarely between the ungrounded baseline (3.69/3.96/2.80) and
+   five-agent v1 (4.11/4.92/3.65), closing ~53% of the groundedness gap, ~51% of
+   usefulness, only ~29% of clarity, at no cost to NDCG@5/precision@5. Added as a
+   new row to Table II and Table III, a new "Isolating architecture from
+   instruction" paragraph in Results, and a qualifying sentence in the Conclusion
+   and Abstract — the paper's causal story is now "half prompting, half
+   architecture" rather than an unexamined architecture-only claim.
+3. **Citation-accuracy bug found via deep verification, not just abstract-skim**:
+   `main.tex` twice claimed `llmagentrecsyssurvey` (Peng et al.) "explicitly
+   identifies limited higher-education application as an open direction." Fetched
+   and read the full 7-page arXiv PDF (2502.10050) — no mention of education
+   anywhere, including its own named Future Directions (architecture, evaluation
+   standardization, security). **This was a real, load-bearing misattribution**,
+   not a peripheral one (it backed Introduction contribution #2). Fixed both
+   occurrences to instead cite the survey's *silence* on education as evidence of
+   the gap, without claiming the survey says so itself. Also live-verified
+   `taurecbenchmark`, `advisingwise`, `agenticedurec`, `onlinecoursemaskg`,
+   `bertopicprogramrec` via arXiv/Crossref/Semantic Scholar — all confirmed real
+   and accurately characterized. Logged in `literature_matrix.md`'s honesty-note
+   section (second verification pass).
+4. **Fig. 1 omitted the two deterministic prefilter/guard components** that the
+   prose calls "the mechanism that actually guarantees hard-constraint
+   satisfaction." Added both as small dashed gray boxes inline in the pipeline
+   chain (`gate` TikZ style, same 50mm text width as the agent boxes to avoid
+   reopening the earlier width-overflow bug) — visually distinct from the solid
+   agent boxes, verified render at 150dpi shows no overflow or overlap.
+5. **H3's "67 have a session-3 budget-revision event (H3 conditions)" reads as
+   describing the H3 evaluation cohort but doesn't** — H3's reported results use a
+   fixed 30-student subsample (first 30 in eval order), of which only 5 actually
+   carry that event; the 67-count is a dataset-wide stress-test subset for future
+   analysis. Confirmed via direct inspection of `sessions.json` events. Reworded
+   both the Datasets paragraph and the H3 Results opening sentence to make this
+   explicit.
+6. **"Pre-registered" was asserted narratively with no external anchor.** Added a
+   footnote to H1's first "pre-registered" mention citing the actual commit hashes:
+   `9b47ce4` (2026-07-17, evaluation design committed, results section still had
+   agentic rows pending) before `ba7757e` (2026-07-20, results computed and
+   written up) — both verifiable in the repo's public git history.
+
+Rebuilt after every change; visually re-inspected all 9 pages via pymupdf render
+each time. Paper grew 8→9 pages (footnote + new table row + new paragraphs), no
+overflow, no gaps, continuous flow preserved throughout.
+
+**Not done / left as-is:** the review also flagged that `Data Availability
+Statement`/`Author Contributions`/`Conflict of Interest` sections are
+Frontiers/journal conventions rather than standard IEEE-conference boilerplate —
+deferred until the target venue's CFP is known (same open item as the AI-disclosure
+`\todo{}`).

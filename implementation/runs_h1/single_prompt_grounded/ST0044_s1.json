@@ -1,0 +1,55 @@
+{
+ "student_id": "ST0044",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 77% in an IT/computer-science degree. I'm interested in Software Engineering and developer. I want to become a Systems Analyst. My family can afford at most about USD 8700 per year. I live in Coimbatore. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 77
+  },
+  "career_goal": "Systems Analyst",
+  "budget_max_usd_per_year": 8700,
+  "location_preference": "Coimbatore (near home)",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "information security certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0191",
+  "PR0101",
+  "PR0054",
+  "PR0105",
+  "PR0015",
+  "PR0020",
+  "PR0033",
+  "PR0157",
+  "PR0047",
+  "PR0074",
+  "PR0172",
+  "PR0087",
+  "PR0117",
+  "PR0198",
+  "PR0097",
+  "PR0144",
+  "PR0139",
+  "PR0164",
+  "PR0029",
+  "PR0022"
+ ],
+ "final_shortlist": [
+  "PR0101",
+  "PR0029",
+  "PR0164",
+  "PR0054",
+  "PR0191"
+ ],
+ "explanation": "This program is highly recommended as it keeps you in Coimbatore, matching your strong preference to stay near home. The MSc Information Systems curriculum directly aligns with your interest in becoming a Systems Analyst and developer role. With an 85% placement rate and a median starting salary of $15394, this option offers excellent job prospects locally. The main trade-off here is that the program focuses on general information systems rather than deep software engineering development.\n\nThis MSc Information Security program directly leverages your existing certification background in information security while offering strong career outcomes. Located in Mumbai, it provides a high placement rate of 92% and a competitive median starting salary of $14753. This is an excellent choice if you wish to specialize further within the cybersecurity domain. The trade-off for this program is that it requires relocating to Mumbai, which deviates from your strong preference to stay near home.\n\nThe MBA Technology Management in Delhi offers a very high placement rate of 90% and a robust median starting salary of $17361. This degree is ideal for transitioning into a management or systems analysis role where technical knowledge meets business strategy. While the curriculum is more focused on technology management than pure coding, it maximizes your job prospects significantly. The main trade-off is that this program requires moving to Delhi and involves an MBA focus rather than core developer skills.\n\nThis MBA Business Analytics option remains in Coimbatore, satisfying your location preference while providing a strong foundation for systems analysis roles. It has an 84% placement rate and a median starting salary of $13094, offering reliable job security locally. This path is excellent if you want to combine your IT knowledge with business process understanding. The trade-off is that the career focus leans heavily into analytics and management rather than pure software development.\n\nThis MTech Data Engineering program in Chennai offers a high placement rate of 84% and a strong median starting salary of $15951. This is a technically rigorous option that keeps you within the Indian market while offering excellent career growth potential. If your interest leans toward data-driven systems analysis, this degree is highly valuable. The main trade-off is that it requires relocating to Chennai, which is further from your preferred home base.",
+ "wall_s": 54.4
+}

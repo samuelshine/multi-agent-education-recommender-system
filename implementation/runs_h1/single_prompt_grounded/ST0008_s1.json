@@ -1,0 +1,55 @@
+{
+ "student_id": "ST0008",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 77.6% in an IT/computer-science degree. I'm interested in programming and Business process analyst. I want to become a UX Designer. My family can afford at most about USD 2100 per year. I live in Bengaluru. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 77.6
+  },
+  "career_goal": "UX Designer",
+  "budget_max_usd_per_year": 2100,
+  "location_preference": "Bengaluru",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in programming and Business process analyst roles"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0101",
+  "PR0039",
+  "PR0174",
+  "PR0158",
+  "PR0054",
+  "PR0084",
+  "PR0015",
+  "PR0020",
+  "PR0141",
+  "PR0013",
+  "PR0033",
+  "PR0014",
+  "PR0157",
+  "PR0181",
+  "PR0046",
+  "PR0047",
+  "PR0166",
+  "PR0074",
+  "PR0172",
+  "PR0059"
+ ],
+ "final_shortlist": [
+  "PR0013",
+  "PR0174",
+  "PR0158",
+  "PR0020",
+  "PR0033"
+ ],
+ "explanation": "This program is highly recommended because it aligns perfectly with your interest in UX Design (HCI) and is located in Bengaluru, fulfilling your strong preference to stay near home. The annual tuition of $900 USD is well within your family's budget constraint of $2100 USD. While the median starting salary ($9186 USD) might be modest compared to your job priority, its ideal location and direct focus on HCI make it a strong fit for your career goals.\n\nThis MSc Human-Computer Interaction program is an excellent match for your UX Designer goal and respects your budget with $1900 USD in annual tuition. Although it is located in Delhi rather than Bengaluru, the strong focus on design_hci fields makes it academically relevant to your interests. The trade-off here is that you would be moving to Delhi, which deviates from your primary location preference.\n\nThis MDes Interaction Design program provides a specialized focus on design_hci and software_engineering, directly supporting your UX Designer aspirations. Located in Pune, it offers a good alternative city while keeping tuition low at $1900 USD. The main trade-off is that the median starting salary ($13259 USD) might not be significantly higher than other options, but the program's specialized design focus remains valuable.\n\nIf you wish to pursue the Business Process Analyst track, this MBA in Delhi is a cost-effective option with an annual tuition of $1450 USD. It directly addresses your interest in business analytics and information systems. The primary trade-off is that while it meets your budget, its placement rate (76%) is only moderate compared to other available programs.\n\nThis MBA program in Coimbatore is ideal for pursuing the Business Process Analyst role while staying within your $2100 USD tuition budget. The curriculum covers both business information systems and data science analytics, making it versatile for your interests. The trade-off to consider is that its placement rate (73%) is one of the lower options provided, requiring you to weigh this against the location convenience.",
+ "wall_s": 44.0
+}

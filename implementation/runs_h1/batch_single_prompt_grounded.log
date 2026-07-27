@@ -1,0 +1,417 @@
+[chain] stage=single_prompt_grounded attempt=1 13:06:09
+run  ST0000 s1 [single_prompt_grounded]
+     -> ['PR0194', 'PR0029', 'PR0161', 'PR0000', 'PR0104']  (0.0s, fallbacks=[])
+run  ST0001 s1 [single_prompt_grounded]
+     -> ['PR0126', 'PR0037', 'PR0053', 'PR0071', 'PR0065']  (0.0s, fallbacks=[])
+run  ST0002 s1 [single_prompt_grounded]
+     -> ['PR0053', 'PR0012', 'PR0015', 'PR0058', 'PR0076']  (45.4s, fallbacks=[])
+run  ST0003 s1 [single_prompt_grounded]
+     -> ['PR0144', 'PR0198', 'PR0097', 'PR0143', 'PR0186']  (45.0s, fallbacks=[])
+run  ST0004 s1 [single_prompt_grounded]
+     -> ['PR0182', 'PR0045', 'PR0072', 'PR0187', 'PR0186']  (42.2s, fallbacks=[])
+run  ST0005 s1 [single_prompt_grounded]
+     -> ['PR0065', 'PR0082', 'PR0072', 'PR0186', 'PR0019']  (46.3s, fallbacks=[])
+run  ST0006 s1 [single_prompt_grounded]
+     -> ['PR0073', 'PR0185', 'PR0130', 'PR0053', 'PR0120']  (50.7s, fallbacks=[])
+run  ST0007 s1 [single_prompt_grounded]
+     -> ['PR0073', 'PR0087', 'PR0173', 'PR0013']  (39.3s, fallbacks=[])
+run  ST0008 s1 [single_prompt_grounded]
+     -> ['PR0013', 'PR0174', 'PR0158', 'PR0020', 'PR0033']  (44.0s, fallbacks=[])
+run  ST0009 s1 [single_prompt_grounded]
+     -> ['PR0186', 'PR0020', 'PR0176', 'PR0191', 'PR0101']  (50.8s, fallbacks=[])
+run  ST0010 s1 [single_prompt_grounded]
+     -> ['PR0002', 'PR0073', 'PR0015', 'PR0013']  (39.2s, fallbacks=[])
+run  ST0011 s1 [single_prompt_grounded]
+     -> ['PR0029', 'PR0186', 'PR0144', 'PR0198', 'PR0182']  (41.6s, fallbacks=[])
+run  ST0012 s1 [single_prompt_grounded]
+     -> ['PR0198', 'PR0164', 'PR0119', 'PR0072', 'PR0076']  (56.5s, fallbacks=[])
+run  ST0013 s1 [single_prompt_grounded]
+     -> ['PR0078', 'PR0130', 'PR0172', 'PR0076', 'PR0092']  (46.8s, fallbacks=[])
+run  ST0014 s1 [single_prompt_grounded]
+     -> ['PR0198', 'PR0186', 'PR0096', 'PR0197', 'PR0117']  (56.8s, fallbacks=[])
+run  ST0015 s1 [single_prompt_grounded]
+     -> ['PR0191', 'PR0198', 'PR0097', 'PR0164', 'PR0076']  (58.8s, fallbacks=[])
+run  ST0016 s1 [single_prompt_grounded]
+     -> ['PR0195', 'PR0021', 'PR0194', 'PR0161', 'PR0037']  (56.5s, fallbacks=[])
+run  ST0017 s1 [single_prompt_grounded]
+     -> ['PR0119', 'PR0176', 'PR0039', 'PR0015', 'PR0187']  (46.3s, fallbacks=[])
+run  ST0018 s1 [single_prompt_grounded]
+     -> ['PR0153', 'PR0195', 'PR0041', 'PR0149', 'PR0039']  (46.5s, fallbacks=[])
+run  ST0019 s1 [single_prompt_grounded]
+     -> ['PR0191', 'PR0143', 'PR0007', 'PR0099']  (48.0s, fallbacks=[])
+run  ST0020 s1 [single_prompt_grounded]
+     -> ['PR0000', 'PR0195', 'PR0005', 'PR0001', 'PR0169']  (53.8s, fallbacks=[])
+run  ST0021 s1 [single_prompt_grounded]
+     -> ['PR0053', 'PR0130', 'PR0076', 'PR0185', 'PR0120']  (56.6s, fallbacks=[])
+run  ST0022 s1 [single_prompt_grounded]
+     -> ['PR0164', 'PR0101', 'PR0176', 'PR0182', 'PR0119']  (42.9s, fallbacks=[])
+run  ST0023 s1 [single_prompt_grounded]
+     -> ['PR0194', 'PR0026', 'PR0043', 'PR0126', 'PR0090']  (48.4s, fallbacks=[])
+run  ST0024 s1 [single_prompt_grounded]
+     -> ['PR0029', 'PR0186', 'PR0058', 'PR0182', 'PR0191']  (45.0s, fallbacks=[])
+run  ST0025 s1 [single_prompt_grounded]
+     -> ['PR0037', 'PR0161', 'PR0194', 'PR0167', 'PR0198']  (58.5s, fallbacks=[])
+run  ST0026 s1 [single_prompt_grounded]
+     -> ['PR0073', 'PR0015', 'PR0002', 'PR0013', 'PR0173']  (40.3s, fallbacks=[])
+run  ST0027 s1 [single_prompt_grounded]
+     -> ['PR0000', 'PR0195', 'PR0021', 'PR0194', 'PR0042']  (57.4s, fallbacks=[])
+run  ST0028 s1 [single_prompt_grounded]
+     -> ['PR0086', 'PR0034', 'PR0027', 'PR0136', 'PR0067']  (61.8s, fallbacks=[])
+run  ST0029 s1 [single_prompt_grounded]
+     -> ['PR0195', 'PR0000', 'PR0021', 'PR0044', 'PR0157']  (46.4s, fallbacks=[])
+run  ST0030 s1 [single_prompt_grounded]
+     -> ['PR0197', 'PR0191', 'PR0059', 'PR0162', 'PR0109']  (47.7s, fallbacks=[])
+run  ST0031 s1 [single_prompt_grounded]
+     -> ['PR0120', 'PR0020', 'PR0107', 'PR0099', 'PR0026']  (55.3s, fallbacks=[])
+run  ST0032 s1 [single_prompt_grounded]
+     -> ['PR0092', 'PR0172', 'PR0076', 'PR0156', 'PR0176']  (48.8s, fallbacks=[])
+run  ST0033 s1 [single_prompt_grounded]
+     -> ['PR0186', 'PR0121', 'PR0180', 'PR0102', 'PR0119']  (48.7s, fallbacks=[])
+run  ST0034 s1 [single_prompt_grounded]
+     -> ['PR0172', 'PR0015', 'PR0058', 'PR0111', 'PR0020']  (60.1s, fallbacks=[])
+run  ST0035 s1 [single_prompt_grounded]
+     -> ['PR0015', 'PR0073', 'PR0002', 'PR0173', 'PR0087']  (37.8s, fallbacks=[])
+run  ST0036 s1 [single_prompt_grounded]
+     -> ['PR0160', 'PR0157', 'PR0130', 'PR0156', 'PR0150']  (49.4s, fallbacks=[])
+run  ST0037 s1 [single_prompt_grounded]
+     -> ['PR0109', 'PR0119', 'PR0187', 'PR0053', 'PR0076']  (53.0s, fallbacks=[])
+run  ST0038 s1 [single_prompt_grounded]
+     -> ['PR0096', 'PR0167', 'PR0130', 'PR0076', 'PR0074']  (43.9s, fallbacks=[])
+run  ST0039 s1 [single_prompt_grounded]
+     -> ['PR0173', 'PR0013']  (26.8s, fallbacks=[])
+run  ST0040 s1 [single_prompt_grounded]
+     -> ['PR0120', 'PR0064', 'PR0184']  (28.6s, fallbacks=[])
+run  ST0041 s1 [single_prompt_grounded]
+     -> ['PR0053', 'PR0019', 'PR0085', 'PR0142', 'PR0058']  (47.6s, fallbacks=[])
+run  ST0042 s1 [single_prompt_grounded]
+     -> ['PR0165', 'PR0059']  (22.0s, fallbacks=[])
+run  ST0043 s1 [single_prompt_grounded]
+     -> ['PR0015', 'PR0073', 'PR0002', 'PR0173', 'PR0087']  (41.1s, fallbacks=[])
+run  ST0044 s1 [single_prompt_grounded]
+     -> ['PR0101', 'PR0029', 'PR0164', 'PR0054', 'PR0191']  (54.4s, fallbacks=[])
+run  ST0045 s1 [single_prompt_grounded]
+     -> ['PR0197', 'PR0191', 'PR0109', 'PR0199', 'PR0165']  (45.2s, fallbacks=[])
+run  ST0046 s1 [single_prompt_grounded]
+     -> ['PR0096', 'PR0186', 'PR0147', 'PR0198', 'PR0117']  (60.9s, fallbacks=[])
+run  ST0047 s1 [single_prompt_grounded]
+     -> ['PR0198', 'PR0097', 'PR0026', 'PR0085', 'PR0144']  (58.4s, fallbacks=[])
+run  ST0048 s1 [single_prompt_grounded]
+     -> ['PR0076', 'PR0130', 'PR0176', 'PR0096', 'PR0167']  (39.8s, fallbacks=[])
+run  ST0049 s1 [single_prompt_grounded]
+     -> ['PR0139', 'PR0198', 'PR0097', 'PR0144', 'PR0164']  (573.5s, fallbacks=[])
+run  ST0050 s1 [single_prompt_grounded]
+     -> ['PR0198', 'PR0139', 'PR0029', 'PR0144', 'PR0097']  (2634.0s, fallbacks=[])
+run  ST0051 s1 [single_prompt_grounded]
+     -> ['PR0058', 'PR0158', 'PR0083', 'PR0185', 'PR0076']  (257.6s, fallbacks=[])
+run  ST0052 s1 [single_prompt_grounded]
+     -> ['PR0042', 'PR0001', 'PR0043', 'PR0147', 'PR0180']  (39.7s, fallbacks=[])
+run  ST0053 s1 [single_prompt_grounded]
+     -> ['PR0176', 'PR0195', 'PR0130', 'PR0057', 'PR0060']  (46.4s, fallbacks=[])
+run  ST0054 s1 [single_prompt_grounded]
+     -> ['PR0114', 'PR0185', 'PR0187', 'PR0130', 'PR0053']  (49.4s, fallbacks=[])
+run  ST0055 s1 [single_prompt_grounded]
+     -> ['PR0020', 'PR0119', 'PR0033', 'PR0019', 'PR0157']  (48.3s, fallbacks=[])
+run  ST0056 s1 [single_prompt_grounded]
+     -> ['PR0195', 'PR0021', 'PR0000']  (51.6s, fallbacks=[])
+run  ST0057 s1 [single_prompt_grounded]
+     -> ['PR0016', 'PR0165', 'PR0186', 'PR0184', 'PR0112']  (55.8s, fallbacks=[])
+run  ST0058 s1 [single_prompt_grounded]
+     -> ['PR0053', 'PR0049', 'PR0013', 'PR0181', 'PR0082']  (47.8s, fallbacks=[])
+run  ST0059 s1 [single_prompt_grounded]
+     -> ['PR0119', 'PR0071', 'PR0120', 'PR0053', 'PR0170']  (51.4s, fallbacks=[])
+run  ST0060 s1 [single_prompt_grounded]
+     -> ['PR0143', 'PR0120', 'PR0058', 'PR0107', 'PR0074']  (60.2s, fallbacks=[])
+run  ST0061 s1 [single_prompt_grounded]
+     -> ['PR0187', 'PR0019', 'PR0045', 'PR0084', 'PR0181']  (42.4s, fallbacks=[])
+run  ST0062 s1 [single_prompt_grounded]
+     -> ['PR0000', 'PR0195', 'PR0153', 'PR0122', 'PR0163']  (57.6s, fallbacks=[])
+run  ST0063 s1 [single_prompt_grounded]
+     -> ['PR0186', 'PR0147', 'PR0096', 'PR0198', 'PR0199']  (52.0s, fallbacks=[])
+run  ST0064 s1 [single_prompt_grounded]
+     -> ['PR0164', 'PR0101', 'PR0076', 'PR0130', 'PR0020']  (48.0s, fallbacks=[])
+run  ST0065 s1 [single_prompt_grounded]
+     -> ['PR0198', 'PR0102', 'PR0184', 'PR0186', 'PR0043']  (51.8s, fallbacks=[])
+run  ST0066 s1 [single_prompt_grounded]
+     -> ['PR0097', 'PR0143', 'PR0191', 'PR0058', 'PR0090']  (63.7s, fallbacks=[])
+run  ST0067 s1 [single_prompt_grounded]
+     -> ['PR0114', 'PR0082', 'PR0049']  (31.5s, fallbacks=[])
+run  ST0068 s1 [single_prompt_grounded]
+     -> ['PR0042', 'PR0194', 'PR0096', 'PR0004', 'PR0127']  (49.7s, fallbacks=[])
+run  ST0069 s1 [single_prompt_grounded]
+     -> ['PR0120', 'PR0170', 'PR0053', 'PR0109', 'PR0019']  (57.9s, fallbacks=[])
+run  ST0070 s1 [single_prompt_grounded]
+     -> ['PR0186', 'PR0101', 'PR0191', 'PR0076', 'PR0167']  (57.0s, fallbacks=[])
+run  ST0071 s1 [single_prompt_grounded]
+     -> ['PR0132', 'PR0097', 'PR0103', 'PR0051', 'PR0026']  (58.9s, fallbacks=[])
+run  ST0072 s1 [single_prompt_grounded]
+     -> ['PR0058', 'PR0198', 'PR0176', 'PR0022', 'PR0186']  (54.3s, fallbacks=[])
+run  ST0073 s1 [single_prompt_grounded]
+     -> ['PR0101', 'PR0054', 'PR0058', 'PR0198', 'PR0191']  (55.8s, fallbacks=[])
+run  ST0074 s1 [single_prompt_grounded]
+     -> ['PR0000', 'PR0021', 'PR0161', 'PR0195', 'PR0132']  (50.4s, fallbacks=[])
+run  ST0075 s1 [single_prompt_grounded]
+     -> ['PR0027', 'PR0030', 'PR0110', 'PR0195', 'PR0069']  (61.4s, fallbacks=[])
+run  ST0076 s1 [single_prompt_grounded]
+     -> ['PR0119', 'PR0053', 'PR0015', 'PR0157', 'PR0114']  (47.0s, fallbacks=[])
+run  ST0077 s1 [single_prompt_grounded]
+     -> ['PR0084', 'PR0019', 'PR0180', 'PR0045', 'PR0080']  (51.0s, fallbacks=[])
+run  ST0078 s1 [single_prompt_grounded]
+     -> ['PR0119', 'PR0053', 'PR0015', 'PR0157', 'PR0125']  (40.3s, fallbacks=[])
+run  ST0079 s1 [single_prompt_grounded]
+     -> ['PR0099', 'PR0143', 'PR0189', 'PR0176', 'PR0120']  (52.0s, fallbacks=[])
+run  ST0080 s1 [single_prompt_grounded]
+     -> ['PR0076', 'PR0130', 'PR0114', 'PR0112', 'PR0180']  (58.4s, fallbacks=[])
+run  ST0081 s1 [single_prompt_grounded]
+     -> ['PR0096', 'PR0162', 'PR0148', 'PR0043', 'PR0186']  (53.7s, fallbacks=[])
+run  ST0082 s1 [single_prompt_grounded]
+     -> ['PR0073', 'PR0002', 'PR0085', 'PR0173']  (41.4s, fallbacks=[])
+run  ST0083 s1 [single_prompt_grounded]
+     -> ['PR0101', 'PR0039', 'PR0033', 'PR0158', 'PR0191']  (42.3s, fallbacks=[])
+run  ST0084 s1 [single_prompt_grounded]
+     -> ['PR0185', 'PR0073', 'PR0170', 'PR0119', 'PR0130']  (50.3s, fallbacks=[])
+run  ST0085 s1 [single_prompt_grounded]
+     -> ['PR0181', 'PR0013', 'PR0157', 'PR0166', 'PR0053']  (52.0s, fallbacks=[])
+run  ST0086 s1 [single_prompt_grounded]
+     -> ['PR0021', 'PR0088', 'PR0121', 'PR0022', 'PR0187']  (54.1s, fallbacks=[])
+run  ST0087 s1 [single_prompt_grounded]
+     -> ['PR0186', 'PR0197', 'PR0147', 'PR0032', 'PR0096']  (42.3s, fallbacks=[])
+run  ST0088 s1 [single_prompt_grounded]
+     -> ['PR0186', 'PR0058', 'PR0039', 'PR0191', 'PR0101']  (52.9s, fallbacks=[])
+run  ST0089 s1 [single_prompt_grounded]
+     -> ['PR0114', 'PR0082', 'PR0157', 'PR0193', 'PR0066']  (43.9s, fallbacks=[])
+run  ST0090 s1 [single_prompt_grounded]
+     -> ['PR0034', 'PR0110', 'PR0000', 'PR0124', 'PR0195']  (49.4s, fallbacks=[])
+run  ST0091 s1 [single_prompt_grounded]
+     -> ['PR0042', 'PR0001', 'PR0194', 'PR0005', 'PR0127']  (46.9s, fallbacks=[])
+run  ST0092 s1 [single_prompt_grounded]
+     -> ['PR0176', 'PR0186', 'PR0007', 'PR0119', 'PR0101']  (50.7s, fallbacks=[])
+run  ST0093 s1 [single_prompt_grounded]
+     -> ['PR0139', 'PR0144', 'PR0198', 'PR0186', 'PR0058']  (56.3s, fallbacks=[])
+run  ST0094 s1 [single_prompt_grounded]
+     -> ['PR0096', 'PR0167', 'PR0076', 'PR0196', 'PR0159']  (44.7s, fallbacks=[])
+run  ST0095 s1 [single_prompt_grounded]
+     -> ['PR0196', 'PR0167', 'PR0119', 'PR0176', 'PR0130']  (42.5s, fallbacks=[])
+run  ST0096 s1 [single_prompt_grounded]
+     -> ['PR0151', 'PR0072', 'PR0126', 'PR0007', 'PR0070']  (53.0s, fallbacks=[])
+run  ST0097 s1 [single_prompt_grounded]
+     -> ['PR0166', 'PR0058', 'PR0101', 'PR0033', 'PR0145']  (53.9s, fallbacks=[])
+run  ST0098 s1 [single_prompt_grounded]
+     -> ['PR0194', 'PR0104', 'PR0147', 'PR0182', 'PR0096']  (49.2s, fallbacks=[])
+run  ST0099 s1 [single_prompt_grounded]
+     -> ['PR0180', 'PR0190', 'PR0084', 'PR0181', 'PR0023']  (37.6s, fallbacks=[])
+
+llm stats: {"calls": 98, "cache_hits": 102, "total_latency_s": 8114.641944169998}
+metrics: {
+ "n": 100,
+ "ndcg@5": 0.8312,
+ "precision@5": 0.9257,
+ "recall@5": 0.1585
+}
+[chain] stage=single_prompt_grounded OK
+[chain] stage=judge_single_prompt_grounded_qwen2_5_14b attempt=1 15:21:24
+ST0000_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 3, "invented_claims": [], "justification": "The explanation clearly outlines the relevance of each program to the student's background and goals but could be more useful by providing a clearer comparison between programs and highlighting specific trade-offs in terms of career alignment and financial constraints."}
+ST0001_s1.json {"clarity": 3, "groundedness": 3, "usefulness": 3, "invented_claims": ["This German MCA program is highly recommended because it offers a strong career advantage with an 18-month post-study work visa and the highest median starting salary ($23468) among affordable options."], "justification": "The explanation includes invented claims about comparative salaries and recommendations that are not supported by the provided data fields, while also being somewhat repetitive and lacking clear differentiation between programs."}
+ST0002_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 3, "invented_claims": [], "justification": "The explanation clearly outlines each program's relevance to the student's background and goals but could be more useful by providing a clearer comparison between programs and highlighting trade-offs more explicitly."}
+ST0003_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 4, "invented_claims": [], "justification": "The explanation clearly outlines each program's benefits and aligns them with the student's goals, but it could be more structured to enhance clarity."}
+ST0004_s1.json {"clarity": 3, "groundedness": 4, "usefulness": 2, "invented_claims": ["This program is the most direct match for your stated interest in 'hacking and testing' through its focus on Information Security."], "justification": "The explanation provides mixed clarity with some sentences being confusing. It generally stays grounded but makes an invented claim about a program's alignment with hacking and testing. The usefulness is low as it doesn't clearly differentiate between programs or highlight trade-offs effectively."}
+ST0005_s1.json {"clarity": 3, "groundedness": 2, "usefulness": 2, "invented_claims": ["This program is an excellent choice because it is located in Mumbai, fulfilling your primary location preference.", "Given your interest in IoT, this MTech Computer Networks program is valuable as networking knowledge forms the backbone of most connected systems."], "justification": "The explanation includes invented claims not aligned with the student's constraints and provides inconsistent information across different programs."}
+ST0006_s1.json {"clarity": 4, "groundedness": 2, "usefulness": 3, "invented_claims": ["Given your machine learning background", "it focuses purely on data analytics, moving away from your core interest in system development or security"], "justification": "The explanation includes invented claims about the student's background and interests that are not present in the provided constraints."}
+ST0007_s1.json {"clarity": 4, "groundedness": 3, "usefulness": 3, "invented_claims": ["This program is highly recommended because it directly aligns with your stated interest in security and offers a strong job outlook"], "justification": "The explanation provides clear information but includes an invented claim about the first program being 'highly recommended' despite exceeding budget constraints. It also lacks direct comparison of all programs for comprehensive decision-making."}
+ST0008_s1.json {"clarity": 4, "groundedness": 2, "usefulness": 3, "invented_claims": ["This MSc Human-Computer Interaction program is an excellent match for your UX Designer goal and respects your budget with $1900 USD in annual tuition.", "The main trade-off is that the median starting salary ($13259 USD) might not be significantly higher than other options"], "justification": "Explanation contains invented facts about programs' details, lacks specificity on program IDs and institutions, and does not clearly articulate all constraints or trade-offs."}
+ST0009_s1.json {"clarity": 5, "groundedness": 5, "usefulness": 4, "invented_claims": [], "justification": "The explanation is clear and well-structured, sticking closely to the provided data without introducing new facts. It effectively highlights trade-offs but could be more explicit about how each program aligns with or diverges from the student's career goal of becoming a Network Security Engineer."}
+ST0010_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 3, "invented_claims": [], "justification": "The explanation provides clear and structured information about each program, but it does not fully address the student's interest in cloud computing or provide a balanced view of trade-offs."}
+ST0011_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 3, "invented_claims": [], "justification": "The explanation is clear and well-structured but could be more useful by highlighting trade-offs between programs more explicitly."}
+ST0012_s1.json {"clarity": 3, "groundedness": 5, "usefulness": 2, "invented_claims": [], "justification": "The explanation is somewhat clear but repetitive and lacks specificity in distinguishing between programs. It provides factual claims based on the data but does not effectively highlight unique benefits or trade-offs for each program."}
+ST0013_s1.json {"clarity": 3, "groundedness": 5, "usefulness": 2, "invented_claims": [], "justification": "The explanation provides clear and specific information about each program but does not effectively highlight trade-offs or differences between programs to help the student make a decision."}
+ST0014_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 4, "invented_claims": [], "justification": "The explanation is clear and structured but could be more concise. It is grounded in provided data without invented facts, offering useful insights into trade-offs between location, field relevance, and job outcomes."}
+ST0015_s1.json {"clarity": 3, "groundedness": 3, "usefulness": 2, "invented_claims": ["This option provides the best balance between location preference and career focus", "the main trade-off is that the minimum required grade percentage (82%) is slightly higher than your current academic average of 80%", "it remains highly budget-friendly"], "justification": "The explanation includes invented claims not supported by data, lacks specificity in addressing all constraints, and does not clearly differentiate between programs."}
+ST0016_s1.json {"clarity": 3, "groundedness": 4, "usefulness": 2, "invented_claims": ["The program provides an excellent balance of low cost and high career potential in Germany", "Its focus on Information Systems may be slightly less specialized in core programming compared to dedicated software engineering tracks"], "justification": "Explanation is somewhat clear but repetitive; some claims are not directly supported by the data, such as comparative specialization levels."}
+ST0017_s1.json {"clarity": 3, "groundedness": 4, "usefulness": 2, "invented_claims": ["This MBA Technology Management program in Hyderabad directly aligns with your interest in becoming a CRM Technical Developer and Business Process Analyst"], "justification": "The explanation is somewhat clear but repetitive, and it includes an invented claim about the MBA program's alignment with career goals. It lacks specificity regarding trade-offs between programs."}
+ST0018_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 3, "invented_claims": [], "justification": "The explanation clearly outlines each program's benefits and trade-offs but could be more useful by providing direct comparisons between programs and addressing the student's specific interest in hacking and developer roles."}
+ST0019_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 4, "invented_claims": [], "justification": "The explanation clearly outlines the pros and cons of each program based on provided data but could be more structured to improve clarity."}
+ST0020_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 3, "invented_claims": [], "justification": "The explanation clearly outlines the pros and cons of each program but could improve by providing more context on how these programs align with the student's career goals beyond just technical skills."}
+ST0021_s1.json {"clarity": 3, "groundedness": 2, "usefulness": 2, "invented_claims": ["This program is an excellent fit for your interest in Business Process Analyst roles.", "This MBA Technology Management program perfectly bridges your interest in Business Process Analysis with technical skills like software engineering."], "justification": "The explanation incorrectly attributes benefits to multiple programs and makes claims about the student's interests that are not supported by the constraints provided, leading to low scores across all dimensions."}
+ST0022_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 3, "invented_claims": [], "justification": "The explanation provides clear and specific information about each program but could be more useful by highlighting trade-offs between programs more explicitly."}
+ST0023_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 3, "invented_claims": [], "justification": "The explanation clearly outlines each program's benefits and trade-offs but could be more useful by providing a clearer prioritization of the programs based on the student's constraints."}
+ST0024_s1.json {"clarity": 4, "groundedness": 4, "usefulness": 3, "invented_claims": ["This MTech program offers a strong blend of 'software_engineering' and networking skills"], "justification": "The explanation is generally clear but occasionally vague. It stays grounded to the data provided for the most part but introduces one claim not directly supported by the fields (networking skills). The explanations are somewhat useful, highlighting trade-offs but could be more specific about how each program aligns with career goals."}
+ST0025_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 3, "invented_claims": [], "justification": "The explanation is clear and structured but could be more useful by providing a direct comparison between options and highlighting unique benefits of each program."}
+ST0026_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 3, "invented_claims": [], "justification": "The explanation is clear but repetitive, providing similar structures for each program which can be confusing without differentiation. It is grounded in the data provided and useful by highlighting trade-offs related to career focus and salary potential."}
+ST0027_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 4, "invented_claims": [], "justification": "The explanation clearly outlines each program's benefits and trade-offs but could be more structured to enhance clarity."}
+ST0028_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 3, "invented_claims": [], "justification": "The explanation clearly outlines each program's alignment with the student's goals and constraints but could improve in highlighting nuanced trade-offs between programs."}
+ST0029_s1.json {"clarity": 3, "groundedness": 2, "usefulness": 2, "invented_claims": ["This MSc IT Management program directly addresses your interest in 'IT management'", "The high placement rate of 91% suggests excellent career outcomes upon graduation", "If minimizing costs while studying abroad is the top priority"], "justification": "The explanation makes claims not supported by the data, such as direct alignment with interests and prioritizing cost minimization without confirming it's a student constraint. Additionally, clarity suffers from repetition and lack of specificity."}
+ST0030_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 3, "invented_claims": [], "justification": "The explanation clearly outlines the pros and cons of each program but could be more useful by providing a clearer recommendation based on the student's career goal and constraints."}
+ST0031_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 3, "invented_claims": [], "justification": "The explanation clearly outlines each program's benefits and drawbacks but could be more concise and directly address the student's career goal of becoming a Database Manager."}
+ST0032_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 3, "invented_claims": [], "justification": "The explanation is clear and well-structured but could be more useful by highlighting trade-offs between location and cost/benefit more explicitly."}
+ST0033_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 3, "invented_claims": [], "justification": "The explanation clearly outlines each program's pros and cons but could be more useful by providing a clearer prioritization of the programs based on the student's constraints."}
+ST0034_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 3, "invented_claims": [], "justification": "The explanation provides clear and structured information about each program but could improve in highlighting specific trade-offs between programs more effectively."}
+ST0035_s1.json {"clarity": 4, "groundedness": 3, "usefulness": 2, "invented_claims": ["Given your background in information security certification"], "justification": "The explanation is mostly clear and structured but includes an invented claim about the student's background. It provides some useful comparisons but lacks a direct link to the student's career goal of Database Administrator for most recommendations."}
+ST0036_s1.json {"clarity": 4, "groundedness": 3, "usefulness": 2, "invented_claims": ["If budget is the absolute highest priority, this MSc IT Management program in Coimbatore offers the lowest tuition at only $800 per year"], "justification": "The explanation introduces a claim about budget being the highest priority without evidence from student constraints and recommends programs not listed as top choices."}
+ST0037_s1.json {"clarity": 3, "groundedness": 4, "usefulness": 2, "invented_claims": ["This program in Hyderabad offers a strong salary potential ($14,917) and a solid placement rate (86%), prioritizing your goal of securing good employment. The curriculum focuses on Software Quality Engineering, which is closely related to developer roles."], "justification": "The explanation provides mixed clarity due to its repetitive nature and lack of specific differentiation between programs; it has minor invented claims about the relevance of QA testing to developer roles; usefulness is low as it does not clearly highlight trade-offs or match program specifics with student goals."}
+ST0038_s1.json {"clarity": 3, "groundedness": 2, "usefulness": 2, "invented_claims": ["This MTech Data Engineering program leverages your existing machine learning certification"], "justification": "The explanation introduces a claim about the student's machine learning certification which is not present in their constraints or provided data fields."}
+ST0039_s1.json {"clarity": 3, "groundedness": 2, "usefulness": 2, "invented_claims": ["This program meets all of your strict requirements: it is located in Bengaluru, costs only $900 annually (well within budget), and requires no CS background."], "justification": "The explanation contains invented claims about the second program's alignment with student constraints and makes contradictory statements about which program aligns better with interests while considering budget and location."}
+ST0040_s1.json {"clarity": 2, "groundedness": 1, "usefulness": 1, "invented_claims": ["This program is recommended because it offers the highest placement rate (78%) and a strong median starting salary of $10021 USD, directly addressing your priority for job security.", "This program is the most direct match for your stated interest in 'testing,' as it focuses on Software Quality Engineering."], "justification": "The explanation contains invented claims about specific programs being recommended or matching interests, and lacks clarity by mixing up details across different programs."}
+ST0041_s1.json {"clarity": 2, "groundedness": 1, "usefulness": 2, "invented_claims": ["This program is located in Pune", "The main trade-off here is that while the program is highly relevant, the location (Kolkata) is not your current city of Pune.", "As this program is located in Pune"], "justification": "The explanation contains invented facts about program locations and makes claims not supported by the data."}
+ST0042_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 3, "invented_claims": [], "justification": "The explanation is clear but could be more structured, and it provides useful information about trade-offs between the programs, though it slightly overemphasizes placement rate without considering other factors."}
+ST0043_s1.json {"clarity": 3, "groundedness": 2, "usefulness": 2, "invented_claims": ["This program is highly recommended because it offers a strong balance between career goals and job security.", "Given your background in information security", "If maximizing immediate job outcome is the absolute top priority"], "justification": "The explanation contains invented claims not supported by the student's constraints or provided data, lacks clarity due to mixing up different programs' details, and does not provide a clear comparison between options."}
+ST0044_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 3, "invented_claims": [], "justification": "The explanation clearly outlines each program's benefits and trade-offs but could be more concise and focused on the student's specific career goals."}
+ST0045_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 3, "invented_claims": [], "justification": "The explanation clearly outlines each program's relevance and trade-offs but could be more useful by providing a clear recommendation based on the student's priorities."}
+ST0046_s1.json {"clarity": 3, "groundedness": 3, "usefulness": 2, "invented_claims": ["The MTech program offers a strong combination of networking/cloud skills and software engineering"], "justification": "The explanation is somewhat clear but jumps between programs without proper transitions. It includes invented claims about the second program's focus areas which are not in the data fields. The usefulness is low as it does not clearly compare options or highlight trade-offs."}
+ST0047_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 3, "invented_claims": [], "justification": "The explanation clearly outlines each program's relevance and trade-offs but could be more useful by providing a prioritized list of recommendations based on the student's constraints."}
+ST0048_s1.json {"clarity": 3, "groundedness": 4, "usefulness": 2, "invented_claims": ["admission is straightforward"], "justification": "The explanation provides some clear and relevant information but lacks specificity in trade-offs and includes an invented claim about admission being straightforward."}
+ST0049_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 4, "invented_claims": [], "justification": "The explanation clearly outlines each program's benefits and drawbacks but could be clearer in distinguishing between the programs' specifics."}
+ST0050_s1.json {"clarity": 3, "groundedness": 4, "usefulness": 2, "invented_claims": ["This MSc in Software Quality Engineering is ideal because it matches your interest in programming and system development while being located in Delhi"], "justification": "The explanation mixes details from multiple programs into a single statement without clear differentiation, reducing clarity and groundedness. It also introduces invented claims not supported by the data fields or student constraints."}
+ST0051_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 3, "invented_claims": [], "justification": "The explanation is clear and well-structured but could be more useful by explicitly comparing the programs against each other and highlighting specific trade-offs in a more balanced manner."}
+ST0052_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 4, "invented_claims": [], "justification": "The explanation clearly outlines each program's benefits and trade-offs but could be more structured to enhance clarity."}
+ST0053_s1.json {"clarity": 4, "groundedness": 3, "usefulness": 2, "invented_claims": ["This program is an excellent fit as it is located in Hyderabad, matching your preferred location"], "justification": "The explanation includes invented claims and vague comparisons without clear trade-offs or constraints acknowledgment."}
+ST0054_s1.json {"clarity": 3, "groundedness": 2, "usefulness": 2, "invented_claims": ["This program is a perfect match for your stated interest in hacking and security"], "justification": "The explanation confuses two different programs, mixing details from MSc Software Quality Engineering (PR0114) with MSc Information Security (PR0185), leading to confusion and invented claims."}
+ST0055_s1.json {"clarity": 5, "groundedness": 5, "usefulness": 4, "invented_claims": [], "justification": "The explanation is clear, well-structured, and directly references provided data without invention; however, it could be more explicit about trade-offs between programs."}
+ST0056_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 3, "invented_claims": [], "justification": "The explanation is clear but repetitive, and while grounded in the data, it does not adequately highlight trade-offs or differences between programs to help the student make a decision."}
+ST0057_s1.json {"clarity": 2, "groundedness": 1, "usefulness": 1, "invented_claims": ["Interested in Chennai", "The main trade-off is relocation to Pune"], "justification": "The explanation introduces preferences and constraints not present in the student's data (e.g., interest in Chennai), misrepresents program details, and includes invented claims about trade-offs."}
+ST0058_s1.json {"clarity": 3, "groundedness": 2, "usefulness": 2, "invented_claims": ["This program is ideal for transitioning into a UX Designer role while remaining within budget.", "This program is an excellent match because it focuses on HCI/Design and is located in Bengaluru, matching your current location preference."], "justification": "The explanation includes invented claims not traceable to the provided data or student constraints, and mixes up details about different programs, reducing clarity and usefulness for decision-making."}
+ST0059_s1.json {"clarity": 4, "groundedness": 3, "usefulness": 3, "invented_claims": ["This MTech Data Engineering program directly addresses your interest in data engineering and aligns with your goal of becoming a Data Architect."], "justification": "The explanation is generally clear but contains invented claims and lacks specificity regarding the student's constraints. It also does not consistently highlight trade-offs or provide structured comparisons between programs, reducing its usefulness for decision-making."}
+ST0060_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 3, "invented_claims": [], "justification": "The explanation is clear and well-structured but could be more useful by highlighting trade-offs more explicitly."}
+ST0061_s1.json {"clarity": 2, "groundedness": 3, "usefulness": 2, "invented_claims": ["Given your background in information security certification"], "justification": "The explanation is repetitive and unclear, with invented claims about the student's background not present in the constraints. It also lacks specificity regarding which program each paragraph refers to."}
+ST0062_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 4, "invented_claims": [], "justification": "The explanation clearly outlines each program's benefits and trade-offs but could be more concise and structured for clarity."}
+ST0063_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 3, "invented_claims": [], "justification": "The explanations are clear and specific about each program's strengths and weaknesses relative to the student's interests and budget constraints. However, they could be more useful by providing a clearer comparison between programs and highlighting trade-offs more explicitly."}
+ST0064_s1.json {"clarity": 3, "groundedness": 5, "usefulness": 2, "invented_claims": [], "justification": "The explanation provides clear and specific details about each program but does not effectively highlight trade-offs or prioritize the programs based on the student's constraints."}
+ST0065_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 3, "invented_claims": [], "justification": "The explanations are clear and specific for each program but could be more useful by providing a direct comparison between programs and highlighting the trade-offs in a single coherent explanation."}
+ST0066_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 4, "invented_claims": [], "justification": "The explanation is clear and structured but could be more concise. It accurately reflects the data provided without introducing new facts, offering a balanced view of trade-offs."}
+ST0067_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 3, "invented_claims": [], "justification": "The explanation clearly and accurately describes each program's benefits and trade-offs but does not sufficiently highlight how these programs align with the student's career goal of becoming a Database Developer."}
+ST0068_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 3, "invented_claims": [], "justification": "The explanation provides clear and specific information about each program but could improve in highlighting the trade-offs between programs more effectively."}
+ST0069_s1.json {"clarity": 3, "groundedness": 4, "usefulness": 3, "invented_claims": ["this program directly aligns with your interest in data engineering through its focus on Big Data Analytics"], "justification": "The explanation is somewhat clear but repetitive and occasionally vague. It accurately reflects most of the provided data but makes an invented claim about data engineering alignment."}
+ST0070_s1.json {"clarity": 3, "groundedness": 4, "usefulness": 2, "invented_claims": ["This program is an excellent fit for your goal of becoming a Business Intelligence Analyst"], "justification": "The explanation mixes details from multiple programs into single descriptions and includes invented claims about career fit without evidence from the provided data."}
+ST0071_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 4, "invented_claims": [], "justification": "The explanation clearly outlines the pros and cons of each program but could be more structured to enhance clarity."}
+ST0072_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 3, "invented_claims": [], "justification": "The explanation is clear and well-structured but could improve usefulness by providing more specific trade-offs and budget comparisons between programs."}
+ST0073_s1.json {"clarity": 3, "groundedness": 5, "usefulness": 2, "invented_claims": ["This MBA program in Coimbatore provides a strong business focus through 'business_information_systems,' making it an excellent fit for your BI Analyst goal. It maintains the local convenience you prefer while offering solid job prospects with an 84% placement rate and a median starting salary of $13094 USD. The main trade-off here is that, as an MBA, it may emphasize business strategy over deep technical coding skills compared to pure engineering degrees."], "justification": "The explanation for the MBA program in Coimbatore includes invented claims about emphasizing business strategy over technical coding skills, which are not supported by the provided data fields. The clarity and usefulness of the explanations vary widely across different programs, with some being repetitive or unclear in distinguishing between options."}
+ST0074_s1.json {"clarity": 3, "groundedness": 4, "usefulness": 2, "invented_claims": ["This program offers the best combination of affordability and job prospects for your career goals.", "While the focus is on IT Management rather than pure coding, this field aligns perfectly with general tech career goals."], "justification": "The explanation includes invented claims not traceable to provided data or student constraints, lacks specificity in connecting programs directly to student's career goal of parallel computing and system development, and does not clearly articulate trade-offs between options."}
+ST0075_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 3, "invented_claims": [], "justification": "The explanation clearly outlines each program's strengths and weaknesses but could be more concise and directly address how each aligns with the student's goal of becoming an E-Commerce Analyst."}
+ST0076_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 4, "invented_claims": [], "justification": "The explanation clearly outlines each program's strengths and weaknesses in relation to the student's constraints but could be more structured for clarity."}
+ST0077_s1.json {"clarity": 3, "groundedness": 4, "usefulness": 2, "invented_claims": ["This program is highly recommended due to its exceptional cost-effectiveness and strong job prospects"], "justification": "The explanation provides mixed clarity with some sentences being repetitive or unclear. It generally stays grounded but introduces a recommendation without clear criteria. The usefulness is limited as it does not provide a coherent comparison across programs."}
+ST0078_s1.json {"clarity": 3, "groundedness": 4, "usefulness": 2, "invented_claims": ["While focused on Software Quality Engineering, its strong job outcomes align perfectly with your priority of securing good employment after graduation."], "justification": "The explanation is somewhat clear but repetitive and includes an invented claim. It touches on the placement rate and salary but lacks detailed comparisons between programs and does not adequately address trade-offs or constraints beyond tuition cost."}
+ST0079_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 4, "invented_claims": [], "justification": "The explanation clearly and accurately describes each program's relevance to the student's background and goals, but could be more concise and structured."}
+ST0080_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 4, "invented_claims": [], "justification": "The explanation clearly outlines each program's benefits and trade-offs but could be more concise and structured for clarity."}
+ST0081_s1.json {"clarity": 3, "groundedness": 4, "usefulness": 2, "invented_claims": ["This MTech program in Coimbatore offers a strong blend of 'cybersecurity' and networking/cloud skills"], "justification": "The explanation is somewhat clear but repetitive and occasionally vague. It references data from the provided programs accurately for the most part, though it incorrectly attributes cybersecurity focus to one program that does not explicitly list it. The usefulness suffers because while it provides tuition details and grade requirements, it lacks comparative analysis of placement rates and median starting salaries which are crucial for decision-making."}
+ST0082_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 4, "invented_claims": [], "justification": "The explanation is clear and structured but could be more specific about the alignment of each program with the student's career goal in technical engineering. It does not mention the student's Shell programming certification background or how it fits into their decision-making process."}
+ST0083_s1.json {"clarity": 3, "groundedness": 2, "usefulness": 2, "invented_claims": ["This program directly addresses your goal of becoming in Design & UX by offering 'design_hci' (Human-Computer Interaction).", "This MBA Business Analytics program is an excellent match for your interest in Business Process Analyst roles"], "justification": "The explanation mixes details about different programs and introduces claims not aligned with the student's constraints, leading to low clarity, groundedness, and usefulness."}
+ST0084_s1.json {"clarity": 3, "groundedness": 2, "usefulness": 2, "invented_claims": ["you are interested in developer roles", "this specialized cybersecurity track will enhance your existing IT/CS background"], "justification": "The explanation introduces new facts not aligned with the student's constraints and is inconsistent across different programs."}
+ST0085_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 3, "invented_claims": [], "justification": "The explanation is clear and well-structured but could be more useful by providing a direct comparison between the programs and highlighting specific trade-offs in detail."}
+ST0086_s1.json {"clarity": 3, "groundedness": 5, "usefulness": 2, "invented_claims": [], "justification": "The explanation provides clear information but mixes up the programs and their details, leading to a lack of usefulness for decision-making."}
+ST0087_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 3, "invented_claims": [], "justification": "The explanation clearly and accurately reflects the provided data but could improve by explicitly discussing trade-offs between tuition cost, location, and career prospects more thoroughly."}
+ST0088_s1.json {"clarity": 3, "groundedness": 5, "usefulness": 2, "invented_claims": [], "justification": "The explanation provides clear and specific information about each program's relevance to the student's background and career goals, but it lacks clarity in distinguishing between programs and does not adequately highlight trade-offs or provide comparative analysis."}
+ST0089_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 3, "invented_claims": [], "justification": "The explanation clearly outlines each program's pros and cons related to the student\u2019s constraints but lacks depth in discussing how these programs align with career goals or other factors that could influence decision-making."}
+ST0090_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 3, "invented_claims": [], "justification": "The explanation clearly outlines each program's relevance to the student's interests and budget constraints but could improve by providing more detailed trade-offs between programs."}
+ST0091_s1.json {"clarity": 3, "groundedness": 2, "usefulness": 1, "invented_claims": ["This program offers an excellent combination of low cost and high relevance", "it is extremely budget-friendly"], "justification": "The explanation mixes up details from different programs, making it confusing and inaccurate. It also introduces invented claims not supported by the data."}
+ST0092_s1.json {"clarity": 3, "groundedness": 2, "usefulness": 2, "invented_claims": ["The MBA Technology Management program covers 'networking_cloud' and 'software_engineering'", "The MBA Technology Management program focuses on deep technical development or computer architecture"], "justification": "The explanation contains factual errors about the MBA Technology Management program's focus and invented claims. It also lacks clear distinctions between programs, making it less useful for decision-making."}
+ST0093_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 4, "invented_claims": [], "justification": "The explanation is clear and well-structured but could be more specific about location preferences and the trade-offs between different programs' focus areas."}
+ST0094_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 3, "invented_claims": [], "justification": "The explanation clearly outlines each program's relevance and trade-offs but could be more useful by providing a clearer prioritization of programs based on the student's career goal."}
+ST0095_s1.json {"clarity": 5, "groundedness": 5, "usefulness": 4, "invented_claims": [], "justification": "The explanation clearly outlines each program's alignment with the student's goals and constraints, providing a balanced view of pros and cons."}
+ST0096_s1.json {"clarity": 3, "groundedness": 3, "usefulness": 2, "invented_claims": ["This option perfectly aligns with your location preference in Pune"], "justification": "The explanation is somewhat clear but repetitive and occasionally vague. It includes a claim about the student's location preference which does not exist in their constraints."}
+ST0097_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 3, "invented_claims": [], "justification": "The explanation provides clear and structured information about each program, but it could be more useful by explicitly comparing programs against each other and highlighting unique benefits or drawbacks of each option."}
+ST0098_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 3, "invented_claims": [], "justification": "The explanation is clear and well-structured, directly referencing the provided program data without introducing new facts. However, it could be more useful by explicitly comparing programs against each other and discussing salary differences in detail."}
+ST0099_s1.json {"clarity": 4, "groundedness": 3, "usefulness": 2, "invented_claims": ["The MSc Human-Computer Interaction program is an excellent choice if you want to prioritize budget while remaining in a technical field.", "This option offers the lowest tuition fee ($850) while still providing a technical degree in Human-Computer Interaction."], "justification": "The explanation provides mixed clarity and usefulness, with some invented claims that reduce groundedness."}
+summary: {"clarity": 3.61, "groundedness": 4.11, "usefulness": 2.74} -> runs_h1/single_prompt_grounded/judge_qwen2.5_14b.json
+[chain] stage=judge_single_prompt_grounded_qwen2_5_14b OK
+[chain] stage=judge_single_prompt_grounded_mistral-nemo_12b attempt=1 15:39:36
+ST0000_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 3, "invented_claims": [], "justification": "The explanation clearly outlines the key aspects of each recommended program, including location, tuition fees, requirements, and trade-offs. It also connects these aspects to the student's constraints and career goals."}
+ST0001_s1.json {"clarity": 4, "groundedness": 3, "usefulness": 4, "invented_claims": ["The potential for high job placement makes this a top choice for career growth.", "This offers significant international career potential."], "justification": "While the explanation uses data from the recommended programs, it includes invented claims about career growth and international career potential that are not traceable to any specific field or constraint."}
+ST0002_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 3, "invented_claims": [], "justification": "The explanations are well-structured and readable, providing specific details about each program. They accurately reflect the student's constraints and the programs' data fields."}
+ST0003_s1.json {"clarity": 4, "groundedness": 4, "usefulness": 3, "invented_claims": [], "justification": "The explanation is well-structured and readable, providing specific details about each program. It accurately uses data from the provided programs' fields to support its claims."}
+ST0004_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 4, "invented_claims": [], "justification": "All claims are traceable to the provided program fields or student's constraints."}
+ST0005_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 3, "invented_claims": [], "justification": "The explanation is well-structured and readable, providing specific details about each program. It accurately uses information from the student's constraints object and the recommended programs' data fields."}
+ST0006_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 4, "invented_claims": [], "justification": "The explanation clearly outlines the key aspects of each recommended program, including tuition fees, location, requirements, and trade-offs, all of which are traceable to the provided program fields or student's constraints."}
+ST0007_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 4, "invented_claims": [], "justification": "The explanation clearly outlines the trade-offs for each program, using specific figures from the student's constraints and the programs' data fields."}
+ST0008_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 4, "invented_claims": [], "justification": "The explanation is well-structured and readable, providing specific details about each program's alignment with the student's constraints. It honestly names trade-offs and helps the student decide."}
+ST0009_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 3, "invented_claims": [], "justification": "The explanation is well-structured and readable, providing specific details about each program's alignment with the student's constraints and career goals. All factual claims are traceable to the provided program fields or the student's constraints."}
+ST0010_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 4, "invented_claims": [], "justification": "The explanation clearly outlines the key aspects of each program, their trade-offs, and how they relate to the student's constraints. It uses specific data points from the programs' fields and the student's constraint object."}
+ST0011_s1.json {"clarity": 4, "groundedness": 3, "usefulness": 4, "invented_claims": ["'reasonable alternative to Pune'", "'low-risk option'", "'strong alternative if the Pune options do not work out'"], "justification": "While the explanation is generally clear and useful, it contains invented claims that are not traceable to the provided program fields or student's constraints."}
+ST0012_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 4, "invented_claims": [], "justification": "The explanation clearly outlines each program's strengths and weaknesses, using specific data from the provided programs' fields. It also directly addresses the student's constraints and career goals."}
+ST0013_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 4, "invented_claims": [], "justification": "The explanation is well-structured and readable, providing specific details about each program's fit with the student's constraints. It honestly names trade-offs and uses factual claims traceable to the provided program fields or the student's constraints."}
+ST0014_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 4, "invented_claims": [], "justification": "The explanation clearly outlines the pros and cons of each program, using specific data points from the provided programs' fields."}
+ST0015_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 4, "invented_claims": [], "justification": "The explanation clearly outlines each program's strengths, weaknesses, and trade-offs based on the student's constraints."}
+ST0016_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 4, "invented_claims": [], "justification": "The explanation is well-structured, specific, and readable, providing clear trade-offs for each program. It accurately uses data from the recommended programs' fields."}
+ST0017_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 3, "invented_claims": [], "justification": "The explanation is well-structured and readable, providing specific details about each recommended program. It accurately uses data from the student's constraint object and the programs' data fields."}
+ST0018_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 3, "invented_claims": [], "justification": "The explanation clearly outlines the key features of each program, using specific data points from the provided fields. However, it could be more structured for easier comparison."}
+ST0019_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 4, "invented_claims": [], "justification": "The explanation clearly presents the key facts about each program, highlighting their strengths and trade-offs based on the student's constraints."}
+ST0020_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 4, "invented_claims": [], "justification": "The explanation clearly outlines the key aspects of each program, including tuition fees, academic requirements, placement rates, and median starting salaries. It also highlights trade-offs for each option."}
+ST0021_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 3, "invented_claims": [], "justification": "The explanation is well-structured and readable, providing specific details about each program's relevance to the student's goals and constraints. All factual claims are traceable to the provided program fields or the student's constraints."}
+ST0022_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 3, "invented_claims": [], "justification": "The explanation clearly outlines the key features of each program and how they align with the student's constraints. However, it could provide more information on trade-offs to improve usefulness."}
+ST0023_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 4, "invented_claims": [], "justification": "The explanation clearly outlines the key aspects of each recommended program, including tuition fees, career prospects, visa benefits, and trade-offs. It accurately uses data from the provided programs' fields."}
+ST0024_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 3, "invented_claims": [], "justification": "The explanations are well-structured, specific, and readable. They accurately reflect the student's constraints and the programs' data fields."}
+ST0025_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 3, "invented_claims": [], "justification": "The explanation clearly outlines each program's strengths and trade-offs, using specific data points from the provided programs. However, it could be more concise and structured for better readability."}
+ST0026_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 3, "invented_claims": [], "justification": "The explanations clearly outline the key aspects of each program, including placement rates, median salaries, and trade-offs. However, they do not explicitly mention the student's budget constraint or location preference."}
+ST0027_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 4, "invented_claims": [], "justification": "The explanation is well-structured and readable, providing specific details about each program's tuition, salary, placement rate, visa duration, and trade-offs. It accurately reflects the student's constraints and the programs' data fields."}
+ST0028_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 4, "invented_claims": [], "justification": "The explanation is well-structured and readable, providing specific details about each recommended program. It accurately uses data from the provided programs' fields to make its points."}
+ST0029_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 3, "invented_claims": [], "justification": "The explanation is well-structured and readable, providing specific details about each program. It accurately uses data from the recommended programs' fields and student's constraints."}
+ST0030_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 4, "invented_claims": [], "justification": "The explanation is well-structured, readable, and specific to the student's constraints. It accurately uses data from the recommended programs."}
+ST0031_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 4, "invented_claims": [], "justification": "The explanation clearly outlines each program's strengths and trade-offs, using accurate data from the provided programs. It also directly addresses the student's constraints."}
+ST0032_s1.json {"clarity": 4, "groundedness": 3, "usefulness": 4, "invented_claims": [], "justification": "The explanation is well-structured and readable, providing specific details about each program. However, it lacks information about the student's uncertainty notes and employs some subjective phrases like 'ideal' and 'excellent'."}
+ST0033_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 4, "invented_claims": [], "justification": "The explanation clearly outlines each program's strengths and weaknesses, using specific data points from the provided programs' fields."}
+ST0034_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 4, "invented_claims": [], "justification": "The explanation clearly outlines each program's alignment with the student's interests and constraints, using specific data points from the recommended programs."}
+ST0035_s1.json {"clarity": 4, "groundedness": 3, "usefulness": 4, "invented_claims": ["Given your background in information security certification"], "justification": "The explanation accurately presents the programs' details but introduces an unsupported claim about the student's background."}
+ST0036_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 3, "invented_claims": [], "justification": "The explanation clearly presents the programs' alignment with the student's constraints, using specific data points from both the student's profile and the program details. However, it lacks a clear ranking or prioritization of options based on the student's career goal, which makes it less useful for decision-making."}
+ST0037_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 3, "invented_claims": [], "justification": "The explanation is well-structured and readable, providing specific details about each program. It accurately uses information from the student's constraints and the recommended programs' data fields."}
+ST0038_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 4, "invented_claims": [], "justification": "The explanation clearly outlines the alignment between each program and the student's constraints, using specific data points from both the student's profile and the recommended programs."}
+ST0039_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 4, "invented_claims": [], "justification": "The explanation clearly outlines the programs' features that match the student's constraints and interests, using specific data from the recommended programs. It also honestly presents trade-offs."}
+ST0040_s1.json {"clarity": 4, "groundedness": 3, "usefulness": 4, "invented_claims": ["big data skills are highly relevant to IoT applications"], "justification": "The explanation is well-structured and readable, but it contains one invented claim. It honestly names trade-offs and helps the student decide."}
+ST0041_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 4, "invented_claims": [], "justification": "The explanation clearly outlines the key features of each program, their relevance to the student's interests and career goals, and the trade-offs involved. It uses specific data points from the recommended programs' fields and the student's constraints."}
+ST0042_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 4, "invented_claims": [], "justification": "The explanation clearly outlines the strengths and trade-offs of each program, using specific data points from the recommended programs' fields."}
+ST0043_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 4, "invented_claims": [], "justification": "The explanation clearly outlines each program's strengths and trade-offs, using specific data points from the provided programs' fields."}
+ST0044_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 4, "invented_claims": [], "justification": "The explanation clearly outlines the program details, aligns them with student constraints, and presents trade-offs. It is well-structured and readable."}
+ST0045_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 4, "invented_claims": [], "justification": "The explanation clearly presents each program's alignment with the student's constraints and interests, using specific data points from the provided program fields. It also honestly names trade-offs for each option."}
+ST0046_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 4, "invented_claims": [], "justification": "The explanation is well-structured and readable, providing specific details about each recommended program. It accurately uses information from the student's constraints object and the programs' data fields."}
+ST0047_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 4, "invented_claims": [], "justification": "The explanation clearly outlines each program's strengths and weaknesses based on the student's constraints, using specific data points from the provided programs."}
+ST0048_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 4, "invented_claims": [], "justification": "The explanation is well-structured and readable, providing specific details about each program's alignment with the student's constraints and career goals. It accurately uses data from the provided programs' fields and the student's constraint object."}
+ST0049_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 4, "invented_claims": [], "justification": "The explanation clearly outlines the trade-offs and benefits of each program, using specific data points from the provided programs' fields."}
+ST0050_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 3, "invented_claims": [], "justification": "The explanation is well-structured and readable, providing specific details about each recommended program. It accurately uses data from the provided programs' fields to make its points."}
+ST0051_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 4, "invented_claims": [], "justification": "The explanation is well-structured and specific, providing clear trade-offs for each program based on the student's constraints."}
+ST0052_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 4, "invented_claims": [], "justification": "The explanation is well-structured, readable, and specific to the student's constraints. It accurately uses data from the recommended programs."}
+ST0053_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 4, "invented_claims": [], "justification": "The explanation clearly presents each program's advantages and trade-offs, using specific details from the student's constraints and the programs' data fields."}
+ST0054_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 3, "invented_claims": [], "justification": "The explanation is well-structured and readable, providing specific details about each program's relevance to the student's constraints. It accurately uses data from the recommended programs' fields."}
+ST0055_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 4, "invented_claims": [], "justification": "The explanation clearly outlines each program's strengths and weaknesses, using specific data points from the provided programs' fields."}
+ST0056_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 3, "invented_claims": [], "justification": "The explanation is well-structured with clear comparisons between programs, but the usefulness score is lower because it doesn't explicitly address the student's career goal of 'Web Developer' and how each program aligns with that."}
+ST0057_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 4, "invented_claims": [], "justification": "The explanation clearly outlines the key aspects of each program, including tuition fees, required grades, and career relevance. It also honestly names trade-offs such as location or salary."}
+ST0058_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 4, "invented_claims": [], "justification": "The explanation clearly outlines the key features of each program, their alignment with the student's constraints and career goals, and the trade-offs involved. All factual claims are traceable to the provided program fields."}
+ST0059_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 4, "invented_claims": [], "justification": "The explanation clearly outlines the key features of each recommended program, including tuition fees, placement rates, median starting salaries, and relevant fields of study. It also accurately highlights trade-offs for each option based on the student's constraints."}
+ST0060_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 3, "invented_claims": [], "justification": "The explanations are well-structured and specific, using data from the recommended programs to make points about tuition fees, placement rates, salaries, location, and trade-offs. However, while they do mention some drawbacks, they could provide more balanced comparisons between all options."}
+ST0061_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 4, "invented_claims": [], "justification": "The explanation clearly outlines the trade-offs and benefits of each program based on the student's constraints, using specific data points from the provided programs."}
+ST0062_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 4, "invented_claims": [], "justification": "The explanation is well-structured and readable, providing specific details about each program's fit with the student's constraints. It accurately uses data from the provided programs' fields."}
+ST0063_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 4, "invented_claims": [], "justification": "The explanation is well-structured with clear trade-offs mentioned, but it could be more specific about the student's career goals for better usefulness."}
+ST0064_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 3, "invented_claims": [], "justification": "The explanation clearly presents each program's strengths and trade-offs, using specific data points from the provided programs. However, it could be more concise and structured for better readability."}
+ST0065_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 4, "invented_claims": [], "justification": "The explanation clearly outlines the trade-offs for each program, using specific data points from the provided programs' fields."}
+ST0066_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 4, "invented_claims": [], "justification": "The explanation clearly outlines the pros and cons of each program, using specific data points from the provided programs. It also acknowledges trade-offs and aligns recommendations with the student's constraints."}
+ST0067_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 4, "invented_claims": [], "justification": "The explanation clearly outlines the trade-offs and benefits of each program, using specific data points from the provided programs' fields."}
+ST0068_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 4, "invented_claims": [], "justification": "The explanation clearly outlines each program's alignment with the student's goals and constraints, using specific data points from the recommended programs. It honestly names trade-offs for each option."}
+ST0069_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 4, "invented_claims": [], "justification": "The explanation clearly outlines the alignment of each program with the student's constraints and career interests, using specific data points from the provided programs."}
+ST0070_s1.json {"clarity": 4, "groundedness": 3, "usefulness": 4, "invented_claims": ["The median starting salary of $15192 makes this a top choice for job prospects", "It maintains a high placement rate of 85% and offers a strong median starting salary of $15394.", "While its location in Chennai is a trade-off from your preference for Pune, the superior job prospects and high earning potential make it an extremely valuable consideration."], "justification": "The explanation provides clear information about each program's alignment with the student's constraints but includes invented claims about job prospects and salary competitiveness that are not traceable to the provided data fields."}
+ST0071_s1.json {"clarity": 4, "groundedness": 4, "usefulness": 5, "invented_claims": [], "justification": "The explanation clearly outlines the trade-offs for each program, using specific data points from the provided fields. It also addresses the student's constraints and career goals."}
+ST0072_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 4, "invented_claims": [], "justification": "The explanation is well-structured, readable, and specific to the student's constraints. It accurately reflects the program fields, tuition costs, location, and career relevance from the provided data."}
+ST0073_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 3, "invented_claims": [], "justification": "The explanation clearly outlines each program's alignment with the student's career goal, location preference, and budget constraint using accurate data from the provided programs. However, it could provide more specific details about how each program aligns with the student's interest in Software Engineering and cloud computing."}
+ST0074_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 3, "invented_claims": [], "justification": "The explanation is well-structured and readable, providing specific details about each program's tuition, placement rates, salaries, visa durations, and trade-offs. All factual claims are traceable to the provided program fields or the student's constraints."}
+ST0075_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 4, "invented_claims": [], "justification": "The explanation clearly outlines the key aspects of each program and how they align with the student's constraints and goals. It also accurately uses data from the provided programs to make its points."}
+ST0076_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 4, "invented_claims": [], "justification": "The explanation clearly outlines the trade-offs and benefits of each program, using specific data points from the provided programs' fields."}
+ST0077_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 3, "invented_claims": [], "justification": "The explanations are well-structured, specific, and traceable to the provided program fields or student's constraints. However, they could provide more information on career goals alignment."}
+ST0078_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 3, "invented_claims": [], "justification": "The explanation is well-structured and readable, providing specific details about each program. It accurately uses data from the recommended programs' fields to make its points."}
+ST0079_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 4, "invented_claims": [], "justification": "The explanation clearly outlines the alignment of each program with the student's career goal and academic background, using specific details from both the student's constraints and the recommended programs' data fields. It also honestly names trade-offs, such as location preference or tuition cost."}
+ST0080_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 4, "invented_claims": [], "justification": "The explanation is well-structured and readable, providing specific details about each program's alignment with the student's constraints. It honestly names trade-offs and uses accurate data from the provided programs."}
+ST0081_s1.json {"clarity": 4, "groundedness": 3, "usefulness": 4, "invented_claims": ["The program offers a strong foundation for becoming a Network Security Administrator."], "justification": "While the explanation is well-structured and clear, it contains an invented claim about the program's ability to prepare students for a specific career role. The groundedness score is reduced due to this invention."}
+ST0082_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 4, "invented_claims": [], "justification": "The explanation clearly outlines the key features of each program, their alignment with the student's constraints and career goals, and the trade-offs involved. It is well-structured and specific."}
+ST0083_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 4, "invented_claims": [], "justification": "The explanation is well-structured and readable, providing specific details about each recommended program. It accurately uses information from the student's constraints object and the programs' data fields to make recommendations."}
+ST0084_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 3, "invented_claims": [], "justification": "The explanation clearly outlines each program's alignment with the student's goals and constraints, using facts traceable to the provided data. However, it could provide more specific trade-offs for better decision-making."}
+ST0085_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 4, "invented_claims": [], "justification": "The explanation is well-structured and specific, providing clear trade-offs for each program based on the student's constraints. It accurately uses data from the recommended programs."}
+ST0086_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 4, "invented_claims": [], "justification": "The explanation clearly outlines the key features of each program and how they align with the student's constraints, using specific data points from the programs' fields."}
+ST0087_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 3, "invented_claims": [], "justification": "The explanation is well-structured and readable, providing specific details about each program's alignment with the student's constraints. It also honestly names trade-offs."}
+ST0088_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 3, "invented_claims": [], "justification": "The explanation clearly outlines the key aspects of each program, including their relevance to the student's career goal and academic background. It also mentions tuition fees and job placement prospects. However, it does not explicitly mention the location constraint or discuss trade-offs in detail."}
+ST0089_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 4, "invented_claims": [], "justification": "The explanation is well-structured and readable, providing specific details about each program's fit with the student's constraints. It honestly names trade-offs and uses facts traceable to the provided program fields or student's constraints."}
+ST0090_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 4, "invented_claims": [], "justification": "The explanation is well-structured, readable, and specific to the student's constraints. It accurately uses data from the recommended programs and does not include any invented facts."}
+ST0091_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 3, "invented_claims": [], "justification": "The explanation is well-structured and readable, providing specific details about each program's alignment with the student's goals and constraints. All factual claims are traceable to the provided program fields or the student's constraints."}
+ST0092_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 4, "invented_claims": [], "justification": "The explanation clearly outlines the key aspects of each program, their relevance to the student's constraints and career goals, and the trade-offs involved. It is well-structured and specific."}
+ST0093_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 4, "invented_claims": [], "justification": "All statements are traceable to the provided program fields or student's constraints."}
+ST0094_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 4, "invented_claims": [], "justification": "The explanation clearly outlines the alignment of each program with the student's constraints and career goal, using specific data points from the provided programs. It also honestly names trade-offs for each option."}
+ST0095_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 4, "invented_claims": [], "justification": "The explanation clearly outlines each program's alignment with the student's constraints and career goals, using specific data points from the recommended programs. It also honestly names trade-offs for each option."}
+ST0096_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 3, "invented_claims": [], "justification": "The explanations are well-structured and specific, providing clear trade-offs for each program. They accurately reflect the student's constraints and the programs' data fields."}
+ST0097_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 4, "invented_claims": [], "justification": "The explanation is well-structured and readable, providing specific details about each program's relevance to the student's constraints. It honestly names trade-offs and uses factual information from the provided programs' data fields."}
+ST0098_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 4, "invented_claims": [], "justification": "The explanation is well-structured and specific, providing clear trade-offs and benefits for each program based on the student's constraints. All factual claims are traceable to the provided program fields."}
+ST0099_s1.json {"clarity": 4, "groundedness": 5, "usefulness": 3, "invented_claims": [], "justification": "The explanation is well-structured and readable, providing specific details about each program's alignment with the student's constraints. It honestly names trade-offs for each recommendation."}
+summary: {"clarity": 4.0, "groundedness": 4.84, "usefulness": 3.71} -> runs_h1/single_prompt_grounded/judge_mistral-nemo_12b.json
+[chain] stage=judge_single_prompt_grounded_mistral-nemo_12b OK
+ALL_GROUNDED_ABLATION_DONE

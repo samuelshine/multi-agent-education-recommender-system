@@ -1,0 +1,55 @@
+{
+ "student_id": "ST0001",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a app development certification background. My overall academic average is 75.3% in an IT/computer-science degree. I'm interested in data engineering and testing. Honestly I'm not fully sure what I want to become \u2014 something in tech. My family can afford at most about USD 3200 per year. I live in Kolkata. I'm open to going abroad. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 75.3
+  },
+  "career_goal": null,
+  "budget_max_usd_per_year": 3200,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in data engineering and testing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0198",
+  "PR0058",
+  "PR0053",
+  "PR0126",
+  "PR0026",
+  "PR0065",
+  "PR0019",
+  "PR0090",
+  "PR0145",
+  "PR0107",
+  "PR0008",
+  "PR0063",
+  "PR0142",
+  "PR0082",
+  "PR0052",
+  "PR0085",
+  "PR0173",
+  "PR0071",
+  "PR0051",
+  "PR0037"
+ ],
+ "final_shortlist": [
+  "PR0126",
+  "PR0037",
+  "PR0053",
+  "PR0071",
+  "PR0065"
+ ],
+ "explanation": "This German MCA program is highly recommended because it offers a strong career advantage with an 18-month post-study work visa and the highest median starting salary ($23468) among affordable options. The tuition of $2050 falls within your family's budget, and while you must meet the required CS background, the potential for high job placement makes this a top choice for career growth.\n\nThis German MCA program is an excellent alternative abroad, boasting a median starting salary of $34339 and providing an 18-month post-study work visa. At $2650 annually, the tuition remains within your budget constraint. Since you are open to going abroad and job outcome is paramount, this offers significant international career potential.\n\nFor a strong option in India focusing on testing, the MSc Software Quality Engineering at Cavendish University is ideal. It aligns perfectly with your interest in testing (QA) and has an excellent placement rate of 86%. Furthermore, its low annual tuition of $1200 keeps it well within your financial limits.\n\nIf data engineering is your primary interest, this MTech Data Engineering program at Longford Institute of Applied Sciences is a direct match. It has an affordable tuition cost of $1300 and focuses on the 'data_science_analytics' field you are interested in. This option provides specialized training while respecting your budget.\n\nThis MSc Software Quality Engineering program is a solid choice if testing remains a focus and you prefer staying in India. It has a good placement rate of 80% and an affordable tuition fee of $2450. This option directly utilizes your interest in QA/testing while maintaining financial feasibility.",
+ "wall_s": 0.0
+}

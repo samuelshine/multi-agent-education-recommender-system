@@ -1,0 +1,56 @@
+{
+ "student_id": "ST0034",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 74.6% in an IT/computer-science degree. I'm interested in hacking and Business process analyst. I want to become a Database Manager. My family can afford at most about USD 2400 per year. I live in Pune. I'm open to anywhere in India.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 74.6
+  },
+  "career_goal": "Database Manager",
+  "budget_max_usd_per_year": 2400,
+  "location_preference": "Pune",
+  "mobility": "prefers_region",
+  "employability_priority": null,
+  "other_constraints": [
+   "interested in hacking",
+   "interested in Business process analyst"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0033",
+  "PR0074",
+  "PR0087",
+  "PR0101",
+  "PR0143",
+  "PR0058",
+  "PR0007",
+  "PR0054",
+  "PR0120",
+  "PR0170",
+  "PR0015",
+  "PR0020",
+  "PR0145",
+  "PR0157",
+  "PR0107",
+  "PR0047",
+  "PR0111",
+  "PR0134",
+  "PR0172",
+  "PR0129"
+ ],
+ "final_shortlist": [
+  "PR0172",
+  "PR0015",
+  "PR0058",
+  "PR0111",
+  "PR0020"
+ ],
+ "explanation": "This program is highly recommended because it aligns perfectly with your interest in business process analysis and database management through its focus on IT Management. Since you are based in Pune, this option offers the convenience of staying local while pursuing a relevant degree. The annual tuition of USD 2250 fits within your family's budget constraint. The main trade-off here is that the median starting salary (USD 8654) is relatively modest compared to some other options.\n\nThis MSc Information Systems program is an excellent fit for your goal of becoming a Database Manager and aligns with business process analysis. It requires no CS background, which suits your current academic profile, and the annual tuition of USD 1200 is very affordable. While it is located in Bengaluru rather than Pune, this location offers access to major tech industry opportunities. The trade-off is that its placement rate (78%) is not the highest among the listed programs.\n\nThe MCA program provides a strong technical foundation in data science and software engineering, which complements your information security background. Crucially, your academic average of 74.6% meets the minimum grade requirement (74%), making this an ideal match for your current standing. The tuition is affordable at USD 1350, but you must meet the prerequisite of having a CS background. The trade-off is that it requires a more technical commitment than pure business analysis programs.\n\nIf your primary focus is becoming a Database Manager using data skills, this MSc Data Science program offers the lowest tuition cost at USD 900. It requires no CS background and has an acceptable placement rate of 71%. This makes it highly budget-friendly while still providing core data science analytics knowledge. The main trade-off is that its median starting salary (USD 9179) is among the lower end of the recommendations.\n\nThis MBA Business Analytics program directly addresses your interest in business process analysis and requires no CS background. With an annual tuition of USD 1450, it is highly budget-friendly while offering valuable business information systems knowledge. Although located in Delhi, the low cost makes it a strong contender. The trade-off compared to PR0172 is that this program does not offer the local convenience benefit you might prefer.",
+ "wall_s": 60.1
+}

@@ -1,0 +1,42 @@
+{
+ "student_id": "ST0043",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 77.3% in an IT/computer-science degree. I'm interested in Computer Architecture and cloud computing. I want to become a Data Architect. My family can afford at most about USD 2100 per year. I live in Bengaluru. I cannot leave my city. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 77.3
+  },
+  "career_goal": "Data Architect",
+  "budget_max_usd_per_year": 2100,
+  "location_preference": "Bengaluru",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in Computer Architecture and cloud computing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0173",
+  "PR0087",
+  "PR0015",
+  "PR0073",
+  "PR0002",
+  "PR0013",
+  "PR0085"
+ ],
+ "final_shortlist": [
+  "PR0015",
+  "PR0073",
+  "PR0002",
+  "PR0173",
+  "PR0087"
+ ],
+ "explanation": "This program is highly recommended because it offers a strong balance between career goals and job security. With a high placement rate of 78% and a median starting salary of $9707, it strongly addresses your priority of securing good employment. The focus on 'business_information_systems' provides foundational knowledge relevant to becoming a Data Architect without requiring deep specialization in pure CS theory. The main trade-off here is that the curriculum is broader than specialized data science or cloud computing.\n\nGiven your background in information security, this MTech Cyber Security program offers a natural progression and boasts the highest placement rate (80%) among all options. This directly satisfies your primary concern regarding job prospects after graduation. While it is specialized in cybersecurity rather than data architecture, leveraging your existing InfoSec knowledge makes for a strong career path. The trade-off is that this program shifts focus away from your stated interest in cloud computing and data analytics.\n\nIf maximizing immediate job outcome is the absolute top priority, this MSc IT Operations program stands out due to its impressive median starting salary of $11419. It remains within your budget and location constraints while offering a high-paying career path. However, the main trade-off is that the curriculum focuses on general 'it_support' rather than the advanced data architecture or cloud computing topics you are interested in.\n\nThis MTech Computer Science program is excellent for aligning with your interest in Data Architecture by covering 'data_science_analytics' and 'software_engineering'. The low tuition of $500 makes it highly budget-friendly while still offering a robust technical foundation. The trade-off compared to PR0015 is that its placement rate (62%) and salary ($6851) are lower, making job security slightly less certain.\n\nThis MSc Data Science program offers the most direct academic alignment with your goal of becoming a Data Architect, focusing on 'data_science_analytics' and business information systems. It is affordable ($1200) and located in Bengaluru. The main trade-off is that its placement rate (58%) and median starting salary ($6767) are among the lowest listed options, meaning job security might be a greater concern here.",
+ "wall_s": 41.1
+}

@@ -1,0 +1,55 @@
+{
+ "student_id": "ST0049",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a full stack certification background. My overall academic average is 78.7% in an IT/computer-science degree. I'm interested in programming and Business process analyst. I want to become a Applications Developer. My family can afford at most about USD 13400 per year. I live in Delhi. I'm open to anywhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 78.7
+  },
+  "career_goal": "Applications Developer",
+  "budget_max_usd_per_year": 13400,
+  "location_preference": "Delhi",
+  "mobility": "open_domestic",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in programming and Business process analyst roles"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0191",
+  "PR0101",
+  "PR0054",
+  "PR0105",
+  "PR0015",
+  "PR0020",
+  "PR0033",
+  "PR0157",
+  "PR0047",
+  "PR0074",
+  "PR0172",
+  "PR0087",
+  "PR0117",
+  "PR0198",
+  "PR0097",
+  "PR0144",
+  "PR0139",
+  "PR0164",
+  "PR0029",
+  "PR0022"
+ ],
+ "final_shortlist": [
+  "PR0139",
+  "PR0198",
+  "PR0097",
+  "PR0144",
+  "PR0164"
+ ],
+ "explanation": "This program is highly recommended because it perfectly aligns with your stated preference for Delhi while offering strong career outcomes. The MSc Software Quality Engineering field directly relates to programming and development roles. Graduates benefit from a high median starting salary of $20639 USD and an excellent placement rate of 89%. The main trade-off here is that the program focuses specifically on QA testing, which might be narrower than general applications development.\n\nGiven your priority for job outcomes, this MSc Software Quality Engineering program is a top choice due to its exceptional placement rate of 95%. It offers a high median starting salary of $21062 USD and focuses on core software engineering skills. While the tuition ($3500) is higher than some options, the superior career metrics make it worthwhile. The trade-off is that this program is located in Bengaluru, which may not be your preferred location.\n\nThis MTech Data Engineering program offers outstanding job prospects with a placement rate of 95% and a strong median starting salary of $19658 USD. It builds upon your technical background while exploring data science analytics, which is highly relevant to modern applications development. Although the tuition ($3800) is on the higher side compared to other options, the guaranteed job focus makes it an excellent investment. The main trade-off is that this program requires a CS background, which you possess.\n\nThe MTech Computer Science degree provides a direct and robust path for an aspiring Applications Developer. Located in Pune, this program boasts a high placement rate of 93% and a solid median starting salary of $19239 USD. This option is ideal if you want to deepen your core programming knowledge while maintaining strong job security. The trade-off is that the annual tuition ($4800) is the highest among the top recommendations.\n\nThis MBA Technology Management program is recommended because it satisfies your location preference in Delhi while still providing strong career metrics. The curriculum bridges business process analysis and IT management, fitting your stated interests. With a placement rate of 90% and a median starting salary of $17361 USD, this option balances job security with geographical convenience. The main trade-off is that the focus is more on technology management rather than deep technical programming.",
+ "wall_s": 573.5
+}

@@ -1,0 +1,55 @@
+{
+ "student_id": "ST0076",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a python certification background. My overall academic average is 80.2% in an IT/computer-science degree. I'm interested in Computer Architecture and testing. I want to become a CRM Business Analyst. My family can afford at most about USD 1300 per year. I live in Pune. I'm open to anywhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 80.2
+  },
+  "career_goal": "CRM Business Analyst",
+  "budget_max_usd_per_year": 1300,
+  "location_preference": "Pune",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in Computer Architecture and testing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0119",
+  "PR0053",
+  "PR0019",
+  "PR0114",
+  "PR0015",
+  "PR0020",
+  "PR0193",
+  "PR0157",
+  "PR0074",
+  "PR0050",
+  "PR0125",
+  "PR0190",
+  "PR0080",
+  "PR0008",
+  "PR0142",
+  "PR0082",
+  "PR0052",
+  "PR0085",
+  "PR0066",
+  "PR0064"
+ ],
+ "final_shortlist": [
+  "PR0119",
+  "PR0053",
+  "PR0015",
+  "PR0157",
+  "PR0114"
+ ],
+ "explanation": "This program is highly recommended because it aligns with your interest in testing and offers excellent job prospects. With a placement rate of 86% and a median starting salary of $14,917 USD, it strongly meets your priority for career success. The annual tuition of $1200 USD fits within your family's budget. The main trade-off here is that the curriculum focuses purely on Quality Engineering, which may be less directly aligned with the CRM Business Analyst role than a dedicated business program.\n\nThis option provides similar job security and high placement potential to PR0119, boasting an 86% placement rate. It is also cost-effective, with an annual tuition of $1200 USD. The program covers both QA testing and software engineering, providing a robust technical foundation that complements your Python background. The trade-off compared to the top pick is a slightly lower median starting salary ($12,855 USD).\n\nThis MSc Information Systems program is the most direct academic fit for your goal of becoming a CRM Business Analyst. The curriculum focuses on business information systems, bridging technology and business needs. While its placement rate (78%) and salary ($9,707 USD) are moderate compared to pure QA roles, it best supports your career objective. The trade-off is that the program does not specifically focus on testing or computer architecture.\n\nThis MSc IT Management program offers a strong business systems foundation at an extremely low cost of $800 USD annually. Its focus on 'business_information_systems' makes it highly relevant for a Business Analyst career path. Although its placement rate (72%) and salary ($10,444 USD) are lower than the top technical options, the minimal tuition expense is a significant advantage. The trade-off is that this program does not provide specialized training in QA testing.\n\nThis option provides excellent value for your interest in testing while remaining well under budget. With the lowest tuition fee of $850 USD and a respectable placement rate of 81%, it minimizes financial risk. The program is specialized in QA testing, building directly on your stated technical interests. The trade-off compared to other options is that its median starting salary ($10,903 USD) is not the highest available.",
+ "wall_s": 47.0
+}

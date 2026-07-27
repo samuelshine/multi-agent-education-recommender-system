@@ -113,3 +113,23 @@ SINGLE_PROMPT_BASELINE = (
     "{k} objects {{program_id, rank, explanation}}}}. Use only provided program_id "
     "values; do not invent facts."
 )
+
+# ---- grounded single-prompt ablation (review-requested, 2026-07-27) ---------
+# Isolates architecture from instruction: identical single-call task as
+# SINGLE_PROMPT_BASELINE, but the explanation instruction is upgraded to match
+# EXPLAIN's explicit grounding directive word-for-word. If this closes most of
+# the groundedness/usefulness gap against the five-agent conditions, the gap is
+# largely a prompting effect, not a decomposition effect; if it doesn't, the
+# gap is more likely attributable to the architecture (curated, agent-selected
+# evidence and a dedicated explanation step) rather than instruction wording.
+SINGLE_PROMPT_GROUNDED = (
+    "You are a university-recommendation assistant. Given the student's message and "
+    "the candidate programs, do everything in one step: infer the student's "
+    "constraints and pick the best at most {k} programs. For each program, write "
+    "one short paragraph (3-5 sentences) explaining why it was recommended. Ground "
+    "every factual claim in the provided program fields (tuition, placement rate, "
+    "salary, visa, admission) and the student's own stated constraints; name the "
+    "main trade-off if one exists. Do not invent facts not present in the program "
+    "data. Output ONLY JSON: {{shortlist: array of at most {k} objects {{program_id, "
+    "rank, explanation}}}}. Use only provided program_id values."
+)

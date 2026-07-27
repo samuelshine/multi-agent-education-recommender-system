@@ -1,0 +1,40 @@
+{
+ "student_id": "ST0067",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a machine learning certification background. My overall academic average is 69.6% in an IT/computer-science degree. I'm interested in Management and Business process analyst. I want to become a Database Developer. My family can afford at most about USD 1100 per year. I live in Mumbai. I cannot leave my city. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 69.6
+  },
+  "career_goal": "Database Developer",
+  "budget_max_usd_per_year": 1100,
+  "location_preference": "Mumbai",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in Management and Business process analyst"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0071",
+  "PR0114",
+  "PR0193",
+  "PR0112",
+  "PR0049",
+  "PR0035",
+  "PR0082"
+ ],
+ "final_shortlist": [
+  "PR0114",
+  "PR0082",
+  "PR0049"
+ ],
+ "explanation": "This program offers the best balance of job security and affordability among your options. With a placement rate of 81% and a median starting salary of $10903 USD, it strongly aligns with your priority of securing good employment after graduation. While its focus is on QA Testing rather than pure database development, the strong industry outcomes make it highly valuable. The main trade-off here is that the curriculum focuses heavily on quality assurance, which may deviate from your desired Database Developer path.\n\nThis program is excellent for meeting your strict financial constraint, boasting a low annual tuition of only $500 USD. It provides foundational skills in Software Engineering and QA Testing, which are relevant to both business process analysis and development roles. Given its extremely low cost, it minimizes financial risk while still offering practical industry experience. The trade-off is that the median starting salary ($6458 USD) is lower compared to other available options.\n\nThis program is ideal if you wish to explore the 'Business process analyst' side of your interests, as Human-Computer Interaction (HCI) skills are crucial for understanding user needs and business workflows. It has a very low tuition cost of $600 USD, respecting your budget constraint. While its placement rate (66%) and salary ($7131 USD) are moderate, the focus on design makes it highly relevant for bridging technical development with business requirements. The trade-off is that this program focuses more on design than core database or software engineering skills.",
+ "wall_s": 31.5
+}

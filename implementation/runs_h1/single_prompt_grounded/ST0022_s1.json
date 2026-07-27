@@ -1,0 +1,56 @@
+{
+ "student_id": "ST0022",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a information security certification background. My overall academic average is 79.8% in an IT/computer-science degree. I'm interested in programming and Business process analyst. I want to become a Portal Administrator. My family can afford at most about USD 2400 per year. I live in Coimbatore. I'm open to anywhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 79.8
+  },
+  "career_goal": "Portal Administrator",
+  "budget_max_usd_per_year": 2400,
+  "location_preference": null,
+  "mobility": "open_domestic",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in programming",
+   "Interested in Business process analyst"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0101",
+  "PR0054",
+  "PR0015",
+  "PR0020",
+  "PR0033",
+  "PR0157",
+  "PR0047",
+  "PR0074",
+  "PR0172",
+  "PR0087",
+  "PR0164",
+  "PR0182",
+  "PR0119",
+  "PR0143",
+  "PR0186",
+  "PR0176",
+  "PR0058",
+  "PR0187",
+  "PR0039",
+  "PR0174"
+ ],
+ "final_shortlist": [
+  "PR0164",
+  "PR0101",
+  "PR0176",
+  "PR0182",
+  "PR0119"
+ ],
+ "explanation": "This program is highly recommended because your academic average of 79.8% perfectly meets the minimum grade requirement of 79%. The focus on 'it_management' aligns well with your goal of becoming a Portal Administrator and interest in business processes. Furthermore, it offers an excellent median starting salary of $17361 and boasts a high placement rate of 90%, directly addressing your priority for job security.\n\nThis MSc Information Systems program is ideal as it focuses on 'business_information_systems,' which aligns perfectly with both Business Process Analyst and Portal Administrator roles. It is located in Coimbatore, minimizing relocation stress, and the annual tuition of $2400 meets your maximum budget constraint. With a strong placement rate of 85% and a median starting salary of $15394, this program offers excellent career prospects.\n\nThis MBA Technology Management degree provides strong exposure to 'it_management,' making it highly relevant for your target role as a Portal Administrator. The tuition of $1900 is well within your budget, and the program offers a competitive median starting salary of $15400. While its placement rate (82%) is slightly lower than other options, the combination of low cost and high salary potential makes it an excellent choice.\n\nIf you wish to emphasize your interest in programming, this MSc Software Quality Engineering program is a strong fit. It has a high placement rate of 91% and requires a minimum grade of 75%, which suits your academic background. The tuition at $1950 keeps it within budget, offering a solid foundation in quality assurance that complements an IT career.\n\nThis MSc Software Quality Engineering program provides excellent job prospects with a high placement rate of 86% and a median starting salary of $14917. At an annual tuition cost of only $1200, it is extremely budget-friendly while still offering strong career outcomes in the programming domain. The trade-off here is that its focus is purely on QA testing, rather than broader business process analysis.",
+ "wall_s": 42.9
+}

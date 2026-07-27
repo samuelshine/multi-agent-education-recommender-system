@@ -1,0 +1,35 @@
+{
+ "student_id": "ST0042",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a app development certification background. My overall academic average is 73.6% in an IT/computer-science degree. I'm interested in parallel computing and Business process analyst. I want to become a Database Administrator. My family can afford at most about USD 800 per year. I live in Chennai. I cannot leave my city. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 73.6
+  },
+  "career_goal": "Database Administrator",
+  "budget_max_usd_per_year": 800,
+  "location_preference": "Chennai",
+  "mobility": "fixed_city",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in parallel computing",
+   "Interested in Business process analyst"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0059",
+  "PR0165"
+ ],
+ "final_shortlist": [
+  "PR0165",
+  "PR0059"
+ ],
+ "explanation": "This MSc Cloud Computing program is the strongest technical match for your goal of becoming a Database Administrator and aligns with interests like parallel computing. It requires a CS background, which suits your app development certification and IT/CS degree. Crucially, it meets all your constraints: the tuition ($550) is well under your $800 budget, and the program is located in Chennai. The main trade-off here is that its placement rate (59%) is slightly lower than the alternative option.\n\nWhile this MDes Interaction Design program meets all your strict constraints\u2014including being in Chennai and having a low tuition cost ($450)\u2014it presents a significant subject matter trade-off. This field is design-focused (design_hci) rather than technical or data-centric, making it less aligned with your goal of becoming a Database Administrator. However, if job placement is the absolute priority, this program offers a higher placement rate (66%) and salary ($8418) compared to PR0165.",
+ "wall_s": 22.0
+}

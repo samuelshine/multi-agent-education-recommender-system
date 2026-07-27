@@ -1,0 +1,56 @@
+{
+ "student_id": "ST0054",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a hadoop certification background. My overall academic average is 80.4% in an IT/computer-science degree. I'm interested in hacking and security. I want to become a Programmer Analyst. My family can afford at most about USD 1600 per year. I live in Mumbai. I'd strongly prefer to stay near home, though I might consider elsewhere in India. Getting a good job after graduation matters more to me than anything else.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 80.4
+  },
+  "career_goal": "Programmer Analyst",
+  "budget_max_usd_per_year": 1600,
+  "location_preference": "Mumbai",
+  "mobility": "prefers_region",
+  "employability_priority": "high",
+  "other_constraints": [
+   "Interested in hacking and security",
+   "Hadoop certification background"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0182",
+  "PR0119",
+  "PR0176",
+  "PR0058",
+  "PR0187",
+  "PR0174",
+  "PR0053",
+  "PR0158",
+  "PR0109",
+  "PR0076",
+  "PR0012",
+  "PR0019",
+  "PR0114",
+  "PR0185",
+  "PR0130",
+  "PR0084",
+  "PR0120",
+  "PR0170",
+  "PR0015",
+  "PR0020"
+ ],
+ "final_shortlist": [
+  "PR0114",
+  "PR0185",
+  "PR0187",
+  "PR0130",
+  "PR0053"
+ ],
+ "explanation": "This program is highly recommended because it is located in Mumbai, matching your strong preference to stay near home. The MSc Software Quality Engineering curriculum provides a solid foundation relevant to becoming a Programmer Analyst. Furthermore, the annual tuition of $850 USD is well within your family's budget constraint of $1600 USD. The main trade-off here is that while the placement rate (81%) and median starting salary ($10903 USD) are respectable, they are among the lower end compared to other options.\n\nThis program is a perfect match for your stated interest in hacking and security, as it focuses specifically on MSc Information Security. The annual tuition of $1150 USD respects your financial limit, and the curriculum includes cybersecurity alongside software engineering skills. While the placement rate (78%) and median starting salary ($10850 USD) are modest, the direct alignment with your career interest makes this a top choice. The trade-off is that the program's focus on security might be slightly less aligned with pure 'Programmer Analyst' roles compared to core software engineering degrees.\n\nLocated in Pune, this PG Diploma in Systems Administration offers a strong technical focus relevant to IT infrastructure and security. With an annual tuition of $1450 USD, it remains within your budget while providing excellent job prospects with a high placement rate of 87%. The median starting salary is $12687 USD, which reflects the program's practical nature in systems support. You trade off specialized software development skills for strong foundational knowledge in IT systems management.\n\nThis MSc IT Management program is situated in Hyderabad and offers a balanced blend of technical and managerial skills suitable for an analyst role. The low annual tuition cost of $1000 USD makes it highly budget-friendly, while the median starting salary of $11249 USD provides decent job security. Although the placement rate (77%) is average, its location in Hyderabad and manageable cost make it a strong contender. The main trade-off is that the curriculum focuses more on IT management rather than deep technical programming or hacking.\n\nThis MSc Software Quality Engineering program in Kolkata provides a strong software engineering foundation while remaining affordable at $1200 USD. The curriculum is highly relevant to becoming a Programmer Analyst, and the placement rate of 86% suggests good job outcomes. While Kolkata is not your primary location preference, it offers excellent value for money regarding tuition and career prospects. The trade-off here is that the program's focus on QA testing might narrow down certain specialized security or development roles.",
+ "wall_s": 49.4
+}

@@ -1,0 +1,55 @@
+{
+ "student_id": "ST0068",
+ "session": 1,
+ "mode": "single_prompt_grounded",
+ "version": 1,
+ "message": "Hi, I'm a student with a full stack certification background. My overall academic average is 79.1% in an IT/computer-science degree. I'm interested in networks and cloud computing. I want to become a Applications Developer. My family can afford at most about USD 28400 per year. I live in Hyderabad. I'm open to going abroad.",
+ "memory_used": false,
+ "fallbacks": [],
+ "constraints": {
+  "academic_background": {
+   "degree": "IT/computer-science",
+   "grade_pct": 79.1
+  },
+  "career_goal": "Applications Developer",
+  "budget_max_usd_per_year": 28400,
+  "location_preference": null,
+  "mobility": "open_international",
+  "employability_priority": null,
+  "other_constraints": [
+   "Interested in networks and cloud computing"
+  ],
+  "uncertainty_notes": []
+ },
+ "prefilter_ids": [
+  "PR0146",
+  "PR0094",
+  "PR0110",
+  "PR0005",
+  "PR0169",
+  "PR0127",
+  "PR0001",
+  "PR0194",
+  "PR0081",
+  "PR0042",
+  "PR0004",
+  "PR0186",
+  "PR0036",
+  "PR0197",
+  "PR0043",
+  "PR0147",
+  "PR0096",
+  "PR0199",
+  "PR0118",
+  "PR0121"
+ ],
+ "final_shortlist": [
+  "PR0042",
+  "PR0194",
+  "PR0096",
+  "PR0004",
+  "PR0127"
+ ],
+ "explanation": "This program is highly recommended as it directly aligns with your goal of becoming an Applications Developer by focusing on both 'networking_cloud' and 'software_engineering.' The annual tuition of $10800 falls well within your family's budget constraint. While the placement rate is 67%, this Canadian option provides a strong academic foundation in software development at a manageable cost, making it an excellent international choice.\n\nThis program offers exceptional value and is ideal if budget is your primary constraint. With an annual tuition of only $1950, it is significantly below your maximum budget of $28400. It meets your interest in 'networking_cloud' while providing a pathway to Germany. The main trade-off here is that the placement rate (67%) and median starting salary ($30651) are among the lowest recommended options.\n\nAs a local option in Hyderabad, this program allows you to stay close to home while pursuing your interests. The tuition of $3350 is well within budget and focuses on 'networking_cloud.' Since it is located in your current city, the main trade-off is that there are no post-study work visa benefits listed, limiting immediate international career prospects.\n\nThis Canadian program provides a strong blend of 'networking_cloud' and 'software_engineering,' which is perfect for your goal as an Applications Developer. The tuition ($13250) respects your budget while offering the benefit of a post-study work visa of 36 months. The trade-off compared to PR0042 is that its median starting salary ($29688) and placement rate (64%) are slightly lower.\n\nThis option provides a solid Canadian experience focused on 'networking_cloud' within your financial limits ($21500 tuition). It is suitable because it requires a CS background and offers a generous post-study work visa of 36 months. The main trade-off compared to the software-focused options is that its curriculum does not explicitly emphasize the 'software_engineering' aspect needed for an Applications Developer role.",
+ "wall_s": 49.7
+}
