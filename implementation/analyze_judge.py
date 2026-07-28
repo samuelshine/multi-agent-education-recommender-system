@@ -77,3 +77,55 @@ for label, d in SYSTEMS:
             print(f"{label} / {j}: {len(flagged)} flagged")
             for sid, claims in flagged[:3]:
                 print(f"    {sid}: {claims}")
+
+
+# --------------------------------------------------------------------------- stats
+# Paired bootstrap CIs behind the grounded-ablation gap-closure claims (review-
+# requested, 2026-07-28): the "53%/51%/29% of the gap closed" figures in Results
+# were point estimates with no CI, inconsistent with the paired-bootstrap standard
+# already applied to the H1/H2 accuracy claims in analyze_results.py. Decomposes
+# the ungrounded -> five-agent-v1 gap into an "instruction effect" (grounded -
+# ungrounded) and a residual "architecture effect" (v1 - grounded), each with a
+# paired bootstrap CI over the same 100 students' cross-judge mean scores.
+
+import random
+
+
+def paired_bootstrap_ci(diffs, n_boot=10000, seed=42, alpha=0.05):
+    rng = random.Random(seed)
+    n = len(diffs)
+    boot_means = []
+    for _ in range(n_boot):
+        boot_means.append(sum(diffs[rng.randrange(n)] for _ in range(n)) / n)
+    boot_means.sort()
+    lo = boot_means[int(alpha / 2 * n_boot)]
+    hi = boot_means[int((1 - alpha / 2) * n_boot)]
+    return lo, hi
+
+
+def cross_judge_scores(label):
+    q, m = all_data[label][JUDGES[0]], all_data[label][JUDGES[1]]
+    common = sorted(set(q) & set(m))
+    return {sid: {dim: (q[sid][dim] + m[sid][dim]) / 2 for dim in DIMS}
+            for sid in common}
+
+
+print("\n== Paired-bootstrap CIs: instruction effect vs. residual architecture effect ==")
+ungrounded = cross_judge_scores("single-prompt")
+grounded = cross_judge_scores("single-prompt (grounded)")
+v1 = cross_judge_scores("five-agent v1")
+common = sorted(set(ungrounded) & set(grounded) & set(v1))
+for dim in DIMS:
+    instr_diffs = [grounded[sid][dim] - ungrounded[sid][dim] for sid in common]
+    arch_diffs = [v1[sid][dim] - grounded[sid][dim] for sid in common]
+    total_diffs = [v1[sid][dim] - ungrounded[sid][dim] for sid in common]
+    i_mean = sum(instr_diffs) / len(common)
+    a_mean = sum(arch_diffs) / len(common)
+    t_mean = sum(total_diffs) / len(common)
+    i_lo, i_hi = paired_bootstrap_ci(instr_diffs)
+    a_lo, a_hi = paired_bootstrap_ci(arch_diffs)
+    print(f"{dim:14s} n={len(common)}  "
+          f"instruction effect (grounded-ungrounded): {i_mean:+.3f} 95% CI=[{i_lo:+.3f}, {i_hi:+.3f}]  "
+          f"({100*i_mean/t_mean:.0f}% of total gap)  "
+          f"architecture effect (v1-grounded): {a_mean:+.3f} 95% CI=[{a_lo:+.3f}, {a_hi:+.3f}]  "
+          f"({100*a_mean/t_mean:.0f}% of total gap)")

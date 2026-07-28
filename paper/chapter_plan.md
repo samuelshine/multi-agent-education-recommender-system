@@ -633,3 +633,40 @@ Statement`/`Author Contributions`/`Conflict of Interest` sections are
 Frontiers/journal conventions rather than standard IEEE-conference boilerplate —
 deferred until the target venue's CFP is known (same open item as the AI-disclosure
 `\todo{}`).
+
+## Re-review pass (2026-07-28) — closing the gap the ablation itself left open
+
+Ran the reviewer skill again against the paper post-ablation. Every finding from the
+2026-07-27 pass verified as correctly resolved. The re-review's own top finding was
+about internal consistency: the newly-added grounded-ablation gap-closure percentages
+(53%/51%/29%) were themselves unsupported point estimates — the exact category of
+claim the prior pass had just fixed elsewhere in the paper. Applying the paper's own
+new standard to its newest content:
+
+1. **Added a paired-bootstrap decomposition to `analyze_judge.py`**
+   (`paired_bootstrap_ci()` + `cross_judge_scores()`), splitting the full
+   ungrounded→five-agent-v1 gap into an "instruction effect" (grounded − ungrounded)
+   and residual "architecture effect" (v1 − grounded) per dimension, each with a 95%
+   CI over the same 100 students. All six intervals exclude zero — both effects are
+   real, not noise. Updated numbers: groundedness 53%/47% split
+   ($+0.515$ CI $[+0.320,+0.705]$ / $+0.450$ CI $[+0.305,+0.600]$), usefulness
+   50%/50%, clarity 29%/71%. Replaced the old point-estimate sentence in Results with
+   this CI-backed version.
+2. **Fixed "roughly halves" for the invented-claims counts** (main.tex explanation
+   quality subsection) — 64→42 is a third fewer, 33→6 is over four-fifths fewer;
+   neither is "roughly half." Reworded to state both precisely.
+3. **Added a caveat that the grounded ablation isn't perfectly isolated by design**:
+   the single-prompt conditions produce ranking and explanation in the same LLM call,
+   so an instruction-wording change could in principle leak into ranking too. Noted
+   this explicitly and pointed to the near-identical NDCG@5 (0.830 vs. 0.831) as the
+   empirical check that it didn't, rather than asserting isolation as a given.
+4. **Fixed a circular cross-reference**: Table II's footnote pointed to
+   `Section~\ref{sec:results}` from inside a table already in that section. Now names
+   the specific subsection ("Section VI, Explanation quality").
+5. Not done (flagged as very low priority, tangential to H2's actual question):
+   running the grounded condition on the H2 conflict subset. H2 is about
+   multi-vs-single-objective reasoning, not grounding instructions, so this is a
+   completeness nicety rather than a substantive gap.
+
+Rebuilt, checked log for overfull boxes/undefined refs (none), rendered and visually
+inspected pages 5–7 (the changed ones). Still 9 pages, continuous flow preserved.

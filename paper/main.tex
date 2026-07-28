@@ -494,7 +494,7 @@ policy, abstains rather than pads a shortlist below $k$. v2: post-hoc revision
 backfilling to $k$ with valid candidates and dropping only for hard-constraint
 violations -- tests, not replaces, v1. Grounded: single-prompt baseline with
 \textsc{Explain}'s grounding instruction added, isolating instruction wording from
-architecture (Section~\ref{sec:results}).} \\
+architecture (Section~\ref{sec:results}, Explanation quality).} \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -602,17 +602,26 @@ explanation task is a weaker instruction than \textsc{Explain}'s: it asks for on
 ``grounded paragraph'' rather than \textsc{Explain}'s explicit directive to trace every
 claim to the provided evidence and name the trade-off. This confounds architecture with
 instruction wording -- the gap above could be caused by either. A fourth condition,
-single-prompt (grounded), holds the single-call architecture fixed and upgrades only its
-explanation instruction to \textsc{Explain}'s directive word-for-word (Table~\ref{tab:results-h1}). It scores clarity $3.81$, groundedness
-$4.47$, usefulness $3.23$ -- between the ungrounded baseline and the five-agent
-conditions on every dimension, closing roughly half of the groundedness and usefulness
-gap (53\% and 51\% of the v1 margin, respectively) but only 29\% of the clarity gap,
-while its NDCG@5 ($0.831$) and precision@5 ($0.926$) match or slightly exceed the
-ungrounded baseline (Table~\ref{tab:results-h1}), so this instruction change costs
-nothing on ranking accuracy. Grounding instructions and architectural decomposition
-therefore both contribute to the explanation-quality advantage, with neither alone
-accounting for it: an explicit grounding instruction closes about half the gap on its
-own, and the remaining half -- plus most of the clarity gap -- is attributable to the
+single-prompt (grounded), upgrades only its explanation instruction to
+\textsc{Explain}'s directive word-for-word, holding the single-call architecture
+otherwise fixed (Table~\ref{tab:results-h1}); because ranking and explanation are
+produced by the same call in this condition, the instruction change is not perfectly
+isolated from ranking by design, only empirically -- checked next. It scores clarity
+$3.81$, groundedness $4.47$, usefulness $3.23$ -- between the ungrounded baseline and
+the five-agent conditions on every dimension -- and its NDCG@5 ($0.831$) and
+precision@5 ($0.926$) match or slightly exceed the ungrounded baseline's
+(Table~\ref{tab:results-h1}), so in practice this instruction change cost nothing on
+ranking accuracy. Decomposing the full ungrounded-to-v1 gap with a paired bootstrap
+($n=100$, 10{,}000 resamples) over per-student cross-judge scores: the instruction
+effect (grounded $-$ ungrounded) accounts for 53\% of the groundedness gap ($+0.515$,
+95\% CI $[+0.320, +0.705]$), 50\% of usefulness ($+0.425$, 95\% CI $[+0.295, +0.545]$),
+and 29\% of clarity ($+0.120$, 95\% CI $[+0.035, +0.205]$); the residual architecture
+effect (v1 $-$ grounded) accounts for the rest in each case, and none of the six
+intervals crosses zero. Grounding instructions and architectural decomposition
+therefore both make a real, statistically supported contribution to the
+explanation-quality advantage, with neither alone accounting for it: an explicit
+grounding instruction closes about half the groundedness and usefulness gap on its own,
+and the remainder -- including most of the clarity gap -- is attributable to the
 architecture (curated, agent-selected evidence and a dedicated explanation step,
 isolated from ranking and profiling).
 
@@ -646,8 +655,9 @@ the student's constraints or the retrieved program data -- per explanation. The
 single-prompt baseline was flagged for at least one invented claim in 64/100
 explanations by the primary judge and 33/100 by the agreement judge (e.g., asserting a
 program's tuition or location without that field appearing in the evidence the model
-was given); adding the grounding instruction alone roughly halves this, to 42/100 and
-6/100 respectively; the five-agent conditions were flagged in 5/100 (v1) and 9/100 (v2)
+was given); adding the grounding instruction alone cuts this to 42/100 and 6/100
+respectively -- a third fewer by the primary judge, over four-fifths fewer by the
+agreement judge; the five-agent conditions were flagged in 5/100 (v1) and 9/100 (v2)
 cases by the primary judge and 0/100 by the agreement judge. The instruction change
 closes most of the gap on this specific failure signal but not all of it, mirroring the
 partial (53\%) closure on mean groundedness score above -- consistent with an
