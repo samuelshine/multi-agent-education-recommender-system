@@ -227,7 +227,12 @@ reviews the shortlist for constraint violations and persists state across sessio
 mechanism RQ3 evaluates; a second, deterministic guard repeats the hard-constraint check
 after it. \textbf{Explanation Agent} generates a per-recommendation rationale grounded in
 the Retrieval Agent's evidence, addressing the explainability limitation
-\cite{recommendersyshighered} documents in classical systems. The two deterministic
+\cite{recommendersyshighered} documents in classical systems. Relative to the closest
+agentic precedent's profiling, retrieval, and generation agents \cite{onlinecoursemaskg},
+the new elements are constraint elicitation over financial, location, and employability
+objectives (Profiling), explicit trade-off ranking across them (Recommendation), a
+reflection pass with cross-session memory (Memory \& Reflection), and an explanation
+step restricted to retrieved evidence (Explanation). The two deterministic
 prefilter/guard components, not agent judgment alone, actually guarantee hard-constraint
 satisfaction. The 7$\to$5 merge is a buildability judgment, not an ablation result; H3's
 memory-and-reflection results (Section~\ref{sec:results}, evaluated as a single fused
@@ -312,7 +317,11 @@ Section~\ref{sec:discussion}.
 
 \subsection{Top-$k$ accuracy (H1)}
 
-Table~\ref{tab:results-h1} reports accuracy on the held-out 100-student split. The
+Table~\ref{tab:results-h1} reports accuracy on the held-out 100-student split.
+HRSPCA and StudieMe are the published state of the art for this exact decision scope
+(Table~\ref{tab:gap}); the agentic-education systems \cite{advisingwise,agenticedurec,
+onlinecoursemaskg} solve different tasks for already-enrolled students, so they cannot be run
+as baselines on a pre-admission benchmark. The
 strongest classical baseline, HRSPCA, reaches NDCG@5 $=0.793$, so the pre-registered 5\%
 margin requires NDCG@5 $\geq 0.753$.
 
@@ -432,6 +441,32 @@ the five-agent conditions (mean $|$diff$|$ 0.09--0.15) than the single-prompt fa
 unchanged: multi-objective reasoning does not win on oracle-graded ranking, but produces
 more reliably grounded explanations for students facing a real trade-off.
 
+\subsection{Component ablation summary}
+
+Table~\ref{tab:ablation} collects the four ablations against the full pipeline. Removing
+agent decomposition costs explanation groundedness but not accuracy; removing memory costs
+adaptivity; removing multi-objective ranking changes neither metric measurably.
+Retrieval, reflection, and the explanation agent were not ablated individually
+(Section~\ref{sec:discussion}).
+
+\begin{table}[t]
+\caption{Component ablations, ablated condition vs.\ full five-agent pipeline on the
+same set (NDCG@5; groundedness 1--5, cross-judge mean). H1/H2 rows use v2; the H3
+cohort was run only with v1.}
+\label{tab:ablation}
+\centering
+\begin{tabular}{@{}p{2.9cm}lcc@{}}
+\toprule
+\textbf{Ablation} & \textbf{Set} & \textbf{NDCG@5} & \textbf{Ground.} \\
+\midrule
+No memory (stateless) & H3, S2 & 0.735 / 0.776 & --- \\
+Single-objective ranking & H2 & 0.793 / 0.792 & --- \\
+Single prompt + grounding & H1 & 0.831 / 0.806 & 4.47 / 4.92 \\
+Single prompt & H1 & 0.830 / 0.806 & 3.96 / 4.92 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
 \section{Discussion and Limitations}
 \label{sec:discussion}
 
@@ -459,7 +494,9 @@ favor the baselines, not the proposed system.
 
 \textbf{LLM-as-judge validity and model scale.} Explanation scores come from LLM judges,
 not human raters; cross-family judging, blinding, and two-judge agreement reduce but do
-not eliminate known judge biases, and this study performs no human-subject validation. All
+not eliminate known judge biases, and this study performs no human-subject validation.
+Retrieval, reflection, and the explanation agent were not ablated separately, so their
+individual contributions to the groundedness gain are not isolated. All
 agentic conditions run on one local model (\texttt{gemma4:e4b}), so conclusions are
 conditioned on this model class; the evaluation split ($n=100$) is larger than the closest
 classical baselines' user studies but small in absolute terms.
@@ -467,24 +504,26 @@ classical baselines' user studies but small in absolute terms.
 \section{Conclusion and Future Work}
 \label{sec:conclusion}
 
-This paper identified pre-admission, cross-institution selection as a decision scope
-unaddressed by both classical educational recommenders and 2025--2026 agentic education
-systems, and proposed and evaluated a five-agent architecture for it. The central finding
-is a dissociation: the architecture shows no top-$k$ accuracy advantage over classical
-baselines or a single-prompt ablation, but demonstrates a consistent, judge-corroborated
-advantage in explanation groundedness and usefulness that persists on the multi-objective
-conflict cases motivating RQ2. An ablation isolating instruction wording from architecture
-shows this advantage is not purely architectural: an explicit grounding instruction alone
-closes roughly half of it, with the remainder attributable to the architecture's dedicated
-explanation step over agent-curated evidence. Memory-and-reflection modestly improves
-adaptivity across sessions (RQ3). These results reframe the paper's contribution: the
-value of agentic multi-agent decomposition here lies in explainable, trustworthy decision
-support rather than ranking accuracy, at this model scale and dataset size. Future work
-should prioritize human-subject validation of the LLM-as-judge scores, evaluation against
-Elahi et al.'s \cite{universityrecsyselahi} real preference dataset should it become
-available, and a finer-grained ablation separating memory persistence from shortlist
-reflection. The prototype, evaluation harness, and synthetic dataset are released as an
-open-source artifact so these directions do not depend on the original author's
+For pre-admission program selection, agentic decomposition improves explanation
+quality, not ranking accuracy. Three conclusions follow from the evidence. First, accuracy
+and explainability are separable: the five-agent pipeline matches or exceeds the classical
+state of the art (NDCG@5 $0.806$ vs.\ $0.793$ for HRSPCA) but not a single LLM call
+($0.830$), while grounding 91--100\% of its explanations in retrieved evidence against
+36--67\% for that call, with far fewer invented claims. Second, about half of this
+groundedness gain comes from instruction wording and half from the architecture's
+dedicated explanation step over agent-curated evidence; both effects are statistically
+supported. Designers who cannot deploy a multi-agent pipeline can therefore get part of
+the benefit from a grounding instruction alone. Third, multi-objective ranking adds no
+oracle-graded accuracy when hard constraints are already prefiltered, and cross-session
+memory gives a modest adaptivity gain ($+0.041$ NDCG@5 at session 2), not a cold-start
+fix. Agentic architectures for admission advising should thus be justified by
+trustworthy, auditable explanations rather than by ranking gains, at least at this
+model scale. These conclusions rest on synthetic data and LLM judges; the next steps are
+a human study with prospective students and academic advisors, evaluation on real
+preference data such as Elahi et al.'s \cite{universityrecsyselahi}, and a
+component-level ablation separating retrieval, reflection, memory persistence, and the
+explanation agent. The prototype, evaluation harness, and synthetic dataset are released
+as an open-source artifact so these directions do not depend on the authors'
 environment.
 
 \section*{Data Availability Statement}
