@@ -9,6 +9,7 @@
 \usepackage{xcolor}
 \usepackage{tikz}
 \usepackage{booktabs}
+\usepackage{enumitem}
 \usetikzlibrary{arrows.meta, positioning, fit, backgrounds}
 
 % ---------------------------------------------------------------
@@ -26,43 +27,45 @@
 \author{
 \IEEEauthorblockN{Samuel Shine}
 \IEEEauthorblockA{
-Department of Computer Science (MCA)\\
-CHRIST (Deemed to be University)\\
+Department of Computer Science\\
+Christ University\\
 Bengaluru, India\\
-samuelshine112003@gmail.com}
+samuel.shine@mca.christuniversity.in}
+\and
+\IEEEauthorblockN{Cecil Donald}
+\IEEEauthorblockA{
+Department of Computer Science\\
+Christ University\\
+Bengaluru, India\\
+cecil.donald@christuniversity.in}
+\and
+\IEEEauthorblockN{Nismon Rio R}
+\IEEEauthorblockA{
+Department of Computer Science\\
+Christ University\\
+Bengaluru, India\\
+nismon.rio@christuniversity.in}
 }
 
 \maketitle
 
 \begin{abstract}
-Students choosing which university and program to apply to must jointly reason over
-academic fit, career goals, financial constraints, location preferences, and employability
-outcomes, typically before they have generated any interaction history a recommender can
-learn from. Classical educational recommender systems address this pre-admission,
-cross-institution decision using collaborative, content-based, or knowledge-based filtering,
-but remain static, weakly explainable, and brittle under cold start. Recent agentic,
-LLM-powered multi-agent recommenders address adaptivity, planning, memory, and
-explainability, but published 2025--2026 systems apply these capabilities to
-\emph{already-enrolled} students inside an \emph{already-chosen} program rather than to
-the pre-admission choice itself. We propose a five-agent architecture (profiling and
-constraint elicitation, retrieval, multi-objective recommendation and planning,
-explanation, and memory-reflection) for this gap and evaluate a prototype against
-faithfully re-implemented classical baselines (HRSPCA, StudieMe) and a single-prompt LLM
-ablation, on a released synthetic constraint-preference benchmark. The architecture does
-not win on oracle-graded top-$k$ accuracy: it falls outside a pre-registered 5\%
-non-inferiority margin under its initial design, and a diagnosed-and-corrected variant
-exceeds both classical baselines but not the single-prompt ablation. It wins decisively,
-however, on explanation quality as scored by two independent LLM judges -- grounded in
-retrieved evidence in 91--100\% of explanations against 36--67\% for the single-prompt
-baseline, an advantage only half attributable to prompt wording (an ablation adding the
-same grounding instruction to the single-prompt baseline closes roughly half the gap,
-isolating a residual architectural effect) -- and on multi-objective conflict cases,
-where the same groundedness advantage holds even though multi-objective ranking does not
-outperform a single-objective ranker on oracle-graded relevance. A memory-and-reflection mechanism modestly improves
-session-over-session recommendation quality relative to a stateless pipeline. These
-results support explainability, not accuracy, as the architecture's demonstrated
-contribution over both classical and single-prompt alternatives, and the full prototype,
-evaluation harness, and synthetic dataset are released as an open-source artifact.
+Students choosing a university and program must weigh academic fit, career goals,
+financial constraints, location, and employability, usually with no prior interaction
+history to learn from. Classical educational recommenders address this pre-admission,
+cross-institution decision through collaborative, content-based, or knowledge-based
+filtering but remain static and weakly explainable. Recent agentic, LLM-powered
+recommenders add adaptivity, planning, memory, and explainability, but published
+2025--2026 systems target already-enrolled students in an already-chosen program, not
+the pre-admission choice. We propose a five-agent architecture (profiling, retrieval,
+multi-objective recommendation, explanation, and memory-reflection) for this gap,
+evaluated against re-implemented classical baselines (HRSPCA, StudieMe) and a
+single-prompt LLM ablation on a released synthetic benchmark. The architecture does not
+win on oracle-graded top-$k$ accuracy, but wins decisively on explanation quality:
+91--100\% of explanations are grounded in retrieved evidence against 36--67\% for the
+single-prompt baseline. Memory-and-reflection improves session-over-session quality.
+Explainability, not accuracy, is the architecture's demonstrated contribution; the
+prototype and dataset are open-sourced.
 \end{abstract}
 
 \begin{IEEEkeywords}
@@ -76,136 +79,79 @@ models, explainable recommendation, decision support
 Choosing a university and program is a high-stakes, low-frequency decision made under
 incomplete information. Prospective students must reconcile academic interests, career
 goals, skills, financial constraints, location preferences, and employability outcomes,
-usually without any prior interaction history a recommender system could exploit -- the
+usually without any prior interaction history a recommender system could exploit: the
 canonical cold-start setting. A substantial body of work addresses this decision with
-collaborative filtering, content-based filtering, knowledge-based recommendation, and
-hybrid or machine-learning classification approaches
-\cite{hrspca,studieme,universityadmissionrecommendersystem,smartcollegeadmrecommendationsys,
-userprofilinguniversityrecsys,contentbasedrecsys,multidmensionalrecsysuni,companalysisrecsys,
-universityrecsyselahi,bertopicprogramrec}.
-These systems established strong evaluation methodology, real datasets, and
-education-specific features, but a 2024 systematic review of the space documents recurring
-limitations: static recommendation pipelines, limited personalization, minimal conversational
-interaction, weak adaptation over time, and weak explainability
+collaborative, content-based, knowledge-based, and hybrid or machine-learning
+classification approaches \cite{hrspca,studieme,multidmensionalrecsysuni,companalysisrecsys,
+universityrecsyselahi,bertopicprogramrec}. These systems established strong evaluation
+methodology and real datasets, but a 2024 systematic review documents recurring
+limitations: static pipelines, minimal conversational interaction, and weak explainability
 \cite{recommendersyshighered}.
 
-Separately, the emergence of large language model (LLM)-powered agents has produced a new
-paradigm for recommendation: systems that plan, retrieve, reflect, and maintain long-term
-memory across a conversation rather than scoring a fixed candidate set once
-\cite{llmagentrecsyssurvey,agenticaisurvey,agenticaiarchitectures}. Agentic recommenders of
-this kind have been demonstrated in e-commerce and general content domains
-\cite{agenticaiframeworkrecommendersystem,multiagentrecommendersys,taurecbenchmark,
-ragpersonalisedrecommendations}, and, more recently, in education -- but specifically for
-students who are \emph{already enrolled} in an \emph{already-chosen} program: academic
-advising Q\&A \cite{advisingwise}, in-program learning-pathway sequencing
-\cite{agenticedurec}, and in-curriculum course selection \cite{onlinecoursemaskg}. None of
-these systems address the earlier, arguably higher-stakes decision of \emph{which}
-institution and program to choose in the first place.
+Separately, LLM-powered agents have produced a new recommendation paradigm: systems that
+plan, retrieve, reflect, and maintain long-term memory rather than scoring a fixed candidate
+set once \cite{llmagentrecsyssurvey}. Agentic recommenders of this kind have been
+demonstrated in e-commerce and general content domains
+\cite{agenticaiframeworkrecommendersystem,taurecbenchmark,ragpersonalisedrecommendations},
+and, more recently, in education, but specifically for
+students who are \emph{already enrolled} in an \emph{already-chosen} program: advising
+Q\&A \cite{advisingwise}, learning-pathway sequencing \cite{agenticedurec}, and course
+selection \cite{onlinecoursemaskg}. None of these systems address the earlier, arguably
+higher-stakes decision of \emph{which} institution and program to choose.
 
-This paper's central claim is that this earlier decision -- pre-admission, cross-institution
-university and program selection -- is a distinct decision scope from the in-program
-advising/pathway/course-selection problems that 2025--2026 agentic education systems solve,
-and that it remains addressed only by pre-agentic methods. Section~\ref{sec:related}
-substantiates this claim against the closest prior work in both the classical educational
-recommender literature and the agentic recommender literature. Section~\ref{sec:architecture}
-proposes a five-agent architecture for this gap. Section~\ref{sec:methodology} and
-Section~\ref{sec:evaluation} lay out the research questions, hypotheses, and evaluation
-protocol; Section~\ref{sec:results} reports the resulting experiments on a working
-prototype.
+This paper's central claim is that this earlier decision (pre-admission, cross-institution
+selection) is a distinct decision scope from the in-program advising/pathway/course-selection
+problems 2025--2026 agentic education systems solve, and remains addressed only by
+pre-agentic methods.
 
-This paper's contributions are:
-\begin{enumerate}
-\item An agentic multi-agent LLM architecture targeting pre-admission, cross-institution
-higher-education decision support -- a decision scope distinct from the in-program
-advising/pathway/course systems in recent agentic-education work (Section~\ref{sec:related}).
-\item An explicit multi-objective reasoning mechanism integrating career goals, financial
-constraints, location, and employability into agent planning, evaluated against
-classical educational-RS baselines on both standard information-retrieval metrics and
-agentic-specific metrics (explanation quality, adaptivity, cold-start robustness) --
-metrics that recent agentic-recommendation surveys call for more generally
-\cite{llmagentrecsyssurvey} but that no education-specific evaluation yet supplies.
-\item A working prototype, evaluation harness, and evaluation results
-(Section~\ref{sec:results}), released as an open-source artifact that third parties can
-run and independently verify: \url{https://github.com/samuelshine/multi-agent-education-recommender-system}.
-\end{enumerate}
+Contributions: (i) an agentic multi-agent architecture targeting pre-admission,
+cross-institution decision support, distinct from in-program agentic-education work
+(Section~\ref{sec:related}); (ii) an explicit multi-objective reasoning mechanism
+evaluated against classical baselines on both standard IR metrics and agentic-specific
+metrics (explanation quality, adaptivity, cold-start robustness) that recent surveys call
+for but no education-specific evaluation yet supplies \cite{llmagentrecsyssurvey}; (iii) a
+working prototype, evaluation harness, and results, released as an open-source artifact:
+\url{https://github.com/samuelshine/multi-agent-education-recommender-system}.
 
 \section{Related Work}
 \label{sec:related}
 
-\subsection{Classical educational recommenders for pre-admission decisions}
+HRSPCA \cite{hrspca} and StudieMe \cite{studieme} target the same pre-admission,
+cross-institution scope as this paper, via hybrid collaborative filtering with
+knowledge-based rules \cite{hrspca} or content-based TF-IDF similarity \cite{studieme}.
+Somy\"urek and Aksoy \cite{multidmensionalrecsysuni} extend this to joint
+university-and-major selection, the closest classical match to the decision scope
+adopted here. Elahi et al.\ \cite{universityrecsyselahi} evaluate a collaborative-filtering
+university recommender via offline cross-validation plus an online user study, a protocol
+this paper adopts as a template (Section~\ref{sec:evaluation}). El-Keiey et al.\
+\cite{careerrecfeatureselection} and Hill et al.\ \cite{bertopicprogramrec} (both 2025)
+address adjacent career/program recommendation with single-model, non-agentic pipelines.
+None reason via autonomous agents, maintain cross-session memory, or generate grounded
+explanations, confirmed as recurring limitations by a systematic review
+\cite{recommendersyshighered}.
 
-HRSPCA \cite{hrspca} and StudieMe \cite{studieme} are representative of the pre-admission,
-cross-institution decision scope this paper targets: both recommend which
-college/university a prospective student should consider, using hybrid collaborative
-filtering with knowledge-based rules \cite{hrspca} or content-based TF-IDF similarity
-\cite{studieme}. Somy\"urek and Aksoy \cite{multidmensionalrecsysuni} extend this to joint
-university-and-major selection with a multidimensional recommender, the closest classical
-match to the decision scope adopted here. Elahi et al.\ \cite{universityrecsyselahi}
-develop a collaborative-filtering university recommender evaluated in two phases -- offline
-cross-validation followed by an online user study measuring accuracy, diversity, perceived
-personalization, satisfaction, and novelty -- an evaluation protocol this paper adopts as a
-template (Section~\ref{sec:evaluation}). Lahoud et al.\ \cite{companalysisrecsys} compare
-several such systems for major/career guidance and report fragmentation across methods
-rather than a unified adaptive framework; El-Keiey et al.\ \cite{careerrecfeatureselection}
-address the adjacent career-path decision with feature-selected machine-learning
-classification over a public 20{,}000-record student-features dataset, and Hill et
-al.\ \cite{bertopicprogramrec} recommend academic programs to prospective students via
-BERTopic interest mining -- both from 2025, and both still single-model, non-agentic
-pipelines. None of these systems reason via autonomous
-planning agents, maintain memory across sessions, or generate grounded natural-language
-explanations; Kamal et al.'s systematic review \cite{recommendersyshighered} confirms these
-as recurring, unresolved limitations across the sub-field. By contrast,
-\cite{serendipityuniversitycourserecsys} and \cite{recommendationsyscomplexconstraints}
-address a related but distinct \emph{post-enrollment} scope (in-program course selection),
-which this paper does not target.
+In the general-domain agentic literature, Portugal et al.\
+\cite{agenticaiframeworkrecommendersystem} propose a multi-agent recommender framework
+whose title closely resembles this paper's working title (the closest general-domain
+precedent) but target e-commerce with no educational features or metrics. Narasimhan
+and Narasimhan \cite{taurecbenchmark} introduce a general-domain agentic benchmark; no
+education-specific one yet exists. Peng et al.'s survey \cite{llmagentrecsyssurvey} covers
+e-commerce, media, and conversation; higher education appears in neither its
+applications nor its future directions.
 
-\subsection{Agentic and multi-agent recommenders (general domain)}
-
-Portugal et al.\ \cite{agenticaiframeworkrecommendersystem} propose an agentic multi-agent
-recommender framework whose title closely resembles this paper's working title, making it
-the closest general-domain precedent; it targets e-commerce recommendation and does not
-incorporate educational features, datasets, or evaluation metrics. Yousefi Maragheh et
-al.\ \cite{multiagentrecommendersys} survey multi-agentic design patterns for industrial
-recommendation, and Narasimhan and Narasimhan \cite{taurecbenchmark} introduce a verifiable
-benchmark for agentic recommenders, evaluated on general-domain conversational tasks across
-five model families -- no education-specific agentic-recommendation benchmark yet exists.
-Peng et al.'s survey \cite{llmagentrecsyssurvey} categorizes agentic recommendation into
-recommender-oriented, interaction-oriented, and simulation-oriented paradigms across
-e-commerce, media, and conversational domains; higher education appears in neither its
-surveyed applications nor its three named future directions (architecture optimization,
-evaluation-framework standardization, adversarial security), underscoring how unexplored
-the domain remains even in a survey dedicated to this exact method family -- the gap this
-paper addresses directly.
-
-\subsection{Agentic multi-agent systems in education}
-
-Multi-agent educational recommenders predate LLMs: Marivate et al.\
-\cite{humancapacitybuildingmas} deployed cooperative collaborative-filtering agents for
-professional course selection in 2008, and Viswanathan \cite{adaptivemaselearning} surveys
-the pre-LLM adaptive multi-agent e-learning line. The novelty claimed here therefore rests
-on the combination of \emph{agentic LLM} capabilities (planning, memory, reflection,
-grounded explanation) with the pre-admission decision scope -- not on multi-agent structure
-alone. Three 2025--2026 systems are the decisive comparison set, since each combines
-multi-agent LLM methods with an educational target. AdvisingWise \cite{advisingwise} is a
-human-in-the-loop multi-agent system that answers academic-advising questions for
-\emph{already-enrolled} graduate students within a fixed program, with all responses
-validated by a human advisor before delivery -- it does not recommend which program to
-choose, and its human-in-loop response drafting differs from autonomous multi-agent
-planning. Chaturvedi and Gunawardena \cite{agenticedurec} deploy an 18-agent, four-tier
-hierarchical architecture for adaptive in-program learning-pathway recommendation at
-production scale (6{,}000+ users), but likewise address only \emph{post-enrollment}
-curriculum adaptation. Zhong et al.\ \cite{onlinecoursemaskg} propose a three-agent
-architecture (learner profiling, knowledge retrieval, recommendation generation) coupled
-with a course knowledge graph for \emph{in-curriculum} course recommendation --
-structurally the closest precedent to the architecture proposed in
-Section~\ref{sec:architecture}, but scoped to course-level choice for enrolled students
-rather than institution/program-level choice for prospective students, and without
+Multi-agent educational recommenders predate LLMs; the novelty here rests on combining
+agentic LLM capabilities (planning, memory, reflection, grounded explanation) with the
+pre-admission scope, not on multi-agent structure alone. Three 2025--2026 systems combine
+multi-agent LLM methods with an educational target. AdvisingWise \cite{advisingwise} is a human-in-the-loop system
+answering advising questions for \emph{already-enrolled} students, with every response
+human-validated; it does not recommend a program. Chaturvedi and Gunawardena
+\cite{agenticedurec} deploy an 18-agent hierarchy for in-program pathway recommendation at
+production scale, addressing only post-enrollment adaptation. Zhong et al.\
+\cite{onlinecoursemaskg} propose a three-agent architecture (profiling, retrieval,
+generation) with a course knowledge graph (structurally the closest precedent to
+Section~\ref{sec:architecture}), but scoped to in-curriculum course choice, without
 multi-objective reasoning over career, financial, location, and employability constraints.
-
-Table~\ref{tab:gap} summarizes the resulting gap: no system in the surveyed literature
-combines an agentic multi-agent architecture with the pre-admission, cross-institution
-decision scope while reasoning jointly over the constraint set a prospective student
-actually faces.
+Table~\ref{tab:gap} summarizes the resulting gap.
 
 \begin{table}[t]
 \caption{Positioning against the closest prior work}
@@ -227,16 +173,13 @@ actually faces.
 \section{Proposed Architecture}
 \label{sec:architecture}
 
-The initial brainstorm for this project proposed seven agents (profiling, goal planning,
-knowledge retrieval, recommendation, reflection, explanation, memory). Two of the closest
-comparison systems bound a reasonable agent count: Zhong et al.\ \cite{onlinecoursemaskg}
-report accuracy, recall, and F1 gains with only three agents, while Chaturvedi and
-Gunawardena \cite{agenticedurec} use 18+ agents but only at production deployment scale
-with a dedicated engineering team -- not reproducible within a single-author prototype.
-This paper accordingly merges the original seven agents into five, keeping explanation and
-memory-reflection as separate, visible components because they correspond directly to this
-paper's headline claims (explainability, cold-start robustness via memory), while folding
-goal-planning's constraint logic into profiling and recommendation.
+An initial seven-agent brainstorm (profiling, goal planning, retrieval, recommendation,
+reflection, explanation, memory) was merged to five: Zhong et al.\
+\cite{onlinecoursemaskg} report gains with only three agents, while Chaturvedi and
+Gunawardena's 18+ agents \cite{agenticedurec} require production-scale engineering not
+reproducible in a single-author prototype. Explanation and memory-reflection remain
+separate, visible components since they map directly to this paper's headline claims;
+goal-planning's constraint logic folds into profiling and recommendation.
 
 \begin{figure}[t]
 \centering
@@ -272,210 +215,111 @@ goal-planning's constraint logic into profiling and recommendation.
 \label{fig:architecture}
 \end{figure}
 
-\textbf{Profiling \& Constraint Agent.} Extracts a structured student-constraint object
-(academic background, career goal, and financial, location, and employability-outcome
-constraints) from the student's message for the current session. Extraction is
-single-turn per session, not an interactive clarifying-question loop within a session;
-continuity across sessions comes from the Memory \& Reflection Agent's persisted state,
-which this agent consumes as prior context and updates rather than re-deriving from
-scratch (Fig.~\ref{fig:architecture}, dashed arrow).
-
-\textbf{Retrieval Agent.} Selects the programs worth presenting to this student from a
-deterministic hard-constraint prefilter's output (admission, budget, and location
-feasibility checked against the constraint object; programs failing a hard constraint
-are dropped before any agent sees them). This is LLM-based relevance selection over an
-in-context candidate list narrowed by the prefilter, not vector or embedding retrieval
-against an external knowledge base; the broader retrieval-plus-generation pattern this
-stage follows is established in \cite{ragpersonalisedrecommendations}.
-
-\textbf{Recommendation \& Planning Agent.} Ranks retrieved candidates against the
-student-constraint object under multiple, potentially conflicting objectives (academic fit,
-financial feasibility, location, employability outcome) -- the mechanism RQ2
-(Section~\ref{sec:methodology}) evaluates directly.
-
-\textbf{Memory \& Reflection Agent.} Reviews the proposed shortlist for constraint
-violations and weaker-than-available candidates before it reaches the Explanation
-Agent, and persists the student-constraint object and shortlist across sessions so
-later sessions start from prior state -- the mechanism RQ3 evaluates for
-session-over-session adaptivity. A second, deterministic hard-constraint check runs
-after this agent as a final guarantee independent of its judgment.
-
-\textbf{Explanation Agent.} Generates a per-recommendation natural-language rationale
-grounded in the evidence the Retrieval Agent surfaced, addressing the explainability
-limitation \cite{recommendersyshighered} documents in classical systems.
-
-Two deterministic, non-agentic components wrap this five-agent pipeline and are the
-mechanism that actually guarantees hard-constraint satisfaction, rather than relying on
-agent judgment alone: a prefilter before the Retrieval Agent removes programs violating
-the student's admission, budget, or location constraints, and a post-reflection guard
-repeats the same check after the Memory \& Reflection Agent, in case a revision
-reintroduced a violation. Both are described further alongside the evaluation results
-they support (Section~\ref{sec:results}).
-
-This merge (7$\to$5 agents) was a judgment call, argued from buildability within a
-single-author prototype's scope rather than derived from an ablation; the H3 results
-(Section~\ref{sec:results}) provide the retrospective check. Memory and reflection were
-evaluated as a single fused mechanism (the no-memory ablation removes both together),
-and that fused mechanism measurably improved session-over-session accuracy and
-stabilized recall relative to the stateless pipeline. Nothing in the results motivates
-splitting the two responsibilities back apart: the merge did not visibly cost either
-the memory or the reflection function room to operate. A finer-grained ablation that
-disables memory persistence and shortlist self-critique independently would be needed
-to state this more strongly, and is left to future work.
+\textbf{Profiling \& Constraint Agent} extracts a structured student-constraint object
+single-turn per session; continuity comes from the Memory \& Reflection Agent's persisted
+state (Fig.~\ref{fig:architecture}, dashed arrow). \textbf{Retrieval Agent} selects
+programs worth presenting from a deterministic hard-constraint prefilter's output
+(admission, budget, location); this is LLM-based relevance selection over a prefiltered
+candidate list, not embedding retrieval, following \cite{ragpersonalisedrecommendations}.
+\textbf{Recommendation \& Planning Agent} ranks candidates under multiple, potentially
+conflicting objectives: the mechanism RQ2 evaluates. \textbf{Memory \& Reflection Agent}
+reviews the shortlist for constraint violations and persists state across sessions: the
+mechanism RQ3 evaluates; a second, deterministic guard repeats the hard-constraint check
+after it. \textbf{Explanation Agent} generates a per-recommendation rationale grounded in
+the Retrieval Agent's evidence, addressing the explainability limitation
+\cite{recommendersyshighered} documents in classical systems. The two deterministic
+prefilter/guard components, not agent judgment alone, actually guarantee hard-constraint
+satisfaction. The 7$\to$5 merge is a buildability judgment, not an ablation result; H3's
+memory-and-reflection results (Section~\ref{sec:results}, evaluated as a single fused
+mechanism) provide the retrospective check and motivate no split back apart, though a
+finer-grained ablation isolating the two is left to future work.
 
 \section{Research Design}
 \label{sec:methodology}
 
-\subsection{Research questions}
+\begin{itemize}[leftmargin=2.6em, labelwidth=2.3em, labelsep=0.3em, align=left, itemsep=1pt, topsep=2pt]
+\item[\textbf{RQ1.}] Does the architecture improve explainability and adaptivity over
+classical recommenders \cite{hrspca,studieme,multidmensionalrecsysuni} within a 5\%
+non-inferiority margin of their accuracy (precision@$k$, recall@$k$, NDCG)?
+\item[\textbf{RQ2.}] How should multi-objective constraints be represented and reasoned
+over by specialized agents, compared to a single monolithic LLM prompt or classical
+hybrid scoring?
+\item[\textbf{RQ3.}] Do the Memory \& Reflection Agent's mechanisms measurably reduce
+cold-start degradation compared to a stateless pipeline?
+\end{itemize}
 
-\textbf{RQ1.} Does the architecture in Section~\ref{sec:architecture} improve
-explainability and adaptivity over classical educational recommenders
-(\cite{hrspca,studieme,multidmensionalrecsysuni}) while remaining within a 5\%
-non-inferiority margin of their accuracy on standard recommendation metrics
-(precision@$k$, recall@$k$, NDCG)?
+\begin{itemize}[leftmargin=1.9em, labelwidth=1.6em, labelsep=0.3em, align=left, itemsep=1pt, topsep=2pt]
+\item[\textbf{H1.}] The architecture achieves higher explanation quality than a
+classical hybrid baseline re-implemented from \cite{hrspca,studieme}, within a
+pre-registered\footnote{Metric choice, $k=5$, and the 5\% margin were committed to the
+public repository (commit \texttt{9b47ce4}, 2026-07-17) before any agentic-condition
+result was computed; results were written up in a later commit (\texttt{ba7757e},
+2026-07-20).} 5\% relative non-inferiority margin on NDCG@$k$.
+\item[\textbf{H2.}] Explicit multi-objective reasoning improves relevance for students
+with conflicting constraints relative to a single-objective baseline.
+\item[\textbf{H3.}] Memory \& Reflection mitigates cold-start degradation more than a
+stateless pipeline, across simulated first-vs.-later-session interactions.
+\end{itemize}
 
-\textbf{RQ2.} How should multi-objective constraints (academic fit, career goals,
-financial constraints, location, employability outcomes) be represented and reasoned over
-by specialized agents, compared to a single monolithic LLM prompt or a classical hybrid
-scoring function?
+\textbf{Datasets.} The intended primary H1 benchmark is Elahi et al.'s
+\cite{universityrecsyselahi} university-rating dataset (1{,}515 ratings, 80 users, 551
+universities), available on request; that request was still pending when experiments ran,
+so results here use a released synthetic constraint-preference benchmark instead (a
+self-constructed-benchmark limitation, Section~\ref{sec:discussion}), which also carries
+the H2/H3 conditions rating-only data cannot express. It
+regenerates deterministically from 300 synthetic students sampled from the public
+20{,}000-record IT-student corpus of \cite{careerrecfeatureselection} (financial,
+location, and employability constraints attached by documented rules), a fictional
+200-program catalog, and graded relevance (0--3) from a published oracle utility function
+over academic fit, financial feasibility, location, and employability, fixed before
+evaluation. Each student carries a three-session progressive-disclosure script;
+162/300 students have a financially infeasible best-fitting program (the H2 condition).
 
-\textbf{RQ3.} Do the Memory \& Reflection Agent's mechanisms measurably reduce cold-start
-degradation for prospective students with no prior interaction history, compared to a
-stateless agent pipeline?
-
-\subsection{Hypotheses}
-
-\textbf{H1.} The proposed architecture achieves higher user-perceived explanation quality
-than a classical hybrid baseline re-implemented from \cite{hrspca,studieme}, while
-remaining within a pre-registered\footnote{The evaluation design in this section --
-metric choice, $k=5$, and the 5\% margin -- was committed to the paper's public
-repository (commit \texttt{9b47ce4}, 2026-07-17) before any agentic-condition result
-was computed; those results were run and written up in a later commit (\texttt{ba7757e},
-2026-07-20). Both commits are visible in the released artifact's git history.} 5\%
-\emph{relative} non-inferiority margin on NDCG@$k$ (headline metric; precision@$k$ and
-recall@$k$ reported as secondary), on a held-out admissions/preference dataset.
-
-\textbf{H2.} Explicit multi-objective agent reasoning improves recommendation relevance
-for students with conflicting constraints (e.g., financial limits vs.\ top academic fit)
-relative to a single-objective ranking baseline.
-
-\textbf{H3.} The Memory \& Reflection Agent mitigates cold-start degradation more
-effectively than a stateless agent pipeline, measured across simulated first-session vs.\
-later-session interactions.
-
-\subsection{Datasets}
-\label{sec:planned-methodology}
-
-Evaluation uses a dual-dataset design. The intended primary accuracy benchmark for H1
-is the university-rating dataset of \cite{universityrecsyselahi} (1{,}515 ratings, 80
-users, 551 universities, plus metadata for 12{,}003 crawled universities) -- real
-preference data at exactly this paper's decision scope, available from its authors on
-request. That request was still pending when experiments ran, so the results in
-Section~\ref{sec:results} use the synthetic benchmark described next, and the
-self-constructed-benchmark limitation this implies is stated in
-Section~\ref{sec:discussion}.
-
-The synthetic constraint-preference dataset is the designed testbed for H2 and H3 --
-conflicting-constraint and multi-session cold-start conditions cannot be expressed in
-rating-only data, and public educational datasets with such structure are scarce
-\cite{slreducationalrecsys} -- and additionally carries H1 while the real dataset
-remains unavailable. It is released with the paper's artifact and regenerates
-deterministically (fixed seed) from: (i) 300 synthetic students whose academic features
-are sampled rows of the public 20{,}000-record IT-student corpus of
-\cite{careerrecfeatureselection}, preserving realistic co-occurrence of grades, skills,
-and career labels, with financial, location, mobility, and employability-priority
-constraints attached by documented sampling rules; (ii) a fictional catalog of 200
-programs (invented institutions in real cities, with tuition, placement, salary, and
-visa values drawn from realistic country- and tier-calibrated ranges); and (iii) graded
-relevance (0--3) for every student--program pair from a published, system-independent
-oracle utility function over academic fit, financial feasibility, location fit, and
-employability, fixed before any system was evaluated and documented in full in the
-released dataset card. Each student carries a three-session progressive-disclosure
-script; dataset-wide, 162 of 300 students have an academically best-fitting program
-that is financially infeasible (the H2 conflict condition), 61 have deliberately vague
-session-1 career goals, and 67 carry a scripted session-3 budget-revision event -- a
-stress-test subset released with the dataset for future finer-grained analysis, distinct
-from the H3 evaluation cohort described next, which tests general three-session
-adaptivity rather than isolating this specific event.
-
-\subsection{Baselines and experimental setup}
-
-Three baselines separate, respectively, the value of agentic methods over classical
-educational recommenders and the value of multi-agent decomposition over a monolithic
-LLM: (a) a re-implementation of HRSPCA's cascaded knowledge-rule and
-historical-predictor pipeline \cite{hrspca}; (b) a re-implementation of StudieMe's
-content-based similarity ranker \cite{studieme}; and (c) a single-prompt LLM baseline
-that receives the same student profile and candidate evidence as the full pipeline but
-performs profiling, ranking, and explanation in a single call, following the ablation
-logic of \cite{onlinecoursemaskg}. The classical baselines were re-implemented from the
-original papers' full texts rather than approximated with library components; every
-underspecified or catalog-adaptation detail was resolved by a logged best-faith choice
-(13 choices; appendix reconstruction table), and the two original components that could
-not be expressed in the evaluation catalog are omissions that favor the baselines
-(Section~\ref{sec:discussion}). All agentic conditions run on a local open-weights
-Gemma model via Ollama (tag \texttt{gemma4:e4b}; a 12B-class variant is available for
-an optional model-scale ablation); the released artifact is provider-agnostic (any
-local model or bring-your-own API key).
+\textbf{Baselines.} (a) a re-implementation of HRSPCA's cascaded rule/predictor pipeline
+\cite{hrspca}; (b) a re-implementation of StudieMe's content-based ranker \cite{studieme};
+(c) a single-prompt LLM baseline performing profiling, ranking, and explanation in one
+call, following \cite{onlinecoursemaskg}. Both classical baselines were re-implemented
+from the original papers' full texts, with every underspecified detail resolved by a
+logged best-faith choice (13 choices, released in the artifact); two original components
+could not be expressed in the evaluation catalog, favoring the baselines
+(Section~\ref{sec:discussion}). All agentic conditions run on a local open-weights Gemma
+model via Ollama (\texttt{gemma4:e4b}), provider-agnostic in the released artifact.
 
 \section{Evaluation Plan}
 \label{sec:evaluation}
 
-\textbf{Metrics.} The headline metric is NDCG@5 with graded relevance (0--3, the
-oracle's four-level grade; Section~\ref{sec:planned-methodology}), chosen over
-precision/recall alone for two reasons: it is rank-sensitive, rewarding a system that
-places the best-fitting program first rather than fifth, which flat precision/recall
-cannot distinguish; and it consumes the oracle's graded relevance directly, rather than
-collapsing it to a binary relevant/not-relevant cutoff and discarding information
-about \emph{how well} a program fits. $k=5$ matches both the classical baselines' own
-reconstructed output length (Section~\ref{sec:planned-methodology}, appendix) and a
-plausible shortlist size for a student to actually review. Precision@5 and recall@5 are
-still reported as secondary metrics, since they are the metrics most classical
-recommender-system evaluations report \cite{recommendationsys} and so are what a reader
-comparing against prior work will look for first, under the pre-registered 5\% relative
-non-inferiority margin against the strongest classical baseline (H1). All systems are
-evaluated on the same held-out split of 100 students; the remaining 200 students serve
-as the historical pool for the HRSPCA predictor stage.
+The headline metric is NDCG@5 with graded relevance (0--3), chosen for rank-sensitivity and
+because it uses the oracle's graded relevance directly rather than a binary cutoff; $k=5$
+matches both the baselines' reconstructed output length and a plausible shortlist size.
+Precision@5 and recall@5 are secondary; all systems are evaluated on the same held-out
+split of 100 students, under the pre-registered 5\% non-inferiority margin (H1).
 
-\textbf{Explanation quality} is scored by LLM-as-judge on a three-dimension rubric
-(clarity, groundedness in the provided program evidence, usefulness; 1--5 each),
-following the protocol direction of \cite{advisingwise}. To avoid self-preference bias
--- same-family judges systematically inflate scores -- the judge is drawn from a
-different model family than the experiment model (primary judge: Qwen-family 14B-class;
-a Mistral-family second judge provides inter-judge agreement), with system identity
-blinded and absolute rather than pairwise scoring to avoid position bias. LLM-as-judge
-validity is treated as a limitation in Section~\ref{sec:discussion}.
+Explanation quality is scored by LLM-as-judge on a three-dimension rubric (clarity,
+groundedness, usefulness; 1--5 each), following \cite{advisingwise}. To avoid
+self-preference bias, the judge is a different model family than the experiment model
+(primary: Qwen-family 14B-class; a Mistral-family second judge gives inter-judge
+agreement), with system identity blinded and absolute scoring.
 
-\textbf{Conditions.} (i) the full five-agent pipeline; (ii) a \emph{no-memory} ablation
-(H3); (iii) a \emph{single-objective} ablation collapsing the Recommendation \& Planning
-Agent's reasoning to academic fit only (H2); (iv) a \emph{single-prompt} LLM baseline
-replacing the five-agent decomposition, following the ablation logic in
-\cite{onlinecoursemaskg}; and (v) the two re-implemented classical baselines. H1
-comparisons use the full-information state (complete profile, mirroring the filled
-application form classical systems assume); H3 uses the three-session
-progressive-disclosure structure, with simulated-user feedback (which programs the
-student liked or disliked) derived from the oracle's per-student utility ranking,
-fixed at dataset-generation time and identical across every compared system --
-Section~\ref{sec:discussion} discusses this as a limitation rather than an observed
-reaction to any system's actual output.
+Conditions: (i) the full five-agent pipeline; (ii) a no-memory ablation (H3); (iii) a
+single-objective ablation (H2); (iv) the single-prompt baseline; (v) the two classical
+baselines. H1 uses the full-information state; H3 uses the three-session
+progressive-disclosure structure, with simulated-user feedback derived from the oracle's
+utility ranking, identical across every system; this is discussed as a limitation in
+Section~\ref{sec:discussion}.
 
 \section{Results}
 \label{sec:results}
 
 \subsection{Top-$k$ accuracy (H1)}
 
-Table~\ref{tab:results-h1} reports accuracy on the held-out 100-student evaluation
-split at the full-information state, for both classical baselines, the single-prompt
-ablation, and both agentic pruning policies (v1 pre-registered, v2 revised) as separate
-rows. The re-implemented classical baselines
-(Section~\ref{sec:planned-methodology}, reconstruction table in the appendix) set the
-non-inferiority bar: the strongest baseline, HRSPCA, reaches NDCG@5 $= 0.793$, so under
-the pre-registered 5\% relative margin the proposed system must reach NDCG@5 $\geq
-0.753$ for H1's accuracy arm to hold.
+Table~\ref{tab:results-h1} reports accuracy on the held-out 100-student split. The
+strongest classical baseline, HRSPCA, reaches NDCG@5 $=0.793$, so the pre-registered 5\%
+margin requires NDCG@5 $\geq 0.753$.
 
 \begin{table}[t]
-\caption{Accuracy on the held-out evaluation split ($n=100$, full information,
-completed runs; zero pipeline crashes, 4 validated-fallback events across 500 agent
-calls). Bold marks the column maximum among performance metrics.}
+\caption{Accuracy on the held-out evaluation split ($n=100$, full information; zero
+pipeline crashes, 4 validated-fallback events across 500 agent calls). Bold marks the
+column maximum among performance metrics.}
 \label{tab:results-h1}
 \centering
 \begin{tabular}{@{}lcccc@{}}
@@ -491,139 +335,55 @@ Five-agent v2 (revised) & 0.806 & 0.898 & 0.156 & 4.8 \\
 \midrule
 \multicolumn{5}{@{}p{0.92\linewidth}@{}}{\footnotesize v1: pre-registered pruning
 policy, abstains rather than pads a shortlist below $k$. v2: post-hoc revision
-backfilling to $k$ with valid candidates and dropping only for hard-constraint
-violations -- tests, not replaces, v1. Grounded: single-prompt baseline with
-\textsc{Explain}'s grounding instruction added, isolating instruction wording from
-architecture (Section~\ref{sec:results}, Explanation quality).} \\
+backfilling to $k$, dropping only for hard-constraint violations. Grounded:
+single-prompt baseline with \textsc{Explain}'s grounding instruction added.} \\
 \bottomrule
 \end{tabular}
 \end{table}
 
-\textbf{The pre-registered accuracy criterion is not met.} The five-agent pipeline
-reaches NDCG@5 $= 0.706$, an 11.0\% relative shortfall against HRSPCA -- outside the
-5\% margin -- and the single-prompt baseline ($0.830$) outperforms both, so the
-architectural decomposition shows no top-$k$ accuracy gain over a single LLM call on
-this benchmark. Both verdicts are reported as committed in the evaluation design.
-
-\textbf{Diagnostics} attribute the shortfall to shortlist \emph{abstention}, not
-ranking quality. The five-agent system's Reflection stage trims candidates it judges
-inadequate and is instructed never to pad with constraint-violating programs: 70\% of
-its shortlists contain fewer than five items (mean length 3.9). NDCG@5 penalizes every
-unfilled position against a five-item ideal. On the 30 students where the system did
-emit five items, it scores $0.859$; measured at emitted length (rank quality of what
-was actually shown), it scores $0.827$ against the single-prompt baseline's $0.830$
-(paired bootstrap, $n=100$, 10{,}000 resamples: mean difference $-0.005$, 95\% CI
-$[-0.024, +0.014]$, crossing zero -- not a statistically significant difference), and
-its precision@5 ($0.904$) matches the single-prompt's $0.912$, both well above the
-classical baselines. The accuracy gap is
-therefore a list-length effect: the pre-registered metric rewards padding to $k$, and
-the agentic design's abstention behavior -- arguably desirable in a high-stakes
-decision-support setting -- is penalized by construction. We report this as a finding
-about metric design tension, not as a revision of the pre-registered verdict.
-
-\textbf{Post-registration revision (v2).} Prompted by the diagnostics above -- and
-reported \emph{alongside} the pre-registered system, never in place of it -- a revised
-pruning policy (v2) changes exactly one design decision: the Reflection stage may drop
-a candidate only for a hard-constraint violation (demoting, rather than removing,
-weaker-but-valid candidates), and the shortlist is restored to $k$ with valid
-candidates whenever the candidate pool allows. Retrieval, profiling, ranking
-objectives, and all safety guards are unchanged. Because v2 was designed after
-observing the H1 results, its numbers cannot claim pre-registered status; they test
-whether the abstention diagnosis is causally correct. It is: v2 reaches NDCG@5
-$= 0.806$ with mean list length restored to 4.8 (from 3.9), clearing the
-pre-registered bar (0.753) and slightly exceeding the strongest classical baseline
-(HRSPCA, 0.793), while precision@5 is essentially unchanged (0.898 vs.\ v1's 0.904)
-and recall@5 rises (0.156 vs.\ 0.129). Restoring list length does not, however,
-change the architectural verdict on accuracy: v2 remains 2.9\% relative below the
-single-prompt baseline (0.830) on NDCG@5, so the five-agent decomposition shows no
-top-$k$ accuracy advantage over a single LLM call on this benchmark under either
-pruning policy.
+\textbf{The pre-registered accuracy criterion is not met.} Five-agent v1 reaches NDCG@5
+$=0.706$, an 11.0\% relative shortfall against HRSPCA, and the single-prompt baseline
+($0.830$) outperforms both. \textbf{Diagnostics} attribute this to shortlist
+\emph{abstention}, not ranking quality: Reflection trims candidates rather than padding
+with constraint-violating ones, so 70\% of shortlists contain fewer than five items (mean
+3.9), and NDCG@5 penalizes every unfilled position. Measured at emitted length, v1 scores
+$0.827$ against $0.830$ (paired bootstrap, $n=100$: mean diff $-0.005$, 95\% CI
+$[-0.024,+0.014]$, not significant), and precision@5 matches. A post-registration revision
+(v2, reported alongside not in place of v1) restores list length to 4.8 by dropping only
+for hard-constraint violations; it reaches NDCG@5 $=0.806$, clearing the pre-registered bar
+and slightly exceeding HRSPCA, confirming the abstention diagnosis, but remains 2.9\%
+relative below the single-prompt baseline, so neither pruning policy shows a top-$k$
+accuracy advantage over a single LLM call.
 
 \subsection{Multi-objective conflict (H2)}
 
-On the 56 evaluation-split students whose academically best-fitting program is
-financially infeasible (162/300 dataset-wide), the pre-registered comparison fails on
-accuracy: under the v1 pruning policy, the multi-objective pipeline scores NDCG@5
-$= 0.666$ against 0.718 for the single-objective ablation. Diagnostics again implicate
-list length rather than ranking: conflict cases trigger the Reflection stage's
-abstention most often, so the multi-objective condition emits the shortest shortlists
-of any condition on precisely this subset (mean 3.70 items vs.\ 4.02 single-objective),
-paying the same NDCG@5 penalty documented above. Under the v2 policy the
-multi-objective pipeline reaches 0.792 on the conflict subset (mean 4.77 items); a
-matched single-objective run under the same v2 policy scores 0.793 (paired bootstrap,
-$n=56$, 10{,}000 resamples: mean difference $-0.001$, 95\% CI $[-0.017, +0.014]$,
-crossing zero -- not a statistically significant difference; precision@5: 0.855 multi
-vs.\ 0.837 single; recall@5: 0.194 vs.\ 0.189). \textbf{H2 is therefore not supported
-on oracle-graded accuracy}: explicit
-multi-objective reasoning loses to the single-objective ablation under the v1 policy
-and ties under the matched v2 policy. The oracle's utility function already encodes
-all four objectives, so a single-objective ranker over a constraint-prefiltered
-candidate pool recovers most of the multi-objective signal on this benchmark; whether
-multi-objective reasoning earns its place in \emph{explanations} -- naming the
-financial/academic trade-off the student actually faces -- is assessed under
-explanation quality below.
+On the 56 conflict-subset students, v1's multi-objective pipeline scores NDCG@5 $=0.666$
+against $0.718$ single-objective, again driven by shorter conflict-case shortlists (mean
+3.70 vs.\ 4.02). Under v2, multi-objective reaches $0.792$ (mean 4.77 items) against
+$0.793$ single-objective (paired bootstrap, $n=56$: mean diff $-0.001$, 95\% CI
+$[-0.017,+0.014]$, not significant). \textbf{H2 is not supported on oracle-graded
+accuracy}: the oracle's utility already encodes all four objectives, so a
+single-objective ranker over a constraint-prefiltered pool recovers most of the signal;
+whether multi-objective reasoning earns its place in \emph{explanations} is assessed below.
 
 \subsection{Cold start and memory (H3)}
 
-On a fixed 30-student progressive-disclosure cohort (the first 30 students in
-evaluation order, spanning all three sessions; only 5 of the 30 carry the session-3
-budget-revision event reported dataset-wide in
-Section~\ref{sec:planned-methodology} -- the cohort tests general three-session
-adaptivity rather than isolating that event), the full and no-memory conditions are
-identical at session 1 by construction -- memory is empty on first contact (both NDCG@5
-$= 0.583$) -- so the memory mechanism cannot and does not affect the very first
-session. Its effect appears across sessions: with memory, session-2 accuracy reaches
-NDCG@5 $= 0.776$ vs.\ 0.735 without ($+0.041$), and the gap persists at session 3
-(0.748 vs.\ 0.729); recall@5 degrades from session 2 to session 3 without memory
-(0.126 $\to$ 0.090) but holds with it (0.118 $\to$ 0.115). The direction consistently
-favors memory, but the effect is modest at $n = 30$, and the largest single driver of
-improvement in both conditions is progressive disclosure itself (both gain
-$0.15$--$0.19$ NDCG@5 from session 1 to 2). H3 is therefore supported in direction --
-memory improves session-over-session adaptivity and stabilizes recall -- with the
-caveat that the pre-registered phrase ``cold-start mitigation'' is more precisely an
-\emph{adaptivity} gain: the first-session cold start is unaffected by construction.
+On a fixed 30-student progressive-disclosure cohort, full and no-memory conditions are
+identical at session 1 by construction (both NDCG@5 $=0.583$). With memory, session-2
+accuracy reaches $0.776$ vs.\ $0.735$ without ($+0.041$), and the gap persists at session 3
+($0.748$ vs.\ $0.729$); recall@5 degrades session-2-to-3 without memory ($0.126\to0.090$)
+but holds with it ($0.118\to0.115$). The effect is directionally consistent but modest at
+$n=30$; progressive disclosure itself is the largest driver of improvement in both
+conditions. H3 is supported in direction, with the caveat that ``cold-start mitigation'' is
+more precisely an \emph{adaptivity} gain: the first session is unaffected by construction.
 
 \subsection{Explanation quality (H1)}
 
-Table~\ref{tab:results-explanation} reports cross-judge mean rubric scores (1--5) on
-the full 100-student evaluation split for the four conditions that generate
-natural-language output, alongside the two classical baselines (which do not) for a
-complete comparison against Table~\ref{tab:results-h1}.
-\textbf{H1's explanation-quality claim is supported}, and by a wide margin on the two
-dimensions that most directly bear on trustworthy decision support: groundedness (4.92
-v1 / 4.92 v2 vs.\ 3.96 single-prompt) and usefulness (3.65 / 3.60 vs.\ 2.80). Clarity
-shows a smaller but consistent gap (4.11 / 4.06 vs.\ 3.69). The v1/v2 pruning-policy
-change that materially affected accuracy (Section~\ref{sec:results}) leaves explanation
-quality essentially unchanged, indicating the two properties are largely independent in
-this architecture.
-
-\textbf{Isolating architecture from instruction.} The single-prompt baseline's
-explanation task is a weaker instruction than \textsc{Explain}'s: it asks for one
-``grounded paragraph'' rather than \textsc{Explain}'s explicit directive to trace every
-claim to the provided evidence and name the trade-off. This confounds architecture with
-instruction wording -- the gap above could be caused by either. A fourth condition,
-single-prompt (grounded), upgrades only its explanation instruction to
-\textsc{Explain}'s directive word-for-word, holding the single-call architecture
-otherwise fixed (Table~\ref{tab:results-h1}); because ranking and explanation are
-produced by the same call in this condition, the instruction change is not perfectly
-isolated from ranking by design, only empirically -- checked next. It scores clarity
-$3.81$, groundedness $4.47$, usefulness $3.23$ -- between the ungrounded baseline and
-the five-agent conditions on every dimension -- and its NDCG@5 ($0.831$) and
-precision@5 ($0.926$) match or slightly exceed the ungrounded baseline's
-(Table~\ref{tab:results-h1}), so in practice this instruction change cost nothing on
-ranking accuracy. Decomposing the full ungrounded-to-v1 gap with a paired bootstrap
-($n=100$, 10{,}000 resamples) over per-student cross-judge scores: the instruction
-effect (grounded $-$ ungrounded) accounts for 53\% of the groundedness gap ($+0.515$,
-95\% CI $[+0.320, +0.705]$), 50\% of usefulness ($+0.425$, 95\% CI $[+0.295, +0.545]$),
-and 29\% of clarity ($+0.120$, 95\% CI $[+0.035, +0.205]$); the residual architecture
-effect (v1 $-$ grounded) accounts for the rest in each case, and none of the six
-intervals crosses zero. Grounding instructions and architectural decomposition
-therefore both make a real, statistically supported contribution to the
-explanation-quality advantage, with neither alone accounting for it: an explicit
-grounding instruction closes about half the groundedness and usefulness gap on its own,
-and the remainder -- including most of the clarity gap -- is attributable to the
-architecture (curated, agent-selected evidence and a dedicated explanation step,
-isolated from ranking and profiling).
+Table~\ref{tab:results-explanation} reports cross-judge mean rubric scores. \textbf{H1's
+explanation-quality claim is supported}, by a wide margin on groundedness (4.92 v1/v2 vs.\
+3.96 single-prompt) and usefulness (3.65/3.60 vs.\ 2.80); clarity shows a smaller gap
+(4.11/4.06 vs.\ 3.69). The v1/v2 accuracy difference leaves explanation quality essentially
+unchanged, indicating the two properties are largely independent here.
 
 \begin{table}[t]
 \caption{Explanation-quality rubric scores (1--5), cross-judge mean of
@@ -643,194 +403,99 @@ Five-agent v1 (pre-registered) & \textbf{4.11} & \textbf{4.92} & \textbf{3.65} \
 Five-agent v2 (revised) & 4.06 & \textbf{4.92} & 3.60 \\
 \midrule
 \multicolumn{4}{@{}p{0.92\linewidth}@{}}{\footnotesize HRSPCA/StudieMe are
-non-generative ranking pipelines (Section~\ref{sec:architecture}) with no
-natural-language output to score. v1/v2/grounded defined in Table~\ref{tab:results-h1}.} \\
+non-generative ranking pipelines with no natural-language output to score.} \\
 \bottomrule
 \end{tabular}
 \end{table}
 
-The groundedness gap is corroborated by a direct failure signal both judges were asked
-to surface: an explicit list of invented claims -- factual assertions not traceable to
-the student's constraints or the retrieved program data -- per explanation. The
-single-prompt baseline was flagged for at least one invented claim in 64/100
-explanations by the primary judge and 33/100 by the agreement judge (e.g., asserting a
-program's tuition or location without that field appearing in the evidence the model
-was given); adding the grounding instruction alone cuts this to 42/100 and 6/100
-respectively -- a third fewer by the primary judge, over four-fifths fewer by the
-agreement judge; the five-agent conditions were flagged in 5/100 (v1) and 9/100 (v2)
-cases by the primary judge and 0/100 by the agreement judge. The instruction change
-closes most of the gap on this specific failure signal but not all of it, mirroring the
-partial (53\%) closure on mean groundedness score above -- consistent with an
-architecture whose remaining edge comes from a dedicated explanation step reading
-agent-curated evidence, not from prompt wording alone.
+\textbf{Isolating architecture from instruction.} The single-prompt baseline's explanation
+instruction is weaker than \textsc{Explain}'s, confounding architecture with wording. A
+fourth condition, single-prompt (grounded), upgrades only the instruction to
+\textsc{Explain}'s directive verbatim (Table~\ref{tab:results-h1}); it scores clarity
+$3.81$, groundedness $4.47$, usefulness $3.23$ (between the ungrounded baseline and the
+five-agent conditions), and its NDCG@5/precision@5 match or slightly exceed the
+ungrounded baseline's, so the instruction change costs nothing on ranking. Decomposing the
+ungrounded-to-v1 gap (paired bootstrap, $n=100$): the instruction effect accounts for 53\%
+of the groundedness gap ($+0.515$, 95\% CI $[+0.320,+0.705]$), 50\% of usefulness
+($+0.425$, 95\% CI $[+0.295,+0.545]$), and 29\% of clarity ($+0.120$, 95\% CI
+$[+0.035,+0.205]$); the residual architecture effect accounts for the rest, and none of
+the six intervals crosses zero. Both grounding instructions and architectural
+decomposition make a real, statistically supported contribution, with neither alone
+accounting for it.
 
-Inter-judge agreement (mean absolute score difference) is tight for the five-agent
-conditions (0.09--0.15 on groundedness, 0.11 on clarity) and markedly looser for the
-single-prompt baseline (1.26 on groundedness; 0.89 for the grounded variant) -- the two
-independent judges disagree most exactly where the single-prompt-family explanations
-are hardest to verify, itself weak evidence for lower groundedness. Returning to H2 (Section~\ref{sec:results}, conflict subset): restricting the same
-cross-judge analysis to the 56 financially-constrained students reproduces the gap
-essentially unchanged (groundedness 4.96 v1 / 4.91 v2 vs.\ 3.94 single-prompt;
-usefulness 3.65 / 3.57 vs.\ 2.80) -- so while multi-objective reasoning does not win on
-oracle-graded ranking, it does produce more reliably grounded and useful explanations
-for exactly the students facing a real trade-off, which is the qualitative form in
-which H2's contribution survives.
+This is corroborated by an invented-claims failure signal: the single-prompt baseline was
+flagged in 64/100 explanations by the primary judge (33/100 by the agreement judge)
+against 5--9/100 for the five-agent conditions; the grounding instruction alone cuts the
+baseline's rate to 42/100 and 6/100. Inter-judge agreement is correspondingly tighter for
+the five-agent conditions (mean $|$diff$|$ 0.09--0.15) than the single-prompt family
+(1.26). Restricting this analysis to the 56 H2 conflict students reproduces the gap
+unchanged: multi-objective reasoning does not win on oracle-graded ranking, but produces
+more reliably grounded explanations for students facing a real trade-off.
 
 \section{Discussion and Limitations}
 \label{sec:discussion}
 
 The gap argument in Section~\ref{sec:related} was verified against full-text readings of
 the decisive prior work: all three agentic-education systems
-\cite{advisingwise,agenticedurec,onlinecoursemaskg} were confirmed to address only
-already-enrolled students (advising, learning pathways, course selection), and the two
-re-implemented classical baselines \cite{hrspca,studieme} were confirmed to contain no
-agentic, dialogue, or memory elements. Peripheral Cluster A citations remain verified at
-the abstract level only.
-The 7-to-5 agent merge (Section~\ref{sec:architecture}) is a buildability judgment, not an
-empirical result, and may not survive the ablation in H3.
+\cite{advisingwise,agenticedurec,onlinecoursemaskg} address only already-enrolled students,
+and both re-implemented classical baselines \cite{hrspca,studieme} contain no agentic,
+dialogue, or memory elements (peripheral citations remain verified at the abstract level
+only). The 7-to-5 agent merge is a buildability judgment, not an empirical result.
 
-Beyond the gap-verification scope, this work carries the following limitations, stated
-before results are in so that none can be read as post-hoc rationalization.
+\textbf{Oracle circularity and synthetic data.} Ground-truth relevance is a published
+utility function fixed before evaluation, not human judgment; a system that
+reverse-engineered it would score perfectly. The oracle is documented in the released
+dataset card and identical for all systems, and explanation quality is judged
+independently of it. The catalog is fictional, constraints follow documented sampling
+rules, and the three-session structure is scripted with oracle-derived simulated feedback.
+Career coverage is IT-only, inherited from \cite{careerrecfeatureselection};
+generalization beyond IT-bound students is untested.
 
-\textbf{Oracle circularity.} Ground-truth relevance in the synthetic dataset is a
-published utility function fixed before any system was evaluated, not human judgment. A
-system that reverse-engineered the formula would score perfectly. Mitigations: the
-oracle is documented in the released dataset card, identical for all compared systems,
-and H1's primary benchmark remains the real-preference dataset of
-\cite{universityrecsyselahi} if access is granted; explanation quality is judged
-independently of the oracle.
+\textbf{Baseline reconstruction fidelity.} Both baselines were re-implemented from their
+papers' full texts, with underspecified details resolved by logged best-faith choices
+(released in the artifact). Two original components (HRSPCA's college-capacity rule and
+StudieMe's faculty-matching stage) could not be expressed in the catalog; both omissions
+favor the baselines, not the proposed system.
 
-\textbf{Synthetic evaluation data.} The program catalog is fictional (real cities,
-invented institutions, calibrated but invented economics), student constraints are
-attached by documented sampling rules, and the three-session structure is scripted
-rather than observed user behavior, with simulated-user feedback derived from the
-oracle. Career coverage is IT-only, inherited from the seed corpus of
-\cite{careerrecfeatureselection}; generalization beyond IT-bound students is untested.
-The scarcity of public educational datasets motivating this choice is itself documented
-\cite{slreducationalrecsys}.
-
-\textbf{Baseline reconstruction fidelity.} Both classical baselines were re-implemented
-from their papers' full texts, with every underspecified detail resolved by a logged
-best-faith choice (appendix reconstruction table). Two original components could not be
-expressed in the evaluation catalog (HRSPCA's college-capacity rule; StudieMe's
-faculty-matching stage); both omissions remove hard filters and therefore favor the
-baselines, not the proposed system.
-
-\textbf{LLM-as-judge validity.} Explanation-quality scores come from LLM judges, not
-human raters. Cross-family judging, blinding, absolute scoring, and two-judge agreement
-reduce -- but do not eliminate -- known judge biases; this study performs no
-human-subject validation of the judge scores, which should be read accordingly.
-
-\textbf{Single experiment model and scale.} All agentic conditions run on one local
-open-weights model (\texttt{gemma4:e4b}); conclusions about the architecture are
-conditioned on this model class. The evaluation split is $n=100$ students against a
-200-program catalog -- larger than the closest classical baselines' user studies
-\cite{universityrecsyselahi,bertopicprogramrec} but small in absolute terms.
+\textbf{LLM-as-judge validity and model scale.} Explanation scores come from LLM judges,
+not human raters; cross-family judging, blinding, and two-judge agreement reduce but do
+not eliminate known judge biases, and this study performs no human-subject validation. All
+agentic conditions run on one local model (\texttt{gemma4:e4b}), so conclusions are
+conditioned on this model class; the evaluation split ($n=100$) is larger than the closest
+classical baselines' user studies but small in absolute terms.
 
 \section{Conclusion and Future Work}
 \label{sec:conclusion}
 
-This paper identified pre-admission, cross-institution university and program selection as
-a decision scope left unaddressed by both classical educational recommenders (pre-agentic
-methods) and 2025--2026 agentic education systems (in-program scope only), and proposed
-and evaluated a five-agent architecture for this gap. The evaluation's central finding is
-a dissociation: the architecture does not demonstrate a top-$k$ accuracy advantage over
-either classical baselines or a single-prompt LLM ablation, but it demonstrates a
-consistent, judge-corroborated advantage in explanation groundedness and usefulness, and
-this advantage persists specifically on the multi-objective conflict cases that motivated
-RQ2. An ablation isolating instruction wording from architecture (single-prompt with
-\textsc{Explain}'s grounding directive added) shows the explanation-quality advantage is
-not purely architectural: an explicit grounding instruction alone closes roughly half of
-it, and the remainder is attributable to the architecture's dedicated explanation step
-over agent-curated evidence. A memory-and-reflection mechanism modestly improves
-adaptivity across sessions relative to a stateless pipeline (RQ3). Together these results
-reframe the paper's contribution: the value of agentic multi-agent decomposition in this
-decision scope lies in explainable, trustworthy decision support rather than in ranking
-accuracy, at least at the model scale and dataset size evaluated here -- and about half of
-even that explainability advantage could be recovered from a single prompt with a
-better-written instruction, underscoring that the architecture's remaining, narrower edge
-comes specifically from separating evidence retrieval from explanation generation. Future work should prioritize three
-directions raised directly by the results: human-subject validation of the LLM-as-judge
-explanation scores; evaluation against the real preference dataset of
-\cite{universityrecsyselahi} should it become available, to remove the self-constructed-
-benchmark limitation; and a finer-grained ablation separating memory persistence from
-shortlist reflection, which this paper's five-agent design evaluated only as a fused
-mechanism. The prototype, evaluation harness, and synthetic dataset are released as an
-open-source artifact so these directions -- and independent scrutiny of the results
-reported here -- do not depend on access to the original author's environment.
-
-\appendix
-\section*{Baseline Reconstruction Table}
-
-Both classical baselines were re-implemented from their original papers' full texts
-(Section~\ref{sec:planned-methodology}). Table~\ref{tab:reconstruction} logs every
-underspecified detail or catalog-adaptation choice; the complete rationale for each
-row, including source-text quotations, is in the released artifact
-(\texttt{baselines/RECONSTRUCTION.md}). Both baselines receive the student's complete
-profile, matching their original design assumption of a filled application form; the
-proposed system receives progressively disclosed sessions (Section~\ref{sec:results}),
-so H1 comparisons use its full-information state.
-
-\begin{table}[t]
-\caption{Baseline reconstruction choices (13 total). ``Loss'' marks a component that
-could not be expressed in the evaluation catalog; both such losses favor the
-baseline (fewer hard filters, more candidates to rank), never the proposed system.}
-\label{tab:reconstruction}
-\centering
-\footnotesize
-\begin{tabular}{@{}p{0.4cm}p{4.0cm}p{3.2cm}@{}}
-\toprule
-\textbf{\#} & \textbf{Original component} & \textbf{Reconstruction choice} \\
-\midrule
-\multicolumn{3}{@{}l}{\textit{HRSPCA \cite{hrspca}: cascaded rules + historical predictor}} \\
-H-1 & Cascaded recommenders + college predictor & Cascade preserved: track $\to$ rule filter + WRR, fused with predictor votes \\
-H-2 & Track sorting by weighted-degree rules & Track $\triangleq$ career-goal field cluster (same adjacency map as dataset generator) \\
-H-3 & Preparatory-year course gate & Dropped (no analog); nearest substitute is H-4 \\
-H-4 & Per-college minimum prerequisite scores & Single-threshold analog: grade $\geq$ program's minimum \\
-H-5 & Weighted Relative Rate ranking (formula unrecoverable from source PDF) & WRR $=0.5\!\cdot\!\min(\text{grade/bar},1.5)/1.5+0.5\!\cdot\!(\text{skill}/9)$, mirroring the GPA+aptitude convention described in the text \\
-H-6 & Predictor vs.\ historical admitted-student data & $k$-NN ($k{=}10$) over a held-out training split; votes weighted by similarity $\times$ grade \\
-H-7 & College capacity constraint & \textit{Loss} -- dropped, no analog field \\
-H-8 & Informal predictor/allocator fusion & score $=0.5\!\cdot\!\text{WRR}+0.5\!\cdot\!\text{predictor votes}$ \\
-\multicolumn{3}{@{}l}{\textit{StudieMe \cite{studieme}: content-based TF-IDF}} \\
-S-1 & Profile from LinkedIn + r\'esum\'e text & Same rendered full-profile text the agentic system receives \\
-S-2 & Hard GRE-cutoff filter & Admission-bar analog: min.\ grade $\leq$ student grade \\
-S-3 & TF-IDF + cosine (sklearn/NLTK) & Reimplemented in the standard library; no lemmatization (stated deviation) \\
-S-4 & Faculty-publication matching stage & \textit{Loss} -- omitted, no faculty analog in catalog \\
-S-5 & Top-20 then top-15 output & Top-$k$ ($k{=}5$), matching this paper's evaluation cutoff \\
-\bottomrule
-\end{tabular}
-\end{table}
-
-\section*{Acknowledgment}
-This work received no external or institutional funding. It was carried out as part
-of the author's Master of Computer Applications curriculum at CHRIST (Deemed to be
-University), Bengaluru, India.
+This paper identified pre-admission, cross-institution selection as a decision scope
+unaddressed by both classical educational recommenders and 2025--2026 agentic education
+systems, and proposed and evaluated a five-agent architecture for it. The central finding
+is a dissociation: the architecture shows no top-$k$ accuracy advantage over classical
+baselines or a single-prompt ablation, but demonstrates a consistent, judge-corroborated
+advantage in explanation groundedness and usefulness that persists on the multi-objective
+conflict cases motivating RQ2. An ablation isolating instruction wording from architecture
+shows this advantage is not purely architectural: an explicit grounding instruction alone
+closes roughly half of it, with the remainder attributable to the architecture's dedicated
+explanation step over agent-curated evidence. Memory-and-reflection modestly improves
+adaptivity across sessions (RQ3). These results reframe the paper's contribution: the
+value of agentic multi-agent decomposition here lies in explainable, trustworthy decision
+support rather than ranking accuracy, at this model scale and dataset size. Future work
+should prioritize human-subject validation of the LLM-as-judge scores, evaluation against
+Elahi et al.'s \cite{universityrecsyselahi} real preference dataset should it become
+available, and a finer-grained ablation separating memory persistence from shortlist
+reflection. The prototype, evaluation harness, and synthetic dataset are released as an
+open-source artifact so these directions do not depend on the original author's
+environment.
 
 \section*{Data Availability Statement}
-The synthetic evaluation dataset (students, program catalog, graded relevance,
-session structure), its generator, and its dataset card documenting provenance, the
-ground-truth oracle, and known limitations are released with the paper's open-source
-artifact at \url{https://github.com/samuelshine/multi-agent-education-recommender-system}
-(directory \texttt{implementation/datagen/}), under a CC~BY~4.0 license. The public seed
-corpus of \cite{careerrecfeatureselection} is fetched from its original GPL-3.0
-repository at generation time and is not redistributed. The real-preference dataset of
-\cite{universityrecsyselahi}, requested from its authors for use as an H1 benchmark, had
-not been received at the time of writing; the results reported in
-Section~\ref{sec:results} use the synthetic dataset only. All run records and
-LLM-as-judge outputs underlying the reported results are included in the artifact
-(\texttt{implementation/runs\_h1/}, \texttt{implementation/runs\_h3/}) under the MIT
-license covering the code.
-
-\section*{Author Contributions}
-Single-author work; CRediT taxonomy roles apply in full to the sole author.
-
-\section*{Conflict of Interest Statement}
-The author declares no conflict of interest.
-
-\section*{AI-Assisted Writing Disclosure}
-\todo{This draft was produced with AI assistance (literature search, drafting, LaTeX
-formatting) under author supervision. Replace with the venue-specific disclosure statement
-required by the target IEEE conference before submission -- wording differs by venue.}
+The synthetic evaluation dataset, its generator, dataset card, and all run records and
+LLM-as-judge outputs underlying the reported results are released with the paper's
+open-source artifact at
+\url{https://github.com/samuelshine/multi-agent-education-recommender-system} under
+CC~BY~4.0 (code under MIT). The public seed corpus of \cite{careerrecfeatureselection} is
+fetched from its original GPL-3.0 repository at generation time and not redistributed. The
+real-preference dataset of \cite{universityrecsyselahi}, requested for use as an H1
+benchmark, had not been received at the time of writing.
 
 \bibliographystyle{IEEEtran}
 \bibliography{references}
